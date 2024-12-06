@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+********************************************************************************
+** Project      = AUTOSAR Renesas R4.0.3 P1x MCAL Components                  **
+** Module       = R403_MCU_P1x_BSWMDT.arxml                                   **
+********************************************************************************
+**                                  COPYRIGHT                                 **
+********************************************************************************
+** Copyright(c) 2013-2015 Renesas Electronics Corporation                     **
+********************************************************************************
+** Purpose:                                                                   **
+** Provides the BSW module description of MCU Driver Component for AUTOSAR    **
+** release 4.0.3                                                              **
+**                                                                            **
+********************************************************************************
+**                                                                            **
+** Unless otherwise agreed upon in writing between your company and           **
+** Renesas Electronics Corporation the following shall apply!                 **
+**                                                                            **
+** Warranty Disclaimer                                                        **
+**                                                                            **
+** There is no warranty of any kind whatsoever granted by Renesas. Any        **
+** warranty is expressly disclaimed and excluded by Renesas, either expressed **
+** including but not limited to those for non-infringement of intellectual or **
+** implied property, merchantability and/or fitness for the particular        **
+** purpose.                                                                   **
+**                                                                            **
+** Renesas shall not have any obligation to maintain, service or provide bug  **
+** fixes for the supplied Product(s) and/or the Application.                  **
+**                                                                            **
+** Each User is solely responsible for determining the appropriateness of     **
+** using the Product(s) and assumes all risks associated with its exercise    **
+** of rights under this Agreement, including, but not limited to the risks    **
+** and costs of program errors, compliance with applicable laws, damage to    **
+** or loss of data, programs or equipment, and unavailability or              **
+** interruption of operations.                                                **
+**                                                                            **
+** Limitation of Liability                                                    **
+**                                                                            **
+** In no event shall Renesas be liable to the User for any incidental,        **
+** consequential, indirect, or punitive damage (including but not limited     **
+** to lost profits) regardless of whether such liability is based on breach   **
+** of contract, tort, strict liability, breach of warranties, failure of      **
+** essential purpose or otherwise and even if advised of the possibility of   **
+** such damages. Renesas shall not be liable for any services or products     **
+** provided by third party vendors, developers or consultants identified or   **
+** referred to the User by Renesas in connection with the Product(s) and/or   **
+** the Application.                                                           **
+**                                                                            **
+********************************************************************************
+** Environment:                                                               **
+**              Devices:        RH850/P1M:  R7F701304, R7F701305, R7F701310,  **
+**                                          R7F701311, R7F701312, R7F701313,  **
+**                                          R7F701314, R7F701315, R7F701318   **
+**                                          R7F701319, R7F701320, R7F701321   **
+**                                          R7F701322, R7F701323              **
+**                                                                            **
+********************************************************************************
+**                      Revision Control History                              **
+********************************************************************************
+** V1.0.0:  02-Sep-2013  Initial Version                                      **
+**                                                                            **
+** V1.0.1:  15-Apr-2014  As per CR83 and mantis #19850,                       **
+**                       Following changes are made,                          **
+**                       1. Patch version is incremented in 'SW-VERSION'      **
+**                       2. SHORT-NAME is changed for EXCLUSIVE-AREAS         **
+**                       3. Environment section is updated for new Devices    **
+**                                                                            **
+** V1.0.2:  12-May-2014  As per CR99 and mantis #21334 and #19850,            **
+**                       Following changes are made,                          **
+**                       1. Devices section in file header is updated for     **
+**                          removal of unwanted devices                       **
+**                                                                            **
+** V1.0.3:  22-Oct-2014  As per CR008 and mantis #19850,                      **
+**                       Following changes are made,                          **
+**                       1. Patch version is incremented in 'SW-VERSION'      **
+**                                                                            **
+** V1.0.4:  08-Aug-2014  As per CR076 and mantis #25069,                      **
+**                       Following changes are made,                          **
+**                       1. Environment section is corrected                  **
+**                                                                            **
+** V1.0.5:  05-May-2015  Updated SW-VERSION for changes in Source code        **
+********************************************************************************
+-->
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-0-3.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <AR-PACKAGES>
+        <AR-PACKAGE UUID="ECUS:b541cf24-f141-43f2-ba80-4bf8325daabe">
+            <SHORT-NAME>Renesas</SHORT-NAME>
+            <AR-PACKAGES>
+                <AR-PACKAGE UUID="ECUS:30a4c5c2-7a36-4e64-9f44-f1b9937ab75a">
+                    <SHORT-NAME>EcucDefs_Mcu</SHORT-NAME>
+                    <ELEMENTS>
+                        <BSW-IMPLEMENTATION UUID="ECUS:e59ee8f8-6de9-4ae3-8975-d7c8947e57ba">
+                            <SHORT-NAME>Mcu_Impl</SHORT-NAME>
+                            <PROGRAMMING-LANGUAGE>C</PROGRAMMING-LANGUAGE>
+                            <SW-VERSION>1.0.3</SW-VERSION>
+                            <VENDOR-ID>59</VENDOR-ID>
+                            <AR-RELEASE-VERSION>4.0.3</AR-RELEASE-VERSION>
+                            <BEHAVIOR-REF DEST="BSW-INTERNAL-BEHAVIOR">/Renesas/EcucDefs_Mcu/Mcu/BswInternalBehavior_0</BEHAVIOR-REF>
+                            <VENDOR-API-INFIX>Renesas</VENDOR-API-INFIX>
+                            <VENDOR-SPECIFIC-MODULE-DEF-REFS>
+                              <VENDOR-SPECIFIC-MODULE-DEF-REF DEST="ECUC-MODULE-DEF">/Renesas/EcucDefs_Mcu/Mcu</VENDOR-SPECIFIC-MODULE-DEF-REF>
+                            </VENDOR-SPECIFIC-MODULE-DEF-REFS>
+                        </BSW-IMPLEMENTATION>
+                        <BSW-MODULE-DESCRIPTION UUID="ECUS:d8d57c79-6b0e-438f-ad62-58aca03480f0">
+                            <SHORT-NAME>Mcu</SHORT-NAME>
+                            <MODULE-ID>101</MODULE-ID>
+                            <INTERNAL-BEHAVIORS>
+                                <BSW-INTERNAL-BEHAVIOR UUID="ECUS:e67f09e7-3dbc-488f-8928-07e8f1f4c560">
+                                    <SHORT-NAME>BswInternalBehavior_0</SHORT-NAME>
+                                    <EXCLUSIVE-AREAS>
+                                        <EXCLUSIVE-AREA UUID="ECUS:23d1c784-2072-4c94-ba93-982ea3e32591">
+                                            <SHORT-NAME>REG_DATA_PROTECTION</SHORT-NAME>
+                                        </EXCLUSIVE-AREA>
+                                    </EXCLUSIVE-AREAS>
+                                    <ENTITYS>
+                                        <BSW-INTERRUPT-ENTITY UUID="ECUS:26444b1f-55f6-4d12-88cb-b9c72e455c49">
+                                            <SHORT-NAME>BswInterruptEntity_1</SHORT-NAME>
+                                            <IMPLEMENTED-ENTRY-REF DEST="BSW-MODULE-ENTRY">/ArPackage_0/MCU_FEINT_ISR</IMPLEMENTED-ENTRY-REF>
+                                            <INTERRUPT-CATEGORY>CAT-1</INTERRUPT-CATEGORY>
+                                            <INTERRUPT-SOURCE>INTECM</INTERRUPT-SOURCE>
+                                        </BSW-INTERRUPT-ENTITY>
+                                        <BSW-INTERRUPT-ENTITY UUID="ECUS:23f09e1b-16cd-4fd8-99e6-7c687a59a2be">
+                                            <SHORT-NAME>BswInterruptEntity_2</SHORT-NAME>
+                                            <IMPLEMENTED-ENTRY-REF DEST="BSW-MODULE-ENTRY">/ArPackage_0/MCU_FEINT_CAT2_ISR</IMPLEMENTED-ENTRY-REF>
+                                            <INTERRUPT-CATEGORY>CAT-2</INTERRUPT-CATEGORY>
+                                            <INTERRUPT-SOURCE>INTECM</INTERRUPT-SOURCE>
+                                        </BSW-INTERRUPT-ENTITY>
+                                        <BSW-INTERRUPT-ENTITY UUID="ECUS:aa3e4f3b-c386-4c2a-ac87-91c66a86d8e6">
+                                            <SHORT-NAME>BswInterruptEntity_3</SHORT-NAME>
+                                            <IMPLEMENTED-ENTRY-REF DEST="BSW-MODULE-ENTRY">/ArPackage_0/MCU_ECM_EIC_ISR</IMPLEMENTED-ENTRY-REF>
+                                            <INTERRUPT-CATEGORY>CAT-1</INTERRUPT-CATEGORY>
+                                            <INTERRUPT-SOURCE>INTECM</INTERRUPT-SOURCE>
+                                        </BSW-INTERRUPT-ENTITY>
+                                        <BSW-INTERRUPT-ENTITY UUID="ECUS:24ae59aa-c9a4-4b5b-ba2f-a0df07eb957d">
+                                            <SHORT-NAME>BswInterruptEntity_4</SHORT-NAME>
+                                            <IMPLEMENTED-ENTRY-REF DEST="BSW-MODULE-ENTRY">/ArPackage_0/MCU_ECM_EIC_CAT2_ISR</IMPLEMENTED-ENTRY-REF>
+                                            <INTERRUPT-CATEGORY>CAT-2</INTERRUPT-CATEGORY>
+                                            <INTERRUPT-SOURCE>INTECM</INTERRUPT-SOURCE>
+                                        </BSW-INTERRUPT-ENTITY>
+                                    </ENTITYS>
+                                </BSW-INTERNAL-BEHAVIOR>
+                            </INTERNAL-BEHAVIORS>
+                        </BSW-MODULE-DESCRIPTION>
+                        <BSW-MODULE-ENTRY UUID="ECUS:9c90ecd9-2a0e-4dfb-aeb9-13e4bf215501">
+                            <SHORT-NAME>MCU_FEINT_ISR</SHORT-NAME>
+                            <IS-REENTRANT>true</IS-REENTRANT>
+                            <IS-SYNCHRONOUS>true</IS-SYNCHRONOUS>
+                            <CALL-TYPE>INTERRUPT</CALL-TYPE>
+                            <EXECUTION-CONTEXT>INTERRUPT-CAT-1</EXECUTION-CONTEXT>
+                            <SW-SERVICE-IMPL-POLICY>STANDARD</SW-SERVICE-IMPL-POLICY>
+                        </BSW-MODULE-ENTRY>
+                        <BSW-MODULE-ENTRY UUID="ECUS:9b411d7f-b0f4-4168-9471-908158a49690">
+                            <SHORT-NAME>MCU_FEINT_CAT2_ISR</SHORT-NAME>
+                            <IS-REENTRANT>true</IS-REENTRANT>
+                            <IS-SYNCHRONOUS>true</IS-SYNCHRONOUS>
+                            <CALL-TYPE>INTERRUPT</CALL-TYPE>
+                            <EXECUTION-CONTEXT>INTERRUPT-CAT-2</EXECUTION-CONTEXT>
+                            <SW-SERVICE-IMPL-POLICY>STANDARD</SW-SERVICE-IMPL-POLICY>
+                        </BSW-MODULE-ENTRY>
+                        <BSW-MODULE-ENTRY UUID="ECUS:59f88f41-35a4-42d4-abb9-5883e07ae777">
+                            <SHORT-NAME>MCU_ECM_EIC_ISR</SHORT-NAME>
+                            <IS-REENTRANT>true</IS-REENTRANT>
+                            <IS-SYNCHRONOUS>true</IS-SYNCHRONOUS>
+                            <CALL-TYPE>INTERRUPT</CALL-TYPE>
+                            <EXECUTION-CONTEXT>INTERRUPT-CAT-1</EXECUTION-CONTEXT>
+                            <SW-SERVICE-IMPL-POLICY>STANDARD</SW-SERVICE-IMPL-POLICY>
+                        </BSW-MODULE-ENTRY>
+                        <BSW-MODULE-ENTRY UUID="ECUS:851ad760-2c27-49c9-9b01-e57e3faa5107">
+                            <SHORT-NAME>MCU_ECM_EIC_CAT2_ISR</SHORT-NAME>
+                            <IS-REENTRANT>true</IS-REENTRANT>
+                            <IS-SYNCHRONOUS>true</IS-SYNCHRONOUS>
+                            <CALL-TYPE>INTERRUPT</CALL-TYPE>
+                            <EXECUTION-CONTEXT>INTERRUPT-CAT-2</EXECUTION-CONTEXT>
+                            <SW-SERVICE-IMPL-POLICY>STANDARD</SW-SERVICE-IMPL-POLICY>
+                        </BSW-MODULE-ENTRY>
+                    </ELEMENTS>
+                </AR-PACKAGE>
+            </AR-PACKAGES>
+        </AR-PACKAGE>
+    </AR-PACKAGES>
+</AUTOSAR>

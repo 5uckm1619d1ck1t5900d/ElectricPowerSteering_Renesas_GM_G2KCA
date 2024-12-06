@@ -1,0 +1,232 @@
+<#@ AutosarXml processor="ArDirectiveProcessor" requires="arPrefix='ar';arNamespace='http://autosar.org/4.0.3'" #><#@ template inherits="AutosarDirectiveProcessor.ArGtcBase" debug="true" #><#@ output extension="" #><#@ include file="Helper.tt" #><#@ include file="Logger.tt" #><#@ include file="ImcArbn_helper.tt" #>
+/**********************************************************************************************************************
+* Copyright 2017 Nexteer
+* Nexteer Confidential
+*
+* Module File Name:   ImcArbn_Cfg.c
+* Module Description: Private configuration source file for IMC Arbitration
+* Project           : CBD
+* Author            : Akilan Rathakrishnan
+***********************************************************************************************************************
+* Version Control:
+* %version:          1 %
+* %derived_by:       tzyksv %
+*---------------------------------------------------------------------------------------------------------------------
+* Date      Rev     Author  Change Description                                                                 SCR #
+* --------  ------- ------- ---------------------------------------------------------------------------     ----------
+* 15/Jan/17  1       Akilan    ImcArbn Initial Version                                                       EA4#9291
+* 01/Feb/17  2       Akilan    Changed positions of start bit and destination size                           EA4#9291      
+**********************************************************************************************************************/
+#include "Rte_ImcArbn.h"
+/************************************************ Include Statements *************************************************/
+#include "ImcArbn_Private_Cfg.h"
+/******************************************** File Level Rule Deviations *********************************************/
+<# ChangeContext( Xp.ModuleConfAtDefRefTo( "ImcArbn" ) ); #>
+<#     
+string  SignalNameReference;
+string  SignalName;
+string  DataType;
+string SignalId = "";
+string SignalGroupName = "";
+string DestSize;
+string PrimaryOnlySignalGroupString = "FALSE";
+string RateGroup = "";
+uint StartBit;
+uint NumberOfSignals = 0;
+bool PrimaryOnlySignalGroup = false;
+Dictionary<string, string> SignalDict = new Dictionary<string, string>();
+
+#>
+
+/*********** ImcArbn Signal Wrapper functions prototype ************************/
+<# !LOOP( Xp.ContainerAtDefRefTo("ImcArbnSignal" )) #>
+<#
+    SignalName = ValueOf( Xp.ValueAtDefRefTo("ImcArbnSignal/SignalName"));
+    DestSize = ValueOf( Xp.ValueAtDefRefTo("ImcArbnSignal/DestSize"));    
+    SignalDict.Add(SignalName,DestSize);
+#>
+/* Wrapper function to get value of <#=SignalName#> */
+static FUNC(uint32, RTE_IMCARBN_APPL_CODE) Get<#=SignalName#>(void);
+<# !ENDLOOP #>
+
+/*************** [START]Configuration of individual Signal Groups **************/
+<# !LOOP( Xp.ContainerAtDefRefTo("ImcArbnSignalGroup" )) #>
+<# SignalGroupName = ValueOf("./ar:SHORT-NAME");#>
+/* Signal configuration for the signal group <#=SignalGroupName#>  */
+static const SigPrmRec1  <#=SignalGroupName.ToUpper()#>_REC[] =
+{
+<# !LOOP( Xp.ContainerAtDefRefTo("ImcArbnSignalGroup/ImcArbnSigRef" )) #>
+    {
+<#
+    SignalNameReference = LastValueSegmentOf( Xp.ValueRefAtDefRefTo( "ImcArbnSigRef/ImcArbnSigNameRef" ));
+    StartBit = ValueOf( Xp.ValueAtDefRefTo("ImcArbnSigRef/StartBit"));
+    DestSize = SignalDict[SignalNameReference].ToString();
+    SignalId = "IMCARBN_" + SignalNameReference.ToString().ToUpper() + "_CNT_U16";
+#>
+        &Get<#=SignalNameReference#>, /* Pointer to the Signal wrapper function */
+        <#=SignalId#>, /* Signal ID */
+        <#=DestSize#>U, /* Number of bits used for this Signal in the Signal Group */       
+        <#=StartBit#>U, /* Start position of the Signal in the Signal Group */
+    },
+
+<# !ENDLOOP #>
+};
+<# !ENDLOOP #>
+/************************ [END]Configuration of individual Signal Groups *******/
+
+/************************ [START]Configuration of all Signal Groups ************/
+const SigGroupRec1 SIGGROUPCONFIG_REC[IMCARBN_TOTALNROFSIGGROUP_CNT_U08] =
+{
+/*************** [START]Signal Groups Configured under 2ms Rate Group **********/
+<# !LOOP( Xp.ContainerAtDefRefTo("ImcArbnSignalGroup" )) #>
+<#RateGroup = ValueOf( Xp.ValueAtDefRefTo("ImcArbnSignalGroup/ImcArbnSGAttributes/ImcArbnGroupTxRate"));#>
+<# if(RateGroup == "IMCARBN_2MS_GROUP")
+{#>
+<#SignalGroupName = ValueOf("./ar:SHORT-NAME");#>
+<#PrimaryOnlySignalGroup = ValueOf( Xp.ValueAtDefRefTo("ImcArbnSignalGroup/ImcArbnSGAttributes/PrimarySrcOnlySignalGroup"));#>
+<# if(PrimaryOnlySignalGroup == true)
+{
+    PrimaryOnlySignalGroupString = "TRUE";
+}
+else
+{
+    PrimaryOnlySignalGroupString = "FALSE";
+}
+#>
+<# !LOOP( Xp.ContainerAtDefRefTo("ImcArbnSignalGroup/ImcArbnSigRef" )) #>
+<#NumberOfSignals = NumberOfSignals +1;#>
+<# !ENDLOOP #>
+    {
+        &<#=SignalGroupName.ToUpper()#>_REC[0], /*Signal Group Structure */
+        <#=NumberOfSignals#>U, /* Number of Signals Configured under the Signal Group */
+        IMCARBN_<#=SignalGroupName.ToUpper()#>_CNT_U08, /* Signal Group ID */
+        <#=PrimaryOnlySignalGroupString#>, /* Transmit on Primary Source only */
+    },
+<#}#>
+<#NumberOfSignals = 0;#>
+<# !ENDLOOP #>
+/*************** [END]Signal Groups Configured under 2ms Rate Group ************/
+/*************** [START]Signal Groups Configured under 10ms Rate Group *********/
+<# !LOOP( Xp.ContainerAtDefRefTo("ImcArbnSignalGroup" )) #>
+<#RateGroup = ValueOf( Xp.ValueAtDefRefTo("ImcArbnSignalGroup/ImcArbnSGAttributes/ImcArbnGroupTxRate"));#>
+<# if(RateGroup == "IMCARBN_10MS_GROUP")
+{#>
+<#SignalGroupName = ValueOf("./ar:SHORT-NAME");#>
+<#PrimaryOnlySignalGroup = ValueOf( Xp.ValueAtDefRefTo("ImcArbnSignalGroup/ImcArbnSGAttributes/PrimarySrcOnlySignalGroup"));#>
+<# if(PrimaryOnlySignalGroup == true)
+{
+    PrimaryOnlySignalGroupString = "TRUE";
+}
+else
+{
+    PrimaryOnlySignalGroupString = "FALSE";
+}
+#>
+<# !LOOP( Xp.ContainerAtDefRefTo("ImcArbnSignalGroup/ImcArbnSigRef" )) #>
+<#NumberOfSignals = NumberOfSignals +1;#>
+<# !ENDLOOP #>
+    {
+        &<#=SignalGroupName.ToUpper()#>_REC[0], /*Signal Group Structure */
+        <#=NumberOfSignals#>U, /* Number of Signals Configured under the Signal Group */
+        IMCARBN_<#=SignalGroupName.ToUpper()#>_CNT_U08, /* Signal Group ID */
+        <#=PrimaryOnlySignalGroupString#>, /* Transmit on Primary Source only */
+    },
+<#}#>
+<#NumberOfSignals = 0;#>
+<# !ENDLOOP #>
+/*************** [END]Signal Groups Configured under 10ms Rate Group ***********/
+/*************** [START]Signal Groups Configured under 100ms Rate Group ********/
+<# !LOOP( Xp.ContainerAtDefRefTo("ImcArbnSignalGroup" )) #>
+<#RateGroup = ValueOf( Xp.ValueAtDefRefTo("ImcArbnSignalGroup/ImcArbnSGAttributes/ImcArbnGroupTxRate"));#>
+<# if(RateGroup == "IMCARBN_100MS_GROUP")
+{#>
+<#SignalGroupName = ValueOf("./ar:SHORT-NAME");#>
+<#PrimaryOnlySignalGroup = ValueOf( Xp.ValueAtDefRefTo("ImcArbnSignalGroup/ImcArbnSGAttributes/PrimarySrcOnlySignalGroup"));#>
+<# if(PrimaryOnlySignalGroup == true)
+{
+    PrimaryOnlySignalGroupString = "TRUE";
+}
+else
+{
+    PrimaryOnlySignalGroupString = "FALSE";
+}
+#>
+<# !LOOP( Xp.ContainerAtDefRefTo("ImcArbnSignalGroup/ImcArbnSigRef" )) #>
+<#NumberOfSignals = NumberOfSignals +1;#>
+<# !ENDLOOP #>
+    {
+        &<#=SignalGroupName.ToUpper()#>_REC[0], /*Signal Group Structure */
+        <#=NumberOfSignals#>U, /* Number of Signals Configured under the Signal Group */
+        IMCARBN_<#=SignalGroupName.ToUpper()#>_CNT_U08, /* Signal Group ID */
+        <#=PrimaryOnlySignalGroupString#>, /* Transmit on Primary Source only */
+    },
+<#}#>
+<#NumberOfSignals = 0;#>
+<# !ENDLOOP #>
+/*************** [END]Signal Groups Configured under 100ms Rate Group **********/
+};
+/************************ [END]Configuration of all Signal Groups **************/
+
+/***********[START] Signal functions definitions *******************************/
+<# !LOOP( Xp.ContainerAtDefRefTo("ImcArbnSignal" )) #>
+<#
+
+    SignalName = ValueOf( Xp.ValueAtDefRefTo("ImcArbnSignal/SignalName"));
+    DataType = ValueOf( Xp.ValueAtDefRefTo("ImcArbnSignal/DataType"));
+#>
+/* Wrapper function to get value of <#=SignalName#> */
+static FUNC(uint32, RTE_IMCARBN_APPL_CODE) Get<#=SignalName#>(void)
+{
+    uint32 RetVal_Uls_T_u32;
+<#if(DataType == "float32")
+{#>
+    float32 SigVal_Uls_T_f32;
+    (void)Rte_Read_<#=SignalName#>_Val(&SigVal_Uls_T_f32); 
+    RetVal_Uls_T_u32 =  *((uint32*)&SigVal_Uls_T_f32);
+<#}#>
+<#if(DataType == "sint32")
+{#>
+    sint32 SigVal_Uls_T_s32;
+    (void)Rte_Read_<#=SignalName#>_Val(&SigVal_Uls_T_s32); 
+    RetVal_Uls_T_u32 =  (uint32)SigVal_Uls_T_s32;
+<#}#>
+<#if(DataType == "uint16")
+{#>
+    uint16 SigVal_Uls_T_u16;
+    (void)Rte_Read_<#=SignalName#>_Val(&SigVal_Uls_T_u16); 
+    RetVal_Uls_T_u32 =  (uint32)SigVal_Uls_T_u16;
+<#}#>
+<#if(DataType == "sint16")
+{#>
+    sint16 SigVal_Uls_T_s16;
+    (void)Rte_Read_<#=SignalName#>_Val(&SigVal_Uls_T_s16); 
+    RetVal_Uls_T_u32 =  (uint32)SigVal_Uls_T_s16;
+<#}#>
+<#if(DataType == "uint8")
+{#>
+    uint8 SigVal_Uls_T_u08;
+    (void)Rte_Read_<#=SignalName#>_Val(&SigVal_Uls_T_u08); 
+    RetVal_Uls_T_u32 =  (uint32)SigVal_Uls_T_u08;
+<#}#>
+<#if(DataType == "sint8")
+{#>
+    sint8 SigVal_Uls_T_s08;
+    (void)Rte_Read_<#=SignalName#>_Val(&SigVal_Uls_T_s08); 
+    RetVal_Uls_T_u32 =  (uint32)SigVal_Uls_T_s08;
+<#}#>
+<#if(DataType == "boolean")
+{#>
+    boolean SigVal_Uls_T_logl;
+    (void)Rte_Read_<#=SignalName#>_Logl(&SigVal_Uls_T_logl); 
+    RetVal_Uls_T_u32 =  (uint32)SigVal_Uls_T_logl;
+<#}#>
+<#if(DataType == "uint32")
+{#>  
+    (void)Rte_Read_<#=SignalName#>_Val(&RetVal_Uls_T_u32); 
+<#}#>
+    return(RetVal_Uls_T_u32);
+}
+<# !ENDLOOP #>
+/***********[END] Signal functions definitions *********************************/
+
+

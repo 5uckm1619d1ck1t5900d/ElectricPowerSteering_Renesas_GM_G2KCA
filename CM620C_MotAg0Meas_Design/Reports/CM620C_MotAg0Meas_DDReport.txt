@@ -1,0 +1,130 @@
+Verification of CM620C_MotAg0Meas_DataDict
+18-Jan-2017 16:08:23
+Tool Release:  2.51.0
+
+
+
+--------------------------------
+DATA CLASS VIOLATION CHECKS
+--------------------------------
+(errors: 0)
+
+---------------------------------------------------------------
+FDD DEFINITION VARIABLE:	<Type><Number><Variant>  e.g. SF099A
+--------------------------------------------------------------
+(variable: 1, errors: 0)
+
+----------------------------
+DATA DICTIONARY FILENAME:
+----------------------------
+(errors:  0)
+
+------------------------------------------------------------
+RUNNABLE:	<ShoName>Per<Number>  or  <ShoName>Init<Number>
+------------------------------------------------------------
+(variables: 4, errors: 0)
+
+--------------------------------------
+SrvRunnable:	<TriggerName>
+--------------------------------------
+(variables: 2, errors: 0)
+
+-----------------------
+Client:	<TriggerName>
+-------------------------
+IoHwAb_SetFctGpioMotAg0     	    Ab_            Unknown Keyword used.Only Nexteer approved Keywords should be used.
+IoHwAb_SetFctPrphlCsihMotAg0	    Ab_            Unknown Keyword used.Only Nexteer approved Keywords should be used.
+IoHwAb_SetFctPrphlCsihMotAg0	    Csih           Unknown Keyword used.Only Nexteer approved Keywords should be used.
+IoHwAb_SetGpioMotAg0CsihCs  	    Ab_            Unknown Keyword used.Only Nexteer approved Keywords should be used.
+IoHwAb_SetGpioMotAg0CsihCs  	    Csih           Unknown Keyword used.Only Nexteer approved Keywords should be used.
+(variables: 10, errors: 5)
+
+----------------------------
+INPUT SIGNALS:	<Identity>
+----------------------------
+MotCtrlMotAg0Offs           	Cannot match name to list of known Nexteer signals.
+RegInpCSIH1STR0             	    I              Unknown Keyword used.Only Nexteer approved Keywords should be used.
+RegInpCSIH1STR0             	    H              Unknown Keyword used.Only Nexteer approved Keywords should be used.
+RegInptCSIH1RX0W            	    Inpt           Unknown Keyword used.Only Nexteer approved Keywords should be used.
+RegInptCSIH1RX0W            	    I              Unknown Keyword used.Only Nexteer approved Keywords should be used.
+RegInptCSIH1RX0W            	    H              Unknown Keyword used.Only Nexteer approved Keywords should be used.
+(variables: 4, errors: 6)
+
+-----------------------------
+OUTPUT SIGNALS:	<Identity>
+-----------------------------
+MotAg0MeclRollgCntr         	Cannot match name to list of known Nexteer signals.
+MotAg0Offs                  	Cannot match name to list of known Nexteer signals.
+RegOutpCSIH1MCTL2           	    I              Unknown Keyword used.Only Nexteer approved Keywords should be used.
+RegOutpCSIH1MCTL2           	    H              Unknown Keyword used.Only Nexteer approved Keywords should be used.
+RegOutpCSIH1MRWP0           	    I              Unknown Keyword used.Only Nexteer approved Keywords should be used.
+RegOutpCSIH1MRWP0           	    H              Unknown Keyword used.Only Nexteer approved Keywords should be used.
+(variables: 7, errors: 6)
+
+---------------------------------------
+INTER-RUNNABLE VARIABLES:	<Identity>
+---------------------------------------
+(variables: 3, errors: 0)
+
+------------------------------------
+CALIBRATIONS:	<ShoName><Identity>
+------------------------------------
+(variables: 0, errors: 0)
+
+----------------------------------------------
+IMPORTED CALIBRATIONS:	<ShoName><Identity>
+---------------------------------------------
+(variables: 0, errors: 0)
+
+-------------------------------------------
+NON-VOLATILE MEMORY:	<Identity>
+-------------------------------------------
+(variables: 1, errors: 0)
+
+------------------------------------------
+DISPLAY VARIABLES:	d<ShoName><Identity>
+------------------------------------------
+(variables: 10, errors: 0)
+
+-----------------------------------------------
+PER-INSTANCE MEMORY:	<Identity>
+-----------------------------------------------
+(variables: 6, errors: 0)
+
+--------------------------------------------------------------------------------------------
+CONSTANTS:	(ALL CAPS) required: 
+						 For "Global" CONSTANTS --- <SHONAME>_<IDENTITY>_<UNITS>_<DATATYPE>
+						 For "Local" CONSTANTS  --- <IDENTITY>_<UNITS>_<DATATYPE>
+-------------------------------------------------------------------------------------------
+(variables: 36, errors: 0)
+
+-------------------------
+CSArguments:	<IDENTITY>
+---------------------------
+(variables: 0, errors: 0)
+
+--------------------------------------------------------------------------------------------
+CONFIGPARAM:	(ALL CAPS) required: 
+						 For "Global" CONSTANTS --- <SHONAME>_<IDENTITY>_<UNITS>_<DATATYPE>
+						 For "Local" CONSTANTS  --- <IDENTITY>_<UNITS>_<DATATYPE>
+-------------------------------------------------------------------------------------------
+(variables: 1, errors: 0)
+
+----------------------------
+NTC SIGNALS:	<Identity>
+----------------------------
+(variables: 1, errors: 0)
+
+------
+OTHER:
+------
+Unit Delay:                 	'Unit Delay Block'	'StateMustResolveToSignalObject' property must be enabled.
+Unit Delay:                 	'Unit Delay Block'	'StateMustResolveToSignalObject' property must be enabled.
+(variables: 0, errors: 2)
+ 
+************************
+Grand Totals:
+86 variables,  19 issues to fix.
+
+
+End of Report

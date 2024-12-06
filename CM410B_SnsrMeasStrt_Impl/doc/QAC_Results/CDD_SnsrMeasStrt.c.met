@@ -1,0 +1,182 @@
+<RDEF> I Includes
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte_CDD_SnsrMeasStrt.h 70
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte_CDD_SnsrMeasStrt.h C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte_CDD_SnsrMeasStrt_Type.h 40
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte_CDD_SnsrMeasStrt_Type.h C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte_Type.h C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte.h 27
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte_CDD_SnsrMeasStrt.h C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte_CDD_SnsrMeasStrt.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte_CDD_SnsrMeasStrt.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 61
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte_CDD_SnsrMeasStrt.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 67
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte_CDD_SnsrMeasStrt.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 75
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte_CDD_SnsrMeasStrt.h C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/CDD_SnsrMeasStrt_MemMap.h 117
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/CDD_SnsrMeasStrt_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Rte_CDD_SnsrMeasStrt.h C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/CDD_SnsrMeasStrt_MemMap.h 148
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/CDD_SnsrMeasStrt_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c C:/component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/ostm_regs.h 77
+<R>I C:/component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/ostm_regs.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/ostm_regs.h C:/component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 24
+<R>I C:/component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/Os.h 78
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/osekext.h 79
+<DEFINE> ONEMICROSECCNT_CNT_U16 C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 85 N DF OM - - - O
+<LIT> 80 U P C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 85 34 N DN - F M
+<DEFINE> CDD_SnsrMeasStrt_START_SEC_CODE C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 110 N DF OM - - - O
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/CDD_SnsrMeasStrt_MemMap.h 111
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/CDD_SnsrMeasStrt_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> SnsrMeasStrtInit1 C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 123
+<DEFINE> SnsrMeasStrtInit1 C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 123 N DR OF F X (.,.) -
+<DEFINE> SnsrMeasStrtInit1 C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 123 N DF OF F X (.,.) -
+<RDEF> X Refers-to
+<R>X SnsrMeasStrtInit1 OSTM1 130 W
+<LIT> 1 U P C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 130 18 N DN ui B X
+<R>X SnsrMeasStrtInit1 OSTM 131 W
+<LIT> 0 U P C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 131 18 N ON ui B X
+<R>X SnsrMeasStrtInit1 OSTM1 132 W
+<LIT> 0 U P C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 132 18 N ON ui B X
+<RDEF> C Calls
+<R>C SnsrMeasStrtInit1 Dummyfunc 133
+<R>X SnsrMeasStrtInit1 Dummyfunc 133 R
+<LIT> 75 U P C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 133 2 N DN ui B X
+<CTLG> SnsrMeasStrtInit1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 124 137 137 137 
+<S>
+<S>STFIL  C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c
+<S>STNAM  SnsrMeasStrtInit1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  12
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.25   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  4
+<S>STAV2  4
+<S>STAV3  4
+<S>STST1  4
+<S>STST2  4
+<S>STST3  4
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  11
+<S>STFN2  8
+
+<EXTD> SnsrMeasStrtPer1 C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 150
+<DEFINE> SnsrMeasStrtPer1 C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 150 N DR OF F X (.,.) -
+<DEFINE> SnsrMeasStrtPer1 C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 150 N DF OF F X (.,.) -
+<R>C SnsrMeasStrtPer1 Rte_Prm_CDD_SnsrMeasStrt_SnsrMeasStrtTrigDly_Val 157
+<R>X SnsrMeasStrtPer1 Rte_Prm_CDD_SnsrMeasStrt_SnsrMeasStrtTrigDly_Val 157 R
+<R>X SnsrMeasStrtPer1 OSTM0 157 R
+<R>X SnsrMeasStrtPer1 OSTM1 157 W
+<R>X SnsrMeasStrtPer1 OSTM1 158 W
+<LIT> 1 U P C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 158 13 N DN ui B X
+<CTLG> SnsrMeasStrtPer1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 151 163 163 163 
+<S>
+<S>STFIL  C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c
+<S>STNAM  SnsrMeasStrtPer1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  11
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  14
+<S>STAV2  14
+<S>STAV3  14
+<S>STST1  2
+<S>STST2  2
+<S>STST3  2
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  20
+<S>STFN2  9
+
+<DEFINE> CDD_SnsrMeasStrt_STOP_SEC_CODE C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c 166 N DF OM - - - O
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/CDD_SnsrMeasStrt_MemMap.h 167
+<R>I C:/component/CM410B_SnsrMeasStrt_Impl/tools/contract/CDD_SnsrMeasStrt_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<S>
+<S>STFIL  C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c
+<S>STNAM  SnsrMeasStrtInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c
+<S>STNAM  SnsrMeasStrtPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c
+<S>STNAM  C:/component/CM410B_SnsrMeasStrt_Impl/src/CDD_SnsrMeasStrt.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  3
+<S>STFNC  2
+<S>STFCO  1
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  16
+<S>STOPT  15
+<S>STOPN  22
+<S>STTOT  116
+<S>STZIP  155
+<S>STHAL  157
+<S>STSHN  508
+<S>STDIF  8.05   
+<S>STEFF  4865
+<S>STVOL  604
+<S>STDEV  0.81   
+<S>STBUG  0
+<S>STTPP  187
+<S>STTLN  12
+<S>STM20  27
+<S>STM21  83
+<S>STM22  6
+<S>STM28  27
+<S>STM33  14
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.413  
+<S>STBMS  0.459  
+<S>STBME  0.481  
+<S>STTDO  1.786  
+<S>STTDS  1.903  
+<S>STTDE  1.979  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  14.359 
+

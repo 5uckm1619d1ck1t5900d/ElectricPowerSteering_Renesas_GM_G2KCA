@@ -1,0 +1,50 @@
+<#@ AutosarXml processor="ArDirectiveProcessor" requires="arPrefix='ar';arNamespace='http://autosar.org/4.0.3'" #>
+<#@ template inherits="AutosarDirectiveProcessor.ArGtcBase" debug="true" #>
+<#@ output extension="" #>
+<#@ include file="Helper.tt" #>
+/**********************************************************************************************************************
+* Copyright 2015 Nexteer
+* Nexteer Confidential
+*
+* Module File Name:   CDD_AdcDiagc_Cfg.h
+* Module Description: Configuration Header file for Adc Diagnostics
+* Project           : CBD
+* Author            : Rijvi Ahmed
+***********************************************************************************************************************
+* Version Control:
+* %version:          1 %
+* %derived_by:       jzk9cc %
+*---------------------------------------------------------------------------------------------------------------------
+* Date      Rev     Author  Change Description                                                              SCR #
+* --------  ------- ------- ---------------------------------------------------------------------------     ----------
+* 01/29/16  1       Rijvi   Initial version of the ADC Diagnostics header template                          EA4#3401
+**********************************************************************************************************************/
+
+
+/******************************************* Multiple Include Protection *********************************************/
+#ifndef CDD_ADCDIAGC_CFG_H
+#define CDD_ADCDIAGC_CFG_H
+
+/************************************************ Include Statements *************************************************/
+#include "Std_Types.h"
+
+/******************************************** File Level Rule Deviations *********************************************/
+
+/****************************************************** Macros *******************************************************/
+<# ChangeContext( Xp.ModuleConfAtDefRefTo( "AdcDiagc" ) ); #>
+
+<# int DYNDIAGFAILSTEP = ValueOf( Xp.ValueAtDefRefTo( "AdcDiagcGeneral/DYNDIAGFAILSTEP" ) ); #>
+<# int DYNDIAGPASSSTEP = ValueOf( Xp.ValueAtDefRefTo( "AdcDiagcGeneral/DYNDIAGPASSSTEP" ) ); #>
+
+
+
+#define ADCDIAGC_DYNDIAGFAILSTEP_CNT_U16		<#=  DYNDIAGFAILSTEP #>U
+#define ADCDIAGC_DYNDIAGPASSSTEP_CNT_U16		<#=  DYNDIAGPASSSTEP #>U
+
+
+
+/*********************************************** Exported Declarations ***********************************************/
+
+/**************************************** End Of Multiple Include Protection *****************************************/
+#endif /* CDD_ADCDIAGC_CFG_H */
+

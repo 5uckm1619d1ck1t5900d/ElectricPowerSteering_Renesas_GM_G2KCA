@@ -1,0 +1,1761 @@
+<RDEF> I Includes
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_DutyCycThermProtn.h 108
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_DutyCycThermProtn.h C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_DutyCycThermProtn_Type.h 40
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_DutyCycThermProtn_Type.h C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_Type.h C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte.h 27
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte.h C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_UserTypes.h 41
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_UserTypes.h C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h 39
+<R>I C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 24
+<R>I C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 25
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/TL103A_CplrSuprt/include/2015.1.5/ansi/math.h 26
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_DutyCycThermProtn.h C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_DutyCycThermProtn.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 85
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_DutyCycThermProtn.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 90
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_DutyCycThermProtn.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 121
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_DutyCycThermProtn.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 271
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_DutyCycThermProtn.h C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/DutyCycThermProtn_MemMap.h 554
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/DutyCycThermProtn_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/Rte_DutyCycThermProtn.h C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/DutyCycThermProtn_MemMap.h 657
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/DutyCycThermProtn_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c C:/component/AR101A_NxtrIntrpn_Impl/include/NxtrIntrpn.h 116
+<R>I C:/component/AR101A_NxtrIntrpn_Impl/include/NxtrIntrpn.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h 117
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 118
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c C:/component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 119
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c C:/component/SF999A_SysGlbPrm_Impl/include/SysGlbPrm.h 120
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h 121
+<R>I C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<DEFINE> DITHERMLIM_MOTNWTMTR_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 131 N DF OM - - - O
+<LIT> 8.8 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 131 57 N FN - F M
+<DEFINE> FIL1LPFILFRQ_HZ_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 132 N DF OM - - - O
+<LIT> 0.100097 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 132 65 N FN - F M
+<DEFINE> FIL2LPFILFRQ_HZ_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 133 N DF OM - - - O
+<LIT> 0.0100097 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 133 65 N FN - F M
+<DEFINE> FIL3LPFILFRQ_HZ_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 134 N DF OM - - - O
+<LIT> 0.00100097 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 134 65 N FN - F M
+<DEFINE> FIL4LPFILFRQ_HZ_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 135 N DF OM - - - O
+<LIT> 0.000530516 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 135 65 N FN - F M
+<DEFINE> FIL5LPFILFRQ_HZ_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 136 N DF OM - - - O
+<LIT> 0.000100097 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 136 65 N FN - F M
+<DEFINE> FIL6LPFILFRQ_HZ_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 137 N DF OM - - - O
+<LIT> 3.97887e-05 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 137 65 N FN - F M
+<DEFINE> FILOUTPLIM_ULS_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 138 N DF OM - - - O
+<LIT> 200.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 138 65 N FN - F M
+<DEFINE> FILVALMAX_ULS_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 139 N DF OM - - - O
+<LIT> 200.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 139 65 N FN - F M
+<DEFINE> FILVALMIN_ULS_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 140 N DF OM - - - O
+<LIT> 0.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 140 65 N FN - F M
+<DEFINE> ONEPERC_ULS_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 141 N DF OM - - - O
+<LIT> 0.01 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 141 65 N FN - F M
+<DEFINE> TAU3_SEC_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 142 N DF OM - - - O
+<LIT> 159.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 142 65 N FN - F M
+<DEFINE> TAU4_SEC_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 143 N DF OM - - - O
+<LIT> 300.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 143 65 N FN - F M
+<DEFINE> TAU5_SEC_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 144 N DF OM - - - O
+<LIT> 1590.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 144 65 N FN - F M
+<DEFINE> TAU6_SEC_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 145 N DF OM - - - O
+<LIT> 4000.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 145 65 N FN - F M
+<DEFINE> THERMLOADLIMTBLIDX_ULS_U08 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 146 N DF OM - - - O
+<LIT> 8 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 146 57 N DN - F M
+<DEFINE> THERMLOADLIMSIZE_CNT_U08 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 147 N DF OM - - - O
+<LIT> 8 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 147 49 N DN - F M
+<DEFINE> MULTFILTERSIZE_CNT_U08 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 148 N DF OM - - - O
+<LIT> 6 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 148 49 N DN - F M
+<DEFINE> THERMREDNFACLOLIM_ULS_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 149 N DF OM - - - O
+<LIT> 0.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 149 57 N FN - F M
+<DEFINE> THERMREDNFACHILIM_ULS_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 150 N DF OM - - - O
+<LIT> 1.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 150 57 N FN - F M
+<DEFINE> IGNTIOFFTHD_CNT_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 151 N DF OM - - - O
+<LIT> 10000.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 151 65 N FN - F M
+<DEFINE> CTRLRTFLT_CNT_U08 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 152 N DF OM - - - O
+<LIT> 1 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 152 65 N DN - F M
+<DEFINE> CUTFLT_CNT_U08 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 153 N DF OM - - - O
+<LIT> 2 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 153 65 N DN - F M
+<DEFINE> CTRLRANDCUTFLT_CNT_U08 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 154 N DF OM - - - O
+<LIT> 4 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 154 57 N DN - F M
+<DEFINE> NODEBSTEP_CNT_U16 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 155 N DF OM - - - O
+<LIT> 65535 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 155 65 N DN - F M
+<DEFINE> ZERO_MOTNWTMTR_F32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 156 N DF OM - - - O
+<LIT> 0.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 156 45 N FN - F M
+<DEFINE> PrmDutyCycThermProtnMplrTblX_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 159 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnMplr1NonStallTblY_u3p13 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 160 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnMplr2NonStallTblY_u3p13 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 161 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnMplr3NonStallTblY_u3p13 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 162 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnMplr4NonStallTblY_u3p13 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 163 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnMplr5NonStallTblY_u3p13 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 164 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnMplr6NonStallTblY_u3p13 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 165 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnMplr1StallTblY_u3p13 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 166 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnMplr2StallTblY_u3p13 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 167 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnMplr3StallTblY_u3p13 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 168 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnMplr4StallTblY_u3p13 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 169 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnMplr5StallTblY_u3p13 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 170 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnMplr6StallTblY_u3p13 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 171 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnLstTblValNonStall_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 172 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnLstTblValStall_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 173 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnThermLoadLimTblX_u16p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 174 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnThermLoadLimTblY_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 175 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnAbsltCtrlTTblX_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 176 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnAbsltCtrlTTqTblY_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 177 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnAbsltCuTTblX_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 178 N DF OM - - - O
+<DEFINE> PrmDutyCycThermProtnAbsltCuTTqTblY_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 179 N DF OM - - - O
+<DEFINE> IgnTiOff_Cnt_T_u32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 183 N DC OV P N ul R
+<DEFINE> VehTiVld_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 184 N DC OV P N uc R
+<DEFINE> FiltSVReinit C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 183 N DC OF F I (.,ul,uc) -
+<DEFINE> DiagcStsLimdTPrfmnc_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 186 N DC OV P N uc R
+<DEFINE> EcuTFild_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 187 N DC OV P N fs R
+<DEFINE> MotFetT_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 188 N DC OV P N fs R
+<DEFINE> MotMagT_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 189 N DC OV P N fs R
+<DEFINE> MotWidgT_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 190 N DC OV P N fs R
+<DEFINE> Mult12Temp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 191 N DC OV P N pns R
+<DEFINE> Mult36Temp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 192 N DC OV P N pns R
+<DEFINE> TemperatureSelection C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 186 N DC OF F I (ns,uc,fs,fs,fs,fs,pns,pns) -
+<DEFINE> EcuTFild_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 194 N DC OV P N fs R
+<DEFINE> MotWidgT_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 195 N DC OV P N fs R
+<DEFINE> TemperatureLimiting C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 194 N DC OF F I (fs,fs,fs) -
+<DEFINE> Mult12Temp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 197 N DC OV P N ns R
+<DEFINE> Mult36Temp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 198 N DC OV P N ns R
+<DEFINE> DutyCycThermProtnDi_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 199 N DC OV P N uc R
+<DEFINE> MotVelCrf_MotRadPerSec_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 200 N DC OV P N fs R
+<DEFINE> MotCurrPeakEstimd_AmprSqd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 201 N DC OV P N fs R
+<DEFINE> MotCurrPeakEstimdFild_AmprSqd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 202 N DC OV P N fs R
+<DEFINE> MaxOut_Uls_T_u16p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 203 N DC OV P N pus R
+<DEFINE> MultiFilterPercMax C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 197 N DC OF F I (fs,ns,ns,uc,fs,fs,fs,pus) -
+<DEFINE> MotVelCrf_MotRadPerSec_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 205 N DC OV P N fs R
+<DEFINE> SlcTemp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 206 N DC OV P N ns R
+<DEFINE> MaxOut_Uls_T_u16p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 207 N DC OV P N us R
+<DEFINE> ThermalLoadLimit C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 205 N DC OF F I (fs,fs,ns,us) -
+<DEFINE> IvtrLoaMtgtnEna_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 209 N DC OV P N uc R
+<DEFINE> DualEcuFltMtgtnEna_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 210 N DC OV P N uc R
+<DEFINE> AbsTempLimitSlew_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 211 N DC OV P N fs R
+<DEFINE> ThermalLoadLmt_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 212 N DC OV P N fs R
+<DEFINE> DutyCycThermProtnDi_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 213 N DC OV P N uc R
+<DEFINE> ThermLoadDptLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 214 N DC OV P N pfs R
+<DEFINE> ThermTempDptLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 215 N DC OV P N pfs R
+<DEFINE> TherrmalLimitScaling C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 209 N DC OF F I (fs,uc,uc,fs,fs,uc,pfs,pfs) -
+<DEFINE> DutyCycThermProtnDi_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 217 N DC OV P N uc R
+<DEFINE> ThermMotTqLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 218 N DC OV P N fs R
+<DEFINE> MaxOut_Uls_T_u16p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 219 N DC OV P N us R
+<DEFINE> ThermalLimitStatus C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 217 N DC OF F I (fs,uc,fs,us) -
+<DEFINE> TableX_Cnt_T_s16 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 221 N DC OV P N p=ns R
+<DEFINE> TableY_Cnt_T_u16 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 222 N DC OV P N p=us R
+<DEFINE> Size_Cnt_T_u16 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 223 N DC OV P N us R
+<DEFINE> Input_Cnt_T_s16 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 224 N DC OV P N ns R
+<DEFINE> UseInpLowr C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 221 N DC OF F I (us,p=ns,p=us,us,ns) -
+<DEFINE> DutyCycThermProtn_START_SEC_CODE C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 877 N DF OM - - - O
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/DutyCycThermProtn_MemMap.h 878
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/DutyCycThermProtn_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> DutyCycThermProtnInit1 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 917
+<DEFINE> DutyCycThermProtnInit1 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 917 N DR OF F X (.,.) -
+<DEFINE> DutyCycThermProtnInit1 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 917 N DF OF F X (.,.) -
+<DEFINE> DutyCycThermProtnDi_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 923 N DC OV B N uc -
+<DEFINE> DutyCycThermProtnDi_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 923 N DF OV B N uc -
+<DEFINE> IgnTiOff_Cnt_T_u32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 924 N DC OV B N ul -
+<DEFINE> IgnTiOff_Cnt_T_u32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 924 N DF OV B N ul -
+<DEFINE> VehTiVld_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 925 N DC OV B N uc -
+<DEFINE> VehTiVld_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 925 N DF OV B N uc -
+<DEFINE> FilStVariReInitFlg_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 926 N DC OV B N uc -
+<DEFINE> FilStVariReInitFlg_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 926 N DF OV B N uc -
+<DEFINE> ErrSts_Cnt_T_enum C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 927 N DC OV B N uc -
+<DEFINE> ErrSts_Cnt_T_enum C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 927 N DF OV B N uc -
+<RDEF> C Calls
+<R>C DutyCycThermProtnInit1 Rte_Read_DutyCycThermProtn_DutyCycThermProtnDi_Logl 930
+<RDEF> X Refers-to
+<R>X DutyCycThermProtnInit1 Rte_Read_DutyCycThermProtn_DutyCycThermProtnDi_Logl 930 R
+<R>C DutyCycThermProtnInit1 Rte_Read_DutyCycThermProtn_IgnTiOff_Val 931
+<R>X DutyCycThermProtnInit1 Rte_Read_DutyCycThermProtn_IgnTiOff_Val 931 R
+<R>C DutyCycThermProtnInit1 Rte_Read_DutyCycThermProtn_VehTiVld_Logl 932
+<R>X DutyCycThermProtnInit1 Rte_Read_DutyCycThermProtn_VehTiVld_Logl 932 R
+<R>C DutyCycThermProtnInit1 FixdToFloat_f32_u16 935
+<R>X DutyCycThermProtnInit1 FixdToFloat_f32_u16 935 R
+<R>C DutyCycThermProtnInit1 Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCtrlTTqTblY_Ary1D 935
+<R>X DutyCycThermProtnInit1 Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCtrlTTqTblY_Ary1D 935 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 935 R
+<LIT> 0 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 935 104 N ON ni B X
+<R>C DutyCycThermProtnInit1 FixdToFloat_f32_u16 938
+<R>X DutyCycThermProtnInit1 FixdToFloat_f32_u16 938 R
+<R>C DutyCycThermProtnInit1 Rte_Prm_DutyCycThermProtn_DutyCycThermProtnThermLoadLimTblY_Ary1D 938
+<R>X DutyCycThermProtnInit1 Rte_Prm_DutyCycThermProtn_DutyCycThermProtnThermLoadLimTblY_Ary1D 938 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 938 R
+<LIT> 1 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 938 137 N DN ui B X
+<R>C DutyCycThermProtnInit1 Rte_Call_DutyCycThermProtn_FilStVal_GetErrorStatus 941
+<R>X DutyCycThermProtnInit1 Rte_Call_DutyCycThermProtn_FilStVal_GetErrorStatus 941 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 945 R
+<LIT> 0 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 945 49 N ON ui B X
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 946 R
+<LIT> 0 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 946 49 N ON ui B X
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 947 R
+<LIT> 0 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 947 49 N ON ui B X
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 948 R
+<LIT> 0 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 948 49 N ON ui B X
+<R>C DutyCycThermProtnInit1 FilLpInit 955
+<R>X DutyCycThermProtnInit1 FilLpInit 955 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 955 R
+<LIT> 0.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 955 19 N FN fs B X
+<R>C DutyCycThermProtnInit1 FilLpInit 956
+<R>X DutyCycThermProtnInit1 FilLpInit 956 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 956 R
+<LIT> 0.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 956 19 N FN fs B X
+<R>C DutyCycThermProtnInit1 FilLpInit 957
+<R>X DutyCycThermProtnInit1 FilLpInit 957 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 957 R
+<LIT> 0.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 957 19 N FN fs B X
+<R>C DutyCycThermProtnInit1 FilLpInit 958
+<R>X DutyCycThermProtnInit1 FilLpInit 958 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 958 R
+<LIT> 0.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 958 19 N FN fs B X
+<R>C DutyCycThermProtnInit1 FilLpInit 959
+<R>X DutyCycThermProtnInit1 FilLpInit 959 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 959 R
+<LIT> 0.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 959 19 N FN fs B X
+<R>C DutyCycThermProtnInit1 FilLpInit 960
+<R>X DutyCycThermProtnInit1 FilLpInit 960 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 960 R
+<LIT> 0.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 960 19 N FN fs B X
+<R>C DutyCycThermProtnInit1 Exp_f32 966
+<R>X DutyCycThermProtnInit1 Exp_f32 966 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 966 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 966 R
+<R>C DutyCycThermProtnInit1 Exp_f32 967
+<R>X DutyCycThermProtnInit1 Exp_f32 967 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 967 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 967 R
+<R>C DutyCycThermProtnInit1 Exp_f32 968
+<R>X DutyCycThermProtnInit1 Exp_f32 968 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 968 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 968 R
+<R>C DutyCycThermProtnInit1 Exp_f32 969
+<R>X DutyCycThermProtnInit1 Exp_f32 969 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 969 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 969 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 975 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 976 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 977 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 978 R
+<R>C DutyCycThermProtnInit1 Rte_Prm_DutyCycThermProtn_DutyCycThermProtnIgnOffCtrlEna_Logl 983
+<R>X DutyCycThermProtnInit1 Rte_Prm_DutyCycThermProtn_DutyCycThermProtnIgnOffCtrlEna_Logl 983 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 993 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 994 R
+<LIT> 0.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 994 36 N FN fs B X
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 996 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 996 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 997 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 997 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 998 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 998 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 999 R
+<R>X DutyCycThermProtnInit1 Rte_Inst_DutyCycThermProtn 999 R
+<R>C DutyCycThermProtnInit1 Rte_Call_DutyCycThermProtn_FilStVal_SetRamBlockStatus 1002
+<R>X DutyCycThermProtnInit1 Rte_Call_DutyCycThermProtn_FilStVal_SetRamBlockStatus 1002 R
+<R>C DutyCycThermProtnInit1 Rte_IrvWrite_DutyCycThermProtn_DutyCycThermProtnInit1_FilStVariReInitFlg 1005
+<R>X DutyCycThermProtnInit1 Rte_IrvWrite_DutyCycThermProtn_DutyCycThermProtnInit1_FilStVariReInitFlg 1005 R
+<CTLG> DutyCycThermProtnInit1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 12
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 13 15
+<CTLGN> 918 943 943 943 950 963 963 963 972 983 983 987 1009 1009 1009 
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  DutyCycThermProtnInit1
+<S>STCYC  4
+<S>STMCC  3 (4:7)
+<S>STMIF  1
+<S>STSUB  21
+<S>STAKI  25
+<S>STLIN  90
+<S>STXLN  40
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  5
+<S>STPTH  8
+<S>STPDN  0.20   
+<S>STPBG  1
+<S>STLOP  3
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  12
+<S>STAV3  13
+<S>STST1  48
+<S>STST2  42
+<S>STST3  37
+<S>STPAR  0
+<S>STCAL  12
+<S>STFN1  345
+<S>STFN2  166
+
+<EXTD> DutyCycThermProtnPer1 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1067
+<DEFINE> DutyCycThermProtnPer1 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1067 N DR OF F X (.,.) -
+<DEFINE> DutyCycThermProtnPer1 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1067 N DF OF F X (.,.) -
+<DEFINE> DiagcStsLimdTPrfmnc_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1074 N DC OV B N uc -
+<DEFINE> DiagcStsLimdTPrfmnc_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1074 N DF OV B N uc -
+<DEFINE> DutyCycThermProtnDi_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1075 N DC OV B N uc -
+<DEFINE> DutyCycThermProtnDi_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1075 N DF OV B N uc -
+<DEFINE> IvtrLoaMtgtnEna_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1076 N DC OV B N uc -
+<DEFINE> IvtrLoaMtgtnEna_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1076 N DF OV B N uc -
+<DEFINE> DualEcuFltMtgtnEna_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1077 N DC OV B N uc -
+<DEFINE> DualEcuFltMtgtnEna_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1077 N DF OV B N uc -
+<DEFINE> EcuTFild_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1078 N DC OV B N fs -
+<DEFINE> EcuTFild_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1078 N DF OV B N fs -
+<DEFINE> IgnTiOff_Cnt_T_u32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1079 N DC OV B N ul -
+<DEFINE> IgnTiOff_Cnt_T_u32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1079 N DF OV B N ul -
+<DEFINE> MotCurrPeakEstimd_AmprSqd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1080 N DC OV B N fs -
+<DEFINE> MotCurrPeakEstimd_AmprSqd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1080 N DF OV B N fs -
+<DEFINE> MotCurrPeakEstimdFild_AmprSqd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1081 N DC OV B N fs -
+<DEFINE> MotCurrPeakEstimdFild_AmprSqd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1081 N DF OV B N fs -
+<DEFINE> MotFetT_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1082 N DC OV B N fs -
+<DEFINE> MotFetT_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1082 N DF OV B N fs -
+<DEFINE> MotMagT_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1083 N DC OV B N fs -
+<DEFINE> MotMagT_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1083 N DF OV B N fs -
+<DEFINE> MotVelCrf_MotRadPerSec_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1084 N DC OV B N fs -
+<DEFINE> MotVelCrf_MotRadPerSec_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1084 N DF OV B N fs -
+<DEFINE> MotWidgT_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1085 N DC OV B N fs -
+<DEFINE> MotWidgT_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1085 N DF OV B N fs -
+<DEFINE> VehTiVld_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1086 N DC OV B N uc -
+<DEFINE> VehTiVld_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1086 N DF OV B N uc -
+<DEFINE> Mult12Temp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1087 N DC OV B N ns -
+<DEFINE> Mult12Temp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1087 N DF OV B N ns -
+<DEFINE> Mult36Temp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1088 N DC OV B N ns -
+<DEFINE> Mult36Temp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1088 N DF OV B N ns -
+<DEFINE> AbsTempLimitSlew_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1089 N DC OV B N fs -
+<DEFINE> AbsTempLimitSlew_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1089 N DF OV B N fs -
+<DEFINE> ThermMotTqLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1090 N DC OV B N fs -
+<DEFINE> ThermMotTqLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1090 N DF OV B N fs -
+<DEFINE> ThermRednFac_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1091 N DC OV B N fs -
+<DEFINE> ThermRednFac_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1091 N DF OV B N fs -
+<DEFINE> ThermLimSlowFilMax_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1092 N DC OV B N fs -
+<DEFINE> ThermLimSlowFilMax_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1092 N DF OV B N fs -
+<DEFINE> MaxOut_Uls_T_u16p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1093 N DC OV B N us -
+<DEFINE> MaxOut_Uls_T_u16p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1093 N DF OV B N us -
+<DEFINE> ThermalLoadLmt_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1094 N DC OV B N fs -
+<DEFINE> ThermalLoadLmt_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1094 N DF OV B N fs -
+<DEFINE> ThermDutyCycProtnLoadDptLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1095 N DC OV B N fs -
+<DEFINE> ThermDutyCycProtnLoadDptLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1095 N DF OV B N fs -
+<DEFINE> ThermDutyCycProtnTDptLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1096 N DC OV B N fs -
+<DEFINE> ThermDutyCycProtnTDptLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1096 N DF OV B N fs -
+<DEFINE> SlcTemp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1097 N DC OV B N ns -
+<DEFINE> SlcTemp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1097 N DF OV B N ns -
+<R>C DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_DiagcStsLimdTPrfmnc_Logl 1100
+<R>X DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_DiagcStsLimdTPrfmnc_Logl 1100 R
+<R>C DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_DutyCycThermProtnDi_Logl 1101
+<R>X DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_DutyCycThermProtnDi_Logl 1101 R
+<R>C DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_EcuTFild_Val 1102
+<R>X DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_EcuTFild_Val 1102 R
+<R>C DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_IgnTiOff_Val 1103
+<R>X DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_IgnTiOff_Val 1103 R
+<R>C DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_MotCurrPeakEstimd_Val 1104
+<R>X DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_MotCurrPeakEstimd_Val 1104 R
+<R>C DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_MotCurrPeakEstimdFild_Val 1105
+<R>X DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_MotCurrPeakEstimdFild_Val 1105 R
+<R>C DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_MotFetT_Val 1106
+<R>X DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_MotFetT_Val 1106 R
+<R>C DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_MotMagT_Val 1107
+<R>X DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_MotMagT_Val 1107 R
+<R>C DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_MotVelCrf_Val 1108
+<R>X DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_MotVelCrf_Val 1108 R
+<R>C DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_MotWidgT_Val 1109
+<R>X DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_MotWidgT_Val 1109 R
+<R>C DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_VehTiVld_Logl 1110
+<R>X DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_VehTiVld_Logl 1110 R
+<R>C DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_DualEcuFltMtgtnEna_Logl 1111
+<R>X DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_DualEcuFltMtgtnEna_Logl 1111 R
+<R>C DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_IvtrLoaMtgtnEna_Logl 1112
+<R>X DutyCycThermProtnPer1 Rte_Read_DutyCycThermProtn_IvtrLoaMtgtnEna_Logl 1112 R
+<R>X DutyCycThermProtnPer1 Rte_Inst_DutyCycThermProtn 1118 R
+<R>X DutyCycThermProtnPer1 Rte_Inst_DutyCycThermProtn 1119 R
+<R>X DutyCycThermProtnPer1 Rte_Inst_DutyCycThermProtn 1120 R
+<R>X DutyCycThermProtnPer1 Rte_Inst_DutyCycThermProtn 1121 R
+<R>C DutyCycThermProtnPer1 Rte_IrvRead_DutyCycThermProtn_DutyCycThermProtnPer1_FilStVariReInitFlg 1124
+<R>X DutyCycThermProtnPer1 Rte_IrvRead_DutyCycThermProtn_DutyCycThermProtnPer1_FilStVariReInitFlg 1124 R
+<R>X DutyCycThermProtnPer1 Rte_Inst_DutyCycThermProtn 1124 R
+<R>C DutyCycThermProtnPer1 FiltSVReinit 1126
+<R>C DutyCycThermProtnPer1 TemperatureSelection 1135
+<R>C DutyCycThermProtnPer1 TemperatureLimiting 1138
+<R>C DutyCycThermProtnPer1 MultiFilterPercMax 1144
+<R>C DutyCycThermProtnPer1 ThermalLoadLimit 1146
+<R>C DutyCycThermProtnPer1 Lim_f32 1150
+<R>X DutyCycThermProtnPer1 Lim_f32 1150 R
+<R>X DutyCycThermProtnPer1 Rte_Inst_DutyCycThermProtn 1150 R
+<R>X DutyCycThermProtnPer1 Rte_Inst_DutyCycThermProtn 1150 R
+<R>C DutyCycThermProtnPer1 Lim_f32 1151
+<R>X DutyCycThermProtnPer1 Lim_f32 1151 R
+<R>X DutyCycThermProtnPer1 Rte_Inst_DutyCycThermProtn 1151 R
+<R>X DutyCycThermProtnPer1 Rte_Inst_DutyCycThermProtn 1151 R
+<R>C DutyCycThermProtnPer1 Lim_f32 1152
+<R>X DutyCycThermProtnPer1 Lim_f32 1152 R
+<R>X DutyCycThermProtnPer1 Rte_Inst_DutyCycThermProtn 1152 R
+<R>X DutyCycThermProtnPer1 Rte_Inst_DutyCycThermProtn 1152 R
+<R>C DutyCycThermProtnPer1 Lim_f32 1153
+<R>X DutyCycThermProtnPer1 Lim_f32 1153 R
+<R>X DutyCycThermProtnPer1 Rte_Inst_DutyCycThermProtn 1153 R
+<R>X DutyCycThermProtnPer1 Rte_Inst_DutyCycThermProtn 1153 R
+<R>C DutyCycThermProtnPer1 TherrmalLimitScaling 1161
+<R>C DutyCycThermProtnPer1 ThermalLimitStatus 1165
+<R>C DutyCycThermProtnPer1 Rte_Write_DutyCycThermProtn_ThermLimSlowFilMax_Val 1168
+<R>X DutyCycThermProtnPer1 Rte_Write_DutyCycThermProtn_ThermLimSlowFilMax_Val 1168 R
+<R>C DutyCycThermProtnPer1 Rte_Write_DutyCycThermProtn_ThermMotTqLim_Val 1169
+<R>X DutyCycThermProtnPer1 Rte_Write_DutyCycThermProtn_ThermMotTqLim_Val 1169 R
+<R>C DutyCycThermProtnPer1 Rte_Write_DutyCycThermProtn_ThermRednFac_Val 1170
+<R>X DutyCycThermProtnPer1 Rte_Write_DutyCycThermProtn_ThermRednFac_Val 1170 R
+<R>C DutyCycThermProtnPer1 Rte_Write_DutyCycThermProtn_DutyCycThermProtnMaxOutp_Val 1171
+<R>X DutyCycThermProtnPer1 Rte_Write_DutyCycThermProtn_DutyCycThermProtnMaxOutp_Val 1171 R
+<R>C DutyCycThermProtnPer1 Rte_Write_DutyCycThermProtn_ThermDutyCycProtnLoadDptLim_Val 1172
+<R>X DutyCycThermProtnPer1 Rte_Write_DutyCycThermProtn_ThermDutyCycProtnLoadDptLim_Val 1172 R
+<R>C DutyCycThermProtnPer1 Rte_Write_DutyCycThermProtn_ThermDutyCycProtnTDptLim_Val 1173
+<R>X DutyCycThermProtnPer1 Rte_Write_DutyCycThermProtn_ThermDutyCycProtnTDptLim_Val 1173 R
+<CTLG> DutyCycThermProtnPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 8
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 9 11
+<CTLGN> 1068 1115 1115 1115 1124 1124 1128 1124 1178 1178 1178 
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  DutyCycThermProtnPer1
+<S>STCYC  3
+<S>STMCC  1 (3:4)
+<S>STMIF  2
+<S>STSUB  31
+<S>STAKI  34
+<S>STLIN  109
+<S>STXLN  48
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  24
+<S>STPTH  3
+<S>STPDN  0.06   
+<S>STPBG  0
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  10
+<S>STAV3  17
+<S>STST1  63
+<S>STST2  60
+<S>STST3  36
+<S>STPAR  0
+<S>STCAL  28
+<S>STFN1  392
+<S>STFN2  228
+
+<DEFINE> DutyCycThermProtn_STOP_SEC_CODE C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1181 N DF OM - - - O
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/DutyCycThermProtn_MemMap.h 1182
+<R>I C:/component/SF009A_DutyCycThermProtn_Impl/tools/contract/DutyCycThermProtn_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<DEFINE> IgnTiOff_Cnt_T_u32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1198 N DC OV B N ul R
+<DEFINE> VehTiVld_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1198 N DC OV B N uc R
+<DEFINE> FiltSVReinit C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1198 N DR OF F I (.,ul,uc) -
+<DEFINE> FiltSVReinit C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1198 N DF OF F I (.,ul,uc) -
+<R>C FiltSVReinit Exp_f32 1204
+<R>X FiltSVReinit Exp_f32 1204 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1204 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1204 R
+<R>C FiltSVReinit Exp_f32 1205
+<R>X FiltSVReinit Exp_f32 1205 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1205 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1205 R
+<R>C FiltSVReinit Exp_f32 1206
+<R>X FiltSVReinit Exp_f32 1206 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1206 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1206 R
+<R>C FiltSVReinit Exp_f32 1207
+<R>X FiltSVReinit Exp_f32 1207 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1207 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1207 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1215 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1216 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1217 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1218 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1222 R
+<R>C FiltSVReinit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnIgnOffMsgWaitTi_Val 1222
+<R>X FiltSVReinit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnIgnOffMsgWaitTi_Val 1222 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1224 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1228 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1231 R
+<R>X FiltSVReinit Rte_Inst_DutyCycThermProtn 1231 R
+<CTLG> FiltSVReinit 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 10
+<CTLGN> 1199 1201 1201 1212 1222 1222 1226 1233 1233 1233 
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  FiltSVReinit
+<S>STCYC  3
+<S>STMCC  2 (3:5)
+<S>STMIF  1
+<S>STSUB  5
+<S>STAKI  8
+<S>STLIN  33
+<S>STXLN  15
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  4
+<S>STPDN  0.27   
+<S>STPBG  1
+<S>STLOP  2
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  13
+<S>STAV2  17
+<S>STAV3  17
+<S>STST1  17
+<S>STST2  13
+<S>STST3  13
+<S>STPAR  2
+<S>STCAL  2
+<S>STFN1  162
+<S>STFN2  60
+
+<DEFINE> DiagcStsLimdTPrfmnc_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1243 N DC OV B N uc R
+<DEFINE> EcuTFild_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1243 N DC OV B N fs R
+<DEFINE> MotFetT_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1244 N DC OV B N fs R
+<DEFINE> MotMagT_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1244 N DC OV B N fs R
+<DEFINE> MotWidgT_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1244 N DC OV B N fs R
+<DEFINE> Mult12Temp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1245 N DC OV B N pns R
+<DEFINE> Mult36Temp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1246 N DC OV B N pns R
+<DEFINE> TemperatureSelection C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1243 N DR OF F I (ns,uc,fs,fs,fs,fs,pns,pns) -
+<DEFINE> TemperatureSelection C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1243 N DF OF F I (ns,uc,fs,fs,fs,fs,pns,pns) -
+<DEFINE> SlcTemp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1248 N DC OV B N ns -
+<DEFINE> SlcTemp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1248 N DF OV B N ns -
+<DEFINE> Mult12Temp_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1249 N DC OV B N fs -
+<DEFINE> Mult12Temp_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1249 N DF OV B N fs -
+<DEFINE> Mult36Temp_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1250 N DC OV B N fs -
+<DEFINE> Mult36Temp_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1250 N DF OV B N fs -
+<R>C TemperatureSelection Rte_Prm_DutyCycThermProtn_DutyCycThermProtnCtrlT_Val 1255
+<R>X TemperatureSelection Rte_Prm_DutyCycThermProtn_DutyCycThermProtnCtrlT_Val 1255 R
+<R>C TemperatureSelection Rte_Prm_DutyCycThermProtn_DutyCycThermProtnCtrlT_Val 1256
+<R>X TemperatureSelection Rte_Prm_DutyCycThermProtn_DutyCycThermProtnCtrlT_Val 1256 R
+<R>C TemperatureSelection Rte_Prm_DutyCycThermProtn_DutyCycThermProtnCtrlTSeln_Logl 1260
+<R>X TemperatureSelection Rte_Prm_DutyCycThermProtn_DutyCycThermProtnCtrlTSeln_Logl 1260 R
+<R>C TemperatureSelection Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMotPrTSeln_Logl 1270
+<R>X TemperatureSelection Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMotPrTSeln_Logl 1270 R
+<R>X TemperatureSelection Rte_Inst_DutyCycThermProtn 1281 R
+<R>X TemperatureSelection Rte_Inst_DutyCycThermProtn 1282 R
+<R>C TemperatureSelection FloatToFixd_s16_f32 1284
+<R>X TemperatureSelection FloatToFixd_s16_f32 1284 R
+<R>C TemperatureSelection FloatToFixd_s16_f32 1285
+<R>X TemperatureSelection FloatToFixd_s16_f32 1285 R
+<R>C TemperatureSelection Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTSeln_Logl 1288
+<R>X TemperatureSelection Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTSeln_Logl 1288 R
+<CTLG> TemperatureSelection 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 10
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 16
+<CTLGN> 1247 1253 1253 1260 1260 1264 1270 1270 1274 1258 1288 1288 1288 1292 1297 1297 
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  TemperatureSelection
+<S>STCYC  5
+<S>STMCC  0 (5:5)
+<S>STMIF  2
+<S>STSUB  7
+<S>STAKI  12
+<S>STLIN  50
+<S>STXLN  21
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  10
+<S>STPDN  0.48   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  7
+<S>STAV3  8
+<S>STST1  28
+<S>STST2  20
+<S>STST3  17
+<S>STPAR  7
+<S>STCAL  5
+<S>STFN1  102
+<S>STFN2  49
+
+<DEFINE> EcuTFild_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1307 N DC OV B N fs R
+<DEFINE> MotWidgT_DegCgrd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1307 N DC OV B N fs R
+<DEFINE> TemperatureLimiting C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1307 N DR OF F I (fs,fs,fs) -
+<DEFINE> TemperatureLimiting C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1307 N DF OF F I (fs,fs,fs) -
+<DEFINE> AbsltCtrlTempLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1309 N DC OV B N fs -
+<DEFINE> AbsltCtrlTempLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1309 N DF OV B N fs -
+<DEFINE> AbsltTempLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1310 N DC OV B N fs -
+<DEFINE> AbsltTempLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1310 N DF OV B N fs -
+<DEFINE> AbsltCuTempLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1311 N DC OV B N fs -
+<DEFINE> AbsltCuTempLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1311 N DF OV B N fs -
+<DEFINE> AbsTempLimitSlewLo_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1312 N DC OV B N fs -
+<DEFINE> AbsTempLimitSlewLo_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1312 N DF OV B N fs -
+<DEFINE> AbsTempLimitSlewHi_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1313 N DC OV B N fs -
+<DEFINE> AbsTempLimitSlewHi_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1313 N DF OV B N fs -
+<DEFINE> EcuTFild_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1314 N DC OV B N ns -
+<DEFINE> EcuTFild_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1314 N DF OV B N ns -
+<DEFINE> MotWidgT_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1315 N DC OV B N ns -
+<DEFINE> MotWidgT_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1315 N DF OV B N ns -
+<DEFINE> AbsltCtrlTempLim_DegCgrd_T_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1316 N DC OV B N us -
+<DEFINE> AbsltCtrlTempLim_DegCgrd_T_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1316 N DF OV B N us -
+<DEFINE> AbsltCuTempLim_DegCgrd_T_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1317 N DC OV B N us -
+<DEFINE> AbsltCuTempLim_DegCgrd_T_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1317 N DF OV B N us -
+<DEFINE> AbsTempLimitSlew_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1318 N DC OV B N fs -
+<DEFINE> AbsTempLimitSlew_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1318 N DF OV B N fs -
+<R>C TemperatureLimiting FloatToFixd_s16_f32 1321
+<R>X TemperatureLimiting FloatToFixd_s16_f32 1321 R
+<R>C TemperatureLimiting LnrIntrpn_u16_s16VariXu16VariY 1326
+<R>X TemperatureLimiting LnrIntrpn_u16_s16VariXu16VariY 1326 R
+<R>C TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCtrlTTblX_Ary1D 1326
+<R>X TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCtrlTTblX_Ary1D 1326 R
+<R>C TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCtrlTTqTblY_Ary1D 1326
+<R>X TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCtrlTTqTblY_Ary1D 1326 R
+<R>C TemperatureLimiting FixdToFloat_f32_u16 1328
+<R>X TemperatureLimiting FixdToFloat_f32_u16 1328 R
+<R>X TemperatureLimiting Rte_Inst_DutyCycThermProtn 1330 R
+<R>C TemperatureLimiting FloatToFixd_s16_f32 1332
+<R>X TemperatureLimiting FloatToFixd_s16_f32 1332 R
+<R>C TemperatureLimiting LnrIntrpn_u16_s16VariXu16VariY 1337
+<R>X TemperatureLimiting LnrIntrpn_u16_s16VariXu16VariY 1337 R
+<R>C TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCuTTblX_Ary1D 1337
+<R>X TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCuTTblX_Ary1D 1337 R
+<R>C TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCuTTqTblY_Ary1D 1337
+<R>X TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCuTTqTblY_Ary1D 1337 R
+<R>C TemperatureLimiting FixdToFloat_f32_u16 1339
+<R>X TemperatureLimiting FixdToFloat_f32_u16 1339 R
+<R>X TemperatureLimiting Rte_Inst_DutyCycThermProtn 1342 R
+<R>C TemperatureLimiting Min_f32 1344
+<R>X TemperatureLimiting Min_f32 1344 R
+<R>X TemperatureLimiting Rte_Inst_DutyCycThermProtn 1345 R
+<R>X TemperatureLimiting Rte_Inst_DutyCycThermProtn 1349 R
+<R>C TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltTTqSlewLoLim_Val 1349
+<R>X TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltTTqSlewLoLim_Val 1349 R
+<R>X TemperatureLimiting Rte_Inst_DutyCycThermProtn 1351 R
+<R>C TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltTTqSlewHiLim_Val 1351
+<R>X TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltTTqSlewHiLim_Val 1351 R
+<R>C TemperatureLimiting Lim_f32 1352
+<R>X TemperatureLimiting Lim_f32 1352 R
+<R>X TemperatureLimiting Rte_Inst_DutyCycThermProtn 1354 R
+<LIT> 0 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1358 83 N ON ni B X
+<LIT> 0 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1359 81 N ON ni B X
+<R>C TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCtrlTTblX_Ary1D 1359
+<R>X TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCtrlTTblX_Ary1D 1359 R
+<R>C TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCuTTblX_Ary1D 1359
+<R>X TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCuTTblX_Ary1D 1359 R
+<R>C TemperatureLimiting Rte_Call_DutyCycThermProtn_SetNtcSts_Oper 1362
+<R>X TemperatureLimiting Rte_Call_DutyCycThermProtn_SetNtcSts_Oper 1362 R
+<LIT> 0 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1364 84 N ON ni B X
+<R>C TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCuTTblX_Ary1D 1364
+<R>X TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCuTTblX_Ary1D 1364 R
+<R>C TemperatureLimiting Rte_Call_DutyCycThermProtn_SetNtcSts_Oper 1367
+<R>X TemperatureLimiting Rte_Call_DutyCycThermProtn_SetNtcSts_Oper 1367 R
+<LIT> 0 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1369 86 N ON ni B X
+<R>C TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCtrlTTblX_Ary1D 1369
+<R>X TemperatureLimiting Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltCtrlTTblX_Ary1D 1369 R
+<R>C TemperatureLimiting Rte_Call_DutyCycThermProtn_SetNtcSts_Oper 1372
+<R>X TemperatureLimiting Rte_Call_DutyCycThermProtn_SetNtcSts_Oper 1372 R
+<R>C TemperatureLimiting Rte_Call_DutyCycThermProtn_SetNtcSts_Oper 1377
+<R>X TemperatureLimiting Rte_Call_DutyCycThermProtn_SetNtcSts_Oper 1377 R
+<LIT> 0 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1377 60 N ON ui B X
+<CTLG> TemperatureLimiting 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 11
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 10
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 11 13
+<CTLGN> 1308 1359 1359 1359 1364 1364 1369 1369 1374 1369 1364 1379 1379 
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  TemperatureLimiting
+<S>STCYC  4
+<S>STMCC  1 (4:5)
+<S>STMIF  3
+<S>STSUB  22
+<S>STAKI  26
+<S>STLIN  71
+<S>STXLN  32
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  10
+<S>STPTH  4
+<S>STPDN  0.13   
+<S>STPBG  1
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  9
+<S>STAV2  10
+<S>STAV3  15
+<S>STST1  36
+<S>STST2  32
+<S>STST3  22
+<S>STPAR  2
+<S>STCAL  12
+<S>STFN1  217
+<S>STFN2  130
+
+<DEFINE> Mult12Temp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1390 N DC OV B N ns R
+<DEFINE> Mult36Temp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1390 N DC OV B N ns R
+<DEFINE> DutyCycThermProtnDi_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1391 N DC OV B N uc R
+<DEFINE> MotVelCrf_MotRadPerSec_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1391 N DC OV B N fs R
+<DEFINE> MotCurrPeakEstimd_AmprSqd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1392 N DC OV B N fs R
+<DEFINE> MotCurrPeakEstimdFild_AmprSqd_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1392 N DC OV B N fs R
+<DEFINE> MaxOut_Uls_T_u16p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1393 N DC OV B N pus R
+<DEFINE> MultiFilterPercMax C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1390 N DR OF F I (fs,ns,ns,uc,fs,fs,fs,pus) -
+<DEFINE> MultiFilterPercMax C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1390 N DF OF F I (fs,ns,ns,uc,fs,fs,fs,pus) -
+<DEFINE> MaxSlowFilt_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1395 N DC OV B N fs -
+<DEFINE> MaxSlowFilt_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1395 N DF OV B N fs -
+<DEFINE> ThermLimSlowFilMax_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1396 N DC OV B N fs -
+<DEFINE> ThermLimSlowFilMax_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1396 N DF OV B N fs -
+<DEFINE> Mult36TempSlc_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1397 N DC OV B N ns -
+<DEFINE> Mult36TempSlc_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1397 N DF OV B N ns -
+<DEFINE> Mult_Uls_T_u3p13 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1398 N DC OV B N [6,us] -
+<DEFINE> Mult_Uls_T_u3p13 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1398 N DF OV B N [6,us] -
+<DEFINE> Mult_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1399 N DC OV B N [6,fs] -
+<DEFINE> Mult_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1399 N DF OV B N [6,fs] -
+<DEFINE> MaxFilOut_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1400 N DC OV B N [6,fs] -
+<DEFINE> MaxFilOut_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1400 N DF OV B N [6,fs] -
+<DEFINE> MaxOut_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1401 N DC OV B N fs -
+<DEFINE> MaxOut_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1401 N DF OV B N fs -
+<DEFINE> Index_Cnt_T_u08 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1402 N DC OV B N uc -
+<DEFINE> Index_Cnt_T_u08 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1402 N DF OV B N uc -
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnSlowFilTSeln_Logl 1404
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnSlowFilTSeln_Logl 1404 R
+<R>C MultiFilterPercMax Abslt_f32_f32 1413
+<R>X MultiFilterPercMax Abslt_f32_f32 1413 R
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltMotVelBreakPt_Val 1413
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltMotVelBreakPt_Val 1413 R
+<R>C MultiFilterPercMax UseInpLowr 1418
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1418
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1418 R
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr1NonStallTblY_Ary1D 1418
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr1NonStallTblY_Ary1D 1418 R
+<LIT> 0 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1415 34 N ON ni B X
+<R>C MultiFilterPercMax UseInpLowr 1423
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1423
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1423 R
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr2NonStallTblY_Ary1D 1423
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr2NonStallTblY_Ary1D 1423 R
+<LIT> 1 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1420 34 N DN ni B X
+<R>C MultiFilterPercMax UseInpLowr 1428
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1428
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1428 R
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr3NonStallTblY_Ary1D 1428
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr3NonStallTblY_Ary1D 1428 R
+<LIT> 2 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1425 34 N DN ni B X
+<R>C MultiFilterPercMax UseInpLowr 1433
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1433
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1433 R
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr4NonStallTblY_Ary1D 1433
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr4NonStallTblY_Ary1D 1433 R
+<LIT> 3 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1430 34 N DN ni B X
+<R>C MultiFilterPercMax UseInpLowr 1438
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1438
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1438 R
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr5NonStallTblY_Ary1D 1438
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr5NonStallTblY_Ary1D 1438 R
+<LIT> 4 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1435 34 N DN ni B X
+<R>C MultiFilterPercMax UseInpLowr 1443
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1443
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1443 R
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr6NonStallTblY_Ary1D 1443
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr6NonStallTblY_Ary1D 1443 R
+<LIT> 5 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1440 34 N DN ni B X
+<R>C MultiFilterPercMax UseInpLowr 1450
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1450
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1450 R
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr1StallTblY_Ary1D 1450
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr1StallTblY_Ary1D 1450 R
+<LIT> 0 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1447 34 N ON ni B X
+<R>C MultiFilterPercMax UseInpLowr 1455
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1455
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1455 R
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr2StallTblY_Ary1D 1455
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr2StallTblY_Ary1D 1455 R
+<LIT> 1 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1452 34 N DN ni B X
+<R>C MultiFilterPercMax UseInpLowr 1460
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1460
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1460 R
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr3StallTblY_Ary1D 1460
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr3StallTblY_Ary1D 1460 R
+<LIT> 2 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1457 34 N DN ni B X
+<R>C MultiFilterPercMax UseInpLowr 1465
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1465
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1465 R
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr4StallTblY_Ary1D 1465
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr4StallTblY_Ary1D 1465 R
+<LIT> 3 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1462 34 N DN ni B X
+<R>C MultiFilterPercMax UseInpLowr 1470
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1470
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1470 R
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr5StallTblY_Ary1D 1470
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr5StallTblY_Ary1D 1470 R
+<LIT> 4 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1467 34 N DN ni B X
+<R>C MultiFilterPercMax UseInpLowr 1475
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1475
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1475 R
+<R>C MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr6StallTblY_Ary1D 1475
+<R>X MultiFilterPercMax Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplr6StallTblY_Ary1D 1475 R
+<LIT> 5 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1472 34 N DN ni B X
+<R>X MultiFilterPercMax Rte_Inst_DutyCycThermProtn 1478 R
+<LIT> 0 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1478 63 N ON ni B X
+<R>X MultiFilterPercMax Rte_Inst_DutyCycThermProtn 1479 R
+<LIT> 1 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1479 63 N DN ni B X
+<R>X MultiFilterPercMax Rte_Inst_DutyCycThermProtn 1480 R
+<LIT> 2 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1480 63 N DN ni B X
+<R>X MultiFilterPercMax Rte_Inst_DutyCycThermProtn 1481 R
+<LIT> 3 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1481 63 N DN ni B X
+<R>X MultiFilterPercMax Rte_Inst_DutyCycThermProtn 1482 R
+<LIT> 4 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1482 63 N DN ni B X
+<R>X MultiFilterPercMax Rte_Inst_DutyCycThermProtn 1483 R
+<LIT> 5 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1483 63 N DN ni B X
+<LIT> 0 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1485 31 N ON ui B X
+<R>C MultiFilterPercMax FixdToFloat_f32_u16 1487
+<R>X MultiFilterPercMax FixdToFloat_f32_u16 1487 R
+<R>C MultiFilterPercMax FilLpUpdOutp_f32 1490
+<R>X MultiFilterPercMax FilLpUpdOutp_f32 1490 R
+<R>X MultiFilterPercMax Rte_Inst_DutyCycThermProtn 1490 R
+<LIT> 0 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1490 29 N ON ni B X
+<LIT> 0 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1490 67 N ON ni B X
+<R>C MultiFilterPercMax FilLpUpdOutp_f32 1491
+<R>X MultiFilterPercMax FilLpUpdOutp_f32 1491 R
+<R>X MultiFilterPercMax Rte_Inst_DutyCycThermProtn 1491 R
+<LIT> 1 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1491 29 N DN ni B X
+<LIT> 1 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1491 67 N DN ni B X
+<R>C MultiFilterPercMax FilLpUpdOutp_f32 1492
+<R>X MultiFilterPercMax FilLpUpdOutp_f32 1492 R
+<R>X MultiFilterPercMax Rte_Inst_DutyCycThermProtn 1492 R
+<LIT> 2 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1492 29 N DN ni B X
+<LIT> 2 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1492 67 N DN ni B X
+<R>C MultiFilterPercMax FilLpUpdOutp_f32 1493
+<R>X MultiFilterPercMax FilLpUpdOutp_f32 1493 R
+<R>X MultiFilterPercMax Rte_Inst_DutyCycThermProtn 1493 R
+<LIT> 3 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1493 29 N DN ni B X
+<LIT> 3 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1493 67 N DN ni B X
+<R>C MultiFilterPercMax FilLpUpdOutp_f32 1494
+<R>X MultiFilterPercMax FilLpUpdOutp_f32 1494 R
+<R>X MultiFilterPercMax Rte_Inst_DutyCycThermProtn 1494 R
+<LIT> 4 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1494 29 N DN ni B X
+<LIT> 4 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1494 67 N DN ni B X
+<R>C MultiFilterPercMax FilLpUpdOutp_f32 1495
+<R>X MultiFilterPercMax FilLpUpdOutp_f32 1495 R
+<R>X MultiFilterPercMax Rte_Inst_DutyCycThermProtn 1495 R
+<LIT> 5 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1495 29 N DN ni B X
+<LIT> 5 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1495 67 N DN ni B X
+<R>C MultiFilterPercMax Max_f32 1497
+<R>X MultiFilterPercMax Max_f32 1497 R
+<LIT> 0 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1497 29 N ON ni B X
+<LIT> 0 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1497 62 N ON ni B X
+<LIT> 1 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1497 86 N DN ni B X
+<R>C MultiFilterPercMax Max_f32 1498
+<R>X MultiFilterPercMax Max_f32 1498 R
+<LIT> 2 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1498 29 N DN ni B X
+<LIT> 2 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1498 62 N DN ni B X
+<LIT> 3 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1498 86 N DN ni B X
+<R>C MultiFilterPercMax Max_f32 1499
+<R>X MultiFilterPercMax Max_f32 1499 R
+<LIT> 4 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1499 29 N DN ni B X
+<LIT> 4 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1499 62 N DN ni B X
+<LIT> 5 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1499 86 N DN ni B X
+<R>C MultiFilterPercMax Max_f32 1501
+<R>X MultiFilterPercMax Max_f32 1501 R
+<LIT> 2 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1501 61 N DN ni B X
+<LIT> 4 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1501 85 N DN ni B X
+<R>C MultiFilterPercMax Max_f32 1502
+<R>X MultiFilterPercMax Max_f32 1502 R
+<LIT> 0 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1502 56 N ON ni B X
+<R>C MultiFilterPercMax Lim_f32 1504
+<R>X MultiFilterPercMax Lim_f32 1504 R
+<LIT> 0.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1504 54 N FN fs B X
+<R>C MultiFilterPercMax FloatToFixd_u16_f32 1506
+<R>X MultiFilterPercMax FloatToFixd_u16_f32 1506 R
+<LIT> 0.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1511 48 N FN fs B X
+<R>C MultiFilterPercMax Lim_f32 1515
+<R>X MultiFilterPercMax Lim_f32 1515 R
+<LIT> 0.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1515 79 N FN fs B X
+<CTLG> MultiFilterPercMax 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 12
+<CTLG> 10 11
+<CTLG> 11 9
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 13 15
+<CTLG> 14 16
+<CTLG> 15 16
+<CTLG> 16 18
+<CTLGN> 1394 1404 1404 1408 1413 1413 1445 1485 1485 1485 1485 1485 1509 1509 1509 1513 1517 1517 
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  MultiFilterPercMax
+<S>STCYC  5
+<S>STMCC  0 (5:5)
+<S>STMIF  1
+<S>STSUB  54
+<S>STAKI  59
+<S>STLIN  123
+<S>STXLN  80
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  8
+<S>STPTH  16
+<S>STPDN  0.20   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  14
+<S>STAV3  17
+<S>STST1  56
+<S>STST2  49
+<S>STST3  41
+<S>STPAR  7
+<S>STCAL  22
+<S>STFN1  449
+<S>STFN2  274
+
+<DEFINE> MotVelCrf_MotRadPerSec_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1527 N DC OV B N fs R
+<DEFINE> SlcTemp_DegCgrd_T_s15p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1527 N DC OV B N ns R
+<DEFINE> MaxOut_Uls_T_u16p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1527 N DC OV B N us R
+<DEFINE> ThermalLoadLimit C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1527 N DR OF F I (fs,fs,ns,us) -
+<DEFINE> ThermalLoadLimit C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1527 N DF OF F I (fs,fs,ns,us) -
+<DEFINE> Index_Cnt_T_u08 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1529 N DC OV B N uc -
+<DEFINE> Index_Cnt_T_u08 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1529 N DF OV B N uc -
+<DEFINE> DutyCycThermProtn_MotNwtMtr_T_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1530 N DC OV B N us -
+<DEFINE> DutyCycThermProtn_MotNwtMtr_T_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1530 N DF OV B N us -
+<DEFINE> DutyCycThermProtnLo_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1531 N DC OV B N fs -
+<DEFINE> DutyCycThermProtnLo_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1531 N DF OV B N fs -
+<DEFINE> DutyCycThermProtnHi_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1532 N DC OV B N fs -
+<DEFINE> DutyCycThermProtnHi_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1532 N DF OV B N fs -
+<DEFINE> ThermLoadLimTblY_MotNwtMtr_T_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1533 N DC OV B N [8,us] -
+<DEFINE> ThermLoadLimTblY_MotNwtMtr_T_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1533 N DF OV B N [8,us] -
+<DEFINE> ThermalLoadLmt_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1534 N DC OV B N fs -
+<DEFINE> ThermalLoadLmt_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1534 N DF OV B N fs -
+<DEFINE> ThermalLoadLmt_MotNwtMtr_T_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1535 N DC OV B N us -
+<DEFINE> ThermalLoadLmt_MotNwtMtr_T_u9p7 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1535 N DF OV B N us -
+<DEFINE> DutyCycThermProtn_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1536 N DC OV B N fs -
+<DEFINE> DutyCycThermProtn_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1536 N DF OV B N fs -
+<R>C ThermalLoadLimit Abslt_f32_f32 1539
+<R>X ThermalLoadLimit Abslt_f32_f32 1539 R
+<R>C ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltMotVelBreakPt_Val 1539
+<R>X ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnAbsltMotVelBreakPt_Val 1539 R
+<R>C ThermalLoadLimit LnrIntrpn_u16_s16VariXu16VariY 1544
+<R>X ThermalLoadLimit LnrIntrpn_u16_s16VariXu16VariY 1544 R
+<R>C ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1544
+<R>X ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1544 R
+<R>C ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnLstTblValNonStall_Ary1D 1544
+<R>X ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnLstTblValNonStall_Ary1D 1544 R
+<R>C ThermalLoadLimit LnrIntrpn_u16_s16VariXu16VariY 1551
+<R>X ThermalLoadLimit LnrIntrpn_u16_s16VariXu16VariY 1551 R
+<R>C ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1551
+<R>X ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnMplrTblX_Ary1D 1551 R
+<R>C ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnLstTblValStall_Ary1D 1551
+<R>X ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnLstTblValStall_Ary1D 1551 R
+<R>X ThermalLoadLimit Rte_Inst_DutyCycThermProtn 1554 R
+<R>C ThermalLoadLimit FixdToFloat_f32_u16 1556
+<R>X ThermalLoadLimit FixdToFloat_f32_u16 1556 R
+<R>X ThermalLoadLimit Rte_Inst_DutyCycThermProtn 1559 R
+<R>C ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnTqCmdSlewDwn_Val 1559
+<R>X ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnTqCmdSlewDwn_Val 1559 R
+<R>X ThermalLoadLimit Rte_Inst_DutyCycThermProtn 1560 R
+<R>C ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnTqCmdSlewUp_Val 1560
+<R>X ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnTqCmdSlewUp_Val 1560 R
+<R>C ThermalLoadLimit Lim_f32 1561
+<R>X ThermalLoadLimit Lim_f32 1561 R
+<R>X ThermalLoadLimit Rte_Inst_DutyCycThermProtn 1562 R
+<R>C ThermalLoadLimit FloatToFixd_u16_f32 1564
+<R>X ThermalLoadLimit FloatToFixd_u16_f32 1564 R
+<R>X ThermalLoadLimit Rte_Inst_DutyCycThermProtn 1566 R
+<LIT> 0 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1569 31 N ON ui B X
+<LIT> 1 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1571 50 N DN ui B X
+<R>C ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnThermLoadLimTblY_Ary1D 1577
+<R>X ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnThermLoadLimTblY_Ary1D 1577 R
+<R>C ThermalLoadLimit LnrIntrpn_u16_u16VariXu16VariY 1585
+<R>X ThermalLoadLimit LnrIntrpn_u16_u16VariXu16VariY 1585 R
+<R>C ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnThermLoadLimTblX_Ary1D 1585
+<R>X ThermalLoadLimit Rte_Prm_DutyCycThermProtn_DutyCycThermProtnThermLoadLimTblX_Ary1D 1585 R
+<R>C ThermalLoadLimit FixdToFloat_f32_u16 1587
+<R>X ThermalLoadLimit FixdToFloat_f32_u16 1587 R
+<R>X ThermalLoadLimit Rte_Inst_DutyCycThermProtn 1589 R
+<CTLG> ThermalLoadLimit 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 6 12
+<CTLG> 7 8
+<CTLG> 7 9
+<CTLG> 8 10
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 11 6
+<CTLG> 12 13
+<CTLG> 13 15
+<CTLGN> 1528 1539 1539 1546 1569 1569 1569 1571 1571 1575 1569 1569 1591 1591 1591 
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  ThermalLoadLimit
+<S>STCYC  4
+<S>STMCC  0 (4:4)
+<S>STMIF  2
+<S>STSUB  17
+<S>STAKI  21
+<S>STLIN  63
+<S>STXLN  30
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  8
+<S>STPTH  6
+<S>STPDN  0.20   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  9
+<S>STAV2  10
+<S>STAV3  15
+<S>STST1  32
+<S>STST2  27
+<S>STST3  19
+<S>STPAR  3
+<S>STCAL  14
+<S>STFN1  184
+<S>STFN2  109
+
+<DEFINE> IvtrLoaMtgtnEna_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1605 N DC OV B N uc R
+<DEFINE> DualEcuFltMtgtnEna_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1606 N DC OV B N uc R
+<DEFINE> AbsTempLimitSlew_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1607 N DC OV B N fs R
+<DEFINE> ThermalLoadLmt_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1608 N DC OV B N fs R
+<DEFINE> DutyCycThermProtnDi_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1609 N DC OV B N uc R
+<DEFINE> ThermLoadDptLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1610 N DC OV B N pfs R
+<DEFINE> ThermTempDptLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1611 N DC OV B N pfs R
+<DEFINE> TherrmalLimitScaling C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1605 N DR OF F I (fs,uc,uc,fs,fs,uc,pfs,pfs) -
+<DEFINE> TherrmalLimitScaling C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1605 N DF OF F I (fs,uc,uc,fs,fs,uc,pfs,pfs) -
+<DEFINE> ThermMotTqLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1613 N DC OV B N fs -
+<DEFINE> ThermMotTqLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1613 N DF OV B N fs -
+<R>C TherrmalLimitScaling Rte_Prm_DutyCycThermProtn_DutyCycThermProtnThermLimScaFac_Val 1620
+<R>X TherrmalLimitScaling Rte_Prm_DutyCycThermProtn_DutyCycThermProtnThermLimScaFac_Val 1620 R
+<R>C TherrmalLimitScaling Rte_Prm_DutyCycThermProtn_DutyCycThermProtnThermLimScaFac_Val 1623
+<R>X TherrmalLimitScaling Rte_Prm_DutyCycThermProtn_DutyCycThermProtnThermLimScaFac_Val 1623 R
+<R>C TherrmalLimitScaling Lim_f32 1640
+<R>X TherrmalLimitScaling Lim_f32 1640 R
+<R>C TherrmalLimitScaling Lim_f32 1644
+<R>X TherrmalLimitScaling Lim_f32 1644 R
+<R>C TherrmalLimitScaling Lim_f32 1648
+<R>X TherrmalLimitScaling Lim_f32 1648 R
+<R>C TherrmalLimitScaling Min_f32 1648
+<R>X TherrmalLimitScaling Min_f32 1648 R
+<CTLG> TherrmalLimitScaling 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 7 9
+<CTLGN> 1612 1616 1616 1625 1633 1633 1650 1650 1650 
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  TherrmalLimitScaling
+<S>STCYC  3
+<S>STMCC  1 (3:4)
+<S>STMIF  1
+<S>STSUB  6
+<S>STAKI  9
+<S>STLIN  38
+<S>STXLN  21
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  4
+<S>STPDN  0.19   
+<S>STPBG  1
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  9
+<S>STAV3  10
+<S>STST1  15
+<S>STST2  12
+<S>STST3  11
+<S>STPAR  7
+<S>STCAL  3
+<S>STFN1  77
+<S>STFN2  40
+
+<DEFINE> DutyCycThermProtnDi_Cnt_T_Logl C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1662 N DC OV B N uc R
+<DEFINE> ThermMotTqLim_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1663 N DC OV B N fs R
+<DEFINE> MaxOut_Uls_T_u16p0 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1664 N DC OV B N us R
+<DEFINE> ThermalLimitStatus C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1662 N DR OF F I (fs,uc,fs,us) -
+<DEFINE> ThermalLimitStatus C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1662 N DF OF F I (fs,uc,fs,us) -
+<DEFINE> ThermRednFac_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1666 N DC OV B N fs -
+<DEFINE> ThermRednFac_Uls_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1666 N DF OV B N fs -
+<LIT> 0.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1666 58 N FN fs B O
+<DEFINE> ThermLoadLimTblYVal_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1667 N DC OV B N fs -
+<DEFINE> ThermLoadLimTblYVal_MotNwtMtr_T_f32 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1667 N DF OV B N fs -
+<R>C ThermalLimitStatus FixdToFloat_f32_u16 1673
+<R>X ThermalLimitStatus FixdToFloat_f32_u16 1673 R
+<R>C ThermalLimitStatus Rte_Prm_DutyCycThermProtn_DutyCycThermProtnThermLoadLimTblY_Ary1D 1673
+<R>X ThermalLimitStatus Rte_Prm_DutyCycThermProtn_DutyCycThermProtnThermLoadLimTblY_Ary1D 1673 R
+<LIT> 0 - P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1673 117 N ON ni B X
+<R>C ThermalLimitStatus Max_f32 1674
+<R>X ThermalLimitStatus Max_f32 1674 R
+<R>C ThermalLimitStatus Rte_Prm_DutyCycThermProtn_DutyCycThermProtnThermLimScaFac_Val 1674
+<R>X ThermalLimitStatus Rte_Prm_DutyCycThermProtn_DutyCycThermProtnThermLimScaFac_Val 1674 R
+<R>X ThermalLimitStatus Rte_Inst_DutyCycThermProtn 1675 R
+<R>C ThermalLimitStatus Min_f32 1678
+<R>X ThermalLimitStatus Min_f32 1678 R
+<LIT> 1.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1678 74 N FN fs B X
+<LIT> 1.0 F P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1679 43 N FN fs B X
+<R>C ThermalLimitStatus Rte_Prm_DutyCycThermProtn_DutyCycThermProtnDutyCycFildThd_Val 1684
+<R>X ThermalLimitStatus Rte_Prm_DutyCycThermProtn_DutyCycThermProtnDutyCycFildThd_Val 1684 R
+<R>C ThermalLimitStatus Rte_Call_DutyCycThermProtn_SetNtcSts_Oper 1687
+<R>X ThermalLimitStatus Rte_Call_DutyCycThermProtn_SetNtcSts_Oper 1687 R
+<LIT> 0 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1687 60 N ON ui B X
+<R>C ThermalLimitStatus Rte_Call_DutyCycThermProtn_SetNtcSts_Oper 1693
+<R>X ThermalLimitStatus Rte_Call_DutyCycThermProtn_SetNtcSts_Oper 1693 R
+<LIT> 0 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1693 60 N ON ui B X
+<R>C ThermalLimitStatus Lim_f32 1697
+<R>X ThermalLimitStatus Lim_f32 1697 R
+<CTLG> ThermalLimitStatus 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 7 9
+<CTLGN> 1665 1670 1670 1684 1684 1690 1699 1699 1699 
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  ThermalLimitStatus
+<S>STCYC  3
+<S>STMCC  1 (3:4)
+<S>STMIF  1
+<S>STSUB  9
+<S>STAKI  12
+<S>STLIN  34
+<S>STXLN  15
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  4
+<S>STPDN  0.27   
+<S>STPBG  1
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  10
+<S>STAV3  12
+<S>STST1  17
+<S>STST2  14
+<S>STST3  12
+<S>STPAR  3
+<S>STCAL  8
+<S>STFN1  93
+<S>STFN2  53
+
+<DEFINE> TableX_Cnt_T_s16 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1713 N DC OV B N p=ns R
+<DEFINE> TableY_Cnt_T_u16 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1714 N DC OV B N p=us R
+<DEFINE> Size_Cnt_T_u16 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1715 N DC OV B N us R
+<DEFINE> Input_Cnt_T_s16 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1716 N DC OV B N ns R
+<DEFINE> UseInpLowr C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1713 N DR OF F I (us,p=ns,p=us,us,ns) -
+<DEFINE> UseInpLowr C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1713 N DF OF F I (us,p=ns,p=us,us,ns) -
+<DEFINE> Idx_Cnt_T_u08 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1718 N DC OV B N uc -
+<DEFINE> Idx_Cnt_T_u08 C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1718 N DF OV B N uc -
+<LIT> 0 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1718 47 N ON ui B O
+<LIT> 0 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1721 50 N ON ui B X
+<LIT> 1 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1725 71 N DN ui B X
+<LIT> 1 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1727 57 N DN ui B X
+<LIT> 1 U P C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c 1731 58 N DN ui B X
+<CTLG> UseInpLowr 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 9
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 8
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 5
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 9 11
+<CTLGN> 1717 1721 1721 1725 1725 1731 1731 1729 1725 1736 1736 
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  UseInpLowr
+<S>STCYC  4
+<S>STMCC  0 (4:4)
+<S>STMIF  3
+<S>STSUB  0
+<S>STAKI  4
+<S>STLIN  19
+<S>STXLN  8
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  4
+<S>STPDN  0.50   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  6
+<S>STAV2  10
+<S>STAV3  11
+<S>STST1  11
+<S>STST2  7
+<S>STST3  6
+<S>STPAR  4
+<S>STCAL  0
+<S>STFN1  48
+<S>STFN2  23
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  DutyCycThermProtnInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  FiltSVReinit
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  TemperatureSelection
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  TemperatureLimiting
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  UseInpLowr
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  MultiFilterPercMax
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  ThermalLoadLimit
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  TherrmalLimitScaling
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  ThermalLimitStatus
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  DutyCycThermProtnPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinLookup
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNAM  C:/component/SF009A_DutyCycThermProtn_Impl/src/DutyCycThermProtn.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  8
+<S>STECT  1
+<S>STFNC  10
+<S>STFCO  178
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  258
+<S>STOPT  35
+<S>STOPN  361
+<S>STTOT  4128
+<S>STZIP  2597
+<S>STHAL  3247
+<S>STSHN  12190
+<S>STDIF  17.08  
+<S>STEFF  608359
+<S>STVOL  35622
+<S>STDEV  101.39 
+<S>STBUG  7
+<S>STTPP  1750
+<S>STTLN  546
+<S>STM20  1499
+<S>STM21  2623
+<S>STM22  256
+<S>STM28  88
+<S>STM33  64
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  4.319  
+<S>STBMS  5.615  
+<S>STBME  7.046  
+<S>STTDO  4.359  
+<S>STTDS  4.573  
+<S>STTDE  4.670  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.083  
+

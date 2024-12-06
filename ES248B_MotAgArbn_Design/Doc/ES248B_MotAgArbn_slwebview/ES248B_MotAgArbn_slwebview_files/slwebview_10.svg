@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" baseProfile="tiny" class="canvas" display="inline" height="95%" id="canvas.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2" original_viewBox="612.16 63.50 810.44 640.50" preserveAspectRatio="xMinYMin meet" viewBox="612.16 63.50 810.44 640.50" width="100%" x="0" y="0" zoomAndPan="disable">
+  <defs/>
+  <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel">
+    <g id="background" stroke="none" fill-opacity="1" fill="#fffcec">
+      <g fill="#fffcec" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M618.157,69.4958 L1416.6,69.4958 L1416.6,697.997 L618.157,697.997 L618.157,69.4958z "/>
+      </g>
+    </g>
+    <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2" linkid="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+      <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2">SigAvlChkRev2</title>
+      <g fill="none" stroke="#c67f00" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,1321.98,683.997)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M14,7 C14,10.866 10.866,14 7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 C10.866,0 14,3.13401 14,7 z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,1321.98,683.997)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M13,7 C13,10.3137 10.3137,13 7,13 C3.68629,13 1,10.3137 1,7 C1,3.68629 3.68629,1 7,1 C10.3137,1 13,3.68629 13,7 z "/>
+      </g>
+      <g fill="none" stroke="#c67f00" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,996.062,683.997)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M14,7 C14,10.866 10.866,14 7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 C10.866,0 14,3.13401 14,7 z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,996.062,683.997)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M13,7 C13,10.3137 10.3137,13 7,13 C3.68629,13 1,10.3137 1,7 C1,3.68629 3.68629,1 7,1 C10.3137,1 13,3.68629 13,7 z "/>
+      </g>
+      <g fill="none" stroke="#c67f00" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,996.062,544.059)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M14,7 C14,10.866 10.866,14 7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 C10.866,0 14,3.13401 14,7 z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,996.062,544.059)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M13,7 C13,10.3137 10.3137,13 7,13 C3.68629,13 1,10.3137 1,7 C1,3.68629 3.68629,1 7,1 C10.3137,1 13,3.68629 13,7 z "/>
+      </g>
+      <g fill="none" stroke="#c67f00" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,1321.98,425.391)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M14,7 C14,10.866 10.866,14 7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 C10.866,0 14,3.13401 14,7 z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,1321.98,425.391)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M13,7 C13,10.3137 10.3137,13 7,13 C3.68629,13 1,10.3137 1,7 C1,3.68629 3.68629,1 7,1 C10.3137,1 13,3.68629 13,7 z "/>
+      </g>
+      <g fill="none" stroke="#c67f00" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,996.062,425.391)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M14,7 C14,10.866 10.866,14 7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 C10.866,0 14,3.13401 14,7 z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,996.062,425.391)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M13,7 C13,10.3137 10.3137,13 7,13 C3.68629,13 1,10.3137 1,7 C1,3.68629 3.68629,1 7,1 C10.3137,1 13,3.68629 13,7 z "/>
+      </g>
+      <g fill="none" stroke="#c67f00" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,996.062,304.421)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M14,7 C14,10.866 10.866,14 7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 C10.866,0 14,3.13401 14,7 z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,996.062,304.421)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M13,7 C13,10.3137 10.3137,13 7,13 C3.68629,13 1,10.3137 1,7 C1,3.68629 3.68629,1 7,1 C10.3137,1 13,3.68629 13,7 z "/>
+      </g>
+      <g fill="none" stroke="#c67f00" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,618.157,304.421)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M14,7 C14,10.866 10.866,14 7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 C10.866,0 14,3.13401 14,7 z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,618.157,304.421)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M13,7 C13,10.3137 10.3137,13 7,13 C3.68629,13 1,10.3137 1,7 C1,3.68629 3.68629,1 7,1 C10.3137,1 13,3.68629 13,7 z "/>
+      </g>
+      <g fill="none" stroke="#c67f00" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,996.062,176.496)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M14,7 C14,10.866 10.866,14 7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 C10.866,0 14,3.13401 14,7 z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,996.062,176.496)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M13,7 C13,10.3137 10.3137,13 7,13 C3.68629,13 1,10.3137 1,7 C1,3.68629 3.68629,1 7,1 C10.3137,1 13,3.68629 13,7 z "/>
+      </g>
+      <g fill="none" stroke="#c67f00" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,618.157,176.496)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M14,7 C14,10.866 10.866,14 7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 C10.866,0 14,3.13401 14,7 z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,618.157,176.496)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M13,7 C13,10.3137 10.3137,13 7,13 C3.68629,13 1,10.3137 1,7 C1,3.68629 3.68629,1 7,1 C10.3137,1 13,3.68629 13,7 z "/>
+      </g>
+      <g fill="none" stroke="#c67f00" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,1321.98,544.059)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M14,7 C14,10.866 10.866,14 7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 C10.866,0 14,3.13401 14,7 z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,1321.98,544.059)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M13,7 C13,10.3137 10.3137,13 7,13 C3.68629,13 1,10.3137 1,7 C1,3.68629 3.68629,1 7,1 C10.3137,1 13,3.68629 13,7 z "/>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/SigQlfr" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/SigQlfr">Stateflow.Annotation</title>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,1235.02,117.702)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,0 L75,0 L75,62 L0,62 L0,0z "/>
+        </g>
+        <g fill="none" stroke="#754c24" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1235.02,117.702)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip527)">
+          <defs>
+            <clipPath id="clip527">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-2469.43,-198.826 L726.339,-198.826 L726.339,2323.18 L-2469.43,2323.18 L-2469.43,-198.826z "/>
+            </clipPath>
+          </defs>
+          <text textLength="146" fill="#754c24" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">SigQlfr</text>
+          <text textLength="292" fill="#754c24" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">0 = No Result</text>
+          <text textLength="188" fill="#754c24" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="171" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">1 = Pass</text>
+          <text textLength="157" fill="#754c24" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="231" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">2 = Fail</text>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/SigAvl" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/SigAvl">Stateflow.Annotation</title>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,1109.25,117.702)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,0 L51.5,0 L51.5,47 L0,47 L0,0z "/>
+        </g>
+        <g fill="none" stroke="#754c24" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1109.25,117.702)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip528)">
+          <defs>
+            <clipPath id="clip528">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-1966.38,-198.826 L1229.39,-198.826 L1229.39,2323.18 L-1966.38,2323.18 L-1966.38,-198.826z "/>
+            </clipPath>
+          </defs>
+          <text textLength="135" fill="#754c24" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">SigAvl</text>
+          <text textLength="198" fill="#754c24" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">False = 0</text>
+          <text textLength="188" fill="#754c24" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="171" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">Pass = 1</text>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#47)" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#47)">{ SigAvl =0; }</title>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M1328.98,558.059 C1328.98,558.059 1328.98,561.478 1328.98,563.187 C1328.98,564.896 1328.98,566.606 1328.98,568.315 C1328.98,570.024 1328.98,571.733 1328.98,573.443 C1328.98,575.152 1328.98,576.861 1328.98,578.57 C1328.98,580.28 1328.98,581.989 1328.98,583.698 C1328.98,585.407 1328.98,587.117 1328.98,588.826 C1328.98,590.535 1328.98,592.244 1328.98,593.954 C1328.98,595.663 1328.98,597.372 1328.98,599.081 C1328.98,600.791 1328.98,602.5 1328.98,604.209 C1328.98,605.918 1328.98,607.628 1328.98,609.337 C1328.98,611.046 1328.98,612.755 1328.98,614.465 C1328.98,616.174 1328.98,617.883 1328.98,619.592 C1328.98,621.302 1328.98,623.011 1328.98,624.72 C1328.98,626.429 1328.98,628.139 1328.98,629.848 C1328.98,631.557 1328.98,633.266 1328.98,634.976 C1328.98,636.685 1328.98,638.394 1328.98,640.103 C1328.98,641.813 1328.98,643.522 1328.98,645.231 C1328.98,646.94 1328.98,648.65 1328.98,650.359 C1328.98,652.068 1328.98,653.777 1328.98,655.487 C1328.98,657.196 1328.98,658.905 1328.98,660.614 C1328.98,662.324 1328.98,664.033 1328.98,665.742 C1328.98,667.451 1328.98,669.161 1328.98,670.87 C1328.98,672.579 1328.98,675.997 1328.98,675.997 "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(6.12323e-17,-1,1,6.12323e-17,1328.98,558.059)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" opacity="0.01">
+          <path vector-effect="none" fill-rule="nonzero" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,1360.6,583.072)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,0 L56,0 L56,47 L0,47 L0,0z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1360.6,583.072)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip529)">
+          <defs>
+            <clipPath id="clip529">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-2971.77,-2060.3 L224,-2060.3 L224,461.702 L-2971.77,461.702 L-2971.77,-2060.3z "/>
+            </clipPath>
+          </defs>
+          <text textLength="16" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">{</text>
+          <text textLength="176" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">SigAvl =</text>
+        </g>
+        <g fill="none" stroke="#c835ba" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1360.6,583.072)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip529)">
+          <text textLength="27" fill="#c835ba" fill-opacity="1" stroke="none" xml:space="preserve" x="180" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">0</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1360.6,583.072)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip529)">
+          <text textLength="13" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="207" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">;</text>
+          <text textLength="16" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="171" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">}</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,1328.98,675.997)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M-2,0 L2,0 L0,-8 L-2,0z "/>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#46)" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#46)">[SigQlfr&lt;2 &amp;&amp; SigCorrChk&gt;0] </title>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M1003.06,558.059 C1003.06,558.059 1003.06,561.478 1003.06,563.187 C1003.06,564.896 1003.06,566.606 1003.06,568.315 C1003.06,570.024 1003.06,571.733 1003.06,573.443 C1003.06,575.152 1003.06,576.861 1003.06,578.57 C1003.06,580.28 1003.06,581.989 1003.06,583.698 C1003.06,585.407 1003.06,587.117 1003.06,588.826 C1003.06,590.535 1003.06,592.244 1003.06,593.954 C1003.06,595.663 1003.06,597.372 1003.06,599.081 C1003.06,600.791 1003.06,602.5 1003.06,604.209 C1003.06,605.918 1003.06,607.628 1003.06,609.337 C1003.06,611.046 1003.06,612.755 1003.06,614.465 C1003.06,616.174 1003.06,617.883 1003.06,619.592 C1003.06,621.302 1003.06,623.011 1003.06,624.72 C1003.06,626.429 1003.06,628.139 1003.06,629.848 C1003.06,631.557 1003.06,633.266 1003.06,634.976 C1003.06,636.685 1003.06,638.394 1003.06,640.103 C1003.06,641.813 1003.06,643.522 1003.06,645.231 C1003.06,646.94 1003.06,648.65 1003.06,650.359 C1003.06,652.068 1003.06,653.777 1003.06,655.487 C1003.06,657.196 1003.06,658.905 1003.06,660.614 C1003.06,662.324 1003.06,664.033 1003.06,665.742 C1003.06,667.451 1003.06,669.161 1003.06,670.87 C1003.06,672.579 1003.06,675.997 1003.06,675.997 "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(6.12323e-17,-1,1,6.12323e-17,1003.06,558.059)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" opacity="0.01">
+          <path vector-effect="none" fill-rule="nonzero" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,1011.72,590.412)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,0 L157,0 L157,32 L0,32 L0,0z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1011.72,590.412)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip530)">
+          <defs>
+            <clipPath id="clip530">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-1576.27,-2089.66 L1619.5,-2089.66 L1619.5,432.342 L-1576.27,432.342 L-1576.27,-2089.66z "/>
+            </clipPath>
+          </defs>
+          <text textLength="186" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">[SigQlfr&lt;</text>
+        </g>
+        <g fill="none" stroke="#c835ba" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1011.72,590.412)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip530)">
+          <text textLength="27" fill="#c835ba" fill-opacity="1" stroke="none" xml:space="preserve" x="190" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">2</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1011.72,590.412)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip530)">
+          <text textLength="367" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="217" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal"> &amp;&amp; SigCorrChk&gt;</text>
+        </g>
+        <g fill="none" stroke="#c835ba" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1011.72,590.412)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip530)">
+          <text textLength="27" fill="#c835ba" fill-opacity="1" stroke="none" xml:space="preserve" x="584" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">0</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1011.72,590.412)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip530)">
+          <text textLength="13" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="611" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">]</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,995.687,557.949)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <image x="0" y="0" width="20" height="28" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAO9JREFUSInt1DFOAzEQheF/JgHRkQAJRcQVaGk4BrlAbsEJuAWn4SA0W4B2QaSCkJ1HgVYh2YBZ2AKhfZ098mdrbBm6/Db2WUHL/DLEpBq7kVn/6CoF9mvQa34R0jRghOmwmg+s0DInha6BWjych8op6MxDgxXGHIeQTerEF2BYOQM7dWmA+/6qEEYocI5ToK+NzMaIYeB7qYXfA1tI7VKqRPDyvmM8A3PcnpDdNQOle8we0QcYFj8+oat3HVaC2xh0QmjYBIONHtruwU1vZzRD3DaFtoJt5O+DW5+NG1lgxUaHCzeyFNj6b9Oly7/MGwTtVFabQQXkAAAAAElFTkSuQmCC"/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,998.687,569.449)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,-8.5 L8.75,-8.5 L8.75,8.5 L0,8.5 L0,-8.5z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,998.687,560.949)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip531)">
+          <defs>
+            <clipPath id="clip531">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-1524.12,-1971.81 L1671.65,-1971.81 L1671.65,550.193 L-1524.12,550.193 L-1524.12,-1971.81z "/>
+            </clipPath>
+          </defs>
+          <text textLength="27" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">1</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,1003.06,675.997)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M-2,0 L2,0 L0,-8 L-2,0z "/>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#45)" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#45)"/>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M1010.06,551.059 C1010.06,551.059 1018.91,551.059 1023.36,551.059 C1027.82,551.059 1032.31,551.059 1036.8,551.059 C1041.3,551.059 1045.82,551.059 1050.35,551.059 C1054.87,551.059 1059.41,551.059 1063.95,551.059 C1068.49,551.059 1073.03,551.059 1077.58,551.059 C1082.12,551.059 1086.66,551.059 1091.2,551.059 C1095.74,551.059 1100.27,551.059 1104.8,551.059 C1109.32,551.059 1113.84,551.059 1118.34,551.059 C1122.85,551.059 1127.34,551.059 1131.82,551.059 C1136.3,551.059 1140.77,551.059 1145.22,551.059 C1149.67,551.059 1154.1,551.059 1158.52,551.059 C1162.94,551.059 1167.35,551.059 1171.74,551.059 C1176.13,551.059 1180.5,551.059 1184.86,551.059 C1189.22,551.059 1193.56,551.059 1197.89,551.059 C1202.22,551.059 1206.53,551.059 1210.84,551.059 C1215.14,551.059 1219.44,551.059 1223.72,551.059 C1228.01,551.059 1232.28,551.059 1236.55,551.059 C1240.83,551.059 1245.09,551.059 1249.36,551.059 C1253.62,551.059 1257.88,551.059 1262.16,551.059 C1266.43,551.059 1270.7,551.059 1274.98,551.059 C1279.27,551.059 1283.56,551.059 1287.87,551.059 C1292.18,551.059 1296.5,551.059 1300.85,551.059 C1305.21,551.059 1313.98,551.059 1313.98,551.059 "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,1010.06,551.059)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" opacity="0.01">
+          <path vector-effect="none" fill-rule="nonzero" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,1008.55,539.559)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <image x="0" y="0" width="20" height="28" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAARdJREFUSIntlE1OAkEQRl9VkI0LGIWIC915DU/kNTyACbfAG7ljO5AMIS4I8pULBmRmYjv4szG8pJNOded1dXd1w4mfYvXAZp0/EYxwG1YGFLmbTexs8JwSdhoys3tCmSv6FR8UCgCSQt914m32gHGHlDn0ce8dtm0sbjbr/LGVUMEtxGVqMuEXwHUr4W/RaUTM1woVLlXCwldHCd2YCptjAgNhBQBh5x+LaUH4LCXcb9k6gzHBC3gXcYUiQ5ER6rbJrJHhvmR2t1wiWGDxCrECm7sxbSUkGBFVWbmFHoreVh6FYAmMvxa6DV2xrb9PcAnVX1B9TmrwO/xhHSpyQaP+DhEUKPJWQjebKEifUfnjHJXyiRP/gXetkXJPWx5TrwAAAABJRU5ErkJggg=="/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,1011.55,551.059)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,-8.5 L8.75,-8.5 L8.75,8.5 L0,8.5 L0,-8.5z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1011.55,542.559)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip532)">
+          <defs>
+            <clipPath id="clip532">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-1575.57,-1898.25 L1620.2,-1898.25 L1620.2,623.753 L-1575.57,623.753 L-1575.57,-1898.25z "/>
+            </clipPath>
+          </defs>
+          <text textLength="27" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">2</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(6.12323e-17,1,-1,6.12323e-17,1313.98,551.059)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M-2,0 L2,0 L0,-8 L-2,0z "/>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#40)" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#40)">{ StallCntOutp = 0; }</title>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M632.157,311.421 C632.157,311.421 642.507,311.421 647.717,311.421 C652.928,311.421 658.17,311.421 663.421,311.421 C668.672,311.421 673.946,311.421 679.224,311.421 C684.501,311.421 689.795,311.421 695.087,311.421 C700.38,311.421 705.681,311.421 710.978,311.421 C716.274,311.421 721.574,311.421 726.864,311.421 C732.155,311.421 737.444,311.421 742.722,311.421 C747.999,311.421 753.271,311.421 758.528,311.421 C763.786,311.421 769.034,311.421 774.266,311.421 C779.499,311.421 784.72,311.421 789.924,311.421 C795.128,311.421 800.318,311.421 805.492,311.421 C810.666,311.421 815.824,311.421 820.966,311.421 C826.108,311.421 831.235,311.421 836.346,311.421 C841.458,311.421 846.554,311.421 851.637,311.421 C856.721,311.421 861.788,311.421 866.847,311.421 C871.906,311.421 876.95,311.421 881.989,311.421 C887.028,311.421 892.054,311.421 897.08,311.421 C902.105,311.421 907.122,311.421 912.142,311.421 C917.161,311.421 922.176,311.421 927.2,311.421 C932.223,311.421 937.246,311.421 942.284,311.421 C947.322,311.421 952.364,311.421 957.43,311.421 C962.495,311.421 967.569,311.421 972.675,311.421 C977.78,311.421 988.062,311.421 988.062,311.421 "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,632.157,311.421)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" opacity="0.01">
+          <path vector-effect="none" fill-rule="nonzero" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,736.765,244.712)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,0 L93.25,0 L93.25,47 L0,47 L0,0z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,736.765,244.712)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip533)">
+          <defs>
+            <clipPath id="clip533">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-476.434,-706.865 L2719.34,-706.865 L2719.34,1815.14 L-476.434,1815.14 L-476.434,-706.865z "/>
+            </clipPath>
+          </defs>
+          <text textLength="16" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">{</text>
+          <text textLength="325" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">StallCntOutp = </text>
+        </g>
+        <g fill="none" stroke="#c835ba" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,736.765,244.712)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip533)">
+          <text textLength="27" fill="#c835ba" fill-opacity="1" stroke="none" xml:space="preserve" x="329" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">0</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,736.765,244.712)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip533)">
+          <text textLength="13" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="356" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">;</text>
+          <text textLength="16" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="171" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">}</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(6.12323e-17,1,-1,6.12323e-17,988.062,311.421)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M-2,0 L2,0 L0,-8 L-2,0z "/>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#39)" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#39)">[LstStallCnt == 255] { StallCntOutp = 255; }</title>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M1003.06,190.496 C1003.06,190.496 1003.06,193.599 1003.06,195.184 C1003.06,196.77 1003.06,198.385 1003.06,200.009 C1003.06,201.633 1003.06,203.279 1003.06,204.928 C1003.06,206.578 1003.06,208.243 1003.06,209.906 C1003.06,211.57 1003.06,213.243 1003.06,214.91 C1003.06,216.577 1003.06,218.248 1003.06,219.91 C1003.06,221.572 1003.06,223.232 1003.06,224.881 C1003.06,226.531 1003.06,228.174 1003.06,229.805 C1003.06,231.435 1003.06,233.056 1003.06,234.663 C1003.06,236.269 1003.06,237.864 1003.06,239.444 C1003.06,241.023 1003.06,242.589 1003.06,244.139 C1003.06,245.689 1003.06,247.224 1003.06,248.744 C1003.06,250.264 1003.06,251.769 1003.06,253.26 C1003.06,254.751 1003.06,256.226 1003.06,257.69 C1003.06,259.154 1003.06,260.603 1003.06,262.043 C1003.06,263.483 1003.06,264.91 1003.06,266.331 C1003.06,267.752 1003.06,269.161 1003.06,270.57 C1003.06,271.978 1003.06,273.378 1003.06,274.781 C1003.06,276.184 1003.06,277.582 1003.06,278.988 C1003.06,280.395 1003.06,281.801 1003.06,283.221 C1003.06,284.642 1003.06,286.066 1003.06,287.513 C1003.06,288.959 1003.06,290.414 1003.06,291.899 C1003.06,293.384 1003.06,296.421 1003.06,296.421 "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(6.12323e-17,-1,1,6.12323e-17,1003.06,190.496)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" opacity="0.01">
+          <path vector-effect="none" fill-rule="nonzero" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,860.029,205.978)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,0 L107,0 L107,62 L0,62 L0,0z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,860.029,205.978)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip534)">
+          <defs>
+            <clipPath id="clip534">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-969.49,-551.929 L2226.28,-551.929 L2226.28,1970.08 L-969.49,1970.08 L-969.49,-551.929z "/>
+            </clipPath>
+          </defs>
+          <text textLength="326" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">[LstStallCnt == </text>
+        </g>
+        <g fill="none" stroke="#c835ba" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,860.029,205.978)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip534)">
+          <text textLength="81" fill="#c835ba" fill-opacity="1" stroke="none" xml:space="preserve" x="330" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">255</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,860.029,205.978)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip534)">
+          <text textLength="13" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="411" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">]</text>
+          <text textLength="16" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">{</text>
+          <text textLength="325" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="171" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">StallCntOutp = </text>
+        </g>
+        <g fill="none" stroke="#c835ba" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,860.029,205.978)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip534)">
+          <text textLength="81" fill="#c835ba" fill-opacity="1" stroke="none" xml:space="preserve" x="329" y="171" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">255</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,860.029,205.978)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip534)">
+          <text textLength="13" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="410" y="171" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">;</text>
+          <text textLength="16" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="231" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">}</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,995.687,190.386)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <image x="0" y="0" width="20" height="28" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAO9JREFUSInt1DFOAzEQheF/JgHRkQAJRcQVaGk4BrlAbsEJuAWn4SA0W4B2QaSCkJ1HgVYh2YBZ2AKhfZ098mdrbBm6/Db2WUHL/DLEpBq7kVn/6CoF9mvQa34R0jRghOmwmg+s0DInha6BWjych8op6MxDgxXGHIeQTerEF2BYOQM7dWmA+/6qEEYocI5ToK+NzMaIYeB7qYXfA1tI7VKqRPDyvmM8A3PcnpDdNQOle8we0QcYFj8+oat3HVaC2xh0QmjYBIONHtruwU1vZzRD3DaFtoJt5O+DW5+NG1lgxUaHCzeyFNj6b9Oly7/MGwTtVFabQQXkAAAAAElFTkSuQmCC"/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,998.687,201.886)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,-8.5 L8.75,-8.5 L8.75,8.5 L0,8.5 L0,-8.5z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,998.687,193.386)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip535)">
+          <defs>
+            <clipPath id="clip535">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-1524.12,-501.56 L1671.65,-501.56 L1671.65,2020.45 L-1524.12,2020.45 L-1524.12,-501.56z "/>
+            </clipPath>
+          </defs>
+          <text textLength="27" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">1</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,1003.06,296.421)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M-2,0 L2,0 L0,-8 L-2,0z "/>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#38)" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#38)"/>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M625.157,190.496 C625.157,190.496 625.157,193.599 625.157,195.184 C625.157,196.77 625.157,198.385 625.157,200.009 C625.157,201.633 625.157,203.279 625.157,204.928 C625.157,206.578 625.157,208.243 625.157,209.906 C625.157,211.57 625.157,213.243 625.157,214.91 C625.157,216.577 625.157,218.248 625.157,219.91 C625.157,221.572 625.157,223.232 625.157,224.881 C625.157,226.531 625.157,228.174 625.157,229.805 C625.157,231.435 625.157,233.056 625.157,234.663 C625.157,236.269 625.157,237.864 625.157,239.444 C625.157,241.023 625.157,242.589 625.157,244.139 C625.157,245.689 625.157,247.224 625.157,248.744 C625.157,250.264 625.157,251.769 625.157,253.26 C625.157,254.751 625.157,256.226 625.157,257.69 C625.157,259.154 625.157,260.603 625.157,262.043 C625.157,263.483 625.157,264.91 625.157,266.331 C625.157,267.752 625.157,269.161 625.157,270.57 C625.157,271.978 625.157,273.378 625.157,274.781 C625.157,276.184 625.157,277.582 625.157,278.988 C625.157,280.395 625.157,281.801 625.157,283.221 C625.157,284.642 625.157,286.066 625.157,287.513 C625.157,288.959 625.157,290.414 625.157,291.899 C625.157,293.384 625.157,296.421 625.157,296.421 "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(6.12323e-17,-1,1,6.12323e-17,625.157,190.496)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" opacity="0.01">
+          <path vector-effect="none" fill-rule="nonzero" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,617.782,190.386)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <image x="0" y="0" width="20" height="28" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAARdJREFUSIntlE1OAkEQRl9VkI0LGIWIC915DU/kNTyACbfAG7ljO5AMIS4I8pULBmRmYjv4szG8pJNOded1dXd1w4mfYvXAZp0/EYxwG1YGFLmbTexs8JwSdhoys3tCmSv6FR8UCgCSQt914m32gHGHlDn0ce8dtm0sbjbr/LGVUMEtxGVqMuEXwHUr4W/RaUTM1woVLlXCwldHCd2YCptjAgNhBQBh5x+LaUH4LCXcb9k6gzHBC3gXcYUiQ5ER6rbJrJHhvmR2t1wiWGDxCrECm7sxbSUkGBFVWbmFHoreVh6FYAmMvxa6DV2xrb9PcAnVX1B9TmrwO/xhHSpyQaP+DhEUKPJWQjebKEifUfnjHJXyiRP/gXetkXJPWx5TrwAAAABJRU5ErkJggg=="/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,620.782,201.886)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,-8.5 L8.75,-8.5 L8.75,8.5 L0,8.5 L0,-8.5z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,620.782,193.386)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip536)">
+          <defs>
+            <clipPath id="clip536">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-12.5,-501.56 L3183.27,-501.56 L3183.27,2020.45 L-12.5,2020.45 L-12.5,-501.56z "/>
+            </clipPath>
+          </defs>
+          <text textLength="27" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">2</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,625.157,296.421)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M-2,0 L2,0 L0,-8 L-2,0z "/>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#37)" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#37)">{ StallCntOutp = LstStallCnt +1; }</title>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M1009.72,185.646 C1009.72,185.646 1013.22,186.903 1015.08,187.763 C1016.95,188.623 1018.95,189.653 1020.93,190.804 C1022.92,191.956 1024.98,193.261 1027,194.671 C1029.03,196.081 1031.08,197.628 1033.06,199.265 C1035.05,200.901 1037.02,202.658 1038.9,204.489 C1040.78,206.32 1042.61,208.256 1044.33,210.25 C1046.04,212.244 1047.68,214.328 1049.18,216.455 C1050.69,218.582 1052.09,220.782 1053.34,223.012 C1054.59,225.241 1055.71,227.529 1056.68,229.831 C1057.64,232.134 1058.46,234.48 1059.12,236.826 C1059.77,239.172 1060.27,241.548 1060.6,243.91 C1060.93,246.272 1061.1,248.648 1061.1,250.998 C1061.1,253.348 1060.93,255.698 1060.6,258.008 C1060.27,260.319 1059.77,262.615 1059.12,264.859 C1058.47,267.103 1057.66,269.32 1056.71,271.472 C1055.76,273.623 1054.65,275.735 1053.43,277.768 C1052.2,279.801 1050.83,281.782 1049.37,283.672 C1047.91,285.562 1046.32,287.387 1044.67,289.109 C1043.01,290.832 1041.25,292.476 1039.46,294.007 C1037.66,295.538 1035.78,296.979 1033.91,298.295 C1032.04,299.611 1030.1,300.826 1028.22,301.904 C1026.34,302.982 1024.43,303.947 1022.61,304.766 C1020.8,305.584 1017.34,306.815 1017.34,306.815 "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(-0.951679,-0.307093,0.307093,-0.951679,1009.72,185.646)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" opacity="0.01">
+          <path vector-effect="none" fill-rule="nonzero" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,1074.9,223.974)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,0 L161.25,0 L161.25,47 L0,47 L0,0z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1074.9,223.974)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip537)">
+          <defs>
+            <clipPath id="clip537">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-1828.96,-623.913 L1366.81,-623.913 L1366.81,1898.09 L-1828.96,1898.09 L-1828.96,-623.913z "/>
+            </clipPath>
+          </defs>
+          <text textLength="16" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">{</text>
+          <text textLength="597" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">StallCntOutp = LstStallCnt +</text>
+        </g>
+        <g fill="none" stroke="#c835ba" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1074.9,223.974)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip537)">
+          <text textLength="27" fill="#c835ba" fill-opacity="1" stroke="none" xml:space="preserve" x="601" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">1</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1074.9,223.974)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip537)">
+          <text textLength="13" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="628" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">;</text>
+          <text textLength="16" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="171" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">}</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,1007.93,177.644)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <image x="0" y="0" width="20" height="28" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAARdJREFUSIntlE1OAkEQRl9VkI0LGIWIC915DU/kNTyACbfAG7ljO5AMIS4I8pULBmRmYjv4szG8pJNOded1dXd1w4mfYvXAZp0/EYxwG1YGFLmbTexs8JwSdhoys3tCmSv6FR8UCgCSQt914m32gHGHlDn0ce8dtm0sbjbr/LGVUMEtxGVqMuEXwHUr4W/RaUTM1woVLlXCwldHCd2YCptjAgNhBQBh5x+LaUH4LCXcb9k6gzHBC3gXcYUiQ5ER6rbJrJHhvmR2t1wiWGDxCrECm7sxbSUkGBFVWbmFHoreVh6FYAmMvxa6DV2xrb9PcAnVX1B9TmrwO/xhHSpyQaP+DhEUKPJWQjebKEifUfnjHJXyiRP/gXetkXJPWx5TrwAAAABJRU5ErkJggg=="/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,1010.93,189.144)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,-8.5 L8.75,-8.5 L8.75,8.5 L0,8.5 L0,-8.5z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1010.93,180.644)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip538)">
+          <defs>
+            <clipPath id="clip538">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-1573.09,-450.591 L1622.69,-450.591 L1622.69,2071.42 L-1573.09,2071.42 L-1573.09,-450.591z "/>
+            </clipPath>
+          </defs>
+          <text textLength="27" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">2</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.307093,-0.951679,0.951679,-0.307093,1017.34,306.815)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M-2,0 L2,0 L0,-8 L-2,0z "/>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#36)" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#36)">[SigRollgCnt ==LstRollgCnt]</title>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M632.157,183.496 C632.157,183.496 642.507,183.496 647.717,183.496 C652.928,183.496 658.17,183.496 663.421,183.496 C668.672,183.496 673.946,183.496 679.224,183.496 C684.501,183.496 689.795,183.496 695.087,183.496 C700.38,183.496 705.681,183.496 710.978,183.496 C716.274,183.496 721.574,183.496 726.864,183.496 C732.155,183.496 737.444,183.496 742.722,183.496 C747.999,183.496 753.271,183.496 758.528,183.496 C763.786,183.496 769.034,183.496 774.266,183.496 C779.499,183.496 784.72,183.496 789.924,183.496 C795.128,183.496 800.318,183.496 805.492,183.496 C810.666,183.496 815.824,183.496 820.966,183.496 C826.108,183.496 831.235,183.496 836.346,183.496 C841.458,183.496 846.554,183.496 851.637,183.496 C856.721,183.496 861.788,183.496 866.847,183.496 C871.906,183.496 876.95,183.496 881.989,183.496 C887.028,183.496 892.054,183.496 897.08,183.496 C902.105,183.496 907.122,183.496 912.142,183.496 C917.161,183.496 922.176,183.496 927.2,183.496 C932.223,183.496 937.246,183.496 942.284,183.496 C947.322,183.496 952.364,183.496 957.43,183.496 C962.495,183.496 967.569,183.496 972.675,183.496 C977.78,183.496 988.062,183.496 988.062,183.496 "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,632.157,183.496)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" opacity="0.01">
+          <path vector-effect="none" fill-rule="nonzero" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,720.456,153.791)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,0 L151,0 L151,17 L0,17 L0,0z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,720.456,153.791)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip539)">
+          <defs>
+            <clipPath id="clip539">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-411.198,-343.181 L2784.58,-343.181 L2784.58,2178.83 L-411.198,2178.83 L-411.198,-343.181z "/>
+            </clipPath>
+          </defs>
+          <text textLength="596" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">[SigRollgCnt ==LstRollgCnt]</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,630.644,171.996)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <image x="0" y="0" width="20" height="28" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAO9JREFUSInt1DFOAzEQheF/JgHRkQAJRcQVaGk4BrlAbsEJuAWn4SA0W4B2QaSCkJ1HgVYh2YBZ2AKhfZ098mdrbBm6/Db2WUHL/DLEpBq7kVn/6CoF9mvQa34R0jRghOmwmg+s0DInha6BWjych8op6MxDgxXGHIeQTerEF2BYOQM7dWmA+/6qEEYocI5ToK+NzMaIYeB7qYXfA1tI7VKqRPDyvmM8A3PcnpDdNQOle8we0QcYFj8+oat3HVaC2xh0QmjYBIONHtruwU1vZzRD3DaFtoJt5O+DW5+NG1lgxUaHCzeyFNj6b9Oly7/MGwTtVFabQQXkAAAAAElFTkSuQmCC"/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,633.644,183.496)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,-8.5 L8.75,-8.5 L8.75,8.5 L0,8.5 L0,-8.5z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,633.644,174.996)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip540)">
+          <defs>
+            <clipPath id="clip540">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-63.95,-428 L3131.82,-428 L3131.82,2094.01 L-63.95,2094.01 L-63.95,-428z "/>
+            </clipPath>
+          </defs>
+          <text textLength="27" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">1</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(6.12323e-17,1,-1,6.12323e-17,988.062,183.496)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M-2,0 L2,0 L0,-8 L-2,0z "/>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#48)" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#48)">{ SigAvl = 1; }</title>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M1010.06,690.997 C1010.06,690.997 1018.91,690.997 1023.36,690.997 C1027.82,690.997 1032.31,690.997 1036.8,690.997 C1041.3,690.997 1045.82,690.997 1050.35,690.997 C1054.87,690.997 1059.41,690.997 1063.95,690.997 C1068.49,690.997 1073.03,690.997 1077.58,690.997 C1082.12,690.997 1086.66,690.997 1091.2,690.997 C1095.74,690.997 1100.27,690.997 1104.8,690.997 C1109.32,690.997 1113.84,690.997 1118.34,690.997 C1122.85,690.997 1127.34,690.997 1131.82,690.997 C1136.3,690.997 1140.77,690.997 1145.22,690.997 C1149.67,690.997 1154.1,690.997 1158.52,690.997 C1162.94,690.997 1167.35,690.997 1171.74,690.997 C1176.13,690.997 1180.5,690.997 1184.86,690.997 C1189.22,690.997 1193.56,690.997 1197.89,690.997 C1202.22,690.997 1206.53,690.997 1210.84,690.997 C1215.14,690.997 1219.44,690.997 1223.72,690.997 C1228.01,690.997 1232.28,690.997 1236.55,690.997 C1240.83,690.997 1245.09,690.997 1249.36,690.997 C1253.62,690.997 1257.88,690.997 1262.16,690.997 C1266.43,690.997 1270.7,690.997 1274.98,690.997 C1279.27,690.997 1283.56,690.997 1287.87,690.997 C1292.18,690.997 1296.5,690.997 1300.85,690.997 C1305.21,690.997 1313.98,690.997 1313.98,690.997 "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,1010.06,690.997)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" opacity="0.01">
+          <path vector-effect="none" fill-rule="nonzero" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,1141.55,636.089)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,0 L59.25,0 L59.25,47 L0,47 L0,0z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1141.55,636.089)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip541)">
+          <defs>
+            <clipPath id="clip541">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-2095.57,-2272.37 L1100.21,-2272.37 L1100.21,249.634 L-2095.57,249.634 L-2095.57,-2272.37z "/>
+            </clipPath>
+          </defs>
+          <text textLength="16" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">{</text>
+          <text textLength="189" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">SigAvl = </text>
+        </g>
+        <g fill="none" stroke="#c835ba" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1141.55,636.089)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip541)">
+          <text textLength="27" fill="#c835ba" fill-opacity="1" stroke="none" xml:space="preserve" x="193" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">1</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1141.55,636.089)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip541)">
+          <text textLength="13" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="220" y="111" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">;</text>
+          <text textLength="16" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="171" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">}</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(6.12323e-17,1,-1,6.12323e-17,1313.98,690.997)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M-2,0 L2,0 L0,-8 L-2,0z "/>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#41)" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#41)"/>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M1003.06,318.421 C1003.06,318.421 1003.06,321.323 1003.06,322.807 C1003.06,324.292 1003.06,325.805 1003.06,327.328 C1003.06,328.851 1003.06,330.396 1003.06,331.944 C1003.06,333.493 1003.06,335.056 1003.06,336.618 C1003.06,338.181 1003.06,339.752 1003.06,341.318 C1003.06,342.884 1003.06,344.453 1003.06,346.014 C1003.06,347.574 1003.06,349.134 1003.06,350.681 C1003.06,352.229 1003.06,353.772 1003.06,355.301 C1003.06,356.83 1003.06,358.35 1003.06,359.856 C1003.06,361.361 1003.06,362.855 1003.06,364.333 C1003.06,365.812 1003.06,367.276 1003.06,368.726 C1003.06,370.175 1003.06,371.609 1003.06,373.029 C1003.06,374.448 1003.06,375.852 1003.06,377.242 C1003.06,378.633 1003.06,380.007 1003.06,381.371 C1003.06,382.734 1003.06,384.082 1003.06,385.422 C1003.06,386.762 1003.06,388.088 1003.06,389.409 C1003.06,390.729 1003.06,392.039 1003.06,393.347 C1003.06,394.655 1003.06,395.954 1003.06,397.257 C1003.06,398.56 1003.06,399.857 1003.06,401.164 C1003.06,402.47 1003.06,403.776 1003.06,405.096 C1003.06,406.416 1003.06,407.74 1003.06,409.086 C1003.06,410.432 1003.06,411.786 1003.06,413.171 C1003.06,414.555 1003.06,417.391 1003.06,417.391 "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(6.12323e-17,-1,1,6.12323e-17,1003.06,318.421)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" opacity="0.01">
+          <path vector-effect="none" fill-rule="nonzero" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,1003.06,417.391)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M-2,0 L2,0 L0,-8 L-2,0z "/>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#35)" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#35)"/>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M625.157,71.4958 C625.157,71.4958 625.157,74.3074 625.157,75.7132 C625.157,77.119 625.157,78.5248 625.157,79.9306 C625.157,81.3364 625.157,82.7422 625.157,84.148 C625.157,85.5538 625.157,86.9596 625.157,88.3654 C625.157,89.7712 625.157,91.177 625.157,92.5828 C625.157,93.9886 625.157,95.3944 625.157,96.8001 C625.157,98.2059 625.157,99.6117 625.157,101.018 C625.157,102.423 625.157,103.829 625.157,105.235 C625.157,106.641 625.157,108.047 625.157,109.452 C625.157,110.858 625.157,112.264 625.157,113.67 C625.157,115.076 625.157,116.481 625.157,117.887 C625.157,119.293 625.157,120.699 625.157,122.104 C625.157,123.51 625.157,124.916 625.157,126.322 C625.157,127.728 625.157,129.133 625.157,130.539 C625.157,131.945 625.157,133.351 625.157,134.757 C625.157,136.162 625.157,137.568 625.157,138.974 C625.157,140.38 625.157,141.786 625.157,143.191 C625.157,144.597 625.157,146.003 625.157,147.409 C625.157,148.815 625.157,150.22 625.157,151.626 C625.157,153.032 625.157,154.438 625.157,155.844 C625.157,157.249 625.157,158.655 625.157,160.061 C625.157,161.467 625.157,162.873 625.157,164.278 C625.157,165.684 625.157,168.496 625.157,168.496 "/>
+        </g>
+        <g fill="#528bc5" fill-opacity="1" stroke="none" transform="matrix(6.12323e-17,-1,1,6.12323e-17,625.157,71.4958)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,625.157,168.496)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M-2,0 L2,0 L0,-8 L-2,0z "/>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#42)" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#42)">[StallCntOutp &gt;=kMaxStallCnt]</title>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M1010.06,432.391 C1010.06,432.391 1018.91,432.391 1023.36,432.391 C1027.82,432.391 1032.31,432.391 1036.8,432.391 C1041.3,432.391 1045.82,432.391 1050.35,432.391 C1054.87,432.391 1059.41,432.391 1063.95,432.391 C1068.49,432.391 1073.03,432.391 1077.58,432.391 C1082.12,432.391 1086.66,432.391 1091.2,432.391 C1095.74,432.391 1100.27,432.391 1104.8,432.391 C1109.32,432.391 1113.84,432.391 1118.34,432.391 C1122.85,432.391 1127.34,432.391 1131.82,432.391 C1136.3,432.391 1140.77,432.391 1145.22,432.391 C1149.67,432.391 1154.1,432.391 1158.52,432.391 C1162.94,432.391 1167.35,432.391 1171.74,432.391 C1176.13,432.391 1180.5,432.391 1184.86,432.391 C1189.22,432.391 1193.56,432.391 1197.89,432.391 C1202.22,432.391 1206.53,432.391 1210.84,432.391 C1215.14,432.391 1219.44,432.391 1223.72,432.391 C1228.01,432.391 1232.28,432.391 1236.55,432.391 C1240.83,432.391 1245.09,432.391 1249.36,432.391 C1253.62,432.391 1257.88,432.391 1262.16,432.391 C1266.43,432.391 1270.7,432.391 1274.98,432.391 C1279.27,432.391 1283.56,432.391 1287.87,432.391 C1292.18,432.391 1296.5,432.391 1300.85,432.391 C1305.21,432.391 1313.98,432.391 1313.98,432.391 "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,1010.06,432.391)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" opacity="0.01">
+          <path vector-effect="none" fill-rule="nonzero" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,1104.13,404.861)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,0 L163.75,0 L163.75,17 L0,17 L0,0z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1104.13,404.861)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip542)">
+          <defs>
+            <clipPath id="clip542">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-1945.9,-1347.46 L1249.87,-1347.46 L1249.87,1174.55 L-1945.9,1174.55 L-1945.9,-1347.46z "/>
+            </clipPath>
+          </defs>
+          <text textLength="647" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">[StallCntOutp &gt;=kMaxStallCnt]</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,1008.55,420.891)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <image x="0" y="0" width="20" height="28" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAO9JREFUSInt1DFOAzEQheF/JgHRkQAJRcQVaGk4BrlAbsEJuAWn4SA0W4B2QaSCkJ1HgVYh2YBZ2AKhfZ098mdrbBm6/Db2WUHL/DLEpBq7kVn/6CoF9mvQa34R0jRghOmwmg+s0DInha6BWjych8op6MxDgxXGHIeQTerEF2BYOQM7dWmA+/6qEEYocI5ToK+NzMaIYeB7qYXfA1tI7VKqRPDyvmM8A3PcnpDdNQOle8we0QcYFj8+oat3HVaC2xh0QmjYBIONHtruwU1vZzRD3DaFtoJt5O+DW5+NG1lgxUaHCzeyFNj6b9Oly7/MGwTtVFabQQXkAAAAAElFTkSuQmCC"/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,1011.55,432.391)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,-8.5 L8.75,-8.5 L8.75,8.5 L0,8.5 L0,-8.5z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,1011.55,423.891)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip543)">
+          <defs>
+            <clipPath id="clip543">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-1575.57,-1423.58 L1620.2,-1423.58 L1620.2,1098.43 L-1575.57,1098.43 L-1575.57,-1423.58z "/>
+            </clipPath>
+          </defs>
+          <text textLength="27" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">1</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(6.12323e-17,1,-1,6.12323e-17,1313.98,432.391)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M-2,0 L2,0 L0,-8 L-2,0z "/>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#43)" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#43)"/>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M1003.06,439.391 C1003.06,439.391 1003.06,442.226 1003.06,443.677 C1003.06,445.128 1003.06,446.608 1003.06,448.097 C1003.06,449.587 1003.06,451.098 1003.06,452.613 C1003.06,454.128 1003.06,455.658 1003.06,457.186 C1003.06,458.715 1003.06,460.253 1003.06,461.785 C1003.06,463.317 1003.06,464.853 1003.06,466.38 C1003.06,467.907 1003.06,469.433 1003.06,470.948 C1003.06,472.462 1003.06,473.971 1003.06,475.466 C1003.06,476.962 1003.06,478.449 1003.06,479.921 C1003.06,481.393 1003.06,482.853 1003.06,484.298 C1003.06,485.743 1003.06,487.174 1003.06,488.59 C1003.06,490.006 1003.06,491.407 1003.06,492.793 C1003.06,494.179 1003.06,495.55 1003.06,496.907 C1003.06,498.264 1003.06,499.605 1003.06,500.936 C1003.06,502.266 1003.06,503.581 1003.06,504.887 C1003.06,506.194 1003.06,507.487 1003.06,508.774 C1003.06,510.062 1003.06,511.338 1003.06,512.613 C1003.06,513.888 1003.06,515.154 1003.06,516.424 C1003.06,517.693 1003.06,518.958 1003.06,520.231 C1003.06,521.504 1003.06,522.776 1003.06,524.063 C1003.06,525.35 1003.06,526.641 1003.06,527.954 C1003.06,529.266 1003.06,530.588 1003.06,531.939 C1003.06,533.29 1003.06,536.059 1003.06,536.059 "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(6.12323e-17,-1,1,6.12323e-17,1003.06,439.391)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" opacity="0.01">
+          <path vector-effect="none" fill-rule="nonzero" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,995.687,439.281)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <image x="0" y="0" width="20" height="28" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAARdJREFUSIntlE1OAkEQRl9VkI0LGIWIC915DU/kNTyACbfAG7ljO5AMIS4I8pULBmRmYjv4szG8pJNOded1dXd1w4mfYvXAZp0/EYxwG1YGFLmbTexs8JwSdhoys3tCmSv6FR8UCgCSQt914m32gHGHlDn0ce8dtm0sbjbr/LGVUMEtxGVqMuEXwHUr4W/RaUTM1woVLlXCwldHCd2YCptjAgNhBQBh5x+LaUH4LCXcb9k6gzHBC3gXcYUiQ5ER6rbJrJHhvmR2t1wiWGDxCrECm7sxbSUkGBFVWbmFHoreVh6FYAmMvxa6DV2xrb9PcAnVX1B9TmrwO/xhHSpyQaP+DhEUKPJWQjebKEifUfnjHJXyiRP/gXetkXJPWx5TrwAAAABJRU5ErkJggg=="/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(1,0,0,1,998.687,450.781)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M0,-8.5 L8.75,-8.5 L8.75,8.5 L0,8.5 L0,-8.5z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,998.687,442.281)" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal" clip-path="url(#clip544)">
+          <defs>
+            <clipPath id="clip544">
+              <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-1524.12,-1497.14 L1671.65,-1497.14 L1671.65,1024.87 L-1524.12,1024.87 L-1524.12,-1497.14z "/>
+            </clipPath>
+          </defs>
+          <text textLength="27" fill="#528bc5" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="51" font-family="Helvetica" font-size="48" font-weight="400" font-style="normal">2</text>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,1003.06,536.059)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M-2,0 L2,0 L0,-8 L-2,0z "/>
+        </g>
+      </g>
+      <g id="ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#44)" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.ES248B_MotAgArbn/MotAgArbn/MotAgArbnPer1/MotAg0 Sensor Availability/SigAvlChkRev2/transition(#44)"/>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M1328.98,439.391 C1328.98,439.391 1328.98,442.226 1328.98,443.677 C1328.98,445.128 1328.98,446.608 1328.98,448.097 C1328.98,449.587 1328.98,451.098 1328.98,452.613 C1328.98,454.128 1328.98,455.658 1328.98,457.186 C1328.98,458.715 1328.98,460.253 1328.98,461.785 C1328.98,463.317 1328.98,464.853 1328.98,466.38 C1328.98,467.907 1328.98,469.433 1328.98,470.948 C1328.98,472.462 1328.98,473.971 1328.98,475.466 C1328.98,476.962 1328.98,478.449 1328.98,479.921 C1328.98,481.393 1328.98,482.853 1328.98,484.298 C1328.98,485.743 1328.98,487.174 1328.98,488.59 C1328.98,490.006 1328.98,491.407 1328.98,492.793 C1328.98,494.179 1328.98,495.55 1328.98,496.907 C1328.98,498.264 1328.98,499.605 1328.98,500.936 C1328.98,502.266 1328.98,503.581 1328.98,504.887 C1328.98,506.194 1328.98,507.487 1328.98,508.774 C1328.98,510.062 1328.98,511.338 1328.98,512.613 C1328.98,513.888 1328.98,515.154 1328.98,516.424 C1328.98,517.693 1328.98,518.958 1328.98,520.231 C1328.98,521.504 1328.98,522.776 1328.98,524.063 C1328.98,525.35 1328.98,526.641 1328.98,527.954 C1328.98,529.266 1328.98,530.588 1328.98,531.939 C1328.98,533.29 1328.98,536.059 1328.98,536.059 "/>
+        </g>
+        <g fill="none" stroke="none" transform="matrix(6.12323e-17,-1,1,6.12323e-17,1328.98,439.391)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" opacity="0.01">
+          <path vector-effect="none" fill-rule="nonzero" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+        <g fill="none" stroke="#528bc5" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,1328.98,536.059)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="nonzero" d="M-2,0 L2,0 L0,-8 L-2,0z "/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

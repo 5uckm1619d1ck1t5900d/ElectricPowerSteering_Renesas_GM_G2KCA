@@ -1,0 +1,286 @@
+<RDEF> I Includes
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte_DualEcuIdn.h 76
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte_DualEcuIdn.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte_DualEcuIdn_Type.h 40
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte_DualEcuIdn_Type.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte_Type.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte.h 27
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte_DualEcuIdn.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte_DualEcuIdn.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 58
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte_DualEcuIdn.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 63
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte_DualEcuIdn.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 77
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte_DualEcuIdn.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 90
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte_DualEcuIdn.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/DualEcuIdn_MemMap.h 147
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/DualEcuIdn_MemMap.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/Rte_DualEcuIdn.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/DualEcuIdn_MemMap.h 216
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/DualEcuIdn_MemMap.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/ImcArbn.h 82
+<DEFINE> ECUIDNOTREAD_CNT_U08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 84 N DF OM - - - O
+<LIT> 0 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 84 49 N ON - F M
+<DEFINE> ECUID1_CNT_U08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 85 N DF OM - - - O
+<LIT> 1 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 85 57 N DN - F M
+<DEFINE> ECUID2_CNT_U08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 86 N DF OM - - - O
+<LIT> 2 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 86 57 N DN - F M
+<DEFINE> ECUIDINVLD_CNT_U08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 87 N DF OM - - - O
+<LIT> 3 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 87 57 N DN - F M
+<DEFINE> VLDECUID_CNT_U08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 88 N DF OM - - - O
+<LIT> 0 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 88 57 N ON - F M
+<DEFINE> IDENTCLECUIDNFLT_CNT_U08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 89 N DF OM - - - O
+<LIT> 1 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 89 49 N DN - F M
+<DEFINE> PRIMECUINVLDIDFLT_CNT_U08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 90 N DF OM - - - O
+<LIT> 2 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 90 49 N DN - F M
+<DEFINE> SECDRYECUINVLDIDFLT_CNT_U08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 91 N DF OM - - - O
+<LIT> 4 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 91 41 N DN - F M
+<DEFINE> PRIMECUIDNOTREADFLT_CNT_U08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 92 N DF OM - - - O
+<LIT> 8 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 92 41 N DN - F M
+<DEFINE> SECDRYECUIDNOTREADFLT_CNT_U08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 93 N DF OM - - - O
+<LIT> 16 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 93 41 N DN - F M
+<DEFINE> SECDRYECUREQIDTIOUTFLT_CNT_U08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 94 N DF OM - - - O
+<LIT> 32 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 94 41 N DN - F M
+<DEFINE> ECUCOMTIOUTFLT_CNT_U08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 95 N DF OM - - - O
+<LIT> 64 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 95 49 N DN - F M
+<DEFINE> SECDRYECUIDNREQTIOUTVAL_CNT_U08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 96 N DF OM - - - O
+<LIT> 10 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 96 41 N DN - F M
+<DEFINE> DualEcuIdn_START_SEC_CODE C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 650 N DF OM - - - O
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/DualEcuIdn_MemMap.h 651
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/DualEcuIdn_MemMap.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> DualEcuIdnInit1 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 682
+<DEFINE> DualEcuIdnInit1 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 682 N DR OF F X (.,.) -
+<DEFINE> DualEcuIdnInit1 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 682 N DF OF F X (.,.) -
+<DEFINE> EcuIdnPin1_Cnt_T_lgc C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 688 N DC OV B N uc -
+<DEFINE> EcuIdnPin1_Cnt_T_lgc C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 688 N DF OV B N uc -
+<DEFINE> EcuIdnPin2_Cnt_T_lgc C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 689 N DC OV B N uc -
+<DEFINE> EcuIdnPin2_Cnt_T_lgc C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 689 N DF OV B N uc -
+<DEFINE> EcuIdn_Cnt_T_u08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 690 N DC OV B N uc -
+<DEFINE> EcuIdn_Cnt_T_u08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 690 N DF OV B N uc -
+<RDEF> C Calls
+<R>C DualEcuIdnInit1 Rte_Call_DualEcuIdn_IoHwAb_GetGpioEcuIdnPin1_Oper 693
+<RDEF> X Refers-to
+<R>X DualEcuIdnInit1 Rte_Call_DualEcuIdn_IoHwAb_GetGpioEcuIdnPin1_Oper 693 R
+<R>C DualEcuIdnInit1 Rte_Call_DualEcuIdn_IoHwAb_GetGpioEcuIdnPin2_Oper 694
+<R>X DualEcuIdnInit1 Rte_Call_DualEcuIdn_IoHwAb_GetGpioEcuIdnPin2_Oper 694 R
+<R>X DualEcuIdnInit1 Rte_Inst_DualEcuIdn 710 R
+<R>C DualEcuIdnInit1 Rte_Write_DualEcuIdn_EcuId_Val 711
+<R>X DualEcuIdnInit1 Rte_Write_DualEcuIdn_EcuId_Val 711 R
+<CTLG> DualEcuIdnInit1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 8
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 9 11
+<CTLGN> 683 696 696 696 700 700 704 700 715 715 715 
+<S>
+<S>STFIL  C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c
+<S>STNAM  DualEcuIdnInit1
+<S>STCYC  3
+<S>STMCC  2 (3:5)
+<S>STMIF  2
+<S>STSUB  3
+<S>STAKI  6
+<S>STLIN  31
+<S>STXLN  10
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  3
+<S>STPDN  0.30   
+<S>STPBG  0
+<S>STLOP  2
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  8
+<S>STAV3  11
+<S>STST1  15
+<S>STST2  12
+<S>STST3  9
+<S>STPAR  0
+<S>STCAL  3
+<S>STFN1  73
+<S>STFN2  34
+
+<EXTD> DualEcuIdnPer1 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 747
+<DEFINE> DualEcuIdnPer1 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 747 N DR OF F X (.,.) -
+<DEFINE> DualEcuIdnPer1 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 747 N DF OF F X (.,.) -
+<DEFINE> ImcEcuComTimeOut_Cnt_T_lgc C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 753 N DC OV B N uc -
+<DEFINE> ImcEcuComTimeOut_Cnt_T_lgc C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 753 N DF OV B N uc -
+<DEFINE> SecdryEcuId_Cnt_T_u08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 754 N DC OV B N uc -
+<DEFINE> SecdryEcuId_Cnt_T_u08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 754 N DF OV B N uc -
+<DEFINE> ImcDataSts_Cnt_T_enum C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 755 N DC OV B N uc -
+<DEFINE> ImcDataSts_Cnt_T_enum C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 755 N DF OV B N uc -
+<DEFINE> ImcRtnSts_Cnt_T_lgc C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 756 N DC OV B N uc -
+<DEFINE> ImcRtnSts_Cnt_T_lgc C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 756 N DF OV B N uc -
+<DEFINE> EcuIdnFltNtcB9Prm_Cnt_T_u08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 757 N DC OV B N uc -
+<DEFINE> EcuIdnFltNtcB9Prm_Cnt_T_u08 C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 757 N DF OV B N uc -
+<R>X DualEcuIdnPer1 Rte_Inst_DualEcuIdn 759 R
+<R>C DualEcuIdnPer1 Rte_Read_DualEcuIdn_EcuComTiOut_Logl 761
+<R>X DualEcuIdnPer1 Rte_Read_DualEcuIdn_EcuComTiOut_Logl 761 R
+<R>C DualEcuIdnPer1 Rte_Call_DualEcuIdn_GetSigImcData_u08_Oper 762
+<R>X DualEcuIdnPer1 Rte_Call_DualEcuIdn_GetSigImcData_u08_Oper 762 R
+<LIT> 1 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 764 46 N DN ui B X
+<LIT> 0 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 764 77 N ON ui B X
+<R>X DualEcuIdnPer1 Rte_Inst_DualEcuIdn 766 R
+<R>X DualEcuIdnPer1 Rte_Inst_DualEcuIdn 767 R
+<R>X DualEcuIdnPer1 Rte_Inst_DualEcuIdn 771 R
+<R>X DualEcuIdnPer1 Rte_Inst_DualEcuIdn 779 R
+<LIT> 2 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 792 51 N DN ui B X
+<LIT> 0 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 792 82 N ON ui B X
+<R>X DualEcuIdnPer1 Rte_Inst_DualEcuIdn 794 R
+<R>X DualEcuIdnPer1 Rte_Inst_DualEcuIdn 794 R
+<LIT> 1 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 794 63 N DN ui B X
+<R>X DualEcuIdnPer1 Rte_Inst_DualEcuIdn 795 R
+<R>X DualEcuIdnPer1 Rte_Inst_DualEcuIdn 797 R
+<R>X DualEcuIdnPer1 Rte_Inst_DualEcuIdn 803 R
+<R>C DualEcuIdnPer1 Rte_Call_DualEcuIdn_SetNtcSts_Oper 814
+<R>X DualEcuIdnPer1 Rte_Call_DualEcuIdn_SetNtcSts_Oper 814 R
+<LIT> 0 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 814 103 N ON ui B X
+<R>C DualEcuIdnPer1 Rte_Call_DualEcuIdn_SetNtcSts_Oper 818
+<R>X DualEcuIdnPer1 Rte_Call_DualEcuIdn_SetNtcSts_Oper 818 R
+<LIT> 0 U P C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 818 103 N ON ui B X
+<CTLG> DualEcuIdnPer1 1
+<CTLG> 1 2
+<CTLG> 1 32
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 21
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 20
+<CTLG> 7 8
+<CTLG> 7 9
+<CTLG> 8 19
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 18
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 17
+<CTLG> 13 14
+<CTLG> 13 15
+<CTLG> 14 16
+<CTLG> 15 16
+<CTLG> 16 17
+<CTLG> 17 18
+<CTLG> 18 19
+<CTLG> 19 20
+<CTLG> 20 31
+<CTLG> 21 22
+<CTLG> 21 26
+<CTLG> 22 23
+<CTLG> 23 24
+<CTLG> 23 25
+<CTLG> 24 25
+<CTLG> 25 30
+<CTLG> 26 27
+<CTLG> 26 28
+<CTLG> 27 29
+<CTLG> 28 29
+<CTLG> 29 30
+<CTLG> 30 31
+<CTLG> 31 32
+<CTLG> 32 33
+<CTLG> 32 34
+<CTLG> 33 35
+<CTLG> 34 35
+<CTLG> 35 37
+<CTLGN> 748 759 764 764 767 767 767 771 771 775 775 779 779 783 783 787 783 779 775 771 764 792 795 795 795 792 801 801 806 801 792 759 812 812 816 824 824 
+<S>
+<S>STFIL  C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c
+<S>STNAM  DualEcuIdnPer1
+<S>STCYC  12
+<S>STMCC  2 (12:14)
+<S>STMIF  7
+<S>STSUB  4
+<S>STAKI  16
+<S>STLIN  75
+<S>STXLN  30
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  5
+<S>STPTH  22
+<S>STPDN  0.73   
+<S>STPBG  1
+<S>STLOP  2
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  9
+<S>STAV3  10
+<S>STST1  45
+<S>STST2  31
+<S>STST3  26
+<S>STPAR  0
+<S>STCAL  3
+<S>STFN1  198
+<S>STFN2  86
+
+<DEFINE> DualEcuIdn_STOP_SEC_CODE C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c 827 N DF OM - - - O
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/DualEcuIdn_MemMap.h 828
+<R>I C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/tools/contract/DualEcuIdn_MemMap.h C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<S>
+<S>STFIL  C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c
+<S>STNAM  DualEcuIdnInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c
+<S>STNAM  DualEcuIdnPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c
+<S>STNAM  C:/_synergy/Componentes/ES011A_DualEcuIdn_Impl-CZ8L9T/ES011A_DualEcuIdn_Impl/src/DualEcuIdn.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  1
+<S>STFNC  2
+<S>STFCO  6
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  47
+<S>STOPT  20
+<S>STOPN  67
+<S>STTOT  481
+<S>STZIP  439
+<S>STHAL  493
+<S>STSHN  1662
+<S>STDIF  11.26  
+<S>STEFF  34909
+<S>STVOL  3099
+<S>STDEV  5.82   
+<S>STBUG  1
+<S>STTPP  848
+<S>STTLN  87
+<S>STM20  154
+<S>STM21  323
+<S>STM22  30
+<S>STM28  26
+<S>STM33  16
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  2.018  
+<S>STBMS  2.494  
+<S>STBME  2.954  
+<S>STTDO  3.265  
+<S>STTDS  3.442  
+<S>STTDE  3.536  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  6.457  
+

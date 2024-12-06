@@ -1,0 +1,897 @@
+<RDEF> I Includes
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte_MotCtrlPrmEstimn.h 72
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte_MotCtrlPrmEstimn.h C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte_MotCtrlPrmEstimn_Type.h 40
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte_MotCtrlPrmEstimn_Type.h C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte_Type.h C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte.h 27
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte_MotCtrlPrmEstimn.h C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte_MotCtrlPrmEstimn.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 65
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte_MotCtrlPrmEstimn.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 70
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte_MotCtrlPrmEstimn.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 95
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte_MotCtrlPrmEstimn.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 169
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte_MotCtrlPrmEstimn.h C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/MotCtrlPrmEstimn_MemMap.h 358
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/MotCtrlPrmEstimn_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/Rte_MotCtrlPrmEstimn.h C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/MotCtrlPrmEstimn_MemMap.h 536
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/MotCtrlPrmEstimn_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 81
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/TL103A_CplrSuprt/include/2015.1.5/ansi/math.h 26
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c C:/component/AR101A_NxtrIntrpn_Impl/include/NxtrIntrpn.h 82
+<R>I C:/component/AR101A_NxtrIntrpn_Impl/include/NxtrIntrpn.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h 83
+<R>I C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<DEFINE> FETTESTHILIM_DEGCGRD_F32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 97 N DF OM - - - O
+<LIT> 200.0 F P C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 97 58 N FN - F M
+<DEFINE> FETTESTLOLIM_DEGCGRD_F32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 98 N DF OM - - - O
+<LIT> 50.0 F N C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 98 59 N FN - F M
+<DEFINE> MAGNETTESTHILIM_DEGCGRD_F32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 99 N DF OM - - - O
+<LIT> 150.0 F P C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 99 50 N FN - F M
+<DEFINE> MAGNETTESTLOLIM_DEGCGRD_F32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 100 N DF OM - - - O
+<LIT> 50.0 F N C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 100 51 N FN - F M
+<DEFINE> MOTWIDGTESTHILIM_DEGCGRD_F32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 101 N DF OM - - - O
+<LIT> 300.0 F P C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 101 50 N FN - F M
+<DEFINE> MOTWIDGTESTLOLIM_DEGCGRD_F32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 102 N DF OM - - - O
+<LIT> 50.0 F N C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 102 51 N FN - F M
+<DEFINE> MOTINDUIVSHILIM_IVSHENRY_F32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 103 N DF OM - - - O
+<LIT> 33334.0 F P C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 103 50 N FN - F M
+<DEFINE> MOTINDUIVSLOLIM_IVSHENRY_F32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 104 N DF OM - - - O
+<LIT> 2440.0 F P C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 104 50 N FN - F M
+<DEFINE> PrmMotCtrlPrmEstimnMotBackEmfConSatnX C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 108 N DF OM - - - O
+<DEFINE> PrmMotCtrlPrmEstimnMotBackEmfConSatnY C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 109 N DF OM - - - O
+<DEFINE> PrmMotCtrlPrmEstimnMotCurrDaxInduSatnBilnrSeln C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 110 N DF OM - - - O
+<DEFINE> PrmMotCtrlPrmEstimnMotCurrQaxInduSatnX C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 111 N DF OM - - - O
+<DEFINE> PrmMotCtrlPrmEstimnMotInduDaxSatnScaY C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 112 N DF OM - - - O
+<DEFINE> PrmMotCtrlPrmEstimnMotInduQaxSatnScaY C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 113 N DF OM - - - O
+<DEFINE> MotCtrlPrmEstimn_START_SEC_CODE C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 223 N DF OM - - - O
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/MotCtrlPrmEstimn_MemMap.h 224
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/MotCtrlPrmEstimn_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> GetMotPrmNomEol_Oper C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 249
+<DEFINE> MotBackEmfConNom_Arg C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 249 N DC OV B N pfs R
+<DEFINE> MotRNom_Arg C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 249 N DC OV B N pfs R
+<DEFINE> GetMotPrmNomEol_Oper C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 249 N DR OF F X (uc,pfs,pfs) -
+<DEFINE> GetMotPrmNomEol_Oper C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 249 N DF OF F X (uc,pfs,pfs) -
+<RDEF> X Refers-to
+<R>X GetMotPrmNomEol_Oper Rte_Inst_MotCtrlPrmEstimn 258 R
+<R>X GetMotPrmNomEol_Oper Rte_Inst_MotCtrlPrmEstimn 259 R
+<CTLG> GetMotPrmNomEol_Oper 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 250 261 261 261 
+<S>
+<S>STFIL  C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c
+<S>STNAM  GetMotPrmNomEol_Oper
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  17
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  7
+<S>STST1  3
+<S>STST2  3
+<S>STST3  3
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  16
+<S>STFN2  7
+
+<EXTD> MotCtrlPrmEstimnInit1 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 302
+<DEFINE> MotCtrlPrmEstimnInit1 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 302 N DR OF F X (.,.) -
+<DEFINE> MotCtrlPrmEstimnInit1 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 302 N DF OF F X (.,.) -
+<DEFINE> MotPrmNomErrSts_Cnt_T_enum C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 310 N DC OV B N uc -
+<DEFINE> MotPrmNomErrSts_Cnt_T_enum C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 310 N DF OV B N uc -
+<RDEF> C Calls
+<R>C MotCtrlPrmEstimnInit1 Rte_Write_MotCtrlPrmEstimn_MotInduDaxEstimd_Val 316
+<R>X MotCtrlPrmEstimnInit1 Rte_Write_MotCtrlPrmEstimn_MotInduDaxEstimd_Val 316 R
+<R>C MotCtrlPrmEstimnInit1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduDaxNom_Val 316
+<R>X MotCtrlPrmEstimnInit1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduDaxNom_Val 316 R
+<R>C MotCtrlPrmEstimnInit1 Rte_Write_MotCtrlPrmEstimn_MotInduQaxEstimd_Val 317
+<R>X MotCtrlPrmEstimnInit1 Rte_Write_MotCtrlPrmEstimn_MotInduQaxEstimd_Val 317 R
+<R>C MotCtrlPrmEstimnInit1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduQaxNom_Val 317
+<R>X MotCtrlPrmEstimnInit1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduQaxNom_Val 317 R
+<R>C MotCtrlPrmEstimnInit1 Rte_Call_MotCtrlPrmEstimn_MotPrmNom_GetErrorStatus 320
+<R>X MotCtrlPrmEstimnInit1 Rte_Call_MotCtrlPrmEstimn_MotPrmNom_GetErrorStatus 320 R
+<R>C MotCtrlPrmEstimnInit1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConNom_Val 331
+<R>X MotCtrlPrmEstimnInit1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConNom_Val 331 R
+<R>X MotCtrlPrmEstimnInit1 Rte_Inst_MotCtrlPrmEstimn 331 R
+<R>C MotCtrlPrmEstimnInit1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotRNom_Val 332
+<R>X MotCtrlPrmEstimnInit1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotRNom_Val 332 R
+<R>X MotCtrlPrmEstimnInit1 Rte_Inst_MotCtrlPrmEstimn 332 R
+<R>C MotCtrlPrmEstimnInit1 Rte_Call_MotCtrlPrmEstimn_MotPrmNom_SetRamBlockStatus 334
+<R>X MotCtrlPrmEstimnInit1 Rte_Call_MotCtrlPrmEstimn_MotPrmNom_SetRamBlockStatus 334 R
+<R>C MotCtrlPrmEstimnInit1 Rte_Write_MotCtrlPrmEstimn_MotBackEmfConEstimd_Val 337
+<R>X MotCtrlPrmEstimnInit1 Rte_Write_MotCtrlPrmEstimn_MotBackEmfConEstimd_Val 337 R
+<R>X MotCtrlPrmEstimnInit1 Rte_Inst_MotCtrlPrmEstimn 337 R
+<R>C MotCtrlPrmEstimnInit1 Rte_Write_MotCtrlPrmEstimn_MotREstimd_Val 338
+<R>X MotCtrlPrmEstimnInit1 Rte_Write_MotCtrlPrmEstimn_MotREstimd_Val 338 R
+<R>X MotCtrlPrmEstimnInit1 Rte_Inst_MotCtrlPrmEstimn 338 R
+<CTLG> MotCtrlPrmEstimnInit1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 5 7
+<CTLGN> 303 326 326 326 344 344 344 
+<S>
+<S>STFIL  C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c
+<S>STNAM  MotCtrlPrmEstimnInit1
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  10
+<S>STAKI  12
+<S>STLIN  40
+<S>STXLN  9
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.22   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  11
+<S>STST1  11
+<S>STST2  10
+<S>STST3  9
+<S>STPAR  0
+<S>STCAL  10
+<S>STFN1  73
+<S>STFN2  26
+
+<EXTD> MotCtrlPrmEstimnPer1 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 384
+<DEFINE> MotCtrlPrmEstimnPer1 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 384 N DR OF F X (.,.) -
+<DEFINE> MotCtrlPrmEstimnPer1 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 384 N DF OF F X (.,.) -
+<DEFINE> IvtrLoaMtgtnEna_Uls_T_logl C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 394 N DC OV B N uc -
+<DEFINE> IvtrLoaMtgtnEna_Uls_T_logl C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 394 N DF OV B N uc -
+<DEFINE> DualEcuFltMtgtnEna_Uls_T_logl C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 395 N DC OV B N uc -
+<DEFINE> DualEcuFltMtgtnEna_Uls_T_logl C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 395 N DF OV B N uc -
+<DEFINE> MotCurrDaxCmd_Ampr_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 396 N DC OV B N fs -
+<DEFINE> MotCurrDaxCmd_Ampr_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 396 N DF OV B N fs -
+<DEFINE> MotCurrQaxCmd_Ampr_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 397 N DC OV B N fs -
+<DEFINE> MotCurrQaxCmd_Ampr_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 397 N DF OV B N fs -
+<DEFINE> MotCurrAbsDax_Ampr_T_u9p7 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 401 N DC OV B N us -
+<DEFINE> MotCurrAbsDax_Ampr_T_u9p7 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 401 N DF OV B N us -
+<DEFINE> MotCurrAbsQax_Ampr_T_u9p7 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 402 N DC OV B N us -
+<DEFINE> MotCurrAbsQax_Ampr_T_u9p7 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 402 N DF OV B N us -
+<DEFINE> MotBackEmfConEstimdSatnSclFac_Uls_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 403 N DC OV B N fs -
+<DEFINE> MotBackEmfConEstimdSatnSclFac_Uls_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 403 N DF OV B N fs -
+<DEFINE> MotBackEmfConEstimdPreLmt_VoltPerMotRadPerSec_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 404 N DC OV B N fs -
+<DEFINE> MotBackEmfConEstimdPreLmt_VoltPerMotRadPerSec_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 404 N DF OV B N fs -
+<DEFINE> MotKeEstimd_VoltPerMotRadPerSec_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 405 N DC OV B N fs -
+<DEFINE> MotKeEstimd_VoltPerMotRadPerSec_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 405 N DF OV B N fs -
+<DEFINE> MotInduEstimdSatnSclFacQax_Uls_T_u2p14 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 406 N DC OV B N us -
+<DEFINE> MotInduEstimdSatnSclFacQax_Uls_T_u2p14 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 406 N DF OV B N us -
+<DEFINE> MotInduEstimdSatnSclFacQax_Uls_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 407 N DC OV B N fs -
+<DEFINE> MotInduEstimdSatnSclFacQax_Uls_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 407 N DF OV B N fs -
+<DEFINE> MotInduEstimdPreLmtQax_Henry_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 408 N DC OV B N fs -
+<DEFINE> MotInduEstimdPreLmtQax_Henry_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 408 N DF OV B N fs -
+<DEFINE> MotInduQaxEstimd_Henry_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 409 N DC OV B N fs -
+<DEFINE> MotInduQaxEstimd_Henry_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 409 N DF OV B N fs -
+<DEFINE> MotInduEstimdSatnSclFacDax_Uls_T_u2p14 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 410 N DC OV B N us -
+<DEFINE> MotInduEstimdSatnSclFacDax_Uls_T_u2p14 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 410 N DF OV B N us -
+<DEFINE> MotInduEstimdSatnSclFacDax_Uls_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 411 N DC OV B N fs -
+<DEFINE> MotInduEstimdSatnSclFacDax_Uls_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 411 N DF OV B N fs -
+<DEFINE> MotInduEstimdPreLmtDax_Henry_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 412 N DC OV B N fs -
+<DEFINE> MotInduEstimdPreLmtDax_Henry_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 412 N DF OV B N fs -
+<DEFINE> MotInduDaxEstimd_Henry_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 413 N DC OV B N fs -
+<DEFINE> MotInduDaxEstimd_Henry_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 413 N DF OV B N fs -
+<DEFINE> MotInduQaxEstimdIvs_IvsHenry_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 414 N DC OV B N fs -
+<DEFINE> MotInduQaxEstimdIvs_IvsHenry_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 414 N DF OV B N fs -
+<DEFINE> MotInduDaxEstimdIvs_IvsHenry_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 415 N DC OV B N fs -
+<DEFINE> MotInduDaxEstimdIvs_IvsHenry_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 415 N DF OV B N fs -
+<R>C MotCtrlPrmEstimnPer1 Rte_Read_MotCtrlPrmEstimn_IvtrLoaMtgtnEna_Logl 419
+<R>X MotCtrlPrmEstimnPer1 Rte_Read_MotCtrlPrmEstimn_IvtrLoaMtgtnEna_Logl 419 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Read_MotCtrlPrmEstimn_DualEcuFltMtgtnEna_Logl 420
+<R>X MotCtrlPrmEstimnPer1 Rte_Read_MotCtrlPrmEstimn_DualEcuFltMtgtnEna_Logl 420 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Read_MotCtrlPrmEstimn_MotCurrDaxCmd_Val 421
+<R>X MotCtrlPrmEstimnPer1 Rte_Read_MotCtrlPrmEstimn_MotCurrDaxCmd_Val 421 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Read_MotCtrlPrmEstimn_MotCurrQaxCmd_Val 422
+<R>X MotCtrlPrmEstimnPer1 Rte_Read_MotCtrlPrmEstimn_MotCurrQaxCmd_Val 422 R
+<R>C MotCtrlPrmEstimnPer1 FloatToFixd_u16_f32 431
+<R>X MotCtrlPrmEstimnPer1 FloatToFixd_u16_f32 431 R
+<R>C MotCtrlPrmEstimnPer1 Abslt_f32_f32 431
+<R>X MotCtrlPrmEstimnPer1 Abslt_f32_f32 431 R
+<R>C MotCtrlPrmEstimnPer1 FloatToFixd_u16_f32 433
+<R>X MotCtrlPrmEstimnPer1 FloatToFixd_u16_f32 433 R
+<R>C MotCtrlPrmEstimnPer1 Abslt_f32_f32 433
+<R>X MotCtrlPrmEstimnPer1 Abslt_f32_f32 433 R
+<R>C MotCtrlPrmEstimnPer1 FixdToFloat_f32_u16 458
+<R>X MotCtrlPrmEstimnPer1 FixdToFloat_f32_u16 458 R
+<R>C MotCtrlPrmEstimnPer1 LnrIntrpn_u16_u16VariXu16VariY 458
+<R>X MotCtrlPrmEstimnPer1 LnrIntrpn_u16_u16VariXu16VariY 458 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConSatnX_Ary1D 458
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConSatnX_Ary1D 458 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConSatnY_Ary1D 458
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConSatnY_Ary1D 458 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConSatnScaIvtrLoaMtgtn_Val 463
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConSatnScaIvtrLoaMtgtn_Val 463 R
+<LIT> 1.0 F P C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 462 59 N FN fs B X
+<LIT> 1.0 F P C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 463 71 N FN fs B X
+<R>X MotCtrlPrmEstimnPer1 Rte_Inst_MotCtrlPrmEstimn 467 R
+<R>C MotCtrlPrmEstimnPer1 Rte_IrvRead_MotCtrlPrmEstimn_MotCtrlPrmEstimnPer1_MotBackEmfConFf 469
+<R>X MotCtrlPrmEstimnPer1 Rte_IrvRead_MotCtrlPrmEstimn_MotCtrlPrmEstimnPer1_MotBackEmfConFf 469 R
+<R>X MotCtrlPrmEstimnPer1 Rte_Inst_MotCtrlPrmEstimn 471 R
+<R>C MotCtrlPrmEstimnPer1 Lim_f32 475
+<R>X MotCtrlPrmEstimnPer1 Lim_f32 475 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConLoLim_Val 475
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConLoLim_Val 475 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConHiLim_Val 475
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConHiLim_Val 475 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Write_MotCtrlPrmEstimn_MotBackEmfConEstimd_Val 480
+<R>X MotCtrlPrmEstimnPer1 Rte_Write_MotCtrlPrmEstimn_MotBackEmfConEstimd_Val 480 R
+<R>C MotCtrlPrmEstimnPer1 BilnrIntrpnWithRound_u16_u16CmnXu16MplY 511
+<R>X MotCtrlPrmEstimnPer1 BilnrIntrpnWithRound_u16_u16CmnXu16MplY 511 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotCurrDaxInduSatnBilnrSeln_Ary1D 511
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotCurrDaxInduSatnBilnrSeln_Ary1D 511 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotCurrQaxInduSatnX_Ary1D 511
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotCurrQaxInduSatnX_Ary1D 511 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduQaxSatnScaY_Ary2D 511
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduQaxSatnScaY_Ary2D 511 R
+<R>C MotCtrlPrmEstimnPer1 FixdToFloat_f32_u16 514
+<R>X MotCtrlPrmEstimnPer1 FixdToFloat_f32_u16 514 R
+<R>X MotCtrlPrmEstimnPer1 Rte_Inst_MotCtrlPrmEstimn 516 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduQaxIvtrLoaMtgtn_Val 520
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduQaxIvtrLoaMtgtn_Val 520 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduQaxNom_Val 524
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduQaxNom_Val 524 R
+<R>X MotCtrlPrmEstimnPer1 Rte_Inst_MotCtrlPrmEstimn 528 R
+<R>C MotCtrlPrmEstimnPer1 Lim_f32 532
+<R>X MotCtrlPrmEstimnPer1 Lim_f32 532 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduQaxLoLim_Val 532
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduQaxLoLim_Val 532 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduQaxHiLim_Val 532
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduQaxHiLim_Val 532 R
+<R>C MotCtrlPrmEstimnPer1 Lim_f32 536
+<R>X MotCtrlPrmEstimnPer1 Lim_f32 536 R
+<LIT> 1.0 F P C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 534 56 N FN fs B X
+<R>C MotCtrlPrmEstimnPer1 Rte_Write_MotCtrlPrmEstimn_MotInduQaxEstimd_Val 539
+<R>X MotCtrlPrmEstimnPer1 Rte_Write_MotCtrlPrmEstimn_MotInduQaxEstimd_Val 539 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Write_MotCtrlPrmEstimn_MotInduQaxEstimdIvs_Val 540
+<R>X MotCtrlPrmEstimnPer1 Rte_Write_MotCtrlPrmEstimn_MotInduQaxEstimdIvs_Val 540 R
+<R>C MotCtrlPrmEstimnPer1 BilnrIntrpnWithRound_u16_u16CmnXu16MplY 570
+<R>X MotCtrlPrmEstimnPer1 BilnrIntrpnWithRound_u16_u16CmnXu16MplY 570 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotCurrDaxInduSatnBilnrSeln_Ary1D 570
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotCurrDaxInduSatnBilnrSeln_Ary1D 570 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotCurrQaxInduSatnX_Ary1D 570
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotCurrQaxInduSatnX_Ary1D 570 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduDaxSatnScaY_Ary2D 570
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduDaxSatnScaY_Ary2D 570 R
+<R>C MotCtrlPrmEstimnPer1 FixdToFloat_f32_u16 573
+<R>X MotCtrlPrmEstimnPer1 FixdToFloat_f32_u16 573 R
+<R>X MotCtrlPrmEstimnPer1 Rte_Inst_MotCtrlPrmEstimn 575 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduDaxIvtrLoaMtgtn_Val 580
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduDaxIvtrLoaMtgtn_Val 580 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduDaxNom_Val 584
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduDaxNom_Val 584 R
+<R>X MotCtrlPrmEstimnPer1 Rte_Inst_MotCtrlPrmEstimn 588 R
+<R>C MotCtrlPrmEstimnPer1 Lim_f32 592
+<R>X MotCtrlPrmEstimnPer1 Lim_f32 592 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduDaxLoLim_Val 592
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduDaxLoLim_Val 592 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduDaxHiLim_Val 592
+<R>X MotCtrlPrmEstimnPer1 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotInduDaxHiLim_Val 592 R
+<R>C MotCtrlPrmEstimnPer1 Lim_f32 596
+<R>X MotCtrlPrmEstimnPer1 Lim_f32 596 R
+<LIT> 1.0 F P C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 594 56 N FN fs B X
+<R>C MotCtrlPrmEstimnPer1 Rte_Write_MotCtrlPrmEstimn_MotInduDaxEstimd_Val 599
+<R>X MotCtrlPrmEstimnPer1 Rte_Write_MotCtrlPrmEstimn_MotInduDaxEstimd_Val 599 R
+<R>C MotCtrlPrmEstimnPer1 Rte_Write_MotCtrlPrmEstimn_MotInduDaxEstimdIvs_Val 600
+<R>X MotCtrlPrmEstimnPer1 Rte_Write_MotCtrlPrmEstimn_MotInduDaxEstimdIvs_Val 600 R
+<CTLG> MotCtrlPrmEstimnPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 8
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 12
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 13 15
+<CTLGN> 385 460 460 460 518 518 518 522 578 578 578 582 615 615 615 
+<S>
+<S>STFIL  C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c
+<S>STNAM  MotCtrlPrmEstimnPer1
+<S>STCYC  4
+<S>STMCC  3 (4:7)
+<S>STMIF  1
+<S>STSUB  44
+<S>STAKI  48
+<S>STLIN  229
+<S>STXLN  77
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  19
+<S>STPTH  8
+<S>STPDN  0.10   
+<S>STPBG  1
+<S>STLOP  3
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  11
+<S>STAV3  16
+<S>STST1  60
+<S>STST2  55
+<S>STST3  36
+<S>STPAR  0
+<S>STCAL  33
+<S>STFN1  378
+<S>STFN2  227
+
+<EXTD> MotCtrlPrmEstimnPer2 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 650
+<DEFINE> MotCtrlPrmEstimnPer2 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 650 N DR OF F X (.,.) -
+<DEFINE> MotCtrlPrmEstimnPer2 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 650 N DF OF F X (.,.) -
+<DEFINE> MotFetT_DegCgrd_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 660 N DC OV B N fs -
+<DEFINE> MotFetT_DegCgrd_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 660 N DF OV B N fs -
+<DEFINE> MotMagT_DegCgrd_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 661 N DC OV B N fs -
+<DEFINE> MotMagT_DegCgrd_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 661 N DF OV B N fs -
+<DEFINE> MotWidgT_DegCgrd_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 662 N DC OV B N fs -
+<DEFINE> MotWidgT_DegCgrd_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 662 N DF OV B N fs -
+<DEFINE> MotRFfEstimd_Ohm_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 665 N DC OV B N fs -
+<DEFINE> MotRFfEstimd_Ohm_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 665 N DF OV B N fs -
+<DEFINE> FetRFfEstimd_Ohm_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 666 N DC OV B N fs -
+<DEFINE> FetRFfEstimd_Ohm_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 666 N DF OV B N fs -
+<DEFINE> REstimdPreLmt_Ohm_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 667 N DC OV B N fs -
+<DEFINE> REstimdPreLmt_Ohm_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 667 N DF OV B N fs -
+<DEFINE> MotREstimd_Ohm_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 668 N DC OV B N fs -
+<DEFINE> MotREstimd_Ohm_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 668 N DF OV B N fs -
+<DEFINE> MotKeFf_VoltPerMotRadPerSec_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 669 N DC OV B N fs -
+<DEFINE> MotKeFf_VoltPerMotRadPerSec_T_f32 C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 669 N DF OV B N fs -
+<R>C MotCtrlPrmEstimnPer2 Rte_Read_MotCtrlPrmEstimn_MotFetT_Val 673
+<R>X MotCtrlPrmEstimnPer2 Rte_Read_MotCtrlPrmEstimn_MotFetT_Val 673 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Read_MotCtrlPrmEstimn_MotMagT_Val 674
+<R>X MotCtrlPrmEstimnPer2 Rte_Read_MotCtrlPrmEstimn_MotMagT_Val 674 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Read_MotCtrlPrmEstimn_MotWidgT_Val 675
+<R>X MotCtrlPrmEstimnPer2 Rte_Read_MotCtrlPrmEstimn_MotWidgT_Val 675 R
+<R>X MotCtrlPrmEstimnPer2 Rte_Inst_MotCtrlPrmEstimn 692 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnTNom_Val 692
+<R>X MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnTNom_Val 692 R
+<R>C MotCtrlPrmEstimnPer2 Lim_f32 692
+<R>X MotCtrlPrmEstimnPer2 Lim_f32 692 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotWidgThermCoeff_Val 692
+<R>X MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotWidgThermCoeff_Val 692 R
+<R>X MotCtrlPrmEstimnPer2 Rte_Inst_MotCtrlPrmEstimn 692 R
+<R>X MotCtrlPrmEstimnPer2 Rte_Inst_MotCtrlPrmEstimn 694 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnFetRNom_Val 701
+<R>X MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnFetRNom_Val 701 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnTNom_Val 701
+<R>X MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnTNom_Val 701 R
+<R>C MotCtrlPrmEstimnPer2 Lim_f32 701
+<R>X MotCtrlPrmEstimnPer2 Lim_f32 701 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnFetThermCoeff_Val 701
+<R>X MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnFetThermCoeff_Val 701 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnFetRNom_Val 701
+<R>X MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnFetRNom_Val 701 R
+<R>X MotCtrlPrmEstimnPer2 Rte_Inst_MotCtrlPrmEstimn 702 R
+<R>X MotCtrlPrmEstimnPer2 Rte_Inst_MotCtrlPrmEstimn 707 R
+<R>C MotCtrlPrmEstimnPer2 Lim_f32 712
+<R>X MotCtrlPrmEstimnPer2 Lim_f32 712 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotRLoLim_Val 712
+<R>X MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotRLoLim_Val 712 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotRHiLim_Val 712
+<R>X MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotRHiLim_Val 712 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Write_MotCtrlPrmEstimn_MotREstimd_Val 715
+<R>X MotCtrlPrmEstimnPer2 Rte_Write_MotCtrlPrmEstimn_MotREstimd_Val 715 R
+<R>X MotCtrlPrmEstimnPer2 Rte_Inst_MotCtrlPrmEstimn 738 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnTNom_Val 738
+<R>X MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnTNom_Val 738 R
+<R>C MotCtrlPrmEstimnPer2 Lim_f32 738
+<R>X MotCtrlPrmEstimnPer2 Lim_f32 738 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMagThermCoeff_Val 738
+<R>X MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMagThermCoeff_Val 738 R
+<R>X MotCtrlPrmEstimnPer2 Rte_Inst_MotCtrlPrmEstimn 738 R
+<R>C MotCtrlPrmEstimnPer2 Lim_f32 742
+<R>X MotCtrlPrmEstimnPer2 Lim_f32 742 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConLoLim_Val 742
+<R>X MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConLoLim_Val 742 R
+<R>C MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConHiLim_Val 742
+<R>X MotCtrlPrmEstimnPer2 Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConHiLim_Val 742 R
+<R>C MotCtrlPrmEstimnPer2 Rte_IrvWrite_MotCtrlPrmEstimn_MotCtrlPrmEstimnPer2_MotBackEmfConFf 744
+<R>X MotCtrlPrmEstimnPer2 Rte_IrvWrite_MotCtrlPrmEstimn_MotCtrlPrmEstimnPer2_MotBackEmfConFf 744 R
+<CTLG> MotCtrlPrmEstimnPer2 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 651 755 755 755 
+<S>
+<S>STFIL  C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c
+<S>STNAM  MotCtrlPrmEstimnPer2
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  22
+<S>STAKI  23
+<S>STLIN  103
+<S>STXLN  33
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  8
+<S>STPTH  1
+<S>STPDN  0.03   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  19
+<S>STST1  22
+<S>STST2  22
+<S>STST3  14
+<S>STPAR  0
+<S>STCAL  15
+<S>STFN1  175
+<S>STFN2  92
+
+<EXTD> SetMotPrmNomEol_Oper C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 790
+<DEFINE> MotBackEmfConNom_Arg C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 790 N DC OV B N fs R
+<DEFINE> MotRNom_Arg C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 790 N DC OV B N fs R
+<DEFINE> SetMotPrmNomEol_Oper C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 790 N DR OF F X (uc,fs,fs) -
+<DEFINE> SetMotPrmNomEol_Oper C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 790 N DF OF F X (uc,fs,fs) -
+<R>C SetMotPrmNomEol_Oper Lim_f32 805
+<R>X SetMotPrmNomEol_Oper Lim_f32 805 R
+<R>C SetMotPrmNomEol_Oper Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConLoLim_Val 805
+<R>X SetMotPrmNomEol_Oper Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConLoLim_Val 805 R
+<R>C SetMotPrmNomEol_Oper Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConHiLim_Val 805
+<R>X SetMotPrmNomEol_Oper Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotBackEmfConHiLim_Val 805 R
+<R>X SetMotPrmNomEol_Oper Rte_Inst_MotCtrlPrmEstimn 805 R
+<R>C SetMotPrmNomEol_Oper Lim_f32 809
+<R>X SetMotPrmNomEol_Oper Lim_f32 809 R
+<R>C SetMotPrmNomEol_Oper Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotRLoLim_Val 809
+<R>X SetMotPrmNomEol_Oper Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotRLoLim_Val 809 R
+<R>C SetMotPrmNomEol_Oper Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotRHiLim_Val 809
+<R>X SetMotPrmNomEol_Oper Rte_Prm_MotCtrlPrmEstimn_MotCtrlPrmEstimnMotRHiLim_Val 809 R
+<R>X SetMotPrmNomEol_Oper Rte_Inst_MotCtrlPrmEstimn 809 R
+<R>C SetMotPrmNomEol_Oper Rte_Call_MotCtrlPrmEstimn_MotPrmNom_SetRamBlockStatus 812
+<R>X SetMotPrmNomEol_Oper Rte_Call_MotCtrlPrmEstimn_MotPrmNom_SetRamBlockStatus 812 R
+<CTLG> SetMotPrmNomEol_Oper 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 791 814 814 814 
+<S>
+<S>STFIL  C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c
+<S>STNAM  SetMotPrmNomEol_Oper
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  7
+<S>STAKI  8
+<S>STLIN  33
+<S>STXLN  8
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.13   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  4
+<S>STST2  4
+<S>STST3  4
+<S>STPAR  2
+<S>STCAL  6
+<S>STFN1  36
+<S>STFN2  15
+
+<DEFINE> MotCtrlPrmEstimn_STOP_SEC_CODE C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c 828 N DF OM - - - O
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/MotCtrlPrmEstimn_MemMap.h 829
+<R>I C:/component/SF102A_MotCtrlPrmEstimn_Impl/tools/contract/MotCtrlPrmEstimn_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c
+<S>STNAM  GetMotPrmNomEol_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c
+<S>STNAM  MotCtrlPrmEstimnInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c
+<S>STNAM  MotCtrlPrmEstimnPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c
+<S>STNAM  MotCtrlPrmEstimnPer2
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c
+<S>STNAM  SetMotPrmNomEol_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinLookup
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c
+<S>STNAM  C:/component/SF102A_MotCtrlPrmEstimn_Impl/src/MotCtrlPrmEstimn.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  1
+<S>STFNC  5
+<S>STFCO  86
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  138
+<S>STOPT  24
+<S>STOPN  150
+<S>STTOT  1337
+<S>STZIP  998
+<S>STHAL  1194
+<S>STSHN  4189
+<S>STDIF  9.97   
+<S>STEFF  99215
+<S>STVOL  9951
+<S>STDEV  16.54  
+<S>STBUG  2
+<S>STTPP  849
+<S>STTLN  185
+<S>STM20  434
+<S>STM21  897
+<S>STM22  90
+<S>STM28  159
+<S>STM33  135
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  2.021  
+<S>STBMS  2.497  
+<S>STBME  2.958  
+<S>STTDO  3.266  
+<S>STTDS  3.444  
+<S>STTDE  3.537  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  2.081  
+

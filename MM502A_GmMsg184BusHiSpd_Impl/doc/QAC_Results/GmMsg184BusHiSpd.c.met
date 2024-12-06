@@ -1,0 +1,546 @@
+<RDEF> I Includes
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte_GmMsg184BusHiSpd.h 44
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte_GmMsg184BusHiSpd.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte_GmMsg184BusHiSpd_Type.h 40
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte_GmMsg184BusHiSpd_Type.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte_Type.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte.h 27
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte_GmMsg184BusHiSpd.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte_GmMsg184BusHiSpd.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte_GmMsg184BusHiSpd.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 61
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte_GmMsg184BusHiSpd.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 90
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte_GmMsg184BusHiSpd.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 118
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte_GmMsg184BusHiSpd.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/GmMsg184BusHiSpd_MemMap.h 196
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/GmMsg184BusHiSpd_MemMap.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/Rte_GmMsg184BusHiSpd.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/GmMsg184BusHiSpd_MemMap.h 263
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/GmMsg184BusHiSpd_MemMap.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h 50
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/TL103A_CplrSuprt/include/2013.5.5/ansi/math.h 24
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 25
+<DEFINE> GMMSG184BUSHISPDVLD_CNT_U08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 53 N DF OM - - - O
+<LIT> 0 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 53 42 N ON - F M
+<DEFINE> GMMSG184BUSHISPDINVLD_CNT_U08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 54 N DF OM - - - O
+<LIT> 1 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 54 42 N DN - F M
+<DEFINE> GMMSG184BUSHISPDDISAD_CNT_U08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 56 N DF OM - - - O
+<LIT> 0 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 56 42 N ON - F M
+<DEFINE> GMMSG184BUSHISPDENAD_CNT_U08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 57 N DF OM - - - O
+<LIT> 1 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 57 42 N DN - F M
+<DEFINE> GMMSG184BUSHISPDFAILD_CNT_U08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 58 N DF OM - - - O
+<LIT> 2 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 58 42 N DN - F M
+<DEFINE> GMMSG184BUSHISPDHANDSOFF_CNT_U08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 60 N DF OM - - - O
+<LIT> 0 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 60 42 N ON - F M
+<DEFINE> GMMSG184BUSHISPDHANDSON_CNT_U08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 61 N DF OM - - - O
+<LIT> 1 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 61 42 N DN - F M
+<DEFINE> GMMSG184BUSHISPDLKAPRMNTFAILD_CNT_U08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 63 N DF OM - - - O
+<LIT> 3 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 63 48 N DN - F M
+<DEFINE> GMMSG184BUSHISPDTQDLVDSTSMAX_CNT_U08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 64 N DF OM - - - O
+<LIT> 3 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 64 46 N DN - F M
+<DEFINE> GMMSG184BUSHISPDTQMIN_HWNM_F32 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 66 N DF OM - - - O
+<LIT> 10.24 f N C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 66 48 N FN - F M
+<DEFINE> GMMSG184BUSHISPDTQMAX_HWNM_F32 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 67 N DF OM - - - O
+<LIT> 10.23 f P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 67 48 N FN - F M
+<DEFINE> GMMSG184BUSHISPDTQSCA_CNTPERHWNM_F32 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 68 N DF OM - - - O
+<LIT> 100.0 f P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 68 47 N FN - F M
+<DEFINE> GMMSG184BUSHISPDTQMASK_CNT_U16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 70 N DF OM - - - O
+<LIT> 2047 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 70 42 N DN - F M
+<DEFINE> GMMSG184BUSHISPDROLLGCNTRMAX_CNT_U08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 72 N DF OM - - - O
+<LIT> 15 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 72 46 N DN - F M
+<DEFINE> GmMsg184BusHiSpd_START_SEC_CODE C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 100 N DF OM - - - O
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/GmMsg184BusHiSpd_MemMap.h 101
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/GmMsg184BusHiSpd_MemMap.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> GmMsg184BusHiSpdPer1 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 143
+<DEFINE> GmMsg184BusHiSpdPer1 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 143 N DR OF F X (.,.) -
+<DEFINE> GmMsg184BusHiSpdPer1 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 143 N DF OF F X (.,.) -
+<DEFINE> HandsOnWhlEstim_Uls_T_f32 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 150 N DC OV B N fs -
+<DEFINE> HandsOnWhlEstim_Uls_T_f32 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 150 N DF OV B N fs -
+<DEFINE> HwTq_HwNm_T_f32 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 151 N DC OV B N fs -
+<DEFINE> HwTq_HwNm_T_f32 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 151 N DF OV B N fs -
+<DEFINE> LkaSt_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 152 N DC OV B N uc -
+<DEFINE> LkaSt_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 152 N DF OV B N uc -
+<DEFINE> LkaTqDlvd_HwNm_T_f32 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 153 N DC OV B N fs -
+<DEFINE> LkaTqDlvd_HwNm_T_f32 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 153 N DF OV B N fs -
+<DEFINE> SysStFltOutpReqDi_Cnt_T_logl C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 154 N DC OV B N uc -
+<DEFINE> SysStFltOutpReqDi_Cnt_T_logl C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 154 N DF OV B N uc -
+<DEFINE> HwTqIdptSig_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 155 N DC OV B N uc -
+<DEFINE> HwTqIdptSig_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 155 N DF OV B N uc -
+<DEFINE> VehSpdVld_Cnt_T_logl C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 156 N DC OV B N uc -
+<DEFINE> VehSpdVld_Cnt_T_logl C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 156 N DF OV B N uc -
+<DEFINE> DrvrAppldTq_HwNm_T_f32 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 158 N DC OV B N fs -
+<DEFINE> DrvrAppldTq_HwNm_T_f32 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 158 N DF OV B N fs -
+<DEFINE> DrvrAppldTq_HwNm_T_s16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 159 N DC OV B N ns -
+<DEFINE> DrvrAppldTq_HwNm_T_s16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 159 N DF OV B N ns -
+<DEFINE> LkaTqDlvd_HwNm_T_s16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 160 N DC OV B N ns -
+<DEFINE> LkaTqDlvd_HwNm_T_s16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 160 N DF OV B N ns -
+<DEFINE> TotTq_HwNm_T_f32 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 161 N DC OV B N fs -
+<DEFINE> TotTq_HwNm_T_f32 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 161 N DF OV B N fs -
+<DEFINE> TotTq_HwNm_T_s16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 162 N DC OV B N ns -
+<DEFINE> TotTq_HwNm_T_s16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 162 N DF OV B N ns -
+<DEFINE> HandsOffSteerWhlDetnMod_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 164 N DC OV B N uc -
+<DEFINE> HandsOffSteerWhlDetnMod_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 164 N DF OV B N uc -
+<DEFINE> HandsOffSteerWhlDetnSt_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 165 N DC OV B N uc -
+<DEFINE> HandsOffSteerWhlDetnSt_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 165 N DF OV B N uc -
+<DEFINE> HandsOffSteerWhlDetnStVld_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 166 N DC OV B N uc -
+<DEFINE> HandsOffSteerWhlDetnStVld_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 166 N DF OV B N uc -
+<DEFINE> LkaDrvrAppldTq_Cnt_T_u16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 167 N DC OV B N us -
+<DEFINE> LkaDrvrAppldTq_Cnt_T_u16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 167 N DF OV B N us -
+<DEFINE> LkaDrvrAppldTqVld_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 168 N DC OV B N uc -
+<DEFINE> LkaDrvrAppldTqVld_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 168 N DF OV B N uc -
+<DEFINE> LkaElecPwrSteerTotTqDlvd_Cnt_T_u16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 169 N DC OV B N us -
+<DEFINE> LkaElecPwrSteerTotTqDlvd_Cnt_T_u16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 169 N DF OV B N us -
+<DEFINE> LkaTqOvrlDeltaTqDlvd_Cnt_T_u16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 170 N DC OV B N us -
+<DEFINE> LkaTqOvrlDeltaTqDlvd_Cnt_T_u16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 170 N DF OV B N us -
+<DEFINE> LkaTqOvrlDlvdRollgCntr_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 171 N DC OV B N uc -
+<DEFINE> LkaTqOvrlDlvdRollgCntr_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 171 N DF OV B N uc -
+<DEFINE> LkaTqOvrlStsChks_Cnt_T_u16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 172 N DC OV B N us -
+<DEFINE> LkaTqOvrlStsChks_Cnt_T_u16 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 172 N DF OV B N us -
+<DEFINE> LkaTqOvrlTqDlvdSts_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 173 N DC OV B N uc -
+<DEFINE> LkaTqOvrlTqDlvdSts_Cnt_T_u08 C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 173 N DF OV B N uc -
+<RDEF> C Calls
+<R>C GmMsg184BusHiSpdPer1 Rte_Read_GmMsg184BusHiSpd_HandsOnWhlEstim_Val 177
+<RDEF> X Refers-to
+<R>X GmMsg184BusHiSpdPer1 Rte_Read_GmMsg184BusHiSpd_HandsOnWhlEstim_Val 177 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Read_GmMsg184BusHiSpd_HwTq_Val 178
+<R>X GmMsg184BusHiSpdPer1 Rte_Read_GmMsg184BusHiSpd_HwTq_Val 178 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Read_GmMsg184BusHiSpd_LkaSt_Val 179
+<R>X GmMsg184BusHiSpdPer1 Rte_Read_GmMsg184BusHiSpd_LkaSt_Val 179 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Read_GmMsg184BusHiSpd_LkaTqDlvd_Val 180
+<R>X GmMsg184BusHiSpdPer1 Rte_Read_GmMsg184BusHiSpd_LkaTqDlvd_Val 180 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Read_GmMsg184BusHiSpd_SysStFltOutpReqDi_Logl 181
+<R>X GmMsg184BusHiSpdPer1 Rte_Read_GmMsg184BusHiSpd_SysStFltOutpReqDi_Logl 181 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Read_GmMsg184BusHiSpd_HwTqIdptSig_Val 182
+<R>X GmMsg184BusHiSpdPer1 Rte_Read_GmMsg184BusHiSpd_HwTqIdptSig_Val 182 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Read_GmMsg184BusHiSpd_VehSpdVld_Logl 183
+<R>X GmMsg184BusHiSpdPer1 Rte_Read_GmMsg184BusHiSpd_VehSpdVld_Logl 183 R
+<R>C GmMsg184BusHiSpdPer1 Lim_f32 188
+<R>X GmMsg184BusHiSpdPer1 Lim_f32 188 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Prm_GmMsg184BusHiSpd_GmMsg184BusHiSpdTqPolarity_Val 190
+<R>X GmMsg184BusHiSpdPer1 Rte_Prm_GmMsg184BusHiSpd_GmMsg184BusHiSpdTqPolarity_Val 190 R
+<R>C GmMsg184BusHiSpdPer1 Lim_f32 194
+<R>X GmMsg184BusHiSpdPer1 Lim_f32 194 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Prm_GmMsg184BusHiSpd_GmMsg184BusHiSpdTqPolarity_Val 196
+<R>X GmMsg184BusHiSpdPer1 Rte_Prm_GmMsg184BusHiSpd_GmMsg184BusHiSpdTqPolarity_Val 196 R
+<R>C GmMsg184BusHiSpdPer1 Lim_f32 201
+<R>X GmMsg184BusHiSpdPer1 Lim_f32 201 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Prm_GmMsg184BusHiSpd_GmMsg184BusHiSpdTqPolarity_Val 203
+<R>X GmMsg184BusHiSpdPer1 Rte_Prm_GmMsg184BusHiSpd_GmMsg184BusHiSpdTqPolarity_Val 203 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Prm_GmMsg184BusHiSpd_LoaMgrHwTqIdptSigFltThd_Val 206
+<R>X GmMsg184BusHiSpdPer1 Rte_Prm_GmMsg184BusHiSpd_LoaMgrHwTqIdptSigFltThd_Val 206 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Prm_GmMsg184BusHiSpd_LoaMgrHwTqIdptSigFltThd_Val 215
+<R>X GmMsg184BusHiSpdPer1 Rte_Prm_GmMsg184BusHiSpd_LoaMgrHwTqIdptSigFltThd_Val 215 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Prm_GmMsg184BusHiSpd_GmOvrlStMgrLkaMfgEna_Logl 228
+<R>X GmMsg184BusHiSpdPer1 Rte_Prm_GmMsg184BusHiSpd_GmOvrlStMgrLkaMfgEna_Logl 228 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Prm_GmMsg184BusHiSpd_GmMsg184BusHiSpdHandsOnThd_Val 239
+<R>X GmMsg184BusHiSpdPer1 Rte_Prm_GmMsg184BusHiSpd_GmMsg184BusHiSpdHandsOnThd_Val 239 R
+<R>C GmMsg184BusHiSpdPer1 Min_u08 254
+<R>X GmMsg184BusHiSpdPer1 Min_u08 254 R
+<R>X GmMsg184BusHiSpdPer1 Rte_Inst_GmMsg184BusHiSpd 258 R
+<LIT> 3 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 262 78 N DN ui B X
+<LIT> 8 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 263 85 N DN ui B X
+<LIT> 6 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 265 86 N DN ui B X
+<LIT> 5 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 266 83 N DN ui B X
+<LIT> 3 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 267 84 N DN ui B X
+<LIT> 8 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 268 81 N DN ui B X
+<LIT> 3 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 271 78 N DN ui B X
+<LIT> 8 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 272 75 N DN ui B X
+<LIT> 0x184 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 274 40 N HN ui B X
+<LIT> 8 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 274 49 N DN ui B X
+<R>C GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_HandsOffSteerWhlDetnMod_Val 278
+<R>X GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_HandsOffSteerWhlDetnMod_Val 278 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_HandsOffSteerWhlDetnSt_Val 279
+<R>X GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_HandsOffSteerWhlDetnSt_Val 279 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_HandsOffSteerWhlDetnStVld_Val 280
+<R>X GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_HandsOffSteerWhlDetnStVld_Val 280 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_LkaDrvrAppldTq_Val 281
+<R>X GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_LkaDrvrAppldTq_Val 281 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_LkaDrvrAppldTqVld_Val 282
+<R>X GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_LkaDrvrAppldTqVld_Val 282 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_LkaElecPwrSteerTotTqDlvd_Val 283
+<R>X GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_LkaElecPwrSteerTotTqDlvd_Val 283 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_LkaTqOvrlDeltaTqDlvd_Val 284
+<R>X GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_LkaTqOvrlDeltaTqDlvd_Val 284 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_LkaTqOvrlDlvdRollgCntr_Val 285
+<R>X GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_LkaTqOvrlDlvdRollgCntr_Val 285 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_LkaTqOvrlStsChks_Val 286
+<R>X GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_LkaTqOvrlStsChks_Val 286 R
+<R>C GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_LkaTqOvrlTqDlvdSts_Val 287
+<R>X GmMsg184BusHiSpdPer1 Rte_Write_GmMsg184BusHiSpd_LkaTqOvrlTqDlvdSts_Val 287 R
+<CTLG> GmMsg184BusHiSpdPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 8
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 14
+<CTLG> 10 11
+<CTLG> 10 12
+<CTLG> 11 13
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 16
+<CTLG> 15 17
+<CTLG> 16 17
+<CTLG> 17 18
+<CTLG> 17 19
+<CTLG> 18 20
+<CTLG> 19 20
+<CTLG> 20 21
+<CTLG> 21 23
+<CTLGN> 144 206 206 206 210 215 215 219 224 224 228 228 232 228 239 239 243 248 248 252 293 293 293 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c
+<S>STNAM  GmMsg184BusHiSpdPer1
+<S>STCYC  7
+<S>STMCC  1 (7:8)
+<S>STMIF  2
+<S>STSUB  28
+<S>STAKI  35
+<S>STLIN  148
+<S>STXLN  66
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  22
+<S>STPTH  48
+<S>STPDN  0.73   
+<S>STPBG  2
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  8
+<S>STAV3  11
+<S>STST1  94
+<S>STST2  83
+<S>STST3  61
+<S>STPAR  0
+<S>STCAL  23
+<S>STFN1  453
+<S>STFN2  260
+
+<EXTD> MsgTxCallBack_Oper C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 312
+<DEFINE> MsgTxCallBack_Oper C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 312 N DR OF F X (.,.) -
+<DEFINE> MsgTxCallBack_Oper C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 312 N DF OF F X (.,.) -
+<R>X MsgTxCallBack_Oper Rte_Inst_GmMsg184BusHiSpd 319 R
+<R>X MsgTxCallBack_Oper Rte_Inst_GmMsg184BusHiSpd 319 R
+<LIT> 1 U P C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 319 49 N DN ui B X
+<R>X MsgTxCallBack_Oper Rte_Inst_GmMsg184BusHiSpd 320 R
+<R>X MsgTxCallBack_Oper Rte_Inst_GmMsg184BusHiSpd 320 R
+<CTLG> MsgTxCallBack_Oper 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 313 325 325 325 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c
+<S>STNAM  MsgTxCallBack_Oper
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  11
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  2
+<S>STST2  2
+<S>STST3  2
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  12
+<S>STFN2  4
+
+<DEFINE> GmMsg184BusHiSpd_STOP_SEC_CODE C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c 328 N DF OM - - - O
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/GmMsg184BusHiSpd_MemMap.h 329
+<R>I C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/tools/contract/GmMsg184BusHiSpd_MemMap.h C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c
+<S>STNAM  GmMsg184BusHiSpdPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c
+<S>STNAM  MsgTxCallBack_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c
+<S>STNAM  C:/Workspace/_EA4/_Components/MM502A_GmMsg184BusHiSpd_Impl-kzdyfh/MM502A_GmMsg184BusHiSpd_Impl/src/GmMsg184BusHiSpd.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  1
+<S>STFNC  2
+<S>STFCO  34
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  75
+<S>STOPT  28
+<S>STOPN  100
+<S>STTOT  868
+<S>STZIP  695
+<S>STHAL  799
+<S>STSHN  2790
+<S>STDIF  12.59  
+<S>STEFF  76507
+<S>STVOL  6076
+<S>STDEV  12.75  
+<S>STBUG  2
+<S>STTPP  349
+<S>STTLN  118
+<S>STM20  300
+<S>STM21  564
+<S>STM22  79
+<S>STM28  30
+<S>STM33  21
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.795  
+<S>STBMS  0.923  
+<S>STBME  1.018  
+<S>STTDO  2.291  
+<S>STTDS  2.431  
+<S>STTDE  2.514  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.476  
+

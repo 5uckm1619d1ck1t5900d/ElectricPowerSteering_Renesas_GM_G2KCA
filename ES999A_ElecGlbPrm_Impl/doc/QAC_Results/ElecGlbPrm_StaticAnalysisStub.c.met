@@ -1,0 +1,282 @@
+<RDEF> I Includes
+<R>I C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 2
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 3
+<DEFINE> ELECGLBPRM_H C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 26 I DF OM - - - O
+<R>I C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/generate/ElecGlbPrm_Cfg.h 28
+<R>I C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/generate/ElecGlbPrm_Cfg.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<DEFINE> ELECGLBPRM_PWMTMRFRQ_HZ_U32 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 32 I DF OM - - - O
+<LIT> 80000000 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 32 50 I DN - F M
+<DEFINE> ELECGLBPRM_PWMTMRPERDIVS_CNTPERNANOSEC_U13P19 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 36 I DF OM - - - O
+<LIT> 41943 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 36 58 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTCURRMEASWRMININTESTCMPL_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 39 I DF OM - - - O
+<LIT> 110 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 39 66 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTCURRMEASWRMININTESTSTRT_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 42 I DF OM - - - O
+<LIT> 100 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 42 66 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTDI_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 45 I DF OM - - - O
+<LIT> 160 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 45 50 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTFLSMEMININSTRT_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 48 I DF OM - - - O
+<LIT> 110 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 48 58 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTINIT_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 51 I DF OM - - - O
+<LIT> 20 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 51 50 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTMTRDRVRININCMPL_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 54 I DF OM - - - O
+<LIT> 100 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 54 58 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTMTRDRVRININSTRT_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 57 I DF OM - - - O
+<LIT> 80 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 57 58 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTPWRDISCNCTATESTCMPL_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 60 I DF OM - - - O
+<LIT> 40 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 60 58 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTPWRDISCNCTATESTSTRT_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 63 I DF OM - - - O
+<LIT> 20 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 63 57 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTPWRDISCNCTBTESTCMPL_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 66 I DF OM - - - O
+<LIT> 80 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 66 57 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTPWRDISCNCTBTESTSTRT_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 69 I DF OM - - - O
+<LIT> 60 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 69 57 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTRUN_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 72 I DF OM - - - O
+<LIT> 140 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 72 41 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTTMPLMONININTESTCMPL_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 75 I DF OM - - - O
+<LIT> 60 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 75 57 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTTMPLMONININTESTSTRT_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 78 I DF OM - - - O
+<LIT> 40 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 78 57 I DN - F M
+<DEFINE> ELECGLBPRM_STRTUPSTWARMININCMPL_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 81 I DF OM - - - O
+<LIT> 120 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 81 50 I DN - F M
+<DEFINE> ELECGLBPRM_DEGPERREV_DEGPERREV_F32 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 84 I DF OM - - - O
+<LIT> 360.0 F P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 84 45 I FN - F M
+<DEFINE> ELECGLBPRM_HWAGCENTROFFS_HWDEG_F32 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 87 I DF OM - - - O
+<LIT> 900.0 F P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 87 45 I FN - F M
+<DEFINE> ELECGLBPRM_HWAGSATNLOWRLIM_HWDEG_F32 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 90 I DF OM - - - O
+<LIT> 900.0 F N C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 90 48 I FN - F M
+<DEFINE> ELECGLBPRM_HWAGSATNUPPRLIM_HWDEG_F32 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 93 I DF OM - - - O
+<LIT> 900.0 F P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 93 47 I FN - F M
+<DEFINE> ELECGLBPRM_HWAGSCA_ULS_F32 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 96 I DF OM - - - O
+<LIT> 0.08789 F P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 96 37 I FN - F M
+<DEFINE> ELECGLBPRM_HWAGSPURGEARRAT_ULS_F32 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 99 I DF OM - - - O
+<LIT> 1.1 F P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 99 45 I FN - F M
+<DEFINE> ELECGLBPRM_HWAGSPURTORINGGEARRATSNSR0_ULS_F32 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 102 I DF OM - - - O
+<LIT> 0.4545 F P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 102 56 I FN - F M
+<DEFINE> ELECGLBPRM_HWAGSPURTORINGGEARRATSNSR1_ULS_F32 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 105 I DF OM - - - O
+<LIT> 0.5 F P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 105 56 I FN - F M
+<DEFINE> ELECGLBPRM_HWTQOFFS_HWNWTMTR_F32 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 108 I DF OM - - - O
+<LIT> 10.0 F P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 108 43 I FN - F M
+<DEFINE> ELECGLBPRM_HWTQSATNLOWRLIM_HWNWTMTR_F32 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 111 I DF OM - - - O
+<LIT> 10.0 F N C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 111 51 I FN - F M
+<DEFINE> ELECGLBPRM_HWTQSATNUPPRLIM_HWNWTMTR_F32 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 114 I DF OM - - - O
+<LIT> 10.0 F P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 114 50 I FN - F M
+<DEFINE> ELECGLBPRM_HWTQSCA_ULS_F32 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 117 I DF OM - - - O
+<LIT> 0.004884005 F P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 117 37 I FN - F M
+<DEFINE> ELECGLBPRM_NOFLT_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 120 I DF OM - - - O
+<LIT> 0 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 120 35 I ON - F M
+<DEFINE> ELECGLBPRM_OFFSTRIMNOTPRFMD_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 123 I DF OM - - - O
+<LIT> 1 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 123 46 I DN - F M
+<DEFINE> ELECGLBPRM_PRTCLFLT_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 126 I DF OM - - - O
+<LIT> 1 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 126 38 I DN - F M
+<DEFINE> ELECGLBPRM_REVPER360DEG_REVPERDEG_F32 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 129 I DF OM - - - O
+<LIT> 0.002777777778 F P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 129 48 I FN - F M
+<DEFINE> ELECGLBPRM_SKIPSTEPFLT_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 132 I DF OM - - - O
+<LIT> 1 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 132 41 I DN - F M
+<DEFINE> ELECGLBPRM_SNSRINTFLT_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 135 I DF OM - - - O
+<LIT> 2 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 135 40 I DN - F M
+<DEFINE> ELECGLBPRM_VRNRERRFLT_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 138 I DF OM - - - O
+<LIT> 2 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 138 40 I DN - F M
+<DEFINE> ELECGLBPRM_HWTQBUFSIZE_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 141 I DF OM - - - O
+<LIT> 8 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 141 66 I DN - F M
+<DEFINE> ELECGLBPRM_ADCFLT_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 144 I DF OM - - - O
+<LIT> 4 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 144 66 I DN - F M
+<DEFINE> ELECGLBPRM_OFFSTRIMNOTPRFM_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 147 I DF OM - - - O
+<LIT> 1 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 147 66 I DN - F M
+<DEFINE> ELECGLBPRM_SNSRSCANOTPRFM_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 150 I DF OM - - - O
+<LIT> 1 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 150 66 I DN - F M
+<DEFINE> ELECGLBPRM_GATEDRVCFGSTPRMBITSTRTGIDX_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 153 I DF OM - - - O
+<LIT> 127 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 153 59 I DN - F M
+<DEFINE> ELECGLBPRM_GATEDRVCFGST_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 156 I DF OM - - - O
+<LIT> 2 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 156 81 I DN - F M
+<DEFINE> ELECGLBPRM_GATEDRVOFFSTCHKREGWR1COL_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 159 I DF OM - - - O
+<LIT> 0 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 159 65 I ON - F M
+<DEFINE> ELECGLBPRM_GATEDRVOFFSTCHKREGWR2COL_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 162 I DF OM - - - O
+<LIT> 1 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 162 65 I DN - F M
+<DEFINE> ELECGLBPRM_GATEDRVOFFSTCHKDIGPINVRFYCOL_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 165 I DF OM - - - O
+<LIT> 2 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 165 65 I DN - F M
+<DEFINE> ELECGLBPRM_GATEDRVOFFSTCHKSTSREGCOL_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 168 I DF OM - - - O
+<LIT> 3 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 168 65 I DN - F M
+<DEFINE> ELECGLBPRM_GATEDRVOFFSTCHKDIAG1REGCOL_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 171 I DF OM - - - O
+<LIT> 4 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 171 65 I DN - F M
+<DEFINE> ELECGLBPRM_GATEDRVOFFSTCHKDIAG2REGCOL_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 174 I DF OM - - - O
+<LIT> 5 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 174 65 I DN - F M
+<DEFINE> ELECGLBPRM_GATEDRVOFFSTCHKVRFYRES0COL_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 177 I DF OM - - - O
+<LIT> 6 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 177 65 I DN - F M
+<DEFINE> ELECGLBPRM_GATEDRVOFFSTCHKVRFYRES1COL_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 180 I DF OM - - - O
+<LIT> 7 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 180 65 I DN - F M
+<DEFINE> ELECGLBPRM_GATEDRVOFFSTCHKSIZE_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 183 I DF OM - - - O
+<LIT> 19 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 183 73 I DN - F M
+<DEFINE> ELECGLBPRM_GATEDRVOFFSTVRFYST_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 186 I DF OM - - - O
+<LIT> 1 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 186 73 I DN - F M
+<DEFINE> ELECGLBPRM_GATEDRVOPERFLTMONRST_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 189 I DF OM - - - O
+<LIT> 3 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 189 73 I DN - F M
+<DEFINE> ELECGLBPRM_MOTCTRLINTRPTTRIGCFGA_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 192 I DF OM - - - O
+<LIT> 0 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 192 73 I ON - F M
+<DEFINE> ELECGLBPRM_MOTCTRLINTRPTTRIGCFGB_CNT_U08 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 195 I DF OM - - - O
+<LIT> 1 U P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 195 73 I DN - F M
+<LIT> 20 - P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 198 80 I DN ni F D
+<LIT> 8 - P C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 198 84 I DN ni F D
+<EXTN> ELECGLBPRM_GATEDRVOFFSTCHKDATA_CNT_U16 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 198
+<DEFINE> ELECGLBPRM_GATEDRVOFFSTCHKDATA_CNT_U16 C:/Component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 198 I DC OV F X [20,[8,=us]] S
+<DEFINE> IntrCnt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 6 N DC OV F I =uc S
+<DEFINE> IntrCnt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 6 N DF OV F I =uc S
+<DEFINE> PWMFrqMax C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 9 N DC OV F I =ul S
+<DEFINE> PWMFrqMax C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 9 N DF OV F I =ul S
+<DEFINE> PWMFrqMin C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 12 N DC OV F I =ul S
+<DEFINE> PWMFrqMin C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 12 N DF OV F I =ul S
+<DEFINE> PWMPerdMax C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 15 N DC OV F I =ul S
+<DEFINE> PWMPerdMax C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 15 N DF OV F I =ul S
+<DEFINE> PWMPerdMin C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 18 N DC OV F I =ul S
+<DEFINE> PWMPerdMin C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 18 N DF OV F I =ul S
+<DEFINE> PWMPerdNomX2 C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 21 N DC OV F I =fs S
+<DEFINE> PWMPerdNomX2 C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 21 N DF OV F I =fs S
+<DEFINE> PWMPerdNom C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 24 N DC OV F I =us S
+<DEFINE> PWMPerdNom C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 24 N DF OV F I =us S
+<DEFINE> PWMTmrFrq C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 27 N DC OV F I =ul S
+<DEFINE> PWMTmrFrq C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 27 N DF OV F I =ul S
+<DEFINE> PWMTmrperDivsCntperNanoSec C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 30 N DC OV F I =ul S
+<DEFINE> PWMTmrperDivsCntperNanoSec C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 30 N DF OV F I =ul S
+<DEFINE> StrtupStCurrMeasWrmIninTest C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 33 N DC OV F I =uc S
+<DEFINE> StrtupStCurrMeasWrmIninTest C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 33 N DF OV F I =uc S
+<DEFINE> StrtupStCurrMeasWrmininTestStrt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 36 N DC OV F I =uc S
+<DEFINE> StrtupStCurrMeasWrmininTestStrt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 36 N DF OV F I =uc S
+<DEFINE> StrtupStDi C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 39 N DC OV F I =uc S
+<DEFINE> StrtupStDi C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 39 N DF OV F I =uc S
+<DEFINE> StrtupStFlsMemIninStrt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 42 N DC OV F I =uc S
+<DEFINE> StrtupStFlsMemIninStrt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 42 N DF OV F I =uc S
+<DEFINE> StrtupStInit C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 45 N DC OV F I =uc S
+<DEFINE> StrtupStInit C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 45 N DF OV F I =uc S
+<DEFINE> StrtupStMtrDrvrIninCmpl C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 48 N DC OV F I =uc S
+<DEFINE> StrtupStMtrDrvrIninCmpl C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 48 N DF OV F I =uc S
+<DEFINE> StrtupStMtrDrvrIninStrt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 51 N DC OV F I =uc S
+<DEFINE> StrtupStMtrDrvrIninStrt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 51 N DF OV F I =uc S
+<DEFINE> StrtupStPwrDiscnctATestCmpl C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 54 N DC OV F I =uc S
+<DEFINE> StrtupStPwrDiscnctATestCmpl C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 54 N DF OV F I =uc S
+<DEFINE> StrtupStPwrDiscnctATestStrt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 57 N DC OV F I =uc S
+<DEFINE> StrtupStPwrDiscnctATestStrt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 57 N DF OV F I =uc S
+<DEFINE> StrtupStPwrDiscnctBTestCmpl C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 60 N DC OV F I =uc S
+<DEFINE> StrtupStPwrDiscnctBTestCmpl C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 60 N DF OV F I =uc S
+<DEFINE> StrtupStPwrDiscnctBTestStrt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 63 N DC OV F I =uc S
+<DEFINE> StrtupStPwrDiscnctBTestStrt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 63 N DF OV F I =uc S
+<DEFINE> StrtupStRun C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 66 N DC OV F I =uc S
+<DEFINE> StrtupStRun C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 66 N DF OV F I =uc S
+<DEFINE> StrtupStTmplMonIninTestCmpl C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 69 N DC OV F I =uc S
+<DEFINE> StrtupStTmplMonIninTestCmpl C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 69 N DF OV F I =uc S
+<DEFINE> StrtupStTmplMonIninTestStrt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 72 N DC OV F I =uc S
+<DEFINE> StrtupStTmplMonIninTestStrt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 72 N DF OV F I =uc S
+<DEFINE> StrtupStWarmIninCmpl C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 75 N DC OV F I =uc S
+<DEFINE> StrtupStWarmIninCmpl C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 75 N DF OV F I =uc S
+<DEFINE> DegPerRev C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 78 N DC OV F I =fs S
+<DEFINE> DegPerRev C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 78 N DF OV F I =fs S
+<DEFINE> HwAgCentrOffs C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 81 N DC OV F I =fs S
+<DEFINE> HwAgCentrOffs C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 81 N DF OV F I =fs S
+<DEFINE> HwAgSatnLowrLim C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 84 N DC OV F I =fs S
+<DEFINE> HwAgSatnLowrLim C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 84 N DF OV F I =fs S
+<DEFINE> HwAgSatnUpprLim C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 87 N DC OV F I =fs S
+<DEFINE> HwAgSatnUpprLim C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 87 N DF OV F I =fs S
+<DEFINE> HwAgSca C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 90 N DC OV F I =fs S
+<DEFINE> HwAgSca C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 90 N DF OV F I =fs S
+<DEFINE> HwAgSpurGearRat C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 93 N DC OV F I =fs S
+<DEFINE> HwAgSpurGearRat C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 93 N DF OV F I =fs S
+<DEFINE> HwAgSpurToRingGearRatSnsr0 C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 96 N DC OV F I =fs S
+<DEFINE> HwAgSpurToRingGearRatSnsr0 C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 96 N DF OV F I =fs S
+<DEFINE> HwAgSpurToRingGearRatSnsr1 C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 99 N DC OV F I =fs S
+<DEFINE> HwAgSpurToRingGearRatSnsr1 C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 99 N DF OV F I =fs S
+<DEFINE> HwTqOffs C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 102 N DC OV F I =fs S
+<DEFINE> HwTqOffs C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 102 N DF OV F I =fs S
+<DEFINE> HwTqSatnLowrLim C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 105 N DC OV F I =fs S
+<DEFINE> HwTqSatnLowrLim C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 105 N DF OV F I =fs S
+<DEFINE> HwTqSatnUpprLim C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 108 N DC OV F I =fs S
+<DEFINE> HwTqSatnUpprLim C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 108 N DF OV F I =fs S
+<DEFINE> HwTqSca C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 111 N DC OV F I =fs S
+<DEFINE> HwTqSca C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 111 N DF OV F I =fs S
+<DEFINE> NoFlt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 114 N DC OV F I =uc S
+<DEFINE> NoFlt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 114 N DF OV F I =uc S
+<DEFINE> OffsTrimNotPrfmd C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 117 N DC OV F I =uc S
+<DEFINE> OffsTrimNotPrfmd C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 117 N DF OV F I =uc S
+<DEFINE> PrtclFlt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 120 N DC OV F I =uc S
+<DEFINE> PrtclFlt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 120 N DF OV F I =uc S
+<DEFINE> RevPer360Deg C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 123 N DC OV F I =fs S
+<DEFINE> RevPer360Deg C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 123 N DF OV F I =fs S
+<DEFINE> SkipStepFlt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 126 N DC OV F I =uc S
+<DEFINE> SkipStepFlt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 126 N DF OV F I =uc S
+<DEFINE> SnsrIntFlt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 129 N DC OV F I =uc S
+<DEFINE> SnsrIntFlt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 129 N DF OV F I =uc S
+<DEFINE> VrnrErrFlt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 132 N DC OV F I =uc S
+<DEFINE> VrnrErrFlt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 132 N DF OV F I =uc S
+<DEFINE> HwTqBufSize C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 135 N DC OV F I =uc S
+<DEFINE> HwTqBufSize C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 135 N DF OV F I =uc S
+<DEFINE> AdcFlt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 138 N DC OV F I =uc S
+<DEFINE> AdcFlt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 138 N DF OV F I =uc S
+<DEFINE> OffsTrimNotPrfm C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 141 N DC OV F I =uc S
+<DEFINE> OffsTrimNotPrfm C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 141 N DF OV F I =uc S
+<DEFINE> SnsrScanNotPrfm C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 144 N DC OV F I =uc S
+<DEFINE> SnsrScanNotPrfm C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 144 N DF OV F I =uc S
+<DEFINE> GateDrvCfgStPrmBitStrtgIdx C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 147 N DC OV F I =uc S
+<DEFINE> GateDrvCfgStPrmBitStrtgIdx C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 147 N DF OV F I =uc S
+<DEFINE> GateDrvCfgSt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 150 N DC OV F I =uc S
+<DEFINE> GateDrvCfgSt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 150 N DF OV F I =uc S
+<DEFINE> GateDrvOffstChkRegWr1Col C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 153 N DC OV F I =uc S
+<DEFINE> GateDrvOffstChkRegWr1Col C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 153 N DF OV F I =uc S
+<DEFINE> GateDrvOffstChkRegWr2Col C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 156 N DC OV F I =uc S
+<DEFINE> GateDrvOffstChkRegWr2Col C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 156 N DF OV F I =uc S
+<DEFINE> GateDrvOffStChkDigPinVrfyCol C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 159 N DC OV F I =uc S
+<DEFINE> GateDrvOffStChkDigPinVrfyCol C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 159 N DF OV F I =uc S
+<DEFINE> GateDrvOffStChkStsRegCol C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 162 N DC OV F I =uc S
+<DEFINE> GateDrvOffStChkStsRegCol C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 162 N DF OV F I =uc S
+<DEFINE> GateDrvOffstChkDiag1RegCol C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 165 N DC OV F I =uc S
+<DEFINE> GateDrvOffstChkDiag1RegCol C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 165 N DF OV F I =uc S
+<DEFINE> GateDrvOffstChkDiag2RegCol C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 168 N DC OV F I =uc S
+<DEFINE> GateDrvOffstChkDiag2RegCol C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 168 N DF OV F I =uc S
+<DEFINE> GateDrvOffstChkVrfyRes0Col C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 171 N DC OV F I =uc S
+<DEFINE> GateDrvOffstChkVrfyRes0Col C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 171 N DF OV F I =uc S
+<DEFINE> GateDrvOffstChkVrfyRes1Col C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 174 N DC OV F I =uc S
+<DEFINE> GateDrvOffstChkVrfyRes1Col C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 174 N DF OV F I =uc S
+<DEFINE> GateDrvOffStChkSize C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 177 N DC OV F I =uc S
+<DEFINE> GateDrvOffStChkSize C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 177 N DF OV F I =uc S
+<DEFINE> GateDrvOffStVrfySt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 180 N DC OV F I =uc S
+<DEFINE> GateDrvOffStVrfySt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 180 N DF OV F I =uc S
+<DEFINE> GateDrvOperFltMonrSt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 183 N DC OV F I =uc S
+<DEFINE> GateDrvOperFltMonrSt C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c 183 N DF OV F I =uc S
+<S>
+<S>STFIL  C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c
+<S>STNAM  C:/Component/ES999A_ElecGlbPrm_Impl/tools/contract/ElecGlbPrm_StaticAnalysisStub.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  60
+<S>STECT  0
+<S>STFNC  0
+<S>STFCO  0
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  124
+<S>STOPT  7
+<S>STOPN  124
+<S>STTOT  428
+<S>STZIP  714
+<S>STHAL  882
+<S>STSHN  2876
+<S>STDIF  3.42   
+<S>STEFF  10308
+<S>STVOL  3010
+<S>STDEV  1.72   
+<S>STBUG  0
+<S>STTPP  184
+<S>STTLN  60
+<S>STM20  180
+<S>STM21  246
+<S>STM22  60
+<S>STM28  60
+<S>STM33  0
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.406  
+<S>STBMS  0.451  
+<S>STBME  0.472  
+<S>STTDO  1.775  
+<S>STTDS  1.891  
+<S>STTDE  1.966  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.417  
+

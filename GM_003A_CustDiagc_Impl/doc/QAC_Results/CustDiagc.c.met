@@ -1,0 +1,2310 @@
+<RDEF> I Includes
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte_CustDiagc.h 119
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte_CustDiagc.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte_CustDiagc_Type.h 40
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte_CustDiagc_Type.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte_Type.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte.h 27
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte_CustDiagc.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte_CustDiagc.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 73
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte_CustDiagc.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 78
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte_CustDiagc.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 127
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte_CustDiagc.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 338
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte_CustDiagc.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/CustDiagc_MemMap.h 543
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/CustDiagc_MemMap.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Rte_CustDiagc.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/CustDiagc_MemMap.h 1481
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/CustDiagc_MemMap.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Os.h 125
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Dem_Dcm.h 126
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/Desc.h 127
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h 128
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/TL103A_CplrSuprt/include/2013.5.5/ansi/math.h 24
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 25
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h 129
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/DiagcMgr.h 130
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/desc.h 131
+<DEFINE> CUSTDIAGCINVLDDTC_CNT_U32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 133 N DF OM - - - O
+<LIT> 0x00000000 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 133 36 N HN - F M
+<DEFINE> PrmDiagcMgrFltResp_u32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 135 N DF OM - - - O
+<DEFINE> CustDiagc_START_SEC_CODE C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 773 N DF OM - - - O
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/CustDiagc_MemMap.h 774
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/CustDiagc_MemMap.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> CSDataServices_BattVltgEcu_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 808
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 808 N DC OV B N puc R
+<DEFINE> CSDataServices_BattVltgEcu_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 808 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_BattVltgEcu_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 808 N DF OF F X (uc,puc) -
+<DEFINE> BattVltg_Volt_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 818 N DC OV B N fs -
+<DEFINE> BattVltg_Volt_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 818 N DF OV B N fs -
+<DEFINE> BattVltg_Uls_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 819 N DC OV B N fs -
+<DEFINE> BattVltg_Uls_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 819 N DF OV B N fs -
+<DEFINE> BattVltg_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 820 N DC OV B N uc -
+<DEFINE> BattVltg_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 820 N DF OV B N uc -
+<RDEF> C Calls
+<R>C CSDataServices_BattVltgEcu_ReadData Rte_Read_CustDiagc_BattVltg_Val 822
+<RDEF> X Refers-to
+<R>X CSDataServices_BattVltgEcu_ReadData Rte_Read_CustDiagc_BattVltg_Val 822 R
+<R>C CSDataServices_BattVltgEcu_ReadData Lim_f32 824
+<R>X CSDataServices_BattVltgEcu_ReadData Lim_f32 824 R
+<LIT> 0.0 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 824 60 N FN fs B X
+<LIT> 25.5 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 824 66 N FN fs B X
+<LIT> 10.0 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 825 52 N FN fs B X
+<LIT> 0 - P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 828 14 N ON ni B X
+<CTLG> CSDataServices_BattVltgEcu_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 812 830 830 830 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_BattVltgEcu_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  2
+<S>STAKI  3
+<S>STLIN  22
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  1
+<S>STPDN  0.17   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  11
+<S>STST1  9
+<S>STST2  9
+<S>STST3  6
+<S>STPAR  1
+<S>STCAL  2
+<S>STFN1  40
+<S>STFN2  29
+
+<EXTD> CSDataServices_EcuIntT_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 869
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 869 N DC OV B N puc R
+<DEFINE> CSDataServices_EcuIntT_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 869 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_EcuIntT_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 869 N DF OF F X (uc,puc) -
+<DEFINE> EcuT_DegC_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 879 N DC OV B N fs -
+<DEFINE> EcuT_DegC_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 879 N DF OV B N fs -
+<DEFINE> EcuT_DegC_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 880 N DC OV B N uc -
+<DEFINE> EcuT_DegC_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 880 N DF OV B N uc -
+<R>C CSDataServices_EcuIntT_ReadData Rte_Read_CustDiagc_EcuTFild_Val 882
+<R>X CSDataServices_EcuIntT_ReadData Rte_Read_CustDiagc_EcuTFild_Val 882 R
+<R>C CSDataServices_EcuIntT_ReadData Lim_f32 885
+<R>X CSDataServices_EcuIntT_ReadData Lim_f32 885 R
+<LIT> 40.0 f N C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 885 53 N FN fs B X
+<LIT> 215.0 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 885 60 N FN fs B X
+<LIT> 40.0 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 886 28 N FN fs B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 889 14 N ON ui B X
+<CTLG> CSDataServices_EcuIntT_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 873 891 891 891 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EcuIntT_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  2
+<S>STAKI  3
+<S>STLIN  22
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.17   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  10
+<S>STST1  8
+<S>STST2  8
+<S>STST3  6
+<S>STPAR  1
+<S>STCAL  2
+<S>STFN1  36
+<S>STFN2  24
+
+<EXTD> CSDataServices_EngSpd_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 931
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 931 N DC OV B N puc R
+<DEFINE> CSDataServices_EngSpd_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 931 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_EngSpd_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 931 N DF OF F X (uc,puc) -
+<DEFINE> EngSpd_Rpm_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 941 N DC OV B N fs -
+<DEFINE> EngSpd_Rpm_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 941 N DF OV B N fs -
+<DEFINE> EngSpd_Rpm_T_u14p2 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 942 N DC OV B N us -
+<DEFINE> EngSpd_Rpm_T_u14p2 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 942 N DF OV B N us -
+<DEFINE> Msg0C9Miss_Cnt_T_logl C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 943 N DC OV B N uc -
+<DEFINE> Msg0C9Miss_Cnt_T_logl C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 943 N DF OV B N uc -
+<R>C CSDataServices_EngSpd_ReadData Rte_Read_CustDiagc_MissMsg0C9_Logl 945
+<R>X CSDataServices_EngSpd_ReadData Rte_Read_CustDiagc_MissMsg0C9_Logl 945 R
+<R>C CSDataServices_EngSpd_ReadData Rte_Read_CustDiagc_EngSpd_Val 946
+<R>X CSDataServices_EngSpd_ReadData Rte_Read_CustDiagc_EngSpd_Val 946 R
+<LIT> 0xFFFF U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 951 38 N HN ui B X
+<R>C CSDataServices_EngSpd_ReadData Lim_f32 955
+<R>X CSDataServices_EngSpd_ReadData Lim_f32 955 R
+<LIT> 0.0 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 955 62 N FN fs B X
+<LIT> 16383.75 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 955 68 N FN fs B X
+<R>C CSDataServices_EngSpd_ReadData FloatToFixdWithRound_u16_f32 956
+<R>X CSDataServices_EngSpd_ReadData FloatToFixdWithRound_u16_f32 956 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 959 14 N ON ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 960 14 N DN ui B X
+<CTLG> CSDataServices_EngSpd_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 6 8
+<CTLGN> 935 948 948 948 953 962 962 962 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EngSpd_ReadData
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  4
+<S>STAKI  6
+<S>STLIN  31
+<S>STXLN  10
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  2
+<S>STPDN  0.20   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  8
+<S>STAV3  11
+<S>STST1  14
+<S>STST2  12
+<S>STST3  9
+<S>STPAR  1
+<S>STCAL  4
+<S>STFN1  64
+<S>STFN2  38
+
+<EXTD> CSDataServices_EpdMotOvldProtnCntr_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1001
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1001 N DC OV B N puc R
+<DEFINE> CSDataServices_EpdMotOvldProtnCntr_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1001 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_EpdMotOvldProtnCntr_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1001 N DF OF F X (uc,puc) -
+<DEFINE> Cntr_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1011 N DC OV B N uc -
+<DEFINE> Cntr_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1011 N DF OV B N uc -
+<R>C CSDataServices_EpdMotOvldProtnCntr_ReadData Rte_Read_CustDiagc_ThermLimFlgCntr_Val 1013
+<R>X CSDataServices_EpdMotOvldProtnCntr_ReadData Rte_Read_CustDiagc_ThermLimFlgCntr_Val 1013 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1015 14 N ON ui B X
+<CTLG> CSDataServices_EpdMotOvldProtnCntr_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1005 1017 1017 1017 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpdMotOvldProtnCntr_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  16
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  9
+<S>STST1  4
+<S>STST2  4
+<S>STST3  3
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  19
+<S>STFN2  10
+
+<EXTD> CSDataServices_EpsAgOvrlSts_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1056
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1056 N DC OV B N puc R
+<DEFINE> CSDataServices_EpsAgOvrlSts_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1056 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_EpsAgOvrlSts_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1056 N DF OF F X (uc,puc) -
+<DEFINE> ApaSt_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1066 N DC OV B N uc -
+<DEFINE> ApaSt_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1066 N DF OV B N uc -
+<R>C CSDataServices_EpsAgOvrlSts_ReadData Rte_Read_CustDiagc_ApaSt_Val 1068
+<R>X CSDataServices_EpsAgOvrlSts_ReadData Rte_Read_CustDiagc_ApaSt_Val 1068 R
+<R>C CSDataServices_EpsAgOvrlSts_ReadData Lim_u08 1070
+<R>X CSDataServices_EpsAgOvrlSts_ReadData Lim_u08 1070 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1070 52 N ON ui B X
+<LIT> 3 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1070 56 N DN ui B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1072 14 N ON ui B X
+<CTLG> CSDataServices_EpsAgOvrlSts_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1060 1074 1074 1074 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpsAgOvrlSts_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  2
+<S>STAKI  3
+<S>STLIN  18
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  1
+<S>STPDN  0.25   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  10
+<S>STST1  5
+<S>STST2  5
+<S>STST3  4
+<S>STPAR  1
+<S>STCAL  2
+<S>STFN1  25
+<S>STFN2  15
+
+<EXTD> CSDataServices_EpsApaAgOvrlReq_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1113
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1113 N DC OV B N puc R
+<DEFINE> CSDataServices_EpsApaAgOvrlReq_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1113 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_EpsApaAgOvrlReq_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1113 N DF OF F X (uc,puc) -
+<DEFINE> ApaAgReq_HwDeg_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1123 N DC OV B N fs -
+<DEFINE> ApaAgReq_HwDeg_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1123 N DF OV B N fs -
+<DEFINE> ApaAgReq_Uls_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1124 N DC OV B N fs -
+<DEFINE> ApaAgReq_Uls_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1124 N DF OV B N fs -
+<DEFINE> ApaAgReq_Uls_T_s16 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1125 N DC OV B N ns -
+<DEFINE> ApaAgReq_Uls_T_s16 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1125 N DF OV B N ns -
+<R>C CSDataServices_EpsApaAgOvrlReq_ReadData Rte_Read_CustDiagc_SteerWhlAgReqTarAg_Val 1127
+<R>X CSDataServices_EpsApaAgOvrlReq_ReadData Rte_Read_CustDiagc_SteerWhlAgReqTarAg_Val 1127 R
+<R>C CSDataServices_EpsApaAgOvrlReq_ReadData Lim_f32 1129
+<R>X CSDataServices_EpsApaAgOvrlReq_ReadData Lim_f32 1129 R
+<LIT> 960.0 f N C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1129 63 N FN fs B X
+<LIT> 959.970703125 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1129 71 N FN fs B X
+<LIT> 0.029296875 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1130 53 N FN fs B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1133 14 N ON ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1134 14 N DN ui B X
+<CTLG> CSDataServices_EpsApaAgOvrlReq_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1117 1136 1136 1136 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpsApaAgOvrlReq_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  2
+<S>STAKI  3
+<S>STLIN  23
+<S>STXLN  7
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  1
+<S>STPDN  0.14   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  12
+<S>STST1  10
+<S>STST2  10
+<S>STST3  7
+<S>STPAR  1
+<S>STCAL  2
+<S>STFN1  53
+<S>STFN2  36
+
+<EXTD> CSDataServices_EpsMotCurrFb_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1175
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1175 N DC OV B N puc R
+<DEFINE> CSDataServices_EpsMotCurrFb_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1175 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_EpsMotCurrFb_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1175 N DF OF F X (uc,puc) -
+<DEFINE> EstimdPeakCurr_AmpSqd_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1185 N DC OV B N fs -
+<DEFINE> EstimdPeakCurr_AmpSqd_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1185 N DF OV B N fs -
+<DEFINE> EstimdPeakCurr_Ampr_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1186 N DC OV B N fs -
+<DEFINE> EstimdPeakCurr_Ampr_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1186 N DF OV B N fs -
+<DEFINE> EstimdPeakCurr_Ampr_T_u15p1 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1187 N DC OV B N us -
+<DEFINE> EstimdPeakCurr_Ampr_T_u15p1 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1187 N DF OV B N us -
+<R>C CSDataServices_EpsMotCurrFb_ReadData Rte_Read_CustDiagc_MotCurrPeakEstimd_Val 1189
+<R>X CSDataServices_EpsMotCurrFb_ReadData Rte_Read_CustDiagc_MotCurrPeakEstimd_Val 1189 R
+<R>C CSDataServices_EpsMotCurrFb_ReadData Sqrt_f32 1191
+<R>X CSDataServices_EpsMotCurrFb_ReadData Sqrt_f32 1191 R
+<R>C CSDataServices_EpsMotCurrFb_ReadData Lim_f32 1192
+<R>X CSDataServices_EpsMotCurrFb_ReadData Lim_f32 1192 R
+<LIT> 0.0 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1192 72 N FN fs B X
+<LIT> 200.0 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1192 78 N FN fs B X
+<R>C CSDataServices_EpsMotCurrFb_ReadData FloatToFixdWithRound_u16_f32 1193
+<R>X CSDataServices_EpsMotCurrFb_ReadData FloatToFixdWithRound_u16_f32 1193 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1195 14 N ON ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1196 14 N DN ui B X
+<CTLG> CSDataServices_EpsMotCurrFb_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1179 1198 1198 1198 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpsMotCurrFb_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  4
+<S>STAKI  5
+<S>STLIN  23
+<S>STXLN  7
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  1
+<S>STPDN  0.14   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  12
+<S>STST1  10
+<S>STST2  10
+<S>STST3  7
+<S>STPAR  1
+<S>STCAL  4
+<S>STFN1  50
+<S>STFN2  35
+
+<EXTD> CSDataServices_EpsMotCurr_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1237
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1237 N DC OV B N puc R
+<DEFINE> CSDataServices_EpsMotCurr_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1237 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_EpsMotCurr_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1237 N DF OF F X (uc,puc) -
+<DEFINE> MtrCurrDaxRef_Ampr_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1247 N DC OV B N fs -
+<DEFINE> MtrCurrDaxRef_Ampr_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1247 N DF OV B N fs -
+<DEFINE> MotCurrDaxRef_Ampr_T_s14p1 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1248 N DC OV B N ns -
+<DEFINE> MotCurrDaxRef_Ampr_T_s14p1 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1248 N DF OV B N ns -
+<R>C CSDataServices_EpsMotCurr_ReadData Rte_Read_CustDiagc_MotCurrDaxCmd_Val 1250
+<R>X CSDataServices_EpsMotCurr_ReadData Rte_Read_CustDiagc_MotCurrDaxCmd_Val 1250 R
+<R>C CSDataServices_EpsMotCurr_ReadData Lim_f32 1252
+<R>X CSDataServices_EpsMotCurr_ReadData Lim_f32 1252 R
+<LIT> 200.0 f N C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1252 71 N FN fs B X
+<LIT> 200.0 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1252 79 N FN fs B X
+<R>C CSDataServices_EpsMotCurr_ReadData FloatToFixdWithRound_s16_f32 1253
+<R>X CSDataServices_EpsMotCurr_ReadData FloatToFixdWithRound_s16_f32 1253 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1255 14 N ON ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1256 14 N DN ui B X
+<CTLG> CSDataServices_EpsMotCurr_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1241 1258 1258 1258 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpsMotCurr_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  3
+<S>STAKI  4
+<S>STLIN  21
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.17   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  11
+<S>STST1  8
+<S>STST2  8
+<S>STST3  6
+<S>STPAR  1
+<S>STCAL  3
+<S>STFN1  43
+<S>STFN2  28
+
+<EXTD> CSDataServices_EpsStopStrtSts_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1297
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1297 N DC OV B N puc R
+<DEFINE> CSDataServices_EpsStopStrtSts_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1297 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_EpsStopStrtSts_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1297 N DF OF F X (uc,puc) -
+<DEFINE> StrtStopSt_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1307 N DC OV B N uc -
+<DEFINE> StrtStopSt_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1307 N DF OV B N uc -
+<DEFINE> TransStartStopSt_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1308 N DC OV B N uc -
+<DEFINE> TransStartStopSt_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1308 N DF OV B N uc -
+<R>C CSDataServices_EpsStopStrtSts_ReadData Rte_Read_CustDiagc_StrtStopSt_Val 1310
+<R>X CSDataServices_EpsStopStrtSts_ReadData Rte_Read_CustDiagc_StrtStopSt_Val 1310 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1314 22 N ON ui B C
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1316 54 N DN ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1318 22 N DN ui B C
+<LIT> 2 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1320 54 N DN ui B X
+<LIT> 2 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1322 22 N DN ui B C
+<LIT> 4 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1324 54 N DN ui B X
+<LIT> 3 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1326 22 N DN ui B C
+<LIT> 3 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1328 54 N DN ui B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1331 54 N ON ui B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1335 14 N ON ui B X
+<CTLG> CSDataServices_EpsStopStrtSts_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 5
+<CTLG> 2 7
+<CTLG> 2 9
+<CTLG> 2 11
+<CTLG> 3 4
+<CTLG> 4 14
+<CTLG> 5 6
+<CTLG> 6 14
+<CTLG> 7 8
+<CTLG> 8 14
+<CTLG> 9 10
+<CTLG> 10 14
+<CTLG> 11 12
+<CTLG> 12 14
+<CTLG> 14 15
+<CTLG> 15 17
+<CTLGN> 1301 1312 1312 1317 1317 1321 1321 1325 1325 1329 1329 1332 1332 1312 1337 1337 1337 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpsStopStrtSts_ReadData
+<S>STCYC  5
+<S>STMCC  0 (5:5)
+<S>STMIF  1
+<S>STSUB  1
+<S>STAKI  6
+<S>STLIN  40
+<S>STXLN  19
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  5
+<S>STPDN  0.26   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  3
+<S>STAV2  5
+<S>STAV3  6
+<S>STST1  22
+<S>STST2  16
+<S>STST3  14
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  58
+<S>STFN2  29
+
+<EXTD> CSDataServices_EpsTqOvrlReq_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1376
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1376 N DC OV B N puc R
+<DEFINE> CSDataServices_EpsTqOvrlReq_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1376 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_EpsTqOvrlReq_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1376 N DF OF F X (uc,puc) -
+<DEFINE> LkaCmd_HwTq_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1386 N DC OV B N fs -
+<DEFINE> LkaCmd_HwTq_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1386 N DF OV B N fs -
+<DEFINE> LkaCmd_Uls_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1387 N DC OV B N fs -
+<DEFINE> LkaCmd_Uls_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1387 N DF OV B N fs -
+<DEFINE> LkaCmd_Uls_T_s16 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1388 N DC OV B N ns -
+<DEFINE> LkaCmd_Uls_T_s16 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1388 N DF OV B N ns -
+<R>C CSDataServices_EpsTqOvrlReq_ReadData Rte_Read_CustDiagc_LkaCmd_Val 1390
+<R>X CSDataServices_EpsTqOvrlReq_ReadData Rte_Read_CustDiagc_LkaCmd_Val 1390 R
+<R>C CSDataServices_EpsTqOvrlReq_ReadData Lim_f32 1392
+<R>X CSDataServices_EpsTqOvrlReq_ReadData Lim_f32 1392 R
+<LIT> 10.24 f N C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1392 57 N FN fs B X
+<LIT> 10.23 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1392 65 N FN fs B X
+<LIT> 100.0 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1393 48 N FN fs B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1396 14 N ON ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1397 14 N DN ui B X
+<CTLG> CSDataServices_EpsTqOvrlReq_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1380 1399 1399 1399 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpsTqOvrlReq_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  2
+<S>STAKI  3
+<S>STLIN  23
+<S>STXLN  7
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  1
+<S>STPDN  0.14   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  11
+<S>STST1  10
+<S>STST2  10
+<S>STST3  7
+<S>STPAR  1
+<S>STCAL  2
+<S>STFN1  49
+<S>STFN2  34
+
+<EXTD> CSDataServices_EpsTqOvrlSts_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1438
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1438 N DC OV B N puc R
+<DEFINE> CSDataServices_EpsTqOvrlSts_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1438 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_EpsTqOvrlSts_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1438 N DF OF F X (uc,puc) -
+<DEFINE> LkaSt_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1448 N DC OV B N uc -
+<DEFINE> LkaSt_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1448 N DF OV B N uc -
+<R>C CSDataServices_EpsTqOvrlSts_ReadData Rte_Read_CustDiagc_LkaSt_Val 1450
+<R>X CSDataServices_EpsTqOvrlSts_ReadData Rte_Read_CustDiagc_LkaSt_Val 1450 R
+<R>C CSDataServices_EpsTqOvrlSts_ReadData Lim_u08 1452
+<R>X CSDataServices_EpsTqOvrlSts_ReadData Lim_u08 1452 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1452 52 N ON ui B X
+<LIT> 3 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1452 56 N DN ui B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1454 14 N ON ui B X
+<CTLG> CSDataServices_EpsTqOvrlSts_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1442 1456 1456 1456 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpsTqOvrlSts_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  2
+<S>STAKI  3
+<S>STLIN  18
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  1
+<S>STPDN  0.25   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  10
+<S>STST1  5
+<S>STST2  5
+<S>STST3  4
+<S>STPAR  1
+<S>STCAL  2
+<S>STFN1  25
+<S>STFN2  15
+
+<EXTD> CSDataServices_IgnCycCntr_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1487
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1487 N DC OV B N puc R
+<DEFINE> CSDataServices_IgnCycCntr_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1487 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_IgnCycCntr_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1487 N DF OF F X (uc,puc) -
+<R>X CSDataServices_IgnCycCntr_ReadData Rte_Inst_CustDiagc 1497 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1497 14 N ON ui B X
+<R>X CSDataServices_IgnCycCntr_ReadData Rte_Inst_CustDiagc 1498 R
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1498 14 N DN ui B X
+<CTLG> CSDataServices_IgnCycCntr_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1491 1500 1500 1500 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_IgnCycCntr_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  13
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  3
+<S>STST2  3
+<S>STST3  3
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  22
+<S>STFN2  9
+
+<EXTD> CSDataServices_SplrIntDtcInfo_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1544
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1544 N DC OV B N puc R
+<DEFINE> CSDataServices_SplrIntDtcInfo_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1544 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_SplrIntDtcInfo_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1544 N DF OF F X (uc,puc) -
+<DEFINE> FaildDtc_Cnt_T_u32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1554 N DC OV B N ul -
+<DEFINE> FaildDtc_Cnt_T_u32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1554 N DF OV B N ul -
+<DEFINE> TestDtc_Cnt_T_u32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1555 N DC OV B N ul -
+<DEFINE> TestDtc_Cnt_T_u32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1555 N DF OV B N ul -
+<DEFINE> Index_Cnt_T_u16 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1556 N DC OV B N us -
+<DEFINE> Index_Cnt_T_u16 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1556 N DF OV B N us -
+<DEFINE> EveId_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1557 N DC OV B N uc -
+<DEFINE> EveId_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1557 N DF OV B N uc -
+<DEFINE> DtcId_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1558 N DC OV B N uc -
+<DEFINE> DtcId_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1558 N DF OV B N uc -
+<DEFINE> NtcSts_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1559 N DC OV B N uc -
+<DEFINE> NtcSts_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1559 N DF OV B N uc -
+<DEFINE> NtcNr_Cnt_T_u16 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1560 N DC OV B N us -
+<DEFINE> NtcNr_Cnt_T_u16 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1560 N DF OV B N us -
+<DEFINE> NtcFaild_Cnt_T_logl C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1561 N DC OV B N uc -
+<DEFINE> NtcFaild_Cnt_T_logl C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1561 N DF OV B N uc -
+<DEFINE> NtcStInfo_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1562 N DC OV B N uc -
+<DEFINE> NtcStInfo_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1562 N DF OV B N uc -
+<DEFINE> NtcCurr_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1563 N DC OV B N uc -
+<DEFINE> NtcCurr_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1563 N DF OV B N uc -
+<DEFINE> RtnCod_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1564 N DC OV B N uc -
+<DEFINE> RtnCod_Cnt_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1564 N DF OV B N uc -
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1567 14 N ON ui B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1567 20 N ON ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1568 14 N DN ui B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1568 20 N ON ui B X
+<LIT> 2 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1569 14 N DN ui B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1569 20 N ON ui B X
+<LIT> 3 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1570 14 N DN ui B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1570 20 N ON ui B X
+<R>C CSDataServices_SplrIntDtcInfo_ReadData Dem_DcmGetDTCByOccurrenceTime 1573
+<R>X CSDataServices_SplrIntDtcInfo_ReadData Dem_DcmGetDTCByOccurrenceTime 1573 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1576 35 N ON ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1577 40 N DN ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1577 108 N DN ui B X
+<R>C CSDataServices_SplrIntDtcInfo_ReadData Dem_GetDTCOfEvent 1579
+<R>X CSDataServices_SplrIntDtcInfo_ReadData Dem_GetDTCOfEvent 1579 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1591 40 N ON ui B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1593 43 N ON ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1596 48 N DN ui B X
+<LIT> 512 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1596 72 N DN ui B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1596 101 N ON ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1596 126 N DN ui B X
+<R>C CSDataServices_SplrIntDtcInfo_ReadData Rte_Prm_CustDiagc_DiagcMgrFltResp_Ary1D 1600
+<R>X CSDataServices_SplrIntDtcInfo_ReadData Rte_Prm_CustDiagc_DiagcMgrFltResp_Ary1D 1600 R
+<LIT> 0xFF u P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1600 101 N HN ui B X
+<R>X CSDataServices_SplrIntDtcInfo_ReadData DemDtcEveIdMap 1603 R
+<R>C CSDataServices_SplrIntDtcInfo_ReadData Rte_Call_CustDiagc_GetNtcSts_Oper 1606
+<R>X CSDataServices_SplrIntDtcInfo_ReadData Rte_Call_CustDiagc_GetNtcSts_Oper 1606 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1607 116 N ON ui B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1616 48 N ON ui B X
+<R>C CSDataServices_SplrIntDtcInfo_ReadData Rte_Call_CustDiagc_GetNtcActv_Oper 1619
+<R>X CSDataServices_SplrIntDtcInfo_ReadData Rte_Call_CustDiagc_GetNtcActv_Oper 1619 R
+<LIT> 0xAA U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1622 61 N HN ui B X
+<LIT> 0x55 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1626 61 N HN ui B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1630 55 N ON ui B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1633 38 N ON ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1634 38 N DN ui B X
+<LIT> 2 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1635 38 N DN ui B X
+<LIT> 3 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1636 38 N DN ui B X
+<CTLG> CSDataServices_SplrIntDtcInfo_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 32
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 12
+<CTLG> 6 7
+<CTLG> 6 10
+<CTLG> 7 8
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 11 5
+<CTLG> 12 13
+<CTLG> 12 31
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 15 16
+<CTLG> 15 24
+<CTLG> 16 17
+<CTLG> 17 18
+<CTLG> 17 22
+<CTLG> 18 19
+<CTLG> 19 20
+<CTLG> 19 21
+<CTLG> 20 21
+<CTLG> 21 22
+<CTLG> 22 23
+<CTLG> 23 15
+<CTLG> 24 25
+<CTLG> 24 30
+<CTLG> 25 26
+<CTLG> 26 27
+<CTLG> 26 28
+<CTLG> 27 29
+<CTLG> 28 29
+<CTLG> 29 30
+<CTLG> 30 31
+<CTLG> 31 32
+<CTLG> 32 34
+<CTLGN> 1548 1573 1573 1577 1577 1577 1579 1581 1581 1579 1577 1577 1591 1596 1596 1596 1603 1603 1607 1607 1607 1603 1596 1596 1616 1620 1620 1620 1624 1616 1591 1573 1644 1644 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_SplrIntDtcInfo_ReadData
+<S>STCYC  11
+<S>STMCC  1 (11:12)
+<S>STMIF  5
+<S>STSUB  5
+<S>STAKI  16
+<S>STLIN  100
+<S>STXLN  32
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  11
+<S>STPTH  53
+<S>STPDN  1.66   
+<S>STPBG  2
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  8
+<S>STAV3  12
+<S>STST1  52
+<S>STST2  41
+<S>STST3  30
+<S>STPAR  1
+<S>STCAL  5
+<S>STFN1  227
+<S>STFN2  139
+
+<EXTD> CSDataServices_SteerInpTq_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1683
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1683 N DC OV B N puc R
+<DEFINE> CSDataServices_SteerInpTq_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1683 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_SteerInpTq_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1683 N DF OF F X (uc,puc) -
+<DEFINE> HwTq_HwNm_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1693 N DC OV B N fs -
+<DEFINE> HwTq_HwNm_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1693 N DF OV B N fs -
+<DEFINE> HwTq_HwNm_T_s7p8 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1694 N DC OV B N ns -
+<DEFINE> HwTq_HwNm_T_s7p8 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1694 N DF OV B N ns -
+<R>C CSDataServices_SteerInpTq_ReadData Rte_Read_CustDiagc_HwTq_Val 1696
+<R>X CSDataServices_SteerInpTq_ReadData Rte_Read_CustDiagc_HwTq_Val 1696 R
+<R>C CSDataServices_SteerInpTq_ReadData Lim_f32 1698
+<R>X CSDataServices_SteerInpTq_ReadData Lim_f32 1698 R
+<LIT> 10.0 f N C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1698 53 N FN fs B X
+<LIT> 10.0 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1698 60 N FN fs B X
+<R>C CSDataServices_SteerInpTq_ReadData FloatToFixdWithRound_s16_f32 1699
+<R>X CSDataServices_SteerInpTq_ReadData FloatToFixdWithRound_s16_f32 1699 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1701 14 N ON ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1702 14 N DN ui B X
+<CTLG> CSDataServices_SteerInpTq_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1687 1704 1704 1704 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_SteerInpTq_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  3
+<S>STAKI  4
+<S>STLIN  21
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.17   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  12
+<S>STST1  8
+<S>STST2  8
+<S>STST3  6
+<S>STPAR  1
+<S>STCAL  3
+<S>STFN1  47
+<S>STFN2  30
+
+<EXTD> CSDataServices_SteerOutpTq_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1743
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1743 N DC OV B N puc R
+<DEFINE> CSDataServices_SteerOutpTq_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1743 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_SteerOutpTq_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1743 N DF OF F X (uc,puc) -
+<DEFINE> MotTqCmd_MotNm_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1753 N DC OV B N fs -
+<DEFINE> MotTqCmd_MotNm_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1753 N DF OV B N fs -
+<DEFINE> MotTqCmd_MotNm_T_s7p8 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1754 N DC OV B N ns -
+<DEFINE> MotTqCmd_MotNm_T_s7p8 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1754 N DF OV B N ns -
+<R>C CSDataServices_SteerOutpTq_ReadData Rte_Read_CustDiagc_MotTqCmd_Val 1756
+<R>X CSDataServices_SteerOutpTq_ReadData Rte_Read_CustDiagc_MotTqCmd_Val 1756 R
+<R>C CSDataServices_SteerOutpTq_ReadData Lim_f32 1758
+<R>X CSDataServices_SteerOutpTq_ReadData Lim_f32 1758 R
+<LIT> 128.0 f N C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1758 63 N FN fs B X
+<LIT> 127.996 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1758 71 N FN fs B X
+<R>C CSDataServices_SteerOutpTq_ReadData FloatToFixdWithRound_s16_f32 1759
+<R>X CSDataServices_SteerOutpTq_ReadData FloatToFixdWithRound_s16_f32 1759 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1761 14 N ON ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1762 14 N DN ui B X
+<CTLG> CSDataServices_SteerOutpTq_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1747 1764 1764 1764 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_SteerOutpTq_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  3
+<S>STAKI  4
+<S>STLIN  21
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.17   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  12
+<S>STST1  8
+<S>STST2  8
+<S>STST3  6
+<S>STPAR  1
+<S>STCAL  3
+<S>STFN1  47
+<S>STFN2  30
+
+<EXTD> CSDataServices_SteerWhlAg_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1803
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1803 N DC OV B N puc R
+<DEFINE> CSDataServices_SteerWhlAg_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1803 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_SteerWhlAg_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1803 N DF OF F X (uc,puc) -
+<DEFINE> HwAg_HwDeg_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1813 N DC OV B N fs -
+<DEFINE> HwAg_HwDeg_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1813 N DF OV B N fs -
+<DEFINE> HwAg_HwDeg_T_s11p4 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1814 N DC OV B N ns -
+<DEFINE> HwAg_HwDeg_T_s11p4 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1814 N DF OV B N ns -
+<R>C CSDataServices_SteerWhlAg_ReadData Rte_Read_CustDiagc_PinionAg_Val 1816
+<R>X CSDataServices_SteerWhlAg_ReadData Rte_Read_CustDiagc_PinionAg_Val 1816 R
+<LIT> 1.0 f N C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1819 30 N FN fs B X
+<R>C CSDataServices_SteerWhlAg_ReadData Lim_f32 1820
+<R>X CSDataServices_SteerWhlAg_ReadData Lim_f32 1820 R
+<LIT> 2048.0 f N C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1820 55 N FN fs B X
+<LIT> 2047.94 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1820 64 N FN fs B X
+<R>C CSDataServices_SteerWhlAg_ReadData FloatToFixdWithRound_s16_f32 1821
+<R>X CSDataServices_SteerWhlAg_ReadData FloatToFixdWithRound_s16_f32 1821 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1823 14 N ON ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1824 14 N DN ui B X
+<CTLG> CSDataServices_SteerWhlAg_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1807 1826 1826 1826 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_SteerWhlAg_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  3
+<S>STAKI  4
+<S>STLIN  23
+<S>STXLN  7
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.14   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  11
+<S>STST1  9
+<S>STST2  9
+<S>STST3  7
+<S>STPAR  1
+<S>STCAL  3
+<S>STFN1  50
+<S>STFN2  32
+
+<EXTD> CSDataServices_SysPwrMod_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1866
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1866 N DC OV B N puc R
+<DEFINE> CSDataServices_SysPwrMod_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1866 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_SysPwrMod_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1866 N DF OF F X (uc,puc) -
+<DEFINE> MissMsg1F1_Cnt_T_logl C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1876 N DC OV B N uc -
+<DEFINE> MissMsg1F1_Cnt_T_logl C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1876 N DF OV B N uc -
+<DEFINE> SysPwrMd_Cnt_T_enum C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1877 N DC OV B N uc -
+<DEFINE> SysPwrMd_Cnt_T_enum C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1877 N DF OV B N uc -
+<R>C CSDataServices_SysPwrMod_ReadData Rte_Read_CustDiagc_MissMsg1F1_Logl 1879
+<R>X CSDataServices_SysPwrMod_ReadData Rte_Read_CustDiagc_MissMsg1F1_Logl 1879 R
+<R>C CSDataServices_SysPwrMod_ReadData Rte_Read_CustDiagc_GmSysPwrMod_Val 1880
+<R>X CSDataServices_SysPwrMod_ReadData Rte_Read_CustDiagc_GmSysPwrMod_Val 1880 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1887 14 N ON ui B X
+<CTLG> CSDataServices_SysPwrMod_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 5 7
+<CTLGN> 1870 1882 1882 1882 1889 1889 1889 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_SysPwrMod_ReadData
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  2
+<S>STAKI  4
+<S>STLIN  23
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  2
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  6
+<S>STAV2  7
+<S>STAV3  10
+<S>STST1  9
+<S>STST2  8
+<S>STST3  6
+<S>STPAR  1
+<S>STCAL  2
+<S>STFN1  40
+<S>STFN2  21
+
+<EXTD> CSDataServices_TiIgnOn_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1929
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1929 N DC OV B N puc R
+<DEFINE> CSDataServices_TiIgnOn_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1929 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_TiIgnOn_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1929 N DF OF F X (uc,puc) -
+<DEFINE> SysTi_100uS_T_u32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1939 N DC OV B N ul -
+<DEFINE> SysTi_100uS_T_u32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1939 N DF OV B N ul -
+<DEFINE> SysTi_mS_T_u32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1940 N DC OV B N ul -
+<DEFINE> SysTi_mS_T_u32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1940 N DF OV B N ul -
+<R>C CSDataServices_TiIgnOn_ReadData Rte_Call_CustDiagc_GetRefTmr100MicroSec32bit_Oper 1942
+<R>X CSDataServices_TiIgnOn_ReadData Rte_Call_CustDiagc_GetRefTmr100MicroSec32bit_Oper 1942 R
+<LIT> 10 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1944 46 N DN ui B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1946 14 N ON ui B X
+<LIT> 0x00 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1946 20 N HN ui B X
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1947 14 N DN ui B X
+<LIT> 2 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1948 14 N DN ui B X
+<LIT> 3 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1949 14 N DN ui B X
+<LIT> 4 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1950 14 N DN ui B X
+<CTLG> CSDataServices_TiIgnOn_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1933 1952 1952 1952 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_TiIgnOn_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  23
+<S>STXLN  8
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.13   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  10
+<S>STST1  10
+<S>STST2  10
+<S>STST3  8
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  50
+<S>STFN2  33
+
+<EXTD> CSDataServices_VehSpd_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1991
+<DEFINE> Data C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1991 N DC OV B N puc R
+<DEFINE> CSDataServices_VehSpd_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1991 N DR OF F X (uc,puc) -
+<DEFINE> CSDataServices_VehSpd_ReadData C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 1991 N DF OF F X (uc,puc) -
+<DEFINE> VehSpd_Kph_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2001 N DC OV B N fs -
+<DEFINE> VehSpd_Kph_T_f32 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2001 N DF OV B N fs -
+<DEFINE> VehSpd_Kph_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2002 N DC OV B N uc -
+<DEFINE> VehSpd_Kph_T_u08 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2002 N DF OV B N uc -
+<R>C CSDataServices_VehSpd_ReadData Rte_Read_CustDiagc_VehSpd_Val 2004
+<R>X CSDataServices_VehSpd_ReadData Rte_Read_CustDiagc_VehSpd_Val 2004 R
+<R>C CSDataServices_VehSpd_ReadData Lim_f32 2006
+<R>X CSDataServices_VehSpd_ReadData Lim_f32 2006 R
+<LIT> 0.0 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2006 54 N FN fs B X
+<LIT> 255.0 f P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2006 60 N FN fs B X
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2009 14 N ON ui B X
+<CTLG> CSDataServices_VehSpd_ReadData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1995 2011 2011 2011 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_VehSpd_ReadData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  2
+<S>STAKI  3
+<S>STLIN  20
+<S>STXLN  5
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.20   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  11
+<S>STST1  7
+<S>STST2  7
+<S>STST3  5
+<S>STPAR  1
+<S>STCAL  2
+<S>STFN1  33
+<S>STFN2  22
+
+<EXTD> CustDiagcClrGmIgnCntr_Oper C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2045
+<DEFINE> CustDiagcClrGmIgnCntr_Oper C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2045 N DR OF F X (.,.) -
+<DEFINE> CustDiagcClrGmIgnCntr_Oper C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2045 N DF OF F X (.,.) -
+<R>X CustDiagcClrGmIgnCntr_Oper Rte_Inst_CustDiagc 2052 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2052 32 N ON ui B X
+<R>C CustDiagcClrGmIgnCntr_Oper Rte_Call_CustDiagc_CustDiagcGmIgnCntr_SetRamBlockStatus 2053
+<R>X CustDiagcClrGmIgnCntr_Oper Rte_Call_CustDiagc_CustDiagcGmIgnCntr_SetRamBlockStatus 2053 R
+<CTLG> CustDiagcClrGmIgnCntr_Oper 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 2046 2058 2058 2058 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CustDiagcClrGmIgnCntr_Oper
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  11
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  2
+<S>STST2  2
+<S>STST3  2
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  13
+<S>STFN2  4
+
+<EXTD> CustDiagcInit1 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2200
+<DEFINE> CustDiagcInit1 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2200 N DR OF F X (.,.) -
+<DEFINE> CustDiagcInit1 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2200 N DF OF F X (.,.) -
+<DEFINE> CustMfgEnaSt_Cnt_T_enum C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2207 N DC OV B N uc -
+<DEFINE> CustMfgEnaSt_Cnt_T_enum C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2207 N DF OV B N uc -
+<R>C CustDiagcInit1 Rte_Read_CustDiagc_CustMfgEnaSt_Val 2209
+<R>X CustDiagcInit1 Rte_Read_CustDiagc_CustMfgEnaSt_Val 2209 R
+<R>X CustDiagcInit1 Rte_Inst_CustDiagc 2213 R
+<R>X CustDiagcInit1 Rte_Inst_CustDiagc 2214 R
+<R>X CustDiagcInit1 Rte_Inst_CustDiagc 2217 R
+<LIT> 0xFF U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2217 36 N HN ui B X
+<CTLG> CustDiagcInit1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 5 7
+<CTLGN> 2201 2211 2211 2211 2222 2222 2222 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CustDiagcInit1
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  1
+<S>STAKI  3
+<S>STLIN  20
+<S>STXLN  5
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.40   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  8
+<S>STAV3  9
+<S>STST1  7
+<S>STST2  6
+<S>STST3  5
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  34
+<S>STFN2  14
+
+<EXTD> CustDiagcPer1 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2260
+<DEFINE> CustDiagcPer1 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2260 N DR OF F X (.,.) -
+<DEFINE> CustDiagcPer1 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2260 N DF OF F X (.,.) -
+<DEFINE> SysPwrMod_Cnt_T_enum C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2267 N DC OV B N uc -
+<DEFINE> SysPwrMod_Cnt_T_enum C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2267 N DF OV B N uc -
+<DEFINE> SysStReqEnaOvrdNxtr_Cnt_T_logl C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2268 N DC OV B N uc -
+<DEFINE> SysStReqEnaOvrdNxtr_Cnt_T_logl C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2268 N DF OV B N uc -
+<DEFINE> SysStReqEnaOvrdCombd_Cnt_T_logl C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2269 N DC OV B N uc -
+<DEFINE> SysStReqEnaOvrdCombd_Cnt_T_logl C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2269 N DF OV B N uc -
+<DEFINE> GmFctDiArbnSts_Cnt_T_enum C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2270 N DC OV B N uc -
+<DEFINE> GmFctDiArbnSts_Cnt_T_enum C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2270 N DF OV B N uc -
+<DEFINE> Len_Cnt_T_u16 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2271 N DC OV B N us -
+<DEFINE> Len_Cnt_T_u16 C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2271 N DF OV B N us -
+<DEFINE> RetCod_Cnt_T_enum C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2272 N DC OV B N uc -
+<DEFINE> RetCod_Cnt_T_enum C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2272 N DF OV B N uc -
+<R>C CustDiagcPer1 Rte_Read_CustDiagc_GmSysPwrMod_Val 2274
+<R>X CustDiagcPer1 Rte_Read_CustDiagc_GmSysPwrMod_Val 2274 R
+<R>C CustDiagcPer1 Rte_Read_CustDiagc_SysStReqEnaOvrdNxtr_Logl 2275
+<R>X CustDiagcPer1 Rte_Read_CustDiagc_SysStReqEnaOvrdNxtr_Logl 2275 R
+<R>C CustDiagcPer1 Rte_Read_CustDiagc_GmFctDiSts_Val 2276
+<R>X CustDiagcPer1 Rte_Read_CustDiagc_GmFctDiSts_Val 2276 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2281 R
+<LIT> 0xFFFF U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2284 52 N HN ui B X
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2284 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2286 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2286 R
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2286 57 N DN ui B X
+<R>C CustDiagcPer1 Rte_Call_CustDiagc_CustDiagcGmIgnCntr_SetRamBlockStatus 2287
+<R>X CustDiagcPer1 Rte_Call_CustDiagc_CustDiagcGmIgnCntr_SetRamBlockStatus 2287 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2289 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2295 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2303 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2314 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2316 R
+<R>C CustDiagcPer1 DescSetNegResponse 2322
+<R>X CustDiagcPer1 DescSetNegResponse 2322 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2322 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2325 R
+<R>C CustDiagcPer1 DescProcessingDone 2326
+<R>X CustDiagcPer1 DescProcessingDone 2326 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2326 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2336 R
+<LIT> 0xFF U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2340 41 N HN ui B X
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2340 R
+<LIT> 0 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2342 48 N ON ui B X
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2342 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2345 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2345 R
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2345 53 N DN ui B X
+<LIT> 400 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2350 41 N DN ui B X
+<R>C CustDiagcPer1 Dem_DcmGetFreezeFrameDataByDTC 2351
+<R>X CustDiagcPer1 Dem_DcmGetFreezeFrameDataByDTC 2351 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2351 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2351 R
+<LIT> 1 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2351 125 N DN ui B X
+<LIT> 5 U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2351 178 N DN ui B X
+<R>C CustDiagcPer1 CallNonTrustedFunction 2352
+<R>X CustDiagcPer1 CallNonTrustedFunction 2352 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2353 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2353 R
+<R>C CustDiagcPer1 DescSetNegResponse 2359
+<R>X CustDiagcPer1 DescSetNegResponse 2359 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2359 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2362 R
+<LIT> 0xFF U P C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2362 52 N HN ui B X
+<R>C CustDiagcPer1 DescProcessingDone 2363
+<R>X CustDiagcPer1 DescProcessingDone 2363 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2363 R
+<R>C CustDiagcPer1 Rte_Write_CustDiagc_GmIgnCntr_Val 2368
+<R>X CustDiagcPer1 Rte_Write_CustDiagc_GmIgnCntr_Val 2368 R
+<R>X CustDiagcPer1 Rte_Inst_CustDiagc 2368 R
+<R>C CustDiagcPer1 Rte_Write_CustDiagc_SysStReqEnaOvrdCombd_Logl 2369
+<R>X CustDiagcPer1 Rte_Write_CustDiagc_SysStReqEnaOvrdCombd_Logl 2369 R
+<CTLG> CustDiagcPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 8
+<CTLG> 3 4
+<CTLG> 3 7
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 7 12
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 11
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 12 14
+<CTLG> 13 15
+<CTLG> 14 15
+<CTLG> 15 16
+<CTLG> 15 25
+<CTLG> 16 17
+<CTLG> 16 24
+<CTLG> 17 18
+<CTLG> 17 18
+<CTLG> 17 19
+<CTLG> 17 21
+<CTLG> 17 21
+<CTLG> 17 21
+<CTLG> 18 19
+<CTLG> 19 20
+<CTLG> 20 23
+<CTLG> 21 23
+<CTLG> 23 24
+<CTLG> 24 25
+<CTLG> 25 26
+<CTLG> 26 27
+<CTLG> 26 34
+<CTLG> 27 28
+<CTLG> 27 29
+<CTLG> 28 33
+<CTLG> 29 30
+<CTLG> 30 31
+<CTLG> 30 32
+<CTLG> 31 32
+<CTLG> 32 33
+<CTLG> 33 34
+<CTLG> 34 35
+<CTLG> 35 37
+<CTLGN> 2261 2278 2278 2281 2284 2284 2281 2278 2292 2292 2297 2292 2303 2303 2307 2314 2316 2318 2324 2327 2327 2332 2318 2316 2314 2340 2340 2342 2342 2356 2356 2356 2347 2340 2374 2374 2374 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CustDiagcPer1
+<S>STCYC  13
+<S>STMCC  1 (13:14)
+<S>STMIF  3
+<S>STSUB  12
+<S>STAKI  25
+<S>STLIN  112
+<S>STXLN  45
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  6
+<S>STPTH  200
+<S>STPDN  4.44   
+<S>STPBG  2
+<S>STLOP  1
+<S>STM07  5
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  9
+<S>STAV3  11
+<S>STST1  62
+<S>STST2  42
+<S>STST3  36
+<S>STPAR  0
+<S>STCAL  10
+<S>STFN1  304
+<S>STFN2  115
+
+<DEFINE> CustDiagc_STOP_SEC_CODE C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2377 N DF OM - - - O
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/CustDiagc_MemMap.h 2378
+<R>I C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/tools/contract/CustDiagc_MemMap.h C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<EXTD> NONTRUSTED_NtWrapS_CustDiagc_UpdHwAgTrimVal C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2392
+<DEFINE> FunctionIndex C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2393 N DC OV B N us R
+<DEFINE> FunctionParams C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2394 N DC OV B N p. R
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_UpdHwAgTrimVal C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2392 N DR OF F X (.,us,p.) -
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_UpdHwAgTrimVal C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2392 N DF OF F X (.,us,p.) -
+<R>C NONTRUSTED_NtWrapS_CustDiagc_UpdHwAgTrimVal Rte_Call_CustDiagc_UpdHwAgTrimVal_Oper 2396
+<R>X NONTRUSTED_NtWrapS_CustDiagc_UpdHwAgTrimVal Rte_Call_CustDiagc_UpdHwAgTrimVal_Oper 2396 R
+<CTLG> NONTRUSTED_NtWrapS_CustDiagc_UpdHwAgTrimVal 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 2395 2397 2397 2397 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_UpdHwAgTrimVal
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  1
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  14
+<S>STAV2  14
+<S>STAV3  14
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  11
+<S>STFN2  3
+
+<EXTD> NONTRUSTED_NtWrapS_CustDiagc_ClrHwAgTrimVal C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2408
+<DEFINE> FunctionIndex C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2409 N DC OV B N us R
+<DEFINE> FunctionParams C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2410 N DC OV B N p. R
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_ClrHwAgTrimVal C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2408 N DR OF F X (.,us,p.) -
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_ClrHwAgTrimVal C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2408 N DF OF F X (.,us,p.) -
+<R>C NONTRUSTED_NtWrapS_CustDiagc_ClrHwAgTrimVal Rte_Call_CustDiagc_ClrHwAgTrimVal_Oper 2412
+<R>X NONTRUSTED_NtWrapS_CustDiagc_ClrHwAgTrimVal Rte_Call_CustDiagc_ClrHwAgTrimVal_Oper 2412 R
+<CTLG> NONTRUSTED_NtWrapS_CustDiagc_ClrHwAgTrimVal 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 2411 2413 2413 2413 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_ClrHwAgTrimVal
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  2
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  1
+
+<EXTD> NONTRUSTED_NtWrapS_CustDiagc_ClrAllDiagc C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2424
+<DEFINE> FunctionIndex C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2425 N DC OV B N us R
+<DEFINE> FunctionParams C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2426 N DC OV B N p. R
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_ClrAllDiagc C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2424 N DR OF F X (.,us,p.) -
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_ClrAllDiagc C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2424 N DF OF F X (.,us,p.) -
+<R>C NONTRUSTED_NtWrapS_CustDiagc_ClrAllDiagc Rte_Call_CustDiagc_ClrAllDiagc_Oper 2428
+<R>X NONTRUSTED_NtWrapS_CustDiagc_ClrAllDiagc Rte_Call_CustDiagc_ClrAllDiagc_Oper 2428 R
+<CTLG> NONTRUSTED_NtWrapS_CustDiagc_ClrAllDiagc 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 2427 2429 2429 2429 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_ClrAllDiagc
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  2
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  1
+
+<EXTD> NONTRUSTED_NtWrapS_CustDiagc_DemDcmDisableDTCSetting C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2440
+<DEFINE> FunctionIndex C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2441 N DC OV B N us R
+<DEFINE> FunctionParams C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2442 N DC OV B N p. R
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_DemDcmDisableDTCSetting C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2440 N DR OF F X (.,us,p.) -
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_DemDcmDisableDTCSetting C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2440 N DF OF F X (.,us,p.) -
+<R>C NONTRUSTED_NtWrapS_CustDiagc_DemDcmDisableDTCSetting Dem_DcmDisableDTCSetting 2444
+<R>X NONTRUSTED_NtWrapS_CustDiagc_DemDcmDisableDTCSetting Dem_DcmDisableDTCSetting 2444 R
+<CTLG> NONTRUSTED_NtWrapS_CustDiagc_DemDcmDisableDTCSetting 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 2443 2445 2445 2445 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_DemDcmDisableDTCSetting
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  2
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> NONTRUSTED_NtWrapS_CustDiagc_DemDcmEnableDTCSetting C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2456
+<DEFINE> FunctionIndex C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2457 N DC OV B N us R
+<DEFINE> FunctionParams C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2458 N DC OV B N p. R
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_DemDcmEnableDTCSetting C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2456 N DR OF F X (.,us,p.) -
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_DemDcmEnableDTCSetting C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2456 N DF OF F X (.,us,p.) -
+<R>C NONTRUSTED_NtWrapS_CustDiagc_DemDcmEnableDTCSetting Dem_DcmEnableDTCSetting 2460
+<R>X NONTRUSTED_NtWrapS_CustDiagc_DemDcmEnableDTCSetting Dem_DcmEnableDTCSetting 2460 R
+<CTLG> NONTRUSTED_NtWrapS_CustDiagc_DemDcmEnableDTCSetting 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 2459 2461 2461 2461 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_DemDcmEnableDTCSetting
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  2
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> NONTRUSTED_NtWrapS_CustDiagc_GmFctDiReq C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2472
+<DEFINE> FunctionIndex C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2473 N DC OV B N us R
+<DEFINE> FunctionParams C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2474 N DC OV B N p. R
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_GmFctDiReq C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2472 N DR OF F X (.,us,p.) -
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_GmFctDiReq C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2472 N DF OF F X (.,us,p.) -
+<R>C NONTRUSTED_NtWrapS_CustDiagc_GmFctDiReq Rte_Call_CustDiagc_GmFctDiReq_Oper 2476
+<R>X NONTRUSTED_NtWrapS_CustDiagc_GmFctDiReq Rte_Call_CustDiagc_GmFctDiReq_Oper 2476 R
+<CTLG> NONTRUSTED_NtWrapS_CustDiagc_GmFctDiReq 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 2475 2477 2477 2477 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_GmFctDiReq
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  2
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  1
+
+<EXTD> NONTRUSTED_NtWrapS_CustDiagc_EnaDtcRecUpd C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2488
+<DEFINE> FunctionIndex C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2489 N DC OV B N us R
+<DEFINE> FunctionParams C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2490 N DC OV B N p. R
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_EnaDtcRecUpd C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2488 N DR OF F X (.,us,p.) -
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_EnaDtcRecUpd C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2488 N DF OF F X (.,us,p.) -
+<R>C NONTRUSTED_NtWrapS_CustDiagc_EnaDtcRecUpd Dem_DcmEnableDTCRecordUpdate 2492
+<R>X NONTRUSTED_NtWrapS_CustDiagc_EnaDtcRecUpd Dem_DcmEnableDTCRecordUpdate 2492 R
+<CTLG> NONTRUSTED_NtWrapS_CustDiagc_EnaDtcRecUpd 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 2491 2493 2493 2493 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_EnaDtcRecUpd
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  2
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  1
+
+<EXTD> NONTRUSTED_NtWrapS_CustDiagc_DiDtcRecUpd C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2504
+<DEFINE> FunctionIndex C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2505 N DC OV B N us R
+<DEFINE> FunctionParams C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2506 N DC OV B N p. R
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_DiDtcRecUpd C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2504 N DR OF F X (.,us,p.) -
+<DEFINE> NONTRUSTED_NtWrapS_CustDiagc_DiDtcRecUpd C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c 2504 N DF OF F X (.,us,p.) -
+<R>C NONTRUSTED_NtWrapS_CustDiagc_DiDtcRecUpd Dem_DcmDisableDTCRecordUpdate 2508
+<R>X NONTRUSTED_NtWrapS_CustDiagc_DiDtcRecUpd Dem_DcmDisableDTCRecordUpdate 2508 R
+<CTLG> NONTRUSTED_NtWrapS_CustDiagc_DiDtcRecUpd 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 2507 2509 2509 2509 
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_DiDtcRecUpd
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  1
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  19
+<S>STAV2  19
+<S>STAV3  19
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  15
+<S>STFN2  4
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_BattVltgEcu_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EcuIntT_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EngSpd_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpdMotOvldProtnCntr_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpsAgOvrlSts_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpsApaAgOvrlReq_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpsMotCurrFb_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpsMotCurr_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpsStopStrtSts_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpsTqOvrlReq_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_EpsTqOvrlSts_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_IgnCycCntr_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_SplrIntDtcInfo_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_SteerInpTq_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_SteerOutpTq_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_SteerWhlAg_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_SysPwrMod_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_TiIgnOn_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CSDataServices_VehSpd_ReadData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CustDiagcClrGmIgnCntr_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CustDiagcInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  CustDiagcPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_ClrAllDiagc
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_ClrHwAgTrimVal
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_DemDcmDisableDTCSetting
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_DemDcmEnableDTCSetting
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_DiDtcRecUpd
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_EnaDtcRecUpd
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_GmFctDiReq
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  NONTRUSTED_NtWrapS_CustDiagc_UpdHwAgTrimVal
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNAM  C:/Workspace/_EA4/_Components/GM_003A_CustDiagc_Impl#EA4#2-kzdyfh/GM_003A_CustDiagc_Impl/src/CustDiagc.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  2
+<S>STFNC  30
+<S>STFCO  44
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  216
+<S>STOPT  40
+<S>STOPN  329
+<S>STTOT  2908
+<S>STZIP  2394
+<S>STHAL  2964
+<S>STSHN  11134
+<S>STDIF  14.64  
+<S>STEFF  363123
+<S>STVOL  24798
+<S>STDEV  60.52  
+<S>STBUG  5
+<S>STTPP  2523
+<S>STTLN  431
+<S>STM20  1021
+<S>STM21  1877
+<S>STM22  224
+<S>STM28  204
+<S>STM33  166
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  6.342  
+<S>STBMS  8.458  
+<S>STBME  10.930 
+<S>STTDO  5.044  
+<S>STTDS  5.278  
+<S>STTDE  5.374  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  4.025  
+

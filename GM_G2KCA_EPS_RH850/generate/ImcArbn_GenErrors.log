@@ -1,0 +1,33 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate
+    Descr. file:   C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1484853116431-5\AutosarFiles_ValGen-1484869217543-0\ImcArbn_ECUC_9190695445705441608.arxml
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\AR350A_ImcArbn_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\AR350A_ImcArbn_Impl\generate\..\..\TL105A_Artt\tools\include\Logger.tt
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\AR350A_ImcArbn_Impl\generate\ImcArbn_helper.tt
+    Template:      C:\_synergy\G2KCAT3_CZ8L9T\AR350A_ImcArbn_Impl\generate\ImcArbn_Cfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_synergy/G2KCAT3_CZ8L9T/GM_G2KCA_EPS_RH850/generate\ImcArbn_Cfg.h. written.
+    Duration:      00:00:00.8112052.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate
+    Descr. file:   C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1484853116431-5\AutosarFiles_ValGen-1484869217543-0\ImcArbn_ECUC_9190695445705441608.arxml
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\AR350A_ImcArbn_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\AR350A_ImcArbn_Impl\generate\..\..\TL105A_Artt\tools\include\Logger.tt
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\AR350A_ImcArbn_Impl\generate\ImcArbn_helper.tt
+    Template:      C:\_synergy\G2KCAT3_CZ8L9T\AR350A_ImcArbn_Impl\generate\ImcArbn_Private_Cfg.c.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_synergy/G2KCAT3_CZ8L9T/GM_G2KCA_EPS_RH850/generate\ImcArbn_Private_Cfg.c. written.
+    Duration:      00:00:00.8112052.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate
+    Descr. file:   C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1484853116431-5\AutosarFiles_ValGen-1484869217543-0\ImcArbn_ECUC_9190695445705441608.arxml
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\AR350A_ImcArbn_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\AR350A_ImcArbn_Impl\generate\..\..\TL105A_Artt\tools\include\Logger.tt
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\AR350A_ImcArbn_Impl\generate\ImcArbn_helper.tt
+    Template:      C:\_synergy\G2KCAT3_CZ8L9T\AR350A_ImcArbn_Impl\generate\ImcArbn_Private_Cfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_synergy/G2KCAT3_CZ8L9T/GM_G2KCA_EPS_RH850/generate\ImcArbn_Private_Cfg.h. written.
+    Duration:      00:00:00.8424054.

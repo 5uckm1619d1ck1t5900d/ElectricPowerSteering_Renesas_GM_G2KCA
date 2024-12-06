@@ -1,0 +1,5 @@
+#!gbuild
+primaryTarget=v800_standalone.tgt
+[Project]
+g2kca_epsa.gpj
+g2kca_epsb.gpj

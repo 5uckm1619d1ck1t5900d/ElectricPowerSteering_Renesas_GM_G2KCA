@@ -1,0 +1,5 @@
+#!gbuild   
+[Subproject]   
+..\src\CDD_Sci30CfgAnduse.c   
+..\include\CDD_Sci30CfgAndUseNonRte_MemMap.h   
+..\include\CDD_Sci30CfgAndUse_Private.h   

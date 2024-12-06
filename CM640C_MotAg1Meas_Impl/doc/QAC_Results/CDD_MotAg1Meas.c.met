@@ -1,0 +1,1394 @@
+<RDEF> I Includes
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_CDD_MotAg1Meas.h 94
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_CDD_MotAg1Meas.h C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_CDD_MotAg1Meas_Type.h 40
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_CDD_MotAg1Meas_Type.h C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_Type.h C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte.h 27
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_CDD_MotAg1Meas.h C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_CDD_MotAg1Meas.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 72
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_CDD_MotAg1Meas.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 77
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_CDD_MotAg1Meas.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 93
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_CDD_MotAg1Meas.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 127
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_CDD_MotAg1Meas.h C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/CDD_MotAg1Meas_MemMap.h 303
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/CDD_MotAg1Meas_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_CDD_MotAg1Meas.h C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/CDD_MotAg1Meas_MemMap.h 481
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/CDD_MotAg1Meas_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/csih_regs.h 102
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/csih_regs.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/csih_regs.h C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 25
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c C:/Component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 103
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h 104
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/TL103A_CplrSuprt/include/2015.1.5/ansi/math.h 25
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 26
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h 105
+<R>I C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c C:/Component/CM640C_MotAg1Meas_Impl/include/CDD_MotAg1Meas.h 106
+<DEFINE> CDD_MOTAG1MEAS_H C:/Component/CM640C_MotAg1Meas_Impl/include/CDD_MotAg1Meas.h 21 I DF OM - - - O
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/include/CDD_MotAg1Meas.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 25
+<EXTN> MotAg1MeasPer1 C:/Component/CM640C_MotAg1Meas_Impl/include/CDD_MotAg1Meas.h 32
+<DEFINE> MotAg1MeasPer1 C:/Component/CM640C_MotAg1Meas_Impl/include/CDD_MotAg1Meas.h 32 I DC OF F X (.,.) -
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c C:/Component/CM640C_MotAg1Meas_Impl/include/CDD_MotAg1Meas_private.h 107
+<DEFINE> CDD_MOTAG1MEAS_PRIVATE_H C:/Component/CM640C_MotAg1Meas_Impl/include/CDD_MotAg1Meas_private.h 20 I DF OM - - - O
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/include/CDD_MotAg1Meas_private.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<DEFINE> SPIPARMASK_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/include/CDD_MotAg1Meas_private.h 25 I DF OM - - - O
+<LIT> 33554432 U P C:/Component/CM640C_MotAg1Meas_Impl/include/CDD_MotAg1Meas_private.h 25 66 I DN - F M
+<DEFINE> CORRNTBLSIZEMASK_CNT_U08 C:/Component/CM640C_MotAg1Meas_Impl/include/CDD_MotAg1Meas_private.h 26 I DF OM - - - O
+<LIT> 127 U P C:/Component/CM640C_MotAg1Meas_Impl/include/CDD_MotAg1Meas_private.h 26 65 I DN - F M
+<DEFINE> PimMotAg1CorrnTbl C:/Component/CM640C_MotAg1Meas_Impl/include/CDD_MotAg1Meas_private.h 29 I DF OM - - - O
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/CDD_MotAg1Meas_Cfg.h 108
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/CDD_MotAg1Meas_Cfg.h C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/Rte_CDD_MotAg1Meas.h 6
+<DEFINE> COEFFTBLELMSIZE_CNT_U08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 117 N DF OM - - - O
+<LIT> 2 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 117 65 N DN - F M
+<DEFINE> COEFFTBLSIZE_CNT_U08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 118 N DF OM - - - O
+<LIT> 13 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 118 65 N DN - F M
+<DEFINE> CORRNTBLAGSTEPSIZE_MATRAD_F32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 119 N DF OM - - - O
+<LIT> 0.04908738521 F P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 119 50 N FN - F M
+<DEFINE> CORRNTBLSIDXOFFS_CNT_U16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 120 N DF OM - - - O
+<LIT> 7 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 120 66 N DN - F M
+<DEFINE> CORRNTBLSIZE_CNT_U16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 121 N DF OM - - - O
+<LIT> 128 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 121 66 N DN - F M
+<DEFINE> MOTAG1PRTCLFLTFAILSTEP_CNT_U16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 122 N DF OM - - - O
+<LIT> 3276 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 122 58 N DN - F M
+<DEFINE> MOTAG1PRTCLFLTPASSSTEP_CNT_U16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 123 N DF OM - - - O
+<LIT> 655 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 123 58 N DN - F M
+<DEFINE> READBUFADR_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 124 N DF OM - - - O
+<LIT> 589824 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 124 66 N DN - F M
+<DEFINE> READBUFIDX_CNT_U08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 125 N DF OM - - - O
+<LIT> 10 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 125 73 N DN - F M
+<DEFINE> SPIAGCNTREGIDX_CNT_U08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 126 N DF OM - - - O
+<LIT> 9 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 126 65 N DN - F M
+<DEFINE> SPITURNCNTRREGIDX_CNT_U08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 127 N DF OM - - - O
+<LIT> 6 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 127 65 N DN - F M
+<DEFINE> SPIAGREGIDX_CNT_U08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 128 N DF OM - - - O
+<LIT> 3 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 128 65 N DN - F M
+<DEFINE> SNSRCNTMASK_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 129 N DF OM - - - O
+<LIT> 16383 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 129 66 N DN - F M
+<DEFINE> SNSRAGMASK_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 130 N DF OM - - - O
+<LIT> 32767 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 130 74 N DN - F M
+<DEFINE> MAX16BIT_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 131 N DF OM - - - O
+<LIT> 65535 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 131 74 N DN - F M
+<DEFINE> SPISTATREGIDX_CNT_U08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 132 N DF OM - - - O
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 132 65 N ON - F M
+<DEFINE> MOTAGSPITRSMMASK_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 133 N DF OM - - - O
+<LIT> 128 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 133 66 N DN - F M
+<DEFINE> MOTAGFLTMASK_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 134 N DF OM - - - O
+<LIT> 6372 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 134 66 N DN - F M
+<DEFINE> NOMOTAGFLTMASK_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 135 N DF OM - - - O
+<LIT> 4096 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 135 66 N DN - F M
+<DEFINE> VLDMOTAGFLTMASK_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 136 N DF OM - - - O
+<LIT> 2048 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 136 66 N DN - F M
+<DEFINE> MOTAGMGNLIMFLTMASK_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 137 N DF OM - - - O
+<LIT> 128 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 137 66 N DN - F M
+<DEFINE> MOTAGCPTLIMFLTMASK_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 138 N DF OM - - - O
+<LIT> 64 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 138 66 N DN - F M
+<DEFINE> MOTAGOVFFLTMASK_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 139 N DF OM - - - O
+<LIT> 32 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 139 66 N DN - F M
+<DEFINE> MOTAGVLTGFLTMASK_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 140 N DF OM - - - O
+<LIT> 4 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 140 66 N DN - F M
+<DEFINE> MOTAGOFFS_CNT_S32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 141 N DF OM - - - O
+<LIT> 32768 - P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 141 74 N DN - F M
+<DEFINE> MOTAGLIMMASK_CNT_S32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 142 N DF OM - - - O
+<LIT> 65535 - P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 142 66 N DN - F M
+<DEFINE> MOTAG1ERRTHD_MOTREV_U0P16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 143 N DF OM - - - O
+<LIT> 3604 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 143 65 N DN - F M
+<DEFINE> TURNCNTRREGMASK_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 144 N DF OM - - - O
+<LIT> 511 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 144 66 N DN - F M
+<DEFINE> TURNCNTRHALFOFFS_CNT_S16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 145 N DF OM - - - O
+<LIT> 256 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 145 66 N DN - F M
+<DEFINE> TURNCNTROFFS_CNT_S16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 146 N DF OM - - - O
+<LIT> 512 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 146 66 N DN - F M
+<DEFINE> CNTPERREV_MOTREV_S15P16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 147 N DF OM - - - O
+<LIT> 65536 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 147 54 N DN - F M
+<DEFINE> MOTAGMINWAITPERD_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 148 N DF OM - - - O
+<LIT> 2 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 148 66 N DN - F M
+<DEFINE> STRTPTRINITVAL_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 149 N DF OM - - - O
+<LIT> 2148007936 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 149 66 N DN - F M
+<DEFINE> STRTPTRPERVAL_CNT_U32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 150 N DF OM - - - O
+<LIT> 2148270088 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 150 66 N DN - F M
+<DEFINE> PimMotAg1CoeffTbl C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 151 N DF OM - - - O
+<DEFINE> dPimMotAg1RawReg C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 152 N DF OM - - - O
+<DEFINE> CalcCorrnTbl C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 158 N DC OF F I (.,.) -
+<DEFINE> MotAg1StatReg_Cnt_T_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 159 N DC OV P N ul R
+<DEFINE> MotAg1SyncErr_Cnt_T_lgc C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 159 N DC OV P N uc R
+<DEFINE> CalcNtcPrm C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 159 N DC OF F I (uc,ul,uc) -
+<DEFINE> MotAg1SpiMecl_MotRev_T_u0p16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 160 N DC OV P N us R
+<DEFINE> GetMechMtrPos C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 160 N DC OF F I (nl,us) -
+<DEFINE> CDD_MotAg1Meas_START_SEC_CODE C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 760 N DF OM - - - O
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/CDD_MotAg1Meas_MemMap.h 761
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/CDD_MotAg1Meas_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> MotAg1CoeffTblRead_Oper C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 781
+<DEFINE> MotAgCoeffTbl_Arg C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 781 N DC OV B N pfs R
+<DEFINE> MotAg1CoeffTblRead_Oper C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 781 N DR OF F X (.,pfs) -
+<DEFINE> MotAg1CoeffTblRead_Oper C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 781 N DF OF F X (.,pfs) -
+<DEFINE> TblIdx_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 790 N DC OV B N uc -
+<DEFINE> TblIdx_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 790 N DF OV B N uc -
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 793 33 N ON ui B X
+<RDEF> X Refers-to
+<R>X MotAg1CoeffTblRead_Oper Rte_Inst_CDD_MotAg1Meas 795 R
+<CTLG> MotAg1CoeffTblRead_Oper 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 5
+<CTLG> 3 4
+<CTLG> 4 2
+<CTLG> 5 7
+<CTLGN> 785 793 793 793 793 801 801 
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  MotAg1CoeffTblRead_Oper
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  15
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  12
+<S>STAV3  19
+<S>STST1  4
+<S>STST2  3
+<S>STST3  2
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  24
+<S>STFN2  14
+
+<EXTD> MotAg1CoeffTblWr_Oper C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 831
+<DEFINE> MotAgCoeffTbl_Arg C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 831 N DC OV B N p=fs R
+<DEFINE> MotAg1CoeffTblWr_Oper C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 831 N DR OF F X (.,p=fs) -
+<DEFINE> MotAg1CoeffTblWr_Oper C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 831 N DF OF F X (.,p=fs) -
+<DEFINE> TblIdx_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 840 N DC OV B N uc -
+<DEFINE> TblIdx_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 840 N DF OV B N uc -
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 843 33 N ON ui B X
+<R>X MotAg1CoeffTblWr_Oper Rte_Inst_CDD_MotAg1Meas 845 R
+<RDEF> C Calls
+<R>C MotAg1CoeffTblWr_Oper Rte_Call_CDD_MotAg1Meas_MotAg1CoeffTbl_SetRamBlockStatus 848
+<R>X MotAg1CoeffTblWr_Oper Rte_Call_CDD_MotAg1Meas_MotAg1CoeffTbl_SetRamBlockStatus 848 R
+<CTLG> MotAg1CoeffTblWr_Oper 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 5
+<CTLG> 3 4
+<CTLG> 4 2
+<CTLG> 5 6
+<CTLG> 6 8
+<CTLGN> 835 843 843 843 843 853 853 853 
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  MotAg1CoeffTblWr_Oper
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  1
+<S>STAKI  3
+<S>STLIN  17
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.67   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  11
+<S>STAV3  15
+<S>STST1  5
+<S>STST2  4
+<S>STST3  3
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  30
+<S>STFN2  16
+
+<EXTD> MotAg1MeasInit1 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 875
+<DEFINE> MotAg1MeasInit1 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 875 N DR OF F X (.,.) -
+<DEFINE> MotAg1MeasInit1 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 875 N DF OF F X (.,.) -
+<DEFINE> MotAg1CoeffTblErrSts_Cnt_T_enum C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 882 N DC OV B N uc -
+<DEFINE> MotAg1CoeffTblErrSts_Cnt_T_enum C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 882 N DF OV B N uc -
+<R>X MotAg1MeasInit1 CSIH3 895 W
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 890 24 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 891 53 N HN ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 891 62 N ON ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 892 53 N HN ui B X
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 892 62 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 893 53 N HN ui B X
+<LIT> 5 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 893 62 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 894 53 N HN ui B X
+<LIT> 6 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 894 62 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 895 53 N HN ui B X
+<LIT> 7 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 895 62 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 904 W
+<LIT> 0x0000 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 898 24 N HN ui B X
+<LIT> 0x01 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 899 55 N HN ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 899 64 N ON ui B X
+<LIT> 0x01 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 900 55 N HN ui B X
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 900 64 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 901 55 N HN ui B X
+<LIT> 3 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 901 64 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 902 55 N HN ui B X
+<LIT> 8 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 902 64 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 903 55 N HN ui B X
+<LIT> 14 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 903 64 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 904 55 N HN ui B X
+<LIT> 15 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 904 64 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 926 W
+<LIT> 0x00000000 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 907 24 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 908 55 N HN ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 908 64 N ON ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 909 55 N HN ui B X
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 909 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 910 55 N HN ui B X
+<LIT> 2 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 910 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 911 55 N HN ui B X
+<LIT> 3 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 911 64 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 912 55 N HN ui B X
+<LIT> 4 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 912 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 913 55 N HN ui B X
+<LIT> 5 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 913 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 914 55 N HN ui B X
+<LIT> 6 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 914 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 915 55 N HN ui B X
+<LIT> 7 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 915 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 916 55 N HN ui B X
+<LIT> 8 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 916 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 917 55 N HN ui B X
+<LIT> 9 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 917 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 918 55 N HN ui B X
+<LIT> 10 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 918 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 919 55 N HN ui B X
+<LIT> 11 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 919 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 920 55 N HN ui B X
+<LIT> 12 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 920 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 921 55 N HN ui B X
+<LIT> 13 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 921 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 922 55 N HN ui B X
+<LIT> 14 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 922 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 923 55 N HN ui B X
+<LIT> 15 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 923 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 924 55 N HN ui B X
+<LIT> 16 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 924 64 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 925 55 N HN ui B X
+<LIT> 17 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 925 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 926 55 N HN ui B X
+<LIT> 18 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 926 64 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 930 W
+<LIT> 0x0000 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 929 24 N HN ui B X
+<LIT> 0x03 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 930 55 N HN ui B X
+<LIT> 13 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 930 64 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 935 W
+<LIT> 0x0000 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 933 24 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 934 55 N HN ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 934 64 N ON ui B X
+<LIT> 0x01 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 935 55 N HN ui B X
+<LIT> 8 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 935 64 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 940 W
+<LIT> 0x00000000 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 938 24 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 939 55 N HN ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 939 64 N ON ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 940 55 N HN ui B X
+<LIT> 16 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 940 64 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 955 W
+<LIT> 0x00000000 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 943 24 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 944 55 N HN ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 944 64 N ON ui B X
+<LIT> 0x01 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 945 55 N HN ui B X
+<LIT> 4 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 945 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 946 55 N HN ui B X
+<LIT> 8 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 946 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 947 55 N HN ui B X
+<LIT> 12 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 947 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 948 55 N HN ui B X
+<LIT> 15 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 948 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 949 55 N HN ui B X
+<LIT> 16 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 949 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 950 55 N HN ui B X
+<LIT> 17 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 950 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 951 55 N HN ui B X
+<LIT> 18 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 951 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 952 55 N HN ui B X
+<LIT> 19 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 952 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 953 55 N HN ui B X
+<LIT> 24 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 953 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 954 55 N HN ui B X
+<LIT> 28 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 954 64 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 955 55 N HN ui B X
+<LIT> 30 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 955 64 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 958 W
+<LIT> 1 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 958 28 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 962 W
+<LIT> 10 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 962 28 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 967 W
+<LIT> 0x00000000 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 965 25 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 966 55 N HN ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 966 64 N ON ui B X
+<LIT> 0x00 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 967 55 N HN ui B X
+<LIT> 16 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 967 64 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 970 W
+<LIT> 15663120 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 970 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 971 W
+<LIT> 15663332 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 971 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 972 W
+<LIT> 15673392 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 972 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 973 W
+<LIT> 15679490 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 973 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 974 W
+<LIT> 15683712 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 974 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 975 W
+<LIT> 15665152 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 975 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 976 W
+<LIT> 15683810 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 976 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 977 W
+<LIT> 15663104 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 977 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 978 W
+<LIT> 15696896 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 978 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 979 W
+<LIT> 15728639 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 979 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 980 W
+<LIT> 16646144 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 980 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 981 W
+<LIT> 15696928 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 981 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 982 W
+<LIT> 15728639 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 982 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 983 W
+<LIT> 16646144 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 983 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 984 W
+<LIT> 15696960 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 984 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 985 W
+<LIT> 15728639 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 985 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 986 W
+<LIT> 16646144 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 986 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 987 W
+<LIT> 15717888 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 987 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 988 W
+<LIT> 15728639 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 988 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 989 W
+<LIT> 16646144 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 989 27 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 992 W
+<LIT> 1 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 992 28 N DN ui B X
+<R>X MotAg1MeasInit1 CSIH3 998 W
+<R>C MotAg1MeasInit1 Rte_Call_CDD_MotAg1Meas_MotAg1CoeffTbl_GetErrorStatus 1000
+<R>X MotAg1MeasInit1 Rte_Call_CDD_MotAg1Meas_MotAg1CoeffTbl_GetErrorStatus 1000 R
+<R>C MotAg1MeasInit1 CalcCorrnTbl 1005
+<CTLG> MotAg1MeasInit1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 7
+<CTLGN> 876 1002 1002 1002 1007 1016 1016 
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  MotAg1MeasInit1
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  2
+<S>STAKI  4
+<S>STLIN  139
+<S>STXLN  85
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.02   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  19
+<S>STAV2  20
+<S>STAV3  21
+<S>STST1  38
+<S>STST2  36
+<S>STST3  35
+<S>STPAR  0
+<S>STCAL  2
+<S>STFN1  481
+<S>STFN2  269
+
+<EXTD> MotAg1MeasPer2 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1064
+<DEFINE> MotAg1MeasPer2 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1064 N DR OF F X (.,.) -
+<DEFINE> MotAg1MeasPer2 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1064 N DF OF F X (.,.) -
+<DEFINE> MotAg1MeclQlfr_Cnt_T_enum C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1072 N DC OV B N uc -
+<DEFINE> MotAg1MeclQlfr_Cnt_T_enum C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1072 N DF OV B N uc -
+<DEFINE> SpiReadCntr_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1073 N DC OV B N uc -
+<DEFINE> SpiReadCntr_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1073 N DF OV B N uc -
+<DEFINE> MotAgMecl1Polarity_Cnt_T_s08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1074 N DC OV B N nc -
+<DEFINE> MotAgMecl1Polarity_Cnt_T_s08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1074 N DF OV B N nc -
+<DEFINE> MotAg1RawRegBuf_Cnt_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1075 N DC OV B N [10,ul] -
+<DEFINE> MotAg1RawRegBuf_Cnt_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1075 N DF OV B N [10,ul] -
+<DEFINE> MotAg1SpiTrsmEna_Cnt_T_lgc C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1076 N DC OV B N uc -
+<DEFINE> MotAg1SpiTrsmEna_Cnt_T_lgc C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1076 N DF OV B N uc -
+<DEFINE> MotAg4Mecl_MotRev_T_u0p16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1077 N DC OV B N us -
+<DEFINE> MotAg4Mecl_MotRev_T_u0p16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1077 N DF OV B N us -
+<DEFINE> MotAg1SpiCntr_Cnt_T_u0p16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1078 N DC OV B N us -
+<DEFINE> MotAg1SpiCntr_Cnt_T_u0p16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1078 N DF OV B N us -
+<DEFINE> MotAg1RawSpiMecl_Cnt_T_u0p16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1079 N DC OV B N us -
+<DEFINE> MotAg1RawSpiMecl_Cnt_T_u0p16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1079 N DF OV B N us -
+<DEFINE> MotAg1SpiMecl_MotRev_T_u0p16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1080 N DC OV B N us -
+<DEFINE> MotAg1SpiMecl_MotRev_T_u0p16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1080 N DF OV B N us -
+<DEFINE> MotAg1Offs_Cnt_T_s32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1081 N DC OV B N nl -
+<DEFINE> MotAg1Offs_Cnt_T_s32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1081 N DF OV B N nl -
+<DEFINE> MotAg1RtnOffs_Cnt_T_s32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1082 N DC OV B N nl -
+<DEFINE> MotAg1RtnOffs_Cnt_T_s32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1082 N DF OV B N nl -
+<DEFINE> MotAg1StatReg_Cnt_T_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1083 N DC OV B N ul -
+<DEFINE> MotAg1StatReg_Cnt_T_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1083 N DF OV B N ul -
+<DEFINE> NtcStInfo_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1084 N DC OV B N uc -
+<DEFINE> NtcStInfo_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1084 N DF OV B N uc -
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1084 57 N ON ui B O
+<DEFINE> MotAg1SyncErr_Cnt_T_lgc C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1085 N DC OV B N uc -
+<DEFINE> MotAg1SyncErr_Cnt_T_lgc C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1085 N DF OV B N uc -
+<DEFINE> MotAg1Dif1_MotRev_T_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1086 N DC OV B N ul -
+<DEFINE> MotAg1Dif1_MotRev_T_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1086 N DF OV B N ul -
+<DEFINE> MotAg1Dif2_MotRev_T_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1087 N DC OV B N ul -
+<DEFINE> MotAg1Dif2_MotRev_T_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1087 N DF OV B N ul -
+<DEFINE> MotAg1TurnCntrRegVal_Cnt_T_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1088 N DC OV B N ul -
+<DEFINE> MotAg1TurnCntrRegVal_Cnt_T_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1088 N DF OV B N ul -
+<DEFINE> MotAg1TurnCntrRegVal_Cnt_T_s16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1089 N DC OV B N ns -
+<DEFINE> MotAg1TurnCntrRegVal_Cnt_T_s16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1089 N DF OV B N ns -
+<DEFINE> MotAg1TurnCntrOffs_Cnt_T_s32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1090 N DC OV B N nl -
+<DEFINE> MotAg1TurnCntrOffs_Cnt_T_s32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1090 N DF OV B N nl -
+<DEFINE> MotAg1TurnCntr_Cnt_T_s32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1091 N DC OV B N nl -
+<DEFINE> MotAg1TurnCntr_Cnt_T_s32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1091 N DF OV B N nl -
+<DEFINE> MechMtrPosOut_MotRev_T_s32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1092 N DC OV B N nl -
+<DEFINE> MechMtrPosOut_MotRev_T_s32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1092 N DF OV B N nl -
+<DEFINE> MotAg1DiagcAg_MotRev_T_u0p16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1093 N DC OV B N us -
+<DEFINE> MotAg1DiagcAg_MotRev_T_u0p16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1093 N DF OV B N us -
+<R>C MotAg1MeasPer2 Rte_Read_CDD_MotAg1Meas_MotAgMecl1Polarity_Val 1096
+<R>X MotAg1MeasPer2 Rte_Read_CDD_MotAg1Meas_MotAgMecl1Polarity_Val 1096 R
+<R>C MotAg1MeasPer2 Rte_IrvRead_CDD_MotAg1Meas_MotAg1MeasPer2_MotAg1DiagcAg 1099
+<R>X MotAg1MeasPer2 Rte_IrvRead_CDD_MotAg1Meas_MotAg1MeasPer2_MotAg1DiagcAg 1099 R
+<R>C MotAg1MeasPer2 Rte_IrvRead_CDD_MotAg1Meas_MotAg1MeasPer2_MotAg1SpiTrsmEna 1100
+<R>X MotAg1MeasPer2 Rte_IrvRead_CDD_MotAg1Meas_MotAg1MeasPer2_MotAg1SpiTrsmEna 1100 R
+<R>C MotAg1MeasPer2 Rte_IrvRead_CDD_MotAg1Meas_MotAg1MeasPer2_MotAg4Mecl 1101
+<R>X MotAg1MeasPer2 Rte_IrvRead_CDD_MotAg1Meas_MotAg1MeasPer2_MotAg4Mecl 1101 R
+<R>X MotAg1MeasPer2 CSIH3 1105 W
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1107 43 N ON ui B X
+<R>X MotAg1MeasPer2 CSIH3 1109 R
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1110 R
+<LIT> 2 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1115 47 N DN ui B X
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1116 R
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1119 R
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1121 49 N DN ui B X
+<LIT> 0 - P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1123 51 N ON ni B X
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1132 R
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1135 49 N ON ui B X
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1135 R
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1138 R
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1138 R
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1138 54 N DN ui B X
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1139 R
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1144 R
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1145 R
+<R>C MotAg1MeasPer2 GetMechMtrPos 1149
+<R>C MotAg1MeasPer2 Abslt_u32_s32 1150
+<R>X MotAg1MeasPer2 Abslt_u32_s32 1150 R
+<R>C MotAg1MeasPer2 Abslt_u32_s32 1153
+<R>X MotAg1MeasPer2 Abslt_u32_s32 1153 R
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1160 R
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1175 R
+<R>C MotAg1MeasPer2 FixdToFloat_f32_s32 1186
+<R>X MotAg1MeasPer2 FixdToFloat_f32_s32 1186 R
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1186 R
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1192 R
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1195 72 N ON ui B X
+<R>C MotAg1MeasPer2 CalcNtcPrm 1197
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1201 R
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1201 R
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1201 59 N DN ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1204 44 N ON ui B X
+<R>C MotAg1MeasPer2 Rte_Call_CDD_MotAg1Meas_SetNtcSts_Oper 1206
+<R>X MotAg1MeasPer2 Rte_Call_CDD_MotAg1Meas_SetNtcSts_Oper 1206 R
+<R>C MotAg1MeasPer2 Rte_Call_CDD_MotAg1Meas_SetNtcSts_Oper 1210
+<R>X MotAg1MeasPer2 Rte_Call_CDD_MotAg1Meas_SetNtcSts_Oper 1210 R
+<R>C MotAg1MeasPer2 Rte_Call_CDD_MotAg1Meas_GetNtcQlfrSts_Oper 1213
+<R>X MotAg1MeasPer2 Rte_Call_CDD_MotAg1Meas_GetNtcQlfrSts_Oper 1213 R
+<R>C MotAg1MeasPer2 Rte_Write_CDD_MotAg1Meas_MotAg1Offs_Val 1219
+<R>X MotAg1MeasPer2 Rte_Write_CDD_MotAg1Meas_MotAg1Offs_Val 1219 R
+<R>C MotAg1MeasPer2 Rte_Write_CDD_MotAg1Meas_MotAg1MeclQlfr_Val 1220
+<R>X MotAg1MeasPer2 Rte_Write_CDD_MotAg1Meas_MotAg1MeclQlfr_Val 1220 R
+<R>C MotAg1MeasPer2 Rte_Write_CDD_MotAg1Meas_MotAg1MeclRollgCntr_Val 1221
+<R>X MotAg1MeasPer2 Rte_Write_CDD_MotAg1Meas_MotAg1MeclRollgCntr_Val 1221 R
+<R>X MotAg1MeasPer2 Rte_Inst_CDD_MotAg1Meas 1221 R
+<CTLG> MotAg1MeasPer2 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 36
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 8
+<CTLG> 6 7
+<CTLG> 7 5
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 12
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 13 15
+<CTLG> 14 16
+<CTLG> 15 16
+<CTLG> 16 17
+<CTLG> 17 18
+<CTLG> 17 19
+<CTLG> 18 20
+<CTLG> 19 20
+<CTLG> 20 21
+<CTLG> 21 22
+<CTLG> 21 23
+<CTLG> 22 24
+<CTLG> 23 24
+<CTLG> 24 25
+<CTLG> 25 26
+<CTLG> 25 27
+<CTLG> 26 28
+<CTLG> 27 28
+<CTLG> 28 29
+<CTLG> 29 30
+<CTLG> 29 31
+<CTLG> 30 32
+<CTLG> 31 32
+<CTLG> 32 33
+<CTLG> 32 34
+<CTLG> 33 35
+<CTLG> 34 35
+<CTLG> 35 37
+<CTLG> 36 37
+<CTLG> 37 39
+<CTLGN> 1065 1102 1102 1107 1107 1107 1107 1107 1123 1123 1123 1127 1135 1135 1135 1141 1151 1151 1151 1155 1162 1162 1162 1166 1177 1177 1177 1181 1195 1195 1195 1199 1204 1204 1208 1102 1224 1231 1231 
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  MotAg1MeasPer2
+<S>STCYC  10
+<S>STMCC  1 (10:11)
+<S>STMIF  2
+<S>STSUB  15
+<S>STAKI  25
+<S>STLIN  165
+<S>STXLN  64
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  22
+<S>STPTH  257
+<S>STPDN  4.02   
+<S>STPBG  2
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  9
+<S>STAV3  13
+<S>STST1  94
+<S>STST2  77
+<S>STST3  55
+<S>STPAR  0
+<S>STCAL  13
+<S>STFN1  458
+<S>STFN2  259
+
+<EXTD> MotAg1MeasPer3 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1274
+<DEFINE> MotAg1MeasPer3 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1274 N DR OF F X (.,.) -
+<DEFINE> MotAg1MeasPer3 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1274 N DF OF F X (.,.) -
+<DEFINE> MotAgMecl_MotRev_T_u0p16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1280 N DC OV B N us -
+<DEFINE> MotAgMecl_MotRev_T_u0p16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1280 N DF OV B N us -
+<DEFINE> RefTmr_MicroSec_T_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1281 N DC OV B N ul -
+<DEFINE> RefTmr_MicroSec_T_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1281 N DF OV B N ul -
+<DEFINE> TiSpan_MicroSec_T_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1282 N DC OV B N ul -
+<DEFINE> TiSpan_MicroSec_T_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1282 N DF OV B N ul -
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1284 54 N ON ui B X
+<R>X MotAg1MeasPer3 CSIH3 1284 R
+<R>X MotAg1MeasPer3 Rte_Inst_CDD_MotAg1Meas 1286 R
+<R>X MotAg1MeasPer3 Rte_Inst_CDD_MotAg1Meas 1286 R
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1286 55 N DN ui B X
+<R>C MotAg1MeasPer3 Rte_Call_CDD_MotAg1Meas_IoHwAb_SetFctGpioMotAg1_Oper 1287
+<R>X MotAg1MeasPer3 Rte_Call_CDD_MotAg1Meas_IoHwAb_SetFctGpioMotAg1_Oper 1287 R
+<R>C MotAg1MeasPer3 Rte_Call_CDD_MotAg1Meas_IoHwAb_SetGpioMotAg1CsihCs_Oper 1288
+<R>X MotAg1MeasPer3 Rte_Call_CDD_MotAg1Meas_IoHwAb_SetGpioMotAg1CsihCs_Oper 1288 R
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1288 64 N ON ui B X
+<R>C MotAg1MeasPer3 Rte_Call_CDD_MotAg1Meas_GetRefTmr1MicroSec32bit_Oper 1289
+<R>X MotAg1MeasPer3 Rte_Call_CDD_MotAg1Meas_GetRefTmr1MicroSec32bit_Oper 1289 R
+<R>C MotAg1MeasPer3 Rte_Call_CDD_MotAg1Meas_GetTiSpan1MicroSec32bit_Oper 1294
+<R>X MotAg1MeasPer3 Rte_Call_CDD_MotAg1Meas_GetTiSpan1MicroSec32bit_Oper 1294 R
+<R>C MotAg1MeasPer3 Rte_Call_CDD_MotAg1Meas_IoHwAb_SetGpioMotAg1CsihCs_Oper 1297
+<R>X MotAg1MeasPer3 Rte_Call_CDD_MotAg1Meas_IoHwAb_SetGpioMotAg1CsihCs_Oper 1297 R
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1297 64 N DN ui B X
+<R>C MotAg1MeasPer3 Rte_Call_CDD_MotAg1Meas_GetMotAg4Mecl_Oper 1298
+<R>X MotAg1MeasPer3 Rte_Call_CDD_MotAg1Meas_GetMotAg4Mecl_Oper 1298 R
+<R>C MotAg1MeasPer3 Rte_Call_CDD_MotAg1Meas_IoHwAb_SetFctPrphlCsihMotAg1_Oper 1299
+<R>X MotAg1MeasPer3 Rte_Call_CDD_MotAg1Meas_IoHwAb_SetFctPrphlCsihMotAg1_Oper 1299 R
+<R>X MotAg1MeasPer3 CSIH3 1301 W
+<R>C MotAg1MeasPer3 Rte_IrvWrite_CDD_MotAg1Meas_MotAg1MeasPer3_MotAg1DiagcAg 1303
+<R>X MotAg1MeasPer3 Rte_IrvWrite_CDD_MotAg1Meas_MotAg1MeasPer3_MotAg1DiagcAg 1303 R
+<R>X MotAg1MeasPer3 Rte_Inst_CDD_MotAg1Meas 1303 R
+<R>C MotAg1MeasPer3 Rte_IrvWrite_CDD_MotAg1Meas_MotAg1MeasPer3_MotAg4Mecl 1304
+<R>X MotAg1MeasPer3 Rte_IrvWrite_CDD_MotAg1Meas_MotAg1MeasPer3_MotAg4Mecl 1304 R
+<R>C MotAg1MeasPer3 Rte_IrvWrite_CDD_MotAg1Meas_MotAg1MeasPer3_MotAg1SpiTrsmEna 1305
+<R>X MotAg1MeasPer3 Rte_IrvWrite_CDD_MotAg1Meas_MotAg1MeasPer3_MotAg1SpiTrsmEna 1305 R
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1305 17 N DN ui B X
+<R>C MotAg1MeasPer3 Rte_IrvWrite_CDD_MotAg1Meas_MotAg1MeasPer3_MotAg1SpiTrsmEna 1309
+<R>X MotAg1MeasPer3 Rte_IrvWrite_CDD_MotAg1Meas_MotAg1MeasPer3_MotAg1SpiTrsmEna 1309 R
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1309 17 N ON ui B X
+<CTLG> MotAg1MeasPer3 1
+<CTLG> 1 2
+<CTLG> 1 7
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 5 3
+<CTLG> 5 6
+<CTLG> 6 8
+<CTLG> 7 8
+<CTLG> 8 10
+<CTLGN> 1275 1284 1292 1292 1292 1292 1284 1307 1315 1315 
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  MotAg1MeasPer3
+<S>STCYC  3
+<S>STMCC  0 (3:3)
+<S>STMIF  2
+<S>STSUB  11
+<S>STAKI  14
+<S>STLIN  39
+<S>STXLN  17
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  3
+<S>STPDN  0.18   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  8
+<S>STAV3  9
+<S>STST1  21
+<S>STST2  18
+<S>STST3  15
+<S>STPAR  0
+<S>STCAL  9
+<S>STFN1  102
+<S>STFN2  42
+
+<DEFINE> CDD_MotAg1Meas_STOP_SEC_CODE C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1318 N DF OM - - - O
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/CDD_MotAg1Meas_MemMap.h 1319
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/CDD_MotAg1Meas_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<DEFINE> CDD_MotAg1Meas_START_SEC_CODE C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1327 N DF OM - - - O
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/CDD_MotAg1Meas_MemMap.h 1328
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/CDD_MotAg1Meas_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<DEFINE> CalcCorrnTbl C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1338 N DR OF F I (.,.) -
+<DEFINE> CalcCorrnTbl C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1338 N DF OF F I (.,.) -
+<DEFINE> TblIdx_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1340 N DC OV B N uc -
+<DEFINE> TblIdx_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1340 N DF OV B N uc -
+<DEFINE> CoeffTblIdx_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1341 N DC OV B N uc -
+<DEFINE> CoeffTblIdx_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1341 N DF OV B N uc -
+<DEFINE> SinVal_Uls_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1342 N DC OV B N fs -
+<DEFINE> SinVal_Uls_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1342 N DF OV B N fs -
+<DEFINE> CosVal_Uls_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1343 N DC OV B N fs -
+<DEFINE> CosVal_Uls_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1343 N DF OV B N fs -
+<DEFINE> HarmAg_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1344 N DC OV B N fs -
+<DEFINE> HarmAg_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1344 N DF OV B N fs -
+<DEFINE> RecnstrdWaveForm_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1345 N DC OV B N [128,fs] -
+<DEFINE> RecnstrdWaveForm_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1345 N DF OV B N [128,fs] -
+<DEFINE> LoopIdx_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1346 N DC OV B N uc -
+<DEFINE> LoopIdx_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1346 N DF OV B N uc -
+<DEFINE> IdxSca_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1347 N DC OV B N fs -
+<DEFINE> IdxSca_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1347 N DF OV B N fs -
+<DEFINE> LoopIdxFound_Cnt_T_logl C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1348 N DC OV B N uc -
+<DEFINE> LoopIdxFound_Cnt_T_logl C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1348 N DF OV B N uc -
+<DEFINE> Y1_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1349 N DC OV B N fs -
+<DEFINE> Y1_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1349 N DF OV B N fs -
+<DEFINE> Y2_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1350 N DC OV B N fs -
+<DEFINE> Y2_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1350 N DF OV B N fs -
+<DEFINE> CorrnTermFound_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1351 N DC OV B N fs -
+<DEFINE> CorrnTermFound_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1351 N DF OV B N fs -
+<DEFINE> CorrnTermNotFound_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1352 N DC OV B N fs -
+<DEFINE> CorrnTermNotFound_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1352 N DF OV B N fs -
+<DEFINE> RecnstrdWaveFormX_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1353 N DC OV B N fs -
+<DEFINE> RecnstrdWaveFormX_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1353 N DF OV B N fs -
+<DEFINE> RecnstrdWaveFormX1_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1354 N DC OV B N fs -
+<DEFINE> RecnstrdWaveFormX1_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1354 N DF OV B N fs -
+<DEFINE> TempX_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1355 N DC OV B N fs -
+<DEFINE> TempX_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1355 N DF OV B N fs -
+<DEFINE> TempY_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1356 N DC OV B N fs -
+<DEFINE> TempY_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1356 N DF OV B N fs -
+<DEFINE> TempA_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1357 N DC OV B N fs -
+<DEFINE> TempA_MotRev_T_f32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1357 N DF OV B N fs -
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1365 34 N ON ui B X
+<R>C CalcCorrnTbl SinCos_f32 1373
+<R>X CalcCorrnTbl SinCos_f32 1373 R
+<R>X CalcCorrnTbl Rte_Inst_CDD_MotAg1Meas 1375 R
+<R>X CalcCorrnTbl Rte_Inst_CDD_MotAg1Meas 1375 R
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1375 161 N DN ui B X
+<LIT> 2 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1377 47 N DN ui B X
+<R>C CalcCorrnTbl SinCos_f32 1380
+<R>X CalcCorrnTbl SinCos_f32 1380 R
+<R>X CalcCorrnTbl Rte_Inst_CDD_MotAg1Meas 1383 R
+<R>X CalcCorrnTbl Rte_Inst_CDD_MotAg1Meas 1383 R
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1383 187 N DN ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1394 34 N ON ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1396 87 N ON ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1401 52 N ON ui B X
+<LIT> 0.0 F P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1401 59 N FN fs B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1401 99 N ON ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1405 57 N ON ui B X
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1421 112 N DN ui B X
+<R>C CalcCorrnTbl Abslt_f32_f32 1431
+<R>X CalcCorrnTbl Abslt_f32_f32 1431 R
+<LIT> 0.0 F P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1439 71 N FN fs B X
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1444 48 N DN ui B X
+<R>C CalcCorrnTbl FloatToFixd_s16_f32 1450
+<R>X CalcCorrnTbl FloatToFixd_s16_f32 1450 R
+<R>X CalcCorrnTbl Rte_Inst_CDD_MotAg1Meas 1450 R
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1455 76 N ON ui B X
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1456 99 N DN ui B X
+<LIT> 1 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1457 134 N DN ui B X
+<R>C CalcCorrnTbl Abslt_f32_f32 1459
+<R>X CalcCorrnTbl Abslt_f32_f32 1459 R
+<LIT> 0.0 F P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1467 66 N FN fs B X
+<R>C CalcCorrnTbl FloatToFixd_s16_f32 1470
+<R>X CalcCorrnTbl FloatToFixd_s16_f32 1470 R
+<R>X CalcCorrnTbl Rte_Inst_CDD_MotAg1Meas 1470 R
+<CTLG> CalcCorrnTbl 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 10
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 8
+<CTLG> 6 7
+<CTLG> 7 5
+<CTLG> 8 9
+<CTLG> 9 2
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 11 39
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 13 15
+<CTLG> 14 19
+<CTLG> 15 16
+<CTLG> 15 17
+<CTLG> 16 18
+<CTLG> 17 18
+<CTLG> 18 19
+<CTLG> 19 20
+<CTLG> 20 21
+<CTLG> 21 22
+<CTLG> 22 23
+<CTLG> 22 28
+<CTLG> 23 24
+<CTLG> 24 25
+<CTLG> 24 26
+<CTLG> 25 27
+<CTLG> 26 27
+<CTLG> 27 28
+<CTLG> 28 29
+<CTLG> 29 20
+<CTLG> 29 30
+<CTLG> 30 31
+<CTLG> 30 32
+<CTLG> 31 37
+<CTLG> 32 33
+<CTLG> 33 34
+<CTLG> 33 35
+<CTLG> 34 36
+<CTLG> 35 36
+<CTLG> 36 37
+<CTLG> 37 38
+<CTLG> 38 11
+<CTLG> 39 41
+<CTLGN> 1339 1365 1365 1377 1377 1377 1377 1377 1365 1365 1394 1394 1401 1401 1401 1405 1405 1409 1405 1417 1417 1426 1426 1431 1431 1431 1437 1426 1417 1417 1447 1447 1459 1459 1459 1465 1452 1394 1394 1477 1477 
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  CalcCorrnTbl
+<S>STCYC  11
+<S>STMCC  3 (11:14)
+<S>STMIF  4
+<S>STSUB  6
+<S>STAKI  17
+<S>STLIN  137
+<S>STXLN  48
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  18
+<S>STPTH  111
+<S>STPDN  2.31   
+<S>STPBG  2
+<S>STLOP  3
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  12
+<S>STAV3  18
+<S>STST1  68
+<S>STST2  54
+<S>STST3  36
+<S>STPAR  0
+<S>STCAL  3
+<S>STFN1  411
+<S>STFN2  245
+
+<DEFINE> MotAg1StatReg_Cnt_T_u32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1486 N DC OV B N ul R
+<DEFINE> MotAg1SyncErr_Cnt_T_lgc C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1486 N DC OV B N uc R
+<DEFINE> CalcNtcPrm C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1486 N DR OF F I (uc,ul,uc) -
+<DEFINE> CalcNtcPrm C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1486 N DF OF F I (uc,ul,uc) -
+<DEFINE> NtcStInfo_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1488 N DC OV B N uc -
+<DEFINE> NtcStInfo_Cnt_T_u08 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1488 N DF OV B N uc -
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1488 59 N ON ui B O
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1490 65 N ON ui B X
+<LIT> 0x01 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1492 47 N HN ui B X
+<LIT> 0 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1492 56 N ON ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1494 66 N ON ui B X
+<LIT> 0x01 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1496 48 N HN ui B X
+<LIT> 1 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1496 57 N DN ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1498 69 N ON ui B X
+<LIT> 0x01 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1500 48 N HN ui B X
+<LIT> 2 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1500 57 N DN ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1502 69 N ON ui B X
+<LIT> 0x01 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1504 48 N HN ui B X
+<LIT> 3 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1504 57 N DN ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1506 66 N ON ui B X
+<LIT> 0x01 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1508 48 N HN ui B X
+<LIT> 4 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1508 57 N DN ui B X
+<LIT> 0 U P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1510 67 N ON ui B X
+<LIT> 0x01 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1512 48 N HN ui B X
+<LIT> 5 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1512 57 N DN ui B X
+<LIT> 0x01 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1516 48 N HN ui B X
+<LIT> 6 u P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1516 57 N DN ui B X
+<CTLG> CalcNtcPrm 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 13 15
+<CTLG> 14 15
+<CTLG> 15 17
+<CTLGN> 1487 1490 1490 1494 1494 1498 1498 1502 1502 1506 1506 1510 1510 1514 1514 1518 1518 
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  CalcNtcPrm
+<S>STCYC  8
+<S>STMCC  0 (8:8)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  8
+<S>STLIN  31
+<S>STXLN  16
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  128
+<S>STPDN  8.00   
+<S>STPBG  2
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  10
+<S>STAV3  11
+<S>STST1  23
+<S>STST2  16
+<S>STST3  15
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  118
+<S>STFN2  54
+
+<DEFINE> MotAg1SpiMecl_MotRev_T_u0p16 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1528 N DC OV B N us R
+<DEFINE> GetMechMtrPos C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1528 N DR OF F I (nl,us) -
+<DEFINE> GetMechMtrPos C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1528 N DF OF F I (nl,us) -
+<DEFINE> MechMtrPosOut_MotRev_T_s32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1530 N DC OV B N nl -
+<DEFINE> MechMtrPosOut_MotRev_T_s32 C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1530 N DF OV B N nl -
+<R>C GetMechMtrPos Rte_Prm_CDD_MotAg1Meas_MotAg1MeasMotAgOffs_Val 1532
+<R>X GetMechMtrPos Rte_Prm_CDD_MotAg1Meas_MotAg1MeasMotAgOffs_Val 1532 R
+<LIT> 0 - P C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1533 37 N ON ni B X
+<CTLG> GetMechMtrPos 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 6
+<CTLGN> 1529 1533 1533 1533 1538 1538 
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  GetMechMtrPos
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  1
+<S>STAKI  3
+<S>STLIN  9
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  6
+<S>STAV2  8
+<S>STAV3  10
+<S>STST1  6
+<S>STST2  5
+<S>STST3  4
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  26
+<S>STFN2  15
+
+<DEFINE> CDD_MotAg1Meas_STOP_SEC_CODE C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c 1541 N DF OM - - - O
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/CDD_MotAg1Meas_MemMap.h 1542
+<R>I C:/Component/CM640C_MotAg1Meas_Impl/tools/contract/CDD_MotAg1Meas_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  CalcCorrnTbl
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  CalcNtcPrm
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  GetMechMtrPos
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  MotAg1CoeffTblRead_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  MotAg1CoeffTblWr_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  MotAg1MeasInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  MotAg1MeasPer2
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  MotAg1MeasPer3
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNAM  C:/Component/CM640C_MotAg1Meas_Impl/src/CDD_MotAg1Meas.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  3
+<S>STECT  2
+<S>STFNC  8
+<S>STFCO  36
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  178
+<S>STOPT  43
+<S>STOPN  364
+<S>STTOT  2788
+<S>STZIP  2681
+<S>STHAL  3330
+<S>STSHN  12629
+<S>STDIF  17.92  
+<S>STEFF  433162
+<S>STVOL  24169
+<S>STDEV  72.19  
+<S>STBUG  6
+<S>STTPP  1557
+<S>STTLN  402
+<S>STM20  979
+<S>STM21  1798
+<S>STM22  186
+<S>STM28  195
+<S>STM33  171
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  3.820  
+<S>STBMS  4.926  
+<S>STBME  6.124  
+<S>STTDO  4.160  
+<S>STTDS  4.368  
+<S>STTDE  4.465  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.951  
+

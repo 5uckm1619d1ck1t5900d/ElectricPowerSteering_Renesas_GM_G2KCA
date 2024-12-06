@@ -1,0 +1,46 @@
+###########################################################################
+# AUTOSAR Renesas R4.0 MCU Driver Generation Tool for P1x - 1.1.1                     
+# Run time      = [29 Aug 2016 - 16:39:06]
+#  Command line arguments = Mcu_P1x.exe -L -O
+#    C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\GM_T1XX_EPS_RH850\generate\Mcu
+#    C:\Users\kzdyfh\AppData\Local\Temp\Cfg_Gen-1472502872948-8\AutosarFiles_ValGen-1472503133169-0\Mcu_ECUC_8970060308995407055.arxml
+#    R403_MCU_P1x_BSWMDT.arxml P1M.trxml Mcu_P1x.cfgxml
+#
+# Copyright(c) 2013-2014 Renesas Electronics Corporation.
+# All rights reserved
+###########################################################################
+
+
+INF000001: Tool Version: 1.1.1
+INF000002: Command line arguments: Mcu_P1x.exe -L -O
+           C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\GM_T1XX_EPS_RH850\generate\Mcu
+           C:\Users\kzdyfh\AppData\Local\Temp\Cfg_Gen-1472502872948-8\AutosarFiles_ValGen-1472503133169-0\Mcu_ECUC_8970060308995407055.arxml
+           R403_MCU_P1x_BSWMDT.arxml P1M.trxml Mcu_P1x.cfgxml
+INF101002: The configured value for parameter 'McuExternalClk0DividerSel' will
+           be ignored if parameter 'McuExternalClk0SourceSel' is configured as
+           'MCU_NO_OUTPUT'.
+           File Name:
+           C:\Users\kzdyfh\AppData\Local\Temp\Cfg_Gen-1472502872948-8\AutosarFiles_ValGen-1472503133169-0\Mcu_ECUC_8970060308995407055.arxml
+           Path:
+           /ActiveEcuC/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuExternalClkOutSetting
+INF101002: The configured value for parameter 'McuExternalClk1DividerSel' will
+           be ignored if parameter 'McuExternalClk1SourceSel' is configured as
+           'MCU_NO_OUTPUT'.
+           File Name:
+           C:\Users\kzdyfh\AppData\Local\Temp\Cfg_Gen-1472502872948-8\AutosarFiles_ValGen-1472503133169-0\Mcu_ECUC_8970060308995407055.arxml
+           Path:
+           /ActiveEcuC/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuExternalClkOutSetting
+INF000004: Opened file
+           <C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\GM_T1XX_EPS_RH850\generate\Mcu\include\Mcu_Reg.h>
+           at [29 Aug 2016 - 16:39:18].
+INF000004: Opened file
+           <C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\GM_T1XX_EPS_RH850\generate\Mcu\include\Mcu_Cfg.h>
+           at [29 Aug 2016 - 16:39:18].
+INF000004: Opened file
+           <C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\GM_T1XX_EPS_RH850\generate\Mcu\src\Mcu_PBcfg.c>
+           at [29 Aug 2016 - 16:39:18].
+INF000004: Opened file
+           <C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\GM_T1XX_EPS_RH850\generate\Mcu\include\Mcu_Cbk.h>
+           at [29 Aug 2016 - 16:39:18].
+INF000005: <0> Error(s) and <0> Warning(s) detected.
+INF000006: Execution completed successfully.

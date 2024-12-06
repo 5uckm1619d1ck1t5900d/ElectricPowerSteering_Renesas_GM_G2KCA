@@ -1,0 +1,9 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Hari\Work\SynergyProjects\T1xx_Synergy\Z_Work_6_ReviewTask\GM_T1XX_EPS_RH850\generate
+    Descr. file:   C:\Users\nz2654\AppData\Local\Temp\Cfg_Gen-1476466002023-8\AutosarFiles_ValGen-1476466096788-0\NxtrSwIds_ECUC_1898754290950744443.arxml
+    Include file:  C:\Hari\Work\SynergyProjects\T1xx_Synergy\Z_Work_6_ReviewTask\NM003A_NxtrSwIds_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Hari\Work\SynergyProjects\T1xx_Synergy\Z_Work_6_ReviewTask\NM003A_NxtrSwIds_Impl\generate\NxtrSwIdsCfg.c.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Hari/Work/SynergyProjects/T1xx_Synergy/Z_Work_6_ReviewTask/GM_T1XX_EPS_RH850/generate\NxtrSwIdsCfg.c. written.
+    Duration:      00:00:01.2792082.

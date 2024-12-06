@@ -1,0 +1,925 @@
+<RDEF> I Includes
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_CDD_Sci30CfgAndUse.h 60
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_CDD_Sci30CfgAndUse.h C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_CDD_Sci30CfgAndUse_Type.h 40
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_CDD_Sci30CfgAndUse_Type.h C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_Type.h C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte.h 27
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte.h C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_UserTypes.h 41
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_UserTypes.h C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse_Private.h 41
+<DEFINE> CDD_SCI30CFGANDUSE_PRIVATE_H C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse_Private.h 20 I DF OM - - - O
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse_Private.h C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/ImcArbn.h 22
+<LIT> 8 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse_Private.h 24 40 I DN ui F D
+<DEFINE> Ary1D_u8_Sci30CfgAndUseA C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse_Private.h 24 I DC OT F N [8,uc] -
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse_Private.h 28 48 I ON - F P
+<DEFINE> Ary2D_u8_Sci30CfgAndUseA C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse_Private.h 31 I DC OT F N [1,[8,uc]] -
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse_Private.h 34 49 I ON - F P
+<DEFINE> Ary2D_u8_Sci30CfgAndUseB C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse_Private.h 37 I DC OT F N [2,[8,uc]] -
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse_Private.h 40 50 I ON - F P
+<DEFINE> Ary2D_u8_Sci30CfgAndUseC C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse_Private.h 43 I DC OT F N [3,[8,uc]] -
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_CDD_Sci30CfgAndUse.h C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_CDD_Sci30CfgAndUse.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 68
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_CDD_Sci30CfgAndUse.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 73
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_CDD_Sci30CfgAndUse.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 79
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_CDD_Sci30CfgAndUse.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 95
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_CDD_Sci30CfgAndUse.h C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/CDD_Sci30CfgAndUse_MemMap.h 188
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/CDD_Sci30CfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Rte_CDD_Sci30CfgAndUse.h C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/CDD_Sci30CfgAndUse_MemMap.h 306
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/CDD_Sci30CfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUseNonRte_MemMap.h 66
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/sci3_regs.h 67
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/sci3_regs.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/sci3_regs.h C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 24
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/dma_regs.h 68
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/dma_regs.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 25
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/dma_regs.h C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 26
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/Os.h 69
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/ImcArbn.h 70
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse.h 71
+<DEFINE> CDD_SCI30CFGANDUSE_H C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse.h 20 I DF OM - - - O
+<EXTN> IninSciDtsChMstReg C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse.h 22
+<DEFINE> IninSciDtsChMstReg C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAndUse.h 22 I DC OF F X (.,.) -
+<DEFINE> CPU1PEID_CNT_U32 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 80 N DF OM - - - O
+<LIT> 0x01 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 80 74 N HN - F M
+<DEFINE> PRPHLTOLCLRAMSPID_CNT_U32 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 81 N DF OM - - - O
+<LIT> 0x03 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 81 66 N HN - F M
+<DEFINE> LCLRAMTOPRPHLSPID_CNT_U32 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 82 N DF OM - - - O
+<LIT> 0x02 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 82 66 N HN - F M
+<DEFINE> USRMODENA_CNT_U32 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 83 N DF OM - - - O
+<LIT> 0x1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 83 74 N HN - F M
+<DEFINE> SCIRXMAXBUFSIZE_CNT_U08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 84 N DF OM - - - O
+<LIT> 144 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 84 57 N DN - F M
+<DEFINE> MAXSIGGROUPFORTX_CNT_U08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 85 N DF OM - - - O
+<LIT> 9 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 85 57 N DN - F M
+<DEFINE> UINT8ROLLOVROFFS_CNT_U16 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 86 N DF OM - - - O
+<LIT> 256 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 86 57 N DN - F M
+<DEFINE> DATABYTE0_CNT_U08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 87 N DF OM - - - O
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 87 66 N ON - F M
+<DEFINE> DATABYTE1_CNT_U08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 88 N DF OM - - - O
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 88 66 N DN - F M
+<DEFINE> DATABYTE2_CNT_U08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 89 N DF OM - - - O
+<LIT> 2 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 89 66 N DN - F M
+<DEFINE> DATABYTE3_CNT_U08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 90 N DF OM - - - O
+<LIT> 3 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 90 66 N DN - F M
+<DEFINE> DATABYTE4_CNT_U08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 91 N DF OM - - - O
+<LIT> 4 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 91 66 N DN - F M
+<DEFINE> DATABYTE5_CNT_U08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 92 N DF OM - - - O
+<LIT> 5 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 92 66 N DN - F M
+<DEFINE> DATABYTE6_CNT_U08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 93 N DF OM - - - O
+<LIT> 6 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 93 66 N DN - F M
+<DEFINE> DATABYTE7_CNT_U08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 94 N DF OM - - - O
+<LIT> 7 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 94 66 N DN - F M
+<DEFINE> DATABYTE8_CNT_U08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 95 N DF OM - - - O
+<LIT> 8 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 95 66 N DN - F M
+<DEFINE> IMCARBNRXDATASRCSCI_CNT_U08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 96 N DF OM - - - O
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 96 57 N DN - F M
+<DEFINE> SCITXMAXBUFSIZE_CNT_U08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 97 N DF OM - - - O
+<LIT> 80 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 97 57 N DN - F M
+<DEFINE> CDD_Sci30CfgAndUse_START_SEC_VAR_INIT_128 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 99 N DF OM - - - O
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAnduseNonRte_MemMap.h 100
+<PRAGMA> C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAnduseNonRte_MemMap.h 25 alignvar (16)
+<DEFINE> CDD_Sci30CfgAndUse_START_SEC_VAR_INIT_UNSPECIFIED C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAnduseNonRte_MemMap.h 27 I DF OM - - - O
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAnduseNonRte_MemMap.h C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/CDD_Sci30CfgAndUse_MemMap.h 28
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/CDD_Sci30CfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 98
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 102 72 N ON ui F A
+<DEFINE> SciGlbTxBuf_M C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 102 N DC OV F I [80,uc] S
+<DEFINE> SciGlbTxBuf_M C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 102 N DF OV F I [80,uc] S
+<DEFINE> CDD_Sci30CfgAndUse_STOP_SEC_VAR_INIT_128 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 104 N DF OM - - - O
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAnduseNonRte_MemMap.h 105
+<DEFINE> CDD_Sci30CfgAndUse_STOP_SEC_VAR_INIT_UNSPECIFIED C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAnduseNonRte_MemMap.h 31 I DF OM - - - O
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAnduseNonRte_MemMap.h C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/CDD_Sci30CfgAndUse_MemMap.h 32
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/CDD_Sci30CfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 170
+<DEFINE> CDD_Sci30CfgAndUse_DmaWrite_START_SEC_VAR_INIT_128 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 107 N DF OM - - - O
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAnduseNonRte_MemMap.h 108
+<PRAGMA> C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAnduseNonRte_MemMap.h 36 alignvar (16)
+<PRAGMA> C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAnduseNonRte_MemMap.h 38 ghs section data=".data_dma_128"
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 110 72 N ON ui F A
+<DEFINE> SciGlbRxBuf_M C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 110 N DC OV F I [144,uc] S
+<DEFINE> SciGlbRxBuf_M C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 110 N DF OV F I [144,uc] S
+<DEFINE> CDD_Sci30CfgAndUse_DmaWrite_STOP_SEC_VAR_INIT_128 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 112 N DF OM - - - O
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAnduseNonRte_MemMap.h 113
+<PRAGMA> C:/Component/CM745A_Sci30CfgAndUse_Impl/include/CDD_Sci30CfgAnduseNonRte_MemMap.h 43 ghs section data=default
+<DEFINE> Idx_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 115 N DC OV P N uc R
+<DEFINE> RollOvrAdd C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 115 N DC OF F I (uc,uc) -
+<DEFINE> SciGlbTxCnt_Cnt_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 116 N DC OV P N uc R
+<DEFINE> UpdDtsTxReg C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 116 N DC OF F I (.,uc) -
+<DEFINE> UpdDtsRxReg C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 117 N DC OF F I (.,.) -
+<DEFINE> CDD_Sci30CfgAndUse_START_SEC_CODE C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 164 N DF OM - - - O
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/CDD_Sci30CfgAndUse_MemMap.h 165
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/CDD_Sci30CfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> Sci30CfgAndUseInit1 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 177
+<DEFINE> Sci30CfgAndUseInit1 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 177 N DR OF F X (.,.) -
+<DEFINE> Sci30CfgAndUseInit1 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 177 N DF OF F X (.,.) -
+<RDEF> X Refers-to
+<R>X Sci30CfgAndUseInit1 SCI30 189 W
+<LIT> 0 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 184 39 N ON ni B X
+<LIT> 7 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 184 42 N DN ni B X
+<LIT> 0 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 185 39 N ON ni B X
+<LIT> 6 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 185 42 N DN ni B X
+<LIT> 1 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 186 39 N DN ni B X
+<LIT> 5 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 186 42 N DN ni B X
+<LIT> 1 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 187 39 N DN ni B X
+<LIT> 4 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 187 42 N DN ni B X
+<LIT> 1 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 188 39 N DN ni B X
+<LIT> 3 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 188 42 N DN ni B X
+<LIT> 0 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 189 39 N ON ni B X
+<LIT> 1 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 189 42 N DN ni B X
+<R>X Sci30CfgAndUseInit1 SCI30 191 W
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 191 21 N ON ui B X
+<R>X Sci30CfgAndUseInit1 SCI30 194 W
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 193 40 N ON ui B X
+<LIT> 3 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 193 44 N DN ni B X
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 194 32 N ON ui B X
+<LIT> 2 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 194 36 N DN ni B X
+<R>X Sci30CfgAndUseInit1 SCI30 196 W
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 196 39 N DN ui B X
+<LIT> 3 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 196 43 N DN ni B X
+<R>X Sci30CfgAndUseInit1 SCI30 197 W
+<LIT> 4 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 197 23 N DN ui B X
+<R>X Sci30CfgAndUseInit1 SCI30 199 W
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 198 40 N DN ui B X
+<LIT> 7 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 198 44 N DN ni B X
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 199 32 N DN ui B X
+<LIT> 6 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 199 36 N DN ni B X
+<R>X Sci30CfgAndUseInit1 SCI30 200 W
+<LIT> 255 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 200 21 N DN ui B X
+<R>X Sci30CfgAndUseInit1 SCI30 204 W
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 201 39 N DN ui B X
+<LIT> 7 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 201 43 N DN ni B X
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 202 39 N DN ui B X
+<LIT> 6 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 202 43 N DN ni B X
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 203 39 N DN ui B X
+<LIT> 5 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 203 43 N DN ni B X
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 204 39 N DN ui B X
+<LIT> 4 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 204 43 N DN ni B X
+<RDEF> C Calls
+<R>C Sci30CfgAndUseInit1 IninSciDtsChMstReg 206
+<R>X Sci30CfgAndUseInit1 IninSciDtsChMstReg 206 R
+<R>X Sci30CfgAndUseInit1 DMASS 209 W
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 209 25 N ON ui B X
+<R>X Sci30CfgAndUseInit1 DMASS 210 W
+<LIT> 0 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 210 49 N ON ni B X
+<R>X Sci30CfgAndUseInit1 SCI30 211 R
+<R>X Sci30CfgAndUseInit1 DMASS 211 W
+<R>X Sci30CfgAndUseInit1 DMASS 212 W
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 212 25 N ON ui B X
+<R>X Sci30CfgAndUseInit1 DMASS 213 W
+<LIT> 256 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 213 25 N DN ui B X
+<R>X Sci30CfgAndUseInit1 DMASS 214 W
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 214 25 N DN ui B X
+<R>X Sci30CfgAndUseInit1 DMASS 215 W
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 215 25 N DN ui B X
+<R>X Sci30CfgAndUseInit1 DMASS 218 W
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 218 25 N ON ui B X
+<R>X Sci30CfgAndUseInit1 SCI30 219 R
+<R>X Sci30CfgAndUseInit1 DMASS 219 W
+<R>X Sci30CfgAndUseInit1 DMASS 220 W
+<LIT> 0 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 220 49 N ON ni B X
+<R>X Sci30CfgAndUseInit1 DMASS 221 W
+<LIT> 9437328 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 221 25 N DN ui B X
+<R>X Sci30CfgAndUseInit1 DMASS 222 W
+<LIT> 6208 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 222 25 N DN ui B X
+<R>X Sci30CfgAndUseInit1 SCI30 223 R
+<R>X Sci30CfgAndUseInit1 DMASS 223 W
+<R>X Sci30CfgAndUseInit1 DMASS 224 W
+<LIT> 0 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 224 49 N ON ni B X
+<R>X Sci30CfgAndUseInit1 DMASS 225 R
+<R>X Sci30CfgAndUseInit1 DMASS 225 W
+<LIT> 9437184 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 225 25 N DN ui B X
+<R>X Sci30CfgAndUseInit1 DMASS 226 W
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 226 25 N DN ui B X
+<R>X Sci30CfgAndUseInit1 DMASS 227 W
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 227 25 N DN ui B X
+<CTLG> Sci30CfgAndUseInit1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 178 231 231 231 
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  Sci30CfgAndUseInit1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  52
+<S>STXLN  36
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.03   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  11
+<S>STAV2  11
+<S>STAV3  11
+<S>STST1  26
+<S>STST2  26
+<S>STST3  26
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  194
+<S>STFN2  105
+
+<EXTD> Sci30CfgAndUsePer1 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 254
+<DEFINE> Sci30CfgAndUsePer1 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 254 N DR OF F X (.,.) -
+<DEFINE> Sci30CfgAndUsePer1 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 254 N DF OF F X (.,.) -
+<DEFINE> SciRxDataCntr_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 260 N DC OV B N uc -
+<DEFINE> SciRxDataCntr_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 260 N DF OV B N uc -
+<DEFINE> SciRxIdxMax_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 261 N DC OV B N uc -
+<DEFINE> SciRxIdxMax_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 261 N DF OV B N uc -
+<DEFINE> Idx_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 262 N DC OV B N uc -
+<DEFINE> Idx_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 262 N DF OV B N uc -
+<DEFINE> SetBreakOutOfLoop_Cnt_T_logl C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 263 N DC OV B N uc -
+<DEFINE> SetBreakOutOfLoop_Cnt_T_logl C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 263 N DF OV B N uc -
+<LIT> 8 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 264 52 N DN ni B D
+<DEFINE> ImcDataBuf_Cnt_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 264 N DC OV B N [8,uc] -
+<DEFINE> ImcDataBuf_Cnt_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 264 N DF OV B N [8,uc] -
+<R>X Sci30CfgAndUsePer1 DMASS 266 R
+<LIT> 0x0000FFFF U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 266 93 N HN ui B X
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 268 38 N ON ui B X
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 270 R
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 272 R
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 272 54 N ON ui B X
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 274 33 N ON ui B X
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 278 R
+<LIT> 8 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 280 78 N DN ui B X
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 283 R
+<LIT> 0xFF U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 285 161 N HN ui B X
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 285 R
+<R>C Sci30CfgAndUsePer1 RollOvrAdd 285
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 285 R
+<R>C Sci30CfgAndUsePer1 RollOvrAdd 287
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 287 R
+<R>C Sci30CfgAndUsePer1 RollOvrAdd 288
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 288 R
+<R>C Sci30CfgAndUsePer1 RollOvrAdd 289
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 289 R
+<R>C Sci30CfgAndUsePer1 RollOvrAdd 290
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 290 R
+<R>C Sci30CfgAndUsePer1 RollOvrAdd 291
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 291 R
+<R>C Sci30CfgAndUsePer1 RollOvrAdd 292
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 292 R
+<R>C Sci30CfgAndUsePer1 RollOvrAdd 293
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 293 R
+<R>C Sci30CfgAndUsePer1 RollOvrAdd 294
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 294 R
+<R>C Sci30CfgAndUsePer1 Rte_Call_CDD_Sci30CfgAndUse_SetRxSigGroup_Oper 296
+<R>X Sci30CfgAndUsePer1 Rte_Call_CDD_Sci30CfgAndUse_SetRxSigGroup_Oper 296 R
+<LIT> 0 u P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 296 163 N ON ui B X
+<R>C Sci30CfgAndUsePer1 RollOvrAdd 297
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 297 R
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 297 R
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 298 85 N DN ui B X
+<R>C Sci30CfgAndUsePer1 RollOvrAdd 303
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 303 R
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 303 R
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 303 104 N DN ui B X
+<R>C Sci30CfgAndUsePer1 RollOvrAdd 309
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 309 R
+<R>X Sci30CfgAndUsePer1 Rte_Inst_CDD_Sci30CfgAndUse 309 R
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 309 96 N DN ui B X
+<R>C Sci30CfgAndUsePer1 UpdDtsRxReg 315
+<CTLG> Sci30CfgAndUsePer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 16
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 15
+<CTLG> 5 6
+<CTLG> 5 13
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 12
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 11
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 4
+<CTLG> 15 16
+<CTLG> 16 17
+<CTLG> 17 19
+<CTLGN> 255 268 268 276 276 278 280 280 285 285 301 285 278 307 276 268 319 319 319 
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  Sci30CfgAndUsePer1
+<S>STCYC  6
+<S>STMCC  1 (6:7)
+<S>STMIF  5
+<S>STSUB  14
+<S>STAKI  20
+<S>STLIN  63
+<S>STXLN  29
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  5
+<S>STPTH  6
+<S>STPDN  0.21   
+<S>STPBG  1
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  13
+<S>STAV3  15
+<S>STST1  38
+<S>STST2  31
+<S>STST3  26
+<S>STPAR  0
+<S>STCAL  3
+<S>STFN1  284
+<S>STFN2  131
+
+<EXTD> Sci30CfgAndUsePer2 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 347
+<DEFINE> Sci30CfgAndUsePer2 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 347 N DR OF F X (.,.) -
+<DEFINE> Sci30CfgAndUsePer2 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 347 N DF OF F X (.,.) -
+<DEFINE> SigGroup_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 353 N DC OV B N uc -
+<DEFINE> SigGroup_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 353 N DF OV B N uc -
+<DEFINE> EmptyFrm_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 354 N DC OV B N uc -
+<DEFINE> EmptyFrm_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 354 N DF OV B N uc -
+<DEFINE> BytesUsed_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 355 N DC OV B N uc -
+<DEFINE> BytesUsed_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 355 N DF OV B N uc -
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 355 53 N ON ui B O
+<DEFINE> SciGlbTxCnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 356 N DC OV B N uc -
+<DEFINE> SciGlbTxCnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 356 N DF OV B N uc -
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 356 51 N ON ui B O
+<DEFINE> SigByte_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 357 N DC OV B N uc -
+<DEFINE> SigByte_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 357 N DF OV B N uc -
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 359 56 N ON - B P
+<DEFINE> Sci2MilliSecReadCmpl_Cnt_T_logl C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 360 N DC OV B N uc -
+<DEFINE> Sci2MilliSecReadCmpl_Cnt_T_logl C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 360 N DF OV B N uc -
+<R>C Sci30CfgAndUsePer2 Rte_Call_CDD_Sci30CfgAndUse_GetTxRateGroup_Oper 362
+<R>X Sci30CfgAndUsePer2 Rte_Call_CDD_Sci30CfgAndUse_GetTxRateGroup_Oper 362 R
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 362 R
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 366 42 N ON ui B X
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 368 R
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 375 57 N ON - B P
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 376 R
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 380 R
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 382 R
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 383 R
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 386 42 N ON ui B X
+<R>C Sci30CfgAndUsePer2 Rte_Enter_CDD_Sci30CfgAndUse_ExclsvAr1SciDrvrTxRxBuf 389
+<R>X Sci30CfgAndUsePer2 Rte_Enter_CDD_Sci30CfgAndUse_ExclsvAr1SciDrvrTxRxBuf 389 R
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 390 49 N ON ui B X
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 393 R
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 393 R
+<R>C Sci30CfgAndUsePer2 Rte_Exit_CDD_Sci30CfgAndUse_ExclsvAr1SciDrvrTxRxBuf 397
+<R>X Sci30CfgAndUsePer2 Rte_Exit_CDD_Sci30CfgAndUse_ExclsvAr1SciDrvrTxRxBuf 397 R
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 398 R
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 398 R
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 398 66 N DN ui B X
+<LIT> 0 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 404 58 N ON - B P
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 405 R
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 408 R
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 410 R
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 411 R
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 414 42 N ON ui B X
+<R>C Sci30CfgAndUsePer2 Rte_Enter_CDD_Sci30CfgAndUse_ExclsvAr1SciDrvrTxRxBuf 417
+<R>X Sci30CfgAndUsePer2 Rte_Enter_CDD_Sci30CfgAndUse_ExclsvAr1SciDrvrTxRxBuf 417 R
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 418 49 N ON ui B X
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 421 R
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 421 R
+<R>C Sci30CfgAndUsePer2 Rte_Exit_CDD_Sci30CfgAndUse_ExclsvAr1SciDrvrTxRxBuf 425
+<R>X Sci30CfgAndUsePer2 Rte_Exit_CDD_Sci30CfgAndUse_ExclsvAr1SciDrvrTxRxBuf 425 R
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 426 R
+<R>X Sci30CfgAndUsePer2 Rte_Inst_CDD_Sci30CfgAndUse 426 R
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 426 67 N DN ui B X
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 431 33 N ON ui B X
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 431 54 N DN ui B X
+<R>X Sci30CfgAndUsePer2 SCI30 431 R
+<R>C Sci30CfgAndUsePer2 UpdDtsTxReg 433
+<CTLG> Sci30CfgAndUsePer2 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 8
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 7
+<CTLG> 5 6
+<CTLG> 6 4
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 22
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 10 12
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 13 21
+<CTLG> 14 15
+<CTLG> 15 16
+<CTLG> 16 17
+<CTLG> 16 19
+<CTLG> 17 18
+<CTLG> 18 16
+<CTLG> 19 20
+<CTLG> 20 13
+<CTLG> 21 22
+<CTLG> 22 23
+<CTLG> 22 36
+<CTLG> 23 24
+<CTLG> 24 25
+<CTLG> 24 26
+<CTLG> 25 26
+<CTLG> 26 27
+<CTLG> 27 28
+<CTLG> 27 35
+<CTLG> 28 29
+<CTLG> 29 30
+<CTLG> 30 31
+<CTLG> 30 33
+<CTLG> 31 32
+<CTLG> 32 30
+<CTLG> 33 34
+<CTLG> 34 27
+<CTLG> 35 36
+<CTLG> 36 37
+<CTLG> 36 38
+<CTLG> 37 38
+<CTLG> 38 40
+<CTLGN> 348 363 363 366 366 366 366 363 376 380 380 380 386 386 390 390 390 390 390 386 386 376 405 408 408 408 414 414 418 418 418 418 418 414 414 405 431 431 439 439 
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  Sci30CfgAndUsePer2
+<S>STCYC  12
+<S>STMCC  1 (12:13)
+<S>STMIF  3
+<S>STSUB  6
+<S>STAKI  18
+<S>STLIN  90
+<S>STXLN  38
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  6
+<S>STPTH  294
+<S>STPDN  7.74   
+<S>STPBG  2
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  10
+<S>STAV3  11
+<S>STST1  51
+<S>STST2  40
+<S>STST3  34
+<S>STPAR  0
+<S>STCAL  4
+<S>STFN1  278
+<S>STFN2  127
+
+<EXTD> Sci30CfgAndUsePer3 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 462
+<DEFINE> Sci30CfgAndUsePer3 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 462 N DR OF F X (.,.) -
+<DEFINE> Sci30CfgAndUsePer3 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 462 N DF OF F X (.,.) -
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 468 57 N ON - B P
+<R>C Sci30CfgAndUsePer3 Rte_Call_CDD_Sci30CfgAndUse_GetTxRateGroup_Oper 469
+<R>X Sci30CfgAndUsePer3 Rte_Call_CDD_Sci30CfgAndUse_GetTxRateGroup_Oper 469 R
+<R>X Sci30CfgAndUsePer3 Rte_Inst_CDD_Sci30CfgAndUse 469 R
+<R>X Sci30CfgAndUsePer3 Rte_Inst_CDD_Sci30CfgAndUse 469 R
+<R>X Sci30CfgAndUsePer3 Rte_Inst_CDD_Sci30CfgAndUse 470 R
+<CTLG> Sci30CfgAndUsePer3 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 463 476 476 476 
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  Sci30CfgAndUsePer3
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  12
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  16
+<S>STAV2  16
+<S>STAV3  16
+<S>STST1  2
+<S>STST2  2
+<S>STST3  2
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  24
+<S>STFN2  8
+
+<EXTD> Sci30CfgAndUsePer4 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 499
+<DEFINE> Sci30CfgAndUsePer4 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 499 N DR OF F X (.,.) -
+<DEFINE> Sci30CfgAndUsePer4 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 499 N DF OF F X (.,.) -
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 505 58 N ON - B P
+<R>C Sci30CfgAndUsePer4 Rte_Call_CDD_Sci30CfgAndUse_GetTxRateGroup_Oper 506
+<R>X Sci30CfgAndUsePer4 Rte_Call_CDD_Sci30CfgAndUse_GetTxRateGroup_Oper 506 R
+<R>X Sci30CfgAndUsePer4 Rte_Inst_CDD_Sci30CfgAndUse 506 R
+<R>X Sci30CfgAndUsePer4 Rte_Inst_CDD_Sci30CfgAndUse 506 R
+<R>X Sci30CfgAndUsePer4 Rte_Inst_CDD_Sci30CfgAndUse 507 R
+<CTLG> Sci30CfgAndUsePer4 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 500 513 513 513 
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  Sci30CfgAndUsePer4
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  12
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  16
+<S>STAV2  16
+<S>STAV3  16
+<S>STST1  2
+<S>STST2  2
+<S>STST3  2
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  24
+<S>STFN2  8
+
+<DEFINE> CDD_Sci30CfgAndUse_STOP_SEC_CODE C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 516 N DF OM - - - O
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/CDD_Sci30CfgAndUse_MemMap.h 517
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/CDD_Sci30CfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<DEFINE> CDD_Sci30CfgAnduse_START_SEC_CODE C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 523 N DF OM - - - O
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/CDD_Sci30CfgAnduse_MemMap.h 524
+<EXTD> IninSciDtsChMstReg C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 533
+<DEFINE> IninSciDtsChMstReg C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 533 N DR OF F X (.,.) -
+<DEFINE> IninSciDtsChMstReg C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 533 N DF OF F X (.,.) -
+<R>X IninSciDtsChMstReg DMASS 537 W
+<LIT> 20 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 535 54 N DN ni B X
+<LIT> 18 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 536 73 N DN ni B X
+<LIT> 17 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 537 65 N DN ni B X
+<R>X IninSciDtsChMstReg DMASS 541 W
+<LIT> 20 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 539 54 N DN ni B X
+<LIT> 18 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 540 73 N DN ni B X
+<LIT> 17 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 541 65 N DN ni B X
+<CTLG> IninSciDtsChMstReg 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 534 542 542 542 
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  IninSciDtsChMstReg
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  7
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.17   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  30
+<S>STAV2  30
+<S>STAV3  30
+<S>STST1  2
+<S>STST2  2
+<S>STST3  2
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  40
+<S>STFN2  20
+
+<DEFINE> SciGlbTxCnt_Cnt_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 551 N DC OV B N uc R
+<DEFINE> UpdDtsTxReg C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 551 N DR OF F I (.,uc) -
+<DEFINE> UpdDtsTxReg C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 551 N DF OF F I (.,uc) -
+<R>X UpdDtsTxReg DMASS 553 W
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 553 25 N ON ui B X
+<R>X UpdDtsTxReg DMASS 554 W
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 554 25 N DN ui B X
+<R>X UpdDtsTxReg DMASS 555 W
+<LIT> 0 - P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 555 48 N ON ni B X
+<R>X UpdDtsTxReg SCI30 556 R
+<R>X UpdDtsTxReg DMASS 556 W
+<R>X UpdDtsTxReg DMASS 557 W
+<R>X UpdDtsTxReg DMASS 558 W
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 558 25 N DN ui B X
+<R>X UpdDtsTxReg DMASS 559 W
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 559 25 N DN ui B X
+<CTLG> UpdDtsTxReg 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 552 560 560 560 
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  UpdDtsTxReg
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  7
+<S>STXLN  7
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.14   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  7
+<S>STST1  7
+<S>STST2  7
+<S>STST3  7
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  35
+<S>STFN2  20
+
+<DEFINE> UpdDtsRxReg C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 569 N DR OF F I (.,.) -
+<DEFINE> UpdDtsRxReg C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 569 N DF OF F I (.,.) -
+<LIT> 0xFFFF0000 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 571 28 N HN ui B X
+<R>X UpdDtsRxReg DMASS 571 R
+<R>X UpdDtsRxReg Rte_Inst_CDD_Sci30CfgAndUse 573 R
+<R>X UpdDtsRxReg Rte_Inst_CDD_Sci30CfgAndUse 573 R
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 573 56 N DN ui B X
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 575 25 N DN ui B X
+<R>X UpdDtsRxReg SCI30 575 R
+<R>X UpdDtsRxReg SCI30 577 W
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 577 29 N ON ui B X
+<R>X UpdDtsRxReg SCI30 578 W
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 578 29 N ON ui B X
+<R>X UpdDtsRxReg Rte_Inst_CDD_Sci30CfgAndUse 579 R
+<R>X UpdDtsRxReg Rte_Inst_CDD_Sci30CfgAndUse 579 R
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 579 53 N DN ui B X
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 581 24 N DN ui B X
+<R>X UpdDtsRxReg SCI30 581 R
+<R>X UpdDtsRxReg SCI30 583 W
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 583 28 N ON ui B X
+<R>X UpdDtsRxReg Rte_Inst_CDD_Sci30CfgAndUse 584 R
+<R>X UpdDtsRxReg Rte_Inst_CDD_Sci30CfgAndUse 584 R
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 584 50 N DN ui B X
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 586 24 N DN ui B X
+<R>X UpdDtsRxReg SCI30 586 R
+<R>X UpdDtsRxReg SCI30 588 W
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 588 28 N ON ui B X
+<R>X UpdDtsRxReg Rte_Inst_CDD_Sci30CfgAndUse 589 R
+<R>X UpdDtsRxReg Rte_Inst_CDD_Sci30CfgAndUse 589 R
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 589 50 N DN ui B X
+<R>X UpdDtsRxReg DMASS 591 W
+<LIT> 0 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 591 25 N ON ui B X
+<R>X UpdDtsRxReg DMASS 592 W
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 592 25 N DN ui B X
+<R>X UpdDtsRxReg DMASS 594 R
+<R>X UpdDtsRxReg DMASS 594 W
+<LIT> 0x0000FFFF U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 594 25 N HN ui B X
+<R>X UpdDtsRxReg DMASS 595 R
+<R>X UpdDtsRxReg DMASS 595 W
+<LIT> 0xFFFF0090 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 595 25 N HN ui B X
+<R>X UpdDtsRxReg DMASS 596 W
+<LIT> 1 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 596 25 N DN ui B X
+<CTLG> UpdDtsRxReg 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 10 12
+<CTLGN> 570 571 571 575 575 581 581 586 586 597 597 597 
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  UpdDtsRxReg
+<S>STCYC  5
+<S>STMCC  0 (5:5)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  5
+<S>STLIN  26
+<S>STXLN  17
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  16
+<S>STPDN  0.94   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  4
+<S>STAV2  6
+<S>STAV3  6
+<S>STST1  21
+<S>STST2  17
+<S>STST3  17
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  67
+<S>STFN2  35
+
+<DEFINE> Idx_Cnt_T_u08 C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 606 N DC OV B N uc R
+<DEFINE> RollOvrAdd C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 606 N DR OF F I (uc,uc) -
+<DEFINE> RollOvrAdd C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 606 N DF OF F I (uc,uc) -
+<LIT> 2 U P C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 608 39 N DN ui B X
+<CTLG> RollOvrAdd 1
+<CTLG> 1 3
+<CTLGN> 607 608 608 
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  RollOvrAdd
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  21
+<S>STAV2  21
+<S>STAV3  21
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  17
+<S>STFN2  4
+
+<DEFINE> CDD_Sci30CfgAnduse_STOP_SEC_CODE C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c 611 N DF OM - - - O
+<R>I C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c C:/Component/CM745A_Sci30CfgAndUse_Impl/tools/contract/CDD_Sci30CfgAnduse_MemMap.h 612
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  IninSciDtsChMstReg
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  RollOvrAdd
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  Sci30CfgAndUseInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  UpdDtsRxReg
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  Sci30CfgAndUsePer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  UpdDtsTxReg
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  Sci30CfgAndUsePer2
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  Sci30CfgAndUsePer3
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  Sci30CfgAndUsePer4
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNAM  C:/Component/CM745A_Sci30CfgAndUse_Impl/src/CDD_Sci30CfgAnduse.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  5
+<S>STECT  3
+<S>STFNC  9
+<S>STFCO  15
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  120
+<S>STOPT  40
+<S>STOPN  243
+<S>STTOT  1858
+<S>STZIP  1761
+<S>STHAL  2139
+<S>STSHN  7907
+<S>STDIF  17.90  
+<S>STEFF  270831
+<S>STVOL  15133
+<S>STDEV  45.14  
+<S>STBUG  4
+<S>STTPP  625
+<S>STTLN  222
+<S>STM20  565
+<S>STM21  1280
+<S>STM22  113
+<S>STM28  79
+<S>STM33  55
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  1.465  
+<S>STBMS  1.772  
+<S>STBME  2.048  
+<S>STTDO  2.891  
+<S>STTDS  3.054  
+<S>STTDE  3.145  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.782  
+

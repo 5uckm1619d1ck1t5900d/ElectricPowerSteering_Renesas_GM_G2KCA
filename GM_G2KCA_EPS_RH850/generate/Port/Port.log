@@ -1,0 +1,44 @@
+###########################################################################
+# AUTOSAR Renesas R3.2 and R4.0 PORT Driver Generation Tool for X1x - 1.3.12                     
+# Run time      = [ 3 Feb 2017 - 10:36:21]
+#  Command line arguments = Port_X1x.exe -L -O
+#    C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate\Port
+#    C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1486135549973-8\AutosarFiles_ValGen-1486136166202-0\Port_ECUC_7638180960884927201.arxml
+#    R403_PORT_P1x_BSWMDT.arxml P1M.trxml Port_X1x.cfgxml
+#
+# Copyright(c) 2012-2015 Renesas Electronics Corporation.
+# All rights reserved
+###########################################################################
+
+
+INF000001: Tool Version: 1.3.12
+INF000002: Command line arguments: Port_X1x.exe -L -O
+           C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate\Port
+           C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1486135549973-8\AutosarFiles_ValGen-1486136166202-0\Port_ECUC_7638180960884927201.arxml
+           R403_PORT_P1x_BSWMDT.arxml P1M.trxml Port_X1x.cfgxml
+WRN124001: The parameter 'PortPinDirection' of container 'PortPin7' should not
+           be configured as <PORT_PIN_OUT>, since the parameter
+           'PortPinInitialMode' of the same 'PortPin7' container is configured
+           as an Input type mode.
+            The value for parameter 'PortPinDirection' is considered as
+           <PORT_PIN_IN>.
+           File Name:
+           C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1486135549973-8\AutosarFiles_ValGen-1486136166202-0\Port_ECUC_7638180960884927201.arxml
+           Path: /ActiveEcuC/Port/PortConfigSet/PortGroup5/PortPin7
+WRN124001: The parameter 'PortPinDirection' of container 'PortPin7' should not
+           be configured as <PORT_PIN_OUT>, since the parameter
+           'PortPinInitialMode' of the same 'PortPin7' container is configured
+           as an Input type mode.
+            The value for parameter 'PortPinDirection' is considered as
+           <PORT_PIN_IN>.
+           File Name:
+           C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1486135549973-8\AutosarFiles_ValGen-1486136166202-0\Port_ECUC_7638180960884927201.arxml
+           Path: /ActiveEcuC/Port/PortConfigSet/PortGroup2/PortPin7
+INF000004: Opened file
+           <C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate\Port\include\Port_Cfg.h>
+           at [ 3 Feb 2017 - 10:36:32].
+INF000004: Opened file
+           <C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate\Port\src\Port_PBcfg.c>
+           at [ 3 Feb 2017 - 10:36:32].
+INF000005: <0> Error(s) and <2> Warning(s) detected.
+INF000007: Execution completed successfully with warnings.

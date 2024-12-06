@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?><html><head><style type="text/css">
+			html, body {
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 9pt;
+			margin: 10px;
+			}
+
+			div.title {
+			background: #B70032;
+			color: white;
+			font-size: 16pt;
+			text-align: center;
+			padding: 20px 10px 20px 10px;
+			}
+
+			h1 {
+			background: #DEDEDE;
+			font-weight: bold;
+			font-size: 12pt;
+			margin-top: 30px;
+			margin-bottom: 10px;
+			padding: 4px;
+			border-bottom-style: solid;
+			border-bottom-width: thin;
+			}
+
+			h2 {
+			font-weight: bold;
+			font-size: 11pt;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			padding: 2px;
+			border-bottom-style: solid;
+			border-bottom-width: 2px;
+			border-bottom-color: #B70032;
+			}
+
+			h3 {
+			font-weight: normal;
+			font-size: 9pt;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			padding: 2px;
+			border-bottom-style: solid;
+			border-bottom-width: 1px;
+			border-bottom-color: #B70032;
+			}
+
+			table {
+			width:100%;
+			}
+
+			td,th {
+			font-size: 9pt;
+			}
+
+			td.verdict {
+			width: 10em;
+			font-weight: bold;
+			text-align: center;
+			padding: 6px;
+			}
+
+			td.passed {
+			background: #00FF00;
+			}
+
+			td.failed {
+			background: #FF0000;
+			}
+
+			th {
+			width: 20%;
+			text-align: right;
+			color: #B70032;
+			padding-right: 1em;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			}
+
+
+		</style><title>Delivery Test Report CBD1400346</title></head><body><div class="title">
+		  Delivery Test Report CBD1400346</div><p>
+		  The content of this delivery and the tested configuration is described in
+		  <a href="DeliveryDescription_CBD1400346.html">DeliveryDescription_CBD1400346.html</a></p><h1>Delivery Information</h1><h2>License Information</h2><table><tr><th>License Information:</th><td>Nexteer Automotive Corporation
+Package: GMLAN 3.1 - CANbedded License for GM; MultiChannel
+Micro: R7F701311
+Compiler: GHS 2015.1.7</td></tr><tr><th>License Number:</th><td>CBD1400346</td></tr><tr><th>OEM:</th><td>Gm</td></tr><tr><th>SLP:</th><td>GMLAN 3.1</td></tr><tr><th>Controller:</th><td>Rh850</td></tr><tr><th>CanCell:</th><td>Rscan</td></tr><tr><th>Compiler:</th><td>GreenHills</td></tr></table><h2>Delivery Information</h2><table><tr><th>Delivery Number:</th><td>01</td></tr><tr><th>SIP Version:</th><td>01.01.35</td></tr><tr><th>Delivery ID:</th><td>01.01.35.01.40.03.46.01.00.00</td></tr><tr><th>Release Type:</th><td>Serial production release (complete functionality, fully tested , full process, incl. serial production release)</td></tr><tr><th>Delivery Type:</th><td>Initial delivery (based on explicit purchase order)</td></tr><tr><th>Delivery Reason:</th><td>5015512</td></tr></table><h1>Test Verdict</h1><table><tr><td>Test Verdict</td><td class="verdict passed">Passed</td></tr><tr><td>Test Report Date</td><td>2016-05-06</td></tr></table><h1>Test Activities</h1><p>According to Vector’s embedded software development and delivery process, the test activities are assigned to the development phases of the software. The most important development phases for a delivery like this are the Component Test and the Delivery Test.</p><h2>Component Tests</h2><p>Each component listed in the section "Detailed Version Information" within the delivery description has been tested during the component development phase before component release independently of this specific delivery. The test activities on component level include:</p><ul><li>Code inspection and inspection of all work products, e.g. technical references</li><li>Static and dynamic tests according to the component-specific test specification and test plan</li><li>MISRA-C:2004 analysis and justification of deviations</li><li>Code coverage analysis (target: high code coverage of dynamic tests, additional inspection of uncovered code areas)</li></ul><h2>Delivery Tests</h2><p>Testing the ordered program ("SLP") on the real hardware with the target compiler and the requested configuration is performed for each delivery ("SIP") in order to detect any delivery specific issues. The test activities on delivery level include:</p><ul><li>Compile and link test on the real hardware with customer-specific compiler-, assembler- and linker-options (as specified in the questionnaire)</li><li>Dynamic tests according to the program related delivery test suite</li><li>Dynamic tests according to the ordered configuration or use-case (depending on the questionnaire or SLP defaults)</li><li>Optional: manual tests to cover special use-cases</li></ul><p>If there are no delivery specific tests documented below this is a redelivery without test relevant changes. The delivery tests from the former delivery are still valid.</p><p>
+		  The results of the delivery specific tests are documented on a summary level within this report. The result of the component specific test is not documented here as it is a prerequisite that the component has passed its release test before being delivered to customers.
+		  Vector does not distribute all the detailed test results to you. If you are interested in a review of the detailed delivery test results and those of the component specific tests, please contact Vector for more information.
+		</p><h1>Delivery Tests Results</h1><h2>Use Case Standard</h2><table><tr><td>Diag: Basic Tests<br /></td><td class="verdict passed">Passed</td></tr><tr><td>Diag: Sleep related Test<br /></td><td class="verdict passed">Passed</td></tr><tr><td>Diag: Partial Offline<br /></td><td class="verdict passed">Passed</td></tr><tr><td>Diag: Reinitialization<br /></td><td class="verdict passed">Passed</td></tr><tr><td>Diag: Periodic Messages<br /></td><td class="verdict passed">Passed</td></tr><tr><td>Diag: Periodic Messages<br /></td><td class="verdict passed">Passed</td></tr><tr><td>Diag: Timing<br /></td><td class="verdict passed">Passed</td></tr><tr><td>Diag: DynDef Messages<br /></td><td class="verdict passed">Passed</td></tr><tr><td>Diag: TP-Error<br /></td><td class="verdict passed">Passed</td></tr><tr><td>Bus Load<br />Test with heavy bus load</td><td class="verdict passed">Passed</td></tr><tr><td>Remote Frames<br />Test Remote Frames</td><td class="verdict passed">Passed</td></tr><tr><td>Cancel Transmit<br />Test Cancel Transmit</td><td class="verdict passed">Passed</td></tr><tr><td>Lock CAN interrupts<br />Test functionality of CanCanInterruptDisable and CanCanInterruptRestore.</td><td class="verdict passed">Passed</td></tr><tr><td>General tests<br />These tests validate generic aspects of the GGDA</td><td class="verdict passed">Passed</td></tr><tr><td>Modes required for flash programming<br />These tests check basic diagnostic modes</td><td class="verdict passed">Passed</td></tr><tr><td>Modes required for fault memory<br />These tests checks the fault memory diagnostic modes</td><td class="verdict passed">Passed</td></tr><tr><td>GmCal Tests<br />Tests GmCal: set different configurations, reset, check if messages are send according to configuration</td><td class="verdict passed">Passed</td></tr><tr><td>Application<br />Verify that optional application APIs work as expected.</td><td class="verdict passed">Passed</td></tr><tr><td>Multiple Identity Module<br />Verify that the ECU switches message sets properly when configured as a multiple identity module.</td><td class="verdict passed">Passed</td></tr><tr><td>Bus Off<br />Verify that the ECU enters and exits busoff at the appropriate times, the ECU does not transmit during busoff, and that all related APIs work as expected.</td><td class="verdict passed">Passed</td></tr><tr><td>State<br />Verify that the ECU enters and exits special diagnostic modes properly and that all related APIs work as expected.</td><td class="verdict passed">Passed</td></tr><tr><td>Bus Off<br />Verify that the ECU enters and exits busoff at the appropriate times, the ECU does not transmit during busoff, and that all related APIs work as expected.</td><td class="verdict passed">Passed</td></tr><tr><td>Sleep Wakeup<br />Verify that the ECU enters and exits sleep mode at the appropriate times and that all related APIs work as expected.</td><td class="verdict passed">Passed</td></tr><tr><td>State<br />Verify that the ECU enters and exits special diagnostic modes properly and that all related APIs work as expected.</td><td class="verdict passed">Passed</td></tr><tr><td>VN Activation<br />Verify that the ECU activates and deactivates VNs at the appropriate times, the appropriate messages are sent and received, and that all related APIs work as expected.</td><td class="verdict passed">Passed</td></tr><tr><td>TP Transmission Tests<br />Test TP data transmission and TP data reception with variable data length</td><td class="verdict passed">Passed</td></tr><tr><td>VStdMemCopy Tests<br />VStdMemCopy Tests</td><td class="verdict passed">Passed</td></tr><tr><td>VStdMemSet Tests<br />VStdMemSet Tests</td><td class="verdict passed">Passed</td></tr><tr><td>VStdMemClr Tests<br />VStdMemClr Tests</td><td class="verdict passed">Passed</td></tr><tr><td>Download/Upload Data<br />Test Upload from RAM and ROM and Download to RAM</td><td class="verdict passed">Passed</td></tr><tr><td>Individual Polling_Tx<br />Test Individual Polling</td><td class="verdict passed">Passed</td></tr><tr><td>Remote Frames<br />Test Remote Frames</td><td class="verdict passed">Passed</td></tr><tr><td>Acceptance Filter<br />Test Acceptance Filter</td><td class="verdict passed">Passed</td></tr><tr><td>Extended Status<br />Test Extended Status</td><td class="verdict passed">Passed</td></tr><tr><td>Cancel Transmit<br />Test Cancel Transmit</td><td class="verdict passed">Passed</td></tr><tr><td>Application Messages<br />Test Rx / Tx ApplMsg, RDS macros, Pretransmit / Precopy</td><td class="verdict passed">Passed</td></tr><tr><td>Individual Polling_Rx<br />Test Individual Polling</td><td class="verdict passed">Passed</td></tr></table></body></html>

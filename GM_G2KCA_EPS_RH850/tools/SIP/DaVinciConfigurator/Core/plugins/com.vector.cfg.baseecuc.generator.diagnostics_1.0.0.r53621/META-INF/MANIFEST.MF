@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Vector Informatik GmbH
+Fragment-Host: com.vector.cfg.baseecuc.generator;bundle-version="1.0.0
+ "
+Bundle-Version: 1.0.0.r53621
+Bundle-Name: Diagnostics Description Importer for Windows
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.vector.cfg.baseecuc.generator.diagnostics
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

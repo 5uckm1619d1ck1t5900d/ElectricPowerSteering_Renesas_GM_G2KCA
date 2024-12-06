@@ -1,0 +1,912 @@
+<RDEF> I Includes
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte_CDD_TSG31CfgAndUse.h 71
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte_CDD_TSG31CfgAndUse.h C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte_CDD_TSG31CfgAndUse_Type.h 40
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte_CDD_TSG31CfgAndUse_Type.h C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte_Type.h C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte.h 27
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte_CDD_TSG31CfgAndUse.h C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte_CDD_TSG31CfgAndUse.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 58
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte_CDD_TSG31CfgAndUse.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 63
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte_CDD_TSG31CfgAndUse.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 77
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte_CDD_TSG31CfgAndUse.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 112
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte_CDD_TSG31CfgAndUse.h C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/CDD_TSG31CfgAndUse_MemMap.h 211
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/CDD_TSG31CfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/Rte_CDD_TSG31CfgAndUse.h C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/CDD_TSG31CfgAndUse_MemMap.h 353
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/CDD_TSG31CfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 77
+<DEFINE> CDD_TSG31CFGANDUSE_PRIVATE_H C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 22 I DF OM - - - O
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 25
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/ElecGlbPrm.h 26
+<DEFINE> ROUNDGTERM_CNT_U13P19 C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 28 I DF OM - - - O
+<LIT> 262144 u P C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 28 50 I DN - F M
+<DEFINE> PWMTMRPERDIVSSCAG_CNT_U16 C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 29 I DF OM - - - O
+<LIT> 19 u P C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 29 50 I DN - F M
+<DEFINE> CLRBIT0MASK_CNT_U32 C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 30 I DF OM - - - O
+<LIT> 0xFFFFFFFE U P C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 30 58 I HN - F M
+<EXTN> CnvNanoSecToTmrCnt C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 39
+<DEFINE> Ti_NanoSec_T_u32 C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 39 I DC OV P N ul R
+<DEFINE> CnvNanoSecToTmrCnt C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 39 I DC OF F X (ul,ul) -
+<EXTD> CnvNanoSecToTmrCnt C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 48
+<DEFINE> Ti_NanoSec_T_u32 C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 48 I DC OV B N ul R
+<DEFINE> CnvNanoSecToTmrCnt C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 48 I DR OF F X (ul,ul) -
+<DEFINE> CnvNanoSecToTmrCnt C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 48 I DF OF F X (ul,ul) -
+<DEFINE> Tmr_Cnt_T_u32 C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 50 I DC OV B N ul -
+<DEFINE> Tmr_Cnt_T_u32 C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 50 I DF OV B N ul -
+<DEFINE> Ti_Cnt_T_u13p19 C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 51 I DC OV B N ul -
+<DEFINE> Ti_Cnt_T_u13p19 C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h 51 I DF OV B N ul -
+<CTLG> CnvNanoSecToTmrCnt 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 49 56 56 56 
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h
+<S>STNAM  CnvNanoSecToTmrCnt
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.25   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  0
+<S>STAV2  0
+<S>STAV3  0
+<S>STST1  6
+<S>STST2  6
+<S>STST3  4
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/ElecGlbPrm.h 78
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/tsg3_regs.h 79
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/tsg3_regs.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/tsg3_regs.h C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 24
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<DEFINE> MOTAG2SPISTRT_NANOSEC_U32 C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 84 N DF OM - - - O
+<LIT> 10000 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 84 50 N DN - F M
+<DEFINE> TSG31UPD_NANOSEC_U32 C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 85 N DF OM - - - O
+<LIT> 5000 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 85 50 N DN - F M
+<DEFINE> MapPinsToGpio C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 87 N DC OF F I (.,.) -
+<DEFINE> MapFetCtrlSigToGpioAndSetLow C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 88 N DC OF F I (.,.) -
+<DEFINE> NoTranSysStNotEn C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 89 N DC OF F I (.,.) -
+<DEFINE> TranToEn C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 90 N DC OF F I (.,.) -
+<DEFINE> TranFromEn C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 91 N DC OF F I (.,.) -
+<DEFINE> MotCurrEolCalSt_Cnt_T_enum C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 92 N DC OV P N uc R
+<DEFINE> NoTranSysStIsEn C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 92 N DC OF F I (.,uc) -
+<DEFINE> CDD_TSG31CfgAndUse_START_SEC_CODE C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 154 N DF OM - - - O
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/CDD_TSG31CfgAndUse_MemMap.h 155
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/CDD_TSG31CfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> TSG31CfgAndUseInit1 C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 210
+<DEFINE> TSG31CfgAndUseInit1 C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 210 N DR OF F X (.,.) -
+<DEFINE> TSG31CfgAndUseInit1 C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 210 N DF OF F X (.,.) -
+<DEFINE> RawTmrCnt_Cnt_T_u32 C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 216 N DC OV B N ul -
+<DEFINE> RawTmrCnt_Cnt_T_u32 C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 216 N DF OV B N ul -
+<DEFINE> PwmPerdMin_Cnt_T_u32 C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 217 N DC OV B N ul -
+<DEFINE> PwmPerdMin_Cnt_T_u32 C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 217 N DF OV B N ul -
+<RDEF> C Calls
+<R>C TSG31CfgAndUseInit1 MapFetCtrlSigToGpioAndSetLow 220
+<R>C TSG31CfgAndUseInit1 CnvNanoSecToTmrCnt 223
+<RDEF> X Refers-to
+<R>X TSG31CfgAndUseInit1 CnvNanoSecToTmrCnt 223 R
+<R>C TSG31CfgAndUseInit1 Rte_Prm_CDD_TSG31CfgAndUse_TSG31CfgAndUsePwmDbnd_Val 223
+<R>X TSG31CfgAndUseInit1 Rte_Prm_CDD_TSG31CfgAndUse_TSG31CfgAndUsePwmDbnd_Val 223 R
+<R>X TSG31CfgAndUseInit1 TSG31 224 W
+<R>X TSG31CfgAndUseInit1 TSG31 225 W
+<R>C TSG31CfgAndUseInit1 CnvNanoSecToTmrCnt 228
+<R>X TSG31CfgAndUseInit1 CnvNanoSecToTmrCnt 228 R
+<R>X TSG31CfgAndUseInit1 TSG31 229 W
+<R>X TSG31CfgAndUseInit1 TSG31 230 W
+<R>X TSG31CfgAndUseInit1 TSG31 231 W
+<R>X TSG31CfgAndUseInit1 TSG31 232 W
+<R>C TSG31CfgAndUseInit1 CnvNanoSecToTmrCnt 235
+<R>X TSG31CfgAndUseInit1 CnvNanoSecToTmrCnt 235 R
+<R>C TSG31CfgAndUseInit1 Rte_Prm_CDD_TSG31CfgAndUse_TSG31CfgAndUseAdcStrtOfCnvnMotCtrlPeakOffs_Val 235
+<R>X TSG31CfgAndUseInit1 Rte_Prm_CDD_TSG31CfgAndUse_TSG31CfgAndUseAdcStrtOfCnvnMotCtrlPeakOffs_Val 235 R
+<R>X TSG31CfgAndUseInit1 Rte_Inst_CDD_TSG31CfgAndUse 235 R
+<R>X TSG31CfgAndUseInit1 Rte_Inst_CDD_TSG31CfgAndUse 236 R
+<R>X TSG31CfgAndUseInit1 TSG31 237 W
+<R>C TSG31CfgAndUseInit1 CnvNanoSecToTmrCnt 240
+<R>X TSG31CfgAndUseInit1 CnvNanoSecToTmrCnt 240 R
+<R>C TSG31CfgAndUseInit1 Rte_Prm_CDD_TSG31CfgAndUse_TSG31CfgAndUseMtrAg0SPIStart_Val 240
+<R>X TSG31CfgAndUseInit1 Rte_Prm_CDD_TSG31CfgAndUse_TSG31CfgAndUseMtrAg0SPIStart_Val 240 R
+<R>X TSG31CfgAndUseInit1 Rte_Inst_CDD_TSG31CfgAndUse 240 R
+<R>X TSG31CfgAndUseInit1 Rte_Inst_CDD_TSG31CfgAndUse 241 R
+<R>X TSG31CfgAndUseInit1 TSG31 242 W
+<R>C TSG31CfgAndUseInit1 CnvNanoSecToTmrCnt 245
+<R>X TSG31CfgAndUseInit1 CnvNanoSecToTmrCnt 245 R
+<R>C TSG31CfgAndUseInit1 Rte_Prm_CDD_TSG31CfgAndUse_TSG31CfgAndUseAdcStrtOfCnvn2Offs_Val 245
+<R>X TSG31CfgAndUseInit1 Rte_Prm_CDD_TSG31CfgAndUse_TSG31CfgAndUseAdcStrtOfCnvn2Offs_Val 245 R
+<R>X TSG31CfgAndUseInit1 TSG31 246 W
+<R>C TSG31CfgAndUseInit1 CnvNanoSecToTmrCnt 249
+<R>X TSG31CfgAndUseInit1 CnvNanoSecToTmrCnt 249 R
+<R>C TSG31CfgAndUseInit1 Rte_Prm_CDD_TSG31CfgAndUse_TSG31CfgAndUseAdcStrtOfCnvnMotCtrlVlyOffs_Val 249
+<R>X TSG31CfgAndUseInit1 Rte_Prm_CDD_TSG31CfgAndUse_TSG31CfgAndUseAdcStrtOfCnvnMotCtrlVlyOffs_Val 249 R
+<R>X TSG31CfgAndUseInit1 TSG31 250 W
+<R>C TSG31CfgAndUseInit1 CnvNanoSecToTmrCnt 253
+<R>X TSG31CfgAndUseInit1 CnvNanoSecToTmrCnt 253 R
+<R>X TSG31CfgAndUseInit1 TSG31 254 W
+<R>X TSG31CfgAndUseInit1 TSG31 260 W
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 258 21 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 259 43 N HN ui B X
+<LIT> 4 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 259 52 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 260 43 N HN ui B X
+<LIT> 0 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 260 52 N ON ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 271 W
+<LIT> 0x0000 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 262 21 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 263 52 N HN ui B X
+<LIT> 9 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 263 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 264 52 N HN ui B X
+<LIT> 8 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 264 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 265 52 N HN ui B X
+<LIT> 7 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 265 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 266 52 N HN ui B X
+<LIT> 6 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 266 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 267 52 N HN ui B X
+<LIT> 5 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 267 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 268 52 N HN ui B X
+<LIT> 4 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 268 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 269 52 N HN ui B X
+<LIT> 3 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 269 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 270 52 N HN ui B X
+<LIT> 2 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 270 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 271 52 N HN ui B X
+<LIT> 0 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 271 61 N ON ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 274 W
+<LIT> 0x00000000 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 273 21 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 274 52 N HN ui B X
+<LIT> 0 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 274 61 N ON ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 278 W
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 276 21 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 277 43 N HN ui B X
+<LIT> 1 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 277 52 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 278 43 N HN ui B X
+<LIT> 0 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 278 52 N ON ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 285 W
+<LIT> 0x00000000 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 280 21 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 281 52 N HN ui B X
+<LIT> 8 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 281 61 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 282 52 N HN ui B X
+<LIT> 7 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 282 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 283 52 N HN ui B X
+<LIT> 6 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 283 61 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 284 52 N HN ui B X
+<LIT> 5 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 284 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 285 52 N HN ui B X
+<LIT> 0 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 285 61 N ON ui B X
+<R>X TSG31CfgAndUseInit1 ELECGLBPRM_MOTCTRLINTRPTTRIGSRC_CNT_U08 287 R
+<R>X TSG31CfgAndUseInit1 TSG31 289 R
+<R>X TSG31CfgAndUseInit1 TSG31 289 W
+<LIT> 0x01 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 289 47 N HN ui B X
+<LIT> 6 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 289 56 N DN ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 303 W
+<LIT> 0x0000 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 292 21 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 293 52 N HN ui B X
+<LIT> 10 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 293 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 294 52 N HN ui B X
+<LIT> 9 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 294 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 295 52 N HN ui B X
+<LIT> 8 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 295 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 296 52 N HN ui B X
+<LIT> 7 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 296 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 297 52 N HN ui B X
+<LIT> 6 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 297 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 298 52 N HN ui B X
+<LIT> 5 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 298 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 299 52 N HN ui B X
+<LIT> 4 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 299 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 300 52 N HN ui B X
+<LIT> 3 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 300 61 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 301 52 N HN ui B X
+<LIT> 2 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 301 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 302 52 N HN ui B X
+<LIT> 1 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 302 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 303 52 N HN ui B X
+<LIT> 0 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 303 61 N ON ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 317 W
+<LIT> 0x0000 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 306 21 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 307 52 N HN ui B X
+<LIT> 10 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 307 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 308 52 N HN ui B X
+<LIT> 9 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 308 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 309 52 N HN ui B X
+<LIT> 8 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 309 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 310 52 N HN ui B X
+<LIT> 7 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 310 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 311 52 N HN ui B X
+<LIT> 6 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 311 61 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 312 52 N HN ui B X
+<LIT> 5 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 312 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 313 52 N HN ui B X
+<LIT> 4 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 313 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 314 52 N HN ui B X
+<LIT> 3 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 314 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 315 52 N HN ui B X
+<LIT> 2 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 315 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 316 52 N HN ui B X
+<LIT> 1 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 316 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 317 52 N HN ui B X
+<LIT> 0 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 317 61 N ON ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 325 W
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 319 21 N HN ui B X
+<LIT> 0x01 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 320 43 N HN ui B X
+<LIT> 6 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 320 52 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 321 43 N HN ui B X
+<LIT> 5 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 321 52 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 322 43 N HN ui B X
+<LIT> 4 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 322 52 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 323 43 N HN ui B X
+<LIT> 3 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 323 52 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 324 43 N HN ui B X
+<LIT> 2 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 324 52 N DN ui B X
+<LIT> 0x01 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 325 43 N HN ui B X
+<LIT> 1 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 325 52 N DN ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 332 W
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 327 21 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 328 43 N HN ui B X
+<LIT> 4 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 328 52 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 329 43 N HN ui B X
+<LIT> 3 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 329 52 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 330 43 N HN ui B X
+<LIT> 2 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 330 52 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 331 43 N HN ui B X
+<LIT> 1 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 331 52 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 332 43 N HN ui B X
+<LIT> 0 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 332 52 N ON ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 346 W
+<LIT> 0x0000 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 334 21 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 335 52 N HN ui B X
+<LIT> 14 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 335 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 336 52 N HN ui B X
+<LIT> 13 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 336 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 337 52 N HN ui B X
+<LIT> 12 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 337 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 338 52 N HN ui B X
+<LIT> 11 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 338 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 339 52 N HN ui B X
+<LIT> 10 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 339 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 340 52 N HN ui B X
+<LIT> 9 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 340 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 341 52 N HN ui B X
+<LIT> 6 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 341 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 342 52 N HN ui B X
+<LIT> 5 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 342 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 343 52 N HN ui B X
+<LIT> 4 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 343 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 344 52 N HN ui B X
+<LIT> 3 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 344 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 345 52 N HN ui B X
+<LIT> 2 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 345 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 346 52 N HN ui B X
+<LIT> 1 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 346 61 N DN ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 354 W
+<LIT> 0x00000000 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 348 21 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 349 52 N HN ui B X
+<LIT> 6 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 349 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 350 52 N HN ui B X
+<LIT> 5 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 350 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 351 52 N HN ui B X
+<LIT> 4 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 351 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 352 52 N HN ui B X
+<LIT> 3 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 352 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 353 52 N HN ui B X
+<LIT> 2 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 353 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 354 52 N HN ui B X
+<LIT> 1 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 354 61 N DN ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 365 W
+<LIT> 0x0000 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 356 20 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 357 52 N HN ui B X
+<LIT> 9 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 357 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 358 52 N HN ui B X
+<LIT> 8 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 358 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 359 52 N HN ui B X
+<LIT> 7 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 359 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 360 52 N HN ui B X
+<LIT> 6 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 360 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 361 52 N HN ui B X
+<LIT> 5 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 361 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 362 52 N HN ui B X
+<LIT> 4 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 362 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 363 52 N HN ui B X
+<LIT> 3 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 363 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 364 52 N HN ui B X
+<LIT> 2 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 364 61 N DN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 365 52 N HN ui B X
+<LIT> 1 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 365 61 N DN ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 368 W
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 367 21 N HN ui B X
+<LIT> 0x00 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 368 43 N HN ui B X
+<LIT> 0 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 368 52 N ON ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 371 R
+<R>X TSG31CfgAndUseInit1 TSG31 371 W
+<LIT> 0x8000FFFF U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 371 31 N HN ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 374 R
+<R>X TSG31CfgAndUseInit1 TSG31 374 W
+<LIT> 0x8000FFFF U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 374 31 N HN ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 376 W
+<LIT> 0x0000 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 376 21 N HN ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 377 R
+<R>X TSG31CfgAndUseInit1 TSG31 377 W
+<LIT> 0x8000 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 377 22 N HN ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 379 W
+<LIT> 0x01 U P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 379 19 N HN ui B X
+<R>X TSG31CfgAndUseInit1 TSG31 381 W
+<LIT> 0x00000000 UL P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 381 23 N HN ul B X
+<R>X TSG31CfgAndUseInit1 TSG31 382 W
+<LIT> 0x00000000 UL P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 382 22 N HN ul B X
+<R>X TSG31CfgAndUseInit1 TSG31 383 W
+<LIT> 0x00000000 UL P C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 383 22 N HN ul B X
+<CTLG> TSG31CfgAndUseInit1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 5 7
+<CTLGN> 211 287 287 287 390 390 390 
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  TSG31CfgAndUseInit1
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  13
+<S>STAKI  15
+<S>STLIN  178
+<S>STXLN  124
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  2
+<S>STPDN  0.02   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  25
+<S>STAV2  25
+<S>STAV3  26
+<S>STST1  47
+<S>STST2  46
+<S>STST3  44
+<S>STPAR  0
+<S>STCAL  7
+<S>STFN1  767
+<S>STFN2  418
+
+<EXTD> TSG31CfgAndUsePer2 C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 471
+<DEFINE> TSG31CfgAndUsePer2 C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 471 N DR OF F X (.,.) -
+<DEFINE> TSG31CfgAndUsePer2 C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 471 N DF OF F X (.,.) -
+<DEFINE> SysSt_Cnt_T_enum C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 477 N DC OV B N uc -
+<DEFINE> SysSt_Cnt_T_enum C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 477 N DF OV B N uc -
+<DEFINE> MotCurrEolCalSt_Cnt_T_enum C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 478 N DC OV B N uc -
+<DEFINE> MotCurrEolCalSt_Cnt_T_enum C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 478 N DF OV B N uc -
+<DEFINE> SysStEn_Cnt_T_lgc C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 479 N DC OV B N uc -
+<DEFINE> SysStEn_Cnt_T_lgc C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 479 N DF OV B N uc -
+<R>C TSG31CfgAndUsePer2 Rte_Read_CDD_TSG31CfgAndUse_SysSt_Val 481
+<R>X TSG31CfgAndUsePer2 Rte_Read_CDD_TSG31CfgAndUse_SysSt_Val 481 R
+<R>C TSG31CfgAndUsePer2 Rte_Read_CDD_TSG31CfgAndUse_MotCurrEolCalSt_Val 482
+<R>X TSG31CfgAndUsePer2 Rte_Read_CDD_TSG31CfgAndUse_MotCurrEolCalSt_Val 482 R
+<R>X TSG31CfgAndUsePer2 Rte_Inst_CDD_TSG31CfgAndUse 504 R
+<R>C TSG31CfgAndUsePer2 NoTranSysStIsEn 507
+<R>C TSG31CfgAndUsePer2 TranToEn 512
+<R>X TSG31CfgAndUsePer2 Rte_Inst_CDD_TSG31CfgAndUse 517 R
+<R>C TSG31CfgAndUsePer2 TranFromEn 520
+<R>C TSG31CfgAndUsePer2 NoTranSysStNotEn 525
+<R>X TSG31CfgAndUsePer2 Rte_Inst_CDD_TSG31CfgAndUse 530 R
+<CTLG> TSG31CfgAndUsePer2 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 10
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 14
+<CTLG> 10 11
+<CTLG> 10 12
+<CTLG> 11 13
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 15 17
+<CTLGN> 472 492 492 492 496 502 504 504 509 502 517 517 522 515 542 542 542 
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  TSG31CfgAndUsePer2
+<S>STCYC  5
+<S>STMCC  0 (5:5)
+<S>STMIF  2
+<S>STSUB  6
+<S>STAKI  11
+<S>STLIN  69
+<S>STXLN  17
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  8
+<S>STPDN  0.47   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  5
+<S>STAV2  7
+<S>STAV3  9
+<S>STST1  24
+<S>STST2  16
+<S>STST3  13
+<S>STPAR  0
+<S>STCAL  6
+<S>STFN1  91
+<S>STFN2  35
+
+<DEFINE> CDD_TSG31CfgAndUse_STOP_SEC_CODE C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 545 N DF OM - - - O
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/CDD_TSG31CfgAndUse_MemMap.h 546
+<R>I C:/Component/CM475A_TSG31CfgAndUse_Impl/tools/contract/CDD_TSG31CfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<DEFINE> MotCurrEolCalSt_Cnt_T_enum C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 560 N DC OV B N uc R
+<DEFINE> NoTranSysStIsEn C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 560 N DR OF F I (.,uc) -
+<DEFINE> NoTranSysStIsEn C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 560 N DF OF F I (.,uc) -
+<R>C NoTranSysStIsEn MapPinsToGpio 569
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaALowrCmd_Oper 571
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaALowrCmd_Oper 571 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBLowrCmd_Oper 572
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBLowrCmd_Oper 572 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCLowrCmd_Oper 573
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCLowrCmd_Oper 573 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaAUpprCmd_Oper 574
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaAUpprCmd_Oper 574 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBUpprCmd_Oper 575
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBUpprCmd_Oper 575 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCUpprCmd_Oper 576
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCUpprCmd_Oper 576 R
+<R>C NoTranSysStIsEn MapPinsToGpio 581
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaALowrCmd_Oper 583
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaALowrCmd_Oper 583 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBLowrCmd_Oper 584
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBLowrCmd_Oper 584 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCLowrCmd_Oper 585
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCLowrCmd_Oper 585 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaAUpprCmd_Oper 586
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaAUpprCmd_Oper 586 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBUpprCmd_Oper 587
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBUpprCmd_Oper 587 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCUpprCmd_Oper 588
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCUpprCmd_Oper 588 R
+<R>C NoTranSysStIsEn MapPinsToGpio 593
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaALowrCmd_Oper 595
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaALowrCmd_Oper 595 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBLowrCmd_Oper 596
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBLowrCmd_Oper 596 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCLowrCmd_Oper 597
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCLowrCmd_Oper 597 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaAUpprCmd_Oper 598
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaAUpprCmd_Oper 598 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBUpprCmd_Oper 599
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBUpprCmd_Oper 599 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCUpprCmd_Oper 600
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCUpprCmd_Oper 600 R
+<R>C NoTranSysStIsEn MapPinsToGpio 605
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaALowrCmd_Oper 607
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaALowrCmd_Oper 607 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBLowrCmd_Oper 608
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBLowrCmd_Oper 608 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCLowrCmd_Oper 609
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCLowrCmd_Oper 609 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaAUpprCmd_Oper 610
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaAUpprCmd_Oper 610 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBUpprCmd_Oper 611
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBUpprCmd_Oper 611 R
+<R>C NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCUpprCmd_Oper 612
+<R>X NoTranSysStIsEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCUpprCmd_Oper 612 R
+<CTLG> NoTranSysStIsEn 1
+<CTLG> 1 2
+<CTLG> 1 2
+<CTLG> 1 4
+<CTLG> 1 6
+<CTLG> 1 8
+<CTLG> 1 10
+<CTLG> 2 3
+<CTLG> 3 12
+<CTLG> 4 5
+<CTLG> 5 12
+<CTLG> 6 7
+<CTLG> 7 12
+<CTLG> 8 9
+<CTLG> 9 12
+<CTLG> 10 12
+<CTLG> 12 14
+<CTLGN> 561 564 577 577 589 589 601 601 613 613 617 564 620 620 
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  NoTranSysStIsEn
+<S>STCYC  5
+<S>STMCC  0 (5:5)
+<S>STMIF  1
+<S>STSUB  28
+<S>STAKI  33
+<S>STLIN  58
+<S>STXLN  40
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  5
+<S>STPDN  0.13   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  5
+<S>STAV2  7
+<S>STAV3  7
+<S>STST1  41
+<S>STST2  34
+<S>STST3  34
+<S>STPAR  1
+<S>STCAL  7
+<S>STFN1  185
+<S>STFN2  58
+
+<DEFINE> TranFromEn C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 630 N DR OF F I (.,.) -
+<DEFINE> TranFromEn C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 630 N DF OF F I (.,.) -
+<R>C TranFromEn MapFetCtrlSigToGpioAndSetLow 634
+<CTLG> TranFromEn 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 631 636 636 636 
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  TranFromEn
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  4
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  6
+<S>STAV3  6
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  5
+<S>STFN2  1
+
+<DEFINE> TranToEn C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 646 N DR OF F I (.,.) -
+<DEFINE> TranToEn C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 646 N DF OF F I (.,.) -
+<R>C TranToEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctPeriphPhaALowrCmd_Oper 650
+<R>X TranToEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctPeriphPhaALowrCmd_Oper 650 R
+<R>C TranToEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctPeriphPhaAUpprCmd_Oper 651
+<R>X TranToEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctPeriphPhaAUpprCmd_Oper 651 R
+<R>C TranToEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctPeriphPhaBLowrCmd_Oper 652
+<R>X TranToEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctPeriphPhaBLowrCmd_Oper 652 R
+<R>C TranToEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctPeriphPhaBUpprCmd_Oper 653
+<R>X TranToEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctPeriphPhaBUpprCmd_Oper 653 R
+<R>C TranToEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctPeriphPhaCLowrCmd_Oper 654
+<R>X TranToEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctPeriphPhaCLowrCmd_Oper 654 R
+<R>C TranToEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctPeriphPhaCUpprCmd_Oper 655
+<R>X TranToEn Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctPeriphPhaCUpprCmd_Oper 655 R
+<CTLG> TranToEn 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 647 657 657 657 
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  TranToEn
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  6
+<S>STAKI  7
+<S>STLIN  9
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.17   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  7
+<S>STST1  6
+<S>STST2  6
+<S>STST3  6
+<S>STPAR  0
+<S>STCAL  6
+<S>STFN1  38
+<S>STFN2  6
+
+<DEFINE> NoTranSysStNotEn C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 667 N DR OF F I (.,.) -
+<DEFINE> NoTranSysStNotEn C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 667 N DF OF F I (.,.) -
+<CTLG> NoTranSysStNotEn 1
+<CTLG> 1 3
+<CTLGN> 668 671 671 
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  NoTranSysStNotEn
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  2
+<S>STXLN  0
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  0
+<S>STAV2  0
+<S>STAV3  0
+<S>STST1  0
+<S>STST2  0
+<S>STST3  0
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  2
+<S>STFN2  0
+
+<DEFINE> MapFetCtrlSigToGpioAndSetLow C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 681 N DR OF F I (.,.) -
+<DEFINE> MapFetCtrlSigToGpioAndSetLow C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 681 N DF OF F I (.,.) -
+<R>C MapFetCtrlSigToGpioAndSetLow MapPinsToGpio 691
+<R>C MapFetCtrlSigToGpioAndSetLow Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaALowrCmd_Oper 694
+<R>X MapFetCtrlSigToGpioAndSetLow Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaALowrCmd_Oper 694 R
+<R>C MapFetCtrlSigToGpioAndSetLow Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaAUpprCmd_Oper 695
+<R>X MapFetCtrlSigToGpioAndSetLow Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaAUpprCmd_Oper 695 R
+<R>C MapFetCtrlSigToGpioAndSetLow Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBLowrCmd_Oper 696
+<R>X MapFetCtrlSigToGpioAndSetLow Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBLowrCmd_Oper 696 R
+<R>C MapFetCtrlSigToGpioAndSetLow Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBUpprCmd_Oper 697
+<R>X MapFetCtrlSigToGpioAndSetLow Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaBUpprCmd_Oper 697 R
+<R>C MapFetCtrlSigToGpioAndSetLow Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCLowrCmd_Oper 698
+<R>X MapFetCtrlSigToGpioAndSetLow Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCLowrCmd_Oper 698 R
+<R>C MapFetCtrlSigToGpioAndSetLow Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCUpprCmd_Oper 699
+<R>X MapFetCtrlSigToGpioAndSetLow Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetGpioPhaCUpprCmd_Oper 699 R
+<CTLG> MapFetCtrlSigToGpioAndSetLow 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 682 708 708 708 
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  MapFetCtrlSigToGpioAndSetLow
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  7
+<S>STAKI  8
+<S>STLIN  25
+<S>STXLN  7
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.14   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  7
+<S>STST1  7
+<S>STST2  7
+<S>STST3  7
+<S>STPAR  0
+<S>STCAL  7
+<S>STFN1  41
+<S>STFN2  13
+
+<DEFINE> MapPinsToGpio C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 718 N DR OF F I (.,.) -
+<DEFINE> MapPinsToGpio C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c 718 N DF OF F I (.,.) -
+<R>C MapPinsToGpio Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctGpioPhaALowrCmd_Oper 722
+<R>X MapPinsToGpio Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctGpioPhaALowrCmd_Oper 722 R
+<R>C MapPinsToGpio Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctGpioPhaAUpprCmd_Oper 723
+<R>X MapPinsToGpio Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctGpioPhaAUpprCmd_Oper 723 R
+<R>C MapPinsToGpio Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctGpioPhaBLowrCmd_Oper 724
+<R>X MapPinsToGpio Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctGpioPhaBLowrCmd_Oper 724 R
+<R>C MapPinsToGpio Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctGpioPhaBUpprCmd_Oper 725
+<R>X MapPinsToGpio Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctGpioPhaBUpprCmd_Oper 725 R
+<R>C MapPinsToGpio Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctGpioPhaCLowrCmd_Oper 726
+<R>X MapPinsToGpio Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctGpioPhaCLowrCmd_Oper 726 R
+<R>C MapPinsToGpio Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctGpioPhaCUpprCmd_Oper 727
+<R>X MapPinsToGpio Rte_Call_CDD_TSG31CfgAndUse_IoHwAb_SetFctGpioPhaCUpprCmd_Oper 727 R
+<CTLG> MapPinsToGpio 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 719 729 729 729 
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  MapPinsToGpio
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  6
+<S>STAKI  7
+<S>STLIN  9
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.17   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  7
+<S>STST1  6
+<S>STST2  6
+<S>STST3  6
+<S>STPAR  0
+<S>STCAL  6
+<S>STFN1  38
+<S>STFN2  6
+
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/include/CDD_TSG31CfgAndUse_private.h
+<S>STNAM  CnvNanoSecToTmrCnt
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  MapPinsToGpio
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  MapFetCtrlSigToGpioAndSetLow
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  NoTranSysStIsEn
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  NoTranSysStNotEn
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  TSG31CfgAndUseInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  TranToEn
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  TranFromEn
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  TSG31CfgAndUsePer2
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNAM  C:/Component/CM475A_TSG31CfgAndUse_Impl/src/CDD_TSG31CfgAndUse.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  6
+<S>STECT  3
+<S>STFNC  8
+<S>STFCO  60
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  102
+<S>STOPT  27
+<S>STOPN  287
+<S>STTOT  1914
+<S>STZIP  1987
+<S>STHAL  2472
+<S>STSHN  9046
+<S>STDIF  22.78  
+<S>STEFF  361693
+<S>STVOL  15876
+<S>STDEV  60.28  
+<S>STBUG  5
+<S>STTPP  743
+<S>STTLN  256
+<S>STM20  591
+<S>STM21  1318
+<S>STM22  116
+<S>STM28  187
+<S>STM33  170
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  1.757  
+<S>STBMS  2.151  
+<S>STBME  2.521  
+<S>STTDO  3.097  
+<S>STTDS  3.269  
+<S>STTDE  3.361  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  2.155  
+

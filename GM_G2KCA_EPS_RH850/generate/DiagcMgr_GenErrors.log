@@ -1,0 +1,18 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate
+    Descr. file:   C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1485551572591-8\AutosarFiles_ValGen-1485551677827-0\DiagcMgr_ECUC_4477713196214005623.arxml
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\ES101A_DiagcMgr_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\_synergy\G2KCAT3_CZ8L9T\ES101A_DiagcMgr_Impl\generate\DiagcMgr_Cfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_synergy/G2KCAT3_CZ8L9T/GM_G2KCA_EPS_RH850/generate\DiagcMgr_Cfg.h. written.
+    Duration:      00:00:00.8268053.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate
+    Descr. file:   C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1485551572591-8\AutosarFiles_ValGen-1485551677827-0\DiagcMgr_ECUC_4477713196214005623.arxml
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\ES101A_DiagcMgr_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\_synergy\G2KCAT3_CZ8L9T\ES101A_DiagcMgr_Impl\generate\DiagcMgr_Cfg.c.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_synergy/G2KCAT3_CZ8L9T/GM_G2KCA_EPS_RH850/generate\DiagcMgr_Cfg.c. written.
+    Duration:      00:00:02.4180155.

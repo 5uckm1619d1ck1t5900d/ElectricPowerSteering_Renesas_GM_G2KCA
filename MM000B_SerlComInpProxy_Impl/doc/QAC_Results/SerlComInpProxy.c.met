@@ -1,0 +1,871 @@
+<RDEF> I Includes
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_SerlComInpProxy.h 58
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_SerlComInpProxy.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_SerlComInpProxy_Type.h 40
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_SerlComInpProxy_Type.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_Type.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte.h 27
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_UserTypes.h 41
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_UserTypes.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/include/ASR4.0.3/ComStack_Types.h 40
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/include/ASR4.0.3/ComStack_Types.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 74
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/include/ASR4.0.3/ComStack_Types.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/ComStack_Cfg.h 76
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_Type.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/ImcArbn.h 28
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/ImcArbn.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/ImcArbn_Cfg.h 24
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_SerlComInpProxy.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_SerlComInpProxy.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 55
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_SerlComInpProxy.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 60
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_SerlComInpProxy.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 172
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_SerlComInpProxy.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 285
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_SerlComInpProxy.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/SerlComInpProxy_MemMap.h 404
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/SerlComInpProxy_MemMap.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/Rte_SerlComInpProxy.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/SerlComInpProxy_MemMap.h 576
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/SerlComInpProxy_MemMap.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/can_par.h 64
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/il_cfg.h 65
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/il_par.h 66
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/ImcArbn.h 67
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/ImcArbn_Cfg.h 68
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/DualEcuSelect.h 69
+<LIT> 12 u P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 72 55 N DN ui F D
+<LIT> 2 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 73 9 N DN ui F A
+<LIT> 3 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 73 13 N DN ui F A
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 73 17 N ON ui F A
+<LIT> 18 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 73 21 N DN ui F A
+<LIT> 18 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 73 26 N DN ui F A
+<LIT> 119 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 73 31 N DN ui F A
+<LIT> 3 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 73 37 N DN ui F A
+<LIT> 3 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 73 41 N DN ui F A
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 73 45 N ON ui F A
+<LIT> 18 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 73 49 N DN ui F A
+<LIT> 18 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 73 54 N DN ui F A
+<LIT> 119 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 73 59 N DN ui F A
+<DEFINE> SerlComInpProxyGmLanId C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 72 N DC OV F I [12,=uc] S
+<DEFINE> SerlComInpProxyGmLanId C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 72 N DF OV F I [12,=uc] S
+<DEFINE> SerlComInpProxy_START_SEC_CODE C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 99 N DF OM - - - O
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/SerlComInpProxy_MemMap.h 100
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/SerlComInpProxy_MemMap.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> SerlComInpProxyGmLanIdRd_Oper C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 120
+<DEFINE> GmLanId C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 120 N DC OV B N puc R
+<DEFINE> SerlComInpProxyGmLanIdRd_Oper C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 120 N DR OF F X (.,puc) -
+<DEFINE> SerlComInpProxyGmLanIdRd_Oper C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 120 N DF OF F X (.,puc) -
+<DEFINE> Index_Cnt_T_u08 C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 130 N DC OV B N uc -
+<DEFINE> Index_Cnt_T_u08 C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 130 N DF OV B N uc -
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 132 32 N ON ui B X
+<LIT> 12 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 132 54 N DN ui B X
+<LIT> 1 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 132 78 N DN ui B X
+<CTLG> SerlComInpProxyGmLanIdRd_Oper 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 5
+<CTLG> 3 4
+<CTLG> 4 2
+<CTLG> 5 7
+<CTLGN> 124 132 132 132 132 141 141 
+<S>
+<S>STFIL  C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c
+<S>STNAM  SerlComInpProxyGmLanIdRd_Oper
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  16
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  12
+<S>STAV3  18
+<S>STST1  4
+<S>STST2  3
+<S>STST3  2
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  22
+<S>STFN2  14
+
+<EXTD> SerlComInpProxyInit1 C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 153
+<DEFINE> SerlComInpProxyInit1 C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 153 N DR OF F X (.,.) -
+<DEFINE> SerlComInpProxyInit1 C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 153 N DF OF F X (.,.) -
+<CTLG> SerlComInpProxyInit1 1
+<CTLG> 1 3
+<CTLGN> 154 164 164 
+<S>
+<S>STFIL  C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c
+<S>STNAM  SerlComInpProxyInit1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  9
+<S>STXLN  0
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  0
+<S>STAV2  0
+<S>STAV3  0
+<S>STST1  0
+<S>STST2  0
+<S>STST3  0
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  2
+<S>STFN2  0
+
+<EXTD> SerlComInpProxyPer1 C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 294
+<DEFINE> SerlComInpProxyPer1 C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 294 N DR OF F X (.,.) -
+<DEFINE> SerlComInpProxyPer1 C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 294 N DF OF F X (.,.) -
+<DEFINE> TiStamp_100uS_T_u32 C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 301 N DC OV B N ul -
+<DEFINE> TiStamp_100uS_T_u32 C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 301 N DF OV B N ul -
+<RDEF> C Calls
+<R>C SerlComInpProxyPer1 Rte_Call_SerlComInpProxy_GetRefTmr100MicroSec32bit_Oper 303
+<RDEF> X Refers-to
+<R>X SerlComInpProxyPer1 Rte_Call_SerlComInpProxy_GetRefTmr100MicroSec32bit_Oper 303 R
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 306
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 306 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlRotStatLftNDrvn 307
+<R>X SerlComInpProxyPer1 IlGetRxWhlRotStatLftNDrvn 307 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlRotStatRghtNDrvn 308
+<R>X SerlComInpProxyPer1 IlGetRxWhlRotStatRghtNDrvn 308 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LeWhlDstPlsCntrRaw_Val 309
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LeWhlDstPlsCntrRaw_Val 309 R
+<R>C SerlComInpProxyPer1 IlGetRxWRSLNDWhlDistPCntr 309
+<R>X SerlComInpProxyPer1 IlGetRxWRSLNDWhlDistPCntr 309 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LeWhlDstTiStampRaw_Val 310
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LeWhlDstTiStampRaw_Val 310 R
+<R>C SerlComInpProxyPer1 IlGetRxWRSLNDWhlDistTstm 310
+<R>X SerlComInpProxyPer1 IlGetRxWRSLNDWhlDistTstm 310 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LeWhlDstVldRaw_Val 311
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LeWhlDstVldRaw_Val 311 R
+<R>C SerlComInpProxyPer1 IlGetRxWRSLNDWhlDistVal 311
+<R>X SerlComInpProxyPer1 IlGetRxWRSLNDWhlDistVal 311 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LeWhlRotlStsRstRaw_Val 312
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LeWhlRotlStsRstRaw_Val 312 R
+<R>C SerlComInpProxyPer1 IlGetRxWRSLNDWhlRotStRst 312
+<R>X SerlComInpProxyPer1 IlGetRxWRSLNDWhlRotStRst 312 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LeWhlSeqNrRaw_Val 313
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LeWhlSeqNrRaw_Val 313 R
+<R>C SerlComInpProxyPer1 IlGetRxWRSLNDSeqNum 313
+<R>X SerlComInpProxyPer1 IlGetRxWRSLNDSeqNum 313 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_RiWhlDstPlsCntrRaw_Val 314
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_RiWhlDstPlsCntrRaw_Val 314 R
+<R>C SerlComInpProxyPer1 IlGetRxWRSRNDWhlDistPCntr 314
+<R>X SerlComInpProxyPer1 IlGetRxWRSRNDWhlDistPCntr 314 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_RiWhlDstTiStampRaw_Val 315
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_RiWhlDstTiStampRaw_Val 315 R
+<R>C SerlComInpProxyPer1 IlGetRxWRSRNDWhlDistTstm 315
+<R>X SerlComInpProxyPer1 IlGetRxWRSRNDWhlDistTstm 315 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_RiWhlDstVldRaw_Val 316
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_RiWhlDstVldRaw_Val 316 R
+<R>C SerlComInpProxyPer1 IlGetRxWRSRNDWhlDistVal 316
+<R>X SerlComInpProxyPer1 IlGetRxWRSRNDWhlDistVal 316 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_RiWhlRotlStsRstRaw_Val 317
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_RiWhlRotlStsRstRaw_Val 317 R
+<R>C SerlComInpProxyPer1 IlGetRxWRSRNDWhlRotStRst 317
+<R>X SerlComInpProxyPer1 IlGetRxWRSRNDWhlRotStRst 317 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_RiWhlSeqNrRaw_Val 318
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_RiWhlSeqNrRaw_Val 318 R
+<R>C SerlComInpProxyPer1 IlGetRxWRSRNDSeqNum 318
+<R>X SerlComInpProxyPer1 IlGetRxWRSRNDSeqNum 318 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 319 55 N ON ui B X
+<R>X SerlComInpProxyPer1 PPEI_NonDrivn_Whl_Rotationl_Stat_ind_b 319 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg0C5_Val 321
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg0C5_Val 321 R
+<R>C SerlComInpProxyPer1 CanWriteSyncPPEI_NonDrivn_Whl_Rotationl_Stat_ind_b 322
+<R>X SerlComInpProxyPer1 CanWriteSyncPPEI_NonDrivn_Whl_Rotationl_Stat_ind_b 322 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 322 68 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 326
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 326 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_EngRunActvRaw_Val 327
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_EngRunActvRaw_Val 327 R
+<R>C SerlComInpProxyPer1 IlGetRxEngRunAtv 327
+<R>X SerlComInpProxyPer1 IlGetRxEngRunAtv 327 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_EngSpdRaw_Val 328
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_EngSpdRaw_Val 328 R
+<R>C SerlComInpProxyPer1 IlGetRxEngSpd 328
+<R>X SerlComInpProxyPer1 IlGetRxEngSpd 328 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_EngSpdStsRaw_Val 329
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_EngSpdStsRaw_Val 329 R
+<R>C SerlComInpProxyPer1 IlGetRxEngSpdStat 329
+<R>X SerlComInpProxyPer1 IlGetRxEngSpdStat 329 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_PtCrkActvRaw_Val 330
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_PtCrkActvRaw_Val 330 R
+<R>C SerlComInpProxyPer1 IlGetRxPT_CrnkAct 330
+<R>X SerlComInpProxyPer1 IlGetRxPT_CrnkAct 330 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 331 51 N ON ui B X
+<R>X SerlComInpProxyPer1 PPEI_Engine_General_Status_1_ind_b 331 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg0C9_Val 333
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg0C9_Val 333 R
+<R>C SerlComInpProxyPer1 CanWriteSyncPPEI_Engine_General_Status_1_ind_b 334
+<R>X SerlComInpProxyPer1 CanWriteSyncPPEI_Engine_General_Status_1_ind_b 334 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 334 64 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 338
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 338 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehStabyEnhmtStsRaw_Val 339
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehStabyEnhmtStsRaw_Val 339 R
+<R>C SerlComInpProxyPer1 IlGetRxVehStabEnhmntStat_0 339
+<R>X SerlComInpProxyPer1 IlGetRxVehStabEnhmntStat_0 339 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 340 54 N ON ui B X
+<R>X SerlComInpProxyPer1 Antilock_Brake_and_TC_Status_HS_ind_b 340 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg17D_Val 342
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg17D_Val 342 R
+<R>C SerlComInpProxyPer1 CanWriteSyncAntilock_Brake_and_TC_Status_HS_ind_b 343
+<R>X SerlComInpProxyPer1 CanWriteSyncAntilock_Brake_and_TC_Status_HS_ind_b 343 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 343 67 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 347
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 347 R
+<R>C SerlComInpProxyPer1 IlGetRxLKATqOvrDltCmd 348
+<R>X SerlComInpProxyPer1 IlGetRxLKATqOvrDltCmd 348 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LkaCmdProtnValRaw_Val 349
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LkaCmdProtnValRaw_Val 349 R
+<R>C SerlComInpProxyPer1 IlGetRxLKATqOvrDltCmdPrtVl 349
+<R>X SerlComInpProxyPer1 IlGetRxLKATqOvrDltCmdPrtVl 349 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LkaCmdRollgCntrRaw_Val 350
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LkaCmdRollgCntrRaw_Val 350 R
+<R>C SerlComInpProxyPer1 IlGetRxLKATqOvrDltCmdRC 350
+<R>X SerlComInpProxyPer1 IlGetRxLKATqOvrDltCmdRC 350 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LkaCmdTqReqActvRaw_Val 351
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LkaCmdTqReqActvRaw_Val 351 R
+<R>C SerlComInpProxyPer1 IlGetRxLKATODC_TrqRqAct 351
+<R>X SerlComInpProxyPer1 IlGetRxLKATODC_TrqRqAct 351 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LkaCmdTqValRaw_Val 352
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LkaCmdTqValRaw_Val 352 R
+<R>C SerlComInpProxyPer1 IlGetRxLKATODC_TrqVl 352
+<R>X SerlComInpProxyPer1 IlGetRxLKATODC_TrqVl 352 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 353 49 N ON ui B X
+<R>X SerlComInpProxyPer1 LKA_Steering_Torque_Cmd_HS_ind_b 353 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg180BusHiSpd_Val 355
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg180BusHiSpd_Val 355 R
+<R>C SerlComInpProxyPer1 CanWriteSyncLKA_Steering_Torque_Cmd_HS_ind_b 356
+<R>X SerlComInpProxyPer1 CanWriteSyncLKA_Steering_Torque_Cmd_HS_ind_b 356 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 356 62 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 360
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 360 R
+<R>C SerlComInpProxyPer1 IlGetRxVSELatAccGroup 361
+<R>X SerlComInpProxyPer1 IlGetRxVSELatAccGroup 361 R
+<R>C SerlComInpProxyPer1 IlGetRxBrkPdlDrvAppPrsDetcdGroup 362
+<R>X SerlComInpProxyPer1 IlGetRxBrkPdlDrvAppPrsDetcdGroup 362 R
+<R>C SerlComInpProxyPer1 IlGetRxVehDynYawRateGroup 363
+<R>X SerlComInpProxyPer1 IlGetRxVehDynYawRateGroup 363 R
+<R>C SerlComInpProxyPer1 IlGetRxVehDynOvrUndrStrGroup_0 364
+<R>X SerlComInpProxyPer1 IlGetRxVehDynOvrUndrStrGroup_0 364 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_AbsActvRaw_Val 365
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_AbsActvRaw_Val 365 R
+<R>C SerlComInpProxyPer1 IlGetRxABSAtv_0 365
+<R>X SerlComInpProxyPer1 IlGetRxABSAtv_0 365 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_AbsFaildRaw_Val 366
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_AbsFaildRaw_Val 366 R
+<R>C SerlComInpProxyPer1 IlGetRxABSFld 366
+<R>X SerlComInpProxyPer1 IlGetRxABSFld 366 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_TracCtrlSysActvRaw_Val 367
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_TracCtrlSysActvRaw_Val 367 R
+<R>C SerlComInpProxyPer1 IlGetRxTCSysAtv 367
+<R>X SerlComInpProxyPer1 IlGetRxTCSysAtv 367 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_TracCtrlSysEnaRaw_Val 368
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_TracCtrlSysEnaRaw_Val 368 R
+<R>C SerlComInpProxyPer1 IlGetRxTCSysEnbld 368
+<R>X SerlComInpProxyPer1 IlGetRxTCSysEnbld 368 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehDynCtrlSysStRaw_Val 369
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehDynCtrlSysStRaw_Val 369 R
+<R>C SerlComInpProxyPer1 IlGetRxVhDynCntlSysSt 369
+<R>X SerlComInpProxyPer1 IlGetRxVhDynCntlSysSt 369 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehDynYawRateRaw_Val 370
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehDynYawRateRaw_Val 370 R
+<R>C SerlComInpProxyPer1 IlGetRxVehDynYawRate 370
+<R>X SerlComInpProxyPer1 IlGetRxVehDynYawRate 370 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehDynYawRateVldRaw_Val 371
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehDynYawRateVldRaw_Val 371 R
+<R>C SerlComInpProxyPer1 IlGetRxVehDynYawRateV 371
+<R>X SerlComInpProxyPer1 IlGetRxVehDynYawRateV 371 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehStabyEnhmtActvRaw_Val 372
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehStabyEnhmtActvRaw_Val 372 R
+<R>C SerlComInpProxyPer1 IlGetRxVSEAct_0 372
+<R>X SerlComInpProxyPer1 IlGetRxVSEAct_0 372 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehStabyEnhmtLatARaw_Val 373
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehStabyEnhmtLatARaw_Val 373 R
+<R>C SerlComInpProxyPer1 IlGetRxVSELatAcc 373
+<R>X SerlComInpProxyPer1 IlGetRxVSELatAcc 373 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehStabyEnhmtLatAVldRaw_Val 374
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehStabyEnhmtLatAVldRaw_Val 374 R
+<R>C SerlComInpProxyPer1 IlGetRxVSELatAccV 374
+<R>X SerlComInpProxyPer1 IlGetRxVSELatAccV 374 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 375 52 N ON ui B X
+<R>X SerlComInpProxyPer1 PPEI_Chassis_General_Status_1_ind_b 375 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg1E9_Val 377
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg1E9_Val 377 R
+<R>C SerlComInpProxyPer1 CanWriteSyncPPEI_Chassis_General_Status_1_ind_b 378
+<R>X SerlComInpProxyPer1 CanWriteSyncPPEI_Chassis_General_Status_1_ind_b 378 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 378 65 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 382
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 382 R
+<R>C SerlComInpProxyPer1 IlGetRxBkupPwrModeMstrGroup 383
+<R>X SerlComInpProxyPer1 IlGetRxBkupPwrModeMstrGroup 383 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SysPwrModRaw_Val 384
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SysPwrModRaw_Val 384 R
+<R>C SerlComInpProxyPer1 IlGetRxSysPwrMd 384
+<R>X SerlComInpProxyPer1 IlGetRxSysPwrMd 384 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SysBackUpPwrModRaw_Val 385
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SysBackUpPwrModRaw_Val 385 R
+<R>C SerlComInpProxyPer1 IlGetRxSysBkUpPwrMd 385
+<R>X SerlComInpProxyPer1 IlGetRxSysBkUpPwrMd 385 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SysBackUpPwrModEnaRaw_Val 386
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SysBackUpPwrModEnaRaw_Val 386 R
+<R>C SerlComInpProxyPer1 IlGetRxSysBkupPwrMdEn 386
+<R>X SerlComInpProxyPer1 IlGetRxSysBkupPwrMdEn 386 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_BackUpPwrModMstVirtDevAuthyRaw_Val 387
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_BackUpPwrModMstVirtDevAuthyRaw_Val 387 R
+<R>C SerlComInpProxyPer1 IlGetRxBkupPwrModeMstrVDA 387
+<R>X SerlComInpProxyPer1 IlGetRxBkupPwrModeMstrVDA 387 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 388 51 N ON ui B X
+<R>X SerlComInpProxyPer1 PPEI_Platform_General_Status_ind_b 388 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg1F1_Val 390
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg1F1_Val 390 R
+<R>C SerlComInpProxyPer1 CanWriteSyncPPEI_Platform_General_Status_ind_b 391
+<R>X SerlComInpProxyPer1 CanWriteSyncPPEI_Platform_General_Status_ind_b 391 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 391 64 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 395
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 395 R
+<R>C SerlComInpProxyPer1 IlGetRxTrnsShftLvrPosGroup 396
+<R>X SerlComInpProxyPer1 IlGetRxTrnsShftLvrPosGroup 396 R
+<R>C SerlComInpProxyPer1 IlGetRxTransEstGearGroup 397
+<R>X SerlComInpProxyPer1 IlGetRxTransEstGearGroup 397 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_ShiftLvrPosnRaw_Val 398
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_ShiftLvrPosnRaw_Val 398 R
+<R>C SerlComInpProxyPer1 IlGetRxTrnsShftLvrPos 398
+<R>X SerlComInpProxyPer1 IlGetRxTrnsShftLvrPos 398 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_ShiftLvrPosnVldRaw_Val 399
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_ShiftLvrPosnVldRaw_Val 399 R
+<R>C SerlComInpProxyPer1 IlGetRxTrnsShftLvrPosV 399
+<R>X SerlComInpProxyPer1 IlGetRxTrnsShftLvrPosV 399 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 400 50 N ON ui B X
+<R>X SerlComInpProxyPer1 PPEI_Trans_General_Status_2_ind_b 400 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg1F5_Val 402
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg1F5_Val 402 R
+<R>C SerlComInpProxyPer1 CanWriteSyncPPEI_Trans_General_Status_2_ind_b 403
+<R>X SerlComInpProxyPer1 CanWriteSyncPPEI_Trans_General_Status_2_ind_b 403 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 403 63 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 407
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 407 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_AbsActvProtdProtnValRaw_Val 408
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_AbsActvProtdProtnValRaw_Val 408 R
+<R>C SerlComInpProxyPer1 IlGetRxABSActvProtPVal 408
+<R>X SerlComInpProxyPer1 IlGetRxABSActvProtPVal 408 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_AbsActvProtdRaw_Val 409
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_AbsActvProtdRaw_Val 409 R
+<R>C SerlComInpProxyPer1 IlGetRxABSActvProt 409
+<R>X SerlComInpProxyPer1 IlGetRxABSActvProt 409 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_AbsActvProtdRollgCntrRaw_Val 410
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_AbsActvProtdRollgCntrRaw_Val 410 R
+<R>C SerlComInpProxyPer1 IlGetRxABSActvProtARC 410
+<R>X SerlComInpProxyPer1 IlGetRxABSActvProtARC 410 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_RdntVehStabyEnhmtSysActvRaw_Val 411
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_RdntVehStabyEnhmtSysActvRaw_Val 411 R
+<R>C SerlComInpProxyPer1 IlGetRxRedntVSEAct 411
+<R>X SerlComInpProxyPer1 IlGetRxRedntVSEAct 411 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_RdntVehStabyEnhmtSysActvRollgCntrRaw_Val 412
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_RdntVehStabyEnhmtSysActvRollgCntrRaw_Val 412 R
+<R>C SerlComInpProxyPer1 IlGetRxRedntVSEActARC 412
+<R>X SerlComInpProxyPer1 IlGetRxRedntVSEActARC 412 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 413 51 N ON ui B X
+<R>X SerlComInpProxyPer1 Brake_Pedal_Driver_Status_HS_ind_b 413 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg214_Val 415
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg214_Val 415 R
+<R>C SerlComInpProxyPer1 CanWriteSyncBrake_Pedal_Driver_Status_HS_ind_b 416
+<R>X SerlComInpProxyPer1 CanWriteSyncBrake_Pedal_Driver_Status_HS_ind_b 416 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 416 64 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 420
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 420 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerSysPrfmncModReqRaw_Val 421
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerSysPrfmncModReqRaw_Val 421 R
+<R>C SerlComInpProxyPer1 IlGetRxStgSysPerfMdRq 421
+<R>X SerlComInpProxyPer1 IlGetRxStgSysPerfMdRq 421 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 422 46 N ON ui B X
+<R>X SerlComInpProxyPer1 Driving_Mode_Control_HS_ind_b 422 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg232_Val 424
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg232_Val 424 R
+<R>C SerlComInpProxyPer1 CanWriteSyncDriving_Mode_Control_HS_ind_b 425
+<R>X SerlComInpProxyPer1 CanWriteSyncDriving_Mode_Control_HS_ind_b 425 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 425 59 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 429
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 429 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftDrvnGroup_0 430
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftDrvnGroup_0 430 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtDrvnGroup_0 431
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtDrvnGroup_0 431 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeDrvnRawBusHiSpd_Val 432
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeDrvnRawBusHiSpd_Val 432 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftDrvn_0 432
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftDrvn_0 432 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeDrvnVldRawBusHiSpd_Val 433
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeDrvnVldRawBusHiSpd_Val 433 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftDrvnV_0 433
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftDrvnV_0 433 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiDrvnRawBusHiSpd_Val 434
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiDrvnRawBusHiSpd_Val 434 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtDrvn_0 434
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtDrvn_0 434 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiDrvnVldRawBusHiSpd_Val 435
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiDrvnVldRawBusHiSpd_Val 435 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtDrvnV_0 435
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtDrvnV_0 435 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 436 52 N ON ui B X
+<R>X SerlComInpProxyPer1 Driven_Wheel_Grnd_Velocity_HS_ind_b 436 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg348BusHiSpd_Val 438
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg348BusHiSpd_Val 438 R
+<R>C SerlComInpProxyPer1 CanWriteSyncDriven_Wheel_Grnd_Velocity_HS_ind_b 439
+<R>X SerlComInpProxyPer1 CanWriteSyncDriven_Wheel_Grnd_Velocity_HS_ind_b 439 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 439 65 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 443
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 443 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftNnDrvnGroup_0 444
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftNnDrvnGroup_0 444 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtNnDrvnGroup_0 445
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtNnDrvnGroup_0 445 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeNonDrvnRawBusHiSpd_Val 446
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeNonDrvnRawBusHiSpd_Val 446 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftNnDrvn_0 446
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftNnDrvn_0 446 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeNonDrvnVldRawBusHiSpd_Val 447
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeNonDrvnVldRawBusHiSpd_Val 447 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftNnDrvnV_0 447
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftNnDrvnV_0 447 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiNonDrvnRawBusHiSpd_Val 448
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiNonDrvnRawBusHiSpd_Val 448 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtNnDrvn_0 448
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtNnDrvn_0 448 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiNonDrvnVldRawBusHiSpd_Val 449
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiNonDrvnVldRawBusHiSpd_Val 449 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtNnDrvnV_0 449
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtNnDrvnV_0 449 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 450 55 N ON ui B X
+<R>X SerlComInpProxyPer1 NonDriven_Wheel_Grnd_Velocity_HS_ind_b 450 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg34ABusHiSpd_Val 452
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg34ABusHiSpd_Val 452 R
+<R>C SerlComInpProxyPer1 CanWriteSyncNonDriven_Wheel_Grnd_Velocity_HS_ind_b 453
+<R>X SerlComInpProxyPer1 CanWriteSyncNonDriven_Wheel_Grnd_Velocity_HS_ind_b 453 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 453 68 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 457
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 457 R
+<R>C SerlComInpProxyPer1 IlGetRxOtsAirTmpCrValGroup 458
+<R>X SerlComInpProxyPer1 IlGetRxOtsAirTmpCrValGroup 458 R
+<R>C SerlComInpProxyPer1 IlGetRxEngOffTmExtRngGroup 459
+<R>X SerlComInpProxyPer1 IlGetRxEngOffTmExtRngGroup 459 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_OutdAirTCorrdValRaw_Val 460
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_OutdAirTCorrdValRaw_Val 460 R
+<R>C SerlComInpProxyPer1 IlGetRxOtsAirTmpCrVal 460
+<R>X SerlComInpProxyPer1 IlGetRxOtsAirTmpCrVal 460 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_OutdAirTCorrdValMaskRaw_Val 461
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_OutdAirTCorrdValMaskRaw_Val 461 R
+<R>C SerlComInpProxyPer1 IlGetRxOtsAirTmpCrValMsk 461
+<R>X SerlComInpProxyPer1 IlGetRxOtsAirTmpCrValMsk 461 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_OutdAirTCorrdValVldRaw_Val 462
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_OutdAirTCorrdValVldRaw_Val 462 R
+<R>C SerlComInpProxyPer1 IlGetRxOtsAirTmpCrValV 462
+<R>X SerlComInpProxyPer1 IlGetRxOtsAirTmpCrValV 462 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 463 55 N ON ui B X
+<R>X SerlComInpProxyPer1 PPEI_Platform_Eng_Cntrl_Requests_ind_b 463 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg3F1_Val 465
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg3F1_Val 465 R
+<R>C SerlComInpProxyPer1 CanWriteSyncPPEI_Platform_Eng_Cntrl_Requests_ind_b 466
+<R>X SerlComInpProxyPer1 CanWriteSyncPPEI_Platform_Eng_Cntrl_Requests_ind_b 466 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 466 68 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 470
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 470 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlPlsPerRevRaw_Val 471
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlPlsPerRevRaw_Val 471 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlPlsPerRevNonDrvn_0 471
+<R>X SerlComInpProxyPer1 IlGetRxWhlPlsPerRevNonDrvn_0 471 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlRotlStsTiStampReslRaw_Val 472
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlRotlStsTiStampReslRaw_Val 472 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlRotStatTmstmpRes 472
+<R>X SerlComInpProxyPer1 IlGetRxWhlRotStatTmstmpRes 472 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 473 38 N ON ui B X
+<R>X SerlComInpProxyPer1 Wheel_Pulses_HS_ind_b 473 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg500BusHiSpd_Val 475
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg500BusHiSpd_Val 475 R
+<R>C SerlComInpProxyPer1 CanWriteSyncWheel_Pulses_HS_ind_b 476
+<R>X SerlComInpProxyPer1 CanWriteSyncWheel_Pulses_HS_ind_b 476 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 476 51 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 480
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 480 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_TqOvrlAlvRollgCntrRaw_Val 481
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_TqOvrlAlvRollgCntrRaw_Val 481 R
+<R>C SerlComInpProxyPer1 IlGetRxTrqOvrlARC 481
+<R>X SerlComInpProxyPer1 IlGetRxTrqOvrlARC 481 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_TqOvrlCmdChksRaw_Val 482
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_TqOvrlCmdChksRaw_Val 482 R
+<R>C SerlComInpProxyPer1 IlGetRxTrqOvrlCmdChksm 482
+<R>X SerlComInpProxyPer1 IlGetRxTrqOvrlCmdChksm 482 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_TqOvrlDeltaTqCmdActvRaw_Val 483
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_TqOvrlDeltaTqCmdActvRaw_Val 483 R
+<R>C SerlComInpProxyPer1 IlGetRxTqOvrDltTqCmdAct 483
+<R>X SerlComInpProxyPer1 IlGetRxTqOvrDltTqCmdAct 483 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_TqOvrlDeltaTqCmdValRaw_Val 484
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_TqOvrlDeltaTqCmdValRaw_Val 484 R
+<R>C SerlComInpProxyPer1 IlGetRxTqOvrDltTqCmdVl 484
+<R>X SerlComInpProxyPer1 IlGetRxTqOvrDltTqCmdVl 484 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 485 49 N ON ui B X
+<R>X SerlComInpProxyPer1 Steering_Torque_Command_CE_ind_b 485 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg180BusChassisExp_Val 487
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg180BusChassisExp_Val 487 R
+<R>C SerlComInpProxyPer1 CanWriteSyncSteering_Torque_Command_CE_ind_b 488
+<R>X SerlComInpProxyPer1 CanWriteSyncSteering_Torque_Command_CE_ind_b 488 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 488 62 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 492
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 492 R
+<R>C SerlComInpProxyPer1 IlGetRxVSELongAccLoResGroup 493
+<R>X SerlComInpProxyPer1 IlGetRxVSELongAccLoResGroup 493 R
+<R>C SerlComInpProxyPer1 IlGetRxVehDynOvrUndrStrGroup_1 494
+<R>X SerlComInpProxyPer1 IlGetRxVehDynOvrUndrStrGroup_1 494 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehDynOverUnderSteerVldRaw_Val 495
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehDynOverUnderSteerVldRaw_Val 495 R
+<R>C SerlComInpProxyPer1 IlGetRxVehDynOvrUndrStrV_0 495
+<R>X SerlComInpProxyPer1 IlGetRxVehDynOvrUndrStrV_0 495 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehStabyEnhmtLgtALoReslRaw_Val 496
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehStabyEnhmtLgtALoReslRaw_Val 496 R
+<R>C SerlComInpProxyPer1 IlGetRxVSELongAccLoRes 496
+<R>X SerlComInpProxyPer1 IlGetRxVSELongAccLoRes 496 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehStabyEnhmtLgtALoReslVldRaw_Val 497
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_VehStabyEnhmtLgtALoReslVldRaw_Val 497 R
+<R>C SerlComInpProxyPer1 IlGetRxVSELongAccLoResV 497
+<R>X SerlComInpProxyPer1 IlGetRxVSELongAccLoResV 497 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 498 50 N ON ui B X
+<R>X SerlComInpProxyPer1 Vehicle_Dynamics_ESC_Hyb_CE_ind_b 498 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg182_Val 500
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg182_Val 500 R
+<R>C SerlComInpProxyPer1 CanWriteSyncVehicle_Dynamics_ESC_Hyb_CE_ind_b 501
+<R>X SerlComInpProxyPer1 CanWriteSyncVehicle_Dynamics_ESC_Hyb_CE_ind_b 501 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 501 63 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 505
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 505 R
+<R>C SerlComInpProxyPer1 IlGetRxStrWhlAngReq 506
+<R>X SerlComInpProxyPer1 IlGetRxStrWhlAngReq 506 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlAgReqActvRaw_Val 507
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlAgReqActvRaw_Val 507 R
+<R>C SerlComInpProxyPer1 IlGetRxSWAR_ReqAct 507
+<R>X SerlComInpProxyPer1 IlGetRxSWAR_ReqAct 507 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlAgReqActvVldRaw_Val 508
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlAgReqActvVldRaw_Val 508 R
+<R>C SerlComInpProxyPer1 IlGetRxSWAR_ReqActV 508
+<R>X SerlComInpProxyPer1 IlGetRxSWAR_ReqActV 508 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlAgReqProtnValRaw_Val 509
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlAgReqProtnValRaw_Val 509 R
+<R>C SerlComInpProxyPer1 IlGetRxStrWhlAngReqPrtVal 509
+<R>X SerlComInpProxyPer1 IlGetRxStrWhlAngReqPrtVal 509 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlAgReqRollgCntrRaw_Val 510
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlAgReqRollgCntrRaw_Val 510 R
+<R>C SerlComInpProxyPer1 IlGetRxStrWhlAngReqARC 510
+<R>X SerlComInpProxyPer1 IlGetRxStrWhlAngReqARC 510 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlAgReqTarAgRaw_Val 511
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlAgReqTarAgRaw_Val 511 R
+<R>C SerlComInpProxyPer1 IlGetRxSWAR_TrgtAng 511
+<R>X SerlComInpProxyPer1 IlGetRxSWAR_TrgtAng 511 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlFbReqActvProtnValRaw_Val 512
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlFbReqActvProtnValRaw_Val 512 R
+<R>C SerlComInpProxyPer1 IlGetRxStrWhlTctlFdbkReqActProtVal 512
+<R>X SerlComInpProxyPer1 IlGetRxStrWhlTctlFdbkReqActProtVal 512 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlFbReqActvRaw_Val 513
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlFbReqActvRaw_Val 513 R
+<R>C SerlComInpProxyPer1 IlGetRxStrWhlTctlFdbkReqAct 513
+<R>X SerlComInpProxyPer1 IlGetRxStrWhlTctlFdbkReqAct 513 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlFbReqActvRollgCntrRaw_Val 514
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_SteerWhlFbReqActvRollgCntrRaw_Val 514 R
+<R>C SerlComInpProxyPer1 IlGetRxStrWhlTctlFdbkReqActRC 514
+<R>X SerlComInpProxyPer1 IlGetRxStrWhlTctlFdbkReqActRC 514 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 515 46 N ON ui B X
+<R>X SerlComInpProxyPer1 Park_Assist_Parallel_CE_ind_b 515 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg337BusChassisExp_Val 517
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg337BusChassisExp_Val 517 R
+<R>C SerlComInpProxyPer1 CanWriteSyncPark_Assist_Parallel_CE_ind_b 518
+<R>X SerlComInpProxyPer1 CanWriteSyncPark_Assist_Parallel_CE_ind_b 518 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 518 59 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 522
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 522 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftDrvnGroup_1 523
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftDrvnGroup_1 523 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtDrvnGroup_1 524
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtDrvnGroup_1 524 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeDrvnRawBusChassisExp_Val 525
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeDrvnRawBusChassisExp_Val 525 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftDrvn_1 525
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftDrvn_1 525 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeDrvnVldRawBusChassisExp_Val 526
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeDrvnVldRawBusChassisExp_Val 526 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftDrvnV_1 526
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftDrvnV_1 526 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiDrvnRawBusChassisExp_Val 527
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiDrvnRawBusChassisExp_Val 527 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtDrvn_1 527
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtDrvn_1 527 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiDrvnVldRawBusChassisExp_Val 528
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiDrvnVldRawBusChassisExp_Val 528 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtDrvnV_1 528
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtDrvnV_1 528 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 529 52 N ON ui B X
+<R>X SerlComInpProxyPer1 Driven_Wheel_Grnd_Velocity_CE_ind_b 529 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg348BusChassisExp_Val 531
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg348BusChassisExp_Val 531 R
+<R>C SerlComInpProxyPer1 CanWriteSyncDriven_Wheel_Grnd_Velocity_CE_ind_b 532
+<R>X SerlComInpProxyPer1 CanWriteSyncDriven_Wheel_Grnd_Velocity_CE_ind_b 532 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 532 65 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 536
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 536 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftNnDrvnGroup_1 537
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftNnDrvnGroup_1 537 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtNnDrvnGroup_1 538
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtNnDrvnGroup_1 538 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeNonDrvnRawBusChassisExp_Val 539
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeNonDrvnRawBusChassisExp_Val 539 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftNnDrvn_1 539
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftNnDrvn_1 539 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeNonDrvnVldRawBusChassisExp_Val 540
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelLeNonDrvnVldRawBusChassisExp_Val 540 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftNnDrvnV_1 540
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyLftNnDrvnV_1 540 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiNonDrvnRawBusChassisExp_Val 541
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiNonDrvnRawBusChassisExp_Val 541 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtNnDrvn_1 541
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtNnDrvn_1 541 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiNonDrvnVldRawBusChassisExp_Val 542
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_WhlGndVelRiNonDrvnVldRawBusChassisExp_Val 542 R
+<R>C SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtNnDrvnV_1 542
+<R>X SerlComInpProxyPer1 IlGetRxWhlGrndVlctyRtNnDrvnV_1 542 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 543 55 N ON ui B X
+<R>X SerlComInpProxyPer1 NonDriven_Wheel_Grnd_Velocity_CE_ind_b 543 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg34ABusChassisExp_Val 545
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg34ABusChassisExp_Val 545 R
+<R>C SerlComInpProxyPer1 CanWriteSyncNonDriven_Wheel_Grnd_Velocity_CE_ind_b 546
+<R>X SerlComInpProxyPer1 CanWriteSyncNonDriven_Wheel_Grnd_Velocity_CE_ind_b 546 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 546 68 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 550
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 550 R
+<R>C SerlComInpProxyPer1 IlGetRxEngOilTmpGroup 551
+<R>X SerlComInpProxyPer1 IlGetRxEngOilTmpGroup 551 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_EngOilTRaw_Val 552
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_EngOilTRaw_Val 552 R
+<R>C SerlComInpProxyPer1 IlGetRxEngOilTmp 552
+<R>X SerlComInpProxyPer1 IlGetRxEngOilTmp 552 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_EngOilVldRaw_Val 553
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_EngOilVldRaw_Val 553 R
+<R>C SerlComInpProxyPer1 IlGetRxEngOilTmpV 553
+<R>X SerlComInpProxyPer1 IlGetRxEngOilTmpV 553 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 554 51 N ON ui B X
+<R>X SerlComInpProxyPer1 PPEI_Engine_General_Status_5_ind_b 554 R
+<R>C SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg4D1_Val 556
+<R>X SerlComInpProxyPer1 Rte_Write_SerlComInpProxy_LstRxnTiMsg4D1_Val 556 R
+<R>C SerlComInpProxyPer1 CanWriteSyncPPEI_Engine_General_Status_5_ind_b 557
+<R>X SerlComInpProxyPer1 CanWriteSyncPPEI_Engine_General_Status_5_ind_b 557 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 557 64 N ON ui B X
+<R>C SerlComInpProxyPer1 CanRxFullCANObjTask 562
+<R>X SerlComInpProxyPer1 CanRxFullCANObjTask 562 R
+<R>C SerlComInpProxyPer1 Rte_Call_SerlComInpProxy_SetRxSigGroup_Oper 563
+<R>X SerlComInpProxyPer1 Rte_Call_SerlComInpProxy_SetRxSigGroup_Oper 563 R
+<R>X SerlComInpProxyPer1 SG1_Msg_EPS_B 563 R
+<LIT> 0 - P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 563 124 N ON ni B X
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 564 36 N ON ui B X
+<R>X SerlComInpProxyPer1 SG1_Msg_EPS_B_ind_b 564 R
+<R>C SerlComInpProxyPer1 CanWriteSyncSG1_Msg_EPS_B_ind_b 566
+<R>X SerlComInpProxyPer1 CanWriteSyncSG1_Msg_EPS_B_ind_b 566 R
+<LIT> 0 U P C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 566 49 N ON ui B X
+<CTLG> SerlComInpProxyPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 16
+<CTLG> 15 16
+<CTLG> 16 17
+<CTLG> 17 18
+<CTLG> 17 19
+<CTLG> 18 19
+<CTLG> 19 20
+<CTLG> 20 21
+<CTLG> 20 22
+<CTLG> 21 22
+<CTLG> 22 23
+<CTLG> 23 24
+<CTLG> 23 25
+<CTLG> 24 25
+<CTLG> 25 26
+<CTLG> 26 27
+<CTLG> 26 28
+<CTLG> 27 28
+<CTLG> 28 29
+<CTLG> 29 30
+<CTLG> 29 31
+<CTLG> 30 31
+<CTLG> 31 32
+<CTLG> 32 33
+<CTLG> 32 34
+<CTLG> 33 34
+<CTLG> 34 35
+<CTLG> 35 36
+<CTLG> 35 37
+<CTLG> 36 37
+<CTLG> 37 38
+<CTLG> 38 39
+<CTLG> 38 40
+<CTLG> 39 40
+<CTLG> 40 41
+<CTLG> 41 42
+<CTLG> 41 43
+<CTLG> 42 43
+<CTLG> 43 44
+<CTLG> 44 45
+<CTLG> 44 46
+<CTLG> 45 46
+<CTLG> 46 47
+<CTLG> 47 48
+<CTLG> 47 49
+<CTLG> 48 49
+<CTLG> 49 50
+<CTLG> 50 51
+<CTLG> 50 52
+<CTLG> 51 52
+<CTLG> 52 53
+<CTLG> 53 54
+<CTLG> 53 55
+<CTLG> 54 55
+<CTLG> 55 56
+<CTLG> 56 57
+<CTLG> 56 58
+<CTLG> 57 58
+<CTLG> 58 59
+<CTLG> 59 60
+<CTLG> 59 61
+<CTLG> 60 61
+<CTLG> 61 63
+<CTLGN> 295 319 319 319 331 331 331 340 340 340 353 353 353 375 375 375 388 388 388 400 400 400 413 413 413 422 422 422 436 436 436 450 450 450 463 463 463 473 473 473 485 485 485 498 498 498 515 515 515 529 529 529 543 543 543 554 554 554 564 564 564 583 583 
+<S>
+<S>STFIL  C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c
+<S>STNAM  SerlComInpProxyPer1
+<S>STCYC  21
+<S>STMCC  0 (21:21)
+<S>STMIF  1
+<S>STSUB  243
+<S>STAKI  264
+<S>STLIN  287
+<S>STXLN  184
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  1048576
+<S>STPDN  5698.78
+<S>STPBG  6
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  205
+<S>STST2  185
+<S>STST3  184
+<S>STPAR  0
+<S>STCAL  224
+<S>STFN1  1179
+<S>STFN2  378
+
+<DEFINE> SerlComInpProxy_STOP_SEC_CODE C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c 586 N DF OM - - - O
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/SerlComInpProxy_MemMap.h 587
+<R>I C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/tools/contract/SerlComInpProxy_MemMap.h C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<S>
+<S>STFIL  C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c
+<S>STNAM  SerlComInpProxyGmLanIdRd_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c
+<S>STNAM  SerlComInpProxyInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c
+<S>STNAM  SerlComInpProxyPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c
+<S>STNAM  C:/_synergy/Componentes/MM000B_SerlComInpProxy_Impl-CZ8L9T/MM000B_SerlComInpProxy_Impl/src/SerlComInpProxy.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  1
+<S>STECT  21
+<S>STFNC  3
+<S>STFCO  241
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  312
+<S>STOPT  23
+<S>STOPN  369
+<S>STTOT  1715
+<S>STZIP  2567
+<S>STHAL  3251
+<S>STSHN  12033
+<S>STDIF  5.67   
+<S>STEFF  83808
+<S>STVOL  14774
+<S>STDEV  13.97  
+<S>STBUG  2
+<S>STTPP  607
+<S>STTLN  242
+<S>STM20  426
+<S>STM21  1282
+<S>STM22  168
+<S>STM28  50
+<S>STM33  40
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  1.421  
+<S>STBMS  1.715  
+<S>STBME  1.978  
+<S>STTDO  2.857  
+<S>STTDS  3.020  
+<S>STTDE  3.110  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.278  
+

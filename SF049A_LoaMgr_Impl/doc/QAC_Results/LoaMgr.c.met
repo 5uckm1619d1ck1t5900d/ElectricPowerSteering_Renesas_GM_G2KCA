@@ -1,0 +1,1278 @@
+<RDEF> I Includes
+<R>I C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte_LoaMgr.h 75
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte_LoaMgr.h C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte_LoaMgr_Type.h 40
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte_LoaMgr_Type.h C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte_Type.h C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte.h 27
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte_LoaMgr.h C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte_LoaMgr.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 69
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte_LoaMgr.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 74
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte_LoaMgr.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 99
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte_LoaMgr.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 157
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte_LoaMgr.h C:/component/SF049A_LoaMgr_Impl/tools/contract/LoaMgr_MemMap.h 384
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/LoaMgr_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/Rte_LoaMgr.h C:/component/SF049A_LoaMgr_Impl/tools/contract/LoaMgr_MemMap.h 470
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/LoaMgr_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 81
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/TL103A_CplrSuprt/include/2013.5.5/ansi/math.h 24
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 25
+<DEFINE> CURRMEASLOAMTGTNMASK_CNT_U08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 86 N DF OM - - - O
+<LIT> 1 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 86 45 N DN - F M
+<DEFINE> IVTRLOAMTGTNMASK_CNT_U08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 87 N DF OM - - - O
+<LIT> 2 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 87 45 N DN - F M
+<DEFINE> LOAMAXSLEW_ULSPERSEC_F32 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 88 N DF OM - - - O
+<LIT> 500.0 F P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 88 45 N FN - F M
+<DEFINE> LOAMINSLEW_ULSPERSEC_F32 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 89 N DF OM - - - O
+<LIT> 0.01 F P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 89 45 N FN - F M
+<DEFINE> LOASCAONE_ULS_F32 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 90 N DF OM - - - O
+<LIT> 1.0 F P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 90 45 N FN - F M
+<DEFINE> LOASCAZERO_ULS_F32 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 91 N DF OM - - - O
+<LIT> 0.0 F P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 91 45 N FN - F M
+<DEFINE> LOASTIMDTSHTDWN_CNT_U08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 92 N DF OM - - - O
+<DEFINE> LOASTNORM_CNT_U08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 93 N DF OM - - - O
+<DEFINE> LOASTSWMTGTN_CNT_U08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 94 N DF OM - - - O
+<DEFINE> MAXCURRMEASIDPTSIGALLWD_CNT_U08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 95 N DF OM - - - O
+<LIT> 2 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 95 45 N DN - F M
+<DEFINE> MAXHWTQIDPTSIGALLWD_CNT_U08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 96 N DF OM - - - O
+<LIT> 4 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 96 45 N DN - F M
+<DEFINE> MAXIVTRIDPTSIGALLWD_CNT_U08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 97 N DF OM - - - O
+<LIT> 2 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 97 45 N DN - F M
+<DEFINE> MAXMOTAGMECLIDPTSIGALLWD_CNT_U08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 98 N DF OM - - - O
+<LIT> 3 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 98 45 N DN - F M
+<DEFINE> NODEBSTEP_CNT_U16 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 99 N DF OM - - - O
+<LIT> 65535 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 99 45 N DN - F M
+<DEFINE> HwTqIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 101 N DC OV P N uc R
+<DEFINE> TqLoaAvl_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 101 N DC OV P N uc R
+<DEFINE> ReqHwTqResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 101 N DC OF F I (uc,uc,uc) -
+<DEFINE> MotAgIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 103 N DC OV P N uc R
+<DEFINE> SmpAvl_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 103 N DC OV P N uc R
+<DEFINE> ReqMotAgResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 103 N DC OF F I (uc,uc,uc) -
+<DEFINE> CurrMeasIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 105 N DC OV P N uc R
+<DEFINE> ReqCurrMeasResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 105 N DC OF F I (uc,uc) -
+<DEFINE> IvtrIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 107 N DC OV P N uc R
+<DEFINE> ReqInvtrResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 107 N DC OF F I (uc,uc) -
+<DEFINE> Resp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 109 N DC OV P N uc R
+<DEFINE> PrevMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 109 N DC OV P N uc R
+<DEFINE> CntSwBasdMtgtnChk C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 109 N DC OF F I (uc,uc,uc) -
+<DEFINE> MultiMtgtnResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 111 N DC OV P N uc R
+<DEFINE> HwTqResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 112 N DC OV P N uc R
+<DEFINE> MotAgResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 113 N DC OV P N uc R
+<DEFINE> CurrMeasResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 114 N DC OV P N uc R
+<DEFINE> InvtrResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 115 N DC OV P N uc R
+<DEFINE> SelFinalResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 111 N DC OF F I (uc,uc,uc,uc,uc,uc) -
+<DEFINE> LoaSt_Cnt_T_enum C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 117 N DC OV P N uc R
+<DEFINE> HwTqIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 118 N DC OV P N uc R
+<DEFINE> MotAgIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 119 N DC OV P N uc R
+<DEFINE> CurrMeasIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 120 N DC OV P N uc R
+<DEFINE> IvtrIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 121 N DC OV P N uc R
+<DEFINE> SetFaults C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 117 N DC OF F I (.,uc,uc,uc,uc,uc) -
+<DEFINE> HwTqLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 123 N DC OV P N uc R
+<DEFINE> MotAgLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 124 N DC OV P N uc R
+<DEFINE> CurrMeasLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 125 N DC OV P N uc R
+<DEFINE> IvtrLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 126 N DC OV P N uc R
+<DEFINE> LoaSca_Uls_T_f32 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 127 N DC OV P N pfs R
+<DEFINE> LoaRateLim_UlsPerSec_T_f32 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 128 N DC OV P N pfs R
+<DEFINE> SwMtgtnEn C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 123 N DC OF F I (.,uc,uc,uc,uc,pfs,pfs) -
+<DEFINE> LoaMgr_START_SEC_CODE C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 736 N DF OM - - - O
+<R>I C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c C:/component/SF049A_LoaMgr_Impl/tools/contract/LoaMgr_MemMap.h 737
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/LoaMgr_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> LoaMgrInit1 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 765
+<DEFINE> LoaMgrInit1 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 765 N DR OF F X (.,.) -
+<DEFINE> LoaMgrInit1 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 765 N DF OF F X (.,.) -
+<RDEF> C Calls
+<R>C LoaMgrInit1 Rte_Call_LoaMgr_SetNtcSts_Oper 772
+<RDEF> X Refers-to
+<R>X LoaMgrInit1 Rte_Call_LoaMgr_SetNtcSts_Oper 772 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 772 48 N ON ui B X
+<R>C LoaMgrInit1 Rte_Call_LoaMgr_SetNtcSts_Oper 773
+<R>X LoaMgrInit1 Rte_Call_LoaMgr_SetNtcSts_Oper 773 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 773 48 N ON ui B X
+<R>C LoaMgrInit1 Rte_Call_LoaMgr_SetNtcSts_Oper 774
+<R>X LoaMgrInit1 Rte_Call_LoaMgr_SetNtcSts_Oper 774 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 774 48 N ON ui B X
+<R>C LoaMgrInit1 Rte_Call_LoaMgr_SetNtcSts_Oper 775
+<R>X LoaMgrInit1 Rte_Call_LoaMgr_SetNtcSts_Oper 775 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 775 48 N ON ui B X
+<R>C LoaMgrInit1 Rte_Call_LoaMgr_SetNtcSts_Oper 776
+<R>X LoaMgrInit1 Rte_Call_LoaMgr_SetNtcSts_Oper 776 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 776 48 N ON ui B X
+<R>C LoaMgrInit1 Rte_Call_LoaMgr_SetNtcSts_Oper 777
+<R>X LoaMgrInit1 Rte_Call_LoaMgr_SetNtcSts_Oper 777 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 777 48 N ON ui B X
+<R>X LoaMgrInit1 Rte_Inst_LoaMgr 780 R
+<R>X LoaMgrInit1 Rte_Inst_LoaMgr 781 R
+<R>X LoaMgrInit1 Rte_Inst_LoaMgr 782 R
+<R>X LoaMgrInit1 Rte_Inst_LoaMgr 783 R
+<R>C LoaMgrInit1 Rte_IrvWrite_LoaMgr_LoaMgrInit1_SnsrlsMotAgAvl 787
+<R>X LoaMgrInit1 Rte_IrvWrite_LoaMgr_LoaMgrInit1_SnsrlsMotAgAvl 787 R
+<CTLG> LoaMgrInit1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 766 792 792 792 
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  LoaMgrInit1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  7
+<S>STAKI  8
+<S>STLIN  25
+<S>STXLN  11
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.09   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  11
+<S>STST2  11
+<S>STST3  11
+<S>STPAR  0
+<S>STCAL  2
+<S>STFN1  79
+<S>STFN2  40
+
+<EXTD> LoaMgrPer1 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 844
+<DEFINE> LoaMgrPer1 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 844 N DR OF F X (.,.) -
+<DEFINE> LoaMgrPer1 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 844 N DF OF F X (.,.) -
+<DEFINE> CurrMeasIdptSig_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 851 N DC OV B N uc -
+<DEFINE> CurrMeasIdptSig_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 851 N DF OV B N uc -
+<DEFINE> DiagcStsIvtr1Inactv_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 852 N DC OV B N uc -
+<DEFINE> DiagcStsIvtr1Inactv_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 852 N DF OV B N uc -
+<DEFINE> DiagcStsIvtr2Inactv_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 853 N DC OV B N uc -
+<DEFINE> DiagcStsIvtr2Inactv_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 853 N DF OV B N uc -
+<DEFINE> HwTqIdptSig_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 854 N DC OV B N uc -
+<DEFINE> HwTqIdptSig_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 854 N DF OV B N uc -
+<DEFINE> MotAgMeclIdptSig_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 855 N DC OV B N uc -
+<DEFINE> MotAgMeclIdptSig_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 855 N DF OV B N uc -
+<DEFINE> TqLoaAvl_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 856 N DC OV B N uc -
+<DEFINE> TqLoaAvl_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 856 N DF OV B N uc -
+<DEFINE> CurrMeasLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 858 N DC OV B N uc -
+<DEFINE> CurrMeasLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 858 N DF OV B N uc -
+<DEFINE> HwTqLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 859 N DC OV B N uc -
+<DEFINE> HwTqLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 859 N DF OV B N uc -
+<DEFINE> IvtrLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 860 N DC OV B N uc -
+<DEFINE> IvtrLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 860 N DF OV B N uc -
+<DEFINE> LoaRateLim_UlsPerSec_T_f32 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 861 N DC OV B N fs -
+<DEFINE> LoaRateLim_UlsPerSec_T_f32 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 861 N DF OV B N fs -
+<DEFINE> LoaSca_Uls_T_f32 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 862 N DC OV B N fs -
+<DEFINE> LoaSca_Uls_T_f32 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 862 N DF OV B N fs -
+<DEFINE> LoaSt_Cnt_T_enum C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 863 N DC OV B N uc -
+<DEFINE> LoaSt_Cnt_T_enum C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 863 N DF OV B N uc -
+<DEFINE> MotAgLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 864 N DC OV B N uc -
+<DEFINE> MotAgLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 864 N DF OV B N uc -
+<DEFINE> SmpAvl_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 866 N DC OV B N uc -
+<DEFINE> SmpAvl_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 866 N DF OV B N uc -
+<R>C LoaMgrPer1 Rte_IrvRead_LoaMgr_LoaMgrPer1_SnsrlsMotAgAvl 866
+<R>X LoaMgrPer1 Rte_IrvRead_LoaMgr_LoaMgrPer1_SnsrlsMotAgAvl 866 R
+<DEFINE> IvtrIdptSig_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 868 N DC OV B N uc -
+<DEFINE> IvtrIdptSig_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 868 N DF OV B N uc -
+<DEFINE> HwTqIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 869 N DC OV B N uc -
+<DEFINE> HwTqIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 869 N DF OV B N uc -
+<DEFINE> MotAgIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 870 N DC OV B N uc -
+<DEFINE> MotAgIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 870 N DF OV B N uc -
+<DEFINE> CurrMeasIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 871 N DC OV B N uc -
+<DEFINE> CurrMeasIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 871 N DF OV B N uc -
+<DEFINE> IvtrIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 872 N DC OV B N uc -
+<DEFINE> IvtrIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 872 N DF OV B N uc -
+<DEFINE> HwTqResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 873 N DC OV B N uc -
+<DEFINE> HwTqResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 873 N DF OV B N uc -
+<DEFINE> MotAgResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 874 N DC OV B N uc -
+<DEFINE> MotAgResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 874 N DF OV B N uc -
+<DEFINE> CurrMeasResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 875 N DC OV B N uc -
+<DEFINE> CurrMeasResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 875 N DF OV B N uc -
+<DEFINE> InvtrResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 876 N DC OV B N uc -
+<DEFINE> InvtrResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 876 N DF OV B N uc -
+<DEFINE> Mtgtn_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 877 N DC OV B N uc -
+<DEFINE> Mtgtn_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 877 N DF OV B N uc -
+<DEFINE> MultiMtgtnResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 878 N DC OV B N uc -
+<DEFINE> MultiMtgtnResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 878 N DF OV B N uc -
+<R>C LoaMgrPer1 Rte_Read_LoaMgr_CurrMeasIdptSig_Val 880
+<R>X LoaMgrPer1 Rte_Read_LoaMgr_CurrMeasIdptSig_Val 880 R
+<R>C LoaMgrPer1 Rte_Read_LoaMgr_DiagcStsIvtr1Inactv_Logl 881
+<R>X LoaMgrPer1 Rte_Read_LoaMgr_DiagcStsIvtr1Inactv_Logl 881 R
+<R>C LoaMgrPer1 Rte_Read_LoaMgr_DiagcStsIvtr2Inactv_Logl 882
+<R>X LoaMgrPer1 Rte_Read_LoaMgr_DiagcStsIvtr2Inactv_Logl 882 R
+<R>C LoaMgrPer1 Rte_Read_LoaMgr_HwTqIdptSig_Val 883
+<R>X LoaMgrPer1 Rte_Read_LoaMgr_HwTqIdptSig_Val 883 R
+<R>C LoaMgrPer1 Rte_Read_LoaMgr_MotAgMeclIdptSig_Val 884
+<R>X LoaMgrPer1 Rte_Read_LoaMgr_MotAgMeclIdptSig_Val 884 R
+<R>C LoaMgrPer1 Rte_Read_LoaMgr_TqLoaAvl_Logl 885
+<R>X LoaMgrPer1 Rte_Read_LoaMgr_TqLoaAvl_Logl 885 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 889 73 N ON ui B X
+<LIT> 1 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 889 78 N DN ui B X
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 890 73 N ON ui B X
+<LIT> 1 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 890 78 N DN ui B X
+<R>C LoaMgrPer1 Min_u08 895
+<R>X LoaMgrPer1 Min_u08 895 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 895 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 894 94 N ON ui B X
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 896 R
+<R>C LoaMgrPer1 Min_u08 900
+<R>X LoaMgrPer1 Min_u08 900 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 900 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 899 105 N ON ui B X
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 901 R
+<R>C LoaMgrPer1 Min_u08 905
+<R>X LoaMgrPer1 Min_u08 905 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 905 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 904 106 N ON ui B X
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 906 R
+<R>C LoaMgrPer1 Min_u08 908
+<R>X LoaMgrPer1 Min_u08 908 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 908 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 909 R
+<R>C LoaMgrPer1 ReqHwTqResp 917
+<R>C LoaMgrPer1 Max_u08 918
+<R>X LoaMgrPer1 Max_u08 918 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 918 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 919 R
+<R>C LoaMgrPer1 ReqMotAgResp 925
+<R>C LoaMgrPer1 Max_u08 926
+<R>X LoaMgrPer1 Max_u08 926 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 926 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 927 R
+<R>C LoaMgrPer1 ReqCurrMeasResp 933
+<R>C LoaMgrPer1 Max_u08 934
+<R>X LoaMgrPer1 Max_u08 934 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 934 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 935 R
+<R>C LoaMgrPer1 ReqInvtrResp 941
+<R>C LoaMgrPer1 Max_u08 942
+<R>X LoaMgrPer1 Max_u08 942 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 942 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 943 R
+<R>C LoaMgrPer1 CntSwBasdMtgtnChk 953
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 953 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 954 R
+<R>C LoaMgrPer1 CntSwBasdMtgtnChk 960
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 960 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 961 R
+<R>C LoaMgrPer1 CntSwBasdMtgtnChk 969
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 969 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 970 R
+<R>C LoaMgrPer1 CntSwBasdMtgtnChk 976
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 976 R
+<R>X LoaMgrPer1 Rte_Inst_LoaMgr 977 R
+<LIT> 1 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 985 63 N DN ui B X
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 985 68 N ON ui B X
+<LIT> 1 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 986 64 N DN ui B X
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 986 69 N ON ui B X
+<LIT> 1 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 987 108 N DN ui B X
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 987 113 N ON ui B X
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 994 54 N ON ui B X
+<LIT> 1 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 994 81 N DN ui B X
+<R>C LoaMgrPer1 SelFinalResp 1002
+<R>C LoaMgrPer1 SetFaults 1012
+<R>C LoaMgrPer1 Rte_Prm_LoaMgr_LoaMgrLimdStSca_Val 1028
+<R>X LoaMgrPer1 Rte_Prm_LoaMgr_LoaMgrLimdStSca_Val 1028 R
+<R>C LoaMgrPer1 Rte_Prm_LoaMgr_LoaMgrLimdStRate_Val 1029
+<R>X LoaMgrPer1 Rte_Prm_LoaMgr_LoaMgrLimdStRate_Val 1029 R
+<R>C LoaMgrPer1 SwMtgtnEn 1041
+<R>C LoaMgrPer1 Rte_Prm_LoaMgr_LoaMgrFadeOutStRate_Val 1049
+<R>X LoaMgrPer1 Rte_Prm_LoaMgr_LoaMgrFadeOutStRate_Val 1049 R
+<R>C LoaMgrPer1 Lim_f32 1070
+<R>X LoaMgrPer1 Lim_f32 1070 R
+<R>C LoaMgrPer1 Lim_f32 1073
+<R>X LoaMgrPer1 Lim_f32 1073 R
+<R>C LoaMgrPer1 Rte_Write_LoaMgr_CurrMeasLoaMtgtnEna_Logl 1075
+<R>X LoaMgrPer1 Rte_Write_LoaMgr_CurrMeasLoaMtgtnEna_Logl 1075 R
+<R>C LoaMgrPer1 Rte_Write_LoaMgr_HwTqLoaMtgtnEna_Logl 1076
+<R>X LoaMgrPer1 Rte_Write_LoaMgr_HwTqLoaMtgtnEna_Logl 1076 R
+<R>C LoaMgrPer1 Rte_Write_LoaMgr_IvtrLoaMtgtnEna_Logl 1077
+<R>X LoaMgrPer1 Rte_Write_LoaMgr_IvtrLoaMtgtnEna_Logl 1077 R
+<R>C LoaMgrPer1 Rte_Write_LoaMgr_LoaRateLim_Val 1078
+<R>X LoaMgrPer1 Rte_Write_LoaMgr_LoaRateLim_Val 1078 R
+<R>C LoaMgrPer1 Rte_Write_LoaMgr_LoaSca_Val 1079
+<R>X LoaMgrPer1 Rte_Write_LoaMgr_LoaSca_Val 1079 R
+<R>C LoaMgrPer1 Rte_Write_LoaMgr_LoaSt_Val 1080
+<R>X LoaMgrPer1 Rte_Write_LoaMgr_LoaSt_Val 1080 R
+<R>C LoaMgrPer1 Rte_Write_LoaMgr_MotAgLoaMtgtnEna_Logl 1081
+<R>X LoaMgrPer1 Rte_Write_LoaMgr_MotAgLoaMtgtnEna_Logl 1081 R
+<CTLG> LoaMgrPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 17
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 16
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 15
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 14
+<CTLG> 10 11
+<CTLG> 10 12
+<CTLG> 11 13
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 15 16
+<CTLG> 16 17
+<CTLG> 17 18
+<CTLG> 18 20
+<CTLGN> 845 1018 1018 1018 1025 1025 1032 1032 1045 1045 1052 1052 1059 1052 1045 1032 1025 1086 1086 1086 
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  LoaMgrPer1
+<S>STCYC  6
+<S>STMCC  0 (6:6)
+<S>STMIF  5
+<S>STSUB  38
+<S>STAKI  44
+<S>STLIN  240
+<S>STXLN  85
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  25
+<S>STPTH  6
+<S>STPDN  0.07   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  13
+<S>STST1  95
+<S>STST2  89
+<S>STST3  64
+<S>STPAR  0
+<S>STCAL  28
+<S>STFN1  551
+<S>STFN2  313
+
+<DEFINE> LoaMgr_STOP_SEC_CODE C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1089 N DF OM - - - O
+<R>I C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c C:/component/SF049A_LoaMgr_Impl/tools/contract/LoaMgr_MemMap.h 1090
+<R>I C:/component/SF049A_LoaMgr_Impl/tools/contract/LoaMgr_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<DEFINE> HwTqIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1104 N DC OV B N uc R
+<DEFINE> TqLoaAvl_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1104 N DC OV B N uc R
+<DEFINE> ReqHwTqResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1104 N DR OF F I (uc,uc,uc) -
+<DEFINE> ReqHwTqResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1104 N DF OF F I (uc,uc,uc) -
+<DEFINE> HwTqResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1106 N DC OV B N uc -
+<DEFINE> HwTqResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1106 N DF OV B N uc -
+<LIT> 1 u P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1110 14 N DN ui B C
+<R>C ReqHwTqResp Rte_Prm_LoaMgr_LoaMgrHwTqLoaAvlResp_Val 1112
+<R>X ReqHwTqResp Rte_Prm_LoaMgr_LoaMgrHwTqLoaAvlResp_Val 1112 R
+<R>C ReqHwTqResp Rte_Prm_LoaMgr_LoaMgrHwTqIdptSig1NoTqLoaResp_Val 1112
+<R>X ReqHwTqResp Rte_Prm_LoaMgr_LoaMgrHwTqIdptSig1NoTqLoaResp_Val 1112 R
+<LIT> 2 u P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1115 14 N DN ui B C
+<R>C ReqHwTqResp Rte_Prm_LoaMgr_LoaMgrHwTqIdptSig2Resp_Val 1116
+<R>X ReqHwTqResp Rte_Prm_LoaMgr_LoaMgrHwTqIdptSig2Resp_Val 1116 R
+<LIT> 4 u P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1119 14 N DN ui B C
+<R>C ReqHwTqResp Rte_Prm_LoaMgr_LoaMgrHwTqIdptSig4Resp_Val 1120
+<R>X ReqHwTqResp Rte_Prm_LoaMgr_LoaMgrHwTqIdptSig4Resp_Val 1120 R
+<R>C ReqHwTqResp Rte_Prm_LoaMgr_LoaMgrHwTqLoaAvlResp_Val 1125
+<R>X ReqHwTqResp Rte_Prm_LoaMgr_LoaMgrHwTqLoaAvlResp_Val 1125 R
+<R>C ReqHwTqResp Rte_Prm_LoaMgr_LoaMgrHwTqIdptSig0NoTqLoaResp_Val 1125
+<R>X ReqHwTqResp Rte_Prm_LoaMgr_LoaMgrHwTqIdptSig0NoTqLoaResp_Val 1125 R
+<CTLG> ReqHwTqResp 1
+<CTLG> 1 2
+<CTLG> 1 4
+<CTLG> 1 6
+<CTLG> 1 8
+<CTLG> 2 3
+<CTLG> 3 11
+<CTLG> 4 5
+<CTLG> 5 11
+<CTLG> 6 7
+<CTLG> 7 11
+<CTLG> 8 9
+<CTLG> 9 11
+<CTLG> 11 13
+<CTLGN> 1105 1108 1113 1113 1117 1117 1121 1121 1126 1126 1108 1128 1128 
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  ReqHwTqResp
+<S>STCYC  4
+<S>STMCC  0 (4:4)
+<S>STMIF  1
+<S>STSUB  6
+<S>STAKI  10
+<S>STLIN  23
+<S>STXLN  16
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  4
+<S>STPDN  0.25   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  8
+<S>STAV3  9
+<S>STST1  16
+<S>STST2  11
+<S>STST3  10
+<S>STPAR  2
+<S>STCAL  5
+<S>STFN1  71
+<S>STFN2  23
+
+<DEFINE> MotAgIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1139 N DC OV B N uc R
+<DEFINE> SmpAvl_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1139 N DC OV B N uc R
+<DEFINE> ReqMotAgResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1139 N DR OF F I (uc,uc,uc) -
+<DEFINE> ReqMotAgResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1139 N DF OF F I (uc,uc,uc) -
+<DEFINE> MotAgResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1141 N DC OV B N uc -
+<DEFINE> MotAgResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1141 N DF OV B N uc -
+<LIT> 1 u P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1145 14 N DN ui B C
+<R>C ReqMotAgResp Rte_Prm_LoaMgr_LoaMgrMotAgAvlSnsrlsResp_Val 1147
+<R>X ReqMotAgResp Rte_Prm_LoaMgr_LoaMgrMotAgAvlSnsrlsResp_Val 1147 R
+<R>C ReqMotAgResp Rte_Prm_LoaMgr_LoaMgrMotAgIdptSig1NoSnsrlsResp_Val 1147
+<R>X ReqMotAgResp Rte_Prm_LoaMgr_LoaMgrMotAgIdptSig1NoSnsrlsResp_Val 1147 R
+<LIT> 2 u P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1150 14 N DN ui B C
+<R>C ReqMotAgResp Rte_Prm_LoaMgr_LoaMgrMotAgIdptSig2Resp_Val 1151
+<R>X ReqMotAgResp Rte_Prm_LoaMgr_LoaMgrMotAgIdptSig2Resp_Val 1151 R
+<LIT> 3 u P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1154 14 N DN ui B C
+<R>C ReqMotAgResp Rte_Prm_LoaMgr_LoaMgrMotAgIdptSig3Resp_Val 1155
+<R>X ReqMotAgResp Rte_Prm_LoaMgr_LoaMgrMotAgIdptSig3Resp_Val 1155 R
+<R>C ReqMotAgResp Rte_Prm_LoaMgr_LoaMgrMotAgAvlSnsrlsResp_Val 1160
+<R>X ReqMotAgResp Rte_Prm_LoaMgr_LoaMgrMotAgAvlSnsrlsResp_Val 1160 R
+<R>C ReqMotAgResp Rte_Prm_LoaMgr_LoaMgrMotAgIdptSig0NoSnsrlsResp_Val 1160
+<R>X ReqMotAgResp Rte_Prm_LoaMgr_LoaMgrMotAgIdptSig0NoSnsrlsResp_Val 1160 R
+<CTLG> ReqMotAgResp 1
+<CTLG> 1 2
+<CTLG> 1 4
+<CTLG> 1 6
+<CTLG> 1 8
+<CTLG> 2 3
+<CTLG> 3 11
+<CTLG> 4 5
+<CTLG> 5 11
+<CTLG> 6 7
+<CTLG> 7 11
+<CTLG> 8 9
+<CTLG> 9 11
+<CTLG> 11 13
+<CTLGN> 1140 1143 1148 1148 1152 1152 1156 1156 1161 1161 1143 1163 1163 
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  ReqMotAgResp
+<S>STCYC  4
+<S>STMCC  0 (4:4)
+<S>STMIF  1
+<S>STSUB  6
+<S>STAKI  10
+<S>STLIN  23
+<S>STXLN  16
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  4
+<S>STPDN  0.25   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  8
+<S>STAV3  9
+<S>STST1  16
+<S>STST2  11
+<S>STST3  10
+<S>STPAR  2
+<S>STCAL  5
+<S>STFN1  71
+<S>STFN2  23
+
+<DEFINE> CurrMeasIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1173 N DC OV B N uc R
+<DEFINE> ReqCurrMeasResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1173 N DR OF F I (uc,uc) -
+<DEFINE> ReqCurrMeasResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1173 N DF OF F I (uc,uc) -
+<DEFINE> CurrMeasResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1175 N DC OV B N uc -
+<DEFINE> CurrMeasResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1175 N DF OV B N uc -
+<LIT> 1 u P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1179 14 N DN ui B C
+<R>C ReqCurrMeasResp Rte_Prm_LoaMgr_LoaMgrCurrMeasIdptSig1Resp_Val 1180
+<R>X ReqCurrMeasResp Rte_Prm_LoaMgr_LoaMgrCurrMeasIdptSig1Resp_Val 1180 R
+<LIT> 2 u P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1183 14 N DN ui B C
+<R>C ReqCurrMeasResp Rte_Prm_LoaMgr_LoaMgrCurrMeasIdptSig2Resp_Val 1184
+<R>X ReqCurrMeasResp Rte_Prm_LoaMgr_LoaMgrCurrMeasIdptSig2Resp_Val 1184 R
+<R>C ReqCurrMeasResp Rte_Prm_LoaMgr_LoaMgrCurrMeasIdptSig0Resp_Val 1188
+<R>X ReqCurrMeasResp Rte_Prm_LoaMgr_LoaMgrCurrMeasIdptSig0Resp_Val 1188 R
+<CTLG> ReqCurrMeasResp 1
+<CTLG> 1 2
+<CTLG> 1 4
+<CTLG> 1 6
+<CTLG> 2 3
+<CTLG> 3 9
+<CTLG> 4 5
+<CTLG> 5 9
+<CTLG> 6 7
+<CTLG> 7 9
+<CTLG> 9 11
+<CTLGN> 1174 1177 1181 1181 1185 1185 1189 1189 1177 1191 1191 
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  ReqCurrMeasResp
+<S>STCYC  3
+<S>STMCC  0 (3:3)
+<S>STMIF  1
+<S>STSUB  3
+<S>STAKI  6
+<S>STLIN  17
+<S>STXLN  11
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  3
+<S>STPDN  0.27   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  3
+<S>STAV2  5
+<S>STAV3  6
+<S>STST1  13
+<S>STST2  9
+<S>STST3  8
+<S>STPAR  1
+<S>STCAL  3
+<S>STFN1  37
+<S>STFN2  14
+
+<DEFINE> IvtrIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1201 N DC OV B N uc R
+<DEFINE> ReqInvtrResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1201 N DR OF F I (uc,uc) -
+<DEFINE> ReqInvtrResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1201 N DF OF F I (uc,uc) -
+<DEFINE> InvtrResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1203 N DC OV B N uc -
+<DEFINE> InvtrResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1203 N DF OV B N uc -
+<LIT> 1 u P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1207 14 N DN ui B C
+<R>C ReqInvtrResp Rte_Prm_LoaMgr_LoaMgrIvtrIdptSig1Resp_Val 1208
+<R>X ReqInvtrResp Rte_Prm_LoaMgr_LoaMgrIvtrIdptSig1Resp_Val 1208 R
+<LIT> 2 u P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1211 14 N DN ui B C
+<R>C ReqInvtrResp Rte_Prm_LoaMgr_LoaMgrIvtrIdptSig2Resp_Val 1212
+<R>X ReqInvtrResp Rte_Prm_LoaMgr_LoaMgrIvtrIdptSig2Resp_Val 1212 R
+<R>C ReqInvtrResp Rte_Prm_LoaMgr_LoaMgrIvtrIdptSig0Resp_Val 1216
+<R>X ReqInvtrResp Rte_Prm_LoaMgr_LoaMgrIvtrIdptSig0Resp_Val 1216 R
+<CTLG> ReqInvtrResp 1
+<CTLG> 1 2
+<CTLG> 1 4
+<CTLG> 1 6
+<CTLG> 2 3
+<CTLG> 3 9
+<CTLG> 4 5
+<CTLG> 5 9
+<CTLG> 6 7
+<CTLG> 7 9
+<CTLG> 9 11
+<CTLGN> 1202 1205 1209 1209 1213 1213 1217 1217 1205 1219 1219 
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  ReqInvtrResp
+<S>STCYC  3
+<S>STMCC  0 (3:3)
+<S>STMIF  1
+<S>STSUB  3
+<S>STAKI  6
+<S>STLIN  17
+<S>STXLN  11
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  3
+<S>STPDN  0.27   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  3
+<S>STAV2  5
+<S>STAV3  6
+<S>STST1  13
+<S>STST2  9
+<S>STST3  8
+<S>STPAR  1
+<S>STCAL  3
+<S>STFN1  37
+<S>STFN2  14
+
+<DEFINE> Resp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1229 N DC OV B N uc R
+<DEFINE> PrevMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1229 N DC OV B N uc R
+<DEFINE> CntSwBasdMtgtnChk C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1229 N DR OF F I (uc,uc,uc) -
+<DEFINE> CntSwBasdMtgtnChk C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1229 N DF OF F I (uc,uc,uc) -
+<DEFINE> MtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1231 N DC OV B N uc -
+<DEFINE> MtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1231 N DF OV B N uc -
+<CTLG> CntSwBasdMtgtnChk 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 6
+<CTLGN> 1230 1234 1234 1238 1243 1243 
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  CntSwBasdMtgtnChk
+<S>STCYC  2
+<S>STMCC  1 (2:3)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  13
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  8
+<S>STAV3  10
+<S>STST1  7
+<S>STST2  5
+<S>STST3  4
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  27
+<S>STFN2  13
+
+<DEFINE> MultiMtgtnResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1253 N DC OV B N uc R
+<DEFINE> HwTqResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1254 N DC OV B N uc R
+<DEFINE> MotAgResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1255 N DC OV B N uc R
+<DEFINE> CurrMeasResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1256 N DC OV B N uc R
+<DEFINE> InvtrResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1257 N DC OV B N uc R
+<DEFINE> SelFinalResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1253 N DR OF F I (uc,uc,uc,uc,uc,uc) -
+<DEFINE> SelFinalResp C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1253 N DF OF F I (uc,uc,uc,uc,uc,uc) -
+<DEFINE> MaxMtgtnResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1259 N DC OV B N uc -
+<DEFINE> MaxMtgtnResp_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1259 N DF OV B N uc -
+<DEFINE> LoaSt_Cnt_T_enum C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1260 N DC OV B N uc -
+<DEFINE> LoaSt_Cnt_T_enum C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1260 N DF OV B N uc -
+<R>C SelFinalResp Max_u08 1265
+<R>X SelFinalResp Max_u08 1265 R
+<R>C SelFinalResp Max_u08 1265
+<R>X SelFinalResp Max_u08 1265 R
+<R>C SelFinalResp Max_u08 1265
+<R>X SelFinalResp Max_u08 1265 R
+<R>C SelFinalResp Max_u08 1265
+<R>X SelFinalResp Max_u08 1265 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1269 14 N ON ui B C
+<LIT> 1 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1273 14 N DN ui B C
+<LIT> 2 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1277 14 N DN ui B C
+<LIT> 3 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1281 14 N DN ui B C
+<LIT> 4 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1285 14 N DN ui B C
+<LIT> 5 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1289 14 N DN ui B C
+<CTLG> SelFinalResp 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 5
+<CTLG> 2 7
+<CTLG> 2 9
+<CTLG> 2 11
+<CTLG> 2 13
+<CTLG> 2 15
+<CTLG> 3 4
+<CTLG> 4 18
+<CTLG> 5 6
+<CTLG> 6 18
+<CTLG> 7 8
+<CTLG> 8 18
+<CTLG> 9 10
+<CTLG> 10 18
+<CTLG> 11 12
+<CTLG> 12 18
+<CTLG> 13 14
+<CTLG> 14 18
+<CTLG> 15 16
+<CTLG> 16 18
+<CTLG> 18 20
+<CTLGN> 1258 1267 1267 1271 1271 1275 1275 1279 1279 1283 1283 1287 1287 1291 1291 1295 1295 1267 1298 1298 
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  SelFinalResp
+<S>STCYC  7
+<S>STMCC  0 (7:7)
+<S>STMIF  1
+<S>STSUB  4
+<S>STAKI  11
+<S>STLIN  40
+<S>STXLN  27
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  7
+<S>STPDN  0.26   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  4
+<S>STAV2  5
+<S>STAV3  6
+<S>STST1  27
+<S>STST2  19
+<S>STST3  17
+<S>STPAR  5
+<S>STCAL  1
+<S>STFN1  73
+<S>STFN2  40
+
+<DEFINE> LoaSt_Cnt_T_enum C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1308 N DC OV B N uc R
+<DEFINE> HwTqIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1309 N DC OV B N uc R
+<DEFINE> MotAgIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1310 N DC OV B N uc R
+<DEFINE> CurrMeasIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1311 N DC OV B N uc R
+<DEFINE> IvtrIdptMin_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1312 N DC OV B N uc R
+<DEFINE> SetFaults C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1308 N DR OF F I (.,uc,uc,uc,uc,uc) -
+<DEFINE> SetFaults C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1308 N DF OF F I (.,uc,uc,uc,uc,uc) -
+<R>C SetFaults Rte_Call_LoaMgr_SetNtcSts_Oper 1316
+<R>X SetFaults Rte_Call_LoaMgr_SetNtcSts_Oper 1316 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1316 52 N ON ui B X
+<R>C SetFaults Rte_Call_LoaMgr_SetNtcSts_Oper 1320
+<R>X SetFaults Rte_Call_LoaMgr_SetNtcSts_Oper 1320 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1320 52 N ON ui B X
+<R>C SetFaults Rte_Prm_LoaMgr_LoaMgrHwTqIdptSigFltThd_Val 1326
+<R>X SetFaults Rte_Prm_LoaMgr_LoaMgrHwTqIdptSigFltThd_Val 1326 R
+<R>C SetFaults Rte_Call_LoaMgr_SetNtcSts_Oper 1328
+<R>X SetFaults Rte_Call_LoaMgr_SetNtcSts_Oper 1328 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1328 52 N ON ui B X
+<R>C SetFaults Rte_Prm_LoaMgr_LoaMgrMotAgIdptSigFltThd_Val 1331
+<R>X SetFaults Rte_Prm_LoaMgr_LoaMgrMotAgIdptSigFltThd_Val 1331 R
+<R>C SetFaults Rte_Call_LoaMgr_SetNtcSts_Oper 1333
+<R>X SetFaults Rte_Call_LoaMgr_SetNtcSts_Oper 1333 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1333 52 N ON ui B X
+<R>C SetFaults Rte_Prm_LoaMgr_LoaMgrCurrMeasIdptSigFltThd_Val 1336
+<R>X SetFaults Rte_Prm_LoaMgr_LoaMgrCurrMeasIdptSigFltThd_Val 1336 R
+<R>C SetFaults Rte_Call_LoaMgr_SetNtcSts_Oper 1338
+<R>X SetFaults Rte_Call_LoaMgr_SetNtcSts_Oper 1338 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1338 52 N ON ui B X
+<R>C SetFaults Rte_Prm_LoaMgr_LoaMgrIvtrIdptSigFltThd_Val 1341
+<R>X SetFaults Rte_Prm_LoaMgr_LoaMgrIvtrIdptSigFltThd_Val 1341 R
+<R>C SetFaults Rte_Call_LoaMgr_SetNtcSts_Oper 1343
+<R>X SetFaults Rte_Call_LoaMgr_SetNtcSts_Oper 1343 R
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1343 52 N ON ui B X
+<CTLG> SetFaults 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 7
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 13 15
+<CTLG> 14 15
+<CTLG> 15 17
+<CTLGN> 1313 1314 1314 1318 1318 1322 1318 1326 1326 1331 1331 1336 1336 1341 1341 1345 1345 
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  SetFaults
+<S>STCYC  7
+<S>STMCC  0 (7:7)
+<S>STMIF  2
+<S>STSUB  10
+<S>STAKI  17
+<S>STLIN  31
+<S>STXLN  13
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  48
+<S>STPDN  3.69   
+<S>STPBG  2
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  19
+<S>STST2  12
+<S>STST3  12
+<S>STPAR  5
+<S>STCAL  5
+<S>STFN1  104
+<S>STFN2  42
+
+<DEFINE> HwTqLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1355 N DC OV B N uc R
+<DEFINE> MotAgLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1356 N DC OV B N uc R
+<DEFINE> CurrMeasLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1357 N DC OV B N uc R
+<DEFINE> IvtrLoaMtgtnEna_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1358 N DC OV B N uc R
+<DEFINE> LoaSca_Uls_T_f32 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1359 N DC OV B N pfs R
+<DEFINE> LoaRateLim_UlsPerSec_T_f32 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1360 N DC OV B N pfs R
+<DEFINE> SwMtgtnEn C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1355 N DR OF F I (.,uc,uc,uc,uc,pfs,pfs) -
+<DEFINE> SwMtgtnEn C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1355 N DF OF F I (.,uc,uc,uc,uc,pfs,pfs) -
+<DEFINE> VltgModSrc_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1362 N DC OV B N uc -
+<DEFINE> VltgModSrc_Cnt_T_u08 C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1362 N DF OV B N uc -
+<DEFINE> NewValFlg_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1363 N DC OV B N uc -
+<DEFINE> NewValFlg_Cnt_T_lgc C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1363 N DF OV B N uc -
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1366 103 N ON ui B X
+<LIT> 0 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1367 95 N ON ui B X
+<R>C SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrMotAgMtgtnScaZeroEna_Logl 1385
+<R>X SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrMotAgMtgtnScaZeroEna_Logl 1385 R
+<R>X SwMtgtnEn Rte_Inst_LoaMgr 1385 R
+<R>C SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrMotAgMtgtnSca_Val 1392
+<R>X SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrMotAgMtgtnSca_Val 1392 R
+<R>C SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrMotAgMtgtnRate_Val 1393
+<R>X SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrMotAgMtgtnRate_Val 1393 R
+<R>X SwMtgtnEn Rte_Inst_LoaMgr 1404 R
+<LIT> 1 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1408 18 N DN ui B C
+<R>C SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrCurrMeasMtgtnScaZeroEna_Logl 1410
+<R>X SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrCurrMeasMtgtnScaZeroEna_Logl 1410 R
+<R>C SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrCurrMeasMtgtnSca_Val 1418
+<R>X SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrCurrMeasMtgtnSca_Val 1418 R
+<R>C SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrCurrMeasMtgtnRate_Val 1419
+<R>X SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrCurrMeasMtgtnRate_Val 1419 R
+<LIT> 2 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1424 18 N DN ui B C
+<R>C SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrIvtrMtgtnScaZeroEna_Logl 1426
+<R>X SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrIvtrMtgtnScaZeroEna_Logl 1426 R
+<R>C SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrIvtrMtgtnSca_Val 1434
+<R>X SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrIvtrMtgtnSca_Val 1434 R
+<R>C SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrIvtrMtgtnRate_Val 1435
+<R>X SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrIvtrMtgtnRate_Val 1435 R
+<LIT> 3 U P C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c 1440 18 N DN ui B C
+<R>C SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrCurrIvtrMtgtnScaZeroEna_Logl 1442
+<R>X SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrCurrIvtrMtgtnScaZeroEna_Logl 1442 R
+<R>C SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrCurrIvtrMtgtnSca_Val 1450
+<R>X SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrCurrIvtrMtgtnSca_Val 1450 R
+<R>C SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrCurrIvtrMtgtnRate_Val 1451
+<R>X SwMtgtnEn Rte_Prm_LoaMgr_LoaMgrCurrIvtrMtgtnRate_Val 1451 R
+<R>X SwMtgtnEn Rte_Inst_LoaMgr 1465 R
+<R>X SwMtgtnEn Rte_Inst_LoaMgr 1466 R
+<CTLG> SwMtgtnEn 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 28
+<CTLG> 4 5
+<CTLG> 4 9
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 8
+<CTLG> 7 8
+<CTLG> 8 27
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 10 15
+<CTLG> 10 19
+<CTLG> 10 23
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 26
+<CTLG> 15 16
+<CTLG> 15 17
+<CTLG> 16 18
+<CTLG> 17 18
+<CTLG> 18 26
+<CTLG> 19 20
+<CTLG> 19 21
+<CTLG> 20 22
+<CTLG> 21 22
+<CTLG> 22 26
+<CTLG> 23 24
+<CTLG> 24 26
+<CTLG> 26 27
+<CTLG> 27 28
+<CTLG> 28 29
+<CTLG> 29 31
+<CTLGN> 1361 1369 1369 1369 1378 1385 1385 1390 1378 1406 1406 1410 1410 1415 1422 1426 1426 1431 1438 1442 1442 1447 1454 1459 1459 1406 1399 1378 1467 1467 1467 
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  SwMtgtnEn
+<S>STCYC  10
+<S>STMCC  4 (10:14)
+<S>STMIF  4
+<S>STSUB  12
+<S>STAKI  22
+<S>STLIN  105
+<S>STXLN  45
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  10
+<S>STPDN  0.22   
+<S>STPBG  1
+<S>STLOP  4
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  8
+<S>STAV3  9
+<S>STST1  53
+<S>STST2  37
+<S>STST3  35
+<S>STPAR  6
+<S>STCAL  12
+<S>STFN1  233
+<S>STFN2  90
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  CntSwBasdMtgtnChk
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  LoaMgrInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  ReqHwTqResp
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  ReqMotAgResp
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  ReqCurrMeasResp
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  ReqInvtrResp
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  SelFinalResp
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  SetFaults
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  SwMtgtnEn
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  LoaMgrPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNAM  C:/component/SF049A_LoaMgr_Impl/src/LoaMgr.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  8
+<S>STECT  1
+<S>STFNC  10
+<S>STFCO  87
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  151
+<S>STOPT  31
+<S>STOPN  210
+<S>STTOT  2336
+<S>STZIP  1461
+<S>STHAL  1774
+<S>STSHN  6418
+<S>STDIF  16.65  
+<S>STEFF  307712
+<S>STVOL  18485
+<S>STDEV  51.29  
+<S>STBUG  5
+<S>STTPP  1480
+<S>STTLN  402
+<S>STM20  816
+<S>STM21  1516
+<S>STM22  197
+<S>STM28  153
+<S>STM33  133
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  3.622  
+<S>STBMS  4.654  
+<S>STBME  5.763  
+<S>STTDO  4.077  
+<S>STTDS  4.282  
+<S>STTDE  4.379  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.917  
+

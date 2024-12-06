@@ -1,0 +1,389 @@
+<RDEF> I Includes
+<R>I C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h 22
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp_Type.h 40
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp_Type.h C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_Type.h C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte.h 27
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 59
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 64
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 80
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 95
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/ES247A_MotAgCmp_Impl/tools/contract/CDD_MotAgCmp_MemMap.h 176
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/CDD_MotAgCmp_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/ES247A_MotAgCmp_Impl/tools/contract/CDD_MotAgCmp_MemMap.h 266
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/CDD_MotAgCmp_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp.h 23
+<DEFINE> MOTAGCMP_H C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp.h 21 I DF OM - - - O
+<R>I C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<EXTN> MotAgCmpPer1 C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp.h 30
+<DEFINE> MotAgCmpPer1 C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp.h 30 I DC OF F X (.,.) -
+<R>I C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c C:/Component/ES247A_MotAgCmp_Impl/tools/contract/CDD_MotCtrlMgr_Data.h 24
+<R>I C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h 25
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/TL103A_CplrSuprt/include/2015.1.5/ansi/math.h 25
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 26
+<DEFINE> MOTAGMAXDELTA_MOTREV_U0P16 C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 29 N DF OM - - - O
+<LIT> 32768 UL P C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 29 57 N DN - F M
+<DEFINE> MOTAGCUMVALGNDMRFREVMASK_CNT_U32 C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 30 N DF OM - - - O
+<LIT> 0x3FFFFFFF UL P C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 30 57 N HN - F M
+<DEFINE> MotAgCmp_MotCtrl_START_SEC_CODE C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 32 N DF OM - - - O
+<R>I C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp_MotCtrl_MemMap.h 33
+<DEFINE> MotCtrl_START_SEC_CODE C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp_MotCtrl_MemMap.h 26 I DF OM - - - O
+<R>I C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp_MotCtrl_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 27
+<EXTD> MotAgCmpPer1 C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 42
+<DEFINE> MotAgCmpPer1 C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 42 N DR OF F X (.,.) -
+<DEFINE> MotAgCmpPer1 C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 42 N DF OF F X (.,.) -
+<DEFINE> Delta1_MotRev_T_s15p16 C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 44 N DC OV B N nl -
+<DEFINE> Delta1_MotRev_T_s15p16 C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 44 N DF OV B N nl -
+<DEFINE> Delta2_MotRev_T_s15p16 C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 45 N DC OV B N nl -
+<DEFINE> Delta2_MotRev_T_s15p16 C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 45 N DF OV B N nl -
+<RDEF> X Refers-to
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 50 R
+<RDEF> C Calls
+<R>C MotAgCmpPer1 Rte_Prm_CDD_MotAgCmp_SysGlbPrmMotPoleCnt_Val 50
+<R>X MotAgCmpPer1 Rte_Prm_CDD_MotAgCmp_SysGlbPrmMotPoleCnt_Val 50 R
+<R>X MotAgCmpPer1 MOTCTRLMGR_MotCtrlMotAgMecl 50 R
+<R>X MotAgCmpPer1 MOTCTRLMGR_MotCtrlMotAgElec 50 W
+<LIT> 1 U P C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 49 100 N DN ui B X
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 57 R
+<R>X MotAgCmpPer1 MOTCTRLMGR_MotCtrlMotAgMecl 57 R
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 58 R
+<R>X MotAgCmpPer1 MOTCTRLMGR_MotCtrlMotAgMecl 60 R
+<LIT> 2 - P C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 64 60 N DN ni B X
+<LIT> 1 - N C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 66 41 N DN ni B X
+<LIT> 2 - P C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 68 60 N DN ni B X
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 71 R
+<R>C MotAgCmpPer1 Sign_s08_s32 74
+<R>X MotAgCmpPer1 Sign_s08_s32 74 R
+<R>C MotAgCmpPer1 Abslt_u32_s32 74
+<R>X MotAgCmpPer1 Abslt_u32_s32 74 R
+<R>X MotAgCmpPer1 MOTCTRLMGR_MotCtrlMotAgCumvAlgndMrfRev 74 W
+<R>X MotAgCmpPer1 MOTCTRLMGR_MotCtrlMotAgCumvAlgndMrfRev 78 R
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 78 R
+<R>X MotAgCmpPer1 MOTCTRLMGR_MotCtrlMotAgMecl 80 R
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 80 R
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 81 R
+<CTLG> MotAgCmpPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 11
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 10
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 12 14
+<CTLGN> 43 58 58 58 62 62 66 66 70 66 62 83 83 83 
+<S>
+<S>STFIL  C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c
+<S>STNAM  MotAgCmpPer1
+<S>STCYC  4
+<S>STMCC  0 (4:4)
+<S>STMIF  3
+<S>STSUB  3
+<S>STAKI  7
+<S>STLIN  39
+<S>STXLN  16
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  4
+<S>STPDN  0.25   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  13
+<S>STAV3  15
+<S>STST1  19
+<S>STST2  15
+<S>STST3  13
+<S>STPAR  0
+<S>STCAL  3
+<S>STFN1  135
+<S>STFN2  61
+
+<DEFINE> MotAgCmp_MotCtrl_STOP_SEC_CODE C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c 85 N DF OM - - - O
+<R>I C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp_MotCtrl_MemMap.h 86
+<DEFINE> MotCtrl_STOP_SEC_CODE C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp_MotCtrl_MemMap.h 32 I DF OM - - - O
+<R>I C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp_MotCtrl_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 33
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c
+<S>STNAM  MotAgCmpPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c
+<S>STNAM  C:/Component/ES247A_MotAgCmp_Impl/src/CDD_MotAgCmp_MotCtrl.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  4
+<S>STFNC  1
+<S>STFCO  10
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  24
+<S>STOPT  21
+<S>STOPN  30
+<S>STTOT  271
+<S>STZIP  230
+<S>STHAL  239
+<S>STSHN  798
+<S>STDIF  12.58  
+<S>STEFF  19336
+<S>STVOL  1537
+<S>STDEV  3.22   
+<S>STBUG  1
+<S>STTPP  87
+<S>STTLN  27
+<S>STM20  68
+<S>STM21  197
+<S>STM22  12
+<S>STM28  25
+<S>STM33  23
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.185  
+<S>STBMS  0.195  
+<S>STBME  0.192  
+<S>STTDO  1.316  
+<S>STTDS  1.410  
+<S>STTDE  1.475  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.097  
+

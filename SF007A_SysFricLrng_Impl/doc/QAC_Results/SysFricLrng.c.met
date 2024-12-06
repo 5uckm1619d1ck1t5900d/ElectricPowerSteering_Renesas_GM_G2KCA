@@ -1,0 +1,2414 @@
+<RDEF> I Includes
+<R>I C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_SysFricLrng.h 94
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_SysFricLrng.h C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_SysFricLrng_Type.h 40
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_SysFricLrng_Type.h C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_Type.h C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte.h 27
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte.h C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_UserTypes.h 41
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_UserTypes.h C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h 39
+<R>I C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/Component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 24
+<R>I C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h 25
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/TL103A_CplrSuprt/include/2015.1.5/ansi/math.h 26
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_SysFricLrng.h C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_SysFricLrng.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 86
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_SysFricLrng.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 91
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_SysFricLrng.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 118
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_SysFricLrng.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 218
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_SysFricLrng.h C:/Component/SF007A_SysFricLrng_Impl/tools/contract/SysFricLrng_MemMap.h 523
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/SysFricLrng_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/Rte_SysFricLrng.h C:/Component/SF007A_SysFricLrng_Impl/tools/contract/SysFricLrng_MemMap.h 748
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/SysFricLrng_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h 100
+<R>I C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h 101
+<R>I C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<R>I C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c C:/Component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 102
+<R>I C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h 103
+<R>I C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c C:/Component/AR101A_NxtrIntrpn_Impl/include/NxtrIntrpn.h 104
+<R>I C:/Component/AR101A_NxtrIntrpn_Impl/include/NxtrIntrpn.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<DEFINE> CONV100MICROSECTOSEC_ULS_F32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 118 N DF OM - - - O
+<LIT> 0.0001 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 118 41 N FN - F M
+<DEFINE> FLTINJ_SYSFRICLRNG_SYSFRICOFFS C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 119 N DF OM - - - O
+<LIT> 4 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 119 41 N DN - F M
+<DEFINE> HWPTNUMSUB1_CNT_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 120 N DF OM - - - O
+<LIT> 3 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 120 57 N DN - F M
+<DEFINE> HWPTNUM_CNT_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 121 N DF OM - - - O
+<LIT> 4 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 121 57 N DN - F M
+<DEFINE> HWVELDECDIR_ULS_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 122 N DF OM - - - O
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 122 57 N DN - F M
+<DEFINE> HWVELINCDIR_ULS_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 123 N DF OM - - - O
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 123 57 N ON - F M
+<DEFINE> IDXCALCNSCAGFAC_ULS_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 124 N DF OM - - - O
+<LIT> 2 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 124 49 N DN - F M
+<DEFINE> IDXSELN1_ULS_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 125 N DF OM - - - O
+<LIT> 12 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 125 57 N DN - F M
+<DEFINE> IDXSELN2_ULS_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 126 N DF OM - - - O
+<LIT> 13 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 126 57 N DN - F M
+<DEFINE> IDXSELN3_ULS_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 127 N DF OM - - - O
+<LIT> 6 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 127 57 N DN - F M
+<DEFINE> LRNGENASCAFAC_MILLISEC_U32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 128 N DF OM - - - O
+<LIT> 120 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 128 49 N DN - F M
+<DEFINE> SCAGFACQUARTER_CNT_F32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 129 N DF OM - - - O
+<LIT> 0.25 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 129 49 N FN - F M
+<DEFINE> SCAGFACTEN_CNT_U16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 130 N DF OM - - - O
+<LIT> 10 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 130 57 N DN - F M
+<DEFINE> SCAGFACVEHLATA_MTRPERSECSQD_F32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 131 N DF OM - - - O
+<LIT> 9.81 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 131 41 N FN - F M
+<DEFINE> SECIDXSELN_ULS_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 132 N DF OM - - - O
+<LIT> 2 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 132 57 N DN - F M
+<DEFINE> VEHLRNDFRICHILIM_ULS_F32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 133 N DF OM - - - O
+<LIT> 127.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 133 49 N FN - F M
+<DEFINE> VEHLRNDFRICLOLIM_ULS_F32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 134 N DF OM - - - O
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 134 49 N FN - F M
+<DEFINE> VEHSPDPTNUM1_ULS_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 135 N DF OM - - - O
+<LIT> 4 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 135 49 N DN - F M
+<DEFINE> VEHSPDPTNUM2_ULS_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 136 N DF OM - - - O
+<LIT> 8 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 136 49 N DN - F M
+<DEFINE> INDEX0_CNT_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 138 N DF OM - - - O
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 138 24 N ON - F M
+<DEFINE> INDEX1_CNT_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 139 N DF OM - - - O
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 139 24 N DN - F M
+<DEFINE> INDEX2_CNT_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 140 N DF OM - - - O
+<LIT> 2 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 140 24 N DN - F M
+<DEFINE> INDEX3_CNT_U08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 141 N DF OM - - - O
+<LIT> 3 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 141 24 N DN - F M
+<DEFINE> SYSSATNFRICESTIMDLOLIM_HWNWTMTR_F32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 144 N DF OM - - - O
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 144 50 N FN - F M
+<DEFINE> SYSSATNFRICESTIMDHILIM_HWNWTMTR_F32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 145 N DF OM - - - O
+<LIT> 20.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 145 50 N FN - F M
+<DEFINE> SYSFRICOFFSLIM_HWNWTMTR_F32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 146 N DF OM - - - O
+<LIT> 5.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 146 58 N FN - F M
+<DEFINE> SYSFRICESTIMDHILIM_HWNWTMTR_F32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 147 N DF OM - - - O
+<LIT> 20.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 147 58 N FN - F M
+<DEFINE> SYSFRICESTIMDLOLIM_HWNWTMTR_F32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 148 N DF OM - - - O
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 148 58 N FN - F M
+<DEFINE> MAXLRNDFRICLOLIM_HWNWTMTR_F32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 149 N DF OM - - - O
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 149 58 N FN - F M
+<DEFINE> MAXLRNDFRICHILIM_HWNWTMTR_F32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 150 N DF OM - - - O
+<LIT> 254.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 150 58 N FN - F M
+<DEFINE> PrmSysFricLrngBasLineHys C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 152 N DF OM - - - O
+<DEFINE> PrmSysFricLrngBasLineRngCntr C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 153 N DF OM - - - O
+<DEFINE> PrmSysFricLrngIvsTrsmRatX C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 154 N DF OM - - - O
+<DEFINE> PrmSysFricLrngVehSpd C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 155 N DF OM - - - O
+<DEFINE> FricOffs_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 158 N DC OV P N pfs R
+<DEFINE> LrngEna_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 159 N DC OV P N puc R
+<DEFINE> RunningAndCalibrationModes C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 158 N DC OF F I (.,pfs,puc) -
+<DEFINE> SelHwAg_HwDeg_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 161 N DC OV P N fs R
+<DEFINE> SelColTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 162 N DC OV P N fs R
+<DEFINE> VehSpdIdx_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 163 N DC OV P N uc R
+<DEFINE> HwVelDir_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 164 N DC OV P N uc R
+<DEFINE> LrngEna_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 165 N DC OV P N uc R
+<DEFINE> FricLearning C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 161 N DC OF F I (.,fs,fs,uc,uc,uc) -
+<DEFINE> VehSpdIdx_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 167 N DC OV P N uc R
+<DEFINE> DeltaIdxOffsDec_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 168 N DC OV P N us R
+<DEFINE> DeltaIdxOffsInc_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 169 N DC OV P N us R
+<DEFINE> TotalCounter_Cnt_T_u32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 170 N DC OV P N ul R
+<DEFINE> LrngEna_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 171 N DC OV P N uc R
+<DEFINE> RawAvrgCalc C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 167 N DC OF F I (.,uc,us,us,ul,uc) -
+<DEFINE> SelHwAg_HwDeg_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 173 N DC OV P N fs R
+<DEFINE> Gate_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 173 N DC OV P N us R
+<DEFINE> DeltaIdxOffs_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 173 N DC OV P N us R
+<DEFINE> SelColTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 174 N DC OV P N fs R
+<DEFINE> PhiCalc C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 173 N DC OF F I (.,fs,us,us,fs) -
+<DEFINE> DeltaIdxOffs_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 176 N DC OV P N us R
+<DEFINE> DeltaIdxOffsDec_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 176 N DC OV P N us R
+<DEFINE> DeltaIdxOffsInc_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 176 N DC OV P N us R
+<DEFINE> Gate_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 177 N DC OV P N us R
+<DEFINE> RangeCounterManager C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 176 N DC OF F I (.,us,us,us,us) -
+<DEFINE> MaxRawAvrgFric_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 179 N DC OV P N fs R
+<DEFINE> NTCSetReset C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 179 N DC OF F I (.,fs) -
+<DEFINE> ClearingMode C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 181 N DC OF F I (.,.) -
+<DEFINE> FricOffs_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 183 N DC OV P N pfs R
+<DEFINE> ResettingMode C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 183 N DC OF F I (.,pfs) -
+<DEFINE> FilHwAg_HwDeg_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 185 N DC OV P N fs R
+<DEFINE> HwAgOK_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 185 N DC OV P N puc R
+<DEFINE> SelHwAg_HwDeg_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 186 N DC OV P N pfs R
+<DEFINE> HwAngConstraint C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 185 N DC OF F I (.,fs,puc,pfs) -
+<DEFINE> FilHwVel_HwRadPerSec_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 188 N DC OV P N fs R
+<DEFINE> HwVelOK_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 188 N DC OV P N puc R
+<DEFINE> HwVelDir_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 189 N DC OV P N puc R
+<DEFINE> HwVelConstraint C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 188 N DC OF F I (.,fs,puc,puc) -
+<DEFINE> FilVehSpd_Kph_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 191 N DC OV P N fs R
+<DEFINE> VehSpdOK_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 191 N DC OV P N puc R
+<DEFINE> VehSpdIdx_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 192 N DC OV P N puc R
+<DEFINE> VehSpdConstraint C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 191 N DC OF F I (.,fs,puc,puc) -
+<DEFINE> FilColTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 194 N DC OV P N fs R
+<DEFINE> SelColTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 194 N DC OV P N pfs R
+<DEFINE> ColTqconstraint C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 194 N DC OF F I (.,fs,pfs) -
+<DEFINE> SysFricLrng_START_SEC_CODE C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 855 N DF OM - - - O
+<R>I C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c C:/Component/SF007A_SysFricLrng_Impl/tools/contract/SysFricLrng_MemMap.h 856
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/SysFricLrng_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> ClrFricLrngOperMod_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 875
+<DEFINE> ClrFricLrngOperMod_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 875 N DR OF F X (.,.) -
+<DEFINE> ClrFricLrngOperMod_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 875 N DF OF F X (.,.) -
+<RDEF> X Refers-to
+<R>X ClrFricLrngOperMod_Oper Rte_Inst_SysFricLrng 881 R
+<R>X ClrFricLrngOperMod_Oper Rte_Inst_SysFricLrng 882 R
+<R>X ClrFricLrngOperMod_Oper Rte_Inst_SysFricLrng 882 R
+<R>X ClrFricLrngOperMod_Oper Rte_Inst_SysFricLrng 883 R
+<CTLG> ClrFricLrngOperMod_Oper 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 876 887 887 887 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  ClrFricLrngOperMod_Oper
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  10
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  3
+<S>STST2  3
+<S>STST3  3
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  20
+<S>STFN2  8
+
+<EXTD> GetFricLrngData_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 906
+<DEFINE> FricLrngEna_Arg C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 906 N DC OV B N puc R
+<DEFINE> FricLrngOffsOutpEna_Arg C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 906 N DC OV B N puc R
+<DEFINE> FricLrngOperMod_Arg C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 906 N DC OV B N puc R
+<DEFINE> EolFric_Arg C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 906 N DC OV B N pfs R
+<DEFINE> GetFricLrngData_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 906 N DR OF F X (.,puc,puc,puc,pfs) -
+<DEFINE> GetFricLrngData_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 906 N DF OF F X (.,puc,puc,puc,pfs) -
+<R>X GetFricLrngData_Oper Rte_Inst_SysFricLrng 912 R
+<R>X GetFricLrngData_Oper Rte_Inst_SysFricLrng 913 R
+<R>X GetFricLrngData_Oper Rte_Inst_SysFricLrng 914 R
+<R>X GetFricLrngData_Oper Rte_Inst_SysFricLrng 915 R
+<CTLG> GetFricLrngData_Oper 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 907 920 920 920 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  GetFricLrngData_Oper
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  12
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.25   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  4
+<S>STST2  4
+<S>STST3  4
+<S>STPAR  4
+<S>STCAL  0
+<S>STFN1  26
+<S>STFN2  12
+
+<EXTD> GetFricOffsOutpDi_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 939
+<DEFINE> FricOffsOutpDi_Arg C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 939 N DC OV B N puc R
+<DEFINE> GetFricOffsOutpDi_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 939 N DR OF F X (.,puc) -
+<DEFINE> GetFricOffsOutpDi_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 939 N DF OF F X (.,puc) -
+<R>X GetFricOffsOutpDi_Oper Rte_Inst_SysFricLrng 945 R
+<CTLG> GetFricOffsOutpDi_Oper 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 940 950 950 950 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  GetFricOffsOutpDi_Oper
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  9
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  8
+<S>STFN2  2
+
+<EXTD> InitFricLrngTbl_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 969
+<DEFINE> InitFricLrngTbl_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 969 N DR OF F X (.,.) -
+<DEFINE> InitFricLrngTbl_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 969 N DF OF F X (.,.) -
+<R>X InitFricLrngTbl_Oper Rte_Inst_SysFricLrng 975 R
+<R>X InitFricLrngTbl_Oper Rte_Inst_SysFricLrng 976 R
+<R>X InitFricLrngTbl_Oper Rte_Inst_SysFricLrng 976 R
+<R>X InitFricLrngTbl_Oper Rte_Inst_SysFricLrng 977 R
+<CTLG> InitFricLrngTbl_Oper 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 970 982 982 982 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  InitFricLrngTbl_Oper
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  11
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  3
+<S>STST2  3
+<S>STST3  3
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  20
+<S>STFN2  8
+
+<EXTD> SetFricLrngData_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1011
+<DEFINE> FricLrngEna_Arg C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1011 N DC OV B N uc R
+<DEFINE> FricLrngOffsOutpEna_Arg C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1011 N DC OV B N uc R
+<DEFINE> FricLrngOperMod_Arg C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1011 N DC OV B N uc R
+<DEFINE> EolFric_Arg C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1011 N DC OV B N fs R
+<DEFINE> SetFricLrngData_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1011 N DR OF F X (.,uc,uc,uc,fs) -
+<DEFINE> SetFricLrngData_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1011 N DF OF F X (.,uc,uc,uc,fs) -
+<R>X SetFricLrngData_Oper Rte_Inst_SysFricLrng 1018 R
+<R>X SetFricLrngData_Oper Rte_Inst_SysFricLrng 1019 R
+<R>X SetFricLrngData_Oper Rte_Inst_SysFricLrng 1020 R
+<R>X SetFricLrngData_Oper Rte_Inst_SysFricLrng 1022 R
+<R>X SetFricLrngData_Oper Rte_Inst_SysFricLrng 1023 R
+<RDEF> C Calls
+<R>C SetFricLrngData_Oper Rte_Call_SysFricLrng_FricNonLrngData_SetRamBlockStatus 1025
+<R>X SetFricLrngData_Oper Rte_Call_SysFricLrng_FricNonLrngData_SetRamBlockStatus 1025 R
+<CTLG> SetFricLrngData_Oper 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1012 1030 1030 1030 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  SetFricLrngData_Oper
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  17
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.17   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  6
+<S>STST2  6
+<S>STST3  6
+<S>STPAR  4
+<S>STCAL  1
+<S>STFN1  33
+<S>STFN2  16
+
+<EXTD> SetFricOffsOutpDi_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1049
+<DEFINE> FricOffsOutpDi_Arg C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1049 N DC OV B N uc R
+<DEFINE> SetFricOffsOutpDi_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1049 N DR OF F X (.,uc) -
+<DEFINE> SetFricOffsOutpDi_Oper C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1049 N DF OF F X (.,uc) -
+<R>X SetFricOffsOutpDi_Oper Rte_Inst_SysFricLrng 1055 R
+<CTLG> SetFricOffsOutpDi_Oper 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1050 1060 1060 1060 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  SetFricOffsOutpDi_Oper
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  9
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  7
+<S>STFN2  2
+
+<EXTD> SysFricLrngInit1 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1095
+<DEFINE> SysFricLrngInit1 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1095 N DR OF F X (.,.) -
+<DEFINE> SysFricLrngInit1 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1095 N DF OF F X (.,.) -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1101 N DC OV B N uc -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1101 N DF OV B N uc -
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1103 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1103 R
+<R>C SysFricLrngInit1 FilLpInit 1105
+<R>X SysFricLrngInit1 FilLpInit 1105 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1105 R
+<R>C SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngAvrgFricFrq_Val 1105
+<R>X SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngAvrgFricFrq_Val 1105 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1105 R
+<R>C SysFricLrngInit1 FilLpInit 1106
+<R>X SysFricLrngInit1 FilLpInit 1106 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1106 R
+<R>C SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngAvrgFricFrq_Val 1106
+<R>X SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngAvrgFricFrq_Val 1106 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1106 R
+<R>C SysFricLrngInit1 FilLpInit 1107
+<R>X SysFricLrngInit1 FilLpInit 1107 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1107 R
+<R>C SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngAvrgFricFrq_Val 1107
+<R>X SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngAvrgFricFrq_Val 1107 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1107 R
+<R>C SysFricLrngInit1 FilLpInit 1108
+<R>X SysFricLrngInit1 FilLpInit 1108 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1108 R
+<R>C SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngAvrgFricFrq_Val 1108
+<R>X SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngAvrgFricFrq_Val 1108 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1108 R
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1111 31 N ON ui B X
+<R>C SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngBasLineFric_Ary1D 1113
+<R>X SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngBasLineFric_Ary1D 1113 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1113 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1114 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1114 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1115 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1115 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1116 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1116 R
+<R>C SysFricLrngInit1 Rte_Call_SysFricLrng_GetRefTmr100MicroSec32bit_Oper 1119
+<R>X SysFricLrngInit1 Rte_Call_SysFricLrng_GetRefTmr100MicroSec32bit_Oper 1119 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1119 R
+<R>C SysFricLrngInit1 Rte_Call_SysFricLrng_GetRefTmr100MicroSec32bit_Oper 1120
+<R>X SysFricLrngInit1 Rte_Call_SysFricLrng_GetRefTmr100MicroSec32bit_Oper 1120 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1120 R
+<R>C SysFricLrngInit1 FilLpInit 1122
+<R>X SysFricLrngInit1 FilLpInit 1122 R
+<R>C SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngDataPrepLpFilFrq_Val 1122
+<R>X SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngDataPrepLpFilFrq_Val 1122 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1122 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1122 19 N FN fs B X
+<R>C SysFricLrngInit1 FilLpInit 1123
+<R>X SysFricLrngInit1 FilLpInit 1123 R
+<R>C SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngDataPrepLpFilFrq_Val 1123
+<R>X SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngDataPrepLpFilFrq_Val 1123 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1123 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1123 19 N FN fs B X
+<R>C SysFricLrngInit1 FilLpInit 1124
+<R>X SysFricLrngInit1 FilLpInit 1124 R
+<R>C SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngDataPrepLpFilFrq_Val 1124
+<R>X SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngDataPrepLpFilFrq_Val 1124 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1124 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1124 19 N FN fs B X
+<R>C SysFricLrngInit1 FilLpInit 1125
+<R>X SysFricLrngInit1 FilLpInit 1125 R
+<R>C SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngDataPrepLpFilFrq_Val 1125
+<R>X SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngDataPrepLpFilFrq_Val 1125 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1125 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1125 19 N FN fs B X
+<R>C SysFricLrngInit1 FilLpInit 1127
+<R>X SysFricLrngInit1 FilLpInit 1127 R
+<R>C SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngDataPrepLpFilFrq_Val 1127
+<R>X SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngDataPrepLpFilFrq_Val 1127 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1127 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1127 19 N FN fs B X
+<R>C SysFricLrngInit1 FilLpInit 1128
+<R>X SysFricLrngInit1 FilLpInit 1128 R
+<R>C SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngDataPrepLpFilFrq_Val 1128
+<R>X SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngDataPrepLpFilFrq_Val 1128 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1128 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1128 19 N FN fs B X
+<R>C SysFricLrngInit1 FilLpInit 1129
+<R>X SysFricLrngInit1 FilLpInit 1129 R
+<R>C SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngDataPrepLpFilFrq_Val 1129
+<R>X SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngDataPrepLpFilFrq_Val 1129 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1129 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1129 19 N FN fs B X
+<R>C SysFricLrngInit1 FilLpInit 1130
+<R>X SysFricLrngInit1 FilLpInit 1130 R
+<R>C SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngFricOffsLpFilFrq_Val 1130
+<R>X SysFricLrngInit1 Rte_Prm_SysFricLrng_SysFricLrngFricOffsLpFilFrq_Val 1130 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1130 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1130 19 N FN fs B X
+<R>C SysFricLrngInit1 Rte_Call_SysFricLrng_FricLrngData_SetRamBlockStatus 1132
+<R>X SysFricLrngInit1 Rte_Call_SysFricLrng_FricLrngData_SetRamBlockStatus 1132 R
+<R>C SysFricLrngInit1 Rte_Write_SysFricLrng_SysFricOffs_Val 1133
+<R>X SysFricLrngInit1 Rte_Write_SysFricLrng_SysFricOffs_Val 1133 R
+<R>X SysFricLrngInit1 Rte_Inst_SysFricLrng 1133 R
+<CTLG> SysFricLrngInit1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 6
+<CTLG> 4 5
+<CTLG> 5 3
+<CTLG> 6 7
+<CTLG> 7 9
+<CTLGN> 1096 1111 1111 1111 1111 1111 1138 1138 1138 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  SysFricLrngInit1
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  29
+<S>STAKI  31
+<S>STLIN  41
+<S>STXLN  22
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.09   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  14
+<S>STAV2  15
+<S>STAV3  15
+<S>STST1  24
+<S>STST2  23
+<S>STST3  22
+<S>STPAR  0
+<S>STCAL  8
+<S>STFN1  238
+<S>STFN2  108
+
+<EXTD> SysFricLrngPer1 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1192
+<DEFINE> SysFricLrngPer1 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1192 N DR OF F X (.,.) -
+<DEFINE> SysFricLrngPer1 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1192 N DF OF F X (.,.) -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1200 N DC OV B N uc -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1200 N DF OV B N uc -
+<DEFINE> FricOffs_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1201 N DC OV B N fs -
+<DEFINE> FricOffs_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1201 N DF OV B N fs -
+<DEFINE> LrngEna_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1202 N DC OV B N uc -
+<DEFINE> LrngEna_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1202 N DF OV B N uc -
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1204 R
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1206 R
+<R>C SysFricLrngPer1 RunningAndCalibrationModes 1210
+<R>C SysFricLrngPer1 ClearingMode 1214
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1215 51 N FN fs B X
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1219 R
+<R>C SysFricLrngPer1 ResettingMode 1223
+<R>C SysFricLrngPer1 Lim_f32 1231
+<R>X SysFricLrngPer1 Lim_f32 1231 R
+<R>C SysFricLrngPer1 Rte_Prm_SysFricLrng_SysFricLrngFricOffsLoLim_Val 1231
+<R>X SysFricLrngPer1 Rte_Prm_SysFricLrng_SysFricLrngFricOffsLoLim_Val 1231 R
+<R>C SysFricLrngPer1 Rte_Prm_SysFricLrng_SysFricLrngFricOffsHiLim_Val 1231
+<R>X SysFricLrngPer1 Rte_Prm_SysFricLrng_SysFricLrngFricOffsHiLim_Val 1231 R
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1234 R
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1236 31 N ON ui B X
+<R>C SysFricLrngPer1 Lim_f32 1240
+<R>X SysFricLrngPer1 Lim_f32 1240 R
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1240 R
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1240 R
+<R>C SysFricLrngPer1 Rte_Prm_SysFricLrng_SysFricLrngIgnCycFricChgLim_Val 1240
+<R>X SysFricLrngPer1 Rte_Prm_SysFricLrng_SysFricLrngIgnCycFricChgLim_Val 1240 R
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1240 R
+<R>C SysFricLrngPer1 Rte_Prm_SysFricLrng_SysFricLrngIgnCycFricChgLim_Val 1240
+<R>X SysFricLrngPer1 Rte_Prm_SysFricLrng_SysFricLrngIgnCycFricChgLim_Val 1240 R
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1240 R
+<R>C SysFricLrngPer1 Lim_f32 1242
+<R>X SysFricLrngPer1 Lim_f32 1242 R
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1242 R
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1242 R
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1247 R
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1247 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1253 43 N FN fs B X
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1256 R
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1256 R
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1256 R
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1258 R
+<R>X SysFricLrngPer1 Rte_Inst_SysFricLrng 1258 R
+<R>C SysFricLrngPer1 Rte_Write_SysFricLrng_SysFricOffs_Val 1261
+<R>X SysFricLrngPer1 Rte_Write_SysFricLrng_SysFricOffs_Val 1261 R
+<R>C SysFricLrngPer1 Lim_f32 1261
+<R>X SysFricLrngPer1 Lim_f32 1261 R
+<CTLG> SysFricLrngPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 3
+<CTLG> 2 5
+<CTLG> 2 7
+<CTLG> 2 9
+<CTLG> 3 4
+<CTLG> 4 12
+<CTLG> 5 6
+<CTLG> 6 12
+<CTLG> 7 8
+<CTLG> 8 12
+<CTLG> 9 10
+<CTLG> 10 12
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 17
+<CTLG> 15 16
+<CTLG> 16 14
+<CTLG> 17 18
+<CTLG> 17 19
+<CTLG> 18 20
+<CTLG> 19 20
+<CTLG> 20 21
+<CTLG> 20 22
+<CTLG> 21 22
+<CTLG> 22 23
+<CTLG> 23 25
+<CTLGN> 1193 1206 1206 1211 1211 1216 1216 1220 1220 1224 1224 1206 1236 1236 1236 1236 1236 1247 1247 1251 1256 1256 1267 1267 1267 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  SysFricLrngPer1
+<S>STCYC  7
+<S>STMCC  2 (7:9)
+<S>STMIF  1
+<S>STSUB  12
+<S>STAKI  19
+<S>STLIN  73
+<S>STXLN  28
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  32
+<S>STPDN  1.14   
+<S>STPBG  2
+<S>STLOP  2
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  12
+<S>STAV3  14
+<S>STST1  34
+<S>STST2  24
+<S>STST3  21
+<S>STPAR  0
+<S>STCAL  8
+<S>STFN1  211
+<S>STFN2  89
+
+<DEFINE> SysFricLrng_STOP_SEC_CODE C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1270 N DF OM - - - O
+<R>I C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c C:/Component/SF007A_SysFricLrng_Impl/tools/contract/SysFricLrng_MemMap.h 1271
+<R>I C:/Component/SF007A_SysFricLrng_Impl/tools/contract/SysFricLrng_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<DEFINE> FricOffs_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1292 N DC OV B N pfs R
+<DEFINE> LrngEna_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1293 N DC OV B N puc R
+<DEFINE> RunningAndCalibrationModes C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1292 N DR OF F I (.,pfs,puc) -
+<DEFINE> RunningAndCalibrationModes C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1292 N DF OF F I (.,pfs,puc) -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1296 N DC OV B N uc -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1296 N DF OV B N uc -
+<DEFINE> ColTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1298 N DC OV B N fs -
+<DEFINE> ColTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1298 N DF OV B N fs -
+<DEFINE> FilColTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1299 N DC OV B N fs -
+<DEFINE> FilColTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1299 N DF OV B N fs -
+<DEFINE> FilHwVel_HwRadPerSec_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1300 N DC OV B N fs -
+<DEFINE> FilHwVel_HwRadPerSec_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1300 N DF OV B N fs -
+<DEFINE> FilVehLatA_MtrPerSecSqd_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1301 N DC OV B N fs -
+<DEFINE> FilVehLatA_MtrPerSecSqd_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1301 N DF OV B N fs -
+<DEFINE> FilHwAgAuthy_Uls_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1302 N DC OV B N fs -
+<DEFINE> FilHwAgAuthy_Uls_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1302 N DF OV B N fs -
+<DEFINE> FilHwAg_HwDeg_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1303 N DC OV B N fs -
+<DEFINE> FilHwAg_HwDeg_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1303 N DF OV B N fs -
+<DEFINE> SelHwAg_HwDeg_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1304 N DC OV B N fs -
+<DEFINE> SelHwAg_HwDeg_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1304 N DF OV B N fs -
+<DEFINE> HwVelDir_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1305 N DC OV B N uc -
+<DEFINE> HwVelDir_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1305 N DF OV B N uc -
+<DEFINE> VehSpdIdx_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1306 N DC OV B N uc -
+<DEFINE> VehSpdIdx_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1306 N DF OV B N uc -
+<DEFINE> SelColTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1307 N DC OV B N fs -
+<DEFINE> SelColTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1307 N DF OV B N fs -
+<DEFINE> FilVehSpd_Kph_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1308 N DC OV B N fs -
+<DEFINE> FilVehSpd_Kph_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1308 N DF OV B N fs -
+<DEFINE> FilAssiMechT_DegCgrd_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1309 N DC OV B N fs -
+<DEFINE> FilAssiMechT_DegCgrd_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1309 N DF OV B N fs -
+<DEFINE> AbsHwAg_HwDeg_T_u11p5 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1311 N DC OV B N us -
+<DEFINE> AbsHwAg_HwDeg_T_u11p5 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1311 N DF OV B N us -
+<DEFINE> HwAgOK_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1312 N DC OV B N uc -
+<DEFINE> HwAgOK_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1312 N DF OV B N uc -
+<DEFINE> HwVelOK_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1313 N DC OV B N uc -
+<DEFINE> HwVelOK_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1313 N DF OV B N uc -
+<DEFINE> VehSpdOK_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1314 N DC OV B N uc -
+<DEFINE> VehSpdOK_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1314 N DF OV B N uc -
+<DEFINE> TiSpan_MilliSecPerCnt_T_u32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1315 N DC OV B N ul -
+<DEFINE> TiSpan_MilliSecPerCnt_T_u32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1315 N DF OV B N ul -
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1315 62 N ON ui B O
+<DEFINE> SysFricLrngIvsTrsmRatY_HwNwtMtrPerMotNwtMtr_T_u6p10 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1316 N DC OV B N us -
+<DEFINE> SysFricLrngIvsTrsmRatY_HwNwtMtrPerMotNwtMtr_T_u6p10 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1316 N DF OV B N us -
+<DEFINE> HwAg_HwDeg_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1319 N DC OV B N fs -
+<DEFINE> HwAg_HwDeg_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1319 N DF OV B N fs -
+<DEFINE> HwVel_HwRadPerSec_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1320 N DC OV B N fs -
+<DEFINE> HwVel_HwRadPerSec_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1320 N DF OV B N fs -
+<DEFINE> VehLatA_MtrPerSecSqd_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1321 N DC OV B N fs -
+<DEFINE> VehLatA_MtrPerSecSqd_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1321 N DF OV B N fs -
+<DEFINE> HwAgAuthy_Uls_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1322 N DC OV B N fs -
+<DEFINE> HwAgAuthy_Uls_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1322 N DF OV B N fs -
+<DEFINE> VehSpd_Kph_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1323 N DC OV B N fs -
+<DEFINE> VehSpd_Kph_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1323 N DF OV B N fs -
+<DEFINE> AssiMechT_DegCgrd_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1324 N DC OV B N fs -
+<DEFINE> AssiMechT_DegCgrd_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1324 N DF OV B N fs -
+<DEFINE> HwTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1325 N DC OV B N fs -
+<DEFINE> HwTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1325 N DF OV B N fs -
+<DEFINE> MotTqCmdCrf_MotNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1326 N DC OV B N fs -
+<DEFINE> MotTqCmdCrf_MotNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1326 N DF OV B N fs -
+<DEFINE> VehSpdVld_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1327 N DC OV B N uc -
+<DEFINE> VehSpdVld_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1327 N DF OV B N uc -
+<DEFINE> FricLrngDi_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1328 N DC OV B N uc -
+<DEFINE> FricLrngDi_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1328 N DF OV B N uc -
+<DEFINE> FricLrngCustEna_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1329 N DC OV B N uc -
+<DEFINE> FricLrngCustEna_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1329 N DF OV B N uc -
+<R>C RunningAndCalibrationModes Rte_Read_SysFricLrng_HwAg_Val 1332
+<R>X RunningAndCalibrationModes Rte_Read_SysFricLrng_HwAg_Val 1332 R
+<R>C RunningAndCalibrationModes Rte_Read_SysFricLrng_HwVel_Val 1333
+<R>X RunningAndCalibrationModes Rte_Read_SysFricLrng_HwVel_Val 1333 R
+<R>C RunningAndCalibrationModes Rte_Read_SysFricLrng_VehLatA_Val 1334
+<R>X RunningAndCalibrationModes Rte_Read_SysFricLrng_VehLatA_Val 1334 R
+<R>C RunningAndCalibrationModes Rte_Read_SysFricLrng_HwAgAuthy_Val 1335
+<R>X RunningAndCalibrationModes Rte_Read_SysFricLrng_HwAgAuthy_Val 1335 R
+<R>C RunningAndCalibrationModes Rte_Read_SysFricLrng_VehSpd_Val 1336
+<R>X RunningAndCalibrationModes Rte_Read_SysFricLrng_VehSpd_Val 1336 R
+<R>C RunningAndCalibrationModes Rte_Read_SysFricLrng_AssiMechT_Val 1337
+<R>X RunningAndCalibrationModes Rte_Read_SysFricLrng_AssiMechT_Val 1337 R
+<R>C RunningAndCalibrationModes Rte_Read_SysFricLrng_HwTq_Val 1338
+<R>X RunningAndCalibrationModes Rte_Read_SysFricLrng_HwTq_Val 1338 R
+<R>C RunningAndCalibrationModes Rte_Read_SysFricLrng_MotTqCmdCrf_Val 1339
+<R>X RunningAndCalibrationModes Rte_Read_SysFricLrng_MotTqCmdCrf_Val 1339 R
+<R>C RunningAndCalibrationModes Rte_Read_SysFricLrng_VehSpdVld_Logl 1340
+<R>X RunningAndCalibrationModes Rte_Read_SysFricLrng_VehSpdVld_Logl 1340 R
+<R>C RunningAndCalibrationModes Rte_Read_SysFricLrng_FricLrngDi_Logl 1341
+<R>X RunningAndCalibrationModes Rte_Read_SysFricLrng_FricLrngDi_Logl 1341 R
+<R>C RunningAndCalibrationModes Rte_Read_SysFricLrng_FricLrngCustEna_Logl 1342
+<R>X RunningAndCalibrationModes Rte_Read_SysFricLrng_FricLrngCustEna_Logl 1342 R
+<R>C RunningAndCalibrationModes FilLpUpdOutp_f32 1345
+<R>X RunningAndCalibrationModes FilLpUpdOutp_f32 1345 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1345 R
+<R>C RunningAndCalibrationModes FilLpUpdOutp_f32 1347
+<R>X RunningAndCalibrationModes FilLpUpdOutp_f32 1347 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1347 R
+<R>C RunningAndCalibrationModes FilLpUpdOutp_f32 1349
+<R>X RunningAndCalibrationModes FilLpUpdOutp_f32 1349 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1349 R
+<R>C RunningAndCalibrationModes FilLpUpdOutp_f32 1351
+<R>X RunningAndCalibrationModes FilLpUpdOutp_f32 1351 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1351 R
+<R>C RunningAndCalibrationModes FilLpUpdOutp_f32 1353
+<R>X RunningAndCalibrationModes FilLpUpdOutp_f32 1353 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1353 R
+<R>C RunningAndCalibrationModes FloatToFixd_u16_f32 1355
+<R>X RunningAndCalibrationModes FloatToFixd_u16_f32 1355 R
+<R>C RunningAndCalibrationModes Abslt_f32_f32 1355
+<R>X RunningAndCalibrationModes Abslt_f32_f32 1355 R
+<R>C RunningAndCalibrationModes FilLpUpdOutp_f32 1357
+<R>X RunningAndCalibrationModes FilLpUpdOutp_f32 1357 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1357 R
+<R>C RunningAndCalibrationModes LnrIntrpn_u16_u16VariXu16VariY 1363
+<R>X RunningAndCalibrationModes LnrIntrpn_u16_u16VariXu16VariY 1363 R
+<R>C RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngIvsTrsmRatX_Ary1D 1363
+<R>X RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngIvsTrsmRatX_Ary1D 1363 R
+<R>C RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngIvsTrsmRatY_Ary1D 1363
+<R>X RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngIvsTrsmRatY_Ary1D 1363 R
+<R>C RunningAndCalibrationModes FixdToFloat_f32_u16 1365
+<R>X RunningAndCalibrationModes FixdToFloat_f32_u16 1365 R
+<R>C RunningAndCalibrationModes FilLpUpdOutp_f32 1366
+<R>X RunningAndCalibrationModes FilLpUpdOutp_f32 1366 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1366 R
+<R>C RunningAndCalibrationModes HwAngConstraint 1371
+<R>C RunningAndCalibrationModes HwVelConstraint 1372
+<R>C RunningAndCalibrationModes VehSpdConstraint 1373
+<R>C RunningAndCalibrationModes ColTqconstraint 1374
+<R>C RunningAndCalibrationModes Abslt_f32_f32 1381
+<R>X RunningAndCalibrationModes Abslt_f32_f32 1381 R
+<R>C RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngLatAHiLim_Val 1381
+<R>X RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngLatAHiLim_Val 1381 R
+<R>C RunningAndCalibrationModes Abslt_f32_f32 1381
+<R>X RunningAndCalibrationModes Abslt_f32_f32 1381 R
+<R>C RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngLatALoLim_Val 1381
+<R>X RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngLatALoLim_Val 1381 R
+<R>C RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngHwPosnAuthyThd_Val 1381
+<R>X RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngHwPosnAuthyThd_Val 1381 R
+<R>C RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngTHiLim_Val 1381
+<R>X RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngTHiLim_Val 1381 R
+<R>C RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngTLoLim_Val 1381
+<R>X RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngTLoLim_Val 1381 R
+<R>C RunningAndCalibrationModes Rte_Call_SysFricLrng_GetRefTmr100MicroSec32bit_Oper 1384
+<R>X RunningAndCalibrationModes Rte_Call_SysFricLrng_GetRefTmr100MicroSec32bit_Oper 1384 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1384 R
+<R>C RunningAndCalibrationModes Rte_Call_SysFricLrng_GetTiSpan100MicroSec32bit_Oper 1391
+<R>X RunningAndCalibrationModes Rte_Call_SysFricLrng_GetTiSpan100MicroSec32bit_Oper 1391 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1391 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1407 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1416 R
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1419 40 N ON ui B X
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1421 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1421 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1423 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1423 49 N FN fs B X
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1424 44 N FN fs B X
+<R>C RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngMaskVehSpd_Ary1D 1430
+<R>X RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngMaskVehSpd_Ary1D 1430 R
+<R>C RunningAndCalibrationModes FilLpUpdOutp_f32 1434
+<R>X RunningAndCalibrationModes FilLpUpdOutp_f32 1434 R
+<R>C RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngFricChgWght_Ary1D 1434
+<R>X RunningAndCalibrationModes Rte_Prm_SysFricLrng_SysFricLrngFricChgWght_Ary1D 1434 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1434 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1434 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1434 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1438 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1440 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1444 R
+<R>X RunningAndCalibrationModes Rte_Inst_SysFricLrng 1446 R
+<R>C RunningAndCalibrationModes FricLearning 1449
+<CTLG> RunningAndCalibrationModes 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 12
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 12 18
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 17
+<CTLG> 15 16
+<CTLG> 16 14
+<CTLG> 17 25
+<CTLG> 18 19
+<CTLG> 18 23
+<CTLG> 19 20
+<CTLG> 19 21
+<CTLG> 20 22
+<CTLG> 21 22
+<CTLG> 22 24
+<CTLG> 23 24
+<CTLG> 24 25
+<CTLG> 25 26
+<CTLG> 26 28
+<CTLGN> 1294 1381 1381 1381 1386 1396 1396 1396 1400 1407 1407 1411 1416 1419 1419 1419 1419 1416 1429 1430 1430 1436 1429 1442 1426 1450 1450 1450 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  RunningAndCalibrationModes
+<S>STCYC  8
+<S>STMCC  11 (8:19)
+<S>STMIF  3
+<S>STSUB  41
+<S>STAKI  49
+<S>STLIN  155
+<S>STXLN  68
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  30
+<S>STPTH  40
+<S>STPDN  0.59   
+<S>STPBG  2
+<S>STLOP  11
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  11
+<S>STAV3  18
+<S>STST1  90
+<S>STST2  77
+<S>STST3  47
+<S>STPAR  2
+<S>STCAL  32
+<S>STFN1  572
+<S>STFN2  301
+
+<DEFINE> SelHwAg_HwDeg_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1463 N DC OV B N fs R
+<DEFINE> SelColTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1464 N DC OV B N fs R
+<DEFINE> VehSpdIdx_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1465 N DC OV B N uc R
+<DEFINE> HwVelDir_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1466 N DC OV B N uc R
+<DEFINE> LrngEna_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1467 N DC OV B N uc R
+<DEFINE> FricLearning C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1463 N DR OF F I (.,fs,fs,uc,uc,uc) -
+<DEFINE> FricLearning C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1463 N DF OF F I (.,fs,fs,uc,uc,uc) -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1471 N DC OV B N uc -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1471 N DF OV B N uc -
+<DEFINE> DeltaIdxOffsInc_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1472 N DC OV B N us -
+<DEFINE> DeltaIdxOffsInc_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1472 N DF OV B N us -
+<DEFINE> DeltaIdxOffsDec_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1473 N DC OV B N us -
+<DEFINE> DeltaIdxOffsDec_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1473 N DF OV B N us -
+<DEFINE> DeltaIdxOffs_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1474 N DC OV B N us -
+<DEFINE> DeltaIdxOffs_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1474 N DF OV B N us -
+<DEFINE> Gate_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1475 N DC OV B N us -
+<DEFINE> Gate_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1475 N DF OV B N us -
+<DEFINE> TotalCounter_Cnt_T_u32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1476 N DC OV B N ul -
+<DEFINE> TotalCounter_Cnt_T_u32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1476 N DF OV B N ul -
+<DEFINE> MaxRawAvrgFric_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1477 N DC OV B N fs -
+<DEFINE> MaxRawAvrgFric_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1477 N DF OV B N fs -
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1480 41 N FN fs B X
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1482 26 N ON ui B X
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1486 61 N DN ui B X
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1493 97 N DN ui B X
+<R>C FricLearning Rte_Prm_SysFricLrng_SysFricLrngFricHysHwAgPt_Ary1D 1493
+<R>X FricLearning Rte_Prm_SysFricLrng_SysFricLrngFricHysHwAgPt_Ary1D 1493 R
+<R>C FricLearning Rte_Prm_SysFricLrng_SysFricLrngFricHysHwAgPt_Ary1D 1493
+<R>X FricLearning Rte_Prm_SysFricLrng_SysFricLrngFricHysHwAgPt_Ary1D 1493 R
+<R>C FricLearning PhiCalc 1503
+<R>C FricLearning RangeCounterManager 1507
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1511 30 N DN ui B X
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1513 28 N ON ui B X
+<R>X FricLearning Rte_Inst_SysFricLrng 1515 R
+<R>X FricLearning Rte_Inst_SysFricLrng 1516 R
+<R>C FricLearning Rte_Prm_SysFricLrng_SysFricLrngThd_Val 1523
+<R>X FricLearning Rte_Prm_SysFricLrng_SysFricLrngThd_Val 1523 R
+<R>C FricLearning RawAvrgCalc 1525
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1528 31 N ON ui B X
+<R>X FricLearning Rte_Inst_SysFricLrng 1530 R
+<R>X FricLearning Rte_Inst_SysFricLrng 1532 R
+<R>C FricLearning NTCSetReset 1536
+<R>X FricLearning Rte_Inst_SysFricLrng 1538 R
+<R>C FricLearning Rte_Write_SysFricLrng_MaxLrndFric_Val 1542
+<R>X FricLearning Rte_Write_SysFricLrng_MaxLrndFric_Val 1542 R
+<R>C FricLearning Lim_f32 1542
+<R>X FricLearning Lim_f32 1542 R
+<R>C FricLearning Rte_Write_SysFricLrng_MaxLrndFric_Val 1546
+<R>X FricLearning Rte_Write_SysFricLrng_MaxLrndFric_Val 1546 R
+<R>C FricLearning Lim_f32 1546
+<R>X FricLearning Lim_f32 1546 R
+<R>X FricLearning Rte_Inst_SysFricLrng 1546 R
+<CTLG> FricLearning 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 2
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 11
+<CTLG> 9 10
+<CTLG> 10 8
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 19
+<CTLG> 15 16
+<CTLG> 15 17
+<CTLG> 16 17
+<CTLG> 17 18
+<CTLG> 18 14
+<CTLG> 19 20
+<CTLG> 20 21
+<CTLG> 20 22
+<CTLG> 21 23
+<CTLG> 22 23
+<CTLG> 23 25
+<CTLGN> 1470 1493 1493 1493 1501 1501 1513 1513 1513 1513 1513 1523 1523 1528 1528 1530 1530 1528 1528 1540 1540 1540 1544 1548 1548 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  FricLearning
+<S>STCYC  8
+<S>STMCC  2 (8:10)
+<S>STMIF  2
+<S>STSUB  11
+<S>STAKI  19
+<S>STLIN  77
+<S>STXLN  27
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  7
+<S>STPTH  96
+<S>STPDN  3.56   
+<S>STPBG  2
+<S>STLOP  2
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  10
+<S>STAV3  13
+<S>STST1  39
+<S>STST2  31
+<S>STST3  24
+<S>STPAR  5
+<S>STCAL  8
+<S>STFN1  213
+<S>STFN2  120
+
+<DEFINE> DeltaIdxOffs_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1560 N DC OV B N us R
+<DEFINE> DeltaIdxOffsDec_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1560 N DC OV B N us R
+<DEFINE> DeltaIdxOffsInc_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1560 N DC OV B N us R
+<DEFINE> Gate_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1560 N DC OV B N us R
+<DEFINE> RangeCounterManager C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1560 N DR OF F I (.,us,us,us,us) -
+<DEFINE> RangeCounterManager C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1560 N DF OF F I (.,us,us,us,us) -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1563 N DC OV B N uc -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1563 N DF OV B N uc -
+<DEFINE> RngCntrThdExcdd_Uls_T_Lgcl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1564 N DC OV B N uc -
+<DEFINE> RngCntrThdExcdd_Uls_T_Lgcl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1564 N DF OV B N uc -
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1570 27 N ON ui B X
+<R>X RangeCounterManager Rte_Inst_SysFricLrng 1572 R
+<R>C RangeCounterManager Rte_Prm_SysFricLrng_SysFricLrngRngCntrThd_Val 1572
+<R>X RangeCounterManager Rte_Prm_SysFricLrng_SysFricLrngRngCntrThd_Val 1572 R
+<R>X RangeCounterManager Rte_Inst_SysFricLrng 1581 R
+<R>X RangeCounterManager Rte_Inst_SysFricLrng 1581 R
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1581 157 N DN ui B X
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1588 31 N ON ui B X
+<R>X RangeCounterManager Rte_Inst_SysFricLrng 1590 R
+<R>X RangeCounterManager Rte_Inst_SysFricLrng 1590 R
+<R>X RangeCounterManager Rte_Inst_SysFricLrng 1591 R
+<R>X RangeCounterManager Rte_Inst_SysFricLrng 1591 R
+<CTLG> RangeCounterManager 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 8
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 7 3
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 10 16
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 12 15
+<CTLG> 13 14
+<CTLG> 14 12
+<CTLG> 15 16
+<CTLG> 16 18
+<CTLGN> 1561 1570 1570 1570 1572 1572 1570 1570 1579 1579 1586 1588 1588 1588 1588 1586 1595 1595 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  RangeCounterManager
+<S>STCYC  6
+<S>STMCC  0 (6:6)
+<S>STMIF  2
+<S>STSUB  1
+<S>STAKI  7
+<S>STLIN  33
+<S>STXLN  10
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  18
+<S>STPDN  1.80   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  12
+<S>STAV3  14
+<S>STST1  17
+<S>STST2  12
+<S>STST3  10
+<S>STPAR  4
+<S>STCAL  1
+<S>STFN1  98
+<S>STFN2  50
+
+<DEFINE> MaxRawAvrgFric_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1607 N DC OV B N fs R
+<DEFINE> NTCSetReset C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1607 N DR OF F I (.,fs) -
+<DEFINE> NTCSetReset C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1607 N DF OF F I (.,fs) -
+<DEFINE> TiSpan_Cnt_T_U32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1609 N DC OV B N ul -
+<DEFINE> TiSpan_Cnt_T_U32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1609 N DF OV B N ul -
+<DEFINE> TiSpan_Cnt_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1610 N DC OV B N fs -
+<DEFINE> TiSpan_Cnt_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1610 N DF OV B N fs -
+<R>C NTCSetReset Rte_Prm_SysFricLrng_SysFricLrngFricDiagcThd_Val 1612
+<R>X NTCSetReset Rte_Prm_SysFricLrng_SysFricLrngFricDiagcThd_Val 1612 R
+<R>C NTCSetReset Rte_Call_SysFricLrng_GetTiSpan100MicroSec32bit_Oper 1614
+<R>X NTCSetReset Rte_Call_SysFricLrng_GetTiSpan100MicroSec32bit_Oper 1614 R
+<R>X NTCSetReset Rte_Inst_SysFricLrng 1614 R
+<R>C NTCSetReset FixdToFloat_f32_u32 1616
+<R>X NTCSetReset FixdToFloat_f32_u32 1616 R
+<R>C NTCSetReset Rte_Prm_SysFricLrng_SysFricLrngFricDiagcTiThd_Val 1620
+<R>X NTCSetReset Rte_Prm_SysFricLrng_SysFricLrngFricDiagcTiThd_Val 1620 R
+<R>C NTCSetReset Rte_Call_SysFricLrng_SetNtcSts_Oper 1622
+<R>X NTCSetReset Rte_Call_SysFricLrng_SetNtcSts_Oper 1622 R
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1622 68 N DN ui B X
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1622 85 N ON ui B X
+<R>C NTCSetReset Rte_Call_SysFricLrng_GetRefTmr100MicroSec32bit_Oper 1627
+<R>X NTCSetReset Rte_Call_SysFricLrng_GetRefTmr100MicroSec32bit_Oper 1627 R
+<R>X NTCSetReset Rte_Inst_SysFricLrng 1627 R
+<R>C NTCSetReset Rte_Call_SysFricLrng_SetNtcSts_Oper 1628
+<R>X NTCSetReset Rte_Call_SysFricLrng_SetNtcSts_Oper 1628 R
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1628 60 N ON ui B X
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1628 77 N ON ui B X
+<CTLG> NTCSetReset 1
+<CTLG> 1 2
+<CTLG> 1 6
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 9
+<CTLGN> 1608 1612 1620 1620 1620 1612 1625 1630 1630 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  NTCSetReset
+<S>STCYC  3
+<S>STMCC  0 (3:3)
+<S>STMIF  2
+<S>STSUB  7
+<S>STAKI  10
+<S>STLIN  21
+<S>STXLN  9
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  3
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  10
+<S>STAV3  13
+<S>STST1  13
+<S>STST2  10
+<S>STST3  8
+<S>STPAR  1
+<S>STCAL  6
+<S>STFN1  74
+<S>STFN2  34
+
+<DEFINE> SelHwAg_HwDeg_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1641 N DC OV B N fs R
+<DEFINE> Gate_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1641 N DC OV B N us R
+<DEFINE> DeltaIdxOffs_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1641 N DC OV B N us R
+<DEFINE> SelColTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1641 N DC OV B N fs R
+<DEFINE> PhiCalc C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1641 N DR OF F I (.,fs,us,us,fs) -
+<DEFINE> PhiCalc C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1641 N DF OF F I (.,fs,us,us,fs) -
+<DEFINE> Phi_Uls_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1643 N DC OV B N fs -
+<DEFINE> Phi_Uls_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1643 N DF OV B N fs -
+<DEFINE> PLFMultFactor_HwNwMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1644 N DC OV B N fs -
+<DEFINE> PLFMultFactor_HwNwMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1644 N DF OV B N fs -
+<R>C PhiCalc Rte_Prm_SysFricLrng_SysFricLrngFricHysHwAgPt_Ary1D 1648
+<R>X PhiCalc Rte_Prm_SysFricLrng_SysFricLrngFricHysHwAgPt_Ary1D 1648 R
+<R>C PhiCalc Rte_Prm_SysFricLrng_SysFricLrngFricHysHwAgPt_Ary1D 1648
+<R>X PhiCalc Rte_Prm_SysFricLrng_SysFricLrngFricHysHwAgPt_Ary1D 1648 R
+<R>C PhiCalc Rte_Prm_SysFricLrng_SysFricLrngFricHysHwAgPt_Ary1D 1648
+<R>X PhiCalc Rte_Prm_SysFricLrng_SysFricLrngFricHysHwAgPt_Ary1D 1648 R
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1648 96 N DN ui B X
+<R>C PhiCalc Rte_Prm_SysFricLrng_SysFricLrngGain_Val 1653
+<R>X PhiCalc Rte_Prm_SysFricLrng_SysFricLrngGain_Val 1653 R
+<R>X PhiCalc Rte_Inst_SysFricLrng 1653 R
+<R>X PhiCalc Rte_Inst_SysFricLrng 1653 R
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1652 154 N DN ui B X
+<LIT> 1.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1653 37 N FN fs B X
+<R>X PhiCalc Rte_Inst_SysFricLrng 1657 R
+<R>X PhiCalc Rte_Inst_SysFricLrng 1657 R
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1656 74 N DN ui B X
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1656 150 N DN ui B X
+<R>X PhiCalc Rte_Inst_SysFricLrng 1660 R
+<R>X PhiCalc Rte_Inst_SysFricLrng 1660 R
+<LIT> 1.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1660 157 N FN fs B X
+<CTLG> PhiCalc 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1642 1662 1662 1662 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  PhiCalc
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  4
+<S>STAKI  5
+<S>STLIN  19
+<S>STXLN  9
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.11   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  28
+<S>STAV2  28
+<S>STAV3  42
+<S>STST1  6
+<S>STST2  6
+<S>STST3  4
+<S>STPAR  4
+<S>STCAL  2
+<S>STFN1  114
+<S>STFN2  55
+
+<DEFINE> VehSpdIdx_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1674 N DC OV B N uc R
+<DEFINE> DeltaIdxOffsDec_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1675 N DC OV B N us R
+<DEFINE> DeltaIdxOffsInc_Cnt_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1676 N DC OV B N us R
+<DEFINE> TotalCounter_Cnt_T_u32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1677 N DC OV B N ul R
+<DEFINE> LrngEna_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1678 N DC OV B N uc R
+<DEFINE> RawAvrgCalc C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1674 N DR OF F I (.,uc,us,us,ul,uc) -
+<DEFINE> RawAvrgCalc C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1674 N DF OF F I (.,uc,us,us,ul,uc) -
+<DEFINE> RawAvg_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1680 N DC OV B N fs -
+<DEFINE> RawAvg_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1680 N DF OV B N fs -
+<DEFINE> HysRawAvg_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1681 N DC OV B N fs -
+<DEFINE> HysRawAvg_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1681 N DF OV B N fs -
+<DEFINE> SatnAvrgFric_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1682 N DC OV B N fs -
+<DEFINE> SatnAvrgFric_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1682 N DF OV B N fs -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1683 N DC OV B N uc -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1683 N DF OV B N uc -
+<DEFINE> RngCntrRawAvg_HwNwtMtr_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1684 N DC OV B N us -
+<DEFINE> RngCntrRawAvg_HwNwtMtr_T_u16 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1684 N DF OV B N us -
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1687 29 N FN fs B X
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1689 27 N ON ui B X
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1692 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1692 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1692 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1692 R
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1692 148 N DN ui B X
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1692 227 N DN ui B X
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1694 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1694 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1701 R
+<R>C RawAvrgCalc FilLpUpdOutp_f32 1705
+<R>X RawAvrgCalc FilLpUpdOutp_f32 1705 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1705 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1705 R
+<R>C RawAvrgCalc FilLpUpdOutp_f32 1709
+<R>X RawAvrgCalc FilLpUpdOutp_f32 1709 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1709 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1709 R
+<R>C RawAvrgCalc FilLpUpdOutp_f32 1714
+<R>X RawAvrgCalc FilLpUpdOutp_f32 1714 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1714 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1714 R
+<R>C RawAvrgCalc FilLpUpdOutp_f32 1718
+<R>X RawAvrgCalc FilLpUpdOutp_f32 1718 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1718 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1718 R
+<R>C RawAvrgCalc Lim_f32 1724
+<R>X RawAvrgCalc Lim_f32 1724 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1724 R
+<R>C RawAvrgCalc Rte_Prm_SysFricLrng_SysFricLrngIgnCycFricChgLim_Val 1724
+<R>X RawAvrgCalc Rte_Prm_SysFricLrng_SysFricLrngIgnCycFricChgLim_Val 1724 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1724 R
+<R>C RawAvrgCalc Rte_Prm_SysFricLrng_SysFricLrngIgnCycFricChgLim_Val 1724
+<R>X RawAvrgCalc Rte_Prm_SysFricLrng_SysFricLrngIgnCycFricChgLim_Val 1724 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1724 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1724 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1727 R
+<R>C RawAvrgCalc Rte_Write_SysFricLrng_SysFricEstimd_Val 1731
+<R>X RawAvrgCalc Rte_Write_SysFricLrng_SysFricEstimd_Val 1731 R
+<R>C RawAvrgCalc Lim_f32 1731
+<R>X RawAvrgCalc Lim_f32 1731 R
+<R>C RawAvrgCalc Rte_Write_SysFricLrng_SysSatnFricEstimd_Val 1732
+<R>X RawAvrgCalc Rte_Write_SysFricLrng_SysSatnFricEstimd_Val 1732 R
+<R>C RawAvrgCalc Lim_f32 1732
+<R>X RawAvrgCalc Lim_f32 1732 R
+<R>C RawAvrgCalc Rte_Write_SysFricLrng_SysFricEstimd_Val 1736
+<R>X RawAvrgCalc Rte_Write_SysFricLrng_SysFricEstimd_Val 1736 R
+<R>C RawAvrgCalc Lim_f32 1736
+<R>X RawAvrgCalc Lim_f32 1736 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1736 R
+<R>C RawAvrgCalc Rte_Write_SysFricLrng_SysSatnFricEstimd_Val 1737
+<R>X RawAvrgCalc Rte_Write_SysFricLrng_SysSatnFricEstimd_Val 1737 R
+<R>C RawAvrgCalc Lim_f32 1737
+<R>X RawAvrgCalc Lim_f32 1737 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1737 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1740 R
+<R>X RawAvrgCalc Rte_Inst_SysFricLrng 1741 R
+<CTLG> RawAvrgCalc 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 6
+<CTLG> 4 5
+<CTLG> 5 3
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 7 9
+<CTLG> 8 16
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 15
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 15 16
+<CTLG> 16 17
+<CTLG> 17 18
+<CTLG> 17 19
+<CTLG> 18 20
+<CTLG> 19 20
+<CTLG> 20 21
+<CTLG> 21 23
+<CTLGN> 1679 1689 1689 1689 1689 1689 1703 1703 1703 1707 1707 1711 1711 1716 1711 1707 1729 1729 1729 1734 1742 1742 1742 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  RawAvrgCalc
+<S>STCYC  6
+<S>STMCC  0 (6:6)
+<S>STMIF  3
+<S>STSUB  15
+<S>STAKI  21
+<S>STLIN  62
+<S>STXLN  28
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  5
+<S>STPTH  16
+<S>STPDN  0.57   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  12
+<S>STAV2  15
+<S>STAV3  18
+<S>STST1  35
+<S>STST2  28
+<S>STST3  23
+<S>STPAR  5
+<S>STCAL  5
+<S>STFN1  287
+<S>STFN2  136
+
+<DEFINE> ClearingMode C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1754 N DR OF F I (.,.) -
+<DEFINE> ClearingMode C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1754 N DF OF F I (.,.) -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1756 N DC OV B N uc -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1756 N DF OV B N uc -
+<DEFINE> Index2_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1757 N DC OV B N uc -
+<DEFINE> Index2_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1757 N DF OV B N uc -
+<R>X ClearingMode Rte_Inst_SysFricLrng 1759 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1759 41 N FN fs B X
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1761 32 N ON ui B X
+<R>X ClearingMode Rte_Inst_SysFricLrng 1763 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1763 63 N FN fs B X
+<R>X ClearingMode Rte_Inst_SysFricLrng 1764 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1764 72 N FN fs B X
+<R>X ClearingMode Rte_Inst_SysFricLrng 1765 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1765 63 N FN fs B X
+<R>X ClearingMode Rte_Inst_SysFricLrng 1766 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1766 63 N FN fs B X
+<R>X ClearingMode Rte_Inst_SysFricLrng 1767 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1767 63 N FN fs B X
+<R>X ClearingMode Rte_Inst_SysFricLrng 1770 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1770 44 N FN fs B X
+<R>X ClearingMode Rte_Inst_SysFricLrng 1771 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1771 44 N FN fs B X
+<R>X ClearingMode Rte_Inst_SysFricLrng 1772 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1772 44 N FN fs B X
+<R>X ClearingMode Rte_Inst_SysFricLrng 1773 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1773 44 N FN fs B X
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1775 32 N ON ui B X
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1777 41 N ON ui B X
+<R>X ClearingMode Rte_Inst_SysFricLrng 1779 R
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1779 94 N ON ui B X
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1781 41 N ON ui B X
+<R>X ClearingMode Rte_Inst_SysFricLrng 1783 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1783 90 N FN fs B X
+<CTLG> ClearingMode 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 6
+<CTLG> 4 5
+<CTLG> 5 3
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 19
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 10 13
+<CTLG> 11 12
+<CTLG> 12 10
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 17
+<CTLG> 15 16
+<CTLG> 16 14
+<CTLG> 17 18
+<CTLG> 18 8
+<CTLG> 19 21
+<CTLGN> 1755 1761 1761 1761 1761 1761 1775 1775 1775 1777 1777 1777 1777 1781 1781 1781 1781 1775 1775 1786 1786 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  ClearingMode
+<S>STCYC  5
+<S>STMCC  0 (5:5)
+<S>STMIF  2
+<S>STSUB  0
+<S>STAKI  5
+<S>STLIN  30
+<S>STXLN  16
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  10
+<S>STPDN  0.63   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  10
+<S>STAV3  12
+<S>STST1  22
+<S>STST2  18
+<S>STST3  16
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  124
+<S>STFN2  69
+
+<DEFINE> FricOffs_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1797 N DC OV B N pfs R
+<DEFINE> ResettingMode C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1797 N DR OF F I (.,pfs) -
+<DEFINE> ResettingMode C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1797 N DF OF F I (.,pfs) -
+<DEFINE> Index1_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1799 N DC OV B N uc -
+<DEFINE> Index1_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1799 N DF OV B N uc -
+<DEFINE> Index2_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1800 N DC OV B N uc -
+<DEFINE> Index2_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1800 N DF OV B N uc -
+<DEFINE> Fric_HwNwtMtr_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1801 N DC OV B N fs -
+<DEFINE> Fric_HwNwtMtr_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1801 N DF OV B N fs -
+<R>X ResettingMode Rte_Inst_SysFricLrng 1803 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1803 41 N FN fs B X
+<R>C ResettingMode Lim_f32 1806
+<R>X ResettingMode Lim_f32 1806 R
+<R>C ResettingMode Rte_Prm_SysFricLrng_SysFricLrngBasLineEolFric_Val 1806
+<R>X ResettingMode Rte_Prm_SysFricLrng_SysFricLrngBasLineEolFric_Val 1806 R
+<R>X ResettingMode Rte_Inst_SysFricLrng 1806 R
+<R>C ResettingMode Rte_Prm_SysFricLrng_SysFricLrngEolFricDifScagFac_Val 1806
+<R>X ResettingMode Rte_Prm_SysFricLrng_SysFricLrngEolFricDifScagFac_Val 1806 R
+<R>C ResettingMode Rte_Prm_SysFricLrng_SysFricLrngEolFricDifLoLim_Val 1806
+<R>X ResettingMode Rte_Prm_SysFricLrng_SysFricLrngEolFricDifLoLim_Val 1806 R
+<R>C ResettingMode Rte_Prm_SysFricLrng_SysFricLrngEolFricDifHiLim_Val 1806
+<R>X ResettingMode Rte_Prm_SysFricLrng_SysFricLrngEolFricDifHiLim_Val 1806 R
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1808 32 N ON ui B X
+<R>C ResettingMode Rte_Prm_SysFricLrng_SysFricLrngBasLineFric_Ary1D 1810
+<R>X ResettingMode Rte_Prm_SysFricLrng_SysFricLrngBasLineFric_Ary1D 1810 R
+<R>C ResettingMode Rte_Prm_SysFricLrng_SysFricLrngBasLineFric_Ary1D 1812
+<R>X ResettingMode Rte_Prm_SysFricLrng_SysFricLrngBasLineFric_Ary1D 1812 R
+<R>X ResettingMode Rte_Inst_SysFricLrng 1812 R
+<R>X ResettingMode Rte_Inst_SysFricLrng 1814 R
+<R>X ResettingMode Rte_Inst_SysFricLrng 1815 R
+<R>X ResettingMode Rte_Inst_SysFricLrng 1816 R
+<R>C ResettingMode Lim_f32 1818
+<R>X ResettingMode Lim_f32 1818 R
+<R>X ResettingMode Rte_Inst_SysFricLrng 1818 R
+<R>X ResettingMode Rte_Inst_SysFricLrng 1821 R
+<R>X ResettingMode Rte_Inst_SysFricLrng 1822 R
+<R>X ResettingMode Rte_Inst_SysFricLrng 1823 R
+<R>X ResettingMode Rte_Inst_SysFricLrng 1824 R
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1828 32 N ON ui B X
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1831 40 N ON ui B X
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1833 48 N DN ui B X
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1833 55 N DN ui B X
+<R>C ResettingMode Rte_Prm_SysFricLrng_SysFricLrngBasLineHys_Ary2D 1836
+<R>X ResettingMode Rte_Prm_SysFricLrng_SysFricLrngBasLineHys_Ary2D 1836 R
+<R>X ResettingMode Rte_Inst_SysFricLrng 1836 R
+<R>C ResettingMode Rte_Prm_SysFricLrng_SysFricLrngBasLineHys_Ary2D 1842
+<R>X ResettingMode Rte_Prm_SysFricLrng_SysFricLrngBasLineHys_Ary2D 1842 R
+<R>X ResettingMode Rte_Inst_SysFricLrng 1842 R
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1849 40 N ON ui B X
+<R>C ResettingMode Rte_Prm_SysFricLrng_SysFricLrngBasLineRngCntr_Ary2D 1851
+<R>X ResettingMode Rte_Prm_SysFricLrng_SysFricLrngBasLineRngCntr_Ary2D 1851 R
+<R>X ResettingMode Rte_Inst_SysFricLrng 1851 R
+<CTLG> ResettingMode 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 6
+<CTLG> 4 5
+<CTLG> 5 3
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 22
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 10 16
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 15 10
+<CTLG> 16 17
+<CTLG> 17 18
+<CTLG> 17 20
+<CTLG> 18 19
+<CTLG> 19 17
+<CTLG> 20 21
+<CTLG> 21 8
+<CTLG> 22 24
+<CTLGN> 1798 1808 1808 1808 1808 1808 1828 1828 1828 1831 1831 1833 1833 1839 1831 1831 1849 1849 1849 1849 1828 1828 1857 1857 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  ResettingMode
+<S>STCYC  6
+<S>STMCC  0 (6:6)
+<S>STMIF  3
+<S>STSUB  11
+<S>STAKI  17
+<S>STLIN  58
+<S>STXLN  22
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  14
+<S>STPDN  0.64   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  13
+<S>STAV3  15
+<S>STST1  29
+<S>STST2  23
+<S>STST3  20
+<S>STPAR  1
+<S>STCAL  8
+<S>STFN1  211
+<S>STFN2  105
+
+<DEFINE> FilHwAg_HwDeg_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1868 N DC OV B N fs R
+<DEFINE> HwAgOK_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1868 N DC OV B N puc R
+<DEFINE> SelHwAg_HwDeg_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1869 N DC OV B N pfs R
+<DEFINE> HwAngConstraint C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1868 N DR OF F I (.,fs,puc,pfs) -
+<DEFINE> HwAngConstraint C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1868 N DF OF F I (.,fs,puc,pfs) -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1871 N DC OV B N uc -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1871 N DF OV B N uc -
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1875 31 N ON ui B X
+<LIT> 0 - P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1878 105 N ON ni B X
+<R>X HwAngConstraint Rte_Inst_SysFricLrng 1878 R
+<R>C HwAngConstraint Rte_Prm_SysFricLrng_SysFricLrngFricHysHwAgPt_Ary1D 1878
+<R>X HwAngConstraint Rte_Prm_SysFricLrng_SysFricLrngFricHysHwAgPt_Ary1D 1878 R
+<R>X HwAngConstraint Rte_Inst_SysFricLrng 1878 R
+<R>C HwAngConstraint Rte_Prm_SysFricLrng_SysFricLrngFricHysHwAgPt_Ary1D 1878
+<R>X HwAngConstraint Rte_Prm_SysFricLrng_SysFricLrngFricHysHwAgPt_Ary1D 1878 R
+<R>X HwAngConstraint Rte_Inst_SysFricLrng 1888 R
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1888 69 N DN ui B X
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1891 50 N DN ui B X
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1891 73 N DN ui B X
+<R>X HwAngConstraint Rte_Inst_SysFricLrng 1893 R
+<R>X HwAngConstraint Rte_Inst_SysFricLrng 1893 R
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1893 90 N DN ui B X
+<R>X HwAngConstraint Rte_Inst_SysFricLrng 1896 R
+<LIT> 0 - P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1896 27 N ON ni B X
+<CTLG> HwAngConstraint 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 9
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 3
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 11 14
+<CTLG> 12 13
+<CTLG> 13 11
+<CTLG> 14 15
+<CTLG> 15 17
+<CTLGN> 1870 1875 1875 1875 1878 1878 1882 1875 1875 1891 1891 1891 1891 1891 1898 1898 1898 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  HwAngConstraint
+<S>STCYC  4
+<S>STMCC  1 (4:5)
+<S>STMIF  2
+<S>STSUB  2
+<S>STAKI  6
+<S>STLIN  27
+<S>STXLN  10
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  6
+<S>STPDN  0.60   
+<S>STPBG  1
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  14
+<S>STAV3  16
+<S>STST1  13
+<S>STST2  9
+<S>STST3  8
+<S>STPAR  3
+<S>STCAL  1
+<S>STFN1  89
+<S>STFN2  39
+
+<DEFINE> FilHwVel_HwRadPerSec_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1909 N DC OV B N fs R
+<DEFINE> HwVelOK_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1909 N DC OV B N puc R
+<DEFINE> HwVelDir_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1910 N DC OV B N puc R
+<DEFINE> HwVelConstraint C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1909 N DR OF F I (.,fs,puc,puc) -
+<DEFINE> HwVelConstraint C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1909 N DF OF F I (.,fs,puc,puc) -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1912 N DC OV B N uc -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1912 N DF OV B N uc -
+<DEFINE> HwVelBufSum_HwRadPerSec_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1913 N DC OV B N fs -
+<DEFINE> HwVelBufSum_HwRadPerSec_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1913 N DF OV B N fs -
+<DEFINE> HwVelBufAvg_HwRadPerSec_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1914 N DC OV B N fs -
+<DEFINE> HwVelBufAvg_HwRadPerSec_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1914 N DF OV B N fs -
+<DEFINE> HwVelBufMin_HwRadPerSec_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1915 N DC OV B N fs -
+<DEFINE> HwVelBufMin_HwRadPerSec_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1915 N DF OV B N fs -
+<DEFINE> HwVelBufMax_HwRadPerSec_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1916 N DC OV B N fs -
+<DEFINE> HwVelBufMax_HwRadPerSec_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1916 N DF OV B N fs -
+<DEFINE> VariNegRng_Cnt_T_Lgcl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1917 N DC OV B N uc -
+<DEFINE> VariNegRng_Cnt_T_Lgcl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1917 N DF OV B N uc -
+<DEFINE> VariPosRng_Cnt_T_Lgcl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1918 N DC OV B N uc -
+<DEFINE> VariPosRng_Cnt_T_Lgcl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1918 N DF OV B N uc -
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1921 41 N FN fs B X
+<R>X HwVelConstraint Rte_Inst_SysFricLrng 1922 R
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1922 60 N ON ui B X
+<R>X HwVelConstraint Rte_Inst_SysFricLrng 1923 R
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1923 60 N ON ui B X
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1929 31 N ON ui B X
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1931 58 N FN fs B X
+<R>X HwVelConstraint Rte_Inst_SysFricLrng 1931 R
+<LIT> 0.0 F P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1935 58 N FN fs B X
+<R>X HwVelConstraint Rte_Inst_SysFricLrng 1935 R
+<R>X HwVelConstraint Rte_Inst_SysFricLrng 1940 R
+<R>C HwVelConstraint Min_f32 1942
+<R>X HwVelConstraint Min_f32 1942 R
+<R>X HwVelConstraint Rte_Inst_SysFricLrng 1942 R
+<R>C HwVelConstraint Max_f32 1943
+<R>X HwVelConstraint Max_f32 1943 R
+<R>X HwVelConstraint Rte_Inst_SysFricLrng 1943 R
+<R>C HwVelConstraint Abslt_f32_f32 1948
+<R>X HwVelConstraint Abslt_f32_f32 1948 R
+<R>C HwVelConstraint Rte_Prm_SysFricLrng_SysFricLrngHwVelHiLim_Val 1953
+<R>X HwVelConstraint Rte_Prm_SysFricLrng_SysFricLrngHwVelHiLim_Val 1953 R
+<R>C HwVelConstraint Rte_Prm_SysFricLrng_SysFricLrngHwVelLoLim_Val 1953
+<R>X HwVelConstraint Rte_Prm_SysFricLrng_SysFricLrngHwVelLoLim_Val 1953 R
+<R>C HwVelConstraint Rte_Prm_SysFricLrng_SysFricLrngHwVelConstrLim_Val 1953
+<R>X HwVelConstraint Rte_Prm_SysFricLrng_SysFricLrngHwVelConstrLim_Val 1953 R
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1977 50 N DN ui B X
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1977 73 N DN ui B X
+<R>X HwVelConstraint Rte_Inst_SysFricLrng 1979 R
+<R>X HwVelConstraint Rte_Inst_SysFricLrng 1979 R
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1979 92 N DN ui B X
+<R>X HwVelConstraint Rte_Inst_SysFricLrng 1983 R
+<LIT> 0 - P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1983 28 N ON ni B X
+<CTLG> HwVelConstraint 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 10
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 9 3
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 16
+<CTLG> 15 20
+<CTLG> 16 17
+<CTLG> 16 18
+<CTLG> 17 19
+<CTLG> 18 19
+<CTLG> 19 20
+<CTLG> 20 21
+<CTLG> 21 22
+<CTLG> 21 24
+<CTLG> 22 23
+<CTLG> 23 21
+<CTLG> 24 25
+<CTLG> 25 27
+<CTLGN> 1911 1929 1929 1929 1931 1931 1935 1935 1929 1929 1953 1953 1953 1957 1962 1962 1966 1966 1970 1966 1977 1977 1977 1977 1986 1986 1986 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  HwVelConstraint
+<S>STCYC  8
+<S>STMCC  4 (8:12)
+<S>STMIF  2
+<S>STSUB  6
+<S>STAKI  14
+<S>STLIN  74
+<S>STXLN  30
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  7
+<S>STPTH  60
+<S>STPDN  2.00   
+<S>STPBG  2
+<S>STLOP  4
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  10
+<S>STAV3  12
+<S>STST1  41
+<S>STST2  32
+<S>STST3  25
+<S>STPAR  3
+<S>STCAL  6
+<S>STFN1  210
+<S>STFN2  112
+
+<DEFINE> FilVehSpd_Kph_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1997 N DC OV B N fs R
+<DEFINE> VehSpdOK_Cnt_T_Logl C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1997 N DC OV B N puc R
+<DEFINE> VehSpdIdx_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1998 N DC OV B N puc R
+<DEFINE> VehSpdConstraint C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1997 N DR OF F I (.,fs,puc,puc) -
+<DEFINE> VehSpdConstraint C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 1997 N DF OF F I (.,fs,puc,puc) -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2000 N DC OV B N uc -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2000 N DF OV B N uc -
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2003 32 N ON ui B X
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2006 31 N ON ui B X
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2008 102 N DN ui B X
+<LIT> 0 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2009 87 N ON ui B X
+<R>C VehSpdConstraint Rte_Prm_SysFricLrng_SysFricLrngVehSpd_Ary2D 2009
+<R>X VehSpdConstraint Rte_Prm_SysFricLrng_SysFricLrngVehSpd_Ary2D 2009 R
+<R>C VehSpdConstraint Rte_Prm_SysFricLrng_SysFricLrngVehSpd_Ary2D 2009
+<R>X VehSpdConstraint Rte_Prm_SysFricLrng_SysFricLrngVehSpd_Ary2D 2009 R
+<CTLG> VehSpdConstraint 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 8
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 7 3
+<CTLG> 8 10
+<CTLGN> 1999 2006 2006 2006 2009 2009 2006 2006 2016 2016 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  VehSpdConstraint
+<S>STCYC  3
+<S>STMCC  2 (3:5)
+<S>STMIF  2
+<S>STSUB  2
+<S>STAKI  5
+<S>STLIN  16
+<S>STXLN  7
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  3
+<S>STPDN  0.43   
+<S>STPBG  0
+<S>STLOP  2
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  12
+<S>STAV3  14
+<S>STST1  9
+<S>STST2  7
+<S>STST3  6
+<S>STPAR  3
+<S>STCAL  1
+<S>STFN1  56
+<S>STFN2  28
+
+<DEFINE> FilColTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2026 N DC OV B N fs R
+<DEFINE> SelColTq_HwNwtMtr_T_f32 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2026 N DC OV B N pfs R
+<DEFINE> ColTqconstraint C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2026 N DR OF F I (.,fs,pfs) -
+<DEFINE> ColTqconstraint C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2026 N DF OF F I (.,fs,pfs) -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2028 N DC OV B N uc -
+<DEFINE> Index_Cnt_T_u08 C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2028 N DF OV B N uc -
+<R>X ColTqconstraint Rte_Inst_SysFricLrng 2031 R
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2031 74 N DN ui B X
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2034 50 N DN ui B X
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2034 73 N DN ui B X
+<R>X ColTqconstraint Rte_Inst_SysFricLrng 2036 R
+<R>X ColTqconstraint Rte_Inst_SysFricLrng 2036 R
+<LIT> 1 U P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2036 92 N DN ui B X
+<R>X ColTqconstraint Rte_Inst_SysFricLrng 2039 R
+<LIT> 0 - P C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c 2039 28 N ON ni B X
+<CTLG> ColTqconstraint 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 6
+<CTLG> 4 5
+<CTLG> 5 3
+<CTLG> 6 7
+<CTLG> 7 9
+<CTLGN> 2027 2034 2034 2034 2034 2034 2042 2042 2042 
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  ColTqconstraint
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  14
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  12
+<S>STAV3  16
+<S>STST1  6
+<S>STST2  5
+<S>STST3  4
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  42
+<S>STFN2  22
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  ClearingMode
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  ClrFricLrngOperMod_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  ColTqconstraint
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  PhiCalc
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  RangeCounterManager
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  RawAvrgCalc
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  NTCSetReset
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  FricLearning
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  GetFricLrngData_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  GetFricOffsOutpDi_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  HwAngConstraint
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  HwVelConstraint
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  InitFricLrngTbl_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  ResettingMode
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  VehSpdConstraint
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  RunningAndCalibrationModes
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  SetFricLrngData_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  SetFricOffsOutpDi_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinLookup
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  SysFricLrngInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  SysFricLrngPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNAM  C:/Component/SF007A_SysFricLrng_Impl/src/SysFricLrng.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  12
+<S>STECT  1
+<S>STFNC  20
+<S>STFCO  138
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  255
+<S>STOPT  44
+<S>STOPN  374
+<S>STTOT  5104
+<S>STZIP  2764
+<S>STHAL  3437
+<S>STSHN  13065
+<S>STDIF  21.60  
+<S>STEFF  959988
+<S>STVOL  44442
+<S>STDEV  160.00 
+<S>STBUG  10
+<S>STTPP  2058
+<S>STTLN  607
+<S>STM20  1797
+<S>STM21  3302
+<S>STM22  282
+<S>STM28  130
+<S>STM33  97
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  5.121  
+<S>STBMS  6.733  
+<S>STBME  8.559  
+<S>STTDO  4.650  
+<S>STTDS  4.873  
+<S>STTDE  4.970  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.353  
+

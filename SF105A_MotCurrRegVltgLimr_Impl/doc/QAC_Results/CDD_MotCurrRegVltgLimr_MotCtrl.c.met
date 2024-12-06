@@ -1,0 +1,1117 @@
+<RDEF> I Includes
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_CDD_MotCurrRegVltgLimr.h 26
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_CDD_MotCurrRegVltgLimr.h C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_CDD_MotCurrRegVltgLimr_Type.h 40
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_CDD_MotCurrRegVltgLimr_Type.h C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_Type.h C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte.h 27
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte.h C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_UserTypes.h 41
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_UserTypes.h C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h 40
+<R>I C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 24
+<R>I C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 25
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/TL103A_CplrSuprt/include/2015.1.5/ansi/math.h 26
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_CDD_MotCurrRegVltgLimr.h C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_CDD_MotCurrRegVltgLimr.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 94
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_CDD_MotCurrRegVltgLimr.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 99
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_CDD_MotCurrRegVltgLimr.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 105
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_CDD_MotCurrRegVltgLimr.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 134
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_CDD_MotCurrRegVltgLimr.h C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/CDD_MotCurrRegVltgLimr_MemMap.h 353
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/CDD_MotCurrRegVltgLimr_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/Rte_CDD_MotCurrRegVltgLimr.h C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/CDD_MotCurrRegVltgLimr_MemMap.h 370
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/CDD_MotCurrRegVltgLimr_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/CDD_MotCtrlMgr_Data.h 27
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/CDD_MotCtrlMgr_Data.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c C:/component/SF105A_MotCurrRegVltgLimr_Impl/include/CDD_MotCurrRegVltgLimr.h 28
+<DEFINE> CDD_MOTCURRREGVLTGLIMR_H C:/component/SF105A_MotCurrRegVltgLimr_Impl/include/CDD_MotCurrRegVltgLimr.h 21 I DF OM - - - O
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/include/CDD_MotCurrRegVltgLimr.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<EXTN> MotCurrRegVltgLimrPer1 C:/component/SF105A_MotCurrRegVltgLimr_Impl/include/CDD_MotCurrRegVltgLimr.h 30
+<DEFINE> MotCurrRegVltgLimrPer1 C:/component/SF105A_MotCurrRegVltgLimr_Impl/include/CDD_MotCurrRegVltgLimr.h 30 I DC OF F X (.,.) -
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 29
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/ElecGlbPrm.h 30
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c C:/component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 31
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c C:/component/SF105A_MotCurrRegVltgLimr_Impl/tools/contract/MotRefMdl.h 32
+<DEFINE> MOTCURRLOLIM_AMPR_F32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 37 N DF OM - - - O
+<LIT> 200.0 F N C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 37 43 N FN - F M
+<DEFINE> MOTCURRHILIM_AMPR_F32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 38 N DF OM - - - O
+<LIT> 200.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 38 41 N FN - F M
+<DEFINE> BRDGVLTGLOLIM_VOLT_F32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 39 N DF OM - - - O
+<LIT> 6.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 39 41 N FN - F M
+<DEFINE> BRDGVLTGHILIM_VOLT_F32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 40 N DF OM - - - O
+<LIT> 26.5 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 40 41 N FN - F M
+<DEFINE> F32TOU16OVR2PI_ULS_F32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 41 N DF OM - - - O
+<LIT> 10430.21921 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 41 41 N FN - F M
+<DEFINE> MODIDXHILIM_VOLT_F32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 42 N DF OM - - - O
+<LIT> 1.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 42 41 N FN - F M
+<DEFINE> MODIDXLOLIM_VOLT_F32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 43 N DF OM - - - O
+<LIT> 0.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 43 41 N FN - F M
+<DEFINE> MOTVLTGDQAXHILIM_VOLT_F32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 44 N DF OM - - - O
+<LIT> 26.5 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 44 49 N FN - F M
+<DEFINE> MOTVLTGDQAXLOLIM_VOLT_F32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 45 N DF OM - - - O
+<LIT> 26.5 F N C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 45 51 N FN - F M
+<DEFINE> PHAADVHILIM_MOTREV_F32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 46 N DF OM - - - O
+<LIT> 65535.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 46 49 N FN - F M
+<DEFINE> PHAADVLOLIM_MOTREV_F32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 47 N DF OM - - - O
+<LIT> 0.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 47 49 N FN - F M
+<DEFINE> ZERO_VOLT_F32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 48 N DF OM - - - O
+<LIT> 0.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 48 57 N FN - F M
+<DEFINE> MotPropGain_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 51 N DC OV P N fs R
+<DEFINE> MotIntglGain_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 51 N DC OV P N fs R
+<DEFINE> SysSt_Cnt_T_enum C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 52 N DC OV P N uc R
+<DEFINE> CmdErr_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 52 N DC OV P N fs R
+<DEFINE> MotVltgIntglCmdPrev_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 53 N DC OV P N pfs R
+<DEFINE> MotCurrRegVltgLimrMotVltgPropCmd_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 54 N DC OV P N pfs R
+<DEFINE> MotCurrRegVltgLimrMotVltgIntglPreLim_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 55 N DC OV P N pfs R
+<DEFINE> MotVltgIntglLoLim_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 56 N DC OV P N fs R
+<DEFINE> MotVltgIntglHiLim_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 56 N DC OV P N fs R
+<DEFINE> MotVltgPropCmd_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 57 N DC OV P N pfs R
+<DEFINE> MotVltgIntglCmd_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 58 N DC OV P N pfs R
+<DEFINE> KpKiCtrl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 51 N DC OF F I (.,fs,fs,uc,fs,pfs,pfs,pfs,fs,fs,pfs,pfs) -
+<DEFINE> QaxCurrCmd_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 60 N DC OV P N fs R
+<DEFINE> QaxRplCmd_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 61 N DC OV P N fs R
+<DEFINE> QaxCoggCmd_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 62 N DC OV P N fs R
+<DEFINE> QaxCurrModif_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 63 N DC OV P N fs R
+<DEFINE> AntiWdupCmdSca_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 64 N DC OV P N fs R
+<DEFINE> QaxCmdFinal_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 65 N DC OV P N pfs R
+<DEFINE> ErrorCalcQax C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 60 N DC OF F I (fs,fs,fs,fs,fs,fs,pfs) -
+<DEFINE> CurrLoaMtgtnEn_Cnt_T_logl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 67 N DC OV P N uc R
+<DEFINE> IvtrLoaMtgtnEn_Cnt_T_logl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 68 N DC OV P N uc R
+<DEFINE> MotCtrlDualEcuMotCtrlMtgtnEna_Cnt_T_logl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 69 N DC OV P N uc R
+<DEFINE> CurrLoaScaFac_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 70 N DC OV P N pfs R
+<DEFINE> IvtrLoaScaFac_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 71 N DC OV P N pfs R
+<DEFINE> DualEcuScaFac_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 72 N DC OV P N pfs R
+<DEFINE> LoaScaFac C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 67 N DC OF F I (.,uc,uc,uc,pfs,pfs,pfs) -
+<DEFINE> MotInduQaxEstimdIvs_IvsHenry_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 74 N DC OV P N fs R
+<DEFINE> MotREstimd_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 75 N DC OV P N fs R
+<DEFINE> CurrQax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 76 N DC OV P N fs R
+<DEFINE> MotVltgQaxPrev_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 77 N DC OV P N fs R
+<DEFINE> CurrDax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 78 N DC OV P N fs R
+<DEFINE> MotVltgDaxPrev_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 79 N DC OV P N fs R
+<DEFINE> MotBackEmfVltg_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 80 N DC OV P N fs R
+<DEFINE> ReacncQax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 81 N DC OV P N fs R
+<DEFINE> ReacncDax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 82 N DC OV P N fs R
+<DEFINE> MotInduDaxEstimdIvs_IvsHenry_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 83 N DC OV P N fs R
+<DEFINE> MotCurrRegVltgLimrMotCurrPredEna_Cnt_T_Logl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 84 N DC OV P N uc R
+<DEFINE> MotCtrlCurrPredTi_NanoSec_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 85 N DC OV P N fs R
+<DEFINE> MotCurrQaxPred_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 86 N DC OV P N pfs R
+<DEFINE> MotCurrDaxPred_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 87 N DC OV P N pfs R
+<DEFINE> MotCurr_Pred C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 74 N DC OF F I (.,fs,fs,fs,fs,fs,fs,fs,fs,fs,fs,uc,fs,pfs,pfs) -
+<DEFINE> CDD_MotCurrRegVltgLimr_MotCtrl_START_SEC_CODE C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 89 N DF OM - - - O
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c C:/component/SF105A_MotCurrRegVltgLimr_Impl/include/CDD_MotCurrRegVltgLimr_MotCtrl_MemMap.h 90
+<DEFINE> MotCtrl_START_SEC_CODE C:/component/SF105A_MotCurrRegVltgLimr_Impl/include/CDD_MotCurrRegVltgLimr_MotCtrl_MemMap.h 26 I DF OM - - - O
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/include/CDD_MotCurrRegVltgLimr_MotCtrl_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 27
+<EXTD> MotCurrRegVltgLimrPer1 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 99
+<DEFINE> MotCurrRegVltgLimrPer1 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 99 N DR OF F X (.,.) -
+<DEFINE> MotCurrRegVltgLimrPer1 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 99 N DF OF F X (.,.) -
+<DEFINE> MotCtrlBrdgVltg_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 101 N DC OV B N fs -
+<DEFINE> MotCtrlBrdgVltg_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 101 N DF OV B N fs -
+<DEFINE> MotCurrDax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 102 N DC OV B N fs -
+<DEFINE> MotCurrDax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 102 N DF OV B N fs -
+<DEFINE> CmdErrDax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 103 N DC OV B N fs -
+<DEFINE> CmdErrDax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 103 N DF OV B N fs -
+<DEFINE> MotCurrQax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 104 N DC OV B N fs -
+<DEFINE> MotCurrQax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 104 N DF OV B N fs -
+<DEFINE> MotCurrQaxCmd_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 105 N DC OV B N fs -
+<DEFINE> MotCurrQaxCmd_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 105 N DF OV B N fs -
+<DEFINE> MotCurrDaxCmd_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 106 N DC OV B N fs -
+<DEFINE> MotCurrDaxCmd_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 106 N DF OV B N fs -
+<DEFINE> MotIntglGainDax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 107 N DC OV B N fs -
+<DEFINE> MotIntglGainDax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 107 N DF OV B N fs -
+<DEFINE> MotPropGainDax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 108 N DC OV B N fs -
+<DEFINE> MotPropGainDax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 108 N DF OV B N fs -
+<DEFINE> MotIntglGainQax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 109 N DC OV B N fs -
+<DEFINE> MotIntglGainQax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 109 N DF OV B N fs -
+<DEFINE> MotPropGainQax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 110 N DC OV B N fs -
+<DEFINE> MotPropGainQax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 110 N DF OV B N fs -
+<DEFINE> MotAgElecDly_Rad_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 111 N DC OV B N fs -
+<DEFINE> MotAgElecDly_Rad_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 111 N DF OV B N fs -
+<DEFINE> MotVltgDaxFf_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 112 N DC OV B N fs -
+<DEFINE> MotVltgDaxFf_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 112 N DF OV B N fs -
+<DEFINE> MotVltgQaxFf_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 113 N DC OV B N fs -
+<DEFINE> MotVltgQaxFf_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 113 N DF OV B N fs -
+<DEFINE> CmdErrQax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 114 N DC OV B N fs -
+<DEFINE> CmdErrQax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 114 N DF OV B N fs -
+<DEFINE> MotVltgPropCmdQax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 115 N DC OV B N fs -
+<DEFINE> MotVltgPropCmdQax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 115 N DF OV B N fs -
+<DEFINE> MotVltgPropCmdDax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 116 N DC OV B N fs -
+<DEFINE> MotVltgPropCmdDax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 116 N DF OV B N fs -
+<DEFINE> MotVltgIntglCmdQax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 117 N DC OV B N fs -
+<DEFINE> MotVltgIntglCmdQax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 117 N DF OV B N fs -
+<DEFINE> MotVltgIntglCmdDax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 118 N DC OV B N fs -
+<DEFINE> MotVltgIntglCmdDax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 118 N DF OV B N fs -
+<DEFINE> MotVltgSq_VoltSq_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 119 N DC OV B N fs -
+<DEFINE> MotVltgSq_VoltSq_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 119 N DF OV B N fs -
+<DEFINE> MotVltgCmdPreLim_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 120 N DC OV B N fs -
+<DEFINE> MotVltgCmdPreLim_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 120 N DF OV B N fs -
+<DEFINE> MotVltgCmdFinal_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 121 N DC OV B N fs -
+<DEFINE> MotVltgCmdFinal_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 121 N DF OV B N fs -
+<DEFINE> MotVltgQax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 122 N DC OV B N fs -
+<DEFINE> MotVltgQax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 122 N DF OV B N fs -
+<DEFINE> MotVltgDax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 123 N DC OV B N fs -
+<DEFINE> MotVltgDax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 123 N DF OV B N fs -
+<DEFINE> ModIdx_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 124 N DC OV B N fs -
+<DEFINE> ModIdx_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 124 N DF OV B N fs -
+<DEFINE> PhsAdv_Rad_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 125 N DC OV B N fs -
+<DEFINE> PhsAdv_Rad_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 125 N DF OV B N fs -
+<DEFINE> PhsAdvFinal_Rad_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 126 N DC OV B N fs -
+<DEFINE> PhsAdvFinal_Rad_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 126 N DF OV B N fs -
+<DEFINE> PhsAdvFinal_Rev_T_u0p16 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 127 N DC OV B N us -
+<DEFINE> PhsAdvFinal_Rev_T_u0p16 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 127 N DF OV B N us -
+<DEFINE> MotCurrQaxCmdFinal_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 128 N DC OV B N fs -
+<DEFINE> MotCurrQaxCmdFinal_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 128 N DF OV B N fs -
+<DEFINE> MotDampgDax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 129 N DC OV B N fs -
+<DEFINE> MotDampgDax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 129 N DF OV B N fs -
+<DEFINE> MotDampgQax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 130 N DC OV B N fs -
+<DEFINE> MotDampgQax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 130 N DF OV B N fs -
+<DEFINE> MotReacDax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 131 N DC OV B N fs -
+<DEFINE> MotReacDax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 131 N DF OV B N fs -
+<DEFINE> MotReacQax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 132 N DC OV B N fs -
+<DEFINE> MotReacQax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 132 N DF OV B N fs -
+<DEFINE> MotVltgDircFbQax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 133 N DC OV B N fs -
+<DEFINE> MotVltgDircFbQax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 133 N DF OV B N fs -
+<DEFINE> MotVltgDircFbDax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 134 N DC OV B N fs -
+<DEFINE> MotVltgDircFbDax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 134 N DF OV B N fs -
+<DEFINE> MotVltgQaxDampg_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 135 N DC OV B N fs -
+<DEFINE> MotVltgQaxDampg_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 135 N DF OV B N fs -
+<DEFINE> MotVltgDaxDampg_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 136 N DC OV B N fs -
+<DEFINE> MotVltgDaxDampg_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 136 N DF OV B N fs -
+<DEFINE> MotVltgQaxDecouplFb_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 137 N DC OV B N fs -
+<DEFINE> MotVltgQaxDecouplFb_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 137 N DF OV B N fs -
+<DEFINE> MotVltgDaxDecouplFb_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 138 N DC OV B N fs -
+<DEFINE> MotVltgDaxDecouplFb_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 138 N DF OV B N fs -
+<DEFINE> CurrMeasLoaMtgtnEna_Cnt_T_logl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 139 N DC OV B N uc -
+<DEFINE> CurrMeasLoaMtgtnEna_Cnt_T_logl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 139 N DF OV B N uc -
+<DEFINE> IvtrLoaMtgtnEn_Cnt_T_logl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 140 N DC OV B N uc -
+<DEFINE> IvtrLoaMtgtnEn_Cnt_T_logl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 140 N DF OV B N uc -
+<DEFINE> MotCtrlDualEcuMotCtrlMtgtnEna_Cnt_T_logl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 141 N DC OV B N uc -
+<DEFINE> MotCtrlDualEcuMotCtrlMtgtnEna_Cnt_T_logl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 141 N DF OV B N uc -
+<DEFINE> CurrLoaScaFac_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 142 N DC OV B N fs -
+<DEFINE> CurrLoaScaFac_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 142 N DF OV B N fs -
+<DEFINE> VltgSatnIvsRatio_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 143 N DC OV B N fs -
+<DEFINE> VltgSatnIvsRatio_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 143 N DF OV B N fs -
+<DEFINE> VltgSatnRatio_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 144 N DC OV B N fs -
+<DEFINE> VltgSatnRatio_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 144 N DF OV B N fs -
+<DEFINE> IvtrLoaScaFac_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 145 N DC OV B N fs -
+<DEFINE> IvtrLoaScaFac_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 145 N DF OV B N fs -
+<DEFINE> MotVltgPreLimQax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 146 N DC OV B N fs -
+<DEFINE> MotVltgPreLimQax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 146 N DF OV B N fs -
+<DEFINE> LoaScaFac_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 147 N DC OV B N fs -
+<DEFINE> LoaScaFac_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 147 N DF OV B N fs -
+<DEFINE> MotVltgPreLimDax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 148 N DC OV B N fs -
+<DEFINE> MotVltgPreLimDax_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 148 N DF OV B N fs -
+<DEFINE> SqrdVltgSatnIvsRatio_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 149 N DC OV B N fs -
+<DEFINE> SqrdVltgSatnIvsRatio_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 149 N DF OV B N fs -
+<DEFINE> MotCurrQaxCoggCmd_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 150 N DC OV B N fs -
+<DEFINE> MotCurrQaxCoggCmd_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 150 N DF OV B N fs -
+<DEFINE> MotCurrQaxRplCmd_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 151 N DC OV B N fs -
+<DEFINE> MotCurrQaxRplCmd_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 151 N DF OV B N fs -
+<DEFINE> MotRefMdlIvtrDeadTiBrdgVltgSca_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 152 N DC OV B N fs -
+<DEFINE> MotRefMdlIvtrDeadTiBrdgVltgSca_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 152 N DF OV B N fs -
+<DEFINE> SysSt_Cnt_T_enum C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 153 N DC OV B N uc -
+<DEFINE> SysSt_Cnt_T_enum C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 153 N DF OV B N uc -
+<DEFINE> MotCurrDaxCmdMax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 154 N DC OV B N fs -
+<DEFINE> MotCurrDaxCmdMax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 154 N DF OV B N fs -
+<DEFINE> MotCurrRegVltgLimrMotCurrCmdScaDax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 155 N DC OV B N fs -
+<DEFINE> MotCurrRegVltgLimrMotCurrCmdScaDax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 155 N DF OV B N fs -
+<DEFINE> MotCurrRegVltgLimrMotVltgQaxFb_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 156 N DC OV B N fs -
+<DEFINE> MotCurrRegVltgLimrMotVltgQaxFb_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 156 N DF OV B N fs -
+<DEFINE> MotCurrRegVltgLimrMotVltgDaxFb_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 157 N DC OV B N fs -
+<DEFINE> MotCurrRegVltgLimrMotVltgDaxFb_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 157 N DF OV B N fs -
+<DEFINE> MotVltgQaxFfFild_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 158 N DC OV B N fs -
+<DEFINE> MotVltgQaxFfFild_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 158 N DF OV B N fs -
+<DEFINE> MotCtrlBrdgVltgFild_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 159 N DC OV B N fs -
+<DEFINE> MotCtrlBrdgVltgFild_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 159 N DF OV B N fs -
+<DEFINE> MotCtrlMotBackEmfVltg_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 160 N DC OV B N fs -
+<DEFINE> MotCtrlMotBackEmfVltg_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 160 N DF OV B N fs -
+<DEFINE> MotCtrlMotREstimd_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 161 N DC OV B N fs -
+<DEFINE> MotCtrlMotREstimd_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 161 N DF OV B N fs -
+<DEFINE> MotCtrlMotInduDaxEstimdIvs_IvsHenry_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 162 N DC OV B N fs -
+<DEFINE> MotCtrlMotInduDaxEstimdIvs_IvsHenry_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 162 N DF OV B N fs -
+<DEFINE> MotCtrlMotInduQaxEstimdIvs_IvsHenry_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 163 N DC OV B N fs -
+<DEFINE> MotCtrlMotInduQaxEstimdIvs_IvsHenry_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 163 N DF OV B N fs -
+<DEFINE> DualEcuScaFac_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 164 N DC OV B N fs -
+<DEFINE> DualEcuScaFac_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 164 N DF OV B N fs -
+<DEFINE> MotCurrQaxPred_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 165 N DC OV B N fs -
+<DEFINE> MotCurrQaxPred_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 165 N DF OV B N fs -
+<DEFINE> MotCurrDaxPred_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 166 N DC OV B N fs -
+<DEFINE> MotCurrDaxPred_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 166 N DF OV B N fs -
+<RDEF> X Refers-to
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlBrdgVltg 169 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlIvtrLoaMtgtnEna 170 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotAgElecDly 171 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotCurrDax 172 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotCurrDaxCmd 173 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotCurrDaxMax 174 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlCurrMeasLoaMtgtnEna 175 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotCurrQax 176 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotCurrQaxCmd 177 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotCurrQaxCoggCmd 178 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotCurrQaxRplCmd 179 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotDampgDax 180 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotDampgQax 181 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotIntglGainDax 182 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotIntglGainQax 183 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotPropGainDax 184 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotPropGainQax 185 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotReacncDax 186 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotReacncQax 187 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotVltgDaxFf 188 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotVltgQaxFf 189 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlSysSt 190 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlDualEcuMotCtrlMtgtnEna 191 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotBackEmfVltg 192 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotREstimd 193 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotInduDaxEstimdIvs 194 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotInduQaxEstimdIvs 195 R
+<RDEF> C Calls
+<R>C MotCurrRegVltgLimrPer1 MotCurr_Pred 211
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 211 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 211 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotCurrPredEna_Logl 211
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotCurrPredEna_Logl 211 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotCurrPredTi_Val 211
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotCurrPredTi_Val 211 R
+<R>C MotCurrRegVltgLimrPer1 Lim_f32 219
+<R>X MotCurrRegVltgLimrPer1 Lim_f32 219 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 219 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 219 R
+<LIT> 1.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 217 96 N FN fs B X
+<LIT> 0.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 218 65 N FN fs B X
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 220 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 222 R
+<R>C MotCurrRegVltgLimrPer1 ErrorCalcQax 236
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 236 R
+<R>C MotCurrRegVltgLimrPer1 KpKiCtrl 254
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 254 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 254 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 254 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotVltgQaxIntglLoLim_Val 254
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotVltgQaxIntglLoLim_Val 254 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotVltgQaxIntglHiLim_Val 254
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotVltgQaxIntglHiLim_Val 254 R
+<R>C MotCurrRegVltgLimrPer1 KpKiCtrl 272
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 272 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 272 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 272 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotVltgDaxIntglLoLim_Val 272
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotVltgDaxIntglLoLim_Val 272 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotVltgDaxIntglHiLim_Val 272
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotVltgDaxIntglHiLim_Val 272 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotRefMdlFbCtrlDi_Logl 283
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotRefMdlFbCtrlDi_Logl 283 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 287 R
+<LIT> 0.0 f P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 287 56 N FN fs B X
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 288 R
+<LIT> 0.0 f P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 288 56 N FN fs B X
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 289 R
+<LIT> 0.0 f P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 289 59 N FN fs B X
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 290 R
+<LIT> 0.0 f P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 290 59 N FN fs B X
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegCfgCurrLoopSecOrderTrfFcnEn_Logl 300
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegCfgCurrLoopSecOrderTrfFcnEn_Logl 300 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegCfgMotRVirtQax_Val 307
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegCfgMotRVirtQax_Val 307 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegCfgMotRVirtDax_Val 308
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegCfgMotRVirtDax_Val 308 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 316 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 317 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 318 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 319 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 328 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 329 R
+<R>C MotCurrRegVltgLimrPer1 LoaScaFac 344
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 359 R
+<R>C MotCurrRegVltgLimrPer1 FilLpUpdOutp_f32 361
+<R>X MotCurrRegVltgLimrPer1 FilLpUpdOutp_f32 361 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 361 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotRefMdlFbCtrlDi_Logl 367
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotRefMdlFbCtrlDi_Logl 367 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotVltgQaxFfFilEna_Logl 367
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotVltgQaxFfFilEna_Logl 367 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 370 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 375 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 378 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 386 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 388 R
+<R>C MotCurrRegVltgLimrPer1 Lim_f32 397
+<R>X MotCurrRegVltgLimrPer1 Lim_f32 397 R
+<R>C MotCurrRegVltgLimrPer1 Sqrt_f32 399
+<R>X MotCurrRegVltgLimrPer1 Sqrt_f32 399 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 400 R
+<R>C MotCurrRegVltgLimrPer1 FilLpUpdOutp_f32 403
+<R>X MotCurrRegVltgLimrPer1 FilLpUpdOutp_f32 403 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 403 R
+<R>C MotCurrRegVltgLimrPer1 Lim_f32 406
+<R>X MotCurrRegVltgLimrPer1 Lim_f32 406 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotVltgBrdgFilEna_Logl 408
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotVltgBrdgFilEna_Logl 408 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 418 R
+<R>C MotCurrRegVltgLimrPer1 Lim_f32 423
+<R>X MotCurrRegVltgLimrPer1 Lim_f32 423 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotRefMdlIvtrDeadTiBrdgVltgSca_Val 423
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotRefMdlIvtrDeadTiBrdgVltgSca_Val 423 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 426 R
+<LIT> 1.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 428 35 N FN fs B X
+<LIT> 1.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 430 38 N FN fs B X
+<LIT> 1.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 434 38 N FN fs B X
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 436 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 444 R
+<R>C MotCurrRegVltgLimrPer1 Arctan2_f32 454
+<R>X MotCurrRegVltgLimrPer1 Arctan2_f32 454 R
+<LIT> 0.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 463 37 N FN fs B X
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 471 R
+<R>C MotCurrRegVltgLimrPer1 Lim_f32 473
+<R>X MotCurrRegVltgLimrPer1 Lim_f32 473 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrQaxAntiWdupScagDi_Logl 484
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrQaxAntiWdupScagDi_Logl 484 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 487 R
+<LIT> 1.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 487 45 N FN fs B X
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrQaxAntiWdupCoeff_Val 492
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrQaxAntiWdupCoeff_Val 492 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrQaxAntiWdupCoeff_Val 492
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrQaxAntiWdupCoeff_Val 492 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 492 R
+<LIT> 1.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 492 77 N FN fs B X
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrQaxAntiWdupCoeff_Val 496
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrQaxAntiWdupCoeff_Val 496 R
+<R>C MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrQaxAntiWdupCoeff_Val 496
+<R>X MotCurrRegVltgLimrPer1 Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrQaxAntiWdupCoeff_Val 496 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 496 R
+<LIT> 1.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 496 69 N FN fs B X
+<R>C MotCurrRegVltgLimrPer1 Lim_f32 501
+<R>X MotCurrRegVltgLimrPer1 Lim_f32 501 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotCurrQaxCmdFinal 501 W
+<R>C MotCurrRegVltgLimrPer1 Lim_f32 502
+<R>X MotCurrRegVltgLimrPer1 Lim_f32 502 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotModlnIdx 502 W
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotPhaAdv 503 W
+<R>C MotCurrRegVltgLimrPer1 Lim_f32 505
+<R>X MotCurrRegVltgLimrPer1 Lim_f32 505 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotVltgDax 505 W
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotVltgDax 506 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 506 R
+<R>C MotCurrRegVltgLimrPer1 Lim_f32 508
+<R>X MotCurrRegVltgLimrPer1 Lim_f32 508 R
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotVltgQax 508 W
+<R>X MotCurrRegVltgLimrPer1 MOTCTRLMGR_MotCtrlMotVltgQax 509 R
+<R>X MotCurrRegVltgLimrPer1 Rte_Inst_CDD_MotCurrRegVltgLimr 509 R
+<CTLG> MotCurrRegVltgLimrPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 8
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 12
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 13 15
+<CTLG> 14 16
+<CTLG> 15 16
+<CTLG> 16 17
+<CTLG> 17 18
+<CTLG> 17 19
+<CTLG> 18 20
+<CTLG> 19 20
+<CTLG> 20 21
+<CTLG> 21 22
+<CTLG> 21 23
+<CTLG> 22 27
+<CTLG> 23 24
+<CTLG> 23 25
+<CTLG> 24 26
+<CTLG> 25 26
+<CTLG> 26 27
+<CTLG> 27 28
+<CTLG> 28 29
+<CTLG> 28 30
+<CTLG> 29 31
+<CTLG> 30 31
+<CTLG> 31 32
+<CTLG> 32 34
+<CTLGN> 100 283 283 283 300 300 305 292 367 367 367 372 408 408 408 412 428 428 428 432 459 459 459 463 463 467 463 484 484 484 490 510 510 510 
+<S>
+<S>STFIL  C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c
+<S>STNAM  MotCurrRegVltgLimrPer1
+<S>STCYC  9
+<S>STMCC  4 (9:13)
+<S>STMIF  2
+<S>STSUB  37
+<S>STAKI  46
+<S>STLIN  409
+<S>STXLN  170
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  66
+<S>STPTH  144
+<S>STPDN  0.85   
+<S>STPBG  2
+<S>STLOP  4
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  13
+<S>STST1  195
+<S>STST2  180
+<S>STST3  114
+<S>STPAR  0
+<S>STCAL  23
+<S>STFN1  932
+<S>STFN2  628
+
+<DEFINE> MotPropGain_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 529 N DC OV B N fs R
+<DEFINE> MotIntglGain_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 529 N DC OV B N fs R
+<DEFINE> SysSt_Cnt_T_enum C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 530 N DC OV B N uc R
+<DEFINE> CmdErr_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 530 N DC OV B N fs R
+<DEFINE> MotVltgIntglCmdPrev_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 531 N DC OV B N pfs R
+<DEFINE> MotCurrRegVltgLimrMotVltgPropCmd_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 532 N DC OV B N pfs R
+<DEFINE> MotCurrRegVltgLimrMotVltgIntglPreLim_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 533 N DC OV B N pfs R
+<DEFINE> MotVltgIntglLoLim_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 534 N DC OV B N fs R
+<DEFINE> MotVltgIntglHiLim_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 534 N DC OV B N fs R
+<DEFINE> MotVltgPropCmd_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 535 N DC OV B N pfs R
+<DEFINE> MotVltgIntglCmd_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 536 N DC OV B N pfs R
+<DEFINE> KpKiCtrl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 529 N DR OF F I (.,fs,fs,uc,fs,pfs,pfs,pfs,fs,fs,pfs,pfs) -
+<DEFINE> KpKiCtrl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 529 N DF OF F I (.,fs,fs,uc,fs,pfs,pfs,pfs,fs,fs,pfs,pfs) -
+<DEFINE> MotVltgIntglPreLim_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 538 N DC OV B N fs -
+<DEFINE> MotVltgIntglPreLim_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 538 N DF OV B N fs -
+<R>C KpKiCtrl Max_f32 557
+<R>X KpKiCtrl Max_f32 557 R
+<R>C KpKiCtrl Min_f32 557
+<R>X KpKiCtrl Min_f32 557 R
+<R>C KpKiCtrl Lim_f32 561
+<R>X KpKiCtrl Lim_f32 561 R
+<CTLG> KpKiCtrl 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 6 8
+<CTLGN> 537 545 545 545 549 564 564 564 
+<S>
+<S>STFIL  C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c
+<S>STNAM  KpKiCtrl
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  3
+<S>STAKI  5
+<S>STLIN  26
+<S>STXLN  13
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.15   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  8
+<S>STAV3  9
+<S>STST1  12
+<S>STST2  10
+<S>STST3  9
+<S>STPAR  11
+<S>STCAL  3
+<S>STFN1  54
+<S>STFN2  31
+
+<DEFINE> QaxCurrCmd_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 577 N DC OV B N fs R
+<DEFINE> QaxRplCmd_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 578 N DC OV B N fs R
+<DEFINE> QaxCoggCmd_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 579 N DC OV B N fs R
+<DEFINE> QaxCurrModif_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 580 N DC OV B N fs R
+<DEFINE> AntiWdupCmdSca_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 581 N DC OV B N fs R
+<DEFINE> QaxCmdFinal_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 582 N DC OV B N pfs R
+<DEFINE> ErrorCalcQax C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 577 N DR OF F I (fs,fs,fs,fs,fs,fs,pfs) -
+<DEFINE> ErrorCalcQax C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 577 N DF OF F I (fs,fs,fs,fs,fs,fs,pfs) -
+<DEFINE> CmdScaQax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 584 N DC OV B N fs -
+<DEFINE> CmdScaQax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 584 N DF OV B N fs -
+<DEFINE> CmdErrQax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 585 N DC OV B N fs -
+<DEFINE> CmdErrQax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 585 N DF OV B N fs -
+<R>C ErrorCalcQax Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotCurrQaxRefMdfnRplEna_Logl 589
+<R>X ErrorCalcQax Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrMotCurrQaxRefMdfnRplEna_Logl 589 R
+<R>C ErrorCalcQax Lim_f32 598
+<R>X ErrorCalcQax Lim_f32 598 R
+<R>X ErrorCalcQax Rte_Inst_CDD_MotCurrRegVltgLimr 599 R
+<R>X ErrorCalcQax Rte_Inst_CDD_MotCurrRegVltgLimr 602 R
+<CTLG> ErrorCalcQax 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 6 8
+<CTLGN> 583 589 589 589 593 604 604 604 
+<S>
+<S>STFIL  C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c
+<S>STNAM  ErrorCalcQax
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  2
+<S>STAKI  4
+<S>STLIN  21
+<S>STXLN  10
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  2
+<S>STPDN  0.20   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  8
+<S>STAV3  10
+<S>STST1  13
+<S>STST2  11
+<S>STST3  9
+<S>STPAR  6
+<S>STCAL  2
+<S>STFN1  58
+<S>STFN2  35
+
+<DEFINE> CurrLoaMtgtnEn_Cnt_T_logl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 618 N DC OV B N uc R
+<DEFINE> IvtrLoaMtgtnEn_Cnt_T_logl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 619 N DC OV B N uc R
+<DEFINE> MotCtrlDualEcuMotCtrlMtgtnEna_Cnt_T_logl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 620 N DC OV B N uc R
+<DEFINE> CurrLoaScaFac_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 621 N DC OV B N pfs R
+<DEFINE> IvtrLoaScaFac_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 622 N DC OV B N pfs R
+<DEFINE> DualEcuScaFac_Uls_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 623 N DC OV B N pfs R
+<DEFINE> LoaScaFac C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 618 N DR OF F I (.,uc,uc,uc,pfs,pfs,pfs) -
+<DEFINE> LoaScaFac C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 618 N DF OF F I (.,uc,uc,uc,pfs,pfs,pfs) -
+<R>C LoaScaFac Lim_f32 629
+<R>X LoaScaFac Lim_f32 629 R
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 629 R
+<R>C LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrCurrLoaScarSlewRate_Val 629
+<R>X LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrCurrLoaScarSlewRate_Val 629 R
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 629 R
+<R>C LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrCurrLoaScarSlewRate_Val 629
+<R>X LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrCurrLoaScarSlewRate_Val 629 R
+<LIT> 0.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 627 45 N FN fs B X
+<R>C LoaScaFac Lim_f32 635
+<R>X LoaScaFac Lim_f32 635 R
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 635 R
+<R>C LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrCurrLoaScarSlewRate_Val 635
+<R>X LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrCurrLoaScarSlewRate_Val 635 R
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 635 R
+<R>C LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrCurrLoaScarSlewRate_Val 635
+<R>X LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrCurrLoaScarSlewRate_Val 635 R
+<LIT> 1.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 633 45 N FN fs B X
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 638 R
+<R>C LoaScaFac Lim_f32 644
+<R>X LoaScaFac Lim_f32 644 R
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 644 R
+<R>C LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrIvtrLoaScarSlewRate_Val 644
+<R>X LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrIvtrLoaScarSlewRate_Val 644 R
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 644 R
+<R>C LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrIvtrLoaScarSlewRate_Val 644
+<R>X LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrIvtrLoaScarSlewRate_Val 644 R
+<LIT> 0.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 642 45 N FN fs B X
+<R>C LoaScaFac Lim_f32 650
+<R>X LoaScaFac Lim_f32 650 R
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 650 R
+<R>C LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrIvtrLoaScarSlewRate_Val 650
+<R>X LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrIvtrLoaScarSlewRate_Val 650 R
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 650 R
+<R>C LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrIvtrLoaScarSlewRate_Val 650
+<R>X LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrIvtrLoaScarSlewRate_Val 650 R
+<LIT> 1.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 648 45 N FN fs B X
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 653 R
+<R>C LoaScaFac Lim_f32 659
+<R>X LoaScaFac Lim_f32 659 R
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 659 R
+<R>C LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrDualEcuLoaScarSlewRate_Val 659
+<R>X LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrDualEcuLoaScarSlewRate_Val 659 R
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 659 R
+<R>C LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrDualEcuLoaScarSlewRate_Val 659
+<R>X LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrDualEcuLoaScarSlewRate_Val 659 R
+<LIT> 0.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 657 53 N FN fs B X
+<R>C LoaScaFac Lim_f32 665
+<R>X LoaScaFac Lim_f32 665 R
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 665 R
+<R>C LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrDualEcuLoaScarSlewRate_Val 665
+<R>X LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrDualEcuLoaScarSlewRate_Val 665 R
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 665 R
+<R>C LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrDualEcuLoaScarSlewRate_Val 665
+<R>X LoaScaFac Rte_Prm_CDD_MotCurrRegVltgLimr_MotCurrRegVltgLimrDualEcuLoaScarSlewRate_Val 665 R
+<LIT> 1.0 F P C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 663 53 N FN fs B X
+<R>X LoaScaFac Rte_Inst_CDD_MotCurrRegVltgLimr 668 R
+<CTLG> LoaScaFac 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 8
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 12
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 13 15
+<CTLGN> 624 625 625 631 640 640 640 646 655 655 655 661 669 669 669 
+<S>
+<S>STFIL  C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c
+<S>STNAM  LoaScaFac
+<S>STCYC  4
+<S>STMCC  0 (4:4)
+<S>STMIF  1
+<S>STSUB  18
+<S>STAKI  22
+<S>STLIN  44
+<S>STXLN  27
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  8
+<S>STPDN  0.30   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  15
+<S>STAV2  22
+<S>STAV3  22
+<S>STST1  18
+<S>STST2  12
+<S>STST3  12
+<S>STPAR  6
+<S>STCAL  4
+<S>STFN1  207
+<S>STFN2  66
+
+<DEFINE> MotInduQaxEstimdIvs_IvsHenry_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 690 N DC OV B N fs R
+<DEFINE> MotREstimd_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 691 N DC OV B N fs R
+<DEFINE> CurrQax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 692 N DC OV B N fs R
+<DEFINE> MotVltgQaxPrev_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 693 N DC OV B N fs R
+<DEFINE> CurrDax_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 694 N DC OV B N fs R
+<DEFINE> MotVltgDaxPrev_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 695 N DC OV B N fs R
+<DEFINE> MotBackEmfVltg_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 696 N DC OV B N fs R
+<DEFINE> ReacncQax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 697 N DC OV B N fs R
+<DEFINE> ReacncDax_Ohm_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 698 N DC OV B N fs R
+<DEFINE> MotInduDaxEstimdIvs_IvsHenry_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 699 N DC OV B N fs R
+<DEFINE> MotCurrRegVltgLimrMotCurrPredEna_Cnt_T_Logl C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 700 N DC OV B N uc R
+<DEFINE> MotCtrlCurrPredTi_NanoSec_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 701 N DC OV B N fs R
+<DEFINE> MotCurrQaxPred_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 702 N DC OV B N pfs R
+<DEFINE> MotCurrDaxPred_Ampr_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 703 N DC OV B N pfs R
+<DEFINE> MotCurr_Pred C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 690 N DR OF F I (.,fs,fs,fs,fs,fs,fs,fs,fs,fs,fs,uc,fs,pfs,pfs) -
+<DEFINE> MotCurr_Pred C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 690 N DF OF F I (.,fs,fs,fs,fs,fs,fs,fs,fs,fs,fs,uc,fs,pfs,pfs) -
+<DEFINE> QaxVltg_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 705 N DC OV B N fs -
+<DEFINE> QaxVltg_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 705 N DF OV B N fs -
+<DEFINE> VltgQaxTmp_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 706 N DC OV B N fs -
+<DEFINE> VltgQaxTmp_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 706 N DF OV B N fs -
+<DEFINE> VltgDaxTmp_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 707 N DC OV B N fs -
+<DEFINE> VltgDaxTmp_Volt_T_f32 C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 707 N DF OV B N fs -
+<CTLG> MotCurr_Pred 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 6
+<CTLGN> 704 709 709 715 727 727 
+<S>
+<S>STFIL  C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c
+<S>STNAM  MotCurr_Pred
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  22
+<S>STXLN  9
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  2
+<S>STPDN  0.22   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  11
+<S>STAV3  15
+<S>STST1  13
+<S>STST2  11
+<S>STST3  8
+<S>STPAR  14
+<S>STCAL  0
+<S>STFN1  78
+<S>STFN2  45
+
+<DEFINE> CDD_MotCurrRegVltgLimr_MotCtrl_STOP_SEC_CODE C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c 729 N DF OM - - - O
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c C:/component/SF105A_MotCurrRegVltgLimr_Impl/include/CDD_MotCurrRegVltgLimr_MotCtrl_MemMap.h 730
+<DEFINE> MotCtrl_STOP_SEC_CODE C:/component/SF105A_MotCurrRegVltgLimr_Impl/include/CDD_MotCurrRegVltgLimr_MotCtrl_MemMap.h 32 I DF OM - - - O
+<R>I C:/component/SF105A_MotCurrRegVltgLimr_Impl/include/CDD_MotCurrRegVltgLimr_MotCtrl_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 33
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c
+<S>STNAM  ErrorCalcQax
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c
+<S>STNAM  KpKiCtrl
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c
+<S>STNAM  LoaScaFac
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c
+<S>STNAM  MotCurr_Pred
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c
+<S>STNAM  MotCurrRegVltgLimrPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinLookup
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c
+<S>STNAM  C:/component/SF105A_MotCurrRegVltgLimr_Impl/src/CDD_MotCurrRegVltgLimr_MotCtrl.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  4
+<S>STECT  33
+<S>STFNC  5
+<S>STFCO  71
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  231
+<S>STOPT  28
+<S>STOPN  262
+<S>STTOT  2696
+<S>STZIP  1812
+<S>STHAL  2239
+<S>STSHN  8162
+<S>STDIF  12.04  
+<S>STEFF  265416
+<S>STVOL  22053
+<S>STDEV  44.24  
+<S>STBUG  4
+<S>STTPP  731
+<S>STTLN  434
+<S>STM20  1072
+<S>STM21  1617
+<S>STM22  214
+<S>STM28  136
+<S>STM33  128
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  1.727  
+<S>STBMS  2.112  
+<S>STBME  2.472  
+<S>STTDO  3.077  
+<S>STTDS  3.248  
+<S>STTDE  3.340  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.294  
+

@@ -1,0 +1,619 @@
+%%-----------------------------------------------------------------------%
+%% EA4 Component Data Dictionary - Created on 02-May-2016 08:16:09       %
+%                                  Created with tool release: 2.39.0     %
+%                                  Synergy file: %version: X %           %
+%                                  Derived by: %derived_by: BZHF94 %     %
+%%-----------------------------------------------------------------------%
+
+SF107A = DataDict.FDD;
+SF107A.Version = '1.3.X';
+SF107A.LongName = 'Motor Ripple Cogging Command';
+SF107A.ShoName  = 'MotRplCoggCmd';
+SF107A.DesignASIL = 'D';
+SF107A.Description = [...
+  'This function is responsible for creating the q-axis current command f' ...
+  'or cogging and torque ripple cancellation.It runs under the time step ' ...
+  'of MotorControl x2.'];
+
+
+
+%%-------------------------------------------
+%% Runnable Definitions                      
+%%-------------------------------------------
+MotRplCoggCmdInit1 = DataDict.Runnable;
+MotRplCoggCmdInit1.Context = 'Rte';
+MotRplCoggCmdInit1.TimeStep = 0;
+MotRplCoggCmdInit1.Description = 'Checking whether NVM is available.';
+
+MotRplCoggCmdPer1 = DataDict.Runnable;
+MotRplCoggCmdPer1.Context = 'NonRte';
+MotRplCoggCmdPer1.TimeStep = 'MotorControlx2';
+MotRplCoggCmdPer1.Description = 'Q-axis current command for cogging and torque ripple cancellation are created in the periodic 1.';
+
+GetMotCoggCmdPrm = DataDict.SrvRunnable;
+GetMotCoggCmdPrm.Context = 'Rte';
+GetMotCoggCmdPrm.Description = 'Server Read the value in the NVM and output as the Argument Out signal.';
+GetMotCoggCmdPrm.Return = DataDict.CSReturn;
+GetMotCoggCmdPrm.Return.Type = 'None';
+GetMotCoggCmdPrm.Return.Min = [];
+GetMotCoggCmdPrm.Return.Max = [];
+GetMotCoggCmdPrm.Return.TestTolerance = [];
+GetMotCoggCmdPrm.Arguments(1) = DataDict.CSArguments;
+GetMotCoggCmdPrm.Arguments(1).Name = 'MotCoggCmdY';
+GetMotCoggCmdPrm.Arguments(1).EngDT = dt.s1p14;
+GetMotCoggCmdPrm.Arguments(1).EngMin = -0.1;
+GetMotCoggCmdPrm.Arguments(1).EngMax = 0.1;
+GetMotCoggCmdPrm.Arguments(1).Units = 'MotNwtMtr';
+GetMotCoggCmdPrm.Arguments(1).Direction = 'Out';
+GetMotCoggCmdPrm.Arguments(1).InitRowCol = [1  128];
+GetMotCoggCmdPrm.Arguments(1).Description = 'Read the value from the NVM to the output signal.';
+GetMotCoggCmdPrm.Arguments(2) = DataDict.CSArguments;
+GetMotCoggCmdPrm.Arguments(2).Name = 'Idx';
+GetMotCoggCmdPrm.Arguments(2).EngDT = dt.u08;
+GetMotCoggCmdPrm.Arguments(2).EngMin = 0;
+GetMotCoggCmdPrm.Arguments(2).EngMax = 3;
+GetMotCoggCmdPrm.Arguments(2).Units = 'Cnt';
+GetMotCoggCmdPrm.Arguments(2).Direction = 'In';
+GetMotCoggCmdPrm.Arguments(2).InitRowCol = [1  1];
+GetMotCoggCmdPrm.Arguments(2).Description = 'Index used to read the value from the NVM.';
+
+SetMotCoggCmdPrm = DataDict.SrvRunnable;
+SetMotCoggCmdPrm.Context = 'Rte';
+SetMotCoggCmdPrm.Description = 'Write values to the NVM with the Argument In signals.';
+SetMotCoggCmdPrm.Return = DataDict.CSReturn;
+SetMotCoggCmdPrm.Return.Type = 'None';
+SetMotCoggCmdPrm.Return.Min = [];
+SetMotCoggCmdPrm.Return.Max = [];
+SetMotCoggCmdPrm.Return.TestTolerance = [];
+SetMotCoggCmdPrm.Arguments(1) = DataDict.CSArguments;
+SetMotCoggCmdPrm.Arguments(1).Name = 'MotCoggCmdY';
+SetMotCoggCmdPrm.Arguments(1).EngDT = dt.s1p14;
+SetMotCoggCmdPrm.Arguments(1).EngMin = -0.1;
+SetMotCoggCmdPrm.Arguments(1).EngMax = 0.1;
+SetMotCoggCmdPrm.Arguments(1).Units = 'MotNwtMtr';
+SetMotCoggCmdPrm.Arguments(1).Direction = 'In';
+SetMotCoggCmdPrm.Arguments(1).InitRowCol = [1  128];
+SetMotCoggCmdPrm.Arguments(1).Description = 'Write the value to the NVM with the input signal.';
+SetMotCoggCmdPrm.Arguments(2) = DataDict.CSArguments;
+SetMotCoggCmdPrm.Arguments(2).Name = 'Idx';
+SetMotCoggCmdPrm.Arguments(2).EngDT = dt.u08;
+SetMotCoggCmdPrm.Arguments(2).EngMin = 0;
+SetMotCoggCmdPrm.Arguments(2).EngMax = 3;
+SetMotCoggCmdPrm.Arguments(2).Units = 'Cnt';
+SetMotCoggCmdPrm.Arguments(2).Direction = 'In';
+SetMotCoggCmdPrm.Arguments(2).InitRowCol = [1  1];
+SetMotCoggCmdPrm.Arguments(2).Description = 'Index used to write the value to the NVM.';
+
+
+%%-------------------------------------------
+%% Client Definitions                        
+%%-------------------------------------------
+MotCoggCmdY_GetErrorStatus = DataDict.Client;
+MotCoggCmdY_GetErrorStatus.CallLocation = {'MotRplCoggCmdInit1'};
+MotCoggCmdY_GetErrorStatus.Description = 'It is used to determine whether the NVM is available.';
+MotCoggCmdY_GetErrorStatus.Return = DataDict.CSReturn;
+MotCoggCmdY_GetErrorStatus.Return.Type = 'Standard';
+MotCoggCmdY_GetErrorStatus.Return.Min = 0;
+MotCoggCmdY_GetErrorStatus.Return.Max = 1;
+MotCoggCmdY_GetErrorStatus.Return.TestTolerance = 0;
+MotCoggCmdY_GetErrorStatus.Return.Description = 'Standard return E_OK or E_NOT_OK for the function call.';
+MotCoggCmdY_GetErrorStatus.Arguments(1) = DataDict.CSArguments;
+MotCoggCmdY_GetErrorStatus.Arguments(1).Name = 'ReqResPtr';
+MotCoggCmdY_GetErrorStatus.Arguments(1).EngDT = dt.u08;
+MotCoggCmdY_GetErrorStatus.Arguments(1).EngMin = 0;
+MotCoggCmdY_GetErrorStatus.Arguments(1).EngMax = 8;
+MotCoggCmdY_GetErrorStatus.Arguments(1).Units = 'Cnt';
+MotCoggCmdY_GetErrorStatus.Arguments(1).Direction = 'Out';
+MotCoggCmdY_GetErrorStatus.Arguments(1).InitRowCol = [1  1];
+MotCoggCmdY_GetErrorStatus.Arguments(1).Description = 'Pointer to where the result shall be written.';
+
+
+MotCoggCmdY_SetRamBlockStatus = DataDict.Client;
+MotCoggCmdY_SetRamBlockStatus.CallLocation = {'SetMotCoggCmdPrm','MotRplCoggCmdInit1'};
+MotCoggCmdY_SetRamBlockStatus.Description = 'Notify NVM that the contents of the RAM shadow have changed NVM that the contents desire to save the data.';
+MotCoggCmdY_SetRamBlockStatus.Return = DataDict.CSReturn;
+MotCoggCmdY_SetRamBlockStatus.Return.Type = 'Standard';
+MotCoggCmdY_SetRamBlockStatus.Return.Min = 0;
+MotCoggCmdY_SetRamBlockStatus.Return.Max = 1;
+MotCoggCmdY_SetRamBlockStatus.Return.TestTolerance = 0;
+MotCoggCmdY_SetRamBlockStatus.Return.Description = 'Standard return E_OK or E_NOT_OK for the function call.';
+MotCoggCmdY_SetRamBlockStatus.Arguments(1) = DataDict.CSArguments;
+MotCoggCmdY_SetRamBlockStatus.Arguments(1).Name = 'BlockChanged';
+MotCoggCmdY_SetRamBlockStatus.Arguments(1).EngDT = dt.lgc;
+MotCoggCmdY_SetRamBlockStatus.Arguments(1).EngMin = 0;
+MotCoggCmdY_SetRamBlockStatus.Arguments(1).EngMax = 1;
+MotCoggCmdY_SetRamBlockStatus.Arguments(1).Units = 'Cnt';
+MotCoggCmdY_SetRamBlockStatus.Arguments(1).Direction = 'In';
+MotCoggCmdY_SetRamBlockStatus.Arguments(1).InitRowCol = [1  1];
+MotCoggCmdY_SetRamBlockStatus.Arguments(1).Description = 'Boolean value to queue the NVM update during shutdown.';
+
+
+
+%%-------------------------------------------
+%% Input Signal Definition                   
+%%-------------------------------------------
+MotCtrlMotAgElec = DataDict.IpSignal;
+MotCtrlMotAgElec.LongName = 'Motor Control Motor Angle Electric';
+MotCtrlMotAgElec.Description = 'Motor angle corrected for Back EMF.';
+MotCtrlMotAgElec.DocUnits = 'MotRevElec';
+MotCtrlMotAgElec.EngDT = dt.u0p16;
+MotCtrlMotAgElec.EngInit = 0;
+MotCtrlMotAgElec.EngMin = 0;
+MotCtrlMotAgElec.EngMax = 0.9999847412;
+MotCtrlMotAgElec.ReadIn = {'MotRplCoggCmdPer1'};
+MotCtrlMotAgElec.ReadType = 'NonRte';
+
+
+MotCtrlMotAgElecDlyRpl = DataDict.IpSignal;
+MotCtrlMotAgElecDlyRpl.LongName = 'Motor Control Motor Angle Electric Delay Ripple';
+MotCtrlMotAgElecDlyRpl.Description = 'It is for riple cancellation.';
+MotCtrlMotAgElecDlyRpl.DocUnits = 'MotRad';
+MotCtrlMotAgElecDlyRpl.EngDT = dt.float32;
+MotCtrlMotAgElecDlyRpl.EngInit = 0;
+MotCtrlMotAgElecDlyRpl.EngMin = -1.62;
+MotCtrlMotAgElecDlyRpl.EngMax = 1.62;
+MotCtrlMotAgElecDlyRpl.ReadIn = {'MotRplCoggCmdPer1'};
+MotCtrlMotAgElecDlyRpl.ReadType = 'NonRte';
+
+
+MotCtrlMotCurrQaxToMotTqGain = DataDict.IpSignal;
+MotCtrlMotCurrQaxToMotTqGain.LongName = 'Motor Control Motor Current Qax to Motor Torque Gain';
+MotCtrlMotCurrQaxToMotTqGain.Description = 'It is a multiplier to scale q-axis current to obtain motor torque.';
+MotCtrlMotCurrQaxToMotTqGain.DocUnits = 'VoltPerMotRadPerSec';
+MotCtrlMotCurrQaxToMotTqGain.EngDT = dt.float32;
+MotCtrlMotCurrQaxToMotTqGain.EngInit = 0.021651;
+MotCtrlMotCurrQaxToMotTqGain.EngMin = 0.021651;
+MotCtrlMotCurrQaxToMotTqGain.EngMax = 0.406952;
+MotCtrlMotCurrQaxToMotTqGain.ReadIn = {'MotRplCoggCmdPer1'};
+MotCtrlMotCurrQaxToMotTqGain.ReadType = 'NonRte';
+
+
+MotCtrlMotElecMeclPolarity = DataDict.IpSignal;
+MotCtrlMotElecMeclPolarity.LongName = 'Motor Control Motor Electric Mechanical Polarity';
+MotCtrlMotElecMeclPolarity.Description = 'Polarity for motor electrical vs. mechanical';
+MotCtrlMotElecMeclPolarity.DocUnits = 'Uls';
+MotCtrlMotElecMeclPolarity.EngDT = dt.s08;
+MotCtrlMotElecMeclPolarity.EngInit = 1;
+MotCtrlMotElecMeclPolarity.EngMin = -1;
+MotCtrlMotElecMeclPolarity.EngMax = 1;
+MotCtrlMotElecMeclPolarity.ReadIn = {'MotRplCoggCmdPer1'};
+MotCtrlMotElecMeclPolarity.ReadType = 'NonRte';
+
+
+MotCtrlMotTqRplCoggOrder1Mgn = DataDict.IpSignal;
+MotCtrlMotTqRplCoggOrder1Mgn.LongName = 'Motor Control Motor Torque Ripple Cogging Order 1 Magnitude';
+MotCtrlMotTqRplCoggOrder1Mgn.Description = 'There are 3 order of torque ripple and cogging combined magnitudes. It is the 1st order.';
+MotCtrlMotTqRplCoggOrder1Mgn.DocUnits = 'MotNwtMtr';
+MotCtrlMotTqRplCoggOrder1Mgn.EngDT = dt.float32;
+MotCtrlMotTqRplCoggOrder1Mgn.EngInit = 0;
+MotCtrlMotTqRplCoggOrder1Mgn.EngMin = 0;
+MotCtrlMotTqRplCoggOrder1Mgn.EngMax = 0.5;
+MotCtrlMotTqRplCoggOrder1Mgn.ReadIn = {'MotRplCoggCmdPer1'};
+MotCtrlMotTqRplCoggOrder1Mgn.ReadType = 'NonRte';
+
+
+MotCtrlMotTqRplCoggOrder1Pha = DataDict.IpSignal;
+MotCtrlMotTqRplCoggOrder1Pha.LongName = 'Motor Control Motor Torque Ripple Cogging Order 1 Phase';
+MotCtrlMotTqRplCoggOrder1Pha.Description = 'There are 3 order of torque ripple and cogging combined phases. It is the 1st order.';
+MotCtrlMotTqRplCoggOrder1Pha.DocUnits = 'MotRad';
+MotCtrlMotTqRplCoggOrder1Pha.EngDT = dt.float32;
+MotCtrlMotTqRplCoggOrder1Pha.EngInit = 0;
+MotCtrlMotTqRplCoggOrder1Pha.EngMin = 0;
+MotCtrlMotTqRplCoggOrder1Pha.EngMax = 6.2831853;
+MotCtrlMotTqRplCoggOrder1Pha.ReadIn = {'MotRplCoggCmdPer1'};
+MotCtrlMotTqRplCoggOrder1Pha.ReadType = 'NonRte';
+
+
+MotCtrlMotTqRplCoggOrder2Mgn = DataDict.IpSignal;
+MotCtrlMotTqRplCoggOrder2Mgn.LongName = 'Motor Control Motor Torque Ripple Cogging Order 2 Magnitude';
+MotCtrlMotTqRplCoggOrder2Mgn.Description = 'There are 3 order of torque ripple and cogging combined magnitudes. It is the 2nd order.';
+MotCtrlMotTqRplCoggOrder2Mgn.DocUnits = 'MotNwtMtr';
+MotCtrlMotTqRplCoggOrder2Mgn.EngDT = dt.float32;
+MotCtrlMotTqRplCoggOrder2Mgn.EngInit = 0;
+MotCtrlMotTqRplCoggOrder2Mgn.EngMin = 0;
+MotCtrlMotTqRplCoggOrder2Mgn.EngMax = 0.5;
+MotCtrlMotTqRplCoggOrder2Mgn.ReadIn = {'MotRplCoggCmdPer1'};
+MotCtrlMotTqRplCoggOrder2Mgn.ReadType = 'NonRte';
+
+
+MotCtrlMotTqRplCoggOrder2Pha = DataDict.IpSignal;
+MotCtrlMotTqRplCoggOrder2Pha.LongName = 'Motor Control Motor Torque Ripple Cogging Order 2 Phase';
+MotCtrlMotTqRplCoggOrder2Pha.Description = 'There are 3 order of torque ripple and cogging combined phases. It is the 2nd order.';
+MotCtrlMotTqRplCoggOrder2Pha.DocUnits = 'MotRad';
+MotCtrlMotTqRplCoggOrder2Pha.EngDT = dt.float32;
+MotCtrlMotTqRplCoggOrder2Pha.EngInit = 0;
+MotCtrlMotTqRplCoggOrder2Pha.EngMin = 0;
+MotCtrlMotTqRplCoggOrder2Pha.EngMax = 6.2831853;
+MotCtrlMotTqRplCoggOrder2Pha.ReadIn = {'MotRplCoggCmdPer1'};
+MotCtrlMotTqRplCoggOrder2Pha.ReadType = 'NonRte';
+
+
+MotCtrlMotTqRplCoggOrder3Mgn = DataDict.IpSignal;
+MotCtrlMotTqRplCoggOrder3Mgn.LongName = 'Motor Control Motor Torque Ripple Cogging Order 3 Magnitude';
+MotCtrlMotTqRplCoggOrder3Mgn.Description = 'There are 3 order of torque ripple and cogging combined magnitudes. It is the 3rd order.';
+MotCtrlMotTqRplCoggOrder3Mgn.DocUnits = 'MotNwtMtr';
+MotCtrlMotTqRplCoggOrder3Mgn.EngDT = dt.float32;
+MotCtrlMotTqRplCoggOrder3Mgn.EngInit = 0;
+MotCtrlMotTqRplCoggOrder3Mgn.EngMin = 0;
+MotCtrlMotTqRplCoggOrder3Mgn.EngMax = 0.5;
+MotCtrlMotTqRplCoggOrder3Mgn.ReadIn = {'MotRplCoggCmdPer1'};
+MotCtrlMotTqRplCoggOrder3Mgn.ReadType = 'NonRte';
+
+
+MotCtrlMotTqRplCoggOrder3Pha = DataDict.IpSignal;
+MotCtrlMotTqRplCoggOrder3Pha.LongName = 'Motor Control Motor Torque Ripple Cogging Order 3 Phase';
+MotCtrlMotTqRplCoggOrder3Pha.Description = 'There are 3 order of torque ripple and cogging combined phases. It is the 3rd order.';
+MotCtrlMotTqRplCoggOrder3Pha.DocUnits = 'MotRad';
+MotCtrlMotTqRplCoggOrder3Pha.EngDT = dt.float32;
+MotCtrlMotTqRplCoggOrder3Pha.EngInit = 0;
+MotCtrlMotTqRplCoggOrder3Pha.EngMin = 0;
+MotCtrlMotTqRplCoggOrder3Pha.EngMax = 6.2831853;
+MotCtrlMotTqRplCoggOrder3Pha.ReadIn = {'MotRplCoggCmdPer1'};
+MotCtrlMotTqRplCoggOrder3Pha.ReadType = 'NonRte';
+
+
+
+%%-------------------------------------------
+%% Output Signal Definition                  
+%%-------------------------------------------
+MotCtrlMotCurrQaxCoggCmd = DataDict.OpSignal;
+MotCtrlMotCurrQaxCoggCmd.LongName = 'Motor Control Motor Current Qax Cogging Command';
+MotCtrlMotCurrQaxCoggCmd.Description = [...
+  'Qax Current Command for Cogging Torque Cancellation.'];
+MotCtrlMotCurrQaxCoggCmd.DocUnits = 'Ampr';
+MotCtrlMotCurrQaxCoggCmd.SwcShoName = 'MotRplCoggCmd';
+MotCtrlMotCurrQaxCoggCmd.EngDT = dt.float32;
+MotCtrlMotCurrQaxCoggCmd.EngInit = 0;
+MotCtrlMotCurrQaxCoggCmd.EngMin = -6;
+MotCtrlMotCurrQaxCoggCmd.EngMax = 6;
+MotCtrlMotCurrQaxCoggCmd.TestTolerance = 0.025;
+MotCtrlMotCurrQaxCoggCmd.WrittenIn = {'MotRplCoggCmdPer1'};
+MotCtrlMotCurrQaxCoggCmd.WriteType = 'NonRte';
+
+
+MotCtrlMotCurrQaxRplCmd = DataDict.OpSignal;
+MotCtrlMotCurrQaxRplCmd.LongName = 'Motor Control Motor Current Qax Ripple Command';
+MotCtrlMotCurrQaxRplCmd.Description = [...
+  'Qax Current Command for Torque Ripple Cancellation.'];
+MotCtrlMotCurrQaxRplCmd.DocUnits = 'Ampr';
+MotCtrlMotCurrQaxRplCmd.SwcShoName = 'MotRplCoggCmd';
+MotCtrlMotCurrQaxRplCmd.EngDT = dt.float32;
+MotCtrlMotCurrQaxRplCmd.EngInit = 0;
+MotCtrlMotCurrQaxRplCmd.EngMin = -29;
+MotCtrlMotCurrQaxRplCmd.EngMax = 29;
+MotCtrlMotCurrQaxRplCmd.TestTolerance = 0.025;
+MotCtrlMotCurrQaxRplCmd.WrittenIn = {'MotRplCoggCmdPer1'};
+MotCtrlMotCurrQaxRplCmd.WriteType = 'NonRte';
+
+
+
+%%-------------------------------------------
+%% Inter-Runnable Variable Definition        
+%%-------------------------------------------
+
+%%-------------------------------------------
+%% Calibrations Definition                   
+%%-------------------------------------------
+MotRplCoggCmdHrmncOrder1Elec = DataDict.Calibration;
+MotRplCoggCmdHrmncOrder1Elec.LongName = 'Order 1 Electrical Harmonic';
+MotRplCoggCmdHrmncOrder1Elec.Description = [...
+  'Electrical Order 1 For Torque Ripple and Cogging Cancellation'];
+MotRplCoggCmdHrmncOrder1Elec.DocUnits = 'Cnt';
+MotRplCoggCmdHrmncOrder1Elec.EngDT = dt.u08;
+MotRplCoggCmdHrmncOrder1Elec.EngVal = 6;
+MotRplCoggCmdHrmncOrder1Elec.EngMin = 1;
+MotRplCoggCmdHrmncOrder1Elec.EngMax = 18;
+MotRplCoggCmdHrmncOrder1Elec.Cardinality = 'Cmn';
+MotRplCoggCmdHrmncOrder1Elec.CustomerVisible = false;
+MotRplCoggCmdHrmncOrder1Elec.Online = false;
+MotRplCoggCmdHrmncOrder1Elec.Impact = 'H';
+MotRplCoggCmdHrmncOrder1Elec.TuningOwner = 'TqCtrl';
+MotRplCoggCmdHrmncOrder1Elec.GraphLink = {''};
+MotRplCoggCmdHrmncOrder1Elec.Monotony = 'None';
+MotRplCoggCmdHrmncOrder1Elec.MaxGrad = Inf;
+MotRplCoggCmdHrmncOrder1Elec.PortName = 'MotRplCoggCmdHrmncOrder1Elec';
+
+
+MotRplCoggCmdHrmncOrder2Elec = DataDict.Calibration;
+MotRplCoggCmdHrmncOrder2Elec.LongName = 'Order 2 Electrical Harmonic';
+MotRplCoggCmdHrmncOrder2Elec.Description = [...
+  'Electrical Order 2 For Torque Ripple and Cogging Cancellation'];
+MotRplCoggCmdHrmncOrder2Elec.DocUnits = 'Cnt';
+MotRplCoggCmdHrmncOrder2Elec.EngDT = dt.u08;
+MotRplCoggCmdHrmncOrder2Elec.EngVal = 12;
+MotRplCoggCmdHrmncOrder2Elec.EngMin = 1;
+MotRplCoggCmdHrmncOrder2Elec.EngMax = 18;
+MotRplCoggCmdHrmncOrder2Elec.Cardinality = 'Cmn';
+MotRplCoggCmdHrmncOrder2Elec.CustomerVisible = false;
+MotRplCoggCmdHrmncOrder2Elec.Online = false;
+MotRplCoggCmdHrmncOrder2Elec.Impact = 'H';
+MotRplCoggCmdHrmncOrder2Elec.TuningOwner = 'TqCtrl';
+MotRplCoggCmdHrmncOrder2Elec.GraphLink = {''};
+MotRplCoggCmdHrmncOrder2Elec.Monotony = 'None';
+MotRplCoggCmdHrmncOrder2Elec.MaxGrad = Inf;
+MotRplCoggCmdHrmncOrder2Elec.PortName = 'MotRplCoggCmdHrmncOrder2Elec';
+
+
+MotRplCoggCmdHrmncOrder3Elec = DataDict.Calibration;
+MotRplCoggCmdHrmncOrder3Elec.LongName = 'Order 3 Electrical Harmonic';
+MotRplCoggCmdHrmncOrder3Elec.Description = [...
+  'Electrical Order 3 For Torque Ripple and Cogging Cancellation'];
+MotRplCoggCmdHrmncOrder3Elec.DocUnits = 'Cnt';
+MotRplCoggCmdHrmncOrder3Elec.EngDT = dt.u08;
+MotRplCoggCmdHrmncOrder3Elec.EngVal = 18;
+MotRplCoggCmdHrmncOrder3Elec.EngMin = 1;
+MotRplCoggCmdHrmncOrder3Elec.EngMax = 18;
+MotRplCoggCmdHrmncOrder3Elec.Cardinality = 'Cmn';
+MotRplCoggCmdHrmncOrder3Elec.CustomerVisible = false;
+MotRplCoggCmdHrmncOrder3Elec.Online = false;
+MotRplCoggCmdHrmncOrder3Elec.Impact = 'H';
+MotRplCoggCmdHrmncOrder3Elec.TuningOwner = 'TqCtrl';
+MotRplCoggCmdHrmncOrder3Elec.GraphLink = {''};
+MotRplCoggCmdHrmncOrder3Elec.Monotony = 'None';
+MotRplCoggCmdHrmncOrder3Elec.MaxGrad = Inf;
+MotRplCoggCmdHrmncOrder3Elec.PortName = 'MotRplCoggCmdHrmncOrder3Elec';
+
+
+
+%%-------------------------------------------
+%% Imported Calibrations Definition                   
+%%-------------------------------------------
+
+%%-------------------------------------------
+%% Non-Volatile Memory Definition            
+%%-------------------------------------------
+MotCoggCmdY = DataDict.NVM;
+MotCoggCmdY.LongName = 'Motor Cogging Command Y';
+MotCoggCmdY.Description = [...
+  'Stored four 1D tables with 128 elements each, which is combined as one' ...
+  ' 1D table with 512 elements used in the linear interpolation for MotCo' ...
+  'ggCmd.'];
+MotCoggCmdY.DocUnits = 'MotNwtMtr';
+MotCoggCmdY.EngDT = dt.s1p14;
+MotCoggCmdY.EngInit = [];
+MotCoggCmdY.EngMin = -0.1;
+MotCoggCmdY.EngMax = 0.1;
+MotCoggCmdY.CustomerVisible = false;
+MotCoggCmdY.Impact = 'H';
+MotCoggCmdY.TuningOwner = 'TqCtrl';
+MotCoggCmdY.CoderInfo.Alias = '';
+MotCoggCmdY.InitRowCol = [1  512];
+
+
+
+%%-------------------------------------------
+%% Display Variable Definition               
+%%-------------------------------------------
+dMotRplCoggCmdCoggIdx = DataDict.Display;
+dMotRplCoggCmdCoggIdx.LongName = 'Cogging Index';
+dMotRplCoggCmdCoggIdx.Description = [...
+  'It shows the reference position of the the corrected electric angle in' ...
+  ' count.'];
+dMotRplCoggCmdCoggIdx.DocUnits = 'Cnt';
+dMotRplCoggCmdCoggIdx.EngDT = dt.u16;
+dMotRplCoggCmdCoggIdx.EngMin = 0;
+dMotRplCoggCmdCoggIdx.EngMax = 511;
+dMotRplCoggCmdCoggIdx.InitRowCol = [1  1];
+
+
+dMotRplCoggCmdMotCoggCmd = DataDict.Display;
+dMotRplCoggCmdMotCoggCmd.LongName = 'Motor Cogging Command';
+dMotRplCoggCmdMotCoggCmd.Description = [...
+  'It shows the motor cooging torque after the lookup table.'];
+dMotRplCoggCmdMotCoggCmd.DocUnits = 'MotNwtMtr';
+dMotRplCoggCmdMotCoggCmd.EngDT = dt.float32;
+dMotRplCoggCmdMotCoggCmd.EngMin = -0.1;
+dMotRplCoggCmdMotCoggCmd.EngMax = 0.1;
+dMotRplCoggCmdMotCoggCmd.InitRowCol = [1  1];
+
+
+dMotRplCoggCmdMotCurrQaxCoggCmdPreLim = DataDict.Display;
+dMotRplCoggCmdMotCurrQaxCoggCmdPreLim.LongName = 'Motor Current Qax Cogging Command Pre Limit';
+dMotRplCoggCmdMotCurrQaxCoggCmdPreLim.Description = [...
+  'It shows the motor current value before the saturation block.'];
+dMotRplCoggCmdMotCurrQaxCoggCmdPreLim.DocUnits = 'Ampr';
+dMotRplCoggCmdMotCurrQaxCoggCmdPreLim.EngDT = dt.float32;
+dMotRplCoggCmdMotCurrQaxCoggCmdPreLim.EngMin = -4.618724;
+dMotRplCoggCmdMotCurrQaxCoggCmdPreLim.EngMax = 4.618724;
+dMotRplCoggCmdMotCurrQaxCoggCmdPreLim.InitRowCol = [1  1];
+
+
+dMotRplCoggCmdMotRplCmdPreLim = DataDict.Display;
+dMotRplCoggCmdMotRplCmdPreLim.LongName = 'Motor Ripple Command Pre Limit';
+dMotRplCoggCmdMotRplCmdPreLim.Description = [...
+  'It shows the ripple command before the saturation block.'];
+dMotRplCoggCmdMotRplCmdPreLim.DocUnits = 'Ampr';
+dMotRplCoggCmdMotRplCmdPreLim.EngDT = dt.float32;
+dMotRplCoggCmdMotRplCmdPreLim.EngMin = -69.280865;
+dMotRplCoggCmdMotRplCmdPreLim.EngMax = 69.280865;
+dMotRplCoggCmdMotRplCmdPreLim.InitRowCol = [1  1];
+
+
+
+%%-------------------------------------------
+%% Per-Instance Memory Definition            
+%%-------------------------------------------
+
+%%-------------------------------------------
+%% Constant Definition                       
+%%-------------------------------------------
+ARCHGLBPRM_2PI_ULS_F32 = DataDict.Constant;
+ARCHGLBPRM_2PI_ULS_F32.LongName = 'Two Times Pi';
+ARCHGLBPRM_2PI_ULS_F32.Description = '2 times the value of Pi';
+ARCHGLBPRM_2PI_ULS_F32.DocUnits = 'Uls';
+ARCHGLBPRM_2PI_ULS_F32.EngDT = dt.float32;
+ARCHGLBPRM_2PI_ULS_F32.EngVal = 6.2831853;
+ARCHGLBPRM_2PI_ULS_F32.Define = 'Global';
+
+
+ARCHGLBPRM_FLOATZEROTHD_ULS_F32 = DataDict.Constant;
+ARCHGLBPRM_FLOATZEROTHD_ULS_F32.LongName = 'Float Zero Threshold';
+ARCHGLBPRM_FLOATZEROTHD_ULS_F32.Description = [...
+  'Zero Threshold for float comparisons; renamed float.h FLT_EPSILON beca' ...
+  'use that name is reserved in MATLAB'];
+ARCHGLBPRM_FLOATZEROTHD_ULS_F32.DocUnits = 'Uls';
+ARCHGLBPRM_FLOATZEROTHD_ULS_F32.EngDT = dt.float32;
+ARCHGLBPRM_FLOATZEROTHD_ULS_F32.EngVal = 1.1920929e-07;
+ARCHGLBPRM_FLOATZEROTHD_ULS_F32.Define = 'Global';
+
+
+ININITRNIDXCON_CNT_U16 = DataDict.Constant;
+ININITRNIDXCON_CNT_U16.LongName = 'Initializaiton Iteration Index Constant';
+ININITRNIDXCON_CNT_U16.Description = [...
+  'It is used in the Init function as a constant for the iteration of res' ...
+  'etting NVM.'];
+ININITRNIDXCON_CNT_U16.DocUnits = 'Cnt';
+ININITRNIDXCON_CNT_U16.EngDT = dt.u16;
+ININITRNIDXCON_CNT_U16.EngVal = 512;
+ININITRNIDXCON_CNT_U16.Define = 'Local';
+
+
+ITRNIDXCON_CNT_U08 = DataDict.Constant;
+ITRNIDXCON_CNT_U08.LongName = 'Iteration Index Constant';
+ITRNIDXCON_CNT_U08.Description = [...
+  'It is used in set and get runnables to locate the position of the sign' ...
+  'als.'];
+ITRNIDXCON_CNT_U08.DocUnits = 'Cnt';
+ITRNIDXCON_CNT_U08.EngDT = dt.u08;
+ITRNIDXCON_CNT_U08.EngVal = 128;
+ITRNIDXCON_CNT_U08.Define = 'Local';
+
+
+MOTCOGGCMDHILIM_MOTNWTMTR_F32 = DataDict.Constant;
+MOTCOGGCMDHILIM_MOTNWTMTR_F32.LongName = 'Motor Cogging Command High Limit';
+MOTCOGGCMDHILIM_MOTNWTMTR_F32.Description = [...
+  'It limits the high value of the output motor cogging torque.'];
+MOTCOGGCMDHILIM_MOTNWTMTR_F32.DocUnits = 'MotNwtMtr';
+MOTCOGGCMDHILIM_MOTNWTMTR_F32.EngDT = dt.float32;
+MOTCOGGCMDHILIM_MOTNWTMTR_F32.EngVal = 0.1;
+MOTCOGGCMDHILIM_MOTNWTMTR_F32.Define = 'Local';
+
+
+MOTCOGGCMDLOLIM_MOTNWTMTR_F32 = DataDict.Constant;
+MOTCOGGCMDLOLIM_MOTNWTMTR_F32.LongName = 'Motor Cogging Command Low Limit';
+MOTCOGGCMDLOLIM_MOTNWTMTR_F32.Description = [...
+  'It limits the low value of the output motor cogging torque.'];
+MOTCOGGCMDLOLIM_MOTNWTMTR_F32.DocUnits = 'MotNwtMtr';
+MOTCOGGCMDLOLIM_MOTNWTMTR_F32.EngDT = dt.float32;
+MOTCOGGCMDLOLIM_MOTNWTMTR_F32.EngVal = -0.1;
+MOTCOGGCMDLOLIM_MOTNWTMTR_F32.Define = 'Local';
+
+
+MOTCURRCOGGCMDHILIM_AMPR_F32 = DataDict.Constant;
+MOTCURRCOGGCMDHILIM_AMPR_F32.LongName = 'Motor Current Cogging Command High Limit';
+MOTCURRCOGGCMDHILIM_AMPR_F32.Description = [...
+  'It limits the high value of the output motor current Qax cogging comma' ...
+  'nd.'];
+MOTCURRCOGGCMDHILIM_AMPR_F32.DocUnits = 'Ampr';
+MOTCURRCOGGCMDHILIM_AMPR_F32.EngDT = dt.float32;
+MOTCURRCOGGCMDHILIM_AMPR_F32.EngVal = 6;
+MOTCURRCOGGCMDHILIM_AMPR_F32.Define = 'Local';
+
+
+MOTCURRCOGGCMDLOLIM_AMPR_F32 = DataDict.Constant;
+MOTCURRCOGGCMDLOLIM_AMPR_F32.LongName = 'Motor Current Cogging Command Low Limit';
+MOTCURRCOGGCMDLOLIM_AMPR_F32.Description = [...
+  'It limits the low value of the output motor current Qax cogging comman' ...
+  'd.'];
+MOTCURRCOGGCMDLOLIM_AMPR_F32.DocUnits = 'Ampr';
+MOTCURRCOGGCMDLOLIM_AMPR_F32.EngDT = dt.float32;
+MOTCURRCOGGCMDLOLIM_AMPR_F32.EngVal = -6;
+MOTCURRCOGGCMDLOLIM_AMPR_F32.Define = 'Local';
+
+
+MOTRPLCMDHILIM_AMPR_F32 = DataDict.Constant;
+MOTRPLCMDHILIM_AMPR_F32.LongName = 'Motor Ripple Command High Limit';
+MOTRPLCMDHILIM_AMPR_F32.Description = [...
+  'It limits the high value of the output motor current Qax ripple comman' ...
+  'd.'];
+MOTRPLCMDHILIM_AMPR_F32.DocUnits = 'Ampr';
+MOTRPLCMDHILIM_AMPR_F32.EngDT = dt.float32;
+MOTRPLCMDHILIM_AMPR_F32.EngVal = 29;
+MOTRPLCMDHILIM_AMPR_F32.Define = 'Local';
+
+
+MOTRPLCMDLOLIM_AMPR_F32 = DataDict.Constant;
+MOTRPLCMDLOLIM_AMPR_F32.LongName = 'Motor Ripple Command Low Limit';
+MOTRPLCMDLOLIM_AMPR_F32.Description = [...
+  'It limits the low value of the output motor current Qax ripple command' ...
+  '.'];
+MOTRPLCMDLOLIM_AMPR_F32.DocUnits = 'Ampr';
+MOTRPLCMDLOLIM_AMPR_F32.EngDT = dt.float32;
+MOTRPLCMDLOLIM_AMPR_F32.EngVal = -29;
+MOTRPLCMDLOLIM_AMPR_F32.Define = 'Local';
+
+
+ONEOVER12_MOTREV_F32 = DataDict.Constant;
+ONEOVER12_MOTREV_F32.LongName = 'One Over Twelve';
+ONEOVER12_MOTREV_F32.Description = '1 divided by 12.';
+ONEOVER12_MOTREV_F32.DocUnits = 'MotRev';
+ONEOVER12_MOTREV_F32.EngDT = dt.float32;
+ONEOVER12_MOTREV_F32.EngVal = 0.0833333;
+ONEOVER12_MOTREV_F32.Define = 'Local';
+
+
+ONEOVER2PI_ULS_F32 = DataDict.Constant;
+ONEOVER2PI_ULS_F32.LongName = 'One Over 2 Pi';
+ONEOVER2PI_ULS_F32.Description = 'One divided by 2Pi';
+ONEOVER2PI_ULS_F32.DocUnits = 'Uls';
+ONEOVER2PI_ULS_F32.EngDT = dt.float32;
+ONEOVER2PI_ULS_F32.EngVal = 0.1591549;
+ONEOVER2PI_ULS_F32.Define = 'Local';
+
+
+ONEOVER2_ULS_F32 = DataDict.Constant;
+ONEOVER2_ULS_F32.LongName = 'One Over 2';
+ONEOVER2_ULS_F32.Description = 'One divided by 2';
+ONEOVER2_ULS_F32.DocUnits = 'Uls';
+ONEOVER2_ULS_F32.EngDT = dt.float32;
+ONEOVER2_ULS_F32.EngVal = 0.5;
+ONEOVER2_ULS_F32.Define = 'Local';
+
+
+ONEOVER4_ULS_F32 = DataDict.Constant;
+ONEOVER4_ULS_F32.LongName = 'One Over 4';
+ONEOVER4_ULS_F32.Description = 'One divided by 4';
+ONEOVER4_ULS_F32.DocUnits = 'Uls';
+ONEOVER4_ULS_F32.EngDT = dt.float32;
+ONEOVER4_ULS_F32.EngVal = 0.25;
+ONEOVER4_ULS_F32.Define = 'Local';
+
+
+SINCNVNCON1_ULS_F32 = DataDict.Constant;
+SINCNVNCON1_ULS_F32.LongName = 'Sine Conversion Constant 1';
+SINCNVNCON1_ULS_F32.Description = [...
+  'There are 2 constants used in the sine conversion function. It is the ' ...
+  '1st one.'];
+SINCNVNCON1_ULS_F32.DocUnits = 'Uls';
+SINCNVNCON1_ULS_F32.EngDT = dt.float32;
+SINCNVNCON1_ULS_F32.EngVal = 2048;
+SINCNVNCON1_ULS_F32.Define = 'Local';
+
+
+SINCNVNCON2_ULS_F32 = DataDict.Constant;
+SINCNVNCON2_ULS_F32.LongName = 'Sine Conversion Constant 2';
+SINCNVNCON2_ULS_F32.Description = [...
+  'There are 2 constants used in the sine conversion function. It is the ' ...
+  '1st one.'];
+SINCNVNCON2_ULS_F32.DocUnits = 'Uls';
+SINCNVNCON2_ULS_F32.EngDT = dt.float32;
+SINCNVNCON2_ULS_F32.EngVal = 1.5259021e-05;
+SINCNVNCON2_ULS_F32.Define = 'Local';
+
+
+SINCNVNCONTBL_ULS_U16 = DataDict.Constant;
+SINCNVNCONTBL_ULS_U16.LongName = 'Sine Conversion Constant Table';
+SINCNVNCONTBL_ULS_U16.Description = [...
+  'It is the lookup table for the sine conversion.'];
+SINCNVNCONTBL_ULS_U16.DocUnits = 'Uls';
+SINCNVNCONTBL_ULS_U16.EngDT = dt.u16;
+SINCNVNCONTBL_ULS_U16.EngVal =  ...
+   [0              201              402              603              804             1005             1206             1407             1608             1809             2010             2211             2412             2613             2814             3015             3216             3416             3617             3818             4019             4219             4420             4621             4821             5022             5222             5422             5623             5823             6023             6223             6424             6624             6824             7024             7223             7423             7623             7823             8022             8222             8421             8620             8820             9019             9218             9417             9616             9815            10014            10212            10411            10609            10808            11006            11204            11402            11600            11798            11996            12193            12391            12588            12785            12982            13179            13376            13573            13770            13966            14163            14359            14555            14751            14947            15142            15338            15533            15729            15924            16119            16313            16508            16703            16897            17091            17285            17479            17673            17866            18060            18253            18446            18639            18831            19024            19216            19408            19600            19792            19984            20175            20366            20557            20748            20939            21129            21319            21509            21699            21889            22078            22267            22456            22645            22834            23022            23210            23398            23586            23773            23960            24147            24334            24521            24707            24893            25079            25265            25450            25635            25820            26005            26189            26374            26557            26741            26925            27108            27291            27473            27656            27838            28020            28201            28383            28564            28745            28925            29106            29286            29465            29645            29824            30003            30181            30360            30538            30716            30893            31070            31247            31424            31600            31776            31952            32127            32302            32477            32651            32826            32999            33173            33346            33519            33692            33864            34036            34208            34379            34550            34721            34891            35061            35231            35400            35569            35738            35906            36074            36242            36409            36576            36743            36909            37075            37241            37406            37571            37736            37900            38064            38227            38390            38553            38715            38877            39039            39200            39361            39522            39682            39842            40001            40161            40319            40478            40635            40793            40950            41107            41263            41419            41575            41730            41885            42039            42194            42347            42500            42653            42806            42958            43109            43261            43411            43562            43712            43861            44011            44159            44308            44456            44603            44750            44897            45043            45189            45334            45479            45624            45768            45912            46055            46198            46340            46482            46624            46765            46905            47046            47185            47325            47464            47602            47740            47877            48014            48151            48287            48423            48558            48693            48827            48961            49095            49228            49360            49492            49624            49755            49885            50016            50145            50274            50403            50531            50659            50787            50913            51040            51166            51291            51416            51540            51664            51788            51911            52033            52155            52277            52398            52518            52638            52758            52877            52995            53113            53231            53348            53464            53580            53696            53811            53925            54039            54153            54266            54378            54490            54602            54713            54823            54933            55042            55151            55260            55367            55475            55582            55688            55794            55899            56003            56108            56211            56314            56417            56519            56620            56721            56822            56922            57021            57120            57218            57316            57413            57510            57606            57702            57797            57891            57985            58079            58171            58264            58356            58447            58537            58628            58717            58806            58895            58983            59070            59157            59243            59329            59414            59498            59582            59666            59749            59831            59913            59994            60075            60155            60234            60313            60391            60469            60546            60623            60699            60775            60850            60924            60998            61071            61144            61216            61287            61358            61429            61498            61567            61636            61704            61772            61838            61905            61970            62035            62100            62164            62227            62290            62352            62414            62475            62535            62595            62654            62713            62771            62829            62886            62942            62998            63053            63107            63161            63214            63267            63319            63371            63422            63472            63522            63571            63620            63668            63715            63762            63808            63853            63898            63943            63986            64030            64072            64114            64155            64196            64236            64276            64315            64353            64391            64428            64464            64500            64535            64570            64604            64638            64671            64703            64734            64765            64796            64826            64855            64883            64911            64939            64966            64992            65017            65042            65066            65090            65113            65136            65158            65179            65199            65219            65239            65258            65276            65293            65310            65327            65342            65357            65372            65386            65399            65412            65424            65435            65446            65456            65466            65475            65483            65491            65498            65504            65510            65515            65520            65524            65527            65530            65532            65534            65535            65535];
+SINCNVNCONTBL_ULS_U16.Define = 'Local';
+
+
+
+%%-------------------------------------------
+%% NTC Definition                            
+%%-------------------------------------------
+%end of Data Dictionary

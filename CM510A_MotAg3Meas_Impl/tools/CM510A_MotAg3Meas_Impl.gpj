@@ -1,0 +1,4 @@
+#!gbuild   
+[Subproject]   
+..\src\CDD_MotAg3Meas.c   
+..\include\CDD_MotAg3Meas.h   

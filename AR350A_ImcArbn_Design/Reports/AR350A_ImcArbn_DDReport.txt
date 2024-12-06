@@ -1,0 +1,131 @@
+Verification of AR350A_ImcArbn_DataDict
+18-Jan-2017 09:35:26
+Tool Release:  2.52.0
+
+
+
+--------------------------------
+DATA CLASS VIOLATION CHECKS
+--------------------------------
+(errors: 0)
+
+---------------------------------------------------------------
+FDD DEFINITION VARIABLE:	<Type><Number><Variant>  e.g. SF099A
+--------------------------------------------------------------
+(variable: 1, errors: 0)
+
+----------------------------
+DATA DICTIONARY FILENAME:
+----------------------------
+Missing Model 	Unable to find model for comparison to data dictionary.
+(errors:  1)
+
+------------------------------------------------------------
+RUNNABLE:	<ShoName>Per<Number>  or  <ShoName>Init<Number>
+------------------------------------------------------------
+(variables: 7, errors: 0)
+
+--------------------------------------
+SrvRunnable:	<TriggerName>
+--------------------------------------
+GetSigImcDataExtdSts_f32    	    Sts_f          Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcDataExtdSts_logl   	    Sts_logl       Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcDataExtdSts_s08    	    Sts_s          Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcDataExtdSts_s16    	    Sts_s          Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcDataExtdSts_s32    	    Sts_s          Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcDataExtdSts_u08    	    Sts_u          Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcDataExtdSts_u16    	    Sts_u          Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcDataExtdSts_u32    	    Sts_u          Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcData_f32           	    Data_f         Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcData_logl          	    Data_logl      Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcData_s08           	    Data_s         Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcData_s16           	    Data_s         Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcData_s32           	    Data_s         Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcData_u08           	    Data_u         Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcData_u16           	    Data_u         Unknown Keyword used.Only Nexteer approved Keywords should be used.
+GetSigImcData_u32           	    Data_u         Unknown Keyword used.Only Nexteer approved Keywords should be used.
+(variables: 19, errors: 16)
+
+-----------------------
+Client:	<TriggerName>
+-------------------------
+(variables: 1, errors: 0)
+
+----------------------------
+INPUT SIGNALS:	<Identity>
+----------------------------
+(variables: 0, errors: 0)
+
+-----------------------------
+OUTPUT SIGNALS:	<Identity>
+-----------------------------
+(variables: 0, errors: 0)
+
+---------------------------------------
+INTER-RUNNABLE VARIABLES:	<Identity>
+---------------------------------------
+IniTiOutChkCmpl             	.ReadIn:	Field should contain only valid Periodic & Server Runnable names.	ImcArbnPer4,ImcArbnPer5,ImcArbnPer6 is not allowed.
+(variables: 1, errors: 1)
+
+------------------------------------
+CALIBRATIONS:	<ShoName><Identity>
+------------------------------------
+ImcArbnEcuIninTiOutThd           	.DocUnits:	Not on approved list.
+(variables: 2, errors: 1)
+
+----------------------------------------------
+IMPORTED CALIBRATIONS:	<ShoName><Identity>
+---------------------------------------------
+(variables: 0, errors: 0)
+
+-------------------------------------------
+NON-VOLATILE MEMORY:	<Identity>
+-------------------------------------------
+(variables: 0, errors: 0)
+
+------------------------------------------
+DISPLAY VARIABLES:	d<ShoName><Identity>
+------------------------------------------
+(variables: 0, errors: 0)
+
+-----------------------------------------------
+PER-INSTANCE MEMORY:	<Identity>
+-----------------------------------------------
+ImcEcuComStrtTiRef          	.DocUnits:	Not on approved list.
+(variables: 22, errors: 1)
+
+--------------------------------------------------------------------------------------------
+CONSTANTS:	(ALL CAPS) required: 
+						 For "Global" CONSTANTS --- <SHONAME>_<IDENTITY>_<UNITS>_<DATATYPE>
+						 For "Local" CONSTANTS  --- <IDENTITY>_<UNITS>_<DATATYPE>
+-------------------------------------------------------------------------------------------
+(variables: 40, errors: 0)
+
+-------------------------
+CSArguments:	<IDENTITY>
+---------------------------
+(variables: 0, errors: 0)
+
+--------------------------------------------------------------------------------------------
+CONFIGPARAM:	(ALL CAPS) required: 
+						 For "Global" CONSTANTS --- <SHONAME>_<IDENTITY>_<UNITS>_<DATATYPE>
+						 For "Local" CONSTANTS  --- <IDENTITY>_<UNITS>_<DATATYPE>
+-------------------------------------------------------------------------------------------
+(variables: 5, errors: 0)
+
+----------------------------
+NTC SIGNALS:	<Identity>
+----------------------------
+(variables: 1, errors: 0)
+
+------
+OTHER:
+------
+(variables: 0, errors: 0)
+ 
+************************
+Grand Totals:
+99 variables,  20 issues to fix.
+
+
+End of Report

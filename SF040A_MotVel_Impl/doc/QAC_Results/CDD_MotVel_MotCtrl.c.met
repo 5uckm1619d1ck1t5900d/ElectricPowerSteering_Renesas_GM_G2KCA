@@ -1,0 +1,135 @@
+<RDEF> I Includes
+<R>I C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c C:/component/SF040A_MotVel_Impl/tools/contract/Rte_CDD_MotVel.h 29
+<R>I C:/component/SF040A_MotVel_Impl/tools/contract/Rte_CDD_MotVel.h C:/component/SF040A_MotVel_Impl/tools/contract/Rte_CDD_MotVel_Type.h 40
+<R>I C:/component/SF040A_MotVel_Impl/tools/contract/Rte_CDD_MotVel_Type.h C:/component/SF040A_MotVel_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/component/SF040A_MotVel_Impl/tools/contract/Rte_Type.h C:/component/SF040A_MotVel_Impl/tools/contract/Rte.h 27
+<R>I C:/component/SF040A_MotVel_Impl/tools/contract/Rte.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/component/SF040A_MotVel_Impl/tools/contract/Rte_CDD_MotVel.h C:/component/SF040A_MotVel_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/component/SF040A_MotVel_Impl/tools/contract/Rte_CDD_MotVel.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 62
+<R>I C:/component/SF040A_MotVel_Impl/tools/contract/Rte_CDD_MotVel.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 67
+<R>I C:/component/SF040A_MotVel_Impl/tools/contract/Rte_CDD_MotVel.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 84
+<R>I C:/component/SF040A_MotVel_Impl/tools/contract/Rte_CDD_MotVel.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 107
+<R>I C:/component/SF040A_MotVel_Impl/tools/contract/Rte_CDD_MotVel.h C:/component/SF040A_MotVel_Impl/tools/contract/CDD_MotVel_MemMap.h 192
+<R>I C:/component/SF040A_MotVel_Impl/tools/contract/CDD_MotVel_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/component/SF040A_MotVel_Impl/tools/contract/Rte_CDD_MotVel.h C:/component/SF040A_MotVel_Impl/tools/contract/CDD_MotVel_MemMap.h 242
+<R>I C:/component/SF040A_MotVel_Impl/tools/contract/CDD_MotVel_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c C:/component/SF040A_MotVel_Impl/include/CDD_MotVel.h 30
+<DEFINE> CDD_MOTVEL_H C:/component/SF040A_MotVel_Impl/include/CDD_MotVel.h 21 I DF OM - - - O
+<R>I C:/component/SF040A_MotVel_Impl/include/CDD_MotVel.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<EXTN> MotVelPer1 C:/component/SF040A_MotVel_Impl/include/CDD_MotVel.h 30
+<DEFINE> MotVelPer1 C:/component/SF040A_MotVel_Impl/include/CDD_MotVel.h 30 I DC OF F X (.,.) -
+<R>I C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c C:/component/SF040A_MotVel_Impl/include/CDD_MotVel_private.h 31
+<DEFINE> CDD_MOTVEL_PRIVATE_H C:/component/SF040A_MotVel_Impl/include/CDD_MotVel_private.h 21 I DF OM - - - O
+<DEFINE> BUFSIZE_CNT_U08 C:/component/SF040A_MotVel_Impl/include/CDD_MotVel_private.h 24 I DF OM - - - O
+<LIT> 8 U P C:/component/SF040A_MotVel_Impl/include/CDD_MotVel_private.h 24 32 I DN - F M
+<R>I C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c C:/component/SF040A_MotVel_Impl/tools/contract/CDD_MotCtrlMgr_Data.h 32
+<DEFINE> CDD_MOTVEL_MOTCTRL_START_SEC_CODE C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c 45 N DF OM - - - O
+<R>I C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c C:/component/SF040A_MotVel_Impl/include/CDD_MotVel_MotCtrl_MemMap.h 46
+<DEFINE> MotCtrl_START_SEC_CODE C:/component/SF040A_MotVel_Impl/include/CDD_MotVel_MotCtrl_MemMap.h 26 I DF OM - - - O
+<R>I C:/component/SF040A_MotVel_Impl/include/CDD_MotVel_MotCtrl_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 27
+<EXTD> MotVelPer1 C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c 55
+<DEFINE> MotVelPer1 C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c 55 N DR OF F X (.,.) -
+<DEFINE> MotVelPer1 C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c 55 N DF OF F X (.,.) -
+<RDEF> X Refers-to
+<R>X MotVelPer1 MOTCTRLMGR_MotCtrlMotAgMecl 67 R
+<R>X MotVelPer1 Rte_Inst_CDD_MotVel 67 R
+<R>X MotVelPer1 MOTCTRLMGR_MotCtrlMotAgBuf 67 W
+<R>X MotVelPer1 MOTCTRLMGR_MotCtrlMotAgMeasTi 68 R
+<R>X MotVelPer1 Rte_Inst_CDD_MotVel 68 R
+<R>X MotVelPer1 MOTCTRLMGR_MotCtrlMotAgTiBuf 68 W
+<R>X MotVelPer1 Rte_Inst_CDD_MotVel 69 R
+<R>X MotVelPer1 MOTCTRLMGR_MotCtrlMotAgBufIdx 69 W
+<R>X MotVelPer1 Rte_Inst_CDD_MotVel 71 R
+<R>X MotVelPer1 Rte_Inst_CDD_MotVel 71 R
+<LIT> 1 U P C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c 71 55 N DN ui B X
+<LIT> 1 U P C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c 71 78 N DN ui B X
+<CTLG> MotVelPer1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 56 83 83 83 
+<S>
+<S>STFIL  C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c
+<S>STNAM  MotVelPer1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  26
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.25   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  4
+<S>STST2  4
+<S>STST3  4
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  36
+<S>STFN2  13
+
+<DEFINE> CDD_MOTVEL_MOTCTRL_STOP_SEC_CODE C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c 85 N DF OM - - - O
+<R>I C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c C:/component/SF040A_MotVel_Impl/include/CDD_MotVel_MotCtrl_MemMap.h 86
+<DEFINE> MotCtrl_STOP_SEC_CODE C:/component/SF040A_MotVel_Impl/include/CDD_MotVel_MotCtrl_MemMap.h 32 I DF OM - - - O
+<R>I C:/component/SF040A_MotVel_Impl/include/CDD_MotVel_MotCtrl_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 33
+<S>
+<S>STFIL  C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c
+<S>STNAM  MotVelPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c
+<S>STNAM  C:/component/SF040A_MotVel_Impl/src/CDD_MotVel_MotCtrl.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  6
+<S>STFNC  1
+<S>STFCO  0
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  10
+<S>STOPT  18
+<S>STOPN  12
+<S>STTOT  97
+<S>STZIP  119
+<S>STHAL  118
+<S>STSHN  375
+<S>STDIF  11.06  
+<S>STEFF  5266
+<S>STVOL  476
+<S>STDEV  0.88   
+<S>STBUG  0
+<S>STTPP  86
+<S>STTLN  7
+<S>STM20  16
+<S>STM21  75
+<S>STM22  4
+<S>STM28  24
+<S>STM33  20
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.183  
+<S>STBMS  0.192  
+<S>STBME  0.190  
+<S>STTDO  1.310  
+<S>STTDS  1.404  
+<S>STTDE  1.468  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  4.371  
+

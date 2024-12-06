@@ -1,0 +1,4 @@
+#!gbuild 
+[Subproject] 
+..\output\g2kca.elf.rc 
+..\output\T1xx.py 

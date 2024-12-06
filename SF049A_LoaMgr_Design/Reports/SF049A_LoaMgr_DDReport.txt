@@ -1,0 +1,172 @@
+Verification of SF049A_LoaMgr_DataDict
+07-Jun-2016 13:56:41
+Tool Release:  2.41.0
+
+
+
+--------------------------------
+DATA CLASS VIOLATION CHECKS
+--------------------------------
+[Warning: NtcNr strings of the format 'NTCNR_0X0AA' are no longer accepted. Please use the NtcNr enumeration data
+class, or the name of a ConfigParam in your workspace.] 
+[> In <a href="matlab: opentoline('C:\Nimmy\FDD Dependency\Data_Management v2.41.0\+DataDict\@NTC\NTC.m',40,1)">NTC.NTC>NTC.set.NtcNr at 40</a>
+  In <a href="matlab: opentoline('C:\Nimmy\FDD Development\SF049A\SF049A_LoaMgr_Design\Design\SF049A_LoaMgr_DataDict.m',1395,1)">SF049A_LoaMgr_DataDict at 1395</a>
+  In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2013b\toolbox\matlab\lang\run.m',63,1)">run at 63</a>
+  In C:\Nimmy\FDD Dependency\Tools v1.13.0\Design_Tools\VerifyDD.p>ImportVars at 1807
+  In C:\Nimmy\FDD Dependency\Tools v1.13.0\Design_Tools\VerifyDD.p>VerifyDD at 241] 
+[Warning: NtcNr strings of the format 'NTCNR_0X0AB' are no longer accepted. Please use the NtcNr enumeration data
+class, or the name of a ConfigParam in your workspace.] 
+[> In <a href="matlab: opentoline('C:\Nimmy\FDD Dependency\Data_Management v2.41.0\+DataDict\@NTC\NTC.m',40,1)">NTC.NTC>NTC.set.NtcNr at 40</a>
+  In <a href="matlab: opentoline('C:\Nimmy\FDD Development\SF049A\SF049A_LoaMgr_Design\Design\SF049A_LoaMgr_DataDict.m',1411,1)">SF049A_LoaMgr_DataDict at 1411</a>
+  In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2013b\toolbox\matlab\lang\run.m',63,1)">run at 63</a>
+  In C:\Nimmy\FDD Dependency\Tools v1.13.0\Design_Tools\VerifyDD.p>ImportVars at 1807
+  In C:\Nimmy\FDD Dependency\Tools v1.13.0\Design_Tools\VerifyDD.p>VerifyDD at 241] 
+[Warning: NtcNr strings of the format 'NTCNR_0X0AC' are no longer accepted. Please use the NtcNr enumeration data
+class, or the name of a ConfigParam in your workspace.] 
+[> In <a href="matlab: opentoline('C:\Nimmy\FDD Dependency\Data_Management v2.41.0\+DataDict\@NTC\NTC.m',40,1)">NTC.NTC>NTC.set.NtcNr at 40</a>
+  In <a href="matlab: opentoline('C:\Nimmy\FDD Development\SF049A\SF049A_LoaMgr_Design\Design\SF049A_LoaMgr_DataDict.m',1427,1)">SF049A_LoaMgr_DataDict at 1427</a>
+  In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2013b\toolbox\matlab\lang\run.m',63,1)">run at 63</a>
+  In C:\Nimmy\FDD Dependency\Tools v1.13.0\Design_Tools\VerifyDD.p>ImportVars at 1807
+  In C:\Nimmy\FDD Dependency\Tools v1.13.0\Design_Tools\VerifyDD.p>VerifyDD at 241] 
+[Warning: NtcNr strings of the format 'NTCNR_0X0AD' are no longer accepted. Please use the NtcNr enumeration data
+class, or the name of a ConfigParam in your workspace.] 
+[> In <a href="matlab: opentoline('C:\Nimmy\FDD Dependency\Data_Management v2.41.0\+DataDict\@NTC\NTC.m',40,1)">NTC.NTC>NTC.set.NtcNr at 40</a>
+  In <a href="matlab: opentoline('C:\Nimmy\FDD Development\SF049A\SF049A_LoaMgr_Design\Design\SF049A_LoaMgr_DataDict.m',1443,1)">SF049A_LoaMgr_DataDict at 1443</a>
+  In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2013b\toolbox\matlab\lang\run.m',63,1)">run at 63</a>
+  In C:\Nimmy\FDD Dependency\Tools v1.13.0\Design_Tools\VerifyDD.p>ImportVars at 1807
+  In C:\Nimmy\FDD Dependency\Tools v1.13.0\Design_Tools\VerifyDD.p>VerifyDD at 241] 
+[Warning: NtcNr strings of the format 'NTCNR_0X0AE' are no longer accepted. Please use the NtcNr enumeration data
+class, or the name of a ConfigParam in your workspace.] 
+[> In <a href="matlab: opentoline('C:\Nimmy\FDD Dependency\Data_Management v2.41.0\+DataDict\@NTC\NTC.m',40,1)">NTC.NTC>NTC.set.NtcNr at 40</a>
+  In <a href="matlab: opentoline('C:\Nimmy\FDD Development\SF049A\SF049A_LoaMgr_Design\Design\SF049A_LoaMgr_DataDict.m',1459,1)">SF049A_LoaMgr_DataDict at 1459</a>
+  In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2013b\toolbox\matlab\lang\run.m',63,1)">run at 63</a>
+  In C:\Nimmy\FDD Dependency\Tools v1.13.0\Design_Tools\VerifyDD.p>ImportVars at 1807
+  In C:\Nimmy\FDD Dependency\Tools v1.13.0\Design_Tools\VerifyDD.p>VerifyDD at 241] 
+[Warning: NtcNr strings of the format 'NTCNR_0X0AF' are no longer accepted. Please use the NtcNr enumeration data
+class, or the name of a ConfigParam in your workspace.] 
+[> In <a href="matlab: opentoline('C:\Nimmy\FDD Dependency\Data_Management v2.41.0\+DataDict\@NTC\NTC.m',40,1)">NTC.NTC>NTC.set.NtcNr at 40</a>
+  In <a href="matlab: opentoline('C:\Nimmy\FDD Development\SF049A\SF049A_LoaMgr_Design\Design\SF049A_LoaMgr_DataDict.m',1475,1)">SF049A_LoaMgr_DataDict at 1475</a>
+  In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2013b\toolbox\matlab\lang\run.m',63,1)">run at 63</a>
+  In C:\Nimmy\FDD Dependency\Tools v1.13.0\Design_Tools\VerifyDD.p>ImportVars at 1807
+  In C:\Nimmy\FDD Dependency\Tools v1.13.0\Design_Tools\VerifyDD.p>VerifyDD at 241] 
+(errors: 6)
+[Warning: File not found or permission denied] 
+[> In C:\Nimmy\FDD Dependency\Tools v1.13.0\Design_Tools\VerifyDD.p>ModelDDTest at 2282
+  In C:\Nimmy\FDD Dependency\Tools v1.13.0\Design_Tools\VerifyDD.p>VerifyDD at 282] 
+
+---------------------------------------------------------------
+FDD DEFINITION VARIABLE:	<Type><Number><Variant>  e.g. SF099A
+--------------------------------------------------------------
+(variable: 1, errors: 0)
+
+----------------------------
+DATA DICTIONARY FILENAME:
+----------------------------
+(errors:  0)
+
+------------------------------------------------------------
+RUNNABLE:	<ShoName>Per<Number>  or  <ShoName>Init<Number>
+------------------------------------------------------------
+(variables: 2, errors: 0)
+
+--------------------------------------
+SrvRunnable:	<TriggerName>
+--------------------------------------
+(variables: 0, errors: 0)
+
+-----------------------
+Client:	<TriggerName>
+-------------------------
+(variables: 1, errors: 0)
+
+----------------------------
+INPUT SIGNALS:	<Identity>
+----------------------------
+LoaScaDi                    	Cannot match name to list of known Nexteer signals.
+(variables: 7, errors: 1)
+
+-----------------------------
+OUTPUT SIGNALS:	<Identity>
+-----------------------------
+(variables: 7, errors: 0)
+
+---------------------------------------
+INTER-RUNNABLE VARIABLES:	<Identity>
+---------------------------------------
+(variables: 1, errors: 0)
+
+------------------------------------
+CALIBRATIONS:	<ShoName><Identity>
+------------------------------------
+(variables: 35, errors: 0)
+
+----------------------------------------------
+IMPORTED CALIBRATIONS:	<ShoName><Identity>
+---------------------------------------------
+(variables: 0, errors: 0)
+
+-------------------------------------------
+NON-VOLATILE MEMORY:	<Identity>
+-------------------------------------------
+(variables: 0, errors: 0)
+
+------------------------------------------
+DISPLAY VARIABLES:	d<ShoName><Identity>
+------------------------------------------
+(variables: 0, errors: 0)
+
+-----------------------------------------------
+PER-INSTANCE MEMORY:	<Identity>
+-----------------------------------------------
+(variables: 14, errors: 0)
+
+--------------------------------------------------------------------------------------------
+CONSTANTS:	(ALL CAPS) required: 
+						 For "Global" CONSTANTS --- <SHONAME>_<IDENTITY>_<UNITS>_<DATATYPE>
+						 For "Local" CONSTANTS  --- <IDENTITY>_<UNITS>_<DATATYPE>
+-------------------------------------------------------------------------------------------
+(variables: 14, errors: 0)
+
+-------------------------
+CSArguments:	<IDENTITY>
+---------------------------
+(variables: 0, errors: 0)
+
+--------------------------------------------------------------------------------------------
+CONFIGPARAM:	(ALL CAPS) required: 
+						 For "Global" CONSTANTS --- <SHONAME>_<IDENTITY>_<UNITS>_<DATATYPE>
+						 For "Local" CONSTANTS  --- <IDENTITY>_<UNITS>_<DATATYPE>
+-------------------------------------------------------------------------------------------
+(variables: 0, errors: 0)
+
+----------------------------
+NTC SIGNALS:	<Identity>
+----------------------------
+NTCNR_0X0AA                 	Name does not match required pattern.
+NTCNR_0X0AA                 	    R_             Unknown Keyword used.Only Nexteer approved Keywords should be used.
+NTCNR_0X0AB                 	Name does not match required pattern.
+NTCNR_0X0AB                 	    R_             Unknown Keyword used.Only Nexteer approved Keywords should be used.
+NTCNR_0X0AC                 	Name does not match required pattern.
+NTCNR_0X0AC                 	    R_             Unknown Keyword used.Only Nexteer approved Keywords should be used.
+NTCNR_0X0AD                 	Name does not match required pattern.
+NTCNR_0X0AD                 	    R_             Unknown Keyword used.Only Nexteer approved Keywords should be used.
+NTCNR_0X0AE                 	Name does not match required pattern.
+NTCNR_0X0AE                 	    R_             Unknown Keyword used.Only Nexteer approved Keywords should be used.
+NTCNR_0X0AF                 	Name does not match required pattern.
+NTCNR_0X0AF                 	    R_             Unknown Keyword used.Only Nexteer approved Keywords should be used.
+(variables: 6, errors: 12)
+
+------
+OTHER:
+------
+Unit Delay:                 	'Unit Delay Block'	'StateMustResolveToSignalObject' property must be enabled.
+Unit Delay1:SigQlfr1        	'Unit Delay Block'	'StateMustResolveToSignalObject' property must be enabled.
+Unit Delay2:                	'Unit Delay Block'	'StateMustResolveToSignalObject' property must be enabled.
+(variables: 0, errors: 3)
+ 
+************************
+Grand Totals:
+88 variables,  22 issues to fix.
+
+
+End of Report

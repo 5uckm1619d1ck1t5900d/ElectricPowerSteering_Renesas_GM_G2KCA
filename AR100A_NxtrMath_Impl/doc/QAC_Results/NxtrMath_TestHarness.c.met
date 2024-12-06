@@ -1,0 +1,3895 @@
+<RDEF> I Includes
+<R>I C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 3
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 4
+<DEFINE> NXTRMATH_H C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 22 I DF OM - - - O
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/TL103A_CplrSuprt/include/2013.5.5/ansi/math.h 25
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 26
+<DEFINE> TblSize_m C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 36 I DF OM - - - F
+<LIT> 0 - P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 36 52 I ON - F M
+<DEFINE> SIN22PT5DEG_ULS_F32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 40 I DF OM - - - O
+<LIT> 0.3826834323650897717284599840304 F P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 40 41 I FN - F M
+<DEFINE> SIN45PT0DEG_ULS_F32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 41 I DF OM - - - O
+<LIT> 0.70710678118654752440084436210485 F P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 41 41 I FN - F M
+<DEFINE> SIN67PT5DEG_ULS_F32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 42 I DF OM - - - O
+<LIT> 0.92387953251128675612818318939679 F P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 42 41 I FN - F M
+<DEFINE> EIGHTOVERPI_ULS_F32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 43 I DF OM - - - O
+<LIT> 2.5464790894703253723021402139602 F P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 43 33 I FN - F M
+<DEFINE> PIOVEREIGHT_ULS_F32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 44 I DF OM - - - O
+<LIT> 0.39269908169872415480783042290994 F P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 44 33 I FN - F M
+<DEFINE> ONEOVERSIX_ULS_F32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 45 I DF OM - - - O
+<LIT> 0.16666666666666666666666666666667 F P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 45 33 I FN - F M
+<DEFINE> ONEOVERTWO_ULS_F32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 46 I DF OM - - - O
+<LIT> 0.5 F P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 46 33 I FN - F M
+<EXTN> Blnd_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 51
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 51 I DC OV P N fs R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 52 I DC OV P N fs R
+<DEFINE> Fac C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 53 I DC OV P N fs R
+<DEFINE> Blnd_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 51 I DC OF F X (fs,fs,fs,fs) -
+<EXTN> Abslt_u08_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 55
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 55 I DC OV P N nc R
+<DEFINE> Abslt_u08_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 55 I DC OF F X (uc,nc) -
+<EXTN> Abslt_u16_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 57
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 57 I DC OV P N ns R
+<DEFINE> Abslt_u16_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 57 I DC OF F X (us,ns) -
+<EXTN> Abslt_u32_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 59
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 59 I DC OV P N nl R
+<DEFINE> Abslt_u32_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 59 I DC OF F X (ul,nl) -
+<EXTN> Abslt_f32_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 61
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 61 I DC OV P N fs R
+<DEFINE> Abslt_f32_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 61 I DC OF F X (fs,fs) -
+<EXTN> Sign_s08_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 63
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 63 I DC OV P N nc R
+<DEFINE> Sign_s08_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 63 I DC OF F X (nc,nc) -
+<EXTN> Sign_s08_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 65
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 65 I DC OV P N ns R
+<DEFINE> Sign_s08_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 65 I DC OF F X (nc,ns) -
+<EXTN> Sign_s08_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 67
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 67 I DC OV P N nl R
+<DEFINE> Sign_s08_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 67 I DC OF F X (nc,nl) -
+<EXTN> Sign_s08_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 69
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 69 I DC OV P N fs R
+<DEFINE> Sign_s08_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 69 I DC OF F X (nc,fs) -
+<EXTN> Min_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 71
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 71 I DC OV P N nc R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 72 I DC OV P N nc R
+<DEFINE> Min_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 71 I DC OF F X (nc,nc,nc) -
+<EXTN> Min_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 74
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 74 I DC OV P N uc R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 75 I DC OV P N uc R
+<DEFINE> Min_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 74 I DC OF F X (uc,uc,uc) -
+<EXTN> Min_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 77
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 77 I DC OV P N ns R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 78 I DC OV P N ns R
+<DEFINE> Min_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 77 I DC OF F X (ns,ns,ns) -
+<EXTN> Min_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 80
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 80 I DC OV P N us R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 81 I DC OV P N us R
+<DEFINE> Min_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 80 I DC OF F X (us,us,us) -
+<EXTN> Min_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 83
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 83 I DC OV P N nl R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 84 I DC OV P N nl R
+<DEFINE> Min_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 83 I DC OF F X (nl,nl,nl) -
+<EXTN> Min_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 86
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 86 I DC OV P N ul R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 87 I DC OV P N ul R
+<DEFINE> Min_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 86 I DC OF F X (ul,ul,ul) -
+<EXTN> Min_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 89
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 89 I DC OV P N fs R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 90 I DC OV P N fs R
+<DEFINE> Min_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 89 I DC OF F X (fs,fs,fs) -
+<EXTN> Max_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 92
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 92 I DC OV P N nc R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 93 I DC OV P N nc R
+<DEFINE> Max_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 92 I DC OF F X (nc,nc,nc) -
+<EXTN> Max_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 95
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 95 I DC OV P N uc R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 96 I DC OV P N uc R
+<DEFINE> Max_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 95 I DC OF F X (uc,uc,uc) -
+<EXTN> Max_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 98
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 98 I DC OV P N ns R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 99 I DC OV P N ns R
+<DEFINE> Max_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 98 I DC OF F X (ns,ns,ns) -
+<EXTN> Max_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 101
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 101 I DC OV P N us R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 102 I DC OV P N us R
+<DEFINE> Max_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 101 I DC OF F X (us,us,us) -
+<EXTN> Max_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 104
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 104 I DC OV P N nl R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 105 I DC OV P N nl R
+<DEFINE> Max_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 104 I DC OF F X (nl,nl,nl) -
+<EXTN> Max_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 107
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 107 I DC OV P N ul R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 108 I DC OV P N ul R
+<DEFINE> Max_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 107 I DC OF F X (ul,ul,ul) -
+<EXTN> Max_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 110
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 110 I DC OV P N fs R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 111 I DC OV P N fs R
+<DEFINE> Max_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 110 I DC OF F X (fs,fs,fs) -
+<EXTN> Lim_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 113
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 113 I DC OV P N nc R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 114 I DC OV P N nc R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 115 I DC OV P N nc R
+<DEFINE> Lim_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 113 I DC OF F X (nc,nc,nc,nc) -
+<EXTN> Lim_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 117
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 117 I DC OV P N uc R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 118 I DC OV P N uc R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 119 I DC OV P N uc R
+<DEFINE> Lim_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 117 I DC OF F X (uc,uc,uc,uc) -
+<EXTN> Lim_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 121
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 121 I DC OV P N ns R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 122 I DC OV P N ns R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 123 I DC OV P N ns R
+<DEFINE> Lim_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 121 I DC OF F X (ns,ns,ns,ns) -
+<EXTN> Lim_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 125
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 125 I DC OV P N us R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 126 I DC OV P N us R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 127 I DC OV P N us R
+<DEFINE> Lim_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 125 I DC OF F X (us,us,us,us) -
+<EXTN> Lim_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 129
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 129 I DC OV P N nl R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 130 I DC OV P N nl R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 131 I DC OV P N nl R
+<DEFINE> Lim_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 129 I DC OF F X (nl,nl,nl,nl) -
+<EXTN> Lim_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 133
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 133 I DC OV P N ul R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 134 I DC OV P N ul R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 135 I DC OV P N ul R
+<DEFINE> Lim_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 133 I DC OF F X (ul,ul,ul,ul) -
+<EXTN> Lim_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 137
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 137 I DC OV P N fs R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 138 I DC OV P N fs R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 139 I DC OV P N fs R
+<DEFINE> Lim_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 137 I DC OF F X (fs,fs,fs,fs) -
+<EXTN> Arctan2_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 141
+<DEFINE> Numer C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 141 I DC OV P N fs R
+<DEFINE> Denom C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 142 I DC OV P N fs R
+<DEFINE> Arctan2_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 141 I DC OF F X (fs,fs,fs) -
+<EXTN> Sin_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 144
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 144 I DC OV P N fs R
+<DEFINE> Sin_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 144 I DC OF F X (fs,fs) -
+<EXTN> Cos_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 146
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 146 I DC OV P N fs R
+<DEFINE> Cos_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 146 I DC OF F X (fs,fs) -
+<EXTN> Exp_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 148
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 148 I DC OV P N fs R
+<DEFINE> Exp_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 148 I DC OF F X (fs,fs) -
+<EXTN> Sqrt_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 150
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 150 I DC OV P N fs R
+<DEFINE> Sqrt_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 150 I DC OF F X (fs,fs) -
+<EXTN> Mod_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 152
+<DEFINE> Numer C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 152 I DC OV P N fs R
+<DEFINE> Denom C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 153 I DC OV P N fs R
+<DEFINE> Mod_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 152 I DC OF F X (fs,fs,fs) -
+<EXTN> SinCos_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 155
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 155 I DC OV P N fs R
+<DEFINE> SinVal C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 156 I DC OV P N pfs R
+<DEFINE> CosVal C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 157 I DC OV P N pfs R
+<DEFINE> SinCos_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 155 I DC OF F X (.,fs,pfs,pfs) -
+<EXTD> Blnd_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 170
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 170 I DC OV B N fs R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 171 I DC OV B N fs R
+<DEFINE> Fac C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 172 I DC OV B N fs R
+<DEFINE> Blnd_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 170 I DR OF F X (fs,fs,fs,fs) -
+<DEFINE> Blnd_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 170 I DF OF F X (fs,fs,fs,fs) -
+<LIT> 1.0 F P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 174 23 I FN fs B X
+<CTLG> Blnd_f32 1
+<CTLG> 1 3
+<CTLGN> 173 174 174 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Abslt_u08_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 184
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 184 I DC OV B N nc R
+<DEFINE> Abslt_u08_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 184 I DR OF F X (uc,nc) -
+<DEFINE> Abslt_u08_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 184 I DF OF F X (uc,nc) -
+<LIT> 0 - P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 187 21 I ON ni B X
+<CTLG> Abslt_u08_s08 1
+<CTLG> 1 3
+<CTLGN> 185 187 187 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Abslt_u16_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 197
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 197 I DC OV B N ns R
+<DEFINE> Abslt_u16_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 197 I DR OF F X (us,ns) -
+<DEFINE> Abslt_u16_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 197 I DF OF F X (us,ns) -
+<LIT> 0 - P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 200 21 I ON ni B X
+<CTLG> Abslt_u16_s16 1
+<CTLG> 1 3
+<CTLGN> 198 200 200 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Abslt_u32_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 210
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 210 I DC OV B N nl R
+<DEFINE> Abslt_u32_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 210 I DR OF F X (ul,nl) -
+<DEFINE> Abslt_u32_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 210 I DF OF F X (ul,nl) -
+<LIT> 0 - P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 213 21 I ON ni B X
+<CTLG> Abslt_u32_s32 1
+<CTLG> 1 3
+<CTLGN> 211 213 213 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Abslt_f32_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 223
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 223 I DC OV B N fs R
+<DEFINE> Abslt_f32_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 223 I DR OF F X (fs,fs) -
+<DEFINE> Abslt_f32_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 223 I DF OF F X (fs,fs) -
+<RDEF> C Calls
+<R>C Abslt_f32_f32 fabsf 225
+<RDEF> X Refers-to
+<R>X Abslt_f32_f32 fabsf 225 R
+<CTLG> Abslt_f32_f32 1
+<CTLG> 1 3
+<CTLGN> 224 225 225 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Sign_s08_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 235
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 235 I DC OV B N nc R
+<DEFINE> Sign_s08_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 235 I DR OF F X (nc,nc) -
+<DEFINE> Sign_s08_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 235 I DF OF F X (nc,nc) -
+<LIT> 0 - P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 237 21 I ON ni B X
+<LIT> 1 - P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 237 33 I DN ni B X
+<LIT> 1 - N C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 237 46 I DN ni B X
+<CTLG> Sign_s08_s08 1
+<CTLG> 1 3
+<CTLGN> 236 237 237 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Sign_s08_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 247
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 247 I DC OV B N ns R
+<DEFINE> Sign_s08_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 247 I DR OF F X (nc,ns) -
+<DEFINE> Sign_s08_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 247 I DF OF F X (nc,ns) -
+<LIT> 0 - P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 249 21 I ON ni B X
+<LIT> 1 - P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 249 33 I DN ni B X
+<LIT> 1 - N C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 249 46 I DN ni B X
+<CTLG> Sign_s08_s16 1
+<CTLG> 1 3
+<CTLGN> 248 249 249 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Sign_s08_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 259
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 259 I DC OV B N nl R
+<DEFINE> Sign_s08_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 259 I DR OF F X (nc,nl) -
+<DEFINE> Sign_s08_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 259 I DF OF F X (nc,nl) -
+<LIT> 0 - P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 261 21 I ON ni B X
+<LIT> 1 - P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 261 33 I DN ni B X
+<LIT> 1 - N C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 261 46 I DN ni B X
+<CTLG> Sign_s08_s32 1
+<CTLG> 1 3
+<CTLGN> 260 261 261 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Sign_s08_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 271
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 271 I DC OV B N fs R
+<DEFINE> Sign_s08_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 271 I DR OF F X (nc,fs) -
+<DEFINE> Sign_s08_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 271 I DF OF F X (nc,fs) -
+<LIT> 0.0 F P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 273 21 I FN fs B X
+<LIT> 1 - P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 273 36 I DN ni B X
+<LIT> 1 - N C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 273 49 I DN ni B X
+<CTLG> Sign_s08_f32 1
+<CTLG> 1 3
+<CTLGN> 272 273 273 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Min_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 283
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 283 I DC OV B N nc R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 284 I DC OV B N nc R
+<DEFINE> Min_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 283 I DR OF F X (nc,nc,nc) -
+<DEFINE> Min_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 283 I DF OF F X (nc,nc,nc) -
+<CTLG> Min_s08 1
+<CTLG> 1 3
+<CTLGN> 285 286 286 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Min_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 296
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 296 I DC OV B N uc R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 297 I DC OV B N uc R
+<DEFINE> Min_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 296 I DR OF F X (uc,uc,uc) -
+<DEFINE> Min_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 296 I DF OF F X (uc,uc,uc) -
+<CTLG> Min_u08 1
+<CTLG> 1 3
+<CTLGN> 298 299 299 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Min_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 309
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 309 I DC OV B N ns R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 310 I DC OV B N ns R
+<DEFINE> Min_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 309 I DR OF F X (ns,ns,ns) -
+<DEFINE> Min_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 309 I DF OF F X (ns,ns,ns) -
+<CTLG> Min_s16 1
+<CTLG> 1 3
+<CTLGN> 311 312 312 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Min_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 322
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 322 I DC OV B N us R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 323 I DC OV B N us R
+<DEFINE> Min_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 322 I DR OF F X (us,us,us) -
+<DEFINE> Min_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 322 I DF OF F X (us,us,us) -
+<CTLG> Min_u16 1
+<CTLG> 1 3
+<CTLGN> 324 325 325 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Min_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 335
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 335 I DC OV B N nl R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 336 I DC OV B N nl R
+<DEFINE> Min_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 335 I DR OF F X (nl,nl,nl) -
+<DEFINE> Min_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 335 I DF OF F X (nl,nl,nl) -
+<CTLG> Min_s32 1
+<CTLG> 1 3
+<CTLGN> 337 338 338 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Min_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 348
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 348 I DC OV B N ul R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 349 I DC OV B N ul R
+<DEFINE> Min_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 348 I DR OF F X (ul,ul,ul) -
+<DEFINE> Min_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 348 I DF OF F X (ul,ul,ul) -
+<CTLG> Min_u32 1
+<CTLG> 1 3
+<CTLGN> 350 351 351 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Min_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 361
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 361 I DC OV B N fs R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 362 I DC OV B N fs R
+<DEFINE> Min_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 361 I DR OF F X (fs,fs,fs) -
+<DEFINE> Min_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 361 I DF OF F X (fs,fs,fs) -
+<CTLG> Min_f32 1
+<CTLG> 1 3
+<CTLGN> 363 364 364 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Max_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 374
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 374 I DC OV B N nc R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 375 I DC OV B N nc R
+<DEFINE> Max_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 374 I DR OF F X (nc,nc,nc) -
+<DEFINE> Max_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 374 I DF OF F X (nc,nc,nc) -
+<CTLG> Max_s08 1
+<CTLG> 1 3
+<CTLGN> 376 377 377 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Max_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 387
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 387 I DC OV B N uc R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 388 I DC OV B N uc R
+<DEFINE> Max_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 387 I DR OF F X (uc,uc,uc) -
+<DEFINE> Max_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 387 I DF OF F X (uc,uc,uc) -
+<CTLG> Max_u08 1
+<CTLG> 1 3
+<CTLGN> 389 390 390 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Max_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 400
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 400 I DC OV B N ns R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 401 I DC OV B N ns R
+<DEFINE> Max_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 400 I DR OF F X (ns,ns,ns) -
+<DEFINE> Max_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 400 I DF OF F X (ns,ns,ns) -
+<CTLG> Max_s16 1
+<CTLG> 1 3
+<CTLGN> 402 403 403 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Max_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 413
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 413 I DC OV B N us R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 414 I DC OV B N us R
+<DEFINE> Max_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 413 I DR OF F X (us,us,us) -
+<DEFINE> Max_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 413 I DF OF F X (us,us,us) -
+<CTLG> Max_u16 1
+<CTLG> 1 3
+<CTLGN> 415 416 416 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Max_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 426
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 426 I DC OV B N nl R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 427 I DC OV B N nl R
+<DEFINE> Max_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 426 I DR OF F X (nl,nl,nl) -
+<DEFINE> Max_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 426 I DF OF F X (nl,nl,nl) -
+<CTLG> Max_s32 1
+<CTLG> 1 3
+<CTLGN> 428 429 429 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Max_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 439
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 439 I DC OV B N ul R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 440 I DC OV B N ul R
+<DEFINE> Max_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 439 I DR OF F X (ul,ul,ul) -
+<DEFINE> Max_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 439 I DF OF F X (ul,ul,ul) -
+<CTLG> Max_u32 1
+<CTLG> 1 3
+<CTLGN> 441 442 442 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Max_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 452
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 452 I DC OV B N fs R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 453 I DC OV B N fs R
+<DEFINE> Max_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 452 I DR OF F X (fs,fs,fs) -
+<DEFINE> Max_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 452 I DF OF F X (fs,fs,fs) -
+<CTLG> Max_f32 1
+<CTLG> 1 3
+<CTLGN> 454 455 455 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Lim_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 466
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 466 I DC OV B N nc R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 467 I DC OV B N nc R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 468 I DC OV B N nc R
+<DEFINE> Lim_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 466 I DR OF F X (nc,nc,nc,nc) -
+<DEFINE> Lim_s08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 466 I DF OF F X (nc,nc,nc,nc) -
+<CTLG> Lim_s08 1
+<CTLG> 1 3
+<CTLGN> 469 470 470 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Lim_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 480
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 480 I DC OV B N uc R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 481 I DC OV B N uc R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 482 I DC OV B N uc R
+<DEFINE> Lim_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 480 I DR OF F X (uc,uc,uc,uc) -
+<DEFINE> Lim_u08 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 480 I DF OF F X (uc,uc,uc,uc) -
+<CTLG> Lim_u08 1
+<CTLG> 1 3
+<CTLGN> 483 484 484 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Lim_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 494
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 494 I DC OV B N ns R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 495 I DC OV B N ns R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 496 I DC OV B N ns R
+<DEFINE> Lim_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 494 I DR OF F X (ns,ns,ns,ns) -
+<DEFINE> Lim_s16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 494 I DF OF F X (ns,ns,ns,ns) -
+<CTLG> Lim_s16 1
+<CTLG> 1 3
+<CTLGN> 497 498 498 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Lim_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 508
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 508 I DC OV B N us R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 509 I DC OV B N us R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 510 I DC OV B N us R
+<DEFINE> Lim_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 508 I DR OF F X (us,us,us,us) -
+<DEFINE> Lim_u16 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 508 I DF OF F X (us,us,us,us) -
+<CTLG> Lim_u16 1
+<CTLG> 1 3
+<CTLGN> 511 512 512 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Lim_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 522
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 522 I DC OV B N nl R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 523 I DC OV B N nl R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 524 I DC OV B N nl R
+<DEFINE> Lim_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 522 I DR OF F X (nl,nl,nl,nl) -
+<DEFINE> Lim_s32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 522 I DF OF F X (nl,nl,nl,nl) -
+<CTLG> Lim_s32 1
+<CTLG> 1 3
+<CTLGN> 525 526 526 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Lim_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 536
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 536 I DC OV B N ul R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 537 I DC OV B N ul R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 538 I DC OV B N ul R
+<DEFINE> Lim_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 536 I DR OF F X (ul,ul,ul,ul) -
+<DEFINE> Lim_u32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 536 I DF OF F X (ul,ul,ul,ul) -
+<CTLG> Lim_u32 1
+<CTLG> 1 3
+<CTLGN> 539 540 540 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Lim_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 550
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 550 I DC OV B N fs R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 551 I DC OV B N fs R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 552 I DC OV B N fs R
+<DEFINE> Lim_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 550 I DR OF F X (fs,fs,fs,fs) -
+<DEFINE> Lim_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 550 I DF OF F X (fs,fs,fs,fs) -
+<CTLG> Lim_f32 1
+<CTLG> 1 3
+<CTLGN> 553 554 554 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Arctan2_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 565
+<DEFINE> Numer C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 565 I DC OV B N fs R
+<DEFINE> Denom C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 566 I DC OV B N fs R
+<DEFINE> Arctan2_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 565 I DR OF F X (fs,fs,fs) -
+<DEFINE> Arctan2_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 565 I DF OF F X (fs,fs,fs) -
+<R>C Arctan2_f32 atan2f 568
+<R>X Arctan2_f32 atan2f 568 R
+<CTLG> Arctan2_f32 1
+<CTLG> 1 3
+<CTLGN> 567 568 568 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Sin_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 578
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 578 I DC OV B N fs R
+<DEFINE> Sin_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 578 I DR OF F X (fs,fs) -
+<DEFINE> Sin_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 578 I DF OF F X (fs,fs) -
+<R>C Sin_f32 sinf 580
+<R>X Sin_f32 sinf 580 R
+<CTLG> Sin_f32 1
+<CTLG> 1 3
+<CTLGN> 579 580 580 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Cos_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 590
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 590 I DC OV B N fs R
+<DEFINE> Cos_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 590 I DR OF F X (fs,fs) -
+<DEFINE> Cos_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 590 I DF OF F X (fs,fs) -
+<R>C Cos_f32 cosf 592
+<R>X Cos_f32 cosf 592 R
+<CTLG> Cos_f32 1
+<CTLG> 1 3
+<CTLGN> 591 592 592 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Exp_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 602
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 602 I DC OV B N fs R
+<DEFINE> Exp_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 602 I DR OF F X (fs,fs) -
+<DEFINE> Exp_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 602 I DF OF F X (fs,fs) -
+<DEFINE> expf C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 604 I DC OF F X (fs,ff) -
+<R>C Exp_f32 expf 604
+<R>X Exp_f32 expf 604 R
+<CTLG> Exp_f32 1
+<CTLG> 1 3
+<CTLGN> 603 604 604 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Sqrt_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 614
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 614 I DC OV B N fs R
+<DEFINE> Sqrt_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 614 I DR OF F X (fs,fs) -
+<DEFINE> Sqrt_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 614 I DF OF F X (fs,fs) -
+<DEFINE> sqrtf C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 616 I DC OF F X (fs,ff) -
+<R>C Sqrt_f32 sqrtf 616
+<R>X Sqrt_f32 sqrtf 616 R
+<CTLG> Sqrt_f32 1
+<CTLG> 1 3
+<CTLGN> 615 616 616 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> Mod_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 626
+<DEFINE> Numer C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 626 I DC OV B N fs R
+<DEFINE> Denom C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 627 I DC OV B N fs R
+<DEFINE> Mod_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 626 I DR OF F X (fs,fs,fs) -
+<DEFINE> Mod_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 626 I DF OF F X (fs,fs,fs) -
+<R>C Mod_f32 fmodf 629
+<R>X Mod_f32 fmodf 629 R
+<CTLG> Mod_f32 1
+<CTLG> 1 3
+<CTLGN> 628 629 629 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  0
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  1
+<S>STAV2  1
+<S>STAV3  1
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  1
+<S>STFN2  0
+
+<EXTD> SinCos_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 643
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 643 I DC OV B N fs R
+<DEFINE> SinVal C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 644 I DC OV B N pfs R
+<DEFINE> CosVal C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 645 I DC OV B N pfs R
+<DEFINE> SinCos_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 643 I DR OF F X (.,fs,pfs,pfs) -
+<DEFINE> SinCos_f32 C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 643 I DF OF F X (.,fs,pfs,pfs) -
+<DEFINE> n C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 648 I DC OV B N nl -
+<DEFINE> n C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 648 I DF OV B N nl -
+<DEFINE> Normdn C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 649 I DC OV B N uc -
+<DEFINE> Normdn C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 649 I DF OV B N uc -
+<DEFINE> InpSqd C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 650 I DC OV B N fs -
+<DEFINE> InpSqd C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 650 I DF OV B N fs -
+<DEFINE> SinA C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 651 I DC OV B N fs -
+<DEFINE> SinA C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 651 I DF OV B N fs -
+<DEFINE> CosA C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 652 I DC OV B N fs -
+<DEFINE> CosA C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 652 I DF OV B N fs -
+<DEFINE> Tmp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 653 I DC OV B N fs -
+<DEFINE> Tmp C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 653 I DF OV B N fs -
+<LIT> 0.0 F P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 656 22 I FN fs B X
+<LIT> 0.5 F P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 656 62 I FN fs B X
+<LIT> 0.5 F P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 656 104 I FN fs B X
+<LIT> 0x0000000F U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 659 39 I HN ui B X
+<LIT> 1.0 F P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 663 24 I FN fs B X
+<LIT> 1.0 F P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 664 16 I FN fs B X
+<LIT> 0 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 669 22 I ON ui B C
+<LIT> 1 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 674 22 I DN ui B C
+<LIT> 2 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 679 22 I DN ui B C
+<LIT> 3 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 684 22 I DN ui B C
+<LIT> 4 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 689 22 I DN ui B C
+<LIT> 5 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 694 22 I DN ui B C
+<LIT> 6 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 699 22 I DN ui B C
+<LIT> 7 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 704 22 I DN ui B C
+<LIT> 8 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 709 22 I DN ui B C
+<LIT> 9 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 714 22 I DN ui B C
+<LIT> 10 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 719 22 I DN ui B C
+<LIT> 11 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 724 22 I DN ui B C
+<LIT> 12 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 729 22 I DN ui B C
+<LIT> 13 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 734 22 I DN ui B C
+<LIT> 14 U P C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 739 22 I DN ui B C
+<CTLG> SinCos_f32 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 5
+<CTLG> 2 7
+<CTLG> 2 9
+<CTLG> 2 11
+<CTLG> 2 13
+<CTLG> 2 15
+<CTLG> 2 17
+<CTLG> 2 19
+<CTLG> 2 21
+<CTLG> 2 23
+<CTLG> 2 25
+<CTLG> 2 27
+<CTLG> 2 29
+<CTLG> 2 31
+<CTLG> 2 33
+<CTLG> 3 4
+<CTLG> 4 36
+<CTLG> 5 6
+<CTLG> 6 36
+<CTLG> 7 8
+<CTLG> 8 36
+<CTLG> 9 10
+<CTLG> 10 36
+<CTLG> 11 12
+<CTLG> 12 36
+<CTLG> 13 14
+<CTLG> 14 36
+<CTLG> 15 16
+<CTLG> 16 36
+<CTLG> 17 18
+<CTLG> 18 36
+<CTLG> 19 20
+<CTLG> 20 36
+<CTLG> 21 22
+<CTLG> 22 36
+<CTLG> 23 24
+<CTLG> 24 36
+<CTLG> 25 26
+<CTLG> 26 36
+<CTLG> 27 28
+<CTLG> 28 36
+<CTLG> 29 30
+<CTLG> 30 36
+<CTLG> 31 32
+<CTLG> 32 36
+<CTLG> 33 34
+<CTLG> 34 36
+<CTLG> 36 38
+<CTLGN> 646 667 667 672 672 677 677 682 682 687 687 692 692 697 697 702 702 707 707 712 712 717 717 722 722 727 727 732 732 737 737 742 742 748 748 667 752 752 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STCYC  16
+<S>STMCC  0 (16:16)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  16
+<S>STLIN  0
+<S>STXLN  72
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  6
+<S>STPTH  16
+<S>STPDN  0.22   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  0
+<S>STAV2  0
+<S>STAV3  0
+<S>STST1  79
+<S>STST2  62
+<S>STST3  56
+<S>STPAR  3
+<S>STCAL  0
+<S>STFN1  1
+<S>STFN2  0
+
+<R>I C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.h 5
+<R>I C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 6
+<EXTD> Test_Blnd_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 7
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 7 N DC OV B N fs R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 8 N DC OV B N fs R
+<DEFINE> Fac C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 9 N DC OV B N fs R
+<DEFINE> Test_Blnd_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 7 N DR OF F X (fs,fs,fs,fs) -
+<DEFINE> Test_Blnd_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 7 N DF OF F X (fs,fs,fs,fs) -
+<R>C Test_Blnd_f32 Blnd_f32 11
+<R>X Test_Blnd_f32 Blnd_f32 11 R
+<CTLG> Test_Blnd_f32 1
+<CTLG> 1 3
+<CTLGN> 10 11 11 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Blnd_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  14
+<S>STAV2  14
+<S>STAV3  14
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  1
+<S>STFN1  10
+<S>STFN2  4
+
+<EXTD> Test_Abslt_u08_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 14
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 14 N DC OV B N nc R
+<DEFINE> Test_Abslt_u08_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 14 N DR OF F X (uc,nc) -
+<DEFINE> Test_Abslt_u08_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 14 N DF OF F X (uc,nc) -
+<R>C Test_Abslt_u08_s08 Abslt_u08_s08 16
+<R>X Test_Abslt_u08_s08 Abslt_u08_s08 16 R
+<CTLG> Test_Abslt_u08_s08 1
+<CTLG> 1 3
+<CTLGN> 15 16 16 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Abslt_u08_s08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  2
+
+<EXTD> Test_Abslt_u16_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 19
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 19 N DC OV B N ns R
+<DEFINE> Test_Abslt_u16_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 19 N DR OF F X (us,ns) -
+<DEFINE> Test_Abslt_u16_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 19 N DF OF F X (us,ns) -
+<R>C Test_Abslt_u16_s16 Abslt_u16_s16 21
+<R>X Test_Abslt_u16_s16 Abslt_u16_s16 21 R
+<CTLG> Test_Abslt_u16_s16 1
+<CTLG> 1 3
+<CTLGN> 20 21 21 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Abslt_u16_s16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  2
+
+<EXTD> Test_Abslt_u32_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 24
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 24 N DC OV B N nl R
+<DEFINE> Test_Abslt_u32_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 24 N DR OF F X (ul,nl) -
+<DEFINE> Test_Abslt_u32_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 24 N DF OF F X (ul,nl) -
+<R>C Test_Abslt_u32_s32 Abslt_u32_s32 26
+<R>X Test_Abslt_u32_s32 Abslt_u32_s32 26 R
+<CTLG> Test_Abslt_u32_s32 1
+<CTLG> 1 3
+<CTLGN> 25 26 26 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Abslt_u32_s32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  2
+
+<EXTD> Test_Abslt_f32_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 29
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 29 N DC OV B N fs R
+<DEFINE> Test_Abslt_f32_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 29 N DR OF F X (fs,fs) -
+<DEFINE> Test_Abslt_f32_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 29 N DF OF F X (fs,fs) -
+<R>C Test_Abslt_f32_f32 Abslt_f32_f32 31
+<R>X Test_Abslt_f32_f32 Abslt_f32_f32 31 R
+<CTLG> Test_Abslt_f32_f32 1
+<CTLG> 1 3
+<CTLGN> 30 31 31 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Abslt_f32_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  2
+
+<EXTD> Test_Sign_s08_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 34
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 34 N DC OV B N nc R
+<DEFINE> Test_Sign_s08_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 34 N DR OF F X (nc,nc) -
+<DEFINE> Test_Sign_s08_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 34 N DF OF F X (nc,nc) -
+<R>C Test_Sign_s08_s08 Sign_s08_s08 36
+<R>X Test_Sign_s08_s08 Sign_s08_s08 36 R
+<CTLG> Test_Sign_s08_s08 1
+<CTLG> 1 3
+<CTLGN> 35 36 36 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Sign_s08_s08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  2
+
+<EXTD> Test_Sign_s08_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 39
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 39 N DC OV B N ns R
+<DEFINE> Test_Sign_s08_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 39 N DR OF F X (nc,ns) -
+<DEFINE> Test_Sign_s08_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 39 N DF OF F X (nc,ns) -
+<R>C Test_Sign_s08_s16 Sign_s08_s16 41
+<R>X Test_Sign_s08_s16 Sign_s08_s16 41 R
+<CTLG> Test_Sign_s08_s16 1
+<CTLG> 1 3
+<CTLGN> 40 41 41 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Sign_s08_s16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  2
+
+<EXTD> Test_Sign_s08_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 44
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 44 N DC OV B N nl R
+<DEFINE> Test_Sign_s08_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 44 N DR OF F X (nc,nl) -
+<DEFINE> Test_Sign_s08_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 44 N DF OF F X (nc,nl) -
+<R>C Test_Sign_s08_s32 Sign_s08_s32 46
+<R>X Test_Sign_s08_s32 Sign_s08_s32 46 R
+<CTLG> Test_Sign_s08_s32 1
+<CTLG> 1 3
+<CTLGN> 45 46 46 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Sign_s08_s32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  2
+
+<EXTD> Test_Sign_s08_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 49
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 49 N DC OV B N fs R
+<DEFINE> Test_Sign_s08_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 49 N DR OF F X (nc,fs) -
+<DEFINE> Test_Sign_s08_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 49 N DF OF F X (nc,fs) -
+<R>C Test_Sign_s08_f32 Sign_s08_f32 51
+<R>X Test_Sign_s08_f32 Sign_s08_f32 51 R
+<CTLG> Test_Sign_s08_f32 1
+<CTLG> 1 3
+<CTLGN> 50 51 51 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Sign_s08_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  2
+
+<EXTD> Test_Min_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 54
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 54 N DC OV B N nc R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 55 N DC OV B N nc R
+<DEFINE> Test_Min_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 54 N DR OF F X (nc,nc,nc) -
+<DEFINE> Test_Min_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 54 N DF OF F X (nc,nc,nc) -
+<R>C Test_Min_s08 Min_s08 57
+<R>X Test_Min_s08 Min_s08 57 R
+<CTLG> Test_Min_s08 1
+<CTLG> 1 3
+<CTLGN> 56 57 57 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Min_s08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Min_u08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 60
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 60 N DC OV B N uc R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 61 N DC OV B N uc R
+<DEFINE> Test_Min_u08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 60 N DR OF F X (uc,uc,uc) -
+<DEFINE> Test_Min_u08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 60 N DF OF F X (uc,uc,uc) -
+<R>C Test_Min_u08 Min_u08 63
+<R>X Test_Min_u08 Min_u08 63 R
+<CTLG> Test_Min_u08 1
+<CTLG> 1 3
+<CTLGN> 62 63 63 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Min_u08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Min_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 66
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 66 N DC OV B N ns R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 67 N DC OV B N ns R
+<DEFINE> Test_Min_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 66 N DR OF F X (ns,ns,ns) -
+<DEFINE> Test_Min_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 66 N DF OF F X (ns,ns,ns) -
+<R>C Test_Min_s16 Min_s16 69
+<R>X Test_Min_s16 Min_s16 69 R
+<CTLG> Test_Min_s16 1
+<CTLG> 1 3
+<CTLGN> 68 69 69 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Min_s16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Min_u16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 72
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 72 N DC OV B N us R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 73 N DC OV B N us R
+<DEFINE> Test_Min_u16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 72 N DR OF F X (us,us,us) -
+<DEFINE> Test_Min_u16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 72 N DF OF F X (us,us,us) -
+<R>C Test_Min_u16 Min_u16 75
+<R>X Test_Min_u16 Min_u16 75 R
+<CTLG> Test_Min_u16 1
+<CTLG> 1 3
+<CTLGN> 74 75 75 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Min_u16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Min_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 78
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 78 N DC OV B N nl R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 79 N DC OV B N nl R
+<DEFINE> Test_Min_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 78 N DR OF F X (nl,nl,nl) -
+<DEFINE> Test_Min_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 78 N DF OF F X (nl,nl,nl) -
+<R>C Test_Min_s32 Min_s32 81
+<R>X Test_Min_s32 Min_s32 81 R
+<CTLG> Test_Min_s32 1
+<CTLG> 1 3
+<CTLGN> 80 81 81 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Min_s32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Min_u32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 84
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 84 N DC OV B N ul R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 85 N DC OV B N ul R
+<DEFINE> Test_Min_u32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 84 N DR OF F X (ul,ul,ul) -
+<DEFINE> Test_Min_u32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 84 N DF OF F X (ul,ul,ul) -
+<R>C Test_Min_u32 Min_u32 87
+<R>X Test_Min_u32 Min_u32 87 R
+<CTLG> Test_Min_u32 1
+<CTLG> 1 3
+<CTLGN> 86 87 87 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Min_u32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Min_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 90
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 90 N DC OV B N fs R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 91 N DC OV B N fs R
+<DEFINE> Test_Min_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 90 N DR OF F X (fs,fs,fs) -
+<DEFINE> Test_Min_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 90 N DF OF F X (fs,fs,fs) -
+<R>C Test_Min_f32 Min_f32 93
+<R>X Test_Min_f32 Min_f32 93 R
+<CTLG> Test_Min_f32 1
+<CTLG> 1 3
+<CTLGN> 92 93 93 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Min_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Max_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 96
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 96 N DC OV B N nc R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 97 N DC OV B N nc R
+<DEFINE> Test_Max_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 96 N DR OF F X (nc,nc,nc) -
+<DEFINE> Test_Max_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 96 N DF OF F X (nc,nc,nc) -
+<R>C Test_Max_s08 Max_s08 99
+<R>X Test_Max_s08 Max_s08 99 R
+<CTLG> Test_Max_s08 1
+<CTLG> 1 3
+<CTLGN> 98 99 99 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Max_s08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Max_u08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 102
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 102 N DC OV B N uc R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 103 N DC OV B N uc R
+<DEFINE> Test_Max_u08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 102 N DR OF F X (uc,uc,uc) -
+<DEFINE> Test_Max_u08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 102 N DF OF F X (uc,uc,uc) -
+<R>C Test_Max_u08 Max_u08 105
+<R>X Test_Max_u08 Max_u08 105 R
+<CTLG> Test_Max_u08 1
+<CTLG> 1 3
+<CTLGN> 104 105 105 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Max_u08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Max_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 108
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 108 N DC OV B N ns R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 109 N DC OV B N ns R
+<DEFINE> Test_Max_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 108 N DR OF F X (ns,ns,ns) -
+<DEFINE> Test_Max_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 108 N DF OF F X (ns,ns,ns) -
+<R>C Test_Max_s16 Max_s16 111
+<R>X Test_Max_s16 Max_s16 111 R
+<CTLG> Test_Max_s16 1
+<CTLG> 1 3
+<CTLGN> 110 111 111 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Max_s16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Max_u16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 114
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 114 N DC OV B N us R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 115 N DC OV B N us R
+<DEFINE> Test_Max_u16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 114 N DR OF F X (us,us,us) -
+<DEFINE> Test_Max_u16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 114 N DF OF F X (us,us,us) -
+<R>C Test_Max_u16 Max_u16 117
+<R>X Test_Max_u16 Max_u16 117 R
+<CTLG> Test_Max_u16 1
+<CTLG> 1 3
+<CTLGN> 116 117 117 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Max_u16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Max_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 120
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 120 N DC OV B N nl R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 121 N DC OV B N nl R
+<DEFINE> Test_Max_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 120 N DR OF F X (nl,nl,nl) -
+<DEFINE> Test_Max_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 120 N DF OF F X (nl,nl,nl) -
+<R>C Test_Max_s32 Max_s32 123
+<R>X Test_Max_s32 Max_s32 123 R
+<CTLG> Test_Max_s32 1
+<CTLG> 1 3
+<CTLGN> 122 123 123 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Max_s32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Max_u32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 126
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 126 N DC OV B N ul R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 127 N DC OV B N ul R
+<DEFINE> Test_Max_u32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 126 N DR OF F X (ul,ul,ul) -
+<DEFINE> Test_Max_u32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 126 N DF OF F X (ul,ul,ul) -
+<R>C Test_Max_u32 Max_u32 129
+<R>X Test_Max_u32 Max_u32 129 R
+<CTLG> Test_Max_u32 1
+<CTLG> 1 3
+<CTLGN> 128 129 129 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Max_u32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Max_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 132
+<DEFINE> Inp1 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 132 N DC OV B N fs R
+<DEFINE> Inp2 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 133 N DC OV B N fs R
+<DEFINE> Test_Max_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 132 N DR OF F X (fs,fs,fs) -
+<DEFINE> Test_Max_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 132 N DF OF F X (fs,fs,fs) -
+<R>C Test_Max_f32 Max_f32 135
+<R>X Test_Max_f32 Max_f32 135 R
+<CTLG> Test_Max_f32 1
+<CTLG> 1 3
+<CTLGN> 134 135 135 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Max_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Lim_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 138
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 138 N DC OV B N nc R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 139 N DC OV B N nc R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 140 N DC OV B N nc R
+<DEFINE> Test_Lim_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 138 N DR OF F X (nc,nc,nc,nc) -
+<DEFINE> Test_Lim_s08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 138 N DF OF F X (nc,nc,nc,nc) -
+<R>C Test_Lim_s08 Lim_s08 142
+<R>X Test_Lim_s08 Lim_s08 142 R
+<CTLG> Test_Lim_s08 1
+<CTLG> 1 3
+<CTLGN> 141 142 142 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Lim_s08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  14
+<S>STAV2  14
+<S>STAV3  14
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  1
+<S>STFN1  10
+<S>STFN2  4
+
+<EXTD> Test_Lim_u08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 145
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 145 N DC OV B N uc R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 146 N DC OV B N uc R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 147 N DC OV B N uc R
+<DEFINE> Test_Lim_u08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 145 N DR OF F X (uc,uc,uc,uc) -
+<DEFINE> Test_Lim_u08 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 145 N DF OF F X (uc,uc,uc,uc) -
+<R>C Test_Lim_u08 Lim_u08 149
+<R>X Test_Lim_u08 Lim_u08 149 R
+<CTLG> Test_Lim_u08 1
+<CTLG> 1 3
+<CTLGN> 148 149 149 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Lim_u08
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  14
+<S>STAV2  14
+<S>STAV3  14
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  1
+<S>STFN1  10
+<S>STFN2  4
+
+<EXTD> Test_Lim_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 152
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 152 N DC OV B N ns R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 153 N DC OV B N ns R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 154 N DC OV B N ns R
+<DEFINE> Test_Lim_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 152 N DR OF F X (ns,ns,ns,ns) -
+<DEFINE> Test_Lim_s16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 152 N DF OF F X (ns,ns,ns,ns) -
+<R>C Test_Lim_s16 Lim_s16 156
+<R>X Test_Lim_s16 Lim_s16 156 R
+<CTLG> Test_Lim_s16 1
+<CTLG> 1 3
+<CTLGN> 155 156 156 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Lim_s16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  14
+<S>STAV2  14
+<S>STAV3  14
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  1
+<S>STFN1  10
+<S>STFN2  4
+
+<EXTD> Test_Lim_u16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 159
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 159 N DC OV B N us R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 160 N DC OV B N us R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 161 N DC OV B N us R
+<DEFINE> Test_Lim_u16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 159 N DR OF F X (us,us,us,us) -
+<DEFINE> Test_Lim_u16 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 159 N DF OF F X (us,us,us,us) -
+<R>C Test_Lim_u16 Lim_u16 163
+<R>X Test_Lim_u16 Lim_u16 163 R
+<CTLG> Test_Lim_u16 1
+<CTLG> 1 3
+<CTLGN> 162 163 163 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Lim_u16
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  14
+<S>STAV2  14
+<S>STAV3  14
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  1
+<S>STFN1  10
+<S>STFN2  4
+
+<EXTD> Test_Lim_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 166
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 166 N DC OV B N nl R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 167 N DC OV B N nl R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 168 N DC OV B N nl R
+<DEFINE> Test_Lim_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 166 N DR OF F X (nl,nl,nl,nl) -
+<DEFINE> Test_Lim_s32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 166 N DF OF F X (nl,nl,nl,nl) -
+<R>C Test_Lim_s32 Lim_s32 170
+<R>X Test_Lim_s32 Lim_s32 170 R
+<CTLG> Test_Lim_s32 1
+<CTLG> 1 3
+<CTLGN> 169 170 170 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Lim_s32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  14
+<S>STAV2  14
+<S>STAV3  14
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  1
+<S>STFN1  10
+<S>STFN2  4
+
+<EXTD> Test_Lim_u32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 173
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 173 N DC OV B N ul R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 174 N DC OV B N ul R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 175 N DC OV B N ul R
+<DEFINE> Test_Lim_u32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 173 N DR OF F X (ul,ul,ul,ul) -
+<DEFINE> Test_Lim_u32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 173 N DF OF F X (ul,ul,ul,ul) -
+<R>C Test_Lim_u32 Lim_u32 177
+<R>X Test_Lim_u32 Lim_u32 177 R
+<CTLG> Test_Lim_u32 1
+<CTLG> 1 3
+<CTLGN> 176 177 177 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Lim_u32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  14
+<S>STAV2  14
+<S>STAV3  14
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  1
+<S>STFN1  10
+<S>STFN2  4
+
+<EXTD> Test_Lim_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 180
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 180 N DC OV B N fs R
+<DEFINE> RngLo C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 181 N DC OV B N fs R
+<DEFINE> RngHi C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 182 N DC OV B N fs R
+<DEFINE> Test_Lim_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 180 N DR OF F X (fs,fs,fs,fs) -
+<DEFINE> Test_Lim_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 180 N DF OF F X (fs,fs,fs,fs) -
+<R>C Test_Lim_f32 Lim_f32 184
+<R>X Test_Lim_f32 Lim_f32 184 R
+<CTLG> Test_Lim_f32 1
+<CTLG> 1 3
+<CTLGN> 183 184 184 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Lim_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  14
+<S>STAV2  14
+<S>STAV3  14
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  3
+<S>STCAL  1
+<S>STFN1  10
+<S>STFN2  4
+
+<EXTD> Test_Arctan2_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 187
+<DEFINE> Numer C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 187 N DC OV B N fs R
+<DEFINE> Denom C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 188 N DC OV B N fs R
+<DEFINE> Test_Arctan2_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 187 N DR OF F X (fs,fs,fs) -
+<DEFINE> Test_Arctan2_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 187 N DF OF F X (fs,fs,fs) -
+<R>C Test_Arctan2_f32 Arctan2_f32 190
+<R>X Test_Arctan2_f32 Arctan2_f32 190 R
+<CTLG> Test_Arctan2_f32 1
+<CTLG> 1 3
+<CTLGN> 189 190 190 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Arctan2_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<EXTD> Test_Sin_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 193
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 193 N DC OV B N fs R
+<DEFINE> Test_Sin_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 193 N DR OF F X (fs,fs) -
+<DEFINE> Test_Sin_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 193 N DF OF F X (fs,fs) -
+<R>C Test_Sin_f32 Sin_f32 195
+<R>X Test_Sin_f32 Sin_f32 195 R
+<CTLG> Test_Sin_f32 1
+<CTLG> 1 3
+<CTLGN> 194 195 195 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Sin_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  2
+
+<EXTD> Test_Cos_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 198
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 198 N DC OV B N fs R
+<DEFINE> Test_Cos_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 198 N DR OF F X (fs,fs) -
+<DEFINE> Test_Cos_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 198 N DF OF F X (fs,fs) -
+<R>C Test_Cos_f32 Cos_f32 200
+<R>X Test_Cos_f32 Cos_f32 200 R
+<CTLG> Test_Cos_f32 1
+<CTLG> 1 3
+<CTLGN> 199 200 200 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Cos_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  2
+
+<EXTD> Test_Exp_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 203
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 203 N DC OV B N fs R
+<DEFINE> Test_Exp_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 203 N DR OF F X (fs,fs) -
+<DEFINE> Test_Exp_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 203 N DF OF F X (fs,fs) -
+<R>C Test_Exp_f32 Exp_f32 205
+<R>X Test_Exp_f32 Exp_f32 205 R
+<CTLG> Test_Exp_f32 1
+<CTLG> 1 3
+<CTLGN> 204 205 205 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Exp_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  2
+
+<EXTD> Test_Sqrt_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 208
+<DEFINE> Inp C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 208 N DC OV B N fs R
+<DEFINE> Test_Sqrt_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 208 N DR OF F X (fs,fs) -
+<DEFINE> Test_Sqrt_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 208 N DF OF F X (fs,fs) -
+<R>C Test_Sqrt_f32 Sqrt_f32 210
+<R>X Test_Sqrt_f32 Sqrt_f32 210 R
+<CTLG> Test_Sqrt_f32 1
+<CTLG> 1 3
+<CTLGN> 209 210 210 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Sqrt_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  8
+<S>STFN2  2
+
+<EXTD> Test_Mod_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 213
+<DEFINE> Numer C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 213 N DC OV B N fs R
+<DEFINE> Denom C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 214 N DC OV B N fs R
+<DEFINE> Test_Mod_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 213 N DR OF F X (fs,fs,fs) -
+<DEFINE> Test_Mod_f32 C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c 213 N DF OF F X (fs,fs,fs) -
+<R>C Test_Mod_f32 Mod_f32 216
+<R>X Test_Mod_f32 Mod_f32 216 R
+<CTLG> Test_Mod_f32 1
+<CTLG> 1 3
+<CTLGN> 215 216 216 
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Mod_f32
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  12
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  2
+<S>STCAL  1
+<S>STFN1  9
+<S>STFN2  3
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Abslt_f32_f32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Abslt_u08_s08
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Abslt_u16_s16
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Abslt_u32_s32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Arctan2_f32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Blnd_f32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Cos_f32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Exp_f32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Lim_f32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Lim_s08
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Lim_s16
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Lim_s32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Lim_u08
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Lim_u16
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Lim_u32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Max_f32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Max_s08
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Max_s16
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Max_s32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Max_u08
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Max_u16
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Max_u32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Min_f32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Min_s08
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Min_s16
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Min_s32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Min_u08
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Min_u16
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Min_u32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Mod_f32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Sign_s08_f32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Sign_s08_s08
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Sign_s08_s16
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Sign_s08_s32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Sin_f32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  Test_Sqrt_f32
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNAM  C:/component/AR100A_NxtrMath_Impl/tools/contract/NxtrMath_TestHarness.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  0
+<S>STFNC  36
+<S>STFCO  8
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  89
+<S>STOPT  11
+<S>STOPN  89
+<S>STTOT  957
+<S>STZIP  518
+<S>STHAL  614
+<S>STSHN  2004
+<S>STDIF  10.74  
+<S>STEFF  68264
+<S>STVOL  6358
+<S>STDEV  11.38  
+<S>STBUG  2
+<S>STTPP  219
+<S>STTLN  176
+<S>STM20  384
+<S>STM21  570
+<S>STM22  36
+<S>STM28  0
+<S>STM33  0
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.487  
+<S>STBMS  0.548  
+<S>STBME  0.582  
+<S>STTDO  1.902  
+<S>STTDS  2.025  
+<S>STTDE  2.102  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.033  
+

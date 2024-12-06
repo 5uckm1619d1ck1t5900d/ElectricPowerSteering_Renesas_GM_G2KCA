@@ -1,0 +1,9 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Sandbox\GM_T1XX_EPS_RH850\generate
+    Descr. file:   C:\Users\kzdyfh\AppData\Local\Temp\Cfg_Gen-1462988643150-7\AutosarFiles_ValGen-1462989836220-0\NxtrMfgSrvIf_ECUC_8632165884859433661.arxml
+    Include file:  C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Sandbox\NM002A_CmnMfgSrvIf_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Sandbox\NM002A_CmnMfgSrvIf_Impl\generate\NxtrMfgSrvIf_Cfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Workspace/_EA4/T1xx/GM_T1XX_EPS_RH850_Sandbox/GM_T1XX_EPS_RH850/generate\NxtrMfgSrvIf_Cfg.h. written.
+    Duration:      00:00:00.8268053.

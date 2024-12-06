@@ -1,0 +1,880 @@
+<RDEF> I Includes
+<R>I C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_TqOscn.h 68
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_TqOscn.h C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_TqOscn_Type.h 40
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_TqOscn_Type.h C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_Type.h C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte.h 27
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte.h C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_UserTypes.h 41
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_UserTypes.h C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h 40
+<R>I C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/Component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 24
+<R>I C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h 25
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/TL103A_CplrSuprt/include/2015.1.5/ansi/math.h 24
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 25
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_TqOscn.h C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_TqOscn.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 69
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_TqOscn.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 74
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_TqOscn.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 94
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_TqOscn.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 123
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_TqOscn.h C:/Component/SF043A_TqOscn_Impl/tools/contract/TqOscn_MemMap.h 240
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/TqOscn_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/Rte_TqOscn.h C:/Component/SF043A_TqOscn_Impl/tools/contract/TqOscn_MemMap.h 298
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/TqOscn_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h 74
+<R>I C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h 75
+<R>I C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<R>I C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c C:/Component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 76
+<R>I C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h 77
+<R>I C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c C:/Component/SF043A_TqOscn_Impl/tools/contract/FltInj.h 78
+<DEFINE> DCCALCNLPFILFRQ_HZ_F32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 89 N DF OM - - - O
+<LIT> 0.32 F P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 89 66 N FN - F M
+<DEFINE> DCTHD_MOTNWTMTR_F32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 90 N DF OM - - - O
+<LIT> 0.1 F P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 90 74 N FN - F M
+<DEFINE> DFTFALLRAMPRATE_MOTNWTMTRPERSEC_F32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 91 N DF OM - - - O
+<LIT> 4400.0 F N C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 91 59 N FN - F M
+<DEFINE> DFTPHAAGINC_MATRAD_F32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 92 N DF OM - - - O
+<LIT> 0.6283 F P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 92 66 N FN - F M
+<DEFINE> DFTRISNGRAMPRATE_MOTNWTMTRPERSEC_F32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 93 N DF OM - - - O
+<LIT> 4400.0 F P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 93 50 N FN - F M
+<DEFINE> MAXAMP_MOTNWTMTR_F32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 94 N DF OM - - - O
+<LIT> 1.2 F P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 94 66 N FN - F M
+<DEFINE> MINAMP_MOTNWTMTR_F32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 95 N DF OM - - - O
+<LIT> 0.0 F P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 95 66 N FN - F M
+<DEFINE> MAXFRQ_CNT_U16 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 96 N DF OM - - - O
+<LIT> 12800 U P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 96 74 N DN - F M
+<DEFINE> MINFRQ_CNT_U16 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 97 N DF OM - - - O
+<LIT> 2560 U P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 97 74 N DN - F M
+<DEFINE> MAXRAMPRATE_MOTNWTMTR_F32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 98 N DF OM - - - O
+<LIT> 4400.0 F P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 98 66 N FN - F M
+<DEFINE> MINRAMPRATE_MOTNWTMTR_F32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 99 N DF OM - - - O
+<LIT> 0.1 F P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 99 66 N FN - F M
+<DEFINE> PrmTqOscnAmpLim_u5p11 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 101 N DF OM - - - O
+<DEFINE> PrmTqOscnFrqIn_u8p8 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 102 N DF OM - - - O
+<DEFINE> PhaAg_MatRad_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 104 N DC OV P N fs R
+<DEFINE> ChkFlg C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 104 N DC OF F I (fs,fs) -
+<DEFINE> CmdAmp_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 107 N DC OV P N fs R
+<DEFINE> HwOscnRisngRampRate_MotNwtMtrPerSec_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 108 N DC OV P N fs R
+<DEFINE> HwOscnFallRampRate_MotNwtMtrPerSec_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 109 N DC OV P N fs R
+<DEFINE> HwOscnEna_Cnt_T_logl C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 110 N DC OV P N uc R
+<DEFINE> NonZeroAmpFlg_Cnt_T_logl C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 111 N DC OV P N puc R
+<DEFINE> AmpRateLim C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 107 N DC OF F I (fs,fs,fs,fs,uc,puc) -
+<DEFINE> TqOscn_START_SEC_CODE C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 171 N DF OM - - - O
+<R>I C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c C:/Component/SF043A_TqOscn_Impl/tools/contract/TqOscn_MemMap.h 172
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/TqOscn_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> TqOscnInit1 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 184
+<DEFINE> TqOscnInit1 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 184 N DR OF F X (.,.) -
+<DEFINE> TqOscnInit1 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 184 N DF OF F X (.,.) -
+<RDEF> C Calls
+<R>C TqOscnInit1 FilLpInit 192
+<RDEF> X Refers-to
+<R>X TqOscnInit1 FilLpInit 192 R
+<R>X TqOscnInit1 Rte_Inst_TqOscn 192 R
+<LIT> 0.0 F P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 192 13 N FN fs B X
+<R>X TqOscnInit1 Rte_Inst_TqOscn 194 R
+<R>X TqOscnInit1 Rte_Inst_TqOscn 195 R
+<R>X TqOscnInit1 Rte_Inst_TqOscn 196 R
+<CTLG> TqOscnInit1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 185 201 201 201 
+<S>
+<S>STFIL  C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c
+<S>STNAM  TqOscnInit1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  15
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.25   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  4
+<S>STST2  4
+<S>STST3  4
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  25
+<S>STFN2  11
+
+<EXTD> TqOscnPer1 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 241
+<DEFINE> TqOscnPer1 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 241 N DR OF F X (.,.) -
+<DEFINE> TqOscnPer1 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 241 N DF OF F X (.,.) -
+<DEFINE> HwOscnEna_Cnt_T_logl C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 248 N DC OV B N uc -
+<DEFINE> HwOscnEna_Cnt_T_logl C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 248 N DF OV B N uc -
+<DEFINE> DCCmp_Cnt_T_logl C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 249 N DC OV B N uc -
+<DEFINE> DCCmp_Cnt_T_logl C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 249 N DF OV B N uc -
+<DEFINE> TqOscnDcExcdd_Cnt_T_logl C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 250 N DC OV B N uc -
+<DEFINE> TqOscnDcExcdd_Cnt_T_logl C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 250 N DF OV B N uc -
+<DEFINE> HwOscnActv_Cnt_T_logl C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 251 N DC OV B N uc -
+<DEFINE> HwOscnActv_Cnt_T_logl C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 251 N DF OV B N uc -
+<DEFINE> NonZeroAmpFlg_Cnt_T_logl C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 252 N DC OV B N uc -
+<DEFINE> NonZeroAmpFlg_Cnt_T_logl C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 252 N DF OV B N uc -
+<DEFINE> TqOscnPhaAg_MatRad_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 254 N DC OV B N fs -
+<DEFINE> TqOscnPhaAg_MatRad_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 254 N DF OV B N fs -
+<DEFINE> HwOscnMotAmp_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 255 N DC OV B N fs -
+<DEFINE> HwOscnMotAmp_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 255 N DF OV B N fs -
+<DEFINE> HwOscnFrq_HZ_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 256 N DC OV B N fs -
+<DEFINE> HwOscnFrq_HZ_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 256 N DF OV B N fs -
+<DEFINE> TqOscnFrqAbslt_Hz_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 257 N DC OV B N fs -
+<DEFINE> TqOscnFrqAbslt_Hz_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 257 N DF OV B N fs -
+<DEFINE> TqOscnCmd_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 258 N DC OV B N fs -
+<DEFINE> TqOscnCmd_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 258 N DF OV B N fs -
+<DEFINE> PreFinalCmd_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 259 N DC OV B N fs -
+<DEFINE> PreFinalCmd_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 259 N DF OV B N fs -
+<DEFINE> TqOscnPhaAgSin_Uls_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 260 N DC OV B N fs -
+<DEFINE> TqOscnPhaAgSin_Uls_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 260 N DF OV B N fs -
+<DEFINE> TqOscnAmpAbslt_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 261 N DC OV B N fs -
+<DEFINE> TqOscnAmpAbslt_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 261 N DF OV B N fs -
+<DEFINE> SatTqOscnAmpAbslt_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 262 N DC OV B N fs -
+<DEFINE> SatTqOscnAmpAbslt_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 262 N DF OV B N fs -
+<DEFINE> PhaAg_MatRad_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 263 N DC OV B N fs -
+<DEFINE> PhaAg_MatRad_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 263 N DF OV B N fs -
+<DEFINE> PhaAgInc_MatRad_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 264 N DC OV B N fs -
+<DEFINE> PhaAgInc_MatRad_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 264 N DF OV B N fs -
+<DEFINE> LimdAmp_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 265 N DC OV B N fs -
+<DEFINE> LimdAmp_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 265 N DF OV B N fs -
+<DEFINE> RateLimdAmp_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 266 N DC OV B N fs -
+<DEFINE> RateLimdAmp_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 266 N DF OV B N fs -
+<DEFINE> HwOscnRisngRampRate_MotNwtMtrPerSec_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 267 N DC OV B N fs -
+<DEFINE> HwOscnRisngRampRate_MotNwtMtrPerSec_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 267 N DF OV B N fs -
+<DEFINE> HwOscnFallRampRate_MotNwtMtrPerSec_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 268 N DC OV B N fs -
+<DEFINE> HwOscnFallRampRate_MotNwtMtrPerSec_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 268 N DF OV B N fs -
+<DEFINE> TqOscnFrqAbslt_Hz_T_u8p8 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 270 N DC OV B N us -
+<DEFINE> TqOscnFrqAbslt_Hz_T_u8p8 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 270 N DF OV B N us -
+<DEFINE> EfcTqOscnFrqAbslt_Hz_T_u8p8 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 271 N DC OV B N us -
+<DEFINE> EfcTqOscnFrqAbslt_Hz_T_u8p8 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 271 N DF OV B N us -
+<DEFINE> FrqIndex1_Cnt_T_u16 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 272 N DC OV B N us -
+<DEFINE> FrqIndex1_Cnt_T_u16 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 272 N DF OV B N us -
+<DEFINE> FrqIndex2_Cnt_T_u16 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 273 N DC OV B N us -
+<DEFINE> FrqIndex2_Cnt_T_u16 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 273 N DF OV B N us -
+<DEFINE> TqOscnAmp_MotNwtMtr_T_u5p11 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 274 N DC OV B N us -
+<DEFINE> TqOscnAmp_MotNwtMtr_T_u5p11 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 274 N DF OV B N us -
+<R>C TqOscnPer1 Rte_Read_TqOscn_HwOscnMotAmp_Val 278
+<R>X TqOscnPer1 Rte_Read_TqOscn_HwOscnMotAmp_Val 278 R
+<R>C TqOscnPer1 Rte_Read_TqOscn_HwOscnEna_Logl 279
+<R>X TqOscnPer1 Rte_Read_TqOscn_HwOscnEna_Logl 279 R
+<R>C TqOscnPer1 Rte_Read_TqOscn_HwOscnFrq_Val 280
+<R>X TqOscnPer1 Rte_Read_TqOscn_HwOscnFrq_Val 280 R
+<R>C TqOscnPer1 Rte_Read_TqOscn_HwOscnFallRampRate_Val 281
+<R>X TqOscnPer1 Rte_Read_TqOscn_HwOscnFallRampRate_Val 281 R
+<R>C TqOscnPer1 Rte_Read_TqOscn_HwOscnRisngRampRate_Val 282
+<R>X TqOscnPer1 Rte_Read_TqOscn_HwOscnRisngRampRate_Val 282 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 285 R
+<R>C TqOscnPer1 Abslt_f32_f32 289
+<R>X TqOscnPer1 Abslt_f32_f32 289 R
+<R>C TqOscnPer1 FloatToFixd_u16_f32 290
+<R>X TqOscnPer1 FloatToFixd_u16_f32 290 R
+<LIT> 0 U P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 292 69 N ON ui B X
+<R>C TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 292
+<R>X TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 292 R
+<R>C TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 294
+<R>X TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 294 R
+<LIT> 0 U P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 294 72 N ON ui B X
+<LIT> 1 U P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 296 105 N DN ui B X
+<R>C TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 296
+<R>X TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 296 R
+<R>C TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 299
+<R>X TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 299 R
+<LIT> 1 U P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 299 103 N DN ui B X
+<LIT> 0 U P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 303 47 N ON ui B X
+<LIT> 1 U P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 304 72 N DN ui B X
+<R>C TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 304
+<R>X TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 304 R
+<R>C TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 309
+<R>X TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 309 R
+<R>C TqOscnPer1 Lim_u16 312
+<R>X TqOscnPer1 Lim_u16 312 R
+<LIT> 0 U P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 315 72 N ON ui B X
+<R>C TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 315
+<R>X TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 315 R
+<R>C TqOscnPer1 Rte_Prm_TqOscn_TqOscnAmpLimY_Ary1D 317
+<R>X TqOscnPer1 Rte_Prm_TqOscn_TqOscnAmpLimY_Ary1D 317 R
+<LIT> 0 U P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 317 77 N ON ui B X
+<LIT> 1 U P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 320 107 N DN ui B X
+<R>C TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 320
+<R>X TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 320 R
+<R>C TqOscnPer1 Rte_Prm_TqOscn_TqOscnAmpLimY_Ary1D 322
+<R>X TqOscnPer1 Rte_Prm_TqOscn_TqOscnAmpLimY_Ary1D 322 R
+<LIT> 1 U P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 322 110 N DN ui B X
+<LIT> 0 U P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 326 47 N ON ui B X
+<LIT> 1 U P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 327 72 N DN ui B X
+<R>C TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 327
+<R>X TqOscnPer1 Rte_Prm_TqOscn_TqOscnFrqIn_Ary1D 327 R
+<R>C TqOscnPer1 Rte_Prm_TqOscn_TqOscnAmpLimY_Ary1D 331
+<R>X TqOscnPer1 Rte_Prm_TqOscn_TqOscnAmpLimY_Ary1D 331 R
+<R>C TqOscnPer1 FixdToFloat_f32_u16 335
+<R>X TqOscnPer1 FixdToFloat_f32_u16 335 R
+<R>C TqOscnPer1 Lim_f32 336
+<R>X TqOscnPer1 Lim_f32 336 R
+<R>C TqOscnPer1 Abslt_f32_f32 336
+<R>X TqOscnPer1 Abslt_f32_f32 336 R
+<LIT> 0.0 F P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 336 120 N FN fs B X
+<R>C TqOscnPer1 Lim_f32 337
+<R>X TqOscnPer1 Lim_f32 337 R
+<R>C TqOscnPer1 FixdToFloat_f32_u16 338
+<R>X TqOscnPer1 FixdToFloat_f32_u16 338 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 341 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 342 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 343 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 344 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 349 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 350 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 351 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 352 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 355 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 359 R
+<R>C TqOscnPer1 ChkFlg 372
+<R>X TqOscnPer1 Rte_Inst_TqOscn 373 R
+<R>C TqOscnPer1 AmpRateLim 381
+<R>X TqOscnPer1 Rte_Inst_TqOscn 384 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 385 R
+<R>C TqOscnPer1 Sin_f32 388
+<R>X TqOscnPer1 Sin_f32 388 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 389 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 391 R
+<R>C TqOscnPer1 Abslt_f32_f32 403
+<R>X TqOscnPer1 Abslt_f32_f32 403 R
+<R>C TqOscnPer1 FilLpUpdOutp_f32 403
+<R>X TqOscnPer1 FilLpUpdOutp_f32 403 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 403 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 410 R
+<LIT> 0.0 F P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 413 51 N FN fs B X
+<R>X TqOscnPer1 Rte_Inst_TqOscn 421 R
+<R>X TqOscnPer1 Rte_Inst_TqOscn 434 R
+<R>C TqOscnPer1 Rte_Write_TqOscn_HwOscnCmd_Val 437
+<R>X TqOscnPer1 Rte_Write_TqOscn_HwOscnCmd_Val 437 R
+<R>C TqOscnPer1 Lim_f32 437
+<R>X TqOscnPer1 Lim_f32 437 R
+<R>C TqOscnPer1 Rte_Write_TqOscn_HwOscnDcThdExcdd_Logl 438
+<R>X TqOscnPer1 Rte_Write_TqOscn_HwOscnDcThdExcdd_Logl 438 R
+<R>C TqOscnPer1 Rte_Write_TqOscn_HwOscnActv_Logl 439
+<R>X TqOscnPer1 Rte_Write_TqOscn_HwOscnActv_Logl 439 R
+<CTLG> TqOscnPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 24
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 13
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 12
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 9
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 16
+<CTLG> 15 23
+<CTLG> 16 17
+<CTLG> 16 18
+<CTLG> 17 22
+<CTLG> 18 19
+<CTLG> 19 20
+<CTLG> 19 21
+<CTLG> 20 19
+<CTLG> 21 22
+<CTLG> 22 23
+<CTLG> 23 25
+<CTLG> 24 25
+<CTLG> 25 26
+<CTLG> 26 27
+<CTLG> 26 28
+<CTLG> 27 29
+<CTLG> 28 29
+<CTLG> 29 30
+<CTLG> 30 31
+<CTLG> 30 32
+<CTLG> 31 32
+<CTLG> 32 33
+<CTLG> 32 34
+<CTLG> 33 35
+<CTLG> 34 35
+<CTLG> 35 36
+<CTLG> 36 37
+<CTLG> 36 38
+<CTLG> 37 39
+<CTLG> 38 39
+<CTLG> 39 40
+<CTLG> 40 42
+<CTLGN> 242 285 285 292 292 292 296 296 304 304 304 301 296 315 315 315 320 320 327 327 327 324 320 285 346 361 361 361 365 403 403 403 410 410 416 424 424 424 429 444 444 444 
+<S>
+<S>STFIL  C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c
+<S>STNAM  TqOscnPer1
+<S>STCYC  12
+<S>STMCC  3 (12:15)
+<S>STMIF  4
+<S>STSUB  34
+<S>STAKI  46
+<S>STLIN  201
+<S>STXLN  78
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  25
+<S>STPTH  272
+<S>STPDN  3.49   
+<S>STPBG  2
+<S>STLOP  3
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  8
+<S>STAV3  12
+<S>STST1  109
+<S>STST2  92
+<S>STST3  67
+<S>STPAR  0
+<S>STCAL  19
+<S>STFN1  515
+<S>STFN2  298
+
+<DEFINE> TqOscn_STOP_SEC_CODE C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 447 N DF OM - - - O
+<R>I C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c C:/Component/SF043A_TqOscn_Impl/tools/contract/TqOscn_MemMap.h 448
+<R>I C:/Component/SF043A_TqOscn_Impl/tools/contract/TqOscn_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<DEFINE> CmdAmp_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 464 N DC OV B N fs R
+<DEFINE> HwOscnRisngRampRate_MotNwtMtrPerSec_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 465 N DC OV B N fs R
+<DEFINE> HwOscnFallRampRate_MotNwtMtrPerSec_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 466 N DC OV B N fs R
+<DEFINE> HwOscnEna_Cnt_T_logl C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 467 N DC OV B N uc R
+<DEFINE> NonZeroAmpFlg_Cnt_T_logl C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 468 N DC OV B N puc R
+<DEFINE> AmpRateLim C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 464 N DR OF F I (fs,fs,fs,fs,uc,puc) -
+<DEFINE> AmpRateLim C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 464 N DF OF F I (fs,fs,fs,fs,uc,puc) -
+<DEFINE> DynLwrLmtAmp_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 470 N DC OV B N fs -
+<DEFINE> DynLwrLmtAmp_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 470 N DF OV B N fs -
+<DEFINE> DynUprLmtAmp_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 471 N DC OV B N fs -
+<DEFINE> DynUprLmtAmp_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 471 N DF OV B N fs -
+<DEFINE> PreLmtAmplitude_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 472 N DC OV B N fs -
+<DEFINE> PreLmtAmplitude_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 472 N DF OV B N fs -
+<DEFINE> RateLimdAmp_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 473 N DC OV B N fs -
+<DEFINE> RateLimdAmp_MotNwtMtr_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 473 N DF OV B N fs -
+<LIT> 0.0 F P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 478 51 N FN fs B X
+<R>C AmpRateLim Rte_Prm_TqOscn_TqOscnUseRampRateCal_Logl 485
+<R>X AmpRateLim Rte_Prm_TqOscn_TqOscnUseRampRateCal_Logl 485 R
+<R>C AmpRateLim Lim_f32 488
+<R>X AmpRateLim Lim_f32 488 R
+<R>C AmpRateLim Rte_Prm_TqOscn_TqOscnFallRampRateCal_Val 488
+<R>X AmpRateLim Rte_Prm_TqOscn_TqOscnFallRampRateCal_Val 488 R
+<R>C AmpRateLim Lim_f32 489
+<R>X AmpRateLim Lim_f32 489 R
+<R>C AmpRateLim Rte_Prm_TqOscn_TqOscnRisngRampRateCal_Val 489
+<R>X AmpRateLim Rte_Prm_TqOscn_TqOscnRisngRampRateCal_Val 489 R
+<R>C AmpRateLim Lim_f32 494
+<R>X AmpRateLim Lim_f32 494 R
+<R>C AmpRateLim Lim_f32 495
+<R>X AmpRateLim Lim_f32 495 R
+<R>C AmpRateLim Lim_f32 501
+<R>X AmpRateLim Lim_f32 501 R
+<R>X AmpRateLim Rte_Inst_TqOscn 501 R
+<R>X AmpRateLim Rte_Inst_TqOscn 501 R
+<R>X AmpRateLim Rte_Inst_TqOscn 503 R
+<LIT> 0.0 F P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 505 42 N FN fs B X
+<CTLG> AmpRateLim 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 11
+<CTLG> 10 11
+<CTLG> 11 13
+<CTLGN> 469 475 475 480 485 485 492 505 505 505 510 515 515 
+<S>
+<S>STFIL  C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c
+<S>STNAM  AmpRateLim
+<S>STCYC  4
+<S>STMCC  0 (4:4)
+<S>STMIF  1
+<S>STSUB  8
+<S>STAKI  12
+<S>STLIN  47
+<S>STXLN  19
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  4
+<S>STPTH  8
+<S>STPDN  0.42   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  10
+<S>STAV3  13
+<S>STST1  24
+<S>STST2  18
+<S>STST3  14
+<S>STPAR  5
+<S>STCAL  4
+<S>STFN1  124
+<S>STFN2  62
+
+<DEFINE> PhaAg_MatRad_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 526 N DC OV B N fs R
+<DEFINE> ChkFlg C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 526 N DR OF F I (fs,fs) -
+<DEFINE> ChkFlg C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 526 N DF OF F I (fs,fs) -
+<DEFINE> TqOscnPhaAg_MatRad_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 528 N DC OV B N fs -
+<DEFINE> TqOscnPhaAg_MatRad_T_f32 C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 528 N DF OV B N fs -
+<R>X ChkFlg Rte_Inst_TqOscn 530 R
+<LIT> 0.0 F P C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c 536 44 N FN fs B X
+<CTLG> ChkFlg 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 6
+<CTLGN> 527 530 530 534 539 539 
+<S>
+<S>STFIL  C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c
+<S>STNAM  ChkFlg
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  12
+<S>STXLN  5
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.40   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  7
+<S>STAV3  9
+<S>STST1  7
+<S>STST2  5
+<S>STST3  4
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  26
+<S>STFN2  11
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c
+<S>STNAM  AmpRateLim
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c
+<S>STNAM  ChkFlg
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c
+<S>STNAM  TqOscnInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c
+<S>STNAM  TqOscnPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c
+<S>STNAM  C:/Component/SF043A_TqOscn_Impl/src/TqOscn.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  2
+<S>STECT  1
+<S>STFNC  4
+<S>STFCO  55
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  104
+<S>STOPT  31
+<S>STOPN  133
+<S>STTOT  1325
+<S>STZIP  931
+<S>STHAL  1092
+<S>STSHN  3875
+<S>STDIF  13.67  
+<S>STEFF  133264
+<S>STVOL  9749
+<S>STDEV  22.21  
+<S>STBUG  3
+<S>STTPP  555
+<S>STTLN  207
+<S>STM20  464
+<S>STM21  856
+<S>STM22  106
+<S>STM28  63
+<S>STM33  48
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  1.293  
+<S>STBMS  1.551  
+<S>STBME  1.776  
+<S>STTDO  2.757  
+<S>STTDS  2.915  
+<S>STTDE  3.004  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.350  
+

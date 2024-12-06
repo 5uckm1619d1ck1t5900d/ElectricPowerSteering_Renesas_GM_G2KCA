@@ -1,0 +1,22 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\GM_T1XX_EPS_RH850\generate
+    Descr. file:   C:\Users\kzdyfh\AppData\Local\Temp\Cfg_Gen-1475858681492-8\AutosarFiles_ValGen-1475864240554-0\StHlthSigStc_ECUC_4962246304116982357.arxml
+    Include file:  C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\ES106A_StHlthSigStc_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Include file:  C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\ES106A_StHlthSigStc_Impl\generate\..\..\TL105A_Artt\tools\include\Logger.tt
+    Include file:  C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\ES106A_StHlthSigStc_Impl\generate\StHlthSigStc_helper.tt
+    Template:      C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\ES106A_StHlthSigStc_Impl\generate\StHlthSigStc_Cfg.c.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Workspace/_EA4/T1xx/GM_T1XX_EPS_RH850_Working/GM_T1XX_EPS_RH850/generate\StHlthSigStc_Cfg.c. written.
+    Duration:      00:00:00.8736056.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\GM_T1XX_EPS_RH850\generate
+    Descr. file:   C:\Users\kzdyfh\AppData\Local\Temp\Cfg_Gen-1475858681492-8\AutosarFiles_ValGen-1475864240554-0\StHlthSigStc_ECUC_4962246304116982357.arxml
+    Include file:  C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\ES106A_StHlthSigStc_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Include file:  C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\ES106A_StHlthSigStc_Impl\generate\..\..\TL105A_Artt\tools\include\Logger.tt
+    Include file:  C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\ES106A_StHlthSigStc_Impl\generate\StHlthSigStc_helper.tt
+    Template:      C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\ES106A_StHlthSigStc_Impl\generate\StHlthSigStc_Cfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Workspace/_EA4/T1xx/GM_T1XX_EPS_RH850_Working/GM_T1XX_EPS_RH850/generate\StHlthSigStc_Cfg.h. written.
+    Duration:      00:00:00.8424054.

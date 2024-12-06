@@ -1,0 +1,144 @@
+<RDEF> I Includes
+<R>I C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h 19
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp_Type.h 40
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp_Type.h C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_Type.h C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte.h 27
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 59
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 64
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 80
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 95
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/ES247A_MotAgCmp_Impl/tools/contract/CDD_MotAgCmp_MemMap.h 176
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/CDD_MotAgCmp_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/Rte_CDD_MotAgCmp.h C:/Component/ES247A_MotAgCmp_Impl/tools/contract/CDD_MotAgCmp_MemMap.h 272
+<R>I C:/Component/ES247A_MotAgCmp_Impl/tools/contract/CDD_MotAgCmp_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp.h 20
+<DEFINE> MOTAGCMP_H C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp.h 21 I DF OM - - - O
+<R>I C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<EXTN> MotAgCmpPer1 C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp.h 30
+<DEFINE> MotAgCmpPer1 C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp.h 30 I DC OF F X (.,.) -
+<R>I C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c C:/Component/ES247A_MotAgCmp_Impl/tools/contract/CDD_MotCtrlMgr_Data.h 21
+<DEFINE> MotAgCmp_MotCtrl_START_SEC_CODE C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c 25 N DF OM - - - O
+<R>I C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp_MotCtrl_MemMap.h 26
+<DEFINE> MotCtrl_START_SEC_CODE C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp_MotCtrl_MemMap.h 26 I DF OM - - - O
+<R>I C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp_MotCtrl_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 27
+<EXTD> MotAgCmpPer1 C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c 35
+<DEFINE> MotAgCmpPer1 C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c 35 N DR OF F X (.,.) -
+<DEFINE> MotAgCmpPer1 C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c 35 N DF OF F X (.,.) -
+<DEFINE> DeltaMotCtrlMotAgElec_MotRev_T_s15p16 C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c 37 N DC OV B N nl -
+<DEFINE> DeltaMotCtrlMotAgElec_MotRev_T_s15p16 C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c 37 N DF OV B N nl -
+<RDEF> X Refers-to
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 38 R
+<R>X MotAgCmpPer1 MOTCTRLMGR_MotCtrlMotAgMecl 40 R
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 40 R
+<R>X MotAgCmpPer1 MOTCTRLMGR_MotCtrlMotAgMecl 41 R
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 41 R
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 42 R
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 46 R
+<RDEF> C Calls
+<R>C MotAgCmpPer1 Rte_Prm_CDD_MotAgCmp_SysGlbPrmMotPoleCnt_Val 46
+<R>X MotAgCmpPer1 Rte_Prm_CDD_MotAgCmp_SysGlbPrmMotPoleCnt_Val 46 R
+<R>X MotAgCmpPer1 MOTCTRLMGR_MotCtrlMotAgMecl 46 R
+<R>X MotAgCmpPer1 MOTCTRLMGR_MotCtrlMotAgElec 46 W
+<LIT> 1 U P C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c 46 121 N DN ui B X
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 47 R
+<R>X MotAgCmpPer1 MOTCTRLMGR_MotCtrlMotAgMecl 47 R
+<R>X MotAgCmpPer1 MOTCTRLMGR_MotCtrlMotAgMecl 48 R
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 48 R
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 49 R
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 49 R
+<R>X MotAgCmpPer1 Rte_Inst_CDD_MotAgCmp 50 R
+<R>X MotAgCmpPer1 MOTCTRLMGR_MotCtrlMotAgCumvAlgndMrfRev 50 W
+<CTLG> MotAgCmpPer1 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 6
+<CTLGN> 36 38 38 44 52 52 
+<S>
+<S>STFIL  C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c
+<S>STNAM  MotAgCmpPer1
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  1
+<S>STAKI  3
+<S>STLIN  15
+<S>STXLN  10
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.20   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  12
+<S>STAV3  13
+<S>STST1  12
+<S>STST2  10
+<S>STST3  9
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  90
+<S>STFN2  35
+
+<DEFINE> MotAgCmp_MotCtrl_STOP_SEC_CODE C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c 54 N DF OM - - - O
+<R>I C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp_MotCtrl_MemMap.h 55
+<DEFINE> MotCtrl_STOP_SEC_CODE C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp_MotCtrl_MemMap.h 32 I DF OM - - - O
+<R>I C:/Component/ES247A_MotAgCmp_Impl/include/CDD_MotAgCmp_MotCtrl_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 33
+<S>
+<S>STFIL  C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c
+<S>STNAM  MotAgCmpPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c
+<S>STNAM  C:/Component/ES247A_MotAgCmp_Impl/src/MotAgCmp_MotCtrl.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  4
+<S>STFNC  1
+<S>STFCO  1
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  19
+<S>STOPT  18
+<S>STOPN  20
+<S>STTOT  163
+<S>STZIP  160
+<S>STHAL  161
+<S>STSHN  527
+<S>STDIF  9.27   
+<S>STEFF  7933
+<S>STVOL  855
+<S>STDEV  1.32   
+<S>STBUG  0
+<S>STTPP  56
+<S>STTLN  18
+<S>STM20  38
+<S>STM21  120
+<S>STM22  9
+<S>STM28  2
+<S>STM33  0
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.116  
+<S>STBMS  0.119  
+<S>STBME  0.113  
+<S>STTDO  1.104  
+<S>STTDS  1.186  
+<S>STTDE  1.245  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.009  
+

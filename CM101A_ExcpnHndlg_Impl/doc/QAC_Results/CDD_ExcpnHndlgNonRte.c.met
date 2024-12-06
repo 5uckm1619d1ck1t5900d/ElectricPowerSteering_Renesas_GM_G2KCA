@@ -1,0 +1,1057 @@
+<RDEF> I Includes
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c C:/ExcpnHndlg/TL103A_CplrSuprt/include/2015.1.5/v800/v800_ghs.h 21
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte_CDD_ExcpnHndlg.h 22
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte_CDD_ExcpnHndlg.h C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte_CDD_ExcpnHndlg_Type.h 40
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte_CDD_ExcpnHndlg_Type.h C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte_Type.h C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte.h 27
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/ExcpnHndlg/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/ExcpnHndlg/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/ExcpnHndlg/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/ExcpnHndlg/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/ExcpnHndlg/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/ExcpnHndlg/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte_CDD_ExcpnHndlg.h C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte_CDD_ExcpnHndlg.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 55
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte_CDD_ExcpnHndlg.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 60
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte_CDD_ExcpnHndlg.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 66
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte_CDD_ExcpnHndlg.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 74
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte_CDD_ExcpnHndlg.h C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/CDD_ExcpnHndlg_MemMap.h 87
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/CDD_ExcpnHndlg_MemMap.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/Rte_CDD_ExcpnHndlg.h C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/CDD_ExcpnHndlg_MemMap.h 138
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/CDD_ExcpnHndlg_MemMap.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/include/CDD_ExcpnHndlg.h 23
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/include/CDD_ExcpnHndlg_private.h 24
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/ram_regs.h 25
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/ram_regs.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/ram_regs.h C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 24
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/ecc_regs.h 26
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/ecc_regs.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/ecc_regs.h C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 24
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/dma_regs.h 27
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/dma_regs.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/dma_regs.h C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 25
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/WdgM.h 28
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/WdgM.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 15
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/WdgM_PBcfg.h 29
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h 30
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h C:/ExcpnHndlg/TL103A_CplrSuprt/include/2015.1.5/v800/v800_ghs.h 24
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 25
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/tools/contract/Os.h 26
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/tools/contract/Mcu.h 27
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/ecm_regs.h 28
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/ecm_regs.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/ecm_regs.h C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 24
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/sys_regs.h 29
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/sys_regs.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/sys_regs.h C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 24
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/clma_regs.h 30
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/clma_regs.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/clma_regs.h C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 24
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/port_regs.h 31
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/port_regs.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/port_regs.h C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 24
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/flash_regs.h 32
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/flash_regs.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/flash_regs.h C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 24
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h C:/ExcpnHndlg/AR998A_NxtrDet_Impl/include/NxtrDet.h 33
+<R>I C:/ExcpnHndlg/AR998A_NxtrDet_Impl/include/NxtrDet.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/ExcpnHndlg/AR998A_NxtrDet_Impl/include/NxtrDet.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/tools/contract/Det.h 24
+<R>I C:/ExcpnHndlg/AR200A_ArSuprt_Impl/tools/contract/Det.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 21
+<R>I C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/include/CDD_ExcpnHndlg.h 34
+<DEFINE> FPCFGININVAL_CNT_T_U32 C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 34 N DF OM - - - O
+<LIT> 0x0000001C U P C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 34 35 N HN - F M
+<DEFINE> FPCFGREGID_CNT_S32 C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 37 N DF OM - - - O
+<LIT> 10 - P C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 37 41 N DN - F M
+<DEFINE> FPCFGSELNID_CNT_S32 C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 38 N DF OM - - - O
+<LIT> 0 - P C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 38 33 N ON - F M
+<DEFINE> CDD_ExcpnHndlg_START_SEC_CODE C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 40 N DF OM - - - O
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/CDD_ExcpnHndlg_MemMap.h 41
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/CDD_ExcpnHndlg_MemMap.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> ExcpnHndlgInit1 C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 50
+<DEFINE> ExcpnHndlgInit1 C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 50 N DR OF F X (.,.) -
+<DEFINE> ExcpnHndlgInit1 C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 50 N DF OF F X (.,.) -
+<RDEF> C Calls
+<R>C ExcpnHndlgInit1 __LDSR 53
+<RDEF> X Refers-to
+<R>X ExcpnHndlgInit1 __LDSR 53 R
+<CTLG> ExcpnHndlgInit1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 51 55 55 55 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  ExcpnHndlgInit1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  3
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  11
+<S>STAV2  11
+<S>STAV3  11
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  7
+<S>STFN2  4
+
+<EXTD> FeNmiPeg C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 64
+<DEFINE> FeNmiPeg C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 64 N DR OF F X (.,.) -
+<DEFINE> FeNmiPeg C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 64 N DF OF F X (.,.) -
+<R>C FeNmiPeg NxtrSwRstFromExcpn 67
+<R>X FeNmiPeg NxtrSwRstFromExcpn 67 R
+<LIT> 0 U P C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 67 52 N ON ui B X
+<CTLG> FeNmiPeg 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 65 68 68 68 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  FeNmiPeg
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  2
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  6
+<S>STFN2  3
+
+<EXTD> FeNmiSpiDblBit C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 77
+<DEFINE> FeNmiSpiDblBit C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 77 N DR OF F X (.,.) -
+<DEFINE> FeNmiSpiDblBit C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 77 N DF OF F X (.,.) -
+<DEFINE> McuDiagcData0_Cnt_T_enum C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 79 N DC OV B N ul -
+<DEFINE> McuDiagcData0_Cnt_T_enum C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 79 N DF OV B N ul -
+<DEFINE> McuDiagcData1_Cnt_T_u32 C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 80 N DC OV B N ul -
+<DEFINE> McuDiagcData1_Cnt_T_u32 C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 80 N DF OV B N ul -
+<LIT> 1 U P C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 83 32 N DN ui B X
+<R>X FeNmiSpiDblBit ECCCSIH0 83 R
+<R>X FeNmiSpiDblBit ECCCSIH0 86 R
+<LIT> 1 U P C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 88 37 N DN ui B X
+<R>X FeNmiSpiDblBit ECCCSIH1 88 R
+<R>X FeNmiSpiDblBit ECCCSIH1 91 R
+<LIT> 1 U P C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 93 37 N DN ui B X
+<R>X FeNmiSpiDblBit ECCCSIH2 93 R
+<R>X FeNmiSpiDblBit ECCCSIH2 96 R
+<R>X FeNmiSpiDblBit ECCCSIH3 101 R
+<R>C FeNmiSpiDblBit NxtrSwRstFromExcpn 104
+<R>X FeNmiSpiDblBit NxtrSwRstFromExcpn 104 R
+<CTLG> FeNmiSpiDblBit 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 10
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 9
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 8
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 11 13
+<CTLGN> 78 83 83 88 88 93 93 98 93 88 105 105 105 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  FeNmiSpiDblBit
+<S>STCYC  4
+<S>STMCC  0 (4:4)
+<S>STMIF  3
+<S>STSUB  1
+<S>STAKI  5
+<S>STLIN  26
+<S>STXLN  13
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  4
+<S>STPDN  0.31   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  4
+<S>STAV2  6
+<S>STAV3  7
+<S>STST1  18
+<S>STST2  14
+<S>STST3  12
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  53
+<S>STFN2  33
+
+<EXTD> FeNmiDmaTrf C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 114
+<DEFINE> FeNmiDmaTrf C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 114 N DR OF F X (.,.) -
+<DEFINE> FeNmiDmaTrf C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 114 N DF OF F X (.,.) -
+<R>C FeNmiDmaTrf NxtrSwRstFromExcpn 116
+<R>X FeNmiDmaTrf NxtrSwRstFromExcpn 116 R
+<R>X FeNmiDmaTrf DMASS 116 R
+<CTLG> FeNmiDmaTrf 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 115 117 117 117 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  FeNmiDmaTrf
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  6
+<S>STFN2  3
+
+<EXTD> FeNmiDmaRegAcsProtnErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 126
+<DEFINE> FeNmiDmaRegAcsProtnErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 126 N DR OF F X (.,.) -
+<DEFINE> FeNmiDmaRegAcsProtnErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 126 N DF OF F X (.,.) -
+<R>C FeNmiDmaRegAcsProtnErr NxtrSwRstFromExcpn 128
+<R>X FeNmiDmaRegAcsProtnErr NxtrSwRstFromExcpn 128 R
+<R>X FeNmiDmaRegAcsProtnErr DMASS 128 R
+<CTLG> FeNmiDmaRegAcsProtnErr 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 127 129 129 129 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  FeNmiDmaRegAcsProtnErr
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  6
+<S>STFN2  3
+
+<EXTD> FeNmiEcmMstChkrCmp C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 138
+<DEFINE> FeNmiEcmMstChkrCmp C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 138 N DR OF F X (.,.) -
+<DEFINE> FeNmiEcmMstChkrCmp C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 138 N DF OF F X (.,.) -
+<R>C FeNmiEcmMstChkrCmp NxtrSwRstFromExcpn 140
+<R>X FeNmiEcmMstChkrCmp NxtrSwRstFromExcpn 140 R
+<LIT> 0 U P C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 140 52 N ON ui B X
+<CTLG> FeNmiEcmMstChkrCmp 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 139 141 141 141 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  FeNmiEcmMstChkrCmp
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  6
+<S>STFN2  3
+
+<EXTD> FeNmiWdg C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 150
+<DEFINE> FeNmiWdg C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 150 N DR OF F X (.,.) -
+<DEFINE> FeNmiWdg C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 150 N DF OF F X (.,.) -
+<DEFINE> FltVal_Cnt_T_enum C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 152 N DC OV B N ul -
+<DEFINE> FltVal_Cnt_T_enum C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 152 N DF OV B N ul -
+<DEFINE> FltInfo_Cnt_T_u32 C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 153 N DC OV B N ul -
+<DEFINE> FltInfo_Cnt_T_u32 C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 153 N DF OV B N ul -
+<DEFINE> WdgCfgPtr_T_rec C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 154 N DC OV B N p={sWdgM_ConfigType} -
+<DEFINE> WdgCfgPtr_T_rec C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 154 N DF OV B N p={sWdgM_ConfigType} -
+<DEFINE> NumOfWdgMgrEnty C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 155 N DC OV B N uc -
+<DEFINE> NumOfWdgMgrEnty C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 155 N DF OV B N uc -
+<DEFINE> EntyId C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 156 N DC OV B N uc -
+<DEFINE> EntyId C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 156 N DF OV B N uc -
+<DEFINE> EntyPtr_T_rec C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 157 N DC OV B N p={sWdgM_SupervisedEntityType} -
+<DEFINE> EntyPtr_T_rec C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 157 N DF OV B N p={sWdgM_SupervisedEntityType} -
+<R>X FeNmiWdg WdgMConfig_Mode0 159 R
+<LIT> 0 U P C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 164 29 N ON ui B X
+<LIT> 0 U P C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 166 18 N ON ui B X
+<LIT> 0 U P C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 172 81 N ON ui B X
+<LIT> 0 U P C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 177 89 N ON ui B X
+<LIT> 0 U P C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 182 83 N ON ui B X
+<R>C FeNmiWdg NxtrSwRstFromExcpn 194
+<R>X FeNmiWdg NxtrSwRstFromExcpn 194 R
+<CTLG> FeNmiWdg 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 14
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 13
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 12
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 11
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 13 2
+<CTLG> 14 15
+<CTLG> 15 17
+<CTLGN> 151 169 169 172 172 172 177 177 182 182 187 182 177 169 195 195 195 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  FeNmiWdg
+<S>STCYC  5
+<S>STMCC  1 (5:6)
+<S>STMIF  4
+<S>STSUB  1
+<S>STAKI  6
+<S>STLIN  43
+<S>STXLN  19
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  6
+<S>STPTH  5
+<S>STPDN  0.26   
+<S>STPBG  1
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  7
+<S>STAV3  10
+<S>STST1  29
+<S>STST2  24
+<S>STST3  18
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  111
+<S>STFN2  76
+
+<EXTD> FeNmiDtsDblBit C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 204
+<DEFINE> FeNmiDtsDblBit C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 204 N DR OF F X (.,.) -
+<DEFINE> FeNmiDtsDblBit C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 204 N DF OF F X (.,.) -
+<R>C FeNmiDtsDblBit NxtrSwRstFromExcpn 206
+<R>X FeNmiDtsDblBit NxtrSwRstFromExcpn 206 R
+<LIT> 0 U P C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 206 48 N ON ui B X
+<CTLG> FeNmiDtsDblBit 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 205 207 207 207 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  FeNmiDtsDblBit
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  6
+<S>STFN2  3
+
+<EXTD> SetMcuDiagcIdnData C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 222
+<DEFINE> McuDiagcData0_Arg C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 222 N DC OV B N ul R
+<DEFINE> McuDiagcData1_Arg C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 223 N DC OV B N ul R
+<DEFINE> SetMcuDiagcIdnData C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 222 N DR OF F X (.,ul,ul) -
+<DEFINE> SetMcuDiagcIdnData C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 222 N DF OF F X (.,ul,ul) -
+<DEFINE> RstInfo_Cnt_T_enum C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 225 N DC OV B N ul -
+<DEFINE> RstInfo_Cnt_T_enum C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 225 N DF OV B N ul -
+<R>X SetMcuDiagcIdnData BRAM 227 R
+<R>X SetMcuDiagcIdnData BRAM 233 W
+<R>X SetMcuDiagcIdnData BRAM 234 W
+<CTLG> SetMcuDiagcIdnData 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 6
+<CTLGN> 224 231 231 231 236 236 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  SetMcuDiagcIdnData
+<S>STCYC  2
+<S>STMCC  2 (2:4)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  11
+<S>STXLN  6
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  2
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  9
+<S>STAV3  11
+<S>STST1  6
+<S>STST2  5
+<S>STST3  4
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  30
+<S>STFN2  17
+
+<EXTD> GetMcuDiagcIdnData C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 247
+<DEFINE> McuDiagcData0_Arg C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 247 N DC OV B N pul R
+<DEFINE> GetMcuDiagcIdnData C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 247 N DR OF F X (.,pul) -
+<DEFINE> GetMcuDiagcIdnData C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 247 N DF OF F X (.,pul) -
+<R>X GetMcuDiagcIdnData BRAM 249 R
+<CTLG> GetMcuDiagcIdnData 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 248 250 250 250 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  GetMcuDiagcIdnData
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  7
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  5
+<S>STFN2  2
+
+<EXTD> ProcUkwnExcpnErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 260
+<DEFINE> McuDiagcData1_Arg C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 260 N DC OV B N ul R
+<DEFINE> ProcUkwnExcpnErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 260 N DR OF F X (.,ul) -
+<DEFINE> ProcUkwnExcpnErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 260 N DF OF F X (.,ul) -
+<R>C ProcUkwnExcpnErr NxtrSwRstFromExcpn 262
+<R>X ProcUkwnExcpnErr NxtrSwRstFromExcpn 262 R
+<CTLG> ProcUkwnExcpnErr 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 261 263 263 263 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  ProcUkwnExcpnErr
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  6
+<S>STFN2  3
+
+<EXTD> ProcMpuExcpnErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 273
+<DEFINE> McuDiagcData1_Arg C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 273 N DC OV B N ul R
+<DEFINE> ProcMpuExcpnErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 273 N DR OF F X (.,ul) -
+<DEFINE> ProcMpuExcpnErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 273 N DF OF F X (.,ul) -
+<R>C ProcMpuExcpnErr NxtrSwRstFromExcpn 275
+<R>X ProcMpuExcpnErr NxtrSwRstFromExcpn 275 R
+<CTLG> ProcMpuExcpnErr 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 274 276 276 276 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  ProcMpuExcpnErr
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  6
+<S>STFN2  3
+
+<EXTD> ProcPrvlgdInstrExcpnErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 286
+<DEFINE> McuDiagcData1_Arg C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 286 N DC OV B N ul R
+<DEFINE> ProcPrvlgdInstrExcpnErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 286 N DR OF F X (.,ul) -
+<DEFINE> ProcPrvlgdInstrExcpnErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 286 N DF OF F X (.,ul) -
+<R>C ProcPrvlgdInstrExcpnErr NxtrSwRstFromExcpn 288
+<R>X ProcPrvlgdInstrExcpnErr NxtrSwRstFromExcpn 288 R
+<CTLG> ProcPrvlgdInstrExcpnErr 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 287 289 289 289 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  ProcPrvlgdInstrExcpnErr
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  6
+<S>STFN2  3
+
+<EXTD> ProcPrmntOsErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 299
+<DEFINE> McuDiagcData1_Arg C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 299 N DC OV B N ul R
+<DEFINE> ProcPrmntOsErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 299 N DR OF F X (.,ul) -
+<DEFINE> ProcPrmntOsErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 299 N DF OF F X (.,ul) -
+<R>C ProcPrmntOsErr NxtrSwRstFromExcpn 301
+<R>X ProcPrmntOsErr NxtrSwRstFromExcpn 301 R
+<CTLG> ProcPrmntOsErr 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 300 302 302 302 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  ProcPrmntOsErr
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  6
+<S>STFN2  3
+
+<EXTD> ProcNonCritOsErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 312
+<DEFINE> McuDiagcData1_Arg C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 312 N DC OV B N ul R
+<DEFINE> ProcNonCritOsErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 312 N DR OF F X (.,ul) -
+<DEFINE> ProcNonCritOsErr C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 312 N DF OF F X (.,ul) -
+<R>X ProcNonCritOsErr ExcpnHndlgOsErrCod_C 314 W
+<CTLG> ProcNonCritOsErr 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 313 315 315 315 
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  ProcNonCritOsErr
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  1
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  6
+<S>STFN2  3
+
+<DEFINE> CDD_ExcpnHndlg_STOP_SEC_CODE C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c 317 N DF OM - - - O
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/CDD_ExcpnHndlg_MemMap.h 318
+<R>I C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/tools/contract/CDD_ExcpnHndlg_MemMap.h C:/ExcpnHndlg/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  ExcpnHndlgInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegEcm_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  SetMcuDiagcIdnData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  NxtrSwRstFromExcpn
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  FeNmiDmaRegAcsProtnErr
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  FeNmiDmaTrf
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  FeNmiDtsDblBit
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  FeNmiEcmMstChkrCmp
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  FeNmiPeg
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  FeNmiSpiDblBit
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  FeNmiWdg
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  GetMcuDiagcIdnData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  NxtrSwRst
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  ProcMpuExcpnErr
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  ProcNonCritOsErr
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  ProcPrmntOsErr
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  ProcPrvlgdInstrExcpnErr
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  ProcUkwnExcpnErr
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegClma0_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegClma1_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegClma2_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegClma3_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegEcm_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegEcm_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegEcmc_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegEcmm_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegFlmd_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegPort0_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegPort1_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegPort2_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegPort3_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegPort4_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegPort5_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegPortJ_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegSysClmac_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegSys_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/AR202A_MicroCtrlrSuprt_Impl/include/P1M/NxtrMcuSuprtLib.h
+<S>STNAM  WrProtdRegSys_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNAM  C:/ExcpnHndlg/CM101A_ExcpnHndlg_Impl/src/CDD_ExcpnHndlgNonRte.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  8
+<S>STFNC  15
+<S>STFCO  86
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  85
+<S>STOPT  25
+<S>STOPN  99
+<S>STTOT  707
+<S>STZIP  669
+<S>STHAL  772
+<S>STSHN  2673
+<S>STDIF  8.77   
+<S>STEFF  43125
+<S>STVOL  4917
+<S>STDEV  7.19   
+<S>STBUG  1
+<S>STTPP  318
+<S>STTLN  125
+<S>STM20  234
+<S>STM21  462
+<S>STM22  47
+<S>STM28  34
+<S>STM33  17
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.721  
+<S>STBMS  0.831  
+<S>STBME  0.910  
+<S>STTDO  2.207  
+<S>STTDS  2.344  
+<S>STTDE  2.426  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  2.237  
+

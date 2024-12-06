@@ -1,0 +1,36 @@
+###########################################################################
+# AUTOSAR Renesas R3.2 and R4.0 WDG Driver Generation Tool for X1x - 1.0.17                     
+# Run time      = [22 Jan 2016 - 11:35:18]
+#  Command line arguments = Wdg_X1x.exe -L -O
+#    C:\Project\GM_T1XX_EPS_RH850\generate\Wdg
+#    C:\Users\czgng4\AppData\Local\Temp\Cfg_Gen-1453480162916-8\AutosarFiles_ValGen-1453480494219-0\Wdg_ECUC_1408701641491077325.arxml
+#    R403_WDG_P1x_BSWMDT.arxml P1M.trxml Wdg_X1x.cfgxml
+#
+# Copyright(c) 2012-2014 Renesas Electronics Corporation.
+# All rights reserved
+###########################################################################
+
+
+INF000001: Tool Version: 1.0.17
+INF000002: Command line arguments: Wdg_X1x.exe -L -O
+           C:\Project\GM_T1XX_EPS_RH850\generate\Wdg
+           C:\Users\czgng4\AppData\Local\Temp\Cfg_Gen-1453480162916-8\AutosarFiles_ValGen-1453480494219-0\Wdg_ECUC_1408701641491077325.arxml
+           R403_WDG_P1x_BSWMDT.arxml P1M.trxml Wdg_X1x.cfgxml
+INF102001: The duration of 75% of one WDG trigger cycle for slow mode is <6.144
+           msec>.
+           File Name:
+           C:\Users\czgng4\AppData\Local\Temp\Cfg_Gen-1453480162916-8\AutosarFiles_ValGen-1453480494219-0\Wdg_ECUC_1408701641491077325.arxml
+           Path: /ActiveEcuC/Wdg/WdgSettingsConfig/WdgSettingsSlow
+INF102002: The duration of 75% of one WDG trigger cycle for fast mode is <3.072
+           msec>.
+           File Name:
+           C:\Users\czgng4\AppData\Local\Temp\Cfg_Gen-1453480162916-8\AutosarFiles_ValGen-1453480494219-0\Wdg_ECUC_1408701641491077325.arxml
+           Path: /ActiveEcuC/Wdg/WdgSettingsConfig/WdgSettingsFast
+INF000004: Opened file
+           <C:\Project\GM_T1XX_EPS_RH850\generate\Wdg\src\Wdg_59_DriverA_PBcfg.c>
+           at [22 Jan 2016 - 11:35:27].
+INF000004: Opened file
+           <C:\Project\GM_T1XX_EPS_RH850\generate\Wdg\include\Wdg_59_DriverA_Cfg.h>
+           at [22 Jan 2016 - 11:35:27].
+INF000005: <0> Error(s) and <0> Warning(s) detected.
+INF000006: Execution completed successfully.

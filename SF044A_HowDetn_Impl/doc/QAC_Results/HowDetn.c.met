@@ -1,0 +1,744 @@
+<RDEF> I Includes
+<R>I C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_HowDetn.h 78
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_HowDetn.h C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_HowDetn_Type.h 40
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_HowDetn_Type.h C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_Type.h C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte.h 27
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte.h C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_UserTypes.h 41
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_UserTypes.h C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h 40
+<R>I C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/Component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 24
+<R>I C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h 25
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/TL103A_CplrSuprt/include/2015.1.5/ansi/math.h 25
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 26
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_HowDetn.h C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_HowDetn.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 66
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_HowDetn.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 71
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_HowDetn.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 87
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_HowDetn.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 141
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_HowDetn.h C:/Component/SF044A_HowDetn_Impl/tools/contract/HowDetn_MemMap.h 269
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/HowDetn_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/Rte_HowDetn.h C:/Component/SF044A_HowDetn_Impl/tools/contract/HowDetn_MemMap.h 316
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/HowDetn_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h 85
+<R>I C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h 86
+<R>I C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<R>I C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c C:/Component/AR101A_NxtrIntrpn_Impl/include/NxtrIntrpn.h 87
+<R>I C:/Component/AR101A_NxtrIntrpn_Impl/include/NxtrIntrpn.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h 88
+<R>I C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c C:/Component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 89
+<DEFINE> ABSLTHIFRQTQHILIM_HWNWTMTR_F32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 100 N DF OM - - - O
+<LIT> 255.0 F P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 100 40 N FN - F M
+<DEFINE> ABSLTHIFRQTQLOLIM_HWNWTMTR_F32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 101 N DF OM - - - O
+<LIT> 0.0 F P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 101 40 N FN - F M
+<DEFINE> HOWDETNESTIMNLIM_ULS_F32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 102 N DF OM - - - O
+<LIT> 0.5 F P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 102 34 N FN - F M
+<DEFINE> HOWDETNESTIMNTHD_ULS_F32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 103 N DF OM - - - O
+<LIT> 0.5 F P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 103 34 N FN - F M
+<DEFINE> HOWDETNESTIMNLOLIM_ULS_F32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 104 N DF OM - - - O
+<LIT> 0.0 F P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 104 36 N FN - F M
+<DEFINE> HOWDETNESTIMNHILIM_ULS_F32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 105 N DF OM - - - O
+<LIT> 1.0 F P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 105 36 N FN - F M
+<DEFINE> HOWDETNSTLOLIM_CNT_S08 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 106 N DF OM - - - O
+<LIT> 3 - N C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 106 34 N DN - F M
+<DEFINE> HOWDETNSTHILIM_CNT_S08 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 107 N DF OM - - - O
+<LIT> 3 - P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 107 32 N DN - F M
+<DEFINE> PrmHowDetnHiFrqRateX_u8p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 109 N DF OM - - - O
+<DEFINE> PrmHowDetnHiFrqRateY_s7p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 110 N DF OM - - - O
+<DEFINE> PrmHowDetnLoFrqRateX_u8p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 111 N DF OM - - - O
+<DEFINE> PrmHowDetnLoFrqRateY_s7p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 112 N DF OM - - - O
+<DEFINE> PrmHowDetnStThdX_u8p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 113 N DF OM - - - O
+<DEFINE> PrmHowDetnVehSpd_u9p7 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 114 N DF OM - - - O
+<DEFINE> PrmHowDetnHiFrqGainY_u9p7 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 115 N DF OM - - - O
+<DEFINE> HowDetn_START_SEC_CODE C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 192 N DF OM - - - O
+<R>I C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c C:/Component/SF044A_HowDetn_Impl/tools/contract/HowDetn_MemMap.h 193
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/HowDetn_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> HowDetnInit1 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 205
+<DEFINE> HowDetnInit1 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 205 N DR OF F X (.,.) -
+<DEFINE> HowDetnInit1 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 205 N DF OF F X (.,.) -
+<RDEF> C Calls
+<R>C HowDetnInit1 FilLpInit 211
+<RDEF> X Refers-to
+<R>X HowDetnInit1 FilLpInit 211 R
+<R>C HowDetnInit1 Rte_Prm_HowDetn_HowDetnTqInitLpFilFrq_Val 211
+<R>X HowDetnInit1 Rte_Prm_HowDetn_HowDetnTqInitLpFilFrq_Val 211 R
+<R>X HowDetnInit1 Rte_Inst_HowDetn 211 R
+<LIT> 0.0 F P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 211 19 N FN fs B X
+<R>C HowDetnInit1 FilLpInit 212
+<R>X HowDetnInit1 FilLpInit 212 R
+<R>C HowDetnInit1 Rte_Prm_HowDetn_HowDetnTqInitLpFilFrq_Val 212
+<R>X HowDetnInit1 Rte_Prm_HowDetn_HowDetnTqInitLpFilFrq_Val 212 R
+<R>X HowDetnInit1 Rte_Inst_HowDetn 212 R
+<LIT> 0.0 F P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 212 19 N FN fs B X
+<R>C HowDetnInit1 FilLpInit 213
+<R>X HowDetnInit1 FilLpInit 213 R
+<R>C HowDetnInit1 Rte_Prm_HowDetn_HowDetnTqInitLpFilFrq_Val 213
+<R>X HowDetnInit1 Rte_Prm_HowDetn_HowDetnTqInitLpFilFrq_Val 213 R
+<R>X HowDetnInit1 Rte_Inst_HowDetn 213 R
+<LIT> 0.0 F P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 213 19 N FN fs B X
+<R>C HowDetnInit1 FilLpInit 215
+<R>X HowDetnInit1 FilLpInit 215 R
+<R>C HowDetnInit1 Rte_Prm_HowDetn_HowDetnTqFinalLpFilFrq_Val 215
+<R>X HowDetnInit1 Rte_Prm_HowDetn_HowDetnTqFinalLpFilFrq_Val 215 R
+<R>X HowDetnInit1 Rte_Inst_HowDetn 215 R
+<LIT> 0.0 F P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 215 19 N FN fs B X
+<R>C HowDetnInit1 FilLpInit 216
+<R>X HowDetnInit1 FilLpInit 216 R
+<R>C HowDetnInit1 Rte_Prm_HowDetn_HowDetnEstimLpFilFrq_Val 216
+<R>X HowDetnInit1 Rte_Prm_HowDetn_HowDetnEstimLpFilFrq_Val 216 R
+<R>X HowDetnInit1 Rte_Inst_HowDetn 216 R
+<LIT> 0.0 F P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 216 19 N FN fs B X
+<R>C HowDetnInit1 FilLpInit 217
+<R>X HowDetnInit1 FilLpInit 217 R
+<R>C HowDetnInit1 Rte_Prm_HowDetn_HowDetnStLpFilFrq_Val 217
+<R>X HowDetnInit1 Rte_Prm_HowDetn_HowDetnStLpFilFrq_Val 217 R
+<R>X HowDetnInit1 Rte_Inst_HowDetn 217 R
+<LIT> 0.0 F P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 217 19 N FN fs B X
+<R>C HowDetnInit1 FilHpInit 219
+<R>X HowDetnInit1 FilHpInit 219 R
+<R>C HowDetnInit1 Rte_Prm_HowDetn_HowDetnTqHpFilFrq_Val 219
+<R>X HowDetnInit1 Rte_Prm_HowDetn_HowDetnTqHpFilFrq_Val 219 R
+<R>X HowDetnInit1 Rte_Inst_HowDetn 219 R
+<LIT> 0.0 F P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 219 19 N FN fs B X
+<CTLG> HowDetnInit1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 206 224 224 224 
+<S>
+<S>STFIL  C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c
+<S>STNAM  HowDetnInit1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  14
+<S>STAKI  15
+<S>STLIN  17
+<S>STXLN  7
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.14   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  15
+<S>STAV2  15
+<S>STAV3  15
+<S>STST1  7
+<S>STST2  7
+<S>STST3  7
+<S>STPAR  0
+<S>STCAL  7
+<S>STFN1  72
+<S>STFN2  35
+
+<EXTD> HowDetnPer1 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 253
+<DEFINE> HowDetnPer1 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 253 N DR OF F X (.,.) -
+<DEFINE> HowDetnPer1 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 253 N DF OF F X (.,.) -
+<LIT> 3 - N C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 260 53 N DN ni B A
+<LIT> 2 - N C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 260 57 N DN ni B A
+<LIT> 1 - N C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 260 61 N DN ni B A
+<LIT> 0 - P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 260 64 N ON ni B A
+<LIT> 1 - P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 260 67 N DN ni B A
+<LIT> 2 - P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 260 70 N DN ni B A
+<LIT> 3 - P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 260 73 N DN ni B A
+<DEFINE> HOWSTY_CNT_S15P0 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 260 N DC OV B N [7,=ns] -
+<DEFINE> HOWSTY_CNT_S15P0 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 260 N DF OV B N [7,=ns] -
+<DEFINE> HwTq_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 262 N DC OV B N fs -
+<DEFINE> HwTq_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 262 N DF OV B N fs -
+<DEFINE> VehSpd_Kph_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 263 N DC OV B N fs -
+<DEFINE> VehSpd_Kph_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 263 N DF OV B N fs -
+<DEFINE> VehSpd_Kph_T_u9p7 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 264 N DC OV B N us -
+<DEFINE> VehSpd_Kph_T_u9p7 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 264 N DF OV B N us -
+<DEFINE> FilLpUpdOutp1_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 265 N DC OV B N fs -
+<DEFINE> FilLpUpdOutp1_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 265 N DF OV B N fs -
+<DEFINE> FilLpUpdOutp2_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 266 N DC OV B N fs -
+<DEFINE> FilLpUpdOutp2_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 266 N DF OV B N fs -
+<DEFINE> FilLpUpdOutp3_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 267 N DC OV B N fs -
+<DEFINE> FilLpUpdOutp3_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 267 N DF OV B N fs -
+<DEFINE> AbsLoFreqTq_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 268 N DC OV B N fs -
+<DEFINE> AbsLoFreqTq_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 268 N DF OV B N fs -
+<DEFINE> FilHpUpdOutp_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 269 N DC OV B N fs -
+<DEFINE> FilHpUpdOutp_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 269 N DF OV B N fs -
+<DEFINE> IntrpltdVehSpd_Uls_T_u9p7 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 270 N DC OV B N us -
+<DEFINE> IntrpltdVehSpd_Uls_T_u9p7 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 270 N DF OV B N us -
+<DEFINE> IntrpltdVehSpd_Uls_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 271 N DC OV B N fs -
+<DEFINE> IntrpltdVehSpd_Uls_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 271 N DF OV B N fs -
+<DEFINE> AbsHiFreqTq_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 272 N DC OV B N fs -
+<DEFINE> AbsHiFreqTq_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 272 N DF OV B N fs -
+<DEFINE> AbsHwTqVehSpd_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 273 N DC OV B N fs -
+<DEFINE> AbsHwTqVehSpd_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 273 N DF OV B N fs -
+<DEFINE> AbsHiFrqTqLim_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 274 N DC OV B N fs -
+<DEFINE> AbsHiFrqTqLim_HwNwtMtr_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 274 N DF OV B N fs -
+<DEFINE> AbsHiFrqTqLim_HwNwtMtr_T_u8p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 275 N DC OV B N us -
+<DEFINE> AbsHiFrqTqLim_HwNwtMtr_T_u8p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 275 N DF OV B N us -
+<DEFINE> HiFrqRateY_UlsPerSec_T_s7p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 276 N DC OV B N ns -
+<DEFINE> HiFrqRateY_UlsPerSec_T_s7p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 276 N DF OV B N ns -
+<DEFINE> HiFrqRateY_UlsPerSec_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 277 N DC OV B N fs -
+<DEFINE> HiFrqRateY_UlsPerSec_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 277 N DF OV B N fs -
+<DEFINE> FrqRateY_Uls_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 278 N DC OV B N fs -
+<DEFINE> FrqRateY_Uls_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 278 N DF OV B N fs -
+<DEFINE> AbsLoFreqTq_HwNwtMtr_T_u8p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 279 N DC OV B N us -
+<DEFINE> AbsLoFreqTq_HwNwtMtr_T_u8p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 279 N DF OV B N us -
+<DEFINE> CalcPrevHowEstim_Uls_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 280 N DC OV B N fs -
+<DEFINE> CalcPrevHowEstim_Uls_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 280 N DF OV B N fs -
+<DEFINE> LmtPrevHowEstimLoHiFreqRate_Uls_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 281 N DC OV B N fs -
+<DEFINE> LmtPrevHowEstimLoHiFreqRate_Uls_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 281 N DF OV B N fs -
+<DEFINE> HowDetnEstimn_Uls_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 282 N DC OV B N fs -
+<DEFINE> HowDetnEstimn_Uls_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 282 N DF OV B N fs -
+<DEFINE> HowEstimFil_Uls_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 283 N DC OV B N fs -
+<DEFINE> HowEstimFil_Uls_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 283 N DF OV B N fs -
+<DEFINE> HowEstimFil_Uls_T_u8p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 284 N DC OV B N us -
+<DEFINE> HowEstimFil_Uls_T_u8p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 284 N DF OV B N us -
+<DEFINE> HowEstimFil_Uls_T_s15p0 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 285 N DC OV B N ns -
+<DEFINE> HowEstimFil_Uls_T_s15p0 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 285 N DF OV B N ns -
+<DEFINE> HowEstimFil_Cnt_T_s08 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 286 N DC OV B N nc -
+<DEFINE> HowEstimFil_Cnt_T_s08 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 286 N DF OV B N nc -
+<DEFINE> LoFrqRateY_UlsPerSec_T_s7p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 287 N DC OV B N ns -
+<DEFINE> LoFrqRateY_UlsPerSec_T_s7p8 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 287 N DF OV B N ns -
+<DEFINE> LoFrqRateY_UlsPerSec_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 288 N DC OV B N fs -
+<DEFINE> LoFrqRateY_UlsPerSec_T_f32 C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 288 N DF OV B N fs -
+<R>C HowDetnPer1 Rte_Read_HowDetn_HwTq_Val 291
+<R>X HowDetnPer1 Rte_Read_HowDetn_HwTq_Val 291 R
+<R>C HowDetnPer1 Rte_Read_HowDetn_VehSpd_Val 292
+<R>X HowDetnPer1 Rte_Read_HowDetn_VehSpd_Val 292 R
+<R>C HowDetnPer1 FilLpUpdOutp_f32 296
+<R>X HowDetnPer1 FilLpUpdOutp_f32 296 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 296 R
+<R>C HowDetnPer1 FilLpUpdOutp_f32 297
+<R>X HowDetnPer1 FilLpUpdOutp_f32 297 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 297 R
+<R>C HowDetnPer1 FilLpUpdOutp_f32 298
+<R>X HowDetnPer1 FilLpUpdOutp_f32 298 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 298 R
+<R>C HowDetnPer1 Abslt_f32_f32 301
+<R>X HowDetnPer1 Abslt_f32_f32 301 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 302 R
+<R>C HowDetnPer1 FilHpUpdOutp_f32 304
+<R>X HowDetnPer1 FilHpUpdOutp_f32 304 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 304 R
+<R>C HowDetnPer1 FloatToFixd_u16_f32 306
+<R>X HowDetnPer1 FloatToFixd_u16_f32 306 R
+<R>C HowDetnPer1 LnrIntrpn_u16_u16VariXu16VariY 311
+<R>X HowDetnPer1 LnrIntrpn_u16_u16VariXu16VariY 311 R
+<R>C HowDetnPer1 Rte_Prm_HowDetn_HowDetnVehSpd_Ary1D 311
+<R>X HowDetnPer1 Rte_Prm_HowDetn_HowDetnVehSpd_Ary1D 311 R
+<R>C HowDetnPer1 Rte_Prm_HowDetn_HowDetnHiFrqGainY_Ary1D 311
+<R>X HowDetnPer1 Rte_Prm_HowDetn_HowDetnHiFrqGainY_Ary1D 311 R
+<R>C HowDetnPer1 FixdToFloat_f32_u16 313
+<R>X HowDetnPer1 FixdToFloat_f32_u16 313 R
+<R>C HowDetnPer1 Abslt_f32_f32 315
+<R>X HowDetnPer1 Abslt_f32_f32 315 R
+<R>C HowDetnPer1 FilLpUpdOutp_f32 317
+<R>X HowDetnPer1 FilLpUpdOutp_f32 317 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 317 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 318 R
+<R>C HowDetnPer1 Lim_f32 324
+<R>X HowDetnPer1 Lim_f32 324 R
+<R>C HowDetnPer1 FloatToFixd_u16_f32 326
+<R>X HowDetnPer1 FloatToFixd_u16_f32 326 R
+<R>C HowDetnPer1 BilnrIntrpnWithRound_s16_u16MplXs16MplY 335
+<R>X HowDetnPer1 BilnrIntrpnWithRound_s16_u16MplXs16MplY 335 R
+<R>C HowDetnPer1 Rte_Prm_HowDetn_HowDetnVehSpd_Ary1D 335
+<R>X HowDetnPer1 Rte_Prm_HowDetn_HowDetnVehSpd_Ary1D 335 R
+<R>C HowDetnPer1 Rte_Prm_HowDetn_HowDetnHiFrqRateX_Ary2D 335
+<R>X HowDetnPer1 Rte_Prm_HowDetn_HowDetnHiFrqRateX_Ary2D 335 R
+<R>C HowDetnPer1 Rte_Prm_HowDetn_HowDetnHiFrqRateY_Ary2D 335
+<R>X HowDetnPer1 Rte_Prm_HowDetn_HowDetnHiFrqRateY_Ary2D 335 R
+<LIT> 0 - P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 335 145 N ON ni B X
+<LIT> 0 - P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 335 145 N ON ni B X
+<R>C HowDetnPer1 FixdToFloat_f32_s16 337
+<R>X HowDetnPer1 FixdToFloat_f32_s16 337 R
+<R>C HowDetnPer1 FloatToFixd_u16_f32 340
+<R>X HowDetnPer1 FloatToFixd_u16_f32 340 R
+<R>C HowDetnPer1 BilnrIntrpnWithRound_s16_u16MplXs16MplY 349
+<R>X HowDetnPer1 BilnrIntrpnWithRound_s16_u16MplXs16MplY 349 R
+<R>C HowDetnPer1 Rte_Prm_HowDetn_HowDetnVehSpd_Ary1D 349
+<R>X HowDetnPer1 Rte_Prm_HowDetn_HowDetnVehSpd_Ary1D 349 R
+<R>C HowDetnPer1 Rte_Prm_HowDetn_HowDetnLoFrqRateX_Ary2D 349
+<R>X HowDetnPer1 Rte_Prm_HowDetn_HowDetnLoFrqRateX_Ary2D 349 R
+<R>C HowDetnPer1 Rte_Prm_HowDetn_HowDetnLoFrqRateY_Ary2D 349
+<R>X HowDetnPer1 Rte_Prm_HowDetn_HowDetnLoFrqRateY_Ary2D 349 R
+<LIT> 0 - P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 349 145 N ON ni B X
+<LIT> 0 - P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 349 145 N ON ni B X
+<R>C HowDetnPer1 FixdToFloat_f32_s16 351
+<R>X HowDetnPer1 FixdToFloat_f32_s16 351 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 355 R
+<R>C HowDetnPer1 Rte_Prm_HowDetn_HowDetnPercOfPrevHowEstim_Val 355
+<R>X HowDetnPer1 Rte_Prm_HowDetn_HowDetnPercOfPrevHowEstim_Val 355 R
+<R>C HowDetnPer1 Lim_f32 361
+<R>X HowDetnPer1 Lim_f32 361 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 361 R
+<R>C HowDetnPer1 Rte_Prm_HowDetn_HowDetnSlewRate_Val 361
+<R>X HowDetnPer1 Rte_Prm_HowDetn_HowDetnSlewRate_Val 361 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 361 R
+<R>C HowDetnPer1 Rte_Prm_HowDetn_HowDetnSlewRate_Val 361
+<R>X HowDetnPer1 Rte_Prm_HowDetn_HowDetnSlewRate_Val 361 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 363 R
+<R>C HowDetnPer1 Lim_f32 367
+<R>X HowDetnPer1 Lim_f32 367 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 367 R
+<R>C HowDetnPer1 FilLpUpdOutp_f32 369
+<R>X HowDetnPer1 FilLpUpdOutp_f32 369 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 369 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 369 R
+<R>C HowDetnPer1 Rte_Prm_HowDetn_HowDetnMinVehSpd_Val 372
+<R>X HowDetnPer1 Rte_Prm_HowDetn_HowDetnMinVehSpd_Val 372 R
+<R>C HowDetnPer1 FilLpUpdOutp_f32 379
+<R>X HowDetnPer1 FilLpUpdOutp_f32 379 R
+<R>X HowDetnPer1 Rte_Inst_HowDetn 379 R
+<R>C HowDetnPer1 FloatToFixd_u16_f32 380
+<R>X HowDetnPer1 FloatToFixd_u16_f32 380 R
+<R>C HowDetnPer1 LnrIntrpn_s16_u16VariXs16VariY 386
+<R>X HowDetnPer1 LnrIntrpn_s16_u16VariXs16VariY 386 R
+<R>C HowDetnPer1 Rte_Prm_HowDetn_HowDetnStThdX_Ary1D 386
+<R>X HowDetnPer1 Rte_Prm_HowDetn_HowDetnStThdX_Ary1D 386 R
+<R>C HowDetnPer1 Rte_Prm_HowDetn_HowDetnMinVehSpd_Val 391
+<R>X HowDetnPer1 Rte_Prm_HowDetn_HowDetnMinVehSpd_Val 391 R
+<LIT> 0 - P C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 393 41 N ON ni B X
+<R>C HowDetnPer1 Lim_s08 396
+<R>X HowDetnPer1 Lim_s08 396 R
+<R>C HowDetnPer1 Lim_f32 397
+<R>X HowDetnPer1 Lim_f32 397 R
+<R>C HowDetnPer1 Rte_Write_HowDetn_HowDetnSt_Val 399
+<R>X HowDetnPer1 Rte_Write_HowDetn_HowDetnSt_Val 399 R
+<R>C HowDetnPer1 Rte_Write_HowDetn_HowDetnEstimn_Val 400
+<R>X HowDetnPer1 Rte_Write_HowDetn_HowDetnEstimn_Val 400 R
+<CTLG> HowDetnPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 10
+<CTLGN> 254 372 372 372 391 391 391 405 405 405 
+<S>
+<S>STFIL  C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c
+<S>STNAM  HowDetnPer1
+<S>STCYC  3
+<S>STMCC  0 (3:3)
+<S>STMIF  1
+<S>STSUB  43
+<S>STAKI  46
+<S>STLIN  150
+<S>STXLN  66
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  28
+<S>STPTH  4
+<S>STPDN  0.06   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  11
+<S>STAV3  18
+<S>STST1  69
+<S>STST2  67
+<S>STST3  39
+<S>STPAR  0
+<S>STCAL  25
+<S>STFN1  450
+<S>STFN2  289
+
+<DEFINE> HowDetn_STOP_SEC_CODE C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c 408 N DF OM - - - O
+<R>I C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c C:/Component/SF044A_HowDetn_Impl/tools/contract/HowDetn_MemMap.h 409
+<R>I C:/Component/SF044A_HowDetn_Impl/tools/contract/HowDetn_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c
+<S>STNAM  HowDetnInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c
+<S>STNAM  HowDetnPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c
+<S>STNAM  C:/Component/SF044A_HowDetn_Impl/src/HowDetn.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  1
+<S>STFNC  2
+<S>STFCO  71
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  101
+<S>STOPT  20
+<S>STOPN  118
+<S>STTOT  940
+<S>STZIP  760
+<S>STHAL  899
+<S>STSHN  3085
+<S>STDIF  9.70   
+<S>STEFF  64830
+<S>STVOL  6682
+<S>STDEV  10.81  
+<S>STBUG  2
+<S>STTPP  429
+<S>STTLN  110
+<S>STM20  331
+<S>STM21  604
+<S>STM22  72
+<S>STM28  30
+<S>STM33  17
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.987  
+<S>STBMS  1.163  
+<S>STBME  1.304  
+<S>STTDO  2.488  
+<S>STTDS  2.635  
+<S>STTDE  2.722  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.539  
+

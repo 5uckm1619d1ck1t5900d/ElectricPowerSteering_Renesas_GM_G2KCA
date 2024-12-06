@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-0-3.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="B7EDD042-4044-414C-9970-1C2313A88AC7">
+      <SHORT-NAME>ActiveEcuC</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-MODULE-CONFIGURATION-VALUES UUID="60264ad1-4ea2-4cda-949c-4b6a3a878639">
+          <SHORT-NAME>ImcArbn</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-MODULE-DEF">/NEXTEER/ImcArbn</DEFINITION-REF>
+          <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
+          <CONTAINERS>
+            <ECUC-CONTAINER-VALUE UUID="5e450111-afc5-441c-aa64-944fbbd4a5c6">
+              <SHORT-NAME>EcuId</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/NEXTEER/ImcArbn/ImcArbnSignal</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-TEXTUAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignal/SignalName</DEFINITION-REF>
+                  <VALUE>EcuId</VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignal/DestSize</DEFINITION-REF>
+                  <VALUE>8</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-TEXTUAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignal/DataType</DEFINITION-REF>
+                  <VALUE>uint8</VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE>
+              </PARAMETER-VALUES>
+              <REFERENCE-VALUES>
+                <ECUC-REFERENCE-VALUE>
+                  <DEFINITION-REF DEST="ECUC-SYMBOLIC-NAME-REFERENCE-DEF">/NEXTEER/ImcArbn/ImcArbnSignal/ImcArbnSigUsersRef</DEFINITION-REF>
+                  <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ActiveEcuC/ImcArbn/DualEcuIdn</VALUE-REF>
+                </ECUC-REFERENCE-VALUE>
+              </REFERENCE-VALUES>
+            </ECUC-CONTAINER-VALUE>
+            <ECUC-CONTAINER-VALUE UUID="10ac6043-8a70-4aab-9371-213b3992823f">
+              <SHORT-NAME>EcuIdSignalGroup</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup</DEFINITION-REF>
+              <SUB-CONTAINERS>
+                <ECUC-CONTAINER-VALUE UUID="4f896199-adc8-4e86-b301-eb084b95f477">
+                  <SHORT-NAME>EcuIdn</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSigRef</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSigRef/StartBit</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <ECUC-REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="ECUC-SYMBOLIC-NAME-REFERENCE-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSigRef/ImcArbnSigNameRef</DEFINITION-REF>
+                      <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ActiveEcuC/ImcArbn/EcuId</VALUE-REF>
+                    </ECUC-REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="a2f4fb56-63ce-4569-a77d-8f1571d0e6c7">
+                  <SHORT-NAME>ImcArbnSGAttributes</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSGAttributes</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSGAttributes/PrimarySrcOnlySignalGroup</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSGAttributes/ImcArbnGroupTxRate</DEFINITION-REF>
+                      <VALUE>IMCARBN_100MS_GROUP</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+              </SUB-CONTAINERS>
+            </ECUC-CONTAINER-VALUE>
+            <ECUC-CONTAINER-VALUE UUID="ed6c417b-9246-490e-b551-078c75c4b114">
+              <SHORT-NAME>DualEcuIdn</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/NEXTEER/ImcArbn/ImcArbnSignalUserGroups</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-TEXTUAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignalUserGroups/FddName</DEFINITION-REF>
+                  <VALUE>DualEcuIdn</VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE>
+                <ECUC-TEXTUAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-STRING-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignalUserGroups/ReceiverSideSignalName</DEFINITION-REF>
+                  <VALUE>SecdryEcuIdn</VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE>
+                <ECUC-TEXTUAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignalUserGroups/DataType</DEFINITION-REF>
+                  <VALUE>uint8</VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE>
+            <ECUC-CONTAINER-VALUE UUID="5bbca691-f6f7-4654-b198-c04968ba5801">
+              <SHORT-NAME>EcuIdSignalGroup10ms</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup</DEFINITION-REF>
+              <SUB-CONTAINERS>
+                <ECUC-CONTAINER-VALUE UUID="3720dd6f-20d2-4c2b-b0d4-a9629910c2c7">
+                  <SHORT-NAME>EcuId10ms</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSigRef</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSigRef/StartBit</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <ECUC-REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="ECUC-SYMBOLIC-NAME-REFERENCE-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSigRef/ImcArbnSigNameRef</DEFINITION-REF>
+                      <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ActiveEcuC/ImcArbn/EcuId</VALUE-REF>
+                    </ECUC-REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="4e68f518-002f-463d-913e-dd9e40aef79e">
+                  <SHORT-NAME>ImcArbnSGAttributes</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSGAttributes</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSGAttributes/PrimarySrcOnlySignalGroup</DEFINITION-REF>
+                      <VALUE>false</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSGAttributes/ImcArbnGroupTxRate</DEFINITION-REF>
+                      <VALUE>IMCARBN_10MS_GROUP</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+              </SUB-CONTAINERS>
+            </ECUC-CONTAINER-VALUE>
+            <ECUC-CONTAINER-VALUE UUID="28a46cab-ab55-46d7-b9c3-12873606ff09">
+              <SHORT-NAME>EcuIdSignalGroup2ms</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup</DEFINITION-REF>
+              <SUB-CONTAINERS>
+                <ECUC-CONTAINER-VALUE UUID="c642de68-ffd5-4a13-bec9-e4bd561e51b5">
+                  <SHORT-NAME>EcuId2ms</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSigRef</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSigRef/StartBit</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                  <REFERENCE-VALUES>
+                    <ECUC-REFERENCE-VALUE>
+                      <DEFINITION-REF DEST="ECUC-SYMBOLIC-NAME-REFERENCE-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSigRef/ImcArbnSigNameRef</DEFINITION-REF>
+                      <VALUE-REF DEST="ECUC-CONTAINER-VALUE">/ActiveEcuC/ImcArbn/EcuId</VALUE-REF>
+                    </ECUC-REFERENCE-VALUE>
+                  </REFERENCE-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE UUID="230c4d4a-551d-4256-988e-5c2f3a05640c">
+                  <SHORT-NAME>ImcArbnSGAttributes</SHORT-NAME>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSGAttributes</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSGAttributes/PrimarySrcOnlySignalGroup</DEFINITION-REF>
+                      <VALUE>true</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/NEXTEER/ImcArbn/ImcArbnSignalGroup/ImcArbnSGAttributes/ImcArbnGroupTxRate</DEFINITION-REF>
+                      <VALUE>IMCARBN_2MS_GROUP</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+              </SUB-CONTAINERS>
+            </ECUC-CONTAINER-VALUE>
+          </CONTAINERS>
+        </ECUC-MODULE-CONFIGURATION-VALUES>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

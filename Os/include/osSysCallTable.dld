@@ -1,0 +1,106 @@
+/* Kernbauer Version: 2.16 Konfiguration: RH850 Erzeugungsgangnummer: 222 Zweig: 4 */
+
+/*****************************************************************************
+| Project Name: MICROSAR OS
+|    File Name: osSysCallTable.dld
+|
+|  Module version: $vv$=1.02
+|
+|-----------------------------------------------------------------------------
+|               C O P Y R I G H T
+|-----------------------------------------------------------------------------
+| Copyright (c) 2000-2014 Vector Informatik GmbH          All rights reserved.
+|****************************************************************************/
+
+/* This file contains symbols for the syscall table of the OS */
+/* Include this file into your linking command file */
+
+   _osSysCallOffset00 = _osSysCallError                         - addr(.osSysCallTable);
+   _osSysCallOffset01 = _osTrapDispatcher_c0                    - addr(.osSysCallTable);
+   _osSysCallOffset02 = _osSysCallActivateTask                  - addr(.osSysCallTable);
+   _osSysCallOffset03 = _osSysCallTerminateTask                 - addr(.osSysCallTable);
+   _osSysCallOffset04 = _osSysCallChainTask                     - addr(.osSysCallTable);
+   _osSysCallOffset05 = _osSysCallSchedule                      - addr(.osSysCallTable);
+   _osSysCallOffset06 = _osSysCallGetTaskID                     - addr(.osSysCallTable);
+   _osSysCallOffset07 = _osSysCallGetTaskState                  - addr(.osSysCallTable);
+   _osSysCallOffset08 = _osSysCallGetResource                   - addr(.osSysCallTable);
+   _osSysCallOffset09 = _osSysCallReleaseResource               - addr(.osSysCallTable);
+
+   _osSysCallOffset10 = _osSysCallSetEvent                      - addr(.osSysCallTable);
+   _osSysCallOffset11 = _osSysCallClearEvent                    - addr(.osSysCallTable);
+   _osSysCallOffset12 = _osSysCallGetEvent                      - addr(.osSysCallTable);
+   _osSysCallOffset13 = _osSysCallWaitEvent                     - addr(.osSysCallTable);
+   _osSysCallOffset14 = _osSysCallSetAbsAlarm                   - addr(.osSysCallTable);
+   _osSysCallOffset15 = _osSysCallSetRelAlarm                   - addr(.osSysCallTable);
+   _osSysCallOffset16 = _osSysCallCancelAlarm                   - addr(.osSysCallTable);
+   _osSysCallOffset17 = _osSysCallGetAlarm                      - addr(.osSysCallTable);
+   _osSysCallOffset18 = _osSysCallIncrementCounter              - addr(.osSysCallTable);
+   _osSysCallOffset19 = _osSysCallShutdownOS                    - addr(.osSysCallTable);
+
+   _osSysCallOffset20 = _osSysCallEnableAllInterrupts           - addr(.osSysCallTable);
+   _osSysCallOffset21 = _osSysCallDisableAllInterrupts          - addr(.osSysCallTable);
+   _osSysCallOffset22 = _osSysCallResumeOSInterrupts            - addr(.osSysCallTable);
+   _osSysCallOffset23 = _osSysCallSuspendOSInterrupts           - addr(.osSysCallTable);
+   _osSysCallOffset24 = _osSysCallResumeAllInterrupts           - addr(.osSysCallTable);
+   _osSysCallOffset25 = _osSysCallSuspendAllInterrupts          - addr(.osSysCallTable);
+   _osSysCallOffset26 = _osSysCallTrustedFunction               - addr(.osSysCallTable);
+   _osSysCallOffset27 = _osSysCallNonTrustedFunction            - addr(.osSysCallTable);
+   _osSysCallOffset28 = _osSysCallGetCounterValue               - addr(.osSysCallTable);
+   _osSysCallOffset29 = _osSysCallGetElapsedValue               - addr(.osSysCallTable);
+   _osSysCallOffset30 = _osSysCallWriteICR8                     - addr(.osSysCallTable);
+   _osSysCallOffset31 = _osSysCallWriteICR16                    - addr(.osSysCallTable);
+   _osSysCallOffset32 = _osSysCallSetICRMask                    - addr(.osSysCallTable);
+   _osSysCallOffset33 = _osSysCallClearICRMask                  - addr(.osSysCallTable);
+   _osSysCallOffset34 = _osSysCallSetICRReq                     - addr(.osSysCallTable);
+   _osSysCallOffset35 = _osSysCallClearICRReq                   - addr(.osSysCallTable);
+
+   _osSysCallOffset36 = _osSysCallReadPeripheral8               - addr(.osSysCallTable);
+   _osSysCallOffset37 = _osSysCallReadPeripheral16              - addr(.osSysCallTable);
+   _osSysCallOffset38 = _osSysCallReadPeripheral32              - addr(.osSysCallTable);
+   _osSysCallOffset39 = _osSysCallWritePeripheral8              - addr(.osSysCallTable);
+   _osSysCallOffset40 = _osSysCallWritePeripheral16             - addr(.osSysCallTable);
+   _osSysCallOffset41 = _osSysCallWritePeripheral32             - addr(.osSysCallTable);
+   _osSysCallOffset42 = _osSysCallModifyPeripheral8             - addr(.osSysCallTable);
+   _osSysCallOffset43 = _osSysCallModifyPeripheral16            - addr(.osSysCallTable);
+   _osSysCallOffset44 = _osSysCallModifyPeripheral32            - addr(.osSysCallTable);
+
+   _osSysCallOffset45 = _osSysCallCheckObjectOwnership          - addr(.osSysCallTable);
+   _osSysCallOffset46 = _osSysCallCheckObjectAccess             - addr(.osSysCallTable);
+   _osSysCallOffset47 = _osSysCallStartScheduleTableAbs         - addr(.osSysCallTable);
+   _osSysCallOffset48 = _osSysCallStartScheduleTableRel         - addr(.osSysCallTable);
+   _osSysCallOffset49 = _osSysCallStopScheduleTable             - addr(.osSysCallTable);                        
+
+   _osSysCallOffset50 = _osSysCallNextScheduleTable             - addr(.osSysCallTable);
+   _osSysCallOffset51 = _osSysCallGetScheduleTableStatus        - addr(.osSysCallTable);
+   _osSysCallOffset52 = _osSysCallGetApplicationState           - addr(.osSysCallTable);
+
+   _osSysCallOffset53 = _osSysCallDisableGlobalUM               - addr(.osSysCallTable);
+   _osSysCallOffset54 = _osSysCallEnableGlobalUM                - addr(.osSysCallTable);
+   _osSysCallOffset55 = _osSysCallSwitchToSVMode                - addr(.osSysCallTable);
+   _osSysCallOffset56 = _osSysCallMissingTerminateTask          - addr(.osSysCallTable);
+
+   _osSysCallOffset57 = _osSysCallError                         - addr(.osSysCallTable);
+   _osSysCallOffset58 = _osSysCallError                         - addr(.osSysCallTable);
+   _osSysCallOffset59 = _osSysCallError                         - addr(.osSysCallTable);
+   _osSysCallOffset60 = _osSysCallError                         - addr(.osSysCallTable);
+   _osSysCallOffset61 = _osSysCallError                         - addr(.osSysCallTable);
+   _osSysCallOffset62 = _osSysCallError                         - addr(.osSysCallTable);   
+
+   _osSysCallOffset63 = _osSysCallEnterSafeState                - addr(.osSysCallTable);
+   _osSysCallOffset64 = _osSysCallSetIMR                        - addr(.osSysCallTable);         
+   _osSysCallOffset65 = _osSysCallClearIMR                      - addr(.osSysCallTable);
+   _osSysCallOffset66 = _osSysCallWriteIMR8                     - addr(.osSysCallTable);
+   _osSysCallOffset67 = _osSysCallWriteIMR16                    - addr(.osSysCallTable);
+   _osSysCallOffset68 = _osSysCallWriteIMR32                    - addr(.osSysCallTable);
+
+   _osSysCallOffset69 = _osSysCallGetSemaphore                  - addr(.osSysCallTable);
+   _osSysCallOffset70 = _osSysCallReleaseSemaphore              - addr(.osSysCallTable);
+
+   _osSysCallOffset71 = _osSysCallDisableLevelUM                - addr(.osSysCallTable);
+   _osSysCallOffset72 = _osSysCallEnableLevelUM                 - addr(.osSysCallTable);
+   _osSysCallOffset73 = _osSysCallWriteICRxLo                   - addr(.osSysCallTable);
+   _osSysCallOffset74 = _osSysCallWriteICRxHi                   - addr(.osSysCallTable);
+   _osSysCallOffset75 = _osSysCallWriteICRx16                   - addr(.osSysCallTable);
+   _osSysCallOffset76 = _osSysCallError                         - addr(.osSysCallTable);
+
+/* END OF OS SysCall Symbols */

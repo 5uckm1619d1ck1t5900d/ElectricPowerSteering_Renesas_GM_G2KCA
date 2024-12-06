@@ -1,0 +1,22 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate
+    Descr. file:   C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1481302095515-4\AutosarFiles_ValGen-1481305580538-0\VrfyCritReg_ECUC_4946321627114954998.arxml
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\CM111A_VrfyCritReg_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\CM111A_VrfyCritReg_Impl\generate\..\..\TL105A_Artt\tools\include\Logger.tt
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\CM111A_VrfyCritReg_Impl\generate\CDD_VrfyCritReg_helper.tt
+    Template:      C:\_synergy\G2KCAT3_CZ8L9T\CM111A_VrfyCritReg_Impl\generate\CDD_VrfyCritReg_Cfg.c.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_synergy/G2KCAT3_CZ8L9T/GM_G2KCA_EPS_RH850/generate\CDD_VrfyCritReg_Cfg.c. written.
+    Duration:      00:00:00.8736056.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate
+    Descr. file:   C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1481302095515-4\AutosarFiles_ValGen-1481305580538-0\VrfyCritReg_ECUC_4946321627114954998.arxml
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\CM111A_VrfyCritReg_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\CM111A_VrfyCritReg_Impl\generate\..\..\TL105A_Artt\tools\include\Logger.tt
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\CM111A_VrfyCritReg_Impl\generate\CDD_VrfyCritReg_helper.tt
+    Template:      C:\_synergy\G2KCAT3_CZ8L9T\CM111A_VrfyCritReg_Impl\generate\CDD_VrfyCritReg_Cfg_private.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_synergy/G2KCAT3_CZ8L9T/GM_G2KCA_EPS_RH850/generate\CDD_VrfyCritReg_Cfg_private.h. written.
+    Duration:      00:00:00.8268053.

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.vector.cfg.util.external.feature"
+      label="External Utils Feature"
+      version="1.4.1"
+      provider-name="Vector Informatik GmbH">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="com.google.guava"
+         download-size="0"
+         install-size="0"
+         version="14.0.1.p1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.log4j"
+         download-size="0"
+         install-size="0"
+         version="1.2.15.v201012070815"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.cli"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.v201404270220"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang"
+         download-size="0"
+         install-size="0"
+         version="2.6.0.v201404270220"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="0"
+         install-size="0"
+         version="1.1.1.v201101211721"
+         unpack="false"/>
+
+   <plugin
+         id="org.scala-lang.scala-library"
+         download-size="0"
+         install-size="0"
+         version="2.11.5.v20150101-184742-3fafbc204f"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.guice"
+         download-size="0"
+         install-size="0"
+         version="3.0.0.201503250659"
+         unpack="false"/>
+
+   <plugin
+         id="com.ibm.icu"
+         download-size="0"
+         install-size="0"
+         version="52.1.1.v201501240615"
+         unpack="false"/>
+
+   <plugin
+         id="com.ibm.icu.base"
+         download-size="0"
+         install-size="0"
+         version="52.1.1.v201501240615"
+         unpack="false"/>
+
+   <plugin
+         id="com.ibm.icu.source"
+         download-size="0"
+         install-size="0"
+         version="52.1.1.v201501240615"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.cli.source"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.v201404270220"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang.source"
+         download-size="0"
+         install-size="0"
+         version="2.6.0.v201404270220"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.logging.source"
+         download-size="0"
+         install-size="0"
+         version="1.1.1.v201101211721"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.log4j.source"
+         download-size="0"
+         install-size="0"
+         version="1.2.15.v201012070815"
+         unpack="false"/>
+
+   <plugin
+         id="org.scala-lang.scala-library.source"
+         download-size="0"
+         install-size="0"
+         version="2.11.5.v20150101-184742-3fafbc204f"
+         unpack="false"/>
+
+   <plugin
+         id="ca.odell.glazedlists"
+         download-size="0"
+         install-size="0"
+         version="1.9.0.v201303080712"
+         unpack="false"/>
+
+   <plugin
+         id="ca.odell.glazedlists.source"
+         download-size="0"
+         install-size="0"
+         version="1.9.0.v201303080712"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,84 @@
+/**********************************************************************************************************************
+*  COPYRIGHT
+*  -------------------------------------------------------------------------------------------------------------------
+*  Copyright (c) 2015 by Vector Informatik GmbH.                                                  All rights reserved.
+*
+*                This software is copyright protected and proprietary to Vector Informatik GmbH.
+*                Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+*                All other rights remain with Vector Informatik GmbH.
+*  -------------------------------------------------------------------------------------------------------------------
+*  FILE DESCRIPTION
+*  -------------------------------------------------------------------------------------------------------------------
+*  File       :  SysService_Asr4EcuM.plugin
+*  Module     :  EcuM
+*  Description:  Entry point of Elisa Core.
+*  -------------------------------------------------------------------------------------------------------------------
+*  AUTHOR IDENTITY
+*  -------------------------------------------------------------------------------------------------------------------
+*  Name                          Initials      Company
+*  -------------------------------------------------------------------------------------------------------------------
+*  Jochen Vorreiter              visvjn        Vector Informatik GmbH
+*  -------------------------------------------------------------------------------------------------------------------
+*  REVISION HISTORY
+*  -------------------------------------------------------------------------------------------------------------------
+*  Version    Date          Author   Change Id        Description
+*  -------------------------------------------------------------------------------------------------------------------
+*  01.00.00   2015-08-04    visvjn                    First version
+**********************************************************************************************************************/
+
+/**********************************************************************************************************************
+* Mandatory Functions
+**********************************************************************************************************************/
+
+/**********************************************************************************************************************
+* Name         : RegisterPlugin
+* Return value : Reference to a structure which contains the registration information about the plugin
+* Description  : Elisa_core calls this function to query necessary information about the plugin.
+*                This function is mandatory.
+**********************************************************************************************************************/
+def RegisterPlugin()
+{
+  var reg = ModulePluginRegistration()
+  reg.SetVersion(0x010000)
+  reg.SetPackageName("SysService_Asr4EcuM")
+  reg.SetInputFiles(["EcuM.c"])
+  return reg 
+}
+
+/**********************************************************************************************************************
+* Name         : CheckVersions
+* Return value : -
+* Description  : Elisa_core calls this function to allow the plugin a version check against the BSW sources.
+**********************************************************************************************************************/
+def CheckVersions()
+{
+  AssertDefineEquals("SYSSERVICE_ASR4ECUM_VERSION", "0x0500u")
+}
+
+/**********************************************************************************************************************
+* Name         : main
+* Parameter    : None
+* Return value : None
+* Description  : This is the entry point of the Elisa plugin. main calls all rule functions to check the configuration.
+*                This function is mandatory.
+* Requirements : ADAPT: Enter here the references to the corresponding requirements
+**********************************************************************************************************************/
+def main()
+{
+  InvokeRule("Checks that the EcuM Fixed is disabled", EcuMFixedDisabled)
+}
+
+/**********************************************************************************************************************
+* Rules
+**********************************************************************************************************************/
+/**********************************************************************************************************************
+* Name         : EcuMFixedDisabled
+* Parameter    : None
+* Return value : None
+* Description  : Checks that the EcuM Fixed is disabled.
+* Requirements : ADAPT: Enter here the references to the corresponding requirements
+**********************************************************************************************************************/
+def EcuMFixedDisabled()
+{
+  AssertDefineEquals("ECUM_FIXED_BEHAVIOR", "(STD_OFF)")
+}

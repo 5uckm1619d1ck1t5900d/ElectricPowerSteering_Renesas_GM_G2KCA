@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.vector.cfg.gui"
+      label="DaVinci Configurator GUI Feature"
+      version="1.0.0.r53621"
+      provider-name="Vector Informatik GmbH"
+      plugin="com.vector.cfg.gui.core">
+
+   <description>
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright>
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license>
+      [Enter License Description here.]
+   </license>
+
+   <includes
+         id="org.eclipse.help"
+         version="2.0.103.v20150204-1700"/>
+
+   <includes
+         id="com.vector.cfg.reporting"
+         version="1.4.0.r53621"/>
+
+   <includes
+         id="com.vector.cfg.core"
+         version="1.0.0.r53621"/>
+
+   <includes
+         id="com.vector.cfg.core.extensions"
+         version="1.0.0.r53621"/>
+
+   <includes
+         id="com.vector.cfg.gui.eclipsedependency"
+         version="1.0.0.r53621"/>
+
+   <plugin
+         id="com.vector.cfg.gui.app"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.gui.app.branding"
+         download-size="0"
+         install-size="0"
+         version="5.10.26.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.console"
+         download-size="0"
+         install-size="0"
+         version="3.5.300.v20140424-1437"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gef"
+         download-size="0"
+         install-size="0"
+         version="3.9.100.201408150207"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.draw2d"
+         download-size="0"
+         install-size="0"
+         version="3.9.101.201408150207"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views.properties.tabbed"
+         download-size="0"
+         install-size="0"
+         version="3.6.0.v20140519-0906"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.gui.pse"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.forms"
+         download-size="0"
+         install-size="0"
+         version="3.6.100.v20140422-1825"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views.log"
+         download-size="0"
+         install-size="0"
+         version="1.0.500.v20140512-1221"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.nebula.widgets.pgroup"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201503111318"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.gui.gen"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.gui.findview"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.ctrl.grid"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.nebula.widgets.nattable.core"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.201501272102"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.nebula.widgets.nattable.extension.glazedlists"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.201501272102"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.gui.activity"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.gui.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.gui.core.ctrl"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.gui.core.error"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.gui.gce"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.cheatsheets"
+         download-size="0"
+         install-size="0"
+         version="3.4.200.v20131227-1524"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.forms"
+         download-size="0"
+         install-size="0"
+         version="3.6.100.v20140422-1825"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.intro"
+         download-size="0"
+         install-size="0"
+         version="3.4.200.v20130326-1254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views"
+         download-size="0"
+         install-size="0"
+         version="3.7.0.v20140408-0703"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views.properties.tabbed"
+         download-size="0"
+         install-size="0"
+         version="3.6.0.v20140519-0906"
+         unpack="false"/>
+
+   <plugin
+         id="ca.odell.glazedlists"
+         download-size="0"
+         install-size="0"
+         version="1.9.0.v201303080712"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.model.rules"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.gui.common"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.gui.errorlog"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.nebula.widgets.tablecombo"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201503111318"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.sip.gui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.dom.ui.image"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+   <plugin
+         id="com.vector.cfg.gui.elementusage"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.r53621"
+         unpack="false"/>
+
+</feature>

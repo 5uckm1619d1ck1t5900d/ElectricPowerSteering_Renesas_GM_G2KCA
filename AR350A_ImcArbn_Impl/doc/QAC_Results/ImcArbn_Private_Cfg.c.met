@@ -1,0 +1,600 @@
+<RDEF> I Includes
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_ImcArbn.h 20
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_ImcArbn.h C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_ImcArbn_Type.h 40
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_ImcArbn_Type.h C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_Type.h 32
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_Type.h C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte.h 27
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte.h C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_UserTypes.h 41
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_UserTypes.h C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 40
+<DEFINE> IMCARBN_PRIVATE_CFG_H C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 21 I DF OM - - - O
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 23
+<DEFINE> IMCARBN_CFG_H C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 21 I DF OM - - - O
+<DEFINE> IMCARBN_FDD1OPTIONALSIGNAME1_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 29 I DF OM - - - O
+<DEFINE> IMCARBN_FDD2OPTIONALSIGNAME1_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 31 I DF OM - - - O
+<DEFINE> IMCARBN_FDD1OPTIONALSIGNAME2_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 34 I DF OM - - - O
+<DEFINE> IMCARBN_FDD2OPTIONALSIGNAME2_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 36 I DF OM - - - O
+<DEFINE> IMCARBN_FDD1OPTIONALSIGNAME3_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 39 I DF OM - - - O
+<DEFINE> IMCARBN_FDD2OPTIONALSIGNAME3_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 41 I DF OM - - - O
+<DEFINE> IMCARBN_FDD1OPTIONALSIGNAME4_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 44 I DF OM - - - O
+<DEFINE> IMCARBN_FDD2OPTIONALSIGNAME4_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 46 I DF OM - - - O
+<DEFINE> IMCARBN_FDD1OPTIONALSIGNAME5_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 49 I DF OM - - - O
+<DEFINE> IMCARBN_FDD2OPTIONALSIGNAME5_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 51 I DF OM - - - O
+<DEFINE> IMCARBN_FDD1OPTIONALSIGNAME6_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 54 I DF OM - - - O
+<DEFINE> IMCARBN_FDD2OPTIONALSIGNAME6_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 56 I DF OM - - - O
+<DEFINE> IMCARBN_FDD1OPTIONALSIGNAME7_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 59 I DF OM - - - O
+<DEFINE> IMCARBN_FDD2OPTIONALSIGNAME7_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 61 I DF OM - - - O
+<DEFINE> IMCARBN_FDD2OPTIONALSIGNAME8_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 64 I DF OM - - - O
+<DEFINE> IMCARBN_FDD1OPTIONALSIGNAME8_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 66 I DF OM - - - O
+<DEFINE> IMCARBN_TESTSIGGROUP1_CNT_U08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 73 I DF OM - - - O
+<LIT> 0 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 73 41 I ON - F M
+<DEFINE> IMCARBN_TESTSIGGROUP4_CNT_U08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 74 I DF OM - - - O
+<LIT> 1 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 74 41 I DN - F M
+<DEFINE> IMCARBN_TESTSIGGROUP5_CNT_U08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 75 I DF OM - - - O
+<LIT> 2 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 75 41 I DN - F M
+<DEFINE> IMCARBN_TESTSIGGROUP2_CNT_U08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 81 I DF OM - - - O
+<LIT> 3 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 81 41 I DN - F M
+<DEFINE> IMCARBN_TESTSIGGROUP3_CNT_U08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 86 I DF OM - - - O
+<LIT> 4 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 86 41 I DN - F M
+<DEFINE> IMCARBN_NROF2MILLISECRATEGROUP_CNT_U08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 94 I DF OM - - - O
+<LIT> 3 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 94 50 I DN - F M
+<DEFINE> IMCARBN_NROF10MILLISECRATEGROUP_CNT_U08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 97 I DF OM - - - O
+<LIT> 1 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 97 51 I DN - F M
+<DEFINE> IMCARBN_NROF100MILLISECRATEGROUP_CNT_U08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 100 I DF OM - - - O
+<LIT> 1 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 100 52 I DN - F M
+<DEFINE> IMCARBN_TOTALNROFSIGGROUP_CNT_U08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 103 I DF OM - - - O
+<DEFINE> IMCARBN_TOTALNROFSIG_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 108 I DF OM - - - O
+<LIT> 8 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Cfg.h 108 41 I DN - F M
+<DEFINE> GetSigVal C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 27 I DC OT F N p(ul,.) -
+<DEFINE> GetSigValOper C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 32 I DC MB F N p(ul,.) -
+<DEFINE> SigId_u16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 33 I DC MB F N us -
+<DEFINE> DestSize_u08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 34 I DC MB F N uc -
+<DEFINE> StrtLocn_u08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 35 I DC MB F N uc -
+<DEFINE> SigPrmRec1 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 37 I DC OT F N {s} -
+<DEFINE> SigPrm C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 41 I DC MB F N p={sSigPrmRec1} -
+<DEFINE> NrOfSig_u08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 42 I DC MB F N uc -
+<DEFINE> SigGroupId_u08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 43 I DC MB F N uc -
+<DEFINE> PrimSrcOnlySigGroup_logl C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 44 I DC MB F N uc -
+<DEFINE> SigGroupRec1 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 46 I DC OT F N {s} -
+<DEFINE> ImcArbnRxDataSrc2 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 49 I DC OT F N uc -
+<DEFINE> ImcArbnRxExtdSts2 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 50 I DC OT F N uc -
+<LIT> 8 - P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 53 33 I DN ni F D
+<DEFINE> Ary1D_u8_ImcArbnA C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 53 I DC OT F N [8,uc] -
+<DEFINE> Ary2D_u8_ImcArbnA C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 57 I DC OT F N [5,[8,uc]] -
+<DEFINE> Ary1D_logl_ImcArbnA C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 63 I DC OT F N [5,uc] -
+<DEFINE> Ary1D_u8_ImcArbnB C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 74 I DC OT F N [5,uc] -
+<DEFINE> Ary1D_ImcArbnRxDataSrc2_ImcArbnA C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 75 I DC OT F N [5,uc] -
+<DEFINE> Ary1D_u32_ImcArbnA C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 76 I DC OT F N [8,ul] -
+<DEFINE> Ary1D_ImrArbnRxExtdSts2_ImcArbnA C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 77 I DC OT F N [8,uc] -
+<DEFINE> Ary1D_ImcArbnRxDataSrc2_ImcArbnB C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 78 I DC OT F N [8,uc] -
+<DEFINE> IMCARBN_IMCTESTSIG1_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 81 I DF OM - - - O
+<LIT> 0 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 81 40 I ON - F M
+<DEFINE> IMCARBN_IMCTESTSIG2_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 82 I DF OM - - - O
+<LIT> 1 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 82 40 I DN - F M
+<DEFINE> IMCARBN_IMCTESTSIG3_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 83 I DF OM - - - O
+<LIT> 2 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 83 40 I DN - F M
+<DEFINE> IMCARBN_IMCTESTSIG4_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 84 I DF OM - - - O
+<LIT> 3 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 84 40 I DN - F M
+<DEFINE> IMCARBN_IMCTESTSIG5_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 85 I DF OM - - - O
+<LIT> 4 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 85 40 I DN - F M
+<DEFINE> IMCARBN_IMCTESTSIG6_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 86 I DF OM - - - O
+<LIT> 5 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 86 40 I DN - F M
+<DEFINE> IMCARBN_IMCTESTSIG7_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 87 I DF OM - - - O
+<LIT> 6 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 87 40 I DN - F M
+<DEFINE> IMCARBN_IMCTESTSIG8_CNT_U16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 88 I DF OM - - - O
+<LIT> 7 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 88 40 I DN - F M
+<EXTN> SIGGROUPCONFIG_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 91
+<DEFINE> SIGGROUPCONFIG_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 91 I DC OV F X [5,={sSigGroupRec1}] S
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_ImcArbn.h C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_DataHandleType.h 41
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_ImcArbn.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 77
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_ImcArbn.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 82
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_ImcArbn.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 102
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_ImcArbn.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 132
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_ImcArbn.h C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/ImcArbn_MemMap.h 381
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/ImcArbn_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/Rte_ImcArbn.h C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/ImcArbn_MemMap.h 1263
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/RteGen/ImcArbn_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.h 22
+<DEFINE> GetImcTestSig1 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 27 N DC OF F I (ul,.) -
+<DEFINE> GetImcTestSig2 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 29 N DC OF F I (ul,.) -
+<DEFINE> GetImcTestSig3 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 31 N DC OF F I (ul,.) -
+<DEFINE> GetImcTestSig4 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 33 N DC OF F I (ul,.) -
+<DEFINE> GetImcTestSig5 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 35 N DC OF F I (ul,.) -
+<DEFINE> GetImcTestSig6 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 37 N DC OF F I (ul,.) -
+<DEFINE> GetImcTestSig7 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 39 N DC OF F I (ul,.) -
+<DEFINE> GetImcTestSig8 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 41 N DC OF F I (ul,.) -
+<LIT> 32 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 50 9 N DN ui F A
+<LIT> 0 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 51 9 N ON ui F A
+<DEFINE> TESTSIGGROUP1_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 45 N DC OV F I [1,={sSigPrmRec1}] S
+<DEFINE> TESTSIGGROUP1_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 45 N DF OV F I [1,={sSigPrmRec1}] S
+<LIT> 32 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 61 9 N DN ui F A
+<LIT> 0 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 62 9 N ON ui F A
+<DEFINE> TESTSIGGROUP2_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 56 N DC OV F I [1,={sSigPrmRec1}] S
+<DEFINE> TESTSIGGROUP2_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 56 N DF OV F I [1,={sSigPrmRec1}] S
+<LIT> 32 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 72 9 N DN ui F A
+<LIT> 0 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 73 9 N ON ui F A
+<DEFINE> TESTSIGGROUP3_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 67 N DC OV F I [1,={sSigPrmRec1}] S
+<DEFINE> TESTSIGGROUP3_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 67 N DF OV F I [1,={sSigPrmRec1}] S
+<LIT> 16 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 83 9 N DN ui F A
+<LIT> 0 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 84 9 N ON ui F A
+<LIT> 16 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 90 9 N DN ui F A
+<LIT> 16 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 91 9 N DN ui F A
+<DEFINE> TESTSIGGROUP4_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 78 N DC OV F I [2,={sSigPrmRec1}] S
+<DEFINE> TESTSIGGROUP4_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 78 N DF OV F I [2,={sSigPrmRec1}] S
+<LIT> 8 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 101 9 N DN ui F A
+<LIT> 0 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 102 9 N ON ui F A
+<LIT> 1 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 108 9 N DN ui F A
+<LIT> 17 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 109 9 N DN ui F A
+<LIT> 8 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 115 9 N DN ui F A
+<LIT> 8 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 116 9 N DN ui F A
+<DEFINE> TESTSIGGROUP5_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 96 N DC OV F I [3,={sSigPrmRec1}] S
+<DEFINE> TESTSIGGROUP5_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 96 N DF OV F I [3,={sSigPrmRec1}] S
+<EXTD> SIGGROUPCONFIG_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 123
+<LIT> 0 - P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 127 28 N ON ni F A
+<LIT> 1 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 128 9 N DN ui F A
+<LIT> 0 - P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 133 28 N ON ni F A
+<LIT> 2 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 134 9 N DN ui F A
+<LIT> 0 - P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 139 28 N ON ni F A
+<LIT> 3 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 140 9 N DN ui F A
+<LIT> 0 - P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 147 28 N ON ni F A
+<LIT> 1 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 148 9 N DN ui F A
+<LIT> 0 - P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 155 28 N ON ni F A
+<LIT> 1 U P C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 156 9 N DN ui F A
+<DEFINE> SIGGROUPCONFIG_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 123 N DR OV F X [5,={sSigGroupRec1}] S
+<DEFINE> SIGGROUPCONFIG_REC C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 123 N DF OV F X [5,={sSigGroupRec1}] S
+<DEFINE> GetImcTestSig1 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 166 N DR OF F I (ul,.) -
+<DEFINE> GetImcTestSig1 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 166 N DF OF F I (ul,.) -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 168 N DC OV B N ul -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 168 N DF OV B N ul -
+<DEFINE> SigVal_Uls_T_f32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 169 N DC OV B N fs -
+<DEFINE> SigVal_Uls_T_f32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 169 N DF OV B N fs -
+<RDEF> C Calls
+<R>C GetImcTestSig1 Rte_Read_ImcArbn_ImcTestSig1_Val 170
+<RDEF> X Refers-to
+<R>X GetImcTestSig1 Rte_Read_ImcArbn_ImcTestSig1_Val 170 R
+<CTLG> GetImcTestSig1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 167 172 172 172 
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  5
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  6
+<S>STAV2  6
+<S>STAV3  11
+<S>STST1  5
+<S>STST2  5
+<S>STST3  3
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  24
+<S>STFN2  10
+
+<DEFINE> GetImcTestSig2 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 175 N DR OF F I (ul,.) -
+<DEFINE> GetImcTestSig2 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 175 N DF OF F I (ul,.) -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 177 N DC OV B N ul -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 177 N DF OV B N ul -
+<R>C GetImcTestSig2 Rte_Read_ImcArbn_ImcTestSig2_Val 179
+<R>X GetImcTestSig2 Rte_Read_ImcArbn_ImcTestSig2_Val 179 R
+<CTLG> GetImcTestSig2 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 176 180 180 180 
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig2
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  4
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  6
+<S>STAV2  6
+<S>STAV3  9
+<S>STST1  3
+<S>STST2  3
+<S>STST3  2
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  14
+<S>STFN2  5
+
+<DEFINE> GetImcTestSig3 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 183 N DR OF F I (ul,.) -
+<DEFINE> GetImcTestSig3 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 183 N DF OF F I (ul,.) -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 185 N DC OV B N ul -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 185 N DF OV B N ul -
+<DEFINE> SigVal_Uls_T_s32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 186 N DC OV B N nl -
+<DEFINE> SigVal_Uls_T_s32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 186 N DF OV B N nl -
+<R>C GetImcTestSig3 Rte_Read_ImcArbn_ImcTestSig3_Val 187
+<R>X GetImcTestSig3 Rte_Read_ImcArbn_ImcTestSig3_Val 187 R
+<CTLG> GetImcTestSig3 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 184 189 189 189 
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig3
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  5
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  5
+<S>STAV3  9
+<S>STST1  5
+<S>STST2  5
+<S>STST3  3
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  19
+<S>STFN2  10
+
+<DEFINE> GetImcTestSig4 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 192 N DR OF F I (ul,.) -
+<DEFINE> GetImcTestSig4 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 192 N DF OF F I (ul,.) -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 194 N DC OV B N ul -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 194 N DF OV B N ul -
+<DEFINE> SigVal_Uls_T_u16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 195 N DC OV B N us -
+<DEFINE> SigVal_Uls_T_u16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 195 N DF OV B N us -
+<R>C GetImcTestSig4 Rte_Read_ImcArbn_ImcTestSig4_Val 196
+<R>X GetImcTestSig4 Rte_Read_ImcArbn_ImcTestSig4_Val 196 R
+<CTLG> GetImcTestSig4 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 193 198 198 198 
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig4
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  5
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  5
+<S>STAV3  9
+<S>STST1  5
+<S>STST2  5
+<S>STST3  3
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  19
+<S>STFN2  10
+
+<DEFINE> GetImcTestSig5 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 201 N DR OF F I (ul,.) -
+<DEFINE> GetImcTestSig5 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 201 N DF OF F I (ul,.) -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 203 N DC OV B N ul -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 203 N DF OV B N ul -
+<DEFINE> SigVal_Uls_T_s16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 204 N DC OV B N ns -
+<DEFINE> SigVal_Uls_T_s16 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 204 N DF OV B N ns -
+<R>C GetImcTestSig5 Rte_Read_ImcArbn_ImcTestSig5_Val 205
+<R>X GetImcTestSig5 Rte_Read_ImcArbn_ImcTestSig5_Val 205 R
+<CTLG> GetImcTestSig5 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 202 207 207 207 
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig5
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  5
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  5
+<S>STAV3  9
+<S>STST1  5
+<S>STST2  5
+<S>STST3  3
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  19
+<S>STFN2  10
+
+<DEFINE> GetImcTestSig6 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 210 N DR OF F I (ul,.) -
+<DEFINE> GetImcTestSig6 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 210 N DF OF F I (ul,.) -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 212 N DC OV B N ul -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 212 N DF OV B N ul -
+<DEFINE> SigVal_Uls_T_u08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 213 N DC OV B N uc -
+<DEFINE> SigVal_Uls_T_u08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 213 N DF OV B N uc -
+<R>C GetImcTestSig6 Rte_Read_ImcArbn_ImcTestSig6_Val 214
+<R>X GetImcTestSig6 Rte_Read_ImcArbn_ImcTestSig6_Val 214 R
+<CTLG> GetImcTestSig6 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 211 216 216 216 
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig6
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  5
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  5
+<S>STAV3  9
+<S>STST1  5
+<S>STST2  5
+<S>STST3  3
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  19
+<S>STFN2  10
+
+<DEFINE> GetImcTestSig7 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 219 N DR OF F I (ul,.) -
+<DEFINE> GetImcTestSig7 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 219 N DF OF F I (ul,.) -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 221 N DC OV B N ul -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 221 N DF OV B N ul -
+<DEFINE> SigVal_Uls_T_s08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 222 N DC OV B N nc -
+<DEFINE> SigVal_Uls_T_s08 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 222 N DF OV B N nc -
+<R>C GetImcTestSig7 Rte_Read_ImcArbn_ImcTestSig7_Val 223
+<R>X GetImcTestSig7 Rte_Read_ImcArbn_ImcTestSig7_Val 223 R
+<CTLG> GetImcTestSig7 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 220 225 225 225 
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig7
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  5
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  5
+<S>STAV3  9
+<S>STST1  5
+<S>STST2  5
+<S>STST3  3
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  19
+<S>STFN2  10
+
+<DEFINE> GetImcTestSig8 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 228 N DR OF F I (ul,.) -
+<DEFINE> GetImcTestSig8 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 228 N DF OF F I (ul,.) -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 230 N DC OV B N ul -
+<DEFINE> RetVal_Uls_T_u32 C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 230 N DF OV B N ul -
+<DEFINE> SigVal_Uls_T_logl C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 231 N DC OV B N uc -
+<DEFINE> SigVal_Uls_T_logl C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c 231 N DF OV B N uc -
+<R>C GetImcTestSig8 Rte_Read_ImcArbn_ImcTestSig8_Logl 232
+<R>X GetImcTestSig8 Rte_Read_ImcArbn_ImcTestSig8_Logl 232 R
+<CTLG> GetImcTestSig8 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 229 234 234 234 
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig8
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  5
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  5
+<S>STAV3  9
+<S>STST1  5
+<S>STST2  5
+<S>STST3  3
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  19
+<S>STFN2  10
+
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig2
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig3
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig4
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig5
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig6
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig7
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  GetImcTestSig8
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNAM  C:/Component/AR350A_ImcArbn_Impl/tools/contract/generate/ImcArbn_Private_Cfg.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  13
+<S>STECT  1
+<S>STFNC  8
+<S>STFCO  1
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  58
+<S>STOPT  19
+<S>STOPN  84
+<S>STTOT  686
+<S>STZIP  537
+<S>STHAL  618
+<S>STSHN  2087
+<S>STDIF  12.94  
+<S>STEFF  59366
+<S>STVOL  4587
+<S>STDEV  9.89   
+<S>STBUG  2
+<S>STTPP  238
+<S>STTLN  166
+<S>STM20  209
+<S>STM21  475
+<S>STM22  52
+<S>STM28  88
+<S>STM33  52
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.532  
+<S>STBMS  0.601  
+<S>STBME  0.643  
+<S>STTDO  1.966  
+<S>STTDS  2.092  
+<S>STTDE  2.171  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.343  
+

@@ -1,0 +1,5 @@
+10:32:16,123 [main] INFO  com.vector.cfg.console.app.internal.Log4JConfigurator  - Logfile: C:\_synergy\Componentes\MM000B_SerlComInpProxy_Impl-CZ8L9T\MM000B_SerlComInpProxy_Impl\tools\.\DVCfgCmd.log
+10:32:19,723 [main] INFO  com.vector.cfg.console.app.internal.generator.CfgGeneratorConsoleAppl  - > Loading project.
+10:32:25,137 [main] INFO  com.vector.cfg.console.app.internal.generator.CfgGeneratorConsoleAppl  - > Wait until validation is finished... 
+10:32:26,449 [BackgroundValidation-Thread-0] INFO  com.vector.cfg.console.app.internal.generator.CfgGeneratorConsoleAppl  - Validation finished.
+10:32:26,499 [main] INFO  com.vector.cfg.console.app.internal.generator.CfgGeneratorConsoleAppl  - Validation results:

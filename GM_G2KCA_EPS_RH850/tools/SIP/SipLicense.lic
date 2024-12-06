@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<license xmlns="urn:vector:schema:license" version="1.0">
+    <deliveries>
+        <delivery id="CBD1400351_D03">
+            <subprojectnumber>CBD1400351</subprojectnumber>
+            <deliverynumber>3</deliverynumber>
+            <sipnumber>13.00.00</sipnumber>
+            <customername>Nexteer Automotive Corporation</customername>
+            <customerprogramname>GM Global A / FR (MSR_Gm_SLP2)</customerprogramname>
+            <orderedderivative>R7F701311</orderedderivative>
+            <showbetadisclaimer>true</showbetadisclaimer>
+            <supportemail>Ralf.Fritz@vector.com</supportemail>
+        </delivery>
+    </deliveries>
+    <paramset idref="CBD1400351_D03" consumer="DaVinciConfigurator">
+        <param>
+            <key>MDTYPE-A7408B40-BE74-4FA7-BB62-FDC84588BA38</key>
+            <value>MDVALUE-1DA83B41-B0D0-4EDE-99A9-3AA080F946C2</value>
+        </param>
+        <param>
+            <key>MDTYPE-93C96091-F29E-4D53-B335-A0FFD6E0BC70</key>
+            <value>MDVALUE-26FFDB62-AEE9-4B08-9818-A1186453BEE8</value>
+        </param>
+        <param>
+            <key>7ADA1967-DB4F-4D01-918D-93748381E99D</key>
+            <value>A4A36B14-DFA1-4BC7-96D8-C0B773CFBFA6</value>
+        </param>
+        <param>
+            <key>MDTYPE-3E64CBF6-6998-4E47-8C4C-4F4CAF08D13B</key>
+            <value>MDVALUE-3AE87400-959D-4DBE-ACF0-4A4F23EAAA01</value>
+        </param>
+    </paramset>
+    <paramset idref="CBD1400351_D03" consumer="LegacyDbConverter">
+        <param>
+            <key>MDTYPE-A3E21F07-8120-4CAD-8A80-1E3112EB14E4</key>
+            <value>MDVALUE-8C403FE9-30A7-47F3-ADFD-172473F3F98F</value>
+        </param>
+    </paramset>
+    <paramset idref="CBD1400351_D03" consumer="Rte">
+        <param>
+            <key>MDTYPE-4CE8CC57-DC4A-447D-8DBB-0D56AD9E0F0D</key>
+            <value>MDVALUE-1CED2B3A-FCC8-4B4E-AAFA-BF9EEA78A9CC</value>
+        </param>
+    </paramset>
+</license>
+<!-- 05D2BEA2603893227C2298A7365942F1EECCC5F9526280974075161DF91F9347035872CA4D2FB1F4688AF2746128E8541A4FFECB347098BC1B29E6DCAD25F8EC92FAAC04872F4222516FB215CDC86A160C31EE7C2A017B59FF7A4056CE61CA77585BE87DB06A0CC0FB3569ACE2478AFEDF5AF160EB5E3E1C2C6643363BB0525AC876C089A75543C6E4DB9A5A81D839D7CB98095C9A81395D665555F7493AF4E3D8FA8F9DB2033791DDA8189FF9A84D4BC68643268BE625A500276AA4DDF87C8E3E71DC4B56ECCEFF3003EEF9CA4DEC4DE6F95420C160F42FEF43F61A1C52C2E0A3B5A683A66B00A2BAFF821F2721BF5DF6B3BDBBF6B2961BDE61A9350A5477EB -->

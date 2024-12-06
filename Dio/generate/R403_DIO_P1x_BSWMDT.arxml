@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+********************************************************************************
+** Project      = AUTOSAR Renesas R4.0.3 P1x MCAL Components                  **
+** Module       = R403_DIO_P1x_BSWMDT.arxml                                   **
+********************************************************************************
+**                                  COPYRIGHT                                 **
+********************************************************************************
+** Copyright(c) 2013 - 2015 Renesas Electronics Corporation                   **
+********************************************************************************
+** Purpose:                                                                   **
+** Provides the BSW module description of DIO Driver Component for AUTOSAR    **
+** release 4.0.3                                                              **
+********************************************************************************
+**                                                                            **
+** Unless otherwise agreed upon in writing between your company and           **
+** Renesas Electronics Corporation the following shall apply!                 **
+**                                                                            **
+** Warranty Disclaimer                                                        **
+**                                                                            **
+** There is no warranty of any kind whatsoever granted by Renesas. Any        **
+** warranty is expressly disclaimed and excluded by Renesas, either expressed **
+** including but not limited to those for non-infringement of intellectual or **
+** implied property, merchantability and/or fitness for the particular        **
+** purpose.                                                                   **
+**                                                                            **
+** Renesas shall not have any obligation to maintain, service or provide bug  **
+** fixes for the supplied Product(s) and/or the Application.                  **
+**                                                                            **
+** Each User is solely responsible for determining the appropriateness of     **
+** using the Product(s) and assumes all risks associated with its exercise    **
+** of rights under this Agreement, including, but not limited to the risks    **
+** and costs of program errors, compliance with applicable laws, damage to    **
+** or loss of data, programs or equipment, and unavailability or              **
+** interruption of operations.                                                **
+**                                                                            **
+** Limitation of Liability                                                    **
+**                                                                            **
+** In no event shall Renesas be liable to the User for any incidental,        **
+** consequential, indirect, or punitive damage (including but not limited     **
+** to lost profits) regardless of whether such liability is based on breach   **
+** of contract, tort, strict liability, breach of warranties, failure of      **
+** essential purpose or otherwise and even if advised of the possibility of   **
+** such damages. Renesas shall not be liable for any services or products     **
+** provided by third party vendors, developers or consultants identified or   **
+** referred to the User by Renesas in connection with the Product(s) and/or   **
+** the Application.                                                           **
+**                                                                            **
+********************************************************************************
+** Environment:                                                               **
+**             Devices: RH850/P1M: R7F701304, R7F701305, R7F701310, R7F701311,**
+**                                 R7F701312, R7F701313, R7F701314, R7F701315,**
+**                                 R7F701318, R7F701319, R7F701320, R7F701321,**
+**                                 R7F701322, R7F701323                       **
+********************************************************************************
+**                    Revision Control History                                **
+********************************************************************************
+** V1.0.0:  24-Sep-2013,  Initial Version                                     **
+**                                                                            **
+** V1.0.1:  20-Jan-2014, As per mantis #12755 following changes are made:     **
+**                       1. Environment section is updated to add P1x devices **
+**                       2. VENDOR-SPECIFIC-MODULE-DEF-REFS is added          **
+** V1.0.2:  12-Mar-2014, As per mantis #19988,copyright information is        **
+**                       updated.                                             **
+** V1.0.3:  06-Jun-2014, As per CR 103,                                       **
+**                          1. Environment section is updated to add newly    **
+**                          devices.                                          **
+**                          2. Exclusive area tag is added.                   **
+**                          3. Software patch version is updated.             **
+** V1.0.4:  07-Apr-2015, As per mantis #27419 following changes are made:     **
+**                          1. Environment section is updated for new devices.**
+**                          2. Copyright information is updated.              **
+********************************************************************************
+-->
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-0-3.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <AR-PACKAGES>
+         <AR-PACKAGE UUID="ECUS:ed45a6d9-0e0f-481f-a52e-a836ad5271de">
+      <SHORT-NAME>Renesas</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="ECUS:9fb3eb35-cbb6-440c-9bf5-a5942d61db53">
+          <SHORT-NAME>EcucDefs_Dio</SHORT-NAME>
+          <ELEMENTS>
+            <BSW-IMPLEMENTATION xmlns="http://autosar.org/schema/r4.0" UUID="ECUS:700a43c9-7030-4e37-8274-701e01aecdaf">
+              <SHORT-NAME>Dio_Impl</SHORT-NAME>
+              <PROGRAMMING-LANGUAGE>C</PROGRAMMING-LANGUAGE>
+              <SW-VERSION>1.0.9</SW-VERSION>
+              <VENDOR-ID>59</VENDOR-ID>
+              <AR-RELEASE-VERSION>4.0.3</AR-RELEASE-VERSION>
+              <BEHAVIOR-REF DEST="BSW-INTERNAL-BEHAVIOR">/Renesas/EcucDefs_Dio/Dio/BswInternalBehavior_0</BEHAVIOR-REF>
+              <VENDOR-API-INFIX>Renesas</VENDOR-API-INFIX>
+              <VENDOR-SPECIFIC-MODULE-DEF-REFS>
+                <VENDOR-SPECIFIC-MODULE-DEF-REF DEST="ECUC-MODULE-DEF">/Renesas/EcucDefs_Dio/Dio</VENDOR-SPECIFIC-MODULE-DEF-REF>
+              </VENDOR-SPECIFIC-MODULE-DEF-REFS>
+            </BSW-IMPLEMENTATION>
+            <BSW-MODULE-DESCRIPTION UUID="ECUS:6d956bd3-5a11-4774-a553-324bbbca839e">
+              <SHORT-NAME>Dio</SHORT-NAME>
+              <MODULE-ID>120</MODULE-ID>
+              <INTERNAL-BEHAVIORS>
+               <BSW-INTERNAL-BEHAVIOR UUID="919e8ba8-aa43-4f8b-ba36-670851923193">
+                <SHORT-NAME>BswInternalBehavior_0</SHORT-NAME>
+                <EXCLUSIVE-AREAS>
+                    <EXCLUSIVE-AREA UUID="b893731e-44c5-4b35-a5c5-c0977a3b00dc">
+                        <SHORT-NAME>REGISTER_PROTECTION</SHORT-NAME>
+                    </EXCLUSIVE-AREA>
+                </EXCLUSIVE-AREAS>
+               </BSW-INTERNAL-BEHAVIOR>
+              </INTERNAL-BEHAVIORS>
+            </BSW-MODULE-DESCRIPTION>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Vector Informatik GmbH
+Fragment-Host: com.vector.cfg.persistency;bundle-version="1.0.0"
+Bundle-Version: 1.0.0.r53621
+Bundle-Name: Persistency Resources
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.vector.cfg.persistency.resources;singleton:=t
+ rue
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

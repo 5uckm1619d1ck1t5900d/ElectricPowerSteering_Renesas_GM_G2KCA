@@ -1,0 +1,45 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate
+    Descr. file:   C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1479308818706-8\AutosarFiles_ValGen-1479314361336-0\MotCtrlMgr_ECUC_4720691076298450968.arxml
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\AR300A_MotCtrlMgr_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\_synergy\G2KCAT3_CZ8L9T\AR300A_MotCtrlMgr_Impl\generate\CDD_MotCtrlMgr.c.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_synergy/G2KCAT3_CZ8L9T/GM_G2KCA_EPS_RH850/generate\CDD_MotCtrlMgr.c. written.
+    Duration:      00:00:00.8736056.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate
+    Descr. file:   C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1479308818706-8\AutosarFiles_ValGen-1479314361336-0\MotCtrlMgr_ECUC_4720691076298450968.arxml
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\AR300A_MotCtrlMgr_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\_synergy\G2KCAT3_CZ8L9T\AR300A_MotCtrlMgr_Impl\generate\CDD_MotCtrlMgr_Irq.c.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_synergy/G2KCAT3_CZ8L9T/GM_G2KCA_EPS_RH850/generate\CDD_MotCtrlMgr_Irq.c. written.
+    Duration:      00:00:00.8424054.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate
+    Descr. file:   C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1479308818706-8\AutosarFiles_ValGen-1479314361336-0\MotCtrlMgr_ECUC_4720691076298450968.arxml
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\AR300A_MotCtrlMgr_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\_synergy\G2KCAT3_CZ8L9T\AR300A_MotCtrlMgr_Impl\generate\CDD_MotCtrlMgr_Data.c.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_synergy/G2KCAT3_CZ8L9T/GM_G2KCA_EPS_RH850/generate\CDD_MotCtrlMgr_Data.c. written.
+    Duration:      00:00:00.8736056.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate
+    Descr. file:   C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1479308818706-8\AutosarFiles_ValGen-1479314361336-0\MotCtrlMgr_ECUC_4720691076298450968.arxml
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\AR300A_MotCtrlMgr_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\_synergy\G2KCAT3_CZ8L9T\AR300A_MotCtrlMgr_Impl\generate\CDD_MotCtrlMgr_Data.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_synergy/G2KCAT3_CZ8L9T/GM_G2KCA_EPS_RH850/generate\CDD_MotCtrlMgr_Data.h. written.
+    Duration:      00:00:00.8736056.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_synergy\G2KCAT3_CZ8L9T\GM_G2KCA_EPS_RH850\generate
+    Descr. file:   C:\Users\cz8l9t\AppData\Local\Temp\Cfg_Gen-1479308818706-8\AutosarFiles_ValGen-1479314361336-0\MotCtrlMgr_ECUC_4720691076298450968.arxml
+    Include file:  C:\_synergy\G2KCAT3_CZ8L9T\AR300A_MotCtrlMgr_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\_synergy\G2KCAT3_CZ8L9T\AR300A_MotCtrlMgr_Impl\generate\AR300A_MotCtrlMgr_DataDict.m.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_synergy/G2KCAT3_CZ8L9T/GM_G2KCA_EPS_RH850/generate\AR300A_MotCtrlMgr_DataDict.m. written.
+    Duration:      00:00:00.8580055.

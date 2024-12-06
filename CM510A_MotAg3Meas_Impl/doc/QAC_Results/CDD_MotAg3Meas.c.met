@@ -1,0 +1,199 @@
+<RDEF> I Includes
+<R>I C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte_CDD_MotAg3Meas.h 74
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte_CDD_MotAg3Meas.h C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte_CDD_MotAg3Meas_Type.h 40
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte_CDD_MotAg3Meas_Type.h C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte_Type.h C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte.h 27
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte_CDD_MotAg3Meas.h C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte_CDD_MotAg3Meas.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 55
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte_CDD_MotAg3Meas.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 60
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte_CDD_MotAg3Meas.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 73
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte_CDD_MotAg3Meas.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 81
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte_CDD_MotAg3Meas.h C:/component/CM510A_MotAg3Meas_Impl/tools/contract/CDD_MotAg3Meas_MemMap.h 94
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/CDD_MotAg3Meas_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/Rte_CDD_MotAg3Meas.h C:/component/CM510A_MotAg3Meas_Impl/tools/contract/CDD_MotAg3Meas_MemMap.h 139
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/CDD_MotAg3Meas_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c C:/component/CM510A_MotAg3Meas_Impl/include/CDD_MotAg3Meas.h 81
+<DEFINE> CDD_MOTAG3MEAS_H C:/component/CM510A_MotAg3Meas_Impl/include/CDD_MotAg3Meas.h 21 I DF OM - - - O
+<DEFINE> MotAgMecl_Arg C:/component/CM510A_MotAg3Meas_Impl/include/CDD_MotAg3Meas.h 23 I DC OV P N pus R
+<DEFINE> GetMotAg3Mecl_Oper C:/component/CM510A_MotAg3Meas_Impl/include/CDD_MotAg3Meas.h 23 I DR OF F X (.,pus) -
+<R>I C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c C:/component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/enca_regs.h 82
+<R>I C:/component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/enca_regs.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/enca_regs.h C:/component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 24
+<R>I C:/component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<DEFINE> MOTAGCNTRREGMASK_CNT_U16 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 89 N DF OM - - - O
+<LIT> 16383 U P C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 89 42 N DN - F M
+<DEFINE> MOTAGLIM_CNT_U16 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 90 N DF OM - - - O
+<LIT> 65535 U P C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 90 42 N DN - F M
+<DEFINE> REGENCA0CTLINITVAL_CNT_U16 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 92 N DF OM - - - O
+<LIT> 0x03 U P C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 92 42 N HN - F M
+<DEFINE> REGENCA0IOC1INITVAL_CNT_U08 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 93 N DF OM - - - O
+<LIT> 0x04 U P C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 93 42 N HN - F M
+<DEFINE> REGENCA0TTINITVAL_CNT_U08 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 95 N DF OM - - - O
+<LIT> 0x01 U P C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 95 42 N HN - F M
+<DEFINE> REGENCA0TSINITVAL_CNT_U08 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 96 N DF OM - - - O
+<LIT> 0x01 U P C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 96 42 N HN - F M
+<DEFINE> CDD_MotAg3Meas_START_SEC_CODE C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 116 N DF OM - - - O
+<R>I C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c C:/component/CM510A_MotAg3Meas_Impl/tools/contract/CDD_MotAg3Meas_MemMap.h 117
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/CDD_MotAg3Meas_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> GetMotAg3Mecl_Oper C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 144
+<DEFINE> MotAgMecl_Arg C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 144 N DC OV B N pus R
+<DEFINE> GetMotAg3Mecl_Oper C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 144 N DR OF F X (.,pus) -
+<DEFINE> GetMotAg3Mecl_Oper C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 144 N DF OF F X (.,pus) -
+<DEFINE> EncATmrCntr_Cnt_T_u16 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 152 N DC OV B N us -
+<DEFINE> EncATmrCntr_Cnt_T_u16 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 152 N DF OV B N us -
+<DEFINE> MotAgMecl3Polarity_Uls_T_s08 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 153 N DC OV B N nc -
+<DEFINE> MotAgMecl3Polarity_Uls_T_s08 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 153 N DF OV B N nc -
+<DEFINE> MotAg3Raw_Cnt_T_u0p16 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 156 N DC OV B N us -
+<DEFINE> MotAg3Raw_Cnt_T_u0p16 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 156 N DF OV B N us -
+<RDEF> X Refers-to
+<R>X GetMotAg3Mecl_Oper ENCA0 159 R
+<RDEF> C Calls
+<R>C GetMotAg3Mecl_Oper Rte_Read_CDD_MotAg3Meas_MotAgMecl3Polarity_Val 160
+<R>X GetMotAg3Mecl_Oper Rte_Read_CDD_MotAg3Meas_MotAgMecl3Polarity_Val 160 R
+<LIT> 2 U P C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 165 89 N DN ui B X
+<LIT> 0 - P C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 168 36 N ON ni B X
+<CTLG> GetMotAg3Mecl_Oper 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 7
+<CTLGN> 145 168 168 168 172 180 180 
+<S>
+<S>STFIL  C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c
+<S>STNAM  GetMotAg3Mecl_Oper
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  1
+<S>STAKI  3
+<S>STLIN  34
+<S>STXLN  7
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  2
+<S>STPDN  0.29   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  8
+<S>STAV3  13
+<S>STST1  11
+<S>STST2  9
+<S>STST3  6
+<S>STPAR  1
+<S>STCAL  1
+<S>STFN1  51
+<S>STFN2  28
+
+<EXTD> MotAg3MeasInit1 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 192
+<DEFINE> MotAg3MeasInit1 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 192 N DR OF F X (.,.) -
+<DEFINE> MotAg3MeasInit1 C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 192 N DF OF F X (.,.) -
+<R>X MotAg3MeasInit1 ENCA0 202 W
+<R>X MotAg3MeasInit1 ENCA0 205 W
+<R>X MotAg3MeasInit1 ENCA0 208 W
+<R>X MotAg3MeasInit1 ENCA0 211 W
+<CTLG> MotAg3MeasInit1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 193 216 216 216 
+<S>
+<S>STFIL  C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c
+<S>STNAM  MotAg3MeasInit1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  22
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.25   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  4
+<S>STAV2  4
+<S>STAV3  4
+<S>STST1  4
+<S>STST2  4
+<S>STST3  4
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  10
+<S>STFN2  8
+
+<DEFINE> CDD_MotAg3Meas_STOP_SEC_CODE C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c 219 N DF OM - - - O
+<R>I C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c C:/component/CM510A_MotAg3Meas_Impl/tools/contract/CDD_MotAg3Meas_MemMap.h 220
+<R>I C:/component/CM510A_MotAg3Meas_Impl/tools/contract/CDD_MotAg3Meas_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<S>
+<S>STFIL  C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c
+<S>STNAM  GetMotAg3Mecl_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c
+<S>STNAM  MotAg3MeasInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c
+<S>STNAM  C:/component/CM510A_MotAg3Meas_Impl/src/CDD_MotAg3Meas.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  1
+<S>STFNC  2
+<S>STFCO  0
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  29
+<S>STOPT  18
+<S>STOPN  37
+<S>STTOT  188
+<S>STZIP  252
+<S>STHAL  268
+<S>STSHN  886
+<S>STDIF  7.08   
+<S>STEFF  7692
+<S>STVOL  1087
+<S>STDEV  1.28   
+<S>STBUG  0
+<S>STTPP  240
+<S>STTLN  24
+<S>STM20  61
+<S>STM21  122
+<S>STM22  12
+<S>STM28  39
+<S>STM33  25
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.536  
+<S>STBMS  0.607  
+<S>STBME  0.649  
+<S>STTDO  1.973  
+<S>STTDS  2.099  
+<S>STTDE  2.177  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  7.534  
+

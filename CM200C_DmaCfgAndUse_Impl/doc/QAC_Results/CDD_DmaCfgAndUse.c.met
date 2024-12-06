@@ -1,0 +1,1123 @@
+<RDEF> I Includes
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte_CDD_DmaCfgAndUse.h 40
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte_CDD_DmaCfgAndUse.h C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte_CDD_DmaCfgAndUse_Type.h 40
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte_CDD_DmaCfgAndUse_Type.h C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte_Type.h C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte.h 27
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte_CDD_DmaCfgAndUse.h C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte_CDD_DmaCfgAndUse.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 58
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte_CDD_DmaCfgAndUse.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 63
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte_CDD_DmaCfgAndUse.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 69
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte_CDD_DmaCfgAndUse.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 79
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte_CDD_DmaCfgAndUse.h C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_DmaCfgAndUse_MemMap.h 123
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_DmaCfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Rte_CDD_DmaCfgAndUse.h C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_DmaCfgAndUse_MemMap.h 220
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_DmaCfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/CM200C_DmaCfgAndUse_Impl/include/CDD_DmaCfgAndUse.h 47
+<DEFINE> CDD_DMACFGANDUSE_H C:/Component/CM200C_DmaCfgAndUse_Impl/include/CDD_DmaCfgAndUse.h 20 I DF OM - - - O
+<EXTN> DmaRegInin C:/Component/CM200C_DmaCfgAndUse_Impl/include/CDD_DmaCfgAndUse.h 22
+<DEFINE> DmaRegInin C:/Component/CM200C_DmaCfgAndUse_Impl/include/CDD_DmaCfgAndUse.h 22 I DC OF F X (.,.) -
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/CM200C_DmaCfgAndUse_Impl/include/NxtrDmaRegs.h 48
+<DEFINE> NXTRDMAREGS_H C:/Component/CM200C_DmaCfgAndUse_Impl/include/NxtrDmaRegs.h 20 I DF OM - - - O
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/include/NxtrDmaRegs.h C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/dma_regs.h 25
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/dma_regs.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 25
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/dma_regs.h C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 26
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<DEFINE> DMASSDRQC9 C:/Component/CM200C_DmaCfgAndUse_Impl/include/NxtrDmaRegs.h 27 I DF OM - - - O
+<DEFINE> DMASSTCC9 C:/Component/CM200C_DmaCfgAndUse_Impl/include/NxtrDmaRegs.h 28 I DF OM - - - O
+<DEFINE> DMASSDTE9 C:/Component/CM200C_DmaCfgAndUse_Impl/include/NxtrDmaRegs.h 29 I DF OM - - - O
+<DEFINE> DMASSDRQC14 C:/Component/CM200C_DmaCfgAndUse_Impl/include/NxtrDmaRegs.h 30 I DF OM - - - O
+<DEFINE> DMASSTCC14 C:/Component/CM200C_DmaCfgAndUse_Impl/include/NxtrDmaRegs.h 31 I DF OM - - - O
+<DEFINE> DMASSDTE14 C:/Component/CM200C_DmaCfgAndUse_Impl/include/NxtrDmaRegs.h 32 I DF OM - - - O
+<DEFINE> DMASSTC15 C:/Component/CM200C_DmaCfgAndUse_Impl/include/NxtrDmaRegs.h 33 I DF OM - - - O
+<DEFINE> DMASSTCC15 C:/Component/CM200C_DmaCfgAndUse_Impl/include/NxtrDmaRegs.h 34 I DF OM - - - O
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/csih_regs.h 49
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/csih_regs.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/csih_regs.h C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 25
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/adcd_regs.h 50
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/adcd_regs.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/adcd_regs.h C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 24
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/tsg3_regs.h 51
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/tsg3_regs.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/tsg3_regs.h C:/Component/AR202A_MicroCtrlrSuprt_Impl/include/P1M/R7F701311/reg_common.h 24
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_MotCtrlMgr_Data.h 52
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_MotAg0Meas.h 53
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_MotAg1Meas.h 54
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/Os.h 55
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h 56
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/TL103A_CplrSuprt/include/2015.1.5/ansi/math.h 25
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 26
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/McuErrInj.h 57
+<DEFINE> CPU1PEID_CNT_U32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 65 N DF OM - - - O
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 65 74 N HN - F M
+<DEFINE> PRPHLTOLCLRAMSPID_CNT_U32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 66 N DF OM - - - O
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 66 66 N HN - F M
+<DEFINE> LCLRAMTOPRPHLSPID_CNT_U32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 67 N DF OM - - - O
+<LIT> 0x02 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 67 66 N HN - F M
+<DEFINE> LCLRAMTOLCLRAMSPID_CNT_U32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 68 N DF OM - - - O
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 68 66 N HN - F M
+<DEFINE> USRMODENA_CNT_U32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 70 N DF OM - - - O
+<LIT> 0x1 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 70 74 N HN - F M
+<DEFINE> USRMODDI_CNT_U32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 71 N DF OM - - - O
+<LIT> 0x0 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 71 74 N HN - F M
+<DEFINE> MAXWAIT_MICROSEC_U32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 73 N DF OM - - - O
+<LIT> 400 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 73 58 N DN - F M
+<DEFINE> INIZERO_CNT_U32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 74 N DF OM - - - O
+<LIT> 0 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 74 65 N ON - F M
+<DEFINE> ERRID2BBIT0CASE1_CNT_U32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 76 N DF OM - - - O
+<LIT> 0x002B0101 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 76 58 N HN - F M
+<DEFINE> ERRID2BBIT1CASE1_CNT_U32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 77 N DF OM - - - O
+<LIT> 0x002B0201 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 77 58 N HN - F M
+<DEFINE> ERRID36BIT0CASE1_CNT_U32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 78 N DF OM - - - O
+<LIT> 0x00360101 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 78 58 N HN - F M
+<DEFINE> ERRID36BIT1CASE1_CNT_U32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 79 N DF OM - - - O
+<LIT> 0x00360201 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 79 58 N HN - F M
+<DEFINE> ERRID36BIT1CASE2_CNT_U32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 80 N DF OM - - - O
+<LIT> 0x00360202 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 80 58 N HN - F M
+<DEFINE> CDD_DmaCfgAndUse_START_SEC_CODE C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 101 N DF OM - - - O
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_DmaCfgAndUse_MemMap.h 102
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_DmaCfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> DmaCfgAndUseInit1 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 114
+<DEFINE> DmaCfgAndUseInit1 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 114 N DR OF F X (.,.) -
+<DEFINE> DmaCfgAndUseInit1 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 114 N DF OF F X (.,.) -
+<RDEF> X Refers-to
+<R>X DmaCfgAndUseInit1 Rte_Inst_CDD_DmaCfgAndUse 122 R
+<R>X DmaCfgAndUseInit1 Rte_Inst_CDD_DmaCfgAndUse 123 R
+<RDEF> C Calls
+<R>C DmaCfgAndUseInit1 DmaRegInin 125
+<R>X DmaCfgAndUseInit1 DmaRegInin 125 R
+<CTLG> DmaCfgAndUseInit1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 115 130 130 130 
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  DmaCfgAndUseInit1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  1
+<S>STAKI  2
+<S>STLIN  14
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  6
+<S>STAV3  6
+<S>STST1  3
+<S>STST2  3
+<S>STST3  3
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  15
+<S>STFN2  5
+
+<EXTD> DmaCfgAndUsePer1 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 154
+<DEFINE> DmaCfgAndUsePer1 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 154 N DR OF F X (.,.) -
+<DEFINE> DmaCfgAndUsePer1 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 154 N DF OF F X (.,.) -
+<R>X DmaCfgAndUsePer1 DMASS 161 W
+<LIT> 1 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 161 23 N DN ui B X
+<R>X DmaCfgAndUsePer1 DMASS 162 W
+<LIT> 1 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 162 22 N DN ui B X
+<R>X DmaCfgAndUsePer1 DMASS 163 W
+<LIT> 1 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 163 22 N DN ui B X
+<R>C DmaCfgAndUsePer1 Rte_Call_CDD_DmaCfgAndUse_Adc1CfgAndUseAdc1EnaCnvn_Oper 164
+<R>X DmaCfgAndUsePer1 Rte_Call_CDD_DmaCfgAndUse_Adc1CfgAndUseAdc1EnaCnvn_Oper 164 R
+<R>C DmaCfgAndUsePer1 Rte_Call_CDD_DmaCfgAndUse_GetRefTmr1MicroSec32bit_Oper 165
+<R>X DmaCfgAndUsePer1 Rte_Call_CDD_DmaCfgAndUse_GetRefTmr1MicroSec32bit_Oper 165 R
+<R>X DmaCfgAndUsePer1 Rte_Inst_CDD_DmaCfgAndUse 165 R
+<CTLG> DmaCfgAndUsePer1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 155 170 170 170 
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  DmaCfgAndUsePer1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  2
+<S>STAKI  3
+<S>STLIN  14
+<S>STXLN  5
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.20   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  6
+<S>STAV3  6
+<S>STST1  5
+<S>STST2  5
+<S>STST3  5
+<S>STPAR  0
+<S>STCAL  2
+<S>STFN1  22
+<S>STFN2  9
+
+<EXTD> DmaEna2MilliSecToMotCtrlTrf_Oper C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 189
+<DEFINE> DmaEna2MilliSecToMotCtrlTrf_Oper C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 189 N DR OF F X (.,.) -
+<DEFINE> DmaEna2MilliSecToMotCtrlTrf_Oper C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 189 N DF OF F X (.,.) -
+<DEFINE> ErrId_Cnt_T_u32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 196 N DC OV B N ul -
+<DEFINE> ErrId_Cnt_T_u32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 196 N DF OV B N ul -
+<R>C DmaEna2MilliSecToMotCtrlTrf_Oper ReadErrInjReg_Oper 197
+<R>X DmaEna2MilliSecToMotCtrlTrf_Oper ReadErrInjReg_Oper 197 R
+<R>X DmaEna2MilliSecToMotCtrlTrf_Oper DMASS 200 W
+<LIT> 0 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 200 22 N ON ui B X
+<R>X DmaEna2MilliSecToMotCtrlTrf_Oper DMASS 201 W
+<LIT> 1 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 201 22 N DN ui B X
+<R>X DmaEna2MilliSecToMotCtrlTrf_Oper DMASS 202 W
+<LIT> 1 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 202 21 N DN ui B X
+<R>X DmaEna2MilliSecToMotCtrlTrf_Oper DMASS 212 W
+<LIT> 1 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 212 29 N DN ui B X
+<R>X DmaEna2MilliSecToMotCtrlTrf_Oper DMASS 213 W
+<LIT> 0xD5 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 213 30 N HN ui B X
+<CTLG> DmaEna2MilliSecToMotCtrlTrf_Oper 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 7
+<CTLGN> 190 205 205 205 209 221 221 
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  DmaEna2MilliSecToMotCtrlTrf_Oper
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  1
+<S>STAKI  3
+<S>STLIN  30
+<S>STXLN  8
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.25   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  9
+<S>STAV3  10
+<S>STST1  10
+<S>STST2  8
+<S>STST3  7
+<S>STPAR  0
+<S>STCAL  1
+<S>STFN1  50
+<S>STFN2  24
+
+<EXTD> DmaWaitForMotCtrlTo2MilliSecTrf_Oper C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 255
+<DEFINE> DmaWaitForMotCtrlTo2MilliSecTrf_Oper C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 255 N DR OF F X (uc,.) -
+<DEFINE> DmaWaitForMotCtrlTo2MilliSecTrf_Oper C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 255 N DF OF F X (uc,.) -
+<DEFINE> RetVal_T_StdType C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 261 N DC OV B N uc -
+<DEFINE> RetVal_T_StdType C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 261 N DF OV B N uc -
+<DEFINE> TiSpan_MicroSec_T_u32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 262 N DC OV B N ul -
+<DEFINE> TiSpan_MicroSec_T_u32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 262 N DF OV B N ul -
+<R>C DmaWaitForMotCtrlTo2MilliSecTrf_Oper Rte_Call_CDD_DmaCfgAndUse_GetTiSpan1MicroSec32bit_Oper 267
+<R>X DmaWaitForMotCtrlTo2MilliSecTrf_Oper Rte_Call_CDD_DmaCfgAndUse_GetTiSpan1MicroSec32bit_Oper 267 R
+<R>X DmaWaitForMotCtrlTo2MilliSecTrf_Oper Rte_Inst_CDD_DmaCfgAndUse 267 R
+<LIT> 1 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 269 80 N DN ui B X
+<R>X DmaWaitForMotCtrlTo2MilliSecTrf_Oper DMASS 269 R
+<R>X DmaWaitForMotCtrlTo2MilliSecTrf_Oper DMASS 281 W
+<LIT> 1 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 281 30 N DN ui B X
+<R>X DmaWaitForMotCtrlTo2MilliSecTrf_Oper Rte_Inst_CDD_DmaCfgAndUse 284 R
+<R>C DmaWaitForMotCtrlTo2MilliSecTrf_Oper Max_u32 285
+<R>X DmaWaitForMotCtrlTo2MilliSecTrf_Oper Max_u32 285 R
+<R>X DmaWaitForMotCtrlTo2MilliSecTrf_Oper Rte_Inst_CDD_DmaCfgAndUse 285 R
+<R>X DmaWaitForMotCtrlTo2MilliSecTrf_Oper Rte_Inst_CDD_DmaCfgAndUse 285 R
+<CTLG> DmaWaitForMotCtrlTo2MilliSecTrf_Oper 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 3 1
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 10
+<CTLGN> 256 265 265 265 272 272 277 287 287 287 
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  DmaWaitForMotCtrlTo2MilliSecTrf_Oper
+<S>STCYC  3
+<S>STMCC  1 (3:4)
+<S>STMIF  1
+<S>STSUB  2
+<S>STAKI  5
+<S>STLIN  36
+<S>STXLN  11
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  4
+<S>STPDN  0.36   
+<S>STPBG  1
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  9
+<S>STAV3  11
+<S>STST1  14
+<S>STST2  11
+<S>STST3  9
+<S>STPAR  0
+<S>STCAL  2
+<S>STFN1  70
+<S>STFN2  30
+
+<DEFINE> CDD_DmaCfgAndUse_STOP_SEC_CODE C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 296 N DF OM - - - O
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_DmaCfgAndUse_MemMap.h 297
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_DmaCfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<DEFINE> CDD_DmaCfgAndUse_START_SEC_CODE C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 303 N DF OM - - - O
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_DmaCfgAndUse_MemMap.h 304
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_DmaCfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> DmaRegInin C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 312
+<DEFINE> DmaRegInin C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 312 N DR OF F X (.,.) -
+<DEFINE> DmaRegInin C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 312 N DF OF F X (.,.) -
+<R>X DmaRegInin DMASS 324 W
+<LIT> 4 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 322 52 N DN ni B X
+<LIT> 2 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 323 73 N DN ni B X
+<LIT> 1 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 324 64 N DN ni B X
+<R>X DmaRegInin ADCD0 325 R
+<R>X DmaRegInin DMASS 325 W
+<R>X DmaRegInin MOTCTRLMGR_MotCtrlAdc0RawRes 326 R
+<R>X DmaRegInin DMASS 326 W
+<R>X DmaRegInin DMASS 328 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 327 32 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 327 41 N DN ni B X
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 328 44 N HN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 328 53 N ON ni B X
+<R>X DmaRegInin DMASS 341 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 329 34 N HN ui B X
+<LIT> 27 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 329 43 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 330 50 N HN ui B X
+<LIT> 26 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 330 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 331 50 N HN ui B X
+<LIT> 18 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 331 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 332 50 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 332 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 333 50 N HN ui B X
+<LIT> 15 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 333 59 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 334 50 N HN ui B X
+<LIT> 14 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 334 59 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 335 50 N HN ui B X
+<LIT> 13 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 335 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 336 50 N HN ui B X
+<LIT> 11 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 336 59 N DN ni B X
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 337 50 N HN ui B X
+<LIT> 9 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 337 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 338 50 N HN ui B X
+<LIT> 7 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 338 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 339 50 N HN ui B X
+<LIT> 5 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 339 59 N DN ni B X
+<LIT> 0x04 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 340 50 N HN ui B X
+<LIT> 2 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 340 59 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 341 50 N HN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 341 59 N ON ni B X
+<R>X DmaRegInin ADCD0 342 R
+<R>X DmaRegInin DMASS 342 W
+<R>X DmaRegInin MOTCTRLMGR_MotCtrlAdc0RawRes 343 R
+<R>X DmaRegInin DMASS 343 W
+<R>X DmaRegInin DMASS 345 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 344 32 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 344 41 N DN ni B X
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 345 44 N HN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 345 53 N ON ni B X
+<R>X DmaRegInin DMASS 347 W
+<LIT> 58 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 346 33 N DN ui B X
+<LIT> 1 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 346 40 N DN ni B X
+<LIT> 1 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 347 45 N DN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 347 51 N ON ni B X
+<R>X DmaRegInin DMASS 348 W
+<LIT> 0x00000001 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 348 25 N HN ui B X
+<R>X DmaRegInin DMASS 353 W
+<LIT> 4 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 351 52 N DN ni B X
+<LIT> 2 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 352 73 N DN ni B X
+<LIT> 1 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 353 64 N DN ni B X
+<R>X DmaRegInin MOTCTRLMGR_MotCtrlTSG31DCMP0E 354 R
+<R>X DmaRegInin DMASS 354 W
+<R>X DmaRegInin TSG31 355 R
+<R>X DmaRegInin DMASS 355 W
+<R>X DmaRegInin DMASS 357 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 356 32 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 356 41 N DN ni B X
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 357 44 N HN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 357 53 N ON ni B X
+<R>X DmaRegInin DMASS 370 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 358 34 N HN ui B X
+<LIT> 27 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 358 43 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 359 50 N HN ui B X
+<LIT> 26 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 359 59 N DN ni B X
+<LIT> 0x04 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 360 50 N HN ui B X
+<LIT> 18 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 360 59 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 361 50 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 361 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 362 50 N HN ui B X
+<LIT> 15 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 362 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 363 50 N HN ui B X
+<LIT> 14 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 363 59 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 364 50 N HN ui B X
+<LIT> 13 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 364 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 365 50 N HN ui B X
+<LIT> 11 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 365 59 N DN ni B X
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 366 50 N HN ui B X
+<LIT> 9 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 366 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 367 50 N HN ui B X
+<LIT> 7 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 367 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 368 50 N HN ui B X
+<LIT> 5 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 368 59 N DN ni B X
+<LIT> 0x02 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 369 50 N HN ui B X
+<LIT> 2 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 369 59 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 370 50 N HN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 370 59 N ON ni B X
+<R>X DmaRegInin MOTCTRLMGR_MotCtrlTSG31DCMP0E 371 R
+<R>X DmaRegInin DMASS 371 W
+<R>X DmaRegInin TSG31 372 R
+<R>X DmaRegInin DMASS 372 W
+<R>X DmaRegInin DMASS 374 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 373 32 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 373 41 N DN ni B X
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 374 44 N HN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 374 53 N ON ni B X
+<R>X DmaRegInin DMASS 376 W
+<LIT> 103 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 375 33 N DN ui B X
+<LIT> 1 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 375 41 N DN ni B X
+<LIT> 1 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 376 45 N DN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 376 51 N ON ni B X
+<R>X DmaRegInin DMASS 377 W
+<LIT> 0x00000001 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 377 25 N HN ui B X
+<R>X DmaRegInin DMASS 382 W
+<LIT> 4 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 380 52 N DN ni B X
+<LIT> 2 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 381 73 N DN ni B X
+<LIT> 1 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 382 64 N DN ni B X
+<R>X DmaRegInin MOTCTRLMGR_MotCtrlTSG31CMPWE 383 R
+<R>X DmaRegInin DMASS 383 W
+<R>X DmaRegInin TSG31 384 R
+<R>X DmaRegInin DMASS 384 W
+<R>X DmaRegInin DMASS 386 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 385 32 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 385 41 N DN ni B X
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 386 44 N HN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 386 53 N ON ni B X
+<R>X DmaRegInin DMASS 399 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 387 34 N HN ui B X
+<LIT> 27 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 387 43 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 388 50 N HN ui B X
+<LIT> 26 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 388 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 389 50 N HN ui B X
+<LIT> 18 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 389 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 390 50 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 390 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 391 50 N HN ui B X
+<LIT> 15 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 391 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 392 50 N HN ui B X
+<LIT> 14 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 392 59 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 393 50 N HN ui B X
+<LIT> 13 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 393 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 394 50 N HN ui B X
+<LIT> 11 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 394 59 N DN ni B X
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 395 50 N HN ui B X
+<LIT> 9 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 395 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 396 50 N HN ui B X
+<LIT> 7 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 396 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 397 50 N HN ui B X
+<LIT> 5 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 397 59 N DN ni B X
+<LIT> 0x02 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 398 50 N HN ui B X
+<LIT> 2 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 398 59 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 399 50 N HN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 399 59 N ON ni B X
+<R>X DmaRegInin MOTCTRLMGR_MotCtrlTSG31CMPWE 400 R
+<R>X DmaRegInin DMASS 400 W
+<R>X DmaRegInin TSG31 401 R
+<R>X DmaRegInin DMASS 401 W
+<R>X DmaRegInin DMASS 403 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 402 32 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 402 41 N DN ni B X
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 403 44 N HN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 403 53 N ON ni B X
+<R>X DmaRegInin DMASS 405 W
+<LIT> 0 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 404 33 N ON ui B X
+<LIT> 1 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 404 39 N DN ni B X
+<LIT> 0 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 405 45 N ON ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 405 51 N ON ni B X
+<R>X DmaRegInin DMASS 406 W
+<LIT> 0x00000001 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 406 25 N HN ui B X
+<R>X DmaRegInin DMASS 412 W
+<LIT> 4 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 410 52 N DN ni B X
+<LIT> 2 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 411 74 N DN ni B X
+<LIT> 1 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 412 65 N DN ni B X
+<R>X DmaRegInin MotCtrlMgr_TwoMilliSecToMotCtrl_Rec 413 R
+<R>X DmaRegInin DMASS 413 W
+<R>X DmaRegInin MotCtrlMgr_MotCtrlFromTwoMilliSec_Rec 414 R
+<R>X DmaRegInin DMASS 414 W
+<R>X DmaRegInin DMASS 416 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 415 32 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 415 41 N DN ni B X
+<LIT> 16 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 416 89 N DN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 416 97 N ON ni B X
+<R>X DmaRegInin DMASS 429 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 417 34 N HN ui B X
+<LIT> 27 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 417 43 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 418 50 N HN ui B X
+<LIT> 26 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 418 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 419 50 N HN ui B X
+<LIT> 18 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 419 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 420 50 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 420 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 421 50 N HN ui B X
+<LIT> 15 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 421 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 422 50 N HN ui B X
+<LIT> 14 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 422 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 423 50 N HN ui B X
+<LIT> 13 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 423 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 424 50 N HN ui B X
+<LIT> 11 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 424 59 N DN ni B X
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 425 50 N HN ui B X
+<LIT> 9 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 425 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 426 50 N HN ui B X
+<LIT> 7 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 426 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 427 50 N HN ui B X
+<LIT> 5 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 427 59 N DN ni B X
+<LIT> 0x04 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 428 50 N HN ui B X
+<LIT> 2 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 428 59 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 429 50 N HN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 429 59 N ON ni B X
+<R>X DmaRegInin MotCtrlMgr_TwoMilliSecToMotCtrl_Rec 430 R
+<R>X DmaRegInin DMASS 430 W
+<R>X DmaRegInin MotCtrlMgr_MotCtrlFromTwoMilliSec_Rec 431 R
+<R>X DmaRegInin DMASS 431 W
+<R>X DmaRegInin DMASS 433 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 432 32 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 432 41 N DN ni B X
+<LIT> 16 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 433 89 N DN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 433 97 N ON ni B X
+<R>X DmaRegInin DMASS 435 W
+<LIT> 106 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 434 33 N DN ui B X
+<LIT> 1 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 434 41 N DN ni B X
+<LIT> 1 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 435 45 N DN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 435 51 N ON ni B X
+<R>X DmaRegInin DMASS 436 W
+<LIT> 0x00000001 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 436 25 N HN ui B X
+<R>X DmaRegInin DMASS 442 W
+<LIT> 4 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 440 52 N DN ni B X
+<LIT> 2 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 441 73 N DN ni B X
+<LIT> 1 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 442 65 N DN ni B X
+<R>X DmaRegInin ADCD1 443 R
+<R>X DmaRegInin DMASS 443 W
+<R>X DmaRegInin MOTCTRLMGR_MotCtrlAdc1RawRes 444 R
+<R>X DmaRegInin DMASS 444 W
+<R>X DmaRegInin DMASS 446 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 445 32 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 445 41 N DN ni B X
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 446 44 N HN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 446 53 N ON ni B X
+<R>X DmaRegInin DMASS 459 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 447 34 N HN ui B X
+<LIT> 27 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 447 43 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 448 50 N HN ui B X
+<LIT> 26 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 448 59 N DN ni B X
+<LIT> 0x07 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 449 50 N HN ui B X
+<LIT> 18 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 449 59 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 450 50 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 450 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 451 50 N HN ui B X
+<LIT> 15 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 451 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 452 50 N HN ui B X
+<LIT> 14 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 452 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 453 50 N HN ui B X
+<LIT> 13 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 453 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 454 50 N HN ui B X
+<LIT> 11 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 454 59 N DN ni B X
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 455 50 N HN ui B X
+<LIT> 9 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 455 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 456 50 N HN ui B X
+<LIT> 7 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 456 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 457 50 N HN ui B X
+<LIT> 5 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 457 59 N DN ni B X
+<LIT> 0x04 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 458 50 N HN ui B X
+<LIT> 2 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 458 59 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 459 50 N HN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 459 59 N ON ni B X
+<R>X DmaRegInin ADCD1 460 R
+<R>X DmaRegInin DMASS 460 W
+<R>X DmaRegInin MOTCTRLMGR_MotCtrlAdc1RawRes 461 R
+<R>X DmaRegInin DMASS 461 W
+<R>X DmaRegInin DMASS 463 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 462 32 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 462 41 N DN ni B X
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 463 44 N HN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 463 53 N ON ni B X
+<R>X DmaRegInin DMASS 465 W
+<LIT> 61 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 464 33 N DN ui B X
+<LIT> 1 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 464 40 N DN ni B X
+<LIT> 1 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 465 45 N DN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 465 51 N ON ni B X
+<R>X DmaRegInin DMASS 466 W
+<LIT> 0x00000001 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 466 25 N HN ui B X
+<R>X DmaRegInin DMASS 471 W
+<LIT> 4 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 469 52 N DN ni B X
+<LIT> 2 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 470 74 N DN ni B X
+<LIT> 1 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 471 65 N DN ni B X
+<R>X DmaRegInin MotCtrlMgr_MotCtrlToTwoMilliSec_Rec 472 R
+<R>X DmaRegInin DMASS 472 W
+<R>X DmaRegInin MotCtrlMgr_TwoMilliSecFromMotCtrl_Rec 473 R
+<R>X DmaRegInin DMASS 473 W
+<R>X DmaRegInin DMASS 475 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 474 32 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 474 41 N DN ni B X
+<LIT> 16 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 475 89 N DN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 475 97 N ON ni B X
+<R>X DmaRegInin DMASS 488 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 476 34 N HN ui B X
+<LIT> 27 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 476 43 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 477 50 N HN ui B X
+<LIT> 26 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 477 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 478 50 N HN ui B X
+<LIT> 18 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 478 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 479 50 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 479 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 480 50 N HN ui B X
+<LIT> 15 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 480 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 481 50 N HN ui B X
+<LIT> 14 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 481 59 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 482 50 N HN ui B X
+<LIT> 13 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 482 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 483 50 N HN ui B X
+<LIT> 11 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 483 59 N DN ni B X
+<LIT> 0x03 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 484 50 N HN ui B X
+<LIT> 9 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 484 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 485 50 N HN ui B X
+<LIT> 7 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 485 59 N DN ni B X
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 486 50 N HN ui B X
+<LIT> 5 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 486 59 N DN ni B X
+<LIT> 0x04 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 487 50 N HN ui B X
+<LIT> 2 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 487 59 N DN ni B X
+<LIT> 0x01 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 488 50 N HN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 488 59 N ON ni B X
+<R>X DmaRegInin MotCtrlMgr_MotCtrlToTwoMilliSec_Rec 489 R
+<R>X DmaRegInin DMASS 489 W
+<R>X DmaRegInin MotCtrlMgr_TwoMilliSecFromMotCtrl_Rec 490 R
+<R>X DmaRegInin DMASS 490 W
+<R>X DmaRegInin DMASS 492 W
+<LIT> 0x00 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 491 32 N HN ui B X
+<LIT> 16 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 491 41 N DN ni B X
+<LIT> 16 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 492 89 N DN ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 492 97 N ON ni B X
+<R>X DmaRegInin DMASS 494 W
+<LIT> 0 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 493 33 N ON ui B X
+<LIT> 1 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 493 39 N DN ni B X
+<LIT> 0 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 494 45 N ON ui B X
+<LIT> 0 - P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 494 51 N ON ni B X
+<R>X DmaRegInin DMASS 495 W
+<LIT> 0x00000001 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 495 25 N HN ui B X
+<CTLG> DmaRegInin 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 313 497 497 497 
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  DmaRegInin
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  183
+<S>STXLN  162
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.01   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  26
+<S>STAV2  26
+<S>STAV3  26
+<S>STST1  60
+<S>STST2  60
+<S>STST3  60
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  1060
+<S>STFN2  514
+
+<EXTD> InjDmaErr C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 507
+<DEFINE> InjDmaErr C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 507 N DR OF F X (uc,.) -
+<DEFINE> InjDmaErr C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 507 N DF OF F X (uc,.) -
+<DEFINE> ErrId_Cnt_T_u32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 509 N DC OV B N ul -
+<DEFINE> ErrId_Cnt_T_u32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 509 N DF OV B N ul -
+<R>C InjDmaErr ReadErrInjReg_Oper 510
+<R>X InjDmaErr ReadErrInjReg_Oper 510 R
+<R>C InjDmaErr ClrErrInjReg_Oper 514
+<R>X InjDmaErr ClrErrInjReg_Oper 514 R
+<R>X InjDmaErr DMASS 515 R
+<R>X InjDmaErr DMASS 515 W
+<LIT> 0x0000000C U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 515 43 N HN ui B X
+<R>X InjDmaErr DMASS 516 R
+<R>X InjDmaErr DMASS 516 W
+<LIT> 0x00000004 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 516 40 N HN ui B X
+<R>C InjDmaErr ClrErrInjReg_Oper 520
+<R>X InjDmaErr ClrErrInjReg_Oper 520 R
+<R>X InjDmaErr DMASS 521 R
+<R>X InjDmaErr DMASS 521 W
+<LIT> 0x00000002 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 521 43 N HN ui B X
+<R>C InjDmaErr ClrErrInjReg_Oper 525
+<R>X InjDmaErr ClrErrInjReg_Oper 525 R
+<R>X InjDmaErr DMASS 527 W
+<LIT> 0x0 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 527 30 N HN ui B X
+<R>X InjDmaErr DMASS 528 W
+<LIT> 0xFEBFFFFC U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 528 30 N HN ui B X
+<R>X InjDmaErr DMASS 529 W
+<LIT> 0xFEBFFFFC U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 529 30 N HN ui B X
+<R>X InjDmaErr DMASS 531 W
+<LIT> 0x00000001 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 531 30 N HN ui B X
+<CTLG> InjDmaErr 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 8
+<CTLG> 8 10
+<CTLGN> 508 512 512 512 518 518 523 523 533 533 
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  InjDmaErr
+<S>STCYC  4
+<S>STMCC  0 (4:4)
+<S>STMIF  1
+<S>STSUB  4
+<S>STAKI  8
+<S>STLIN  25
+<S>STXLN  15
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  8
+<S>STPDN  0.53   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  6
+<S>STAV3  6
+<S>STST1  19
+<S>STST2  16
+<S>STST3  15
+<S>STPAR  0
+<S>STCAL  2
+<S>STFN1  71
+<S>STFN2  33
+
+<EXTD> InjMcuDiagcErr C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 543
+<DEFINE> InjMcuDiagcErr C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 543 N DR OF F X (uc,.) -
+<DEFINE> InjMcuDiagcErr C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 543 N DF OF F X (uc,.) -
+<DEFINE> ErrId_Cnt_T_u32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 545 N DC OV B N ul -
+<DEFINE> ErrId_Cnt_T_u32 C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 545 N DF OV B N ul -
+<R>C InjMcuDiagcErr ReadErrInjReg_Oper 546
+<R>X InjMcuDiagcErr ReadErrInjReg_Oper 546 R
+<R>C InjMcuDiagcErr ClrErrInjReg_Oper 550
+<R>X InjMcuDiagcErr ClrErrInjReg_Oper 550 R
+<R>X InjMcuDiagcErr DMASS 551 W
+<LIT> 0x00000000 U P C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 551 33 N HN ui B X
+<CTLG> InjMcuDiagcErr 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 6
+<CTLGN> 544 548 548 548 553 553 
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  InjMcuDiagcErr
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  2
+<S>STAKI  4
+<S>STLIN  9
+<S>STXLN  5
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.40   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  5
+<S>STAV2  5
+<S>STAV3  7
+<S>STST1  7
+<S>STST2  6
+<S>STST3  5
+<S>STPAR  0
+<S>STCAL  2
+<S>STFN1  23
+<S>STFN2  12
+
+<DEFINE> CDD_DmaCfgAndUse_STOP_SEC_CODE C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c 556 N DF OM - - - O
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_DmaCfgAndUse_MemMap.h 557
+<R>I C:/Component/CM200C_DmaCfgAndUse_Impl/tools/contract/CDD_DmaCfgAndUse_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  DmaRegInin
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  DmaCfgAndUseInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  DmaCfgAndUsePer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  DmaEna2MilliSecToMotCtrlTrf_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  DmaWaitForMotCtrlTo2MilliSecTrf_Oper
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  InjDmaErr
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  InjMcuDiagcErr
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNAM  C:/Component/CM200C_DmaCfgAndUse_Impl/src/CDD_DmaCfgAndUse.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  13
+<S>STFNC  7
+<S>STFCO  13
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  126
+<S>STOPT  31
+<S>STOPN  409
+<S>STTOT  2230
+<S>STZIP  2932
+<S>STHAL  3702
+<S>STSHN  13951
+<S>STDIF  21.86  
+<S>STEFF  427982
+<S>STVOL  19582
+<S>STDEV  71.33  
+<S>STBUG  6
+<S>STTPP  571
+<S>STTLN  253
+<S>STM20  692
+<S>STM21  1522
+<S>STM22  103
+<S>STM28  82
+<S>STM33  65
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  1.333  
+<S>STBMS  1.602  
+<S>STBME  1.838  
+<S>STTDO  2.788  
+<S>STTDS  2.948  
+<S>STTDE  3.037  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.679  
+

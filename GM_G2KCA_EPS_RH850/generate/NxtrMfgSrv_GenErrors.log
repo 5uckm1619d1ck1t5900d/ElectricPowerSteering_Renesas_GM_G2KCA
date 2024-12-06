@@ -1,0 +1,19 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\GM_T1XX_EPS_RH850\generate
+    Descr. file:   C:\Users\kzdyfh\AppData\Local\Temp\Cfg_Gen-1471358883622-8\AutosarFiles_ValGen-1471359130984-0\NxtrMfgSrv_ECUC_930210156776963704.arxml
+    Include file:  C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\NM001A_CmnMfgSrv_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\NM001A_CmnMfgSrv_Impl\generate\MfgSrvCfg.c.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Workspace/_EA4/T1xx/GM_T1XX_EPS_RH850_Working/GM_T1XX_EPS_RH850/generate\MfgSrvCfg.c. written.
+    Duration:      00:00:01.0140065.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\GM_T1XX_EPS_RH850\generate
+    Descr. file:   C:\Users\kzdyfh\AppData\Local\Temp\Cfg_Gen-1471358883622-8\AutosarFiles_ValGen-1471359130984-0\NxtrMfgSrv_ECUC_930210156776963704.arxml
+    Include file:  C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\NM001A_CmnMfgSrv_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Workspace\_EA4\T1xx\GM_T1XX_EPS_RH850_Working\NM001A_CmnMfgSrv_Impl\generate\MfgSrvCfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Workspace/_EA4/T1xx/GM_T1XX_EPS_RH850_Working/GM_T1XX_EPS_RH850/generate\MfgSrvCfg.h. written.
+    Duration:      00:00:00.9360060.
+WARNING:root:Service defined in ECUC but not found in ODX <Service type=0x27 sub=0x61>

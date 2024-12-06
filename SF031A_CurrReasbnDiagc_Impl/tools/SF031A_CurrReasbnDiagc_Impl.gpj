@@ -1,0 +1,4 @@
+#!gbuild   
+[Subproject]   
+..\src\CurrReasbnDiagc.c   
+..\src\CurrReasbnDiagc_MotCtrl.c   

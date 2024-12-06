@@ -1,0 +1,1409 @@
+<RDEF> I Includes
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte_GateDrv0Ctrl.h 79
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte_GateDrv0Ctrl.h C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte_GateDrv0Ctrl_Type.h 40
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte_GateDrv0Ctrl_Type.h C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte_Type.h C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte.h 27
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte_GateDrv0Ctrl.h C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte_GateDrv0Ctrl.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 77
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte_GateDrv0Ctrl.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 82
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte_GateDrv0Ctrl.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 98
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte_GateDrv0Ctrl.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 127
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte_GateDrv0Ctrl.h C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/GateDrv0Ctrl_MemMap.h 307
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/GateDrv0Ctrl_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Rte_GateDrv0Ctrl.h C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/GateDrv0Ctrl_MemMap.h 418
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/GateDrv0Ctrl_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/ElecGlbPrm.h 86
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Spi.h 87
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Spi.h C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Spi_Cfg.h 7
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/Os.h 88
+<DEFINE> GATEDRV0CFG0READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 96 N DF OM - - - O
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 96 50 N ON - F M
+<DEFINE> GATEDRV0CFG0WRVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 97 N DF OM - - - O
+<LIT> 512 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 97 50 N DN - F M
+<DEFINE> GATEDRV0CFG1WRVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 98 N DF OM - - - O
+<LIT> 1791 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 98 50 N DN - F M
+<DEFINE> GATEDRV0CFG5WRVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 99 N DF OM - - - O
+<LIT> 5824 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 99 50 N DN - F M
+<DEFINE> GATEDRV0CFG6WRVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 100 N DF OM - - - O
+<LIT> 6816 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 100 50 N DN - F M
+<DEFINE> GATEDRV0CTRLVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 101 N DF OM - - - O
+<LIT> 32320 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 101 50 N DN - F M
+<DEFINE> GATEDRV0MASK0VAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 102 N DF OM - - - O
+<LIT> 26112 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 102 50 N DN - F M
+<DEFINE> GATEDRV0MASK1VAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 103 N DF OM - - - O
+<LIT> 27392 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 103 50 N DN - F M
+<DEFINE> GATEDRV0MASK2VAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 104 N DF OM - - - O
+<LIT> 28320 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 104 50 N DN - F M
+<DEFINE> GATEDRV0CFG1READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 105 N DF OM - - - O
+<LIT> 1279 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 105 50 N DN - F M
+<DEFINE> GATEDRV0CFG2READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 106 N DF OM - - - O
+<LIT> 2320 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 106 50 N DN - F M
+<DEFINE> GATEDRV0CFG3READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 107 N DF OM - - - O
+<LIT> 3086 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 107 50 N DN - F M
+<DEFINE> GATEDRV0CFG4READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 108 N DF OM - - - O
+<LIT> 4110 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 108 50 N DN - F M
+<DEFINE> GATEDRV0CFG5READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 109 N DF OM - - - O
+<LIT> 5312 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 109 50 N DN - F M
+<DEFINE> GATEDRV0CFG6READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 110 N DF OM - - - O
+<LIT> 6304 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 110 50 N DN - F M
+<DEFINE> GATEDRV0CFG7READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 111 N DF OM - - - O
+<LIT> 7413 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 111 50 N DN - F M
+<DEFINE> GATEDRV0CTRLREADVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 112 N DF OM - - - O
+<LIT> 31808 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 112 50 N DN - F M
+<DEFINE> GATEDRV0DIAG0READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 113 N DF OM - - - O
+<LIT> 28672 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 113 50 N DN - F M
+<DEFINE> GATEDRV0DIAG1READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 114 N DF OM - - - O
+<LIT> 29696 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 114 50 N DN - F M
+<DEFINE> GATEDRV0DIAG2READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 115 N DF OM - - - O
+<LIT> 30720 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 115 50 N DN - F M
+<DEFINE> GATEDRV0MASK1READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 116 N DF OM - - - O
+<LIT> 26880 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 116 50 N DN - F M
+<DEFINE> GATEDRV0MASK2READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 117 N DF OM - - - O
+<LIT> 27776 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 117 50 N DN - F M
+<DEFINE> GATEDRV0VRFYCMD0WRVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 118 N DF OM - - - O
+<LIT> 20992 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 118 50 N DN - F M
+<DEFINE> GATEDRV0VRFYCMD1WRVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 119 N DF OM - - - O
+<LIT> 22016 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 119 50 N DN - F M
+<DEFINE> GATEDRV0VRFYRES0READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 120 N DF OM - - - O
+<LIT> 23552 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 120 50 N DN - F M
+<DEFINE> GATEDRV0VRFYRES1READVAL_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 121 N DF OM - - - O
+<LIT> 24576 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 121 50 N DN - F M
+<DEFINE> GATEDRV0CHKVALMASK_CNT_U16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 122 N DF OM - - - O
+<LIT> 511 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 122 50 N DN - F M
+<DEFINE> Channel_Cnt_T_u08 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 126 N DC OV P N uc R
+<DEFINE> TxData_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 127 N DC OV P N us R
+<DEFINE> Sequence_Cnt_T_u08 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 128 N DC OV P N uc R
+<DEFINE> SpiAsyncTx C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 126 N DC OF F I (.,uc,us,uc) -
+<DEFINE> OffStVrfySt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 131 N DC OF F I (.,.) -
+<DEFINE> OffStVrfyData C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 132 N DC OF F I (uc,.) -
+<DEFINE> CfgSt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 135 N DC OF F I (.,.) -
+<DEFINE> ReadBackRegs C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 136 N DC OF F I (.,.) -
+<DEFINE> OperFltMonrSt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 139 N DC OF F I (.,.) -
+<DEFINE> GateDrvDetermineOnStSngFETFlt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 140 N DC OF F I (uc,.) -
+<DEFINE> GateDrvDetermineVltgFlt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 141 N DC OF F I (uc,.) -
+<DEFINE> GateDrvDetermineGenericFlt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 142 N DC OF F I (uc,.) -
+<DEFINE> GateDrv0Ctrl_START_SEC_CODE C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 731 N DF OM - - - O
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/GateDrv0Ctrl_MemMap.h 732
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/GateDrv0Ctrl_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> GateDrv0CtrlInit1 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 744
+<DEFINE> GateDrv0CtrlInit1 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 744 N DR OF F X (.,.) -
+<DEFINE> GateDrv0CtrlInit1 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 744 N DF OF F X (.,.) -
+<RDEF> X Refers-to
+<R>X GateDrv0CtrlInit1 Rte_Inst_GateDrv0Ctrl 751 R
+<CTLG> GateDrv0CtrlInit1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 745 756 756 756 
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  GateDrv0CtrlInit1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  10
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  7
+<S>STFN2  2
+
+<EXTD> GateDrv0CtrlPer1 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 797
+<DEFINE> GateDrv0CtrlPer1 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 797 N DR OF F X (.,.) -
+<DEFINE> GateDrv0CtrlPer1 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 797 N DF OF F X (.,.) -
+<DEFINE> DiagcStsIvtr1Inactv_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 804 N DC OV B N uc -
+<DEFINE> DiagcStsIvtr1Inactv_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 804 N DF OV B N uc -
+<DEFINE> StrtUpSt_Cnt_T_u08 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 805 N DC OV B N uc -
+<DEFINE> StrtUpSt_Cnt_T_u08 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 805 N DF OV B N uc -
+<DEFINE> SysSt_Cnt_T_enum C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 806 N DC OV B N uc -
+<DEFINE> SysSt_Cnt_T_enum C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 806 N DF OV B N uc -
+<DEFINE> MotDrvr0Diag_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 807 N DC OV B N uc -
+<DEFINE> MotDrvr0Diag_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 807 N DF OV B N uc -
+<RDEF> C Calls
+<R>C GateDrv0CtrlPer1 Rte_Read_GateDrv0Ctrl_DiagcStsIvtr1Inactv_Logl 811
+<R>X GateDrv0CtrlPer1 Rte_Read_GateDrv0Ctrl_DiagcStsIvtr1Inactv_Logl 811 R
+<R>C GateDrv0CtrlPer1 Rte_Read_GateDrv0Ctrl_StrtUpSt_Val 812
+<R>X GateDrv0CtrlPer1 Rte_Read_GateDrv0Ctrl_StrtUpSt_Val 812 R
+<R>C GateDrv0CtrlPer1 Rte_Read_GateDrv0Ctrl_SysSt_Val 813
+<R>X GateDrv0CtrlPer1 Rte_Read_GateDrv0Ctrl_SysSt_Val 813 R
+<R>C GateDrv0CtrlPer1 Rte_IrvWrite_GateDrv0Ctrl_GateDrv0CtrlPer1_GateDrv0Ena 819
+<R>X GateDrv0CtrlPer1 Rte_IrvWrite_GateDrv0Ctrl_GateDrv0CtrlPer1_GateDrv0Ena 819 R
+<R>C GateDrv0CtrlPer1 SpiAsyncTx 822
+<R>C GateDrv0CtrlPer1 SpiAsyncTx 824
+<R>C GateDrv0CtrlPer1 SpiAsyncTx 826
+<R>C GateDrv0CtrlPer1 SpiAsyncTx 828
+<R>C GateDrv0CtrlPer1 SpiAsyncTx 830
+<R>C GateDrv0CtrlPer1 SpiAsyncTx 832
+<R>C GateDrv0CtrlPer1 Rte_Call_GateDrv0Ctrl_IoHwAb_GetGpioMotDrvr0Diag_Oper 836
+<R>X GateDrv0CtrlPer1 Rte_Call_GateDrv0Ctrl_IoHwAb_GetGpioMotDrvr0Diag_Oper 836 R
+<R>C GateDrv0CtrlPer1 Rte_IrvWrite_GateDrv0Ctrl_GateDrv0CtrlPer1_Ivtr0PhyFltInpActv 839
+<R>X GateDrv0CtrlPer1 Rte_IrvWrite_GateDrv0Ctrl_GateDrv0CtrlPer1_Ivtr0PhyFltInpActv 839 R
+<R>C GateDrv0CtrlPer1 Rte_IrvWrite_GateDrv0Ctrl_GateDrv0CtrlPer1_Ivtr0PhyFltInpActv 843
+<R>X GateDrv0CtrlPer1 Rte_IrvWrite_GateDrv0Ctrl_GateDrv0CtrlPer1_Ivtr0PhyFltInpActv 843 R
+<R>C GateDrv0CtrlPer1 Rte_IrvWrite_GateDrv0Ctrl_GateDrv0CtrlPer1_GateDrv0Ena 848
+<R>X GateDrv0CtrlPer1 Rte_IrvWrite_GateDrv0Ctrl_GateDrv0CtrlPer1_GateDrv0Ena 848 R
+<CTLG> GateDrv0CtrlPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 8
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 11
+<CTLGN> 798 817 817 837 837 837 841 817 846 855 855 
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  GateDrv0CtrlPer1
+<S>STCYC  3
+<S>STMCC  3 (3:6)
+<S>STMIF  2
+<S>STSUB  14
+<S>STAKI  17
+<S>STLIN  56
+<S>STXLN  19
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  4
+<S>STPTH  3
+<S>STPDN  0.16   
+<S>STPBG  0
+<S>STLOP  3
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  9
+<S>STAV3  11
+<S>STST1  24
+<S>STST2  20
+<S>STST3  16
+<S>STPAR  0
+<S>STCAL  7
+<S>STFN1  124
+<S>STFN2  66
+
+<EXTD> GateDrv0CtrlPer2 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 906
+<DEFINE> GateDrv0CtrlPer2 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 906 N DR OF F X (.,.) -
+<DEFINE> GateDrv0CtrlPer2 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 906 N DF OF F X (.,.) -
+<DEFINE> DiagcStsIvtr1Inactv_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 913 N DC OV B N uc -
+<DEFINE> DiagcStsIvtr1Inactv_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 913 N DF OV B N uc -
+<DEFINE> GateDrv0Ena_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 914 N DC OV B N uc -
+<DEFINE> GateDrv0Ena_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 914 N DF OV B N uc -
+<R>C GateDrv0CtrlPer2 Rte_Read_GateDrv0Ctrl_DiagcStsIvtr1Inactv_Logl 918
+<R>X GateDrv0CtrlPer2 Rte_Read_GateDrv0Ctrl_DiagcStsIvtr1Inactv_Logl 918 R
+<R>C GateDrv0CtrlPer2 Rte_IrvRead_GateDrv0Ctrl_GateDrv0CtrlPer2_GateDrv0Ena 921
+<R>X GateDrv0CtrlPer2 Rte_IrvRead_GateDrv0Ctrl_GateDrv0CtrlPer2_GateDrv0Ena 921 R
+<R>C GateDrv0CtrlPer2 Spi_ReadIB 928
+<R>X GateDrv0CtrlPer2 Spi_ReadIB 928 R
+<R>X GateDrv0CtrlPer2 Rte_Inst_GateDrv0Ctrl 928 R
+<R>C GateDrv0CtrlPer2 Spi_ReadIB 929
+<R>X GateDrv0CtrlPer2 Spi_ReadIB 929 R
+<R>X GateDrv0CtrlPer2 Rte_Inst_GateDrv0Ctrl 929 R
+<R>C GateDrv0CtrlPer2 Spi_ReadIB 930
+<R>X GateDrv0CtrlPer2 Spi_ReadIB 930 R
+<R>X GateDrv0CtrlPer2 Rte_Inst_GateDrv0Ctrl 930 R
+<R>C GateDrv0CtrlPer2 Spi_ReadIB 931
+<R>X GateDrv0CtrlPer2 Spi_ReadIB 931 R
+<R>X GateDrv0CtrlPer2 Rte_Inst_GateDrv0Ctrl 931 R
+<R>C GateDrv0CtrlPer2 Spi_ReadIB 932
+<R>X GateDrv0CtrlPer2 Spi_ReadIB 932 R
+<R>X GateDrv0CtrlPer2 Rte_Inst_GateDrv0Ctrl 932 R
+<R>C GateDrv0CtrlPer2 Spi_ReadIB 933
+<R>X GateDrv0CtrlPer2 Spi_ReadIB 933 R
+<R>X GateDrv0CtrlPer2 Rte_Inst_GateDrv0Ctrl 933 R
+<R>X GateDrv0CtrlPer2 Rte_Inst_GateDrv0Ctrl 937 R
+<R>C GateDrv0CtrlPer2 OffStVrfySt 940
+<R>C GateDrv0CtrlPer2 CfgSt 944
+<R>C GateDrv0CtrlPer2 OperFltMonrSt 949
+<R>C GateDrv0CtrlPer2 Rte_Call_GateDrv0Ctrl_IoHwAb_SetGpioGateDrv0Rst_Oper 957
+<R>X GateDrv0CtrlPer2 Rte_Call_GateDrv0Ctrl_IoHwAb_SetGpioGateDrv0Rst_Oper 957 R
+<R>C GateDrv0CtrlPer2 Rte_Write_GateDrv0Ctrl_MotDrvr0IninTestCmpl_Logl 959
+<R>X GateDrv0CtrlPer2 Rte_Write_GateDrv0Ctrl_MotDrvr0IninTestCmpl_Logl 959 R
+<R>X GateDrv0CtrlPer2 Rte_Inst_GateDrv0Ctrl 961 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 961 51 N ON ui B X
+<R>X GateDrv0CtrlPer2 Rte_Inst_GateDrv0Ctrl 962 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 962 51 N ON ui B X
+<R>X GateDrv0CtrlPer2 Rte_Inst_GateDrv0Ctrl 963 R
+<R>X GateDrv0CtrlPer2 Rte_Inst_GateDrv0Ctrl 964 R
+<R>X GateDrv0CtrlPer2 Rte_Inst_GateDrv0Ctrl 966 R
+<R>X GateDrv0CtrlPer2 Rte_Inst_GateDrv0Ctrl 968 R
+<R>X GateDrv0CtrlPer2 Rte_Inst_GateDrv0Ctrl 972 R
+<CTLG> GateDrv0CtrlPer2 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 13
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 7
+<CTLG> 4 9
+<CTLG> 4 9
+<CTLG> 5 6
+<CTLG> 6 12
+<CTLG> 7 8
+<CTLG> 8 12
+<CTLG> 9 10
+<CTLG> 10 12
+<CTLG> 12 18
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 16
+<CTLG> 15 17
+<CTLG> 16 17
+<CTLG> 17 18
+<CTLG> 18 20
+<CTLGN> 907 924 924 937 937 941 941 945 945 950 950 937 924 966 966 966 970 954 980 980 
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  GateDrv0CtrlPer2
+<S>STCYC  5
+<S>STMCC  0 (5:5)
+<S>STMIF  2
+<S>STSUB  13
+<S>STAKI  18
+<S>STLIN  72
+<S>STXLN  31
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  5
+<S>STPDN  0.16   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  8
+<S>STAV3  9
+<S>STST1  36
+<S>STST2  27
+<S>STST3  25
+<S>STPAR  0
+<S>STCAL  8
+<S>STFN1  169
+<S>STFN2  57
+
+<DEFINE> GateDrv0Ctrl_STOP_SEC_CODE C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 983 N DF OM - - - O
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/GateDrv0Ctrl_MemMap.h 984
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/GateDrv0Ctrl_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<DEFINE> GateDrv0Ctrl_START_SEC_CODE C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 991 N DF OM - - - O
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/GateDrv0Ctrl_MemMap.h 992
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/GateDrv0Ctrl_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<DEFINE> Channel_Cnt_T_u08 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1003 N DC OV B N uc R
+<DEFINE> TxData_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1004 N DC OV B N us R
+<DEFINE> Sequence_Cnt_T_u08 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1005 N DC OV B N uc R
+<DEFINE> SpiAsyncTx C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1003 N DR OF F I (.,uc,us,uc) -
+<DEFINE> SpiAsyncTx C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1003 N DF OF F I (.,uc,us,uc) -
+<R>C SpiAsyncTx Spi_WriteIB 1011
+<R>X SpiAsyncTx Spi_WriteIB 1011 R
+<R>C SpiAsyncTx Call_Spi_AsyncTransmit 1012
+<R>X SpiAsyncTx Call_Spi_AsyncTransmit 1012 R
+<CTLG> SpiAsyncTx 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 1006 1014 1014 1014 
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  SpiAsyncTx
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  2
+<S>STAKI  3
+<S>STLIN  7
+<S>STXLN  2
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  2
+<S>STST2  2
+<S>STST3  2
+<S>STPAR  3
+<S>STCAL  2
+<S>STFN1  16
+<S>STFN2  5
+
+<DEFINE> OffStVrfySt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1026 N DR OF F I (.,.) -
+<DEFINE> OffStVrfySt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1026 N DF OF F I (.,.) -
+<DEFINE> Flt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1028 N DC OV B N uc -
+<DEFINE> Flt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1028 N DF OV B N uc -
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1031 44 N ON ui B X
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1031 R
+<R>C OffStVrfySt Rte_Call_GateDrv0Ctrl_IoHwAb_SetGpioGateDrv0Rst_Oper 1034
+<R>X OffStVrfySt Rte_Call_GateDrv0Ctrl_IoHwAb_SetGpioGateDrv0Rst_Oper 1034 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1035 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1035 R
+<LIT> 1 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1035 77 N DN ui B X
+<LIT> 1 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1037 49 N DN ui B X
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1037 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1039 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1039 R
+<LIT> 1 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1039 77 N DN ui B X
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1044 R
+<R>C OffStVrfySt OffStVrfyData 1049
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1051 R
+<R>C OffStVrfySt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1054
+<R>X OffStVrfySt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1054 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1054 78 N ON ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1054 96 N ON ui B X
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1055 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1059 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1059 R
+<LIT> 1 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1059 99 N DN ui B X
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1064 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1066 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1066 71 N ON ui B X
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1067 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1067 74 N ON ui B X
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1068 R
+<R>C OffStVrfySt Rte_Call_GateDrv0Ctrl_IoHwAb_SetGpioGateDrv0Rst_Oper 1070
+<R>X OffStVrfySt Rte_Call_GateDrv0Ctrl_IoHwAb_SetGpioGateDrv0Rst_Oper 1070 R
+<R>C OffStVrfySt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1075
+<R>X OffStVrfySt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1075 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1075 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1075 132 N ON ui B X
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1076 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1080 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1080 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1081 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1081 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1082 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1082 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1083 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1083 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1084 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1084 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1085 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1085 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1086 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1086 R
+<R>X OffStVrfySt Rte_Inst_GateDrv0Ctrl 1092 R
+<CTLG> OffStVrfySt 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 20
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 19
+<CTLG> 5 6
+<CTLG> 5 17
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 7 9
+<CTLG> 8 16
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 15
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 15 16
+<CTLG> 16 18
+<CTLG> 17 18
+<CTLG> 18 19
+<CTLG> 19 20
+<CTLG> 20 22
+<CTLGN> 1027 1031 1031 1037 1037 1044 1051 1051 1051 1057 1057 1064 1064 1072 1061 1057 1044 1089 1041 1037 1096 1096 
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  OffStVrfySt
+<S>STCYC  7
+<S>STMCC  1 (7:8)
+<S>STMIF  6
+<S>STSUB  5
+<S>STAKI  12
+<S>STLIN  68
+<S>STXLN  31
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  7
+<S>STPDN  0.23   
+<S>STPBG  1
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  10
+<S>STAV3  10
+<S>STST1  38
+<S>STST2  28
+<S>STST3  27
+<S>STPAR  0
+<S>STCAL  3
+<S>STFN1  227
+<S>STFN2  69
+
+<DEFINE> OffStVrfyData C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1108 N DR OF F I (uc,.) -
+<DEFINE> OffStVrfyData C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1108 N DF OF F I (uc,.) -
+<DEFINE> Tx0_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1110 N DC OV B N us -
+<DEFINE> Tx0_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1110 N DF OV B N us -
+<DEFINE> Tx1_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1111 N DC OV B N us -
+<DEFINE> Tx1_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1111 N DF OV B N us -
+<DEFINE> MotDrv0Diag_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1112 N DC OV B N us -
+<DEFINE> MotDrv0Diag_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1112 N DF OV B N us -
+<DEFINE> StsChk_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1113 N DC OV B N us -
+<DEFINE> StsChk_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1113 N DF OV B N us -
+<DEFINE> Diag1Chk_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1114 N DC OV B N us -
+<DEFINE> Diag1Chk_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1114 N DF OV B N us -
+<DEFINE> Diag2Chk_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1115 N DC OV B N us -
+<DEFINE> Diag2Chk_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1115 N DF OV B N us -
+<DEFINE> VrfyRes0_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1116 N DC OV B N us -
+<DEFINE> VrfyRes0_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1116 N DF OV B N us -
+<DEFINE> VrfyRes1_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1117 N DC OV B N us -
+<DEFINE> VrfyRes1_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1117 N DF OV B N us -
+<DEFINE> MotDrvr0Diag_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1119 N DC OV B N uc -
+<DEFINE> MotDrvr0Diag_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1119 N DF OV B N uc -
+<DEFINE> Flt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1120 N DC OV B N uc -
+<DEFINE> Flt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1120 N DF OV B N uc -
+<R>X OffStVrfyData Rte_Inst_GateDrv0Ctrl 1123 R
+<R>X OffStVrfyData ELECGLBPRM_GATEDRVOFFSTCHKDATA_CNT_U16 1123 R
+<R>X OffStVrfyData Rte_Inst_GateDrv0Ctrl 1124 R
+<R>X OffStVrfyData ELECGLBPRM_GATEDRVOFFSTCHKDATA_CNT_U16 1124 R
+<R>X OffStVrfyData Rte_Inst_GateDrv0Ctrl 1125 R
+<R>X OffStVrfyData ELECGLBPRM_GATEDRVOFFSTCHKDATA_CNT_U16 1125 R
+<R>X OffStVrfyData Rte_Inst_GateDrv0Ctrl 1126 R
+<R>X OffStVrfyData ELECGLBPRM_GATEDRVOFFSTCHKDATA_CNT_U16 1126 R
+<R>X OffStVrfyData Rte_Inst_GateDrv0Ctrl 1127 R
+<R>X OffStVrfyData ELECGLBPRM_GATEDRVOFFSTCHKDATA_CNT_U16 1127 R
+<R>X OffStVrfyData Rte_Inst_GateDrv0Ctrl 1128 R
+<R>X OffStVrfyData ELECGLBPRM_GATEDRVOFFSTCHKDATA_CNT_U16 1128 R
+<R>X OffStVrfyData Rte_Inst_GateDrv0Ctrl 1129 R
+<R>X OffStVrfyData ELECGLBPRM_GATEDRVOFFSTCHKDATA_CNT_U16 1129 R
+<R>X OffStVrfyData Rte_Inst_GateDrv0Ctrl 1130 R
+<R>X OffStVrfyData ELECGLBPRM_GATEDRVOFFSTCHKDATA_CNT_U16 1130 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1132 30 N ON ui B X
+<R>C OffStVrfyData SpiAsyncTx 1134
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1137 30 N ON ui B X
+<R>C OffStVrfyData SpiAsyncTx 1139
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1142 38 N ON ui B X
+<R>C OffStVrfyData Rte_Call_GateDrv0Ctrl_IoHwAb_GetGpioMotDrvr0Diag_Oper 1144
+<R>X OffStVrfyData Rte_Call_GateDrv0Ctrl_IoHwAb_GetGpioMotDrvr0Diag_Oper 1144 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1151 34 N ON ui B X
+<R>X OffStVrfyData Rte_Inst_GateDrv0Ctrl 1151 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1155 41 N ON ui B X
+<R>X OffStVrfyData Rte_Inst_GateDrv0Ctrl 1155 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1159 41 N ON ui B X
+<R>X OffStVrfyData Rte_Inst_GateDrv0Ctrl 1159 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1163 41 N ON ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1163 109 N ON ui B X
+<R>X OffStVrfyData Rte_Inst_GateDrv0Ctrl 1163 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1167 41 N ON ui B X
+<R>X OffStVrfyData Rte_Inst_GateDrv0Ctrl 1167 R
+<CTLG> OffStVrfyData 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 6 11
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 26
+<CTLG> 13 14
+<CTLG> 13 15
+<CTLG> 14 25
+<CTLG> 15 16
+<CTLG> 15 17
+<CTLG> 16 24
+<CTLG> 17 18
+<CTLG> 17 19
+<CTLG> 18 23
+<CTLG> 19 20
+<CTLG> 19 21
+<CTLG> 20 22
+<CTLG> 21 22
+<CTLG> 22 23
+<CTLG> 23 24
+<CTLG> 24 25
+<CTLG> 25 26
+<CTLG> 26 28
+<CTLGN> 1109 1132 1132 1132 1137 1137 1142 1145 1145 1145 1142 1151 1151 1155 1155 1159 1159 1163 1163 1167 1167 1171 1167 1163 1159 1155 1176 1176 
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  OffStVrfyData
+<S>STCYC  10
+<S>STMCC  5 (10:15)
+<S>STMIF  5
+<S>STSUB  3
+<S>STAKI  13
+<S>STLIN  67
+<S>STXLN  29
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  10
+<S>STPTH  72
+<S>STPDN  2.48   
+<S>STPBG  2
+<S>STLOP  5
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  10
+<S>STAV3  15
+<S>STST1  47
+<S>STST2  37
+<S>STST3  27
+<S>STPAR  0
+<S>STCAL  2
+<S>STFN1  277
+<S>STFN2  129
+
+<DEFINE> CfgSt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1189 N DR OF F I (.,.) -
+<DEFINE> CfgSt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1189 N DF OF F I (.,.) -
+<R>X CfgSt Rte_Inst_GateDrv0Ctrl 1191 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1193 22 N ON ui B C
+<R>C CfgSt Rte_Call_GateDrv0Ctrl_IoHwAb_SetGpioGateDrv0Rst_Oper 1194
+<R>X CfgSt Rte_Call_GateDrv0Ctrl_IoHwAb_SetGpioGateDrv0Rst_Oper 1194 R
+<R>X CfgSt Rte_Inst_GateDrv0Ctrl 1195 R
+<R>X CfgSt Rte_Inst_GateDrv0Ctrl 1195 R
+<LIT> 1 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1195 81 N DN ui B X
+<LIT> 1 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1198 22 N DN ui B C
+<R>X CfgSt Rte_Inst_GateDrv0Ctrl 1199 R
+<R>X CfgSt Rte_Inst_GateDrv0Ctrl 1199 R
+<LIT> 1 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1199 81 N DN ui B X
+<LIT> 2 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1202 22 N DN ui B C
+<R>C CfgSt SpiAsyncTx 1204
+<R>C CfgSt SpiAsyncTx 1206
+<R>C CfgSt SpiAsyncTx 1208
+<R>C CfgSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg2WrVal_Val 1208
+<R>X CfgSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg2WrVal_Val 1208 R
+<R>C CfgSt SpiAsyncTx 1210
+<R>C CfgSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg3WrVal_Val 1210
+<R>X CfgSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg3WrVal_Val 1210 R
+<R>C CfgSt SpiAsyncTx 1212
+<R>C CfgSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg4WrVal_Val 1212
+<R>X CfgSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg4WrVal_Val 1212 R
+<R>C CfgSt SpiAsyncTx 1214
+<R>C CfgSt SpiAsyncTx 1216
+<R>C CfgSt SpiAsyncTx 1218
+<R>C CfgSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg7WrVal_Val 1218
+<R>X CfgSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg7WrVal_Val 1218 R
+<R>C CfgSt SpiAsyncTx 1220
+<R>C CfgSt SpiAsyncTx 1222
+<R>C CfgSt SpiAsyncTx 1224
+<R>X CfgSt Rte_Inst_GateDrv0Ctrl 1226 R
+<R>X CfgSt Rte_Inst_GateDrv0Ctrl 1226 R
+<LIT> 1 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1226 81 N DN ui B X
+<LIT> 3 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1229 22 N DN ui B C
+<R>C CfgSt SpiAsyncTx 1231
+<R>C CfgSt SpiAsyncTx 1233
+<R>C CfgSt SpiAsyncTx 1235
+<R>C CfgSt SpiAsyncTx 1237
+<R>C CfgSt SpiAsyncTx 1239
+<R>C CfgSt SpiAsyncTx 1241
+<R>C CfgSt SpiAsyncTx 1243
+<R>C CfgSt SpiAsyncTx 1245
+<R>C CfgSt SpiAsyncTx 1247
+<R>C CfgSt SpiAsyncTx 1249
+<R>C CfgSt SpiAsyncTx 1251
+<R>X CfgSt Rte_Inst_GateDrv0Ctrl 1253 R
+<R>X CfgSt Rte_Inst_GateDrv0Ctrl 1253 R
+<LIT> 1 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1253 81 N DN ui B X
+<R>C CfgSt ReadBackRegs 1257
+<CTLG> CfgSt 1
+<CTLG> 1 2
+<CTLG> 1 4
+<CTLG> 1 6
+<CTLG> 1 8
+<CTLG> 1 10
+<CTLG> 2 3
+<CTLG> 3 13
+<CTLG> 4 5
+<CTLG> 5 13
+<CTLG> 6 7
+<CTLG> 7 13
+<CTLG> 8 9
+<CTLG> 9 13
+<CTLG> 10 11
+<CTLG> 11 13
+<CTLG> 13 15
+<CTLGN> 1190 1191 1196 1196 1200 1200 1227 1227 1254 1254 1258 1258 1191 1260 1260 
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  CfgSt
+<S>STCYC  5
+<S>STMCC  0 (5:5)
+<S>STMIF  1
+<S>STSUB  28
+<S>STAKI  33
+<S>STLIN  69
+<S>STXLN  39
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  5
+<S>STPDN  0.13   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  40
+<S>STST2  34
+<S>STST3  34
+<S>STPAR  0
+<S>STCAL  7
+<S>STFN1  193
+<S>STFN2  108
+
+<DEFINE> ReadBackRegs C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1272 N DR OF F I (.,.) -
+<DEFINE> ReadBackRegs C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1272 N DF OF F I (.,.) -
+<DEFINE> Cfg0RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1274 N DC OV B N us -
+<DEFINE> Cfg0RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1274 N DF OV B N us -
+<DEFINE> Cfg1RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1275 N DC OV B N us -
+<DEFINE> Cfg1RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1275 N DF OV B N us -
+<DEFINE> Cfg2RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1276 N DC OV B N us -
+<DEFINE> Cfg2RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1276 N DF OV B N us -
+<DEFINE> Cfg3RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1277 N DC OV B N us -
+<DEFINE> Cfg3RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1277 N DF OV B N us -
+<DEFINE> Cfg4RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1278 N DC OV B N us -
+<DEFINE> Cfg4RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1278 N DF OV B N us -
+<DEFINE> Cfg5RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1279 N DC OV B N us -
+<DEFINE> Cfg5RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1279 N DF OV B N us -
+<DEFINE> Cfg6RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1280 N DC OV B N us -
+<DEFINE> Cfg6RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1280 N DF OV B N us -
+<DEFINE> Cfg7RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1281 N DC OV B N us -
+<DEFINE> Cfg7RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1281 N DF OV B N us -
+<DEFINE> CtrlRxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1282 N DC OV B N us -
+<DEFINE> CtrlRxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1282 N DF OV B N us -
+<DEFINE> Mask1RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1283 N DC OV B N us -
+<DEFINE> Mask1RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1283 N DF OV B N us -
+<DEFINE> Mask2RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1284 N DC OV B N us -
+<DEFINE> Mask2RxBuf_Cnt_T_u16 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1284 N DF OV B N us -
+<DEFINE> PrmByte_Cnt_T_u08 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1286 N DC OV B N uc -
+<DEFINE> PrmByte_Cnt_T_u08 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1286 N DF OV B N uc -
+<R>C ReadBackRegs Spi_ReadIB 1291
+<R>X ReadBackRegs Spi_ReadIB 1291 R
+<R>C ReadBackRegs Spi_ReadIB 1292
+<R>X ReadBackRegs Spi_ReadIB 1292 R
+<R>C ReadBackRegs Spi_ReadIB 1293
+<R>X ReadBackRegs Spi_ReadIB 1293 R
+<R>C ReadBackRegs Spi_ReadIB 1294
+<R>X ReadBackRegs Spi_ReadIB 1294 R
+<R>C ReadBackRegs Spi_ReadIB 1295
+<R>X ReadBackRegs Spi_ReadIB 1295 R
+<R>C ReadBackRegs Spi_ReadIB 1296
+<R>X ReadBackRegs Spi_ReadIB 1296 R
+<R>C ReadBackRegs Spi_ReadIB 1297
+<R>X ReadBackRegs Spi_ReadIB 1297 R
+<R>C ReadBackRegs Spi_ReadIB 1298
+<R>X ReadBackRegs Spi_ReadIB 1298 R
+<R>C ReadBackRegs Spi_ReadIB 1299
+<R>X ReadBackRegs Spi_ReadIB 1299 R
+<R>C ReadBackRegs Spi_ReadIB 1300
+<R>X ReadBackRegs Spi_ReadIB 1300 R
+<R>C ReadBackRegs Spi_ReadIB 1301
+<R>X ReadBackRegs Spi_ReadIB 1301 R
+<LIT> 1 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1308 85 N DN ui B X
+<LIT> 2 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1312 85 N DN ui B X
+<R>C ReadBackRegs Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg2WrVal_Val 1314
+<R>X ReadBackRegs Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg2WrVal_Val 1314 R
+<LIT> 3 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1316 85 N DN ui B X
+<R>C ReadBackRegs Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg3WrVal_Val 1318
+<R>X ReadBackRegs Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg3WrVal_Val 1318 R
+<LIT> 4 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1320 85 N DN ui B X
+<R>C ReadBackRegs Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg4WrVal_Val 1322
+<R>X ReadBackRegs Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg4WrVal_Val 1322 R
+<LIT> 5 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1324 85 N DN ui B X
+<LIT> 6 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1328 85 N DN ui B X
+<LIT> 7 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1332 85 N DN ui B X
+<R>C ReadBackRegs Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg7WrVal_Val 1334
+<R>X ReadBackRegs Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlUnit0Cfg7WrVal_Val 1334 R
+<LIT> 8 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1336 85 N DN ui B X
+<LIT> 9 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1340 85 N DN ui B X
+<LIT> 10 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1344 85 N DN ui B X
+<LIT> 11 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1348 85 N DN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1352 37 N ON ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1356 34 N ON ui B X
+<R>X ReadBackRegs Rte_Inst_GateDrv0Ctrl 1358 R
+<R>X ReadBackRegs Rte_Inst_GateDrv0Ctrl 1360 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1360 53 N ON ui B X
+<R>X ReadBackRegs Rte_Inst_GateDrv0Ctrl 1361 R
+<R>C ReadBackRegs Rte_Call_GateDrv0Ctrl_IoHwAb_SetGpioGateDrv0Rst_Oper 1364
+<R>X ReadBackRegs Rte_Call_GateDrv0Ctrl_IoHwAb_SetGpioGateDrv0Rst_Oper 1364 R
+<R>X ReadBackRegs Rte_Inst_GateDrv0Ctrl 1368 R
+<R>C ReadBackRegs Rte_Write_GateDrv0Ctrl_MotDrvr0IninTestCmpl_Logl 1369
+<R>X ReadBackRegs Rte_Write_GateDrv0Ctrl_MotDrvr0IninTestCmpl_Logl 1369 R
+<R>C ReadBackRegs Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1370
+<R>X ReadBackRegs Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1370 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1370 103 N ON ui B X
+<R>X ReadBackRegs Rte_Inst_GateDrv0Ctrl 1375 R
+<R>C ReadBackRegs Rte_Write_GateDrv0Ctrl_MotDrvr0IninTestCmpl_Logl 1376
+<R>X ReadBackRegs Rte_Write_GateDrv0Ctrl_MotDrvr0IninTestCmpl_Logl 1376 R
+<CTLG> ReadBackRegs 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 35
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 34
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 33
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 32
+<CTLG> 10 11
+<CTLG> 10 12
+<CTLG> 11 31
+<CTLG> 12 13
+<CTLG> 12 14
+<CTLG> 13 30
+<CTLG> 14 15
+<CTLG> 14 16
+<CTLG> 15 29
+<CTLG> 16 17
+<CTLG> 16 18
+<CTLG> 17 28
+<CTLG> 18 19
+<CTLG> 18 20
+<CTLG> 19 27
+<CTLG> 20 21
+<CTLG> 20 22
+<CTLG> 21 26
+<CTLG> 22 23
+<CTLG> 22 24
+<CTLG> 23 25
+<CTLG> 24 25
+<CTLG> 25 26
+<CTLG> 26 27
+<CTLG> 27 28
+<CTLG> 28 29
+<CTLG> 29 30
+<CTLG> 30 31
+<CTLG> 31 32
+<CTLG> 32 33
+<CTLG> 33 34
+<CTLG> 34 35
+<CTLG> 35 36
+<CTLG> 35 40
+<CTLG> 36 37
+<CTLG> 36 38
+<CTLG> 37 39
+<CTLG> 38 39
+<CTLG> 39 41
+<CTLG> 40 41
+<CTLG> 41 43
+<CTLGN> 1273 1306 1306 1306 1310 1310 1314 1314 1318 1318 1322 1322 1326 1326 1330 1330 1334 1334 1338 1338 1342 1342 1346 1346 1350 1346 1342 1338 1334 1330 1326 1322 1318 1314 1310 1356 1358 1358 1366 1356 1373 1379 1379 
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  ReadBackRegs
+<S>STCYC  14
+<S>STMCC  0 (14:14)
+<S>STMIF  11
+<S>STSUB  19
+<S>STAKI  33
+<S>STLIN  105
+<S>STXLN  47
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  12
+<S>STPTH  36
+<S>STPDN  0.77   
+<S>STPBG  2
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  10
+<S>STAV3  13
+<S>STST1  72
+<S>STST2  56
+<S>STST3  44
+<S>STPAR  0
+<S>STCAL  8
+<S>STFN1  394
+<S>STFN2  183
+
+<DEFINE> OperFltMonrSt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1391 N DR OF F I (.,.) -
+<DEFINE> OperFltMonrSt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1391 N DF OF F I (.,.) -
+<DEFINE> GenGateDrvFlt1_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1394 N DC OV B N uc -
+<DEFINE> GenGateDrvFlt1_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1394 N DF OV B N uc -
+<DEFINE> GenGateDrvFlt2_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1395 N DC OV B N uc -
+<DEFINE> GenGateDrvFlt2_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1395 N DF OV B N uc -
+<DEFINE> GenGateDrvFlt3_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1396 N DC OV B N uc -
+<DEFINE> GenGateDrvFlt3_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1396 N DF OV B N uc -
+<DEFINE> Ivtr0PhyFltInpActv_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1397 N DC OV B N uc -
+<DEFINE> Ivtr0PhyFltInpActv_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1397 N DF OV B N uc -
+<R>C OperFltMonrSt Rte_IrvRead_GateDrv0Ctrl_GateDrv0CtrlPer2_Ivtr0PhyFltInpActv 1401
+<R>X OperFltMonrSt Rte_IrvRead_GateDrv0Ctrl_GateDrv0CtrlPer2_Ivtr0PhyFltInpActv 1401 R
+<LIT> 0x4000 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1407 44 N HN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1407 56 N ON ui B X
+<R>X OperFltMonrSt Rte_Inst_GateDrv0Ctrl 1407 R
+<R>C OperFltMonrSt GateDrvDetermineOnStSngFETFlt 1411
+<R>C OperFltMonrSt GateDrvDetermineVltgFlt 1414
+<R>C OperFltMonrSt GateDrvDetermineGenericFlt 1417
+<R>C OperFltMonrSt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1422
+<R>X OperFltMonrSt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1422 R
+<R>X OperFltMonrSt Rte_Inst_GateDrv0Ctrl 1422 R
+<R>C OperFltMonrSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x050FailStep_Val 1422
+<R>X OperFltMonrSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x050FailStep_Val 1422 R
+<R>X OperFltMonrSt Rte_Inst_GateDrv0Ctrl 1426 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1426 60 N ON ui B X
+<R>C OperFltMonrSt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1428
+<R>X OperFltMonrSt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1428 R
+<R>C OperFltMonrSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x050PassStep_Val 1428
+<R>X OperFltMonrSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x050PassStep_Val 1428 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1427 70 N ON ui B X
+<R>X OperFltMonrSt Rte_Inst_GateDrv0Ctrl 1434 R
+<LIT> 2 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1434 52 N DN ui B X
+<R>C OperFltMonrSt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1436
+<R>X OperFltMonrSt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1436 R
+<R>X OperFltMonrSt Rte_Inst_GateDrv0Ctrl 1436 R
+<R>C OperFltMonrSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x050FailStep_Val 1436
+<R>X OperFltMonrSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x050FailStep_Val 1436 R
+<R>X OperFltMonrSt Rte_Inst_GateDrv0Ctrl 1441 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1441 67 N ON ui B X
+<R>X OperFltMonrSt Rte_Inst_GateDrv0Ctrl 1442 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1442 59 N ON ui B X
+<R>C OperFltMonrSt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1445
+<R>X OperFltMonrSt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1445 R
+<R>C OperFltMonrSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x050PassStep_Val 1445
+<R>X OperFltMonrSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x050PassStep_Val 1445 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1444 62 N ON ui B X
+<R>C OperFltMonrSt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1447
+<R>X OperFltMonrSt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1447 R
+<R>C OperFltMonrSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x051PassStep_Val 1447
+<R>X OperFltMonrSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x051PassStep_Val 1447 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1446 62 N ON ui B X
+<R>C OperFltMonrSt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1449
+<R>X OperFltMonrSt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1449 R
+<R>C OperFltMonrSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x055PassStep_Val 1449
+<R>X OperFltMonrSt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x055PassStep_Val 1449 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1448 62 N ON ui B X
+<CTLG> OperFltMonrSt 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 8
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 12
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 11
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 12 14
+<CTLGN> 1392 1407 1407 1419 1419 1419 1424 1407 1431 1431 1438 1431 1457 1457 
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  OperFltMonrSt
+<S>STCYC  4
+<S>STMCC  2 (4:6)
+<S>STMIF  2
+<S>STSUB  16
+<S>STAKI  20
+<S>STLIN  64
+<S>STXLN  25
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  4
+<S>STPTH  4
+<S>STPDN  0.16   
+<S>STPBG  1
+<S>STLOP  2
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  11
+<S>STAV3  14
+<S>STST1  26
+<S>STST2  21
+<S>STST3  17
+<S>STPAR  0
+<S>STCAL  9
+<S>STFN1  169
+<S>STFN2  73
+
+<DEFINE> GateDrvDetermineOnStSngFETFlt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1469 N DR OF F I (uc,.) -
+<DEFINE> GateDrvDetermineOnStSngFETFlt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1469 N DF OF F I (uc,.) -
+<DEFINE> Ntc0x51StInfo_Cnt_T_u08 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1472 N DC OV B N uc -
+<DEFINE> Ntc0x51StInfo_Cnt_T_u08 C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1472 N DF OV B N uc -
+<DEFINE> GenGateDrvFlt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1473 N DC OV B N uc -
+<DEFINE> GenGateDrvFlt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1473 N DF OV B N uc -
+<LIT> 0x0001 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1477 44 N HN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1477 56 N ON ui B X
+<R>X GateDrvDetermineOnStSngFETFlt Rte_Inst_GateDrv0Ctrl 1477 R
+<R>X GateDrvDetermineOnStSngFETFlt Rte_Inst_GateDrv0Ctrl 1480 R
+<LIT> 0x003F U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1480 81 N HN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1482 47 N ON ui B X
+<R>C GateDrvDetermineOnStSngFETFlt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1485
+<R>X GateDrvDetermineOnStSngFETFlt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1485 R
+<R>C GateDrvDetermineOnStSngFETFlt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x051FailStep_Val 1485
+<R>X GateDrvDetermineOnStSngFETFlt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x051FailStep_Val 1485 R
+<R>X GateDrvDetermineOnStSngFETFlt Rte_Inst_GateDrv0Ctrl 1490 R
+<R>X GateDrvDetermineOnStSngFETFlt Rte_Inst_GateDrv0Ctrl 1490 R
+<LIT> 2 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1490 95 N DN ui B X
+<R>C GateDrvDetermineOnStSngFETFlt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1497
+<R>X GateDrvDetermineOnStSngFETFlt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1497 R
+<R>C GateDrvDetermineOnStSngFETFlt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x051PassStep_Val 1497
+<R>X GateDrvDetermineOnStSngFETFlt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x051PassStep_Val 1497 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1496 62 N ON ui B X
+<CTLG> GateDrvDetermineOnStSngFETFlt 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 8
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 11
+<CTLGN> 1470 1477 1477 1482 1482 1482 1487 1477 1494 1500 1500 
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  GateDrvDetermineOnStSngFETFlt
+<S>STCYC  3
+<S>STMCC  0 (3:3)
+<S>STMIF  2
+<S>STSUB  4
+<S>STAKI  7
+<S>STLIN  31
+<S>STXLN  13
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  2
+<S>STPTH  3
+<S>STPDN  0.23   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  10
+<S>STAV3  13
+<S>STST1  15
+<S>STST2  11
+<S>STST3  9
+<S>STPAR  0
+<S>STCAL  3
+<S>STFN1  83
+<S>STFN2  35
+
+<DEFINE> GateDrvDetermineVltgFlt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1513 N DR OF F I (uc,.) -
+<DEFINE> GateDrvDetermineVltgFlt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1513 N DF OF F I (uc,.) -
+<DEFINE> GenGateDrvFlt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1516 N DC OV B N uc -
+<DEFINE> GenGateDrvFlt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1516 N DF OV B N uc -
+<DEFINE> BSUvFltActv_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1517 N DC OV B N uc -
+<DEFINE> BSUvFltActv_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1517 N DF OV B N uc -
+<DEFINE> VRUvFlt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1518 N DC OV B N uc -
+<DEFINE> VRUvFlt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1518 N DF OV B N uc -
+<LIT> 0x0004 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1524 44 N HN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1524 56 N ON ui B X
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1524 R
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1527 R
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1527 R
+<LIT> 0x01C0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1527 98 N HN ui B X
+<LIT> 5 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1527 110 N DN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1529 61 N ON ui B X
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1529 R
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1536 R
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1536 R
+<LIT> 2 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1536 95 N DN ui B X
+<LIT> 0x0020 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1541 44 N HN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1541 56 N ON ui B X
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1541 R
+<LIT> 0x0080 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1544 54 N HN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1544 66 N ON ui B X
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1544 R
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1548 R
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1548 R
+<LIT> 1 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1548 105 N DN ui B X
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1553 R
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1553 R
+<LIT> 2 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1553 95 N DN ui B X
+<R>C GateDrvDetermineVltgFlt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1562
+<R>X GateDrvDetermineVltgFlt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1562 R
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1562 R
+<R>C GateDrvDetermineVltgFlt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x055FailStep_Val 1562
+<R>X GateDrvDetermineVltgFlt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x055FailStep_Val 1562 R
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1566 R
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1566 57 N ON ui B X
+<R>C GateDrvDetermineVltgFlt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1568
+<R>X GateDrvDetermineVltgFlt Rte_Call_GateDrv0Ctrl_SetNtcSts_Oper 1568 R
+<R>X GateDrvDetermineVltgFlt Rte_Inst_GateDrv0Ctrl 1568 R
+<R>C GateDrvDetermineVltgFlt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x055PassStep_Val 1568
+<R>X GateDrvDetermineVltgFlt Rte_Prm_GateDrv0Ctrl_GateDrv0CtrlNtcNr0x055PassStep_Val 1568 R
+<CTLG> GateDrvDetermineVltgFlt 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 8
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 13
+<CTLG> 9 10
+<CTLG> 9 11
+<CTLG> 10 12
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 13 14
+<CTLG> 13 15
+<CTLG> 14 16
+<CTLG> 15 16
+<CTLG> 16 18
+<CTLGN> 1514 1524 1524 1529 1529 1529 1533 1524 1541 1544 1544 1550 1541 1559 1559 1564 1572 1572 
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  GateDrvDetermineVltgFlt
+<S>STCYC  6
+<S>STMCC  1 (6:7)
+<S>STMIF  2
+<S>STSUB  4
+<S>STAKI  10
+<S>STLIN  59
+<S>STXLN  25
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  18
+<S>STPDN  0.72   
+<S>STPBG  1
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  10
+<S>STAV3  12
+<S>STST1  31
+<S>STST2  23
+<S>STST3  20
+<S>STPAR  0
+<S>STCAL  3
+<S>STFN1  180
+<S>STFN2  68
+
+<DEFINE> GateDrvDetermineGenericFlt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1584 N DR OF F I (uc,.) -
+<DEFINE> GateDrvDetermineGenericFlt C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1584 N DF OF F I (uc,.) -
+<DEFINE> GenGateDrvFlt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1587 N DC OV B N uc -
+<DEFINE> GenGateDrvFlt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1587 N DF OV B N uc -
+<DEFINE> UpperPhaseUVFlt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1588 N DC OV B N uc -
+<DEFINE> UpperPhaseUVFlt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1588 N DF OV B N uc -
+<DEFINE> LowerPhaseUVFlt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1589 N DC OV B N uc -
+<DEFINE> LowerPhaseUVFlt_Cnt_T_logl C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1589 N DF OV B N uc -
+<LIT> 0x2800 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1599 44 N HN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1599 56 N ON ui B X
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1599 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1602 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1602 R
+<LIT> 2 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1602 95 N DN ui B X
+<LIT> 0x1000 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1613 44 N HN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1613 56 N ON ui B X
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1613 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1616 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1616 R
+<LIT> 8 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1616 95 N DN ui B X
+<LIT> 0x0400 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1627 44 N HN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1627 56 N ON ui B X
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1627 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1630 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1630 R
+<LIT> 1 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1630 87 N DN ui B X
+<LIT> 0x0100 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1641 44 N HN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1641 56 N ON ui B X
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1641 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1644 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1644 R
+<LIT> 4 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1644 95 N DN ui B X
+<LIT> 0x0008 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1655 44 N HN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1655 56 N ON ui B X
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1655 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1658 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1658 R
+<LIT> 16 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1658 95 N DN ui B X
+<LIT> 0x0002 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1669 44 N HN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1669 56 N ON ui B X
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1669 R
+<LIT> 0x002A U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1674 54 N HN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1674 66 N ON ui B X
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1674 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1677 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1677 R
+<LIT> 32 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1677 103 N DN ui B X
+<LIT> 0x0015 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1680 54 N HN ui B X
+<LIT> 0 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1680 66 N ON ui B X
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1680 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1683 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1683 R
+<LIT> 64 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1683 103 N DN ui B X
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1688 R
+<R>X GateDrvDetermineGenericFlt Rte_Inst_GateDrv0Ctrl 1688 R
+<LIT> 2 U P C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1688 103 N DN ui B X
+<CTLG> GateDrvDetermineGenericFlt 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 10 12
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 12 21
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 14 16
+<CTLG> 15 16
+<CTLG> 16 17
+<CTLG> 16 18
+<CTLG> 17 18
+<CTLG> 18 19
+<CTLG> 18 20
+<CTLG> 19 20
+<CTLG> 20 21
+<CTLG> 21 23
+<CTLGN> 1585 1599 1599 1599 1613 1613 1627 1627 1641 1641 1655 1655 1669 1674 1674 1674 1680 1680 1686 1686 1669 1697 1697 
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  GateDrvDetermineGenericFlt
+<S>STCYC  10
+<S>STMCC  1 (10:11)
+<S>STMIF  2
+<S>STSUB  0
+<S>STAKI  10
+<S>STLIN  113
+<S>STXLN  29
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  288
+<S>STPDN  9.93   
+<S>STPBG  2
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  8
+<S>STAV2  11
+<S>STAV3  12
+<S>STST1  41
+<S>STST2  32
+<S>STST3  29
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  262
+<S>STFN2  94
+
+<DEFINE> GateDrv0Ctrl_STOP_SEC_CODE C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c 1703 N DF OM - - - O
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/GateDrv0Ctrl_MemMap.h 1704
+<R>I C:/component/ES311A_GateDrv0Ctrl_Impl/tools/contract/GateDrv0Ctrl_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  SpiAsyncTx
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  ReadBackRegs
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  CfgSt
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  GateDrv0CtrlInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  GateDrv0CtrlPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  OffStVrfyData
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  OffStVrfySt
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  GateDrvDetermineOnStSngFETFlt
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  GateDrvDetermineVltgFlt
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  GateDrvDetermineGenericFlt
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  OperFltMonrSt
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  GateDrv0CtrlPer2
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNAM  C:/component/ES311A_GateDrv0Ctrl_Impl/src/GateDrv0Ctrl.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  9
+<S>STECT  2
+<S>STFNC  12
+<S>STFCO  97
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  203
+<S>STOPT  35
+<S>STOPN  327
+<S>STTOT  3441
+<S>STZIP  2342
+<S>STHAL  2911
+<S>STSHN  10865
+<S>STDIF  18.58  
+<S>STEFF  543383
+<S>STVOL  29248
+<S>STDEV  90.56  
+<S>STBUG  7
+<S>STTPP  1718
+<S>STTLN  524
+<S>STM20  1032
+<S>STM21  2401
+<S>STM22  248
+<S>STM28  170
+<S>STM33  143
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  4.236  
+<S>STBMS  5.500  
+<S>STBME  6.892  
+<S>STTDO  4.327  
+<S>STTDS  4.540  
+<S>STTDE  4.637  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.459  
+
